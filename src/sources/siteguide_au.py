@@ -78,7 +78,7 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
     site_name = _text(site.get("name")) or "Unknown site"
     site_conditions = site.get("conditions")
     approximate = bool(_APPROXIMATE.search(site.get("shortLocation") or ""))
-    url = f"{_BASE_URL}/sites/{site['id']}"
+    url = f"{_BASE_URL}/sites/details/{site['id']}"
 
     records: list[SiteRecord] = []
     for launch in site.get("launches") or []:

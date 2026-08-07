@@ -55,9 +55,19 @@ Across sources only, on distance alone:
 
 | Distance | Outcome |
 |---|---|
-| < 100 m | merged |
-| 100–250 m | listed in `REVIEW.md` for a human |
-| > 250 m | separate launches |
+| < 250 m | merged |
+| 250–400 m | reported in `REVIEW.md`, not merged |
+| > 400 m | separate launches |
+
+The 250 m threshold was calibrated, not guessed. At 100 m the review band held
+21 undecided pairs and reading them showed essentially all were the same
+launch under different naming conventions — `Hill 60` ~ `Hill 60` at 110 m,
+`Cape Jervis` ~ `Cape Jervis` at 173 m. A review step there would have meant
+hand-confirming the default 21 times. `REVIEW.md` is therefore a **report, not
+a worklist**: nothing in it needs action, and the rare genuine exception goes
+in `rejections.json` by hand. What it is for is calibration — a run of true
+matches sitting just past the threshold means the threshold is wrong for that
+region's data.
 
 Records from the *same* source are never compared — one guide listing several
 launches at a site is a deliberate distinction, not a duplicate.

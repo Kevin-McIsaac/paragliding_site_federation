@@ -1,8 +1,21 @@
 """Cross-source duplicate detection, on distance alone.
 
 Two launches from *different* sources are the same launch if they are within
-100m of each other; between 100m and 250m a human decides; beyond that they
-are separate. Nothing else is scored.
+250m of each other. Nothing else is scored.
+
+The threshold was calibrated, not guessed. At 100m the 100-250m band held 21
+undecided pairs, and reading them showed essentially all were the same launch
+under different naming conventions - "Hill 60" ~ "Hill 60" at 110m, "Cape
+Jervis" ~ "Cape Jervis" at 173m, "Serpentine" ~ "Serpentine" at 245m. A review
+step there would have meant hand-confirming the default 21 times.
+
+What would have been the only genuinely wrong merges - "Long Reef NE" against
+"Long Reef SE" at ~200m - cannot happen anyway: NE matched NE at 14m and SE
+matched SE, so both are already claimed by the one-to-one assignment.
+
+Note this is calibrated on Australia alone: English names, good coordinates,
+one national source. Sites are far denser in the Alps, so revisit before
+adding DHV, FFVL or Flyland rather than assuming 250m generalises.
 
 This replaced a weighted model that also considered name similarity, wind
 overlap and altitude. Distance is the one signal every source publishes and
@@ -25,15 +38,19 @@ from typing import Iterator
 
 from src.model import SiteRecord
 
-MERGE_DISTANCE_M = 100.0
-REVIEW_DISTANCE_M = 250.0
+MERGE_DISTANCE_M = 250.0
+# Pairs out to here are reported but never merged, so a threshold that has
+# drifted wrong for a new source shows up as near-misses rather than silently
+# splitting launches.
+REVIEW_DISTANCE_M = 400.0
 
-# Grid cell in degrees of latitude; must exceed the 250m review radius.
+# Grid cell in degrees of latitude; must exceed the 400m report radius
+# (400m is 0.0036 deg, comfortably inside one cell).
 _CELL_DEG = 0.01
 _LAT_NEIGHBOURS = 1
-# 250m spans more longitude cells the further from the equator: at 75 degrees
-# 0.00225/cos(75) is about 0.0087 deg, i.e. one cell. Two is ample everywhere.
-_LON_NEIGHBOURS = 2
+# 400m spans more longitude cells the further from the equator: at 75 degrees
+# 0.0036/cos(75) is about 0.014 deg, i.e. two cells. Three is ample everywhere.
+_LON_NEIGHBOURS = 3
 
 
 class Band(str, Enum):

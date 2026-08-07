@@ -1,14 +1,19 @@
-"""The review list: a markdown table a human reads in the pull request.
+"""A report, not a worklist.
 
-Pairs between 100m and 250m apart, closest first. These are not assertions -
-they are two launches near enough to be suspicious without being close enough
-to merge automatically.
+Pairs the pipeline did *not* merge but which sit close enough to be worth a
+glance: near-misses just outside the 250m threshold, and pairs blocked by the
+one-to-one assignment or the all-pairs guard.
 
-Names link to their source page so a reviewer can open both sides and compare
-without going hunting for them.
+Nothing here needs action. There is deliberately no approve/reject workflow -
+when the merge threshold was 100m this list held 21 pairs that were all
+obviously the same launch, so a checkbox column would have meant
+hand-confirming the default 21 times. The threshold now covers them, and the
+rare genuine exception goes in rejections.json by hand.
 
-To decline a pair permanently, add it to rejections.json; otherwise it
-reappears every run.
+What this list is *for* is calibration: a cluster of true matches sitting just
+past the threshold means the threshold is wrong for that region's data.
+
+Names link to their source page so both sides can be compared directly.
 """
 
 from __future__ import annotations
@@ -17,7 +22,7 @@ from pathlib import Path
 
 from rapidfuzz import fuzz
 
-from src.matcher import Pair
+from src.matcher import MERGE_DISTANCE_M, Pair
 from src.model import SiteRecord
 
 REVIEW_PATH = Path("REVIEW.md")
@@ -51,17 +56,20 @@ def _cell(record: SiteRecord | None) -> str:
 
 
 def render(pairs: list[Pair], merged: int | None = None) -> str:
-    lines = ["# Sites to review", ""]
+    lines = ["# Unmerged near-misses", ""]
 
     if merged is not None:
-        lines += [f"- **{merged}** merged automatically (under 100 m apart)"]
+        lines += [f"- **{merged}** merged automatically (within {MERGE_DISTANCE_M:.0f} m)"]
     lines += [
-        f"- **{len(pairs)}** to review below (100–250 m apart)",
+        f"- **{len(pairs)}** left unmerged but close, listed below",
         "",
-        "Two launches from different sources, near enough to be possible",
-        "duplicates but not near enough to merge automatically. Closest first.",
-        "Names link to their source page. Name match is context only — it does",
-        "not affect merging, and a low score is the part worth looking at.",
+        "Nothing here needs action — this is a report, not a worklist. A run of",
+        f"true matches just past {MERGE_DISTANCE_M:.0f} m would mean the threshold is wrong for this",
+        "region; that is what to watch for. To stop a specific pair being merged,",
+        "add it to `rejections.json`.",
+        "",
+        "Names link to their source page. Name match is context only — it plays",
+        "no part in merging, and a low score is the part worth a look.",
         "",
         "| PGE Name | AU Name | Distance | Name match |",
         "|---|---|---:|---:|",

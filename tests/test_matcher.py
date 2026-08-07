@@ -8,25 +8,27 @@ def _at(distance_m, **overrides):
     return record("siteguide_au", "a", lat=-33.7 - metres(distance_m), **overrides)
 
 
-def test_under_100m_merges():
-    pair = pair_for(record("pge", "1"), _at(60))
-    assert pair.band is Band.MERGE
+def test_within_250m_merges():
+    """Calibrated from data: at a 100m threshold the 100-250m band was 21
+    pairs that were all plainly the same launch."""
+    assert pair_for(record("pge", "1"), _at(60)).band is Band.MERGE
+    assert pair_for(record("pge", "1"), _at(173)).band is Band.MERGE  # "Cape Jervis"
+    assert pair_for(record("pge", "1"), _at(245)).band is Band.MERGE  # "Serpentine"
 
 
-def test_between_100m_and_250m_is_reviewed():
-    pair = pair_for(record("pge", "1"), _at(180))
-    assert pair.band is Band.REVIEW
+def test_just_past_the_threshold_is_reported_not_merged():
+    assert pair_for(record("pge", "1"), _at(300)).band is Band.REVIEW
 
 
-def test_beyond_250m_is_not_a_pair_at_all():
-    assert pair_for(record("pge", "1"), _at(400)) is None
+def test_beyond_the_report_radius_is_not_a_pair_at_all():
+    assert pair_for(record("pge", "1"), _at(500)) is None
 
 
 def test_boundaries():
-    assert pair_for(record("pge", "1"), _at(99)).band is Band.MERGE
-    assert pair_for(record("pge", "1"), _at(101)).band is Band.REVIEW
-    assert pair_for(record("pge", "1"), _at(249)).band is Band.REVIEW
-    assert pair_for(record("pge", "1"), _at(251)) is None
+    assert pair_for(record("pge", "1"), _at(249)).band is Band.MERGE
+    assert pair_for(record("pge", "1"), _at(251)).band is Band.REVIEW
+    assert pair_for(record("pge", "1"), _at(399)).band is Band.REVIEW
+    assert pair_for(record("pge", "1"), _at(401)) is None
 
 
 def test_same_source_is_never_compared():

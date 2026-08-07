@@ -73,6 +73,14 @@ def cluster(
             if cluster_of[pair.a.key] is not cluster_of[pair.b.key]:
                 review.append(pair)
 
+    # A pair where both records already merged with someone else is settled,
+    # not a question - the one-to-one assignment gave each a better partner.
+    # "Long Reef NE" ~ "Long Reef SE" is the case: each matched its own
+    # counterpart at ~14m, so listing the 200m cross-pair only invites action
+    # on something that cannot happen.
+    spoken_for = {k for c in clusters if len(c.members) > 1 for k in c.keys}
+    review = [p for p in review if not (p.a.key in spoken_for and p.b.key in spoken_for)]
+
     review.sort(key=lambda p: p.distance_m)
     return ClusterResult(clusters=clusters, review=review)
 

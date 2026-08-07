@@ -160,14 +160,14 @@ def test_pipe_in_a_name_cannot_break_the_table():
     assert r"Bald \| Hill" in render([pair_for(pge, au)])
 
 
-def test_review_leads_with_match_and_review_counts():
+def test_report_leads_with_merged_and_unmerged_counts():
     pge = record("pge", "1")
     au = record("siteguide_au", "a", lat=-33.7 - metres(120))
 
     table = render([pair_for(pge, au)], merged=61)
 
     assert "**61** merged automatically" in table
-    assert "**1** to review" in table
+    assert "**1** left unmerged but close" in table
 
 
 def test_counts_are_omitted_when_merge_total_is_unknown():

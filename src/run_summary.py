@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from src.matcher import Pair
+from src.matcher import MERGE_DISTANCE_M, Pair
 from src.review import render
 
 _ANOMALY_DROP_FRACTION = 0.20
@@ -81,7 +81,7 @@ def build_pr(
         "",
         "**Dataset**",
         f"- {site_counts['sites']} launches across {site_counts['countries']} countries",
-        f"- {merged_clusters} backed by more than one source (within 100m)",
+        f"- {merged_clusters} backed by more than one source (within {MERGE_DISTANCE_M:.0f} m)",
         f"- {no_wind} with no wind directions from any source",
         f"- {site_counts['written']} country files changed, {site_counts['unchanged']} unchanged",
         "",

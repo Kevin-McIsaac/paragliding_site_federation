@@ -10,7 +10,7 @@ def _cluster(records, rejected=None):
 
 
 def test_close_pair_forms_one_cluster():
-    result = _cluster([record("pge", "1"), record("siteguide_au", "a", lat=-33.7 - metres(50))])
+    result = _cluster([record("pge", "1"), record("siteguide_au", "a", lat=-33.7 - metres(120))])
     assert len(result.clusters) == 1
     assert len(result.clusters[0].members) == 2
 
@@ -21,14 +21,14 @@ def test_distant_records_stay_separate():
 
 
 def test_transitive_chain_does_not_fuse_three_records():
-    """A-B 90m and B-C 90m, but A-C 180m: must not become one launch.
+    """A-B 200m and B-C 200m, but A-C 400m: must not become one launch.
 
     Three providers, because same-source pairs are never compared and with
     only two the guard would appear to work for the wrong reason.
     """
     a = record("pge", "1", lat=-33.7)
-    b = record("siteguide_au", "a", lat=-33.7 - metres(90))
-    c = record("dhv", "x", lat=-33.7 - metres(180))
+    b = record("siteguide_au", "a", lat=-33.7 - metres(200))
+    c = record("dhv", "x", lat=-33.7 - metres(400))
 
     result = _cluster([a, b, c])
 
@@ -39,17 +39,31 @@ def test_transitive_chain_does_not_fuse_three_records():
 
 def test_rejected_pair_is_never_merged():
     a = record("pge", "1")
-    b = record("siteguide_au", "a", lat=-33.7 - metres(50))
+    b = record("siteguide_au", "a", lat=-33.7 - metres(120))
     result = _cluster([a, b], rejected={frozenset({a.key, b.key})})
     assert len(result.clusters) == 2
     assert result.review == []
 
 
-def test_review_band_pair_is_surfaced_not_merged():
-    result = _cluster([record("pge", "1"), record("siteguide_au", "a", lat=-33.7 - metres(180))])
+def test_near_miss_past_the_threshold_is_reported_not_merged():
+    result = _cluster([record("pge", "1"), record("siteguide_au", "a", lat=-33.7 - metres(300))])
     assert len(result.clusters) == 2
     assert len(result.review) == 1
     assert result.review[0].band is Band.REVIEW
+
+
+def test_pair_whose_sides_both_merged_elsewhere_is_not_reported():
+    """Long Reef NE/SE: each matched its own counterpart, so the cross-pair
+    is settled and listing it would invite impossible action."""
+    pge_ne = record("pge", "1", lat=-33.7000)
+    au_ne = record("siteguide_au", "a", lat=-33.7000 - metres(10))
+    pge_se = record("pge", "2", lat=-33.7000 - metres(300))
+    au_se = record("siteguide_au", "b", lat=-33.7000 - metres(310))
+
+    result = _cluster([pge_ne, au_ne, pge_se, au_se])
+
+    assert sorted(len(c.members) for c in result.clusters) == [2, 2]
+    assert result.review == [], f"expected no report rows, got {len(result.review)}"
 
 
 def test_review_is_sorted_by_ascending_distance():

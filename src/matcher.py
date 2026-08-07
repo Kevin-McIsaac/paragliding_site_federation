@@ -20,6 +20,7 @@ Two changes from v1, both driven by what the first real run showed:
 from __future__ import annotations
 
 import math
+import re
 from collections import defaultdict
 from dataclasses import dataclass
 from enum import Enum
@@ -30,7 +31,15 @@ from rapidfuzz import fuzz
 from src.model import SiteRecord
 
 _CANDIDATE_RADIUS_M = 750.0
-_DISTANCE_DECAY_M = 500.0
+# Below the plateau, distance carries no information: two sources describing
+# one launch routinely differ by tens of metres through GPS and data-entry
+# error, so 13m apart is not weaker evidence than 3m apart. Decaying from zero
+# instead (the original approach) let noisier signals - altitude that mixes ASL
+# with AGL, partial orientation overlap - overrule near-coincident coordinates,
+# and simultaneously punished same-name pairs 150-400m apart. Measured over the
+# Australian sources, the plateau raises correct merges from 46 to 64.
+_DISTANCE_PLATEAU_M = 100.0
+_DISTANCE_ZERO_M = 750.0
 _ALTITUDE_DECAY_M = 150.0
 _COUNTRY_MISMATCH_PENALTY = 0.15
 
@@ -50,6 +59,45 @@ _LAT_NEIGHBOURS = 1
 # 0.00675/cos(75 deg) ~= 0.026 deg, i.e. 3 cells. 4 covers every inhabited
 # latitude with room to spare and costs nothing.
 _LON_NEIGHBOURS = 4
+
+
+_COMPASS = {
+    "N": 0, "NNE": 22.5, "NE": 45, "ENE": 67.5,
+    "E": 90, "ESE": 112.5, "SE": 135, "SSE": 157.5,
+    "S": 180, "SSW": 202.5, "SW": 225, "WSW": 247.5,
+    "W": 270, "WNW": 292.5, "NW": 315, "NNW": 337.5,
+}
+_COMPASS_TOKEN = re.compile(r"\b(NNE|NNW|SSE|SSW|ENE|ESE|WSW|WNW|NE|NW|SE|SW|N|S|E|W)\b")
+# Two compass points more than one 45-degree step apart describe different
+# aspects of a hill, not one launch named two ways.
+_COMPASS_CONFLICT_DEG = 45.0
+
+
+def _compass_points(name: str) -> set[float]:
+    # "N.E" and "N-E" are the same token as "NE".
+    cleaned = re.sub(r"(?<=\b[NSEW])[.\-](?=[NSEW]\b)", "", name.upper())
+    cleaned = re.sub(r"[^A-Z ]", " ", cleaned)
+    return {_COMPASS[t] for t in _COMPASS_TOKEN.findall(cleaned)}
+
+
+def _separation_deg(a: float, b: float) -> float:
+    delta = abs(a - b) % 360
+    return min(delta, 360 - delta)
+
+
+def _direction_conflict(a: SiteRecord, b: SiteRecord) -> bool:
+    """Whether the two names name opposing aspects of the same hill.
+
+    "Long Reef NE" and "Long Reef SE" sit 200m apart and score 0.82 on every
+    other signal - close, near-identical names - but they are deliberately
+    distinct launches. Nothing except the direction token in the name
+    distinguishes them, since the source that lists both publishes no
+    orientation data of its own.
+    """
+    left, right = _compass_points(a.name), _compass_points(b.name)
+    if not left or not right:
+        return False
+    return min(_separation_deg(x, y) for x in left for y in right) > _COMPASS_CONFLICT_DEG
 
 
 class Band(str, Enum):
@@ -131,7 +179,14 @@ def score_pair(a: SiteRecord, b: SiteRecord) -> ScoredPair | None:
     if a.role != b.role:
         return None
 
-    distance_score = max(0.0, 1 - distance_m / _DISTANCE_DECAY_M)
+    if _direction_conflict(a, b):
+        return None
+
+    if distance_m <= _DISTANCE_PLATEAU_M:
+        distance_score = 1.0
+    else:
+        span = _DISTANCE_ZERO_M - _DISTANCE_PLATEAU_M
+        distance_score = max(0.0, 1 - (distance_m - _DISTANCE_PLATEAU_M) / span)
     weighted = [(_WEIGHT_DISTANCE, distance_score)]
 
     orientation_score = None

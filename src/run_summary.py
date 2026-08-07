@@ -14,7 +14,14 @@ _ANOMALY_DROP_FRACTION = 0.20
 class SourceStats:
     name: str
     record_count: int
+    with_wind: int = 0
     skipped_unchanged: bool = False
+
+    @property
+    def wind_coverage(self) -> str:
+        if not self.record_count:
+            return "—"
+        return f"{self.with_wind} ({self.with_wind / self.record_count:.0%})"
 
 
 @dataclass(frozen=True)
@@ -63,12 +70,12 @@ def build_pr(
         f"## Site federation sync — {run_id}",
         "",
         "**Sources fetched**",
-        "| Source | Status | Records |",
-        "|---|---|---|",
+        "| Source | Status | Records | With wind directions |",
+        "|---|---|---:|---:|",
     ]
     for s in stats:
         status = "unchanged, skipped" if s.skipped_unchanged else "fetched"
-        lines.append(f"| {s.name} | {status} | {s.record_count} |")
+        lines.append(f"| {s.name} | {status} | {s.record_count} | {s.wind_coverage} |")
 
     lines += [
         "",
@@ -78,7 +85,7 @@ def build_pr(
         f"- {no_wind} with no wind directions from any source",
         f"- {site_counts['written']} country files changed, {site_counts['unchanged']} unchanged",
         "",
-        render(review),
+        render(review, merged_clusters),
         "",
         "To decline a merge permanently, add the pair to `rejections.json`.",
         "",

@@ -86,5 +86,14 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
         lon=lon,
         wind=wind,
         country=country.upper() if country else None,
-        url=_text(properties.get("pge_link")) or f"https://www.paraglidingearth.com/?site={site_id}",
+        url=_site_url(properties.get("pge_link"), site_id),
     )
+
+
+def _site_url(pge_link, site_id: str) -> str:
+    """PGE publishes pge_link as http://; the site serves https, and these
+    end up as clickable links in a review table."""
+    link = _text(pge_link)
+    if not link:
+        return f"https://www.paraglidingearth.com/?site={site_id}"
+    return link.replace("http://", "https://", 1) if link.startswith("http://") else link

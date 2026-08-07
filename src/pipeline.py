@@ -50,10 +50,11 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     sg_records = siteguide.fetch(AUSTRALIA_BBOX)
 
     stats = [
-        SourceStats("pge", len(pge_records)),
+        SourceStats("pge", len(pge_records), sum(1 for r in pge_records if r.wind)),
         SourceStats(
             "siteguide_au",
             len(sg_records) if not siteguide.skipped_unchanged else previous.get("siteguide_au", 0),
+            sum(1 for r in sg_records if r.wind),
             skipped_unchanged=siteguide.skipped_unchanged,
         ),
     ]
@@ -83,7 +84,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
 
     site_counts = write_sites(sites)
     csv_changed = write_app_csv(sites)
-    review_changed = review.write_review(result.review)
+    review_changed = review.write_review(result.review, merged)
     rejections.ensure_exists()
     registry.save()
 

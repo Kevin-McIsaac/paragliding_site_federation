@@ -4,7 +4,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from src.matcher import Band, ScoredPair
+from src.matcher import Pair
+from src.review import render
 
 _ANOMALY_DROP_FRACTION = 0.20
 
@@ -24,8 +25,7 @@ class RunHealth:
 
 def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> RunHealth:
     """A source's record count crashing almost always means an outage or an
-    error page parsed as an empty result - not that most sites disappeared.
-    Aborting beats opening a PR that proposes deleting a country."""
+    error page parsed as an empty result, not that most sites disappeared."""
     notes: list[str] = []
     ok = True
     for s in stats:
@@ -50,13 +50,12 @@ def build_pr(
     stats: list[SourceStats],
     site_counts: dict[str, int],
     merged_clusters: int,
-    review: list[ScoredPair],
+    review: list[Pair],
     health: RunHealth,
+    no_wind: int,
 ) -> tuple[str, str]:
-    flagged = [p for p in review if p.band is Band.FLAGGED]
-
     title = (
-        f"Sync {run_id}: {site_counts['sites']} sites, "
+        f"Sync {run_id}: {site_counts['sites']} launches, "
         f"{merged_clusters} merged, {len(review)} to review"
     )
 
@@ -73,27 +72,17 @@ def build_pr(
 
     lines += [
         "",
-        "**Canonical dataset**",
-        f"- {site_counts['sites']} canonical sites across {site_counts['countries']} countries",
-        f"- {merged_clusters} sites backed by more than one source",
+        "**Dataset**",
+        f"- {site_counts['sites']} launches across {site_counts['countries']} countries",
+        f"- {merged_clusters} backed by more than one source (within 100m)",
+        f"- {no_wind} with no wind directions from any source",
         f"- {site_counts['written']} country files changed, {site_counts['unchanged']} unchanged",
+        "",
+        render(review),
+        "",
+        "To decline a merge permanently, add the pair to `rejections.json`.",
+        "",
+        "**Run health**",
     ]
-
-    if review:
-        lines += ["", f"**Needs your attention** — {len(review)} pairs ({len(flagged)} flagged)"]
-        for i, p in enumerate(review[:20], start=1):
-            lines.append(
-                f'{i}. "{p.a.name}" ({p.a.provider}) ↔ "{p.b.name}" ({p.b.provider}) '
-                f"— {p.confidence:.2f}, {p.components.distance_m:.0f}m"
-            )
-        if len(review) > 20:
-            lines.append(f"...and {len(review) - 20} more in `review.json`.")
-        lines += [
-            "",
-            "To decline a merge permanently, add the pair to `rejections.json`.",
-        ]
-
-    lines += ["", "**Run health**"]
     lines += [f"- {note}" for note in health.notes]
-
     return title, "\n".join(lines)

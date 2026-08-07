@@ -1,9 +1,4 @@
-"""Orchestrates one federation run: fetch -> score -> cluster -> select -> write.
-
-`python -m src.pipeline --dry-run` fetches and matches against the real APIs
-but writes nothing. `--scope au` restricts PGE to Australia, which is much
-faster and is the right scope for eyeballing match quality.
-"""
+"""Orchestrates one run: fetch -> pair -> cluster -> select -> write."""
 
 from __future__ import annotations
 
@@ -14,10 +9,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from src import rejections, review
-from src.canonical_store import write_sites
+from src.canonical_store import write_app_csv, write_sites
 from src.clustering import cluster
 from src.ids import IdRegistry
-from src.matcher import scored_pairs
+from src.matcher import pairs as build_pairs
 from src.model import AUSTRALIA_BBOX, WORLD_BBOX
 from src.run_summary import SourceStats, build_pr, check_health
 from src.selection import select
@@ -44,11 +39,12 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     bbox = AUSTRALIA_BBOX if scope == "au" else WORLD_BBOX
 
     state = _load_state()
-    previous_counts = {n: e["record_count"] for n, e in state.get("sources", {}).items()}
+    previous = {n: e["record_count"] for n, e in state.get("sources", {}).items()}
 
     pge = PgeSource()
-    last_version = None if force else state.get("siteguide_au", {}).get("version_id")
-    siteguide = SiteGuideAuSource(last_version_id=last_version)
+    siteguide = SiteGuideAuSource(
+        last_version_id=None if force else state.get("siteguide_au", {}).get("version_id")
+    )
 
     pge_records = pge.fetch(bbox)
     sg_records = siteguide.fetch(AUSTRALIA_BBOX)
@@ -57,12 +53,12 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         SourceStats("pge", len(pge_records)),
         SourceStats(
             "siteguide_au",
-            len(sg_records) if not siteguide.skipped_unchanged else previous_counts.get("siteguide_au", 0),
+            len(sg_records) if not siteguide.skipped_unchanged else previous.get("siteguide_au", 0),
             skipped_unchanged=siteguide.skipped_unchanged,
         ),
     ]
 
-    health = check_health(stats, previous_counts)
+    health = check_health(stats, previous)
     if not health.ok:
         print("Run health check failed - aborting before writing anything.", file=sys.stderr)
         for note in health.notes:
@@ -70,22 +66,23 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         return 1
 
     records = pge_records + sg_records
-    pairs = list(scored_pairs(records))
-    result = cluster(records, pairs, rejected=rejections.load())
+    result = cluster(records, list(build_pairs(records)), rejected=rejections.load())
     merged = sum(1 for c in result.clusters if len(c.members) > 1)
+    no_wind = 0
 
     if dry_run:
         print(
             f"[dry-run] scope={scope} pge={len(pge_records)} siteguide_au={len(sg_records)} "
-            f"pairs={len(pairs)} clusters={len(result.clusters)} merged={merged} "
-            f"review={len(result.review)}"
+            f"clusters={len(result.clusters)} merged={merged} review={len(result.review)}"
         )
         return 0
 
     registry = IdRegistry.load()
     sites = [select(c, registry) for c in sorted(result.clusters, key=lambda c: sorted(c.keys)[0])]
+    no_wind = sum(1 for s in sites if not s.wind)
 
     site_counts = write_sites(sites)
+    csv_changed = write_app_csv(sites)
     review_changed = review.write_review(result.review)
     rejections.ensure_exists()
     registry.save()
@@ -97,9 +94,10 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         merged_clusters=merged,
         review=result.review,
         health=health,
+        no_wind=no_wind,
     )
 
-    has_changes = site_counts["written"] > 0 or review_changed
+    has_changes = site_counts["written"] > 0 or csv_changed or review_changed
     PR_OUTPUT_DIR.mkdir(exist_ok=True)
     (PR_OUTPUT_DIR / "has_changes.txt").write_text("true" if has_changes else "false")
     (PR_OUTPUT_DIR / "title.txt").write_text(title)
@@ -118,9 +116,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--scope", choices=("world", "au"), default="world")
-    parser.add_argument(
-        "--force", action="store_true", help="Ignore the Site Guide version gate and refetch."
-    )
+    parser.add_argument("--force", action="store_true", help="Ignore the Site Guide version gate.")
     args = parser.parse_args()
     return run(dry_run=args.dry_run, scope=args.scope, force=args.force)
 

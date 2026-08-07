@@ -1,41 +1,50 @@
-"""Pairs a human should look at: near-misses and transitive-only links.
+"""The review list: a markdown table a human reads in the pull request.
 
-These are not assertions - they are two records close enough to be suspicious
-without clearing the bar to merge. Written as one deterministically-sorted
-file rather than one file per pair, since there is nothing to decide per item
-until someone acts on it (acting on it means adding to rejections.json, or
-letting a future run merge it once the sources improve).
+Pairs between 100m and 250m apart, closest first. These are not assertions -
+they are two launches near enough to be suspicious without being close enough
+to merge automatically.
+
+To decline one permanently, add it to rejections.json; otherwise it reappears
+every run.
 """
 
 from __future__ import annotations
 
-import json
 from pathlib import Path
 
-from src.matcher import ScoredPair
+from src.matcher import Pair
 
-REVIEW_PATH = Path("review.json")
+REVIEW_PATH = Path("REVIEW.md")
+_PGE = "pge"
+_AU = "siteguide_au"
 
 
-def write_review(pairs: list[ScoredPair], path: Path = REVIEW_PATH) -> bool:
-    payload = [
-        {
-            "a": {"key": p.a.key, "name": p.a.name},
-            "b": {"key": p.b.key, "name": p.b.name},
-            "band": p.band.value,
-            "confidence": p.confidence,
-            "components": {
-                "distance_m": p.components.distance_m,
-                "distance_score": p.components.distance_score,
-                "orientation_score": p.components.orientation_score,
-                "name_score": p.components.name_score,
-                "altitude_score": p.components.altitude_score,
-            },
-        }
-        for p in sorted(pairs, key=lambda p: (-p.confidence, sorted(p.keys)[0]))
+def render(pairs: list[Pair]) -> str:
+    lines = [
+        "# Sites to review",
+        "",
+        "Launches between 100m and 250m apart, from different sources - close",
+        "enough to be possible duplicates, not close enough to merge",
+        "automatically. Closest first.",
+        "",
+        "| PGE Name | AU Name | Distance |",
+        "|---|---|---:|",
     ]
-    content = json.dumps(payload, indent=2, ensure_ascii=False) + "\n"
-    if path.exists() and path.read_text() == content:
+    for pair in sorted(pairs, key=lambda p: p.distance_m):
+        pge = pair.by_provider(_PGE)
+        au = pair.by_provider(_AU)
+        lines.append(
+            f"| {pge.name if pge else '—'} | {au.name if au else '—'} | {pair.distance_m:,.0f} m |"
+        )
+    if not pairs:
+        lines.append("| _none_ | | |")
+    return "\n".join(lines) + "\n"
+
+
+def write_review(pairs: list[Pair], path: Path | None = None) -> bool:
+    target = path or REVIEW_PATH
+    content = render(pairs)
+    if target.exists() and target.read_text() == content:
         return False
-    path.write_text(content)
+    target.write_text(content)
     return True

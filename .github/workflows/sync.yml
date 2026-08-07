@@ -51,6 +51,7 @@ jobs:
           commit-message: "Site federation sync"
           add-paths: |
             sites/
-            review.json
+            app/
+            REVIEW.md
             rejections.json
             state/

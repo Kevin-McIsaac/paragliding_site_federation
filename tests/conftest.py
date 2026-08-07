@@ -9,8 +9,12 @@ def record(provider="pge", id="1", **overrides):
         role="launch",
         lat=-33.7,
         lon=151.3,
-        altitude=200.0,
+        wind={"N": 1, "NE": 2},
         country="AU",
-        orientation=frozenset({"N", "NE"}),
     )
     return SiteRecord(**{**defaults, **overrides})
+
+
+# ~1.113m per 0.00001 degrees of latitude, for readable fixtures.
+def metres(m):
+    return m / 111_320.0

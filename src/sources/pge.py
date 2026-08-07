@@ -1,24 +1,25 @@
 """ParaglidingEarth adapter — the whole world in a single request.
 
-`getBoundingBoxSites.php` with a -90/90, -180/180 box returns the complete
-dataset (11,437 sites across 137 countries when this was written). Verified
-complete rather than truncated by comparing against the per-country endpoint
-`getCountrySites.php?iso=au`: 238 vs 239 for Australia. This is the same call
-bin/fetch_pge_sites.sh in the app repo has always used to build the bundled
-world CSV, so it is well-proven.
+`getBoundingBoxSites.php` over a -90/90, -180/180 box returns the complete
+dataset (11,508 sites across 136 countries when this was written), verified
+complete rather than truncated against the per-country endpoint
+`getCountrySites.php?iso=au`. This is the call bin/fetch_pge_sites.sh in the
+app repo has always used to build the bundled world CSV.
+
+PGE models one record per takeoff, which is the same unit as a Site Guide
+*launch* - a hill with several launches appears as several PGE records
+("Long Reef NE", "Long Reef SE", "Long Reef Northfacing").
 """
 
 from __future__ import annotations
 
 import httpx
 
-from src.model import BoundingBox, SiteRecord
+from src.model import DIRECTIONS, BoundingBox, SiteRecord
 
 _BASE_URL = "https://www.paraglidingearth.com/api/geojson/getBoundingBoxSites.php"
-_TIMEOUT = 120.0
+_TIMEOUT = 180.0
 _LANDING_MARKERS = ("landing", "atterrissage", "landeplatz")
-_DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
-_FLAGS = ("thermals", "soaring", "xc", "winch", "flatland", "hanggliding", "paragliding")
 
 
 class PgeSource:
@@ -31,10 +32,8 @@ class PgeSource:
         response = self._client.get(
             _BASE_URL,
             params={
-                "north": bbox.north,
-                "south": bbox.south,
-                "east": bbox.east,
-                "west": bbox.west,
+                "north": bbox.north, "south": bbox.south,
+                "east": bbox.east, "west": bbox.west,
                 "style": "detailled",
             },
         )
@@ -43,19 +42,10 @@ class PgeSource:
         return [r for f in features if (r := _parse_feature(f)) is not None]
 
 
-def _num(value) -> float | None:
-    try:
-        result = float(value)
-    except (TypeError, ValueError):
-        return None
-    return result if result != 0.0 else None
-
-
 def _text(value) -> str | None:
     if value is None:
         return None
-    stripped = str(value).strip()
-    return stripped or None
+    return str(value).strip() or None
 
 
 def _parse_feature(feature: dict) -> SiteRecord | None:
@@ -65,8 +55,9 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
     if not coordinates or len(coordinates) < 2:
         return None
 
-    lon, lat = _num(coordinates[0]), _num(coordinates[1])
-    if lat is None or lon is None:
+    try:
+        lon, lat = float(coordinates[0]), float(coordinates[1])
+    except (TypeError, ValueError):
         return None
 
     site_id = _text(properties.get("pge_site_id")) or _text(feature.get("id"))
@@ -76,10 +67,15 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
     name = _text(properties.get("name")) or "Unknown site"
     role = "landing" if any(m in name.lower() for m in _LANDING_MARKERS) else "launch"
 
-    orientation = frozenset(d for d in _DIRECTIONS if str(properties.get(d)) in ("1", "2"))
-    flags = frozenset(f for f in _FLAGS if str(properties.get(f)) in ("1", "2", "true", "True"))
+    # PGE grades each direction 0 none / 1 good / 2 excellent - the gradation
+    # the app's sites table already stores.
+    wind = {}
+    for direction in DIRECTIONS:
+        raw = str(properties.get(direction, "0")).strip()
+        if raw in ("1", "2"):
+            wind[direction] = int(raw)
 
-    country_code = _text(properties.get("countryCode"))
+    country = _text(properties.get("countryCode"))
 
     return SiteRecord(
         provider="pge",
@@ -88,13 +84,7 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
         role=role,
         lat=lat,
         lon=lon,
-        altitude=_num(properties.get("takeoff_altitude")) or (_num(coordinates[2]) if len(coordinates) > 2 else None),
-        country=country_code.upper() if country_code else None,
-        orientation=orientation,
-        description=_text(properties.get("takeoff_description")),
-        landing_lat=_num(properties.get("landing_lat")),
-        landing_lon=_num(properties.get("landing_lng")),
-        url=_text(properties.get("pge_link")),
-        flags=flags,
-        raw=properties,
+        wind=wind,
+        country=country.upper() if country else None,
+        url=_text(properties.get("pge_link")) or f"https://www.paraglidingearth.com/?site={site_id}",
     )

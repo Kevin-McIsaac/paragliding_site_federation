@@ -1,16 +1,19 @@
 """Site Guide AU adapter — versioned bulk export, no API key.
 
-/api/Version is checked first; if its id is unchanged since the last run the
-full /api/Export download is skipped. Verified live: Version returns
-{"id", "publishedTime", "comment"}.
+Site Guide nests launches under a site, and *only launches carry
+coordinates*: the site is a named area holding the metadata. One record is
+emitted per launch, because a launch is the same unit as a PGE record. Most
+sites have exactly one launch, but 21 have several - Manilla - Mt Borah has
+four (West/East/South/Northeast) where PGE has a single lumped record.
 
-Site Guide models one site as a parent record with several child launches;
-each launch becomes its own SiteRecord, since a launch is what actually gets
-matched against a PGE site. Descriptive text (hazards, access, rating) lives
-on the parent and is inherited by every launch under it.
+Wind comes from the `conditions` prose (see src/wind.py). It is almost always
+site-level - 235 of 245 launches inherit it from their parent, only 26 have
+their own - so a launch's own conditions win where present and the parent
+fills in otherwise. That matters for sites like Bastion, whose site-level
+string "SW-NW, NW-NE" is the union of its two launches' individual ranges.
 
-Note this source carries no wind-orientation data at all. That is exactly why
-selection gap-fills from PGE - see src/selection.py.
+/api/Version is checked first; an unchanged version id skips the export
+download entirely.
 """
 
 from __future__ import annotations
@@ -20,9 +23,15 @@ import re
 import httpx
 
 from src.model import BoundingBox, SiteRecord
+from src.wind import parse_conditions
 
 _BASE_URL = "https://siteguide.org.au"
 _TIMEOUT = 60.0
+
+# The Tasmanian club publishes placeholder coordinates for some sites and
+# keeps the real position for members, so proximity to another source there
+# is coincidence, not evidence.
+_APPROXIMATE = re.compile(r"available to .*members", re.IGNORECASE)
 
 
 class SiteGuideAuSource:
@@ -59,52 +68,17 @@ class SiteGuideAuSource:
 def _text(value) -> str | None:
     if value is None:
         return None
-    stripped = str(value).strip()
-    return stripped or None
-
-
-_METRES = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*m\b", re.IGNORECASE)
-_FEET = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*(?:ft|')", re.IGNORECASE)
-_FEET_TO_M = 0.3048
-
-
-def _parse_height(value) -> float | None:
-    """Site Guide's `height` is free text, never a number.
-
-    Every one of the 220 non-null values observed pairs feet with metres in
-    some order - "280'/85m asl, 250' agl", "2,450ft / 750m ASL", "55m / 170ft".
-    The first metre figure is taken because above-sea-level is conventionally
-    listed before above-ground-level, and ASL is what PGE's takeoff_altitude
-    means, so the two are comparable. Feet are only used if no metre figure is
-    given at all.
-    """
-    if value is None:
-        return None
-    if isinstance(value, (int, float)):
-        return float(value)
-
-    text = str(value)
-    if match := _METRES.search(text):
-        return float(match.group(1).replace(",", ""))
-    if match := _FEET.search(text):
-        return round(float(match.group(1).replace(",", "")) * _FEET_TO_M, 1)
-    return None
-
-
-def _join(*parts) -> str | None:
-    kept = [_text(p) for p in parts]
-    kept = [p for p in kept if p]
-    return "\n\n".join(kept) if kept else None
+    return str(value).strip() or None
 
 
 def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
     if site.get("closed"):
         return []
 
-    hazards = _join(site.get("hazardsComments"), site.get("flightComments"))
-    access = _join(site.get("restrictions"), site.get("landowners"), site.get("shortLocation"))
-    rating = _text(site.get("rating"))
-    altitude = _parse_height(site.get("height"))
+    site_name = _text(site.get("name")) or "Unknown site"
+    site_conditions = site.get("conditions")
+    approximate = bool(_APPROXIMATE.search(site.get("shortLocation") or ""))
+    url = f"{_BASE_URL}/sites/{site['id']}"
 
     records: list[SiteRecord] = []
     for launch in site.get("launches") or []:
@@ -116,23 +90,25 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
         if not (bbox.south <= lat <= bbox.north and bbox.west <= lon <= bbox.east):
             continue
 
+        launch_name = _text(launch.get("name"))
+        # Launch names are often generic ("Main launch", "Launch 1"), which
+        # only means something beside the site it belongs to.
+        name = f"{site_name} - {launch_name}" if launch_name else site_name
+
+        directions = parse_conditions(_text(launch.get("conditions")) or site_conditions)
+
         records.append(
             SiteRecord(
                 provider="siteguide_au",
                 id=f"{site['id']}-{launch['id']}",
-                name=_text(launch.get("name")) or _text(site.get("name")) or "Unknown site",
+                name=name,
                 role="launch",
                 lat=float(lat),
                 lon=float(lon),
-                altitude=altitude,
+                wind={d: 1 for d in sorted(directions)},
                 country="AU",
-                orientation=frozenset(),
-                description=_join(launch.get("description"), site.get("description")),
-                hazards=hazards,
-                access=access,
-                rating=rating,
-                url=f"{_BASE_URL}/sites/{site['id']}",
-                raw={"site_id": site.get("id"), "launch_id": launch.get("id")},
+                url=url,
+                approximate_location=approximate,
             )
         )
     return records

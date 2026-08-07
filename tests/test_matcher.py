@@ -1,69 +1,65 @@
-"""Gates, renormalized scoring, bands, and the spatial index."""
+"""The distance bands: merge under 100m, review to 250m, ignore beyond."""
 
-from src.matcher import Band, score_pair, scored_pairs
-from tests.conftest import record
-
-
-def test_identical_records_auto_link():
-    pair = score_pair(record("pge", "1"), record("siteguide_au", "a"))
-    assert pair is not None
-    assert pair.band is Band.AUTO_LINKED
-    assert pair.confidence > 0.95
+from src.matcher import Band, pair_for, pairs
+from tests.conftest import metres, record
 
 
-def test_same_provider_is_never_compared():
-    """Two launches from one source are a deliberate distinction, not a duplicate."""
-    assert score_pair(record("siteguide_au", "a"), record("siteguide_au", "b")) is None
+def _at(distance_m, **overrides):
+    return record("siteguide_au", "a", lat=-33.7 - metres(distance_m), **overrides)
 
 
-def test_role_mismatch_is_gated_out():
-    assert score_pair(record("pge", "1", role="launch"), record("siteguide_au", "a", role="landing")) is None
+def test_under_100m_merges():
+    pair = pair_for(record("pge", "1"), _at(60))
+    assert pair.band is Band.MERGE
 
 
-def test_distance_beyond_gate_is_excluded():
-    far = record("siteguide_au", "a", lat=-33.71)  # ~1.1km
-    assert score_pair(record("pge", "1"), far) is None
+def test_between_100m_and_250m_is_reviewed():
+    pair = pair_for(record("pge", "1"), _at(180))
+    assert pair.band is Band.REVIEW
 
 
-def test_missing_signals_are_renormalized_not_penalized():
-    """The v1 bug: a source with no wind/altitude data capped perfect matches
-    near 0.82 because 0.35 of the weight sat at a neutral 0.5."""
-    sparse = record("siteguide_au", "a", orientation=frozenset(), altitude=None)
-    pair = score_pair(record("pge", "1"), sparse)
-
-    assert pair.components.orientation_score is None
-    assert pair.components.altitude_score is None
-    assert pair.confidence > 0.95
-    assert pair.band is Band.AUTO_LINKED
+def test_beyond_250m_is_not_a_pair_at_all():
+    assert pair_for(record("pge", "1"), _at(400)) is None
 
 
-def test_contradictory_orientation_lowers_confidence():
-    opposed = score_pair(record("pge", "1"), record("siteguide_au", "a", orientation=frozenset({"S", "SW"})))
-    agreed = score_pair(record("pge", "1"), record("siteguide_au", "a"))
-    assert opposed.confidence < agreed.confidence
+def test_boundaries():
+    assert pair_for(record("pge", "1"), _at(99)).band is Band.MERGE
+    assert pair_for(record("pge", "1"), _at(101)).band is Band.REVIEW
+    assert pair_for(record("pge", "1"), _at(249)).band is Band.REVIEW
+    assert pair_for(record("pge", "1"), _at(251)) is None
 
 
-def test_explicit_reference_outranks_gates():
-    pge = record("pge", "1", raw={"siteguide_au_site_id": "a"})
-    other = record("siteguide_au", "a", role="landing")  # would normally be gated out
-
-    pair = score_pair(pge, other)
-
-    assert pair.provenance == "explicit_reference"
-    assert pair.confidence == 1.0
+def test_same_source_is_never_compared():
+    """One guide listing several launches at a site is deliberate, not a
+    duplicate - Mt Borah's four launches must all survive."""
+    assert pair_for(record("siteguide_au", "a"), record("siteguide_au", "b")) is None
 
 
-def test_spatial_index_finds_neighbours_across_cell_boundaries():
-    a = record("pge", "1", lat=-33.70999, lon=151.3)
-    b = record("siteguide_au", "a", lat=-33.71001, lon=151.3)  # different lat cell, ~2m apart
-
-    pairs = list(scored_pairs([a, b]))
-
-    assert len(pairs) == 1
-    assert pairs[0].confidence > 0.95
+def test_landing_never_matches_launch():
+    assert pair_for(record("pge", "1", role="launch"), _at(10, role="landing")) is None
 
 
-def test_spatial_index_yields_each_pair_once():
-    records = [record("pge", "1"), record("siteguide_au", "a"), record("siteguide_au", "b", lat=-33.7001)]
-    pairs = list(scored_pairs(records))
-    assert len({p.keys for p in pairs}) == len(pairs)
+def test_nothing_but_distance_is_considered():
+    """Names, wind and everything else are irrelevant to the decision."""
+    unrelated = _at(60, name="Completely Different", wind={"S": 1})
+    assert pair_for(record("pge", "1"), unrelated).band is Band.MERGE
+
+
+def test_approximate_coordinates_are_reviewed_never_merged():
+    """Sites whose published position is a placeholder cannot evidence a
+    merge, however close they happen to land."""
+    obfuscated = _at(20, approximate_location=True)
+    assert pair_for(record("pge", "1"), obfuscated).band is Band.REVIEW
+
+
+def test_spatial_index_finds_pairs_across_cell_boundaries():
+    a = record("pge", "1", lat=-33.70999)
+    b = record("siteguide_au", "a", lat=-33.71001)  # different cell, ~2m apart
+    found = list(pairs([a, b]))
+    assert len(found) == 1 and found[0].band is Band.MERGE
+
+
+def test_each_pair_is_yielded_once():
+    recs = [record("pge", "1"), record("siteguide_au", "a"), record("siteguide_au", "b", lat=-33.7001)]
+    found = list(pairs(recs))
+    assert len({p.keys for p in found}) == len(found)

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "18280",
+    "name": "Bishops Rocks",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "158-97",
+    "name": "Bishops Rock / Shelly Beach",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.705,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 45.0,
+      "distance_score": 0.91,
+      "orientation_score": 0.5,
+      "name_score": 0.6,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

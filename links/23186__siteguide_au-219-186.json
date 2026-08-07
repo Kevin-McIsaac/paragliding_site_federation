@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "23186",
+    "name": "Gundowring",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "219-186",
+    "name": "SW-NW launch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.618,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 47.8,
+      "distance_score": 0.904,
+      "orientation_score": 0.5,
+      "name_score": 0.182,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

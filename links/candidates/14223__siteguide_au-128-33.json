@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14223",
+    "name": "Warriewood",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "128-33",
+    "name": "Turimetta",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.39,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 330.8,
+      "distance_score": 0.338,
+      "orientation_score": 0.5,
+      "name_score": 0.316,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

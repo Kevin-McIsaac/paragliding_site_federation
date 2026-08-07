@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "7600",
+    "name": "Catherine Hill Bay",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "108-240",
+    "name": "Catherine Hill Bay (Catho's)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.772,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 10.7,
+      "distance_score": 0.979,
+      "orientation_score": 0.5,
+      "name_score": 0.783,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

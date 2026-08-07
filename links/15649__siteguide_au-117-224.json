@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15649",
+    "name": "S.E Bonny Hills",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "117-224",
+    "name": "Grants Headland - SE Bonnys",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.694,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 39.5,
+      "distance_score": 0.921,
+      "orientation_score": 0.5,
+      "name_score": 0.524,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

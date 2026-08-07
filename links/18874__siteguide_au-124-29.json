@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "18874",
+    "name": "Newport",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "124-29",
+    "name": "Newport",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.808,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 18.5,
+      "distance_score": 0.963,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

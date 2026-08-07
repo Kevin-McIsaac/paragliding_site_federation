@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "13383",
+    "name": "Hinchcliffe Launch",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "21-285",
+    "name": "Hinchcliffe's (Hart's, Flattop)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.497,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 241.6,
+      "distance_score": 0.517,
+      "orientation_score": 0.5,
+      "name_score": 0.449,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

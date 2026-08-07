@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11513",
+    "name": "Hickson St",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "261-290",
+    "name": " Merewether - Hickson Street Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.674,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 44.0,
+      "distance_score": 0.912,
+      "orientation_score": 0.5,
+      "name_score": 0.444,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

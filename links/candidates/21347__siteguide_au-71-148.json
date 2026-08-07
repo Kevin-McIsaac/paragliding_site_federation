@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "21347",
+    "name": "Burns Beach",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "71-148",
+    "name": "Burns Beach",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.381,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 493.6,
+      "distance_score": 0.013,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

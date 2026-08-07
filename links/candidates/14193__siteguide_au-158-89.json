@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14193",
+    "name": "MURRELLS BEACH",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "158-89",
+    "name": "Murrells Beach",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.361,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 341.3,
+      "distance_score": 0.317,
+      "orientation_score": 0.5,
+      "name_score": 0.214,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

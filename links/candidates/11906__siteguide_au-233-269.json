@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11906",
+    "name": "Sand Patch",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "233-269",
+    "name": "Sandpatch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.543,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 184.2,
+      "distance_score": 0.632,
+      "orientation_score": 0.5,
+      "name_score": 0.421,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

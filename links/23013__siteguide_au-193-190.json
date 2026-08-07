@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "23013",
+    "name": "Mt Tarrengower",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "193-190",
+    "name": "Mt Tarrengower",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.813,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 13.2,
+      "distance_score": 0.974,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

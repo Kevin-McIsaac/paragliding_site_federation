@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11371",
+    "name": "Cape Jervis",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "2-217",
+    "name": "Cape Jervis",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.669,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 172.8,
+      "distance_score": 0.654,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11944",
+    "name": "Possum Shoot",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "257-281",
+    "name": "Private Property - All pilots must be inducted and 'check-in' prior to entry. No Parking at Launch. ",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.355,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 332.1,
+      "distance_score": 0.336,
+      "orientation_score": 0.5,
+      "name_score": 0.144,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

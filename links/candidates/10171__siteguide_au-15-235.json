@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "10171",
+    "name": "Point Cartwright 'Carties'",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "15-235",
+    "name": "Point Cartwright",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.327,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 670.7,
+      "distance_score": 0.0,
+      "orientation_score": 0.5,
+      "name_score": 0.762,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

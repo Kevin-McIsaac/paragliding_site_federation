@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14586",
+    "name": "Montecollum",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "258-282",
+    "name": "Private Property - All pilots must be inducted and 'check-in' prior to entry. ",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.473,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 199.7,
+      "distance_score": 0.601,
+      "orientation_score": 0.5,
+      "name_score": 0.136,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

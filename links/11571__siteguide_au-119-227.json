@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11571",
+    "name": "Indian Head",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "119-227",
+    "name": "Indian Head",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.808,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 18.9,
+      "distance_score": 0.962,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

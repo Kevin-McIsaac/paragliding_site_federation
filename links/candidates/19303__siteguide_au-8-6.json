@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "19303",
+    "name": "rex lookout",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "8-6",
+    "name": "Rex Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.339,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 610.2,
+      "distance_score": 0.0,
+      "orientation_score": 0.5,
+      "name_score": 0.818,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

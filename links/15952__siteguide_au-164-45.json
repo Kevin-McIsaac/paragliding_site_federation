@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15952",
+    "name": "Cape Liptrap",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "164-45",
+    "name": "Cape Liptrap",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.703,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 135.2,
+      "distance_score": 0.73,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

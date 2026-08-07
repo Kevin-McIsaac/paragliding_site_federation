@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4653",
+    "name": "mount Emu",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "206-76",
+    "name": "Emu 1",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.657,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 59.6,
+      "distance_score": 0.881,
+      "orientation_score": 0.5,
+      "name_score": 0.429,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

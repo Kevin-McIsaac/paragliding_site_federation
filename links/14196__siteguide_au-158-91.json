@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14196",
+    "name": "Discovery Bay",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "158-91",
+    "name": "Discovery Bay",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.795,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 33.4,
+      "distance_score": 0.933,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14274",
+    "name": "Portsea",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "177-98",
+    "name": "Portsea",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.775,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 55.7,
+      "distance_score": 0.889,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

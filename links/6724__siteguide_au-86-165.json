@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "6724",
+    "name": "Mt Bakewell",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "86-165",
+    "name": "Mount Bakewell (top launches)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.564,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 190.2,
+      "distance_score": 0.62,
+      "orientation_score": 0.5,
+      "name_score": 0.55,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

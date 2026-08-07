@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11971",
+    "name": "Mt Widgee",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "17-243",
+    "name": "Mt. Widgee",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.814,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 0.0,
+      "distance_score": 1.0,
+      "orientation_score": 0.5,
+      "name_score": 0.947,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

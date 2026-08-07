@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15968",
+    "name": "Donna Buang",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "204-73",
+    "name": "Mt Donna Buang",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.679,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 135.8,
+      "distance_score": 0.728,
+      "orientation_score": 0.5,
+      "name_score": 0.88,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

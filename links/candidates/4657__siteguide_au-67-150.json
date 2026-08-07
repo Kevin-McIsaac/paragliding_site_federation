@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4657",
+    "name": "Cottesloe, Perth",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "67-150",
+    "name": "Cottesloe",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.319,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 621.5,
+      "distance_score": 0.0,
+      "orientation_score": 0.5,
+      "name_score": 0.72,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

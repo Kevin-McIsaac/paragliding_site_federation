@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "6747",
+    "name": "Beechmont",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "18-284",
+    "name": "Beechmont - Rosin's Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.562,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 180.7,
+      "distance_score": 0.639,
+      "orientation_score": 0.5,
+      "name_score": 0.5,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "18871",
+    "name": "Mona Vale",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "131-215",
+    "name": "Bungan",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.301,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 418.8,
+      "distance_score": 0.162,
+      "orientation_score": 0.5,
+      "name_score": 0.267,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

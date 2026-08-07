@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4664",
+    "name": "Two Rocks, North of Perth",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "76-155",
+    "name": "Two Rocks Beach",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.339,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 451.3,
+      "distance_score": 0.097,
+      "orientation_score": 0.5,
+      "name_score": 0.6,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

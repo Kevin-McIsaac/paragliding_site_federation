@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11482",
+    "name": "S.W Middle Brother",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "122-230",
+    "name": "SW",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.448,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 240.9,
+      "distance_score": 0.518,
+      "orientation_score": 0.5,
+      "name_score": 0.2,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

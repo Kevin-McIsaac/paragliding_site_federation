@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "21219",
+    "name": "Long Reef Northfacing",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "129-34",
+    "name": "Long Reef NE",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.411,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 386.3,
+      "distance_score": 0.227,
+      "orientation_score": 0.5,
+      "name_score": 0.667,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

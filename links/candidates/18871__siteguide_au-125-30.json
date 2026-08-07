@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "18871",
+    "name": "Mona Vale",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "125-30",
+    "name": "Mona Vale",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.477,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 386.9,
+      "distance_score": 0.226,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

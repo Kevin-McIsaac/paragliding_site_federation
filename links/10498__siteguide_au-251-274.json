@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "10498",
+    "name": "80 Meter Dunes",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "251-274",
+    "name": "Wagga (80m dunes)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.715,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 0.0,
+      "distance_score": 1.0,
+      "orientation_score": 0.5,
+      "name_score": 0.452,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

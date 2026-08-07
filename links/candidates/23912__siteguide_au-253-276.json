@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "23912",
+    "name": "Reed\u2019s Lookout Paraglider launch",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "253-276",
+    "name": "Mt Buffalo \u2013 Reed\u2019s Lookout Paraglider launch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.341,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 695.6,
+      "distance_score": 0.0,
+      "orientation_score": 0.5,
+      "name_score": 0.831,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

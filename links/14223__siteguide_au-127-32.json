@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14223",
+    "name": "Warriewood",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "127-32",
+    "name": "Warriewood",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.783,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 46.6,
+      "distance_score": 0.907,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

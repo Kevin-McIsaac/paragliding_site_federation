@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14800",
+    "name": "Ma Ma",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "259-287",
+    "name": "Ma Ma Creek",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.593,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 174.5,
+      "distance_score": 0.651,
+      "orientation_score": 0.5,
+      "name_score": 0.625,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "7606",
+    "name": "North Brother",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "115-222",
+    "name": "North Brother Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.769,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 9.5,
+      "distance_score": 0.981,
+      "orientation_score": 0.5,
+      "name_score": 0.765,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

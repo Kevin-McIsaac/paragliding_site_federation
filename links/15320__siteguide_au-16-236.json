@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15320",
+    "name": "Teewah Launch",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "16-236",
+    "name": "Teewah Beach",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.724,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 67.4,
+      "distance_score": 0.865,
+      "orientation_score": 0.5,
+      "name_score": 0.8,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

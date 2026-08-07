@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "22198",
+    "name": "Eungella",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "10-8",
+    "name": "Caravan Park",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.633,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 35.0,
+      "distance_score": 0.93,
+      "orientation_score": 0.5,
+      "name_score": 0.2,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

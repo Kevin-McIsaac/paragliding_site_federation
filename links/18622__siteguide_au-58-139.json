@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "18622",
+    "name": "Rabbit Hill",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "58-139",
+    "name": "Yallingup - Rabbit Hill",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.689,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 72.3,
+      "distance_score": 0.855,
+      "orientation_score": 0.5,
+      "name_score": 0.647,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

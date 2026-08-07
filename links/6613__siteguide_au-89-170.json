@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "6613",
+    "name": "Humphries Paddock",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "89-170",
+    "name": "Humphrey's",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.734,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 11.1,
+      "distance_score": 0.978,
+      "orientation_score": 0.5,
+      "name_score": 0.593,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

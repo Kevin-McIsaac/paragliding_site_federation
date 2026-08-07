@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "21426",
+    "name": "Warnbro Beach",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "74-153",
+    "name": "Warnbro",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.315,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 746.8,
+      "distance_score": 0.0,
+      "orientation_score": 0.5,
+      "name_score": 0.7,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

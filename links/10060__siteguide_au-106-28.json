@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "10060",
+    "name": "Canberra, Lanyon",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "106-28",
+    "name": "Lanyon",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.682,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 58.0,
+      "distance_score": 0.884,
+      "orientation_score": 0.5,
+      "name_score": 0.545,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

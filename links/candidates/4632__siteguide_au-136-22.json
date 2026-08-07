@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4632",
+    "name": "Manilla, Mt Borah (NSW)",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "136-22",
+    "name": "South launch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.543,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 166.8,
+      "distance_score": 0.666,
+      "orientation_score": 0.5,
+      "name_score": 0.343,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

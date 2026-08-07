@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11487",
+    "name": "Blackheath",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "138-250",
+    "name": "Main launch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.69,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 12.5,
+      "distance_score": 0.975,
+      "orientation_score": 0.5,
+      "name_score": 0.381,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

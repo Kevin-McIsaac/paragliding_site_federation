@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "13404",
+    "name": "NE Heaton",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "264-296",
+    "name": "West Heaton Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.392,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 369.9,
+      "distance_score": 0.26,
+      "orientation_score": 0.5,
+      "name_score": 0.5,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4649",
+    "name": "Rainbow Beach",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "11-9",
+    "name": "Rainbow Beach - Carlo Sand Blow",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.485,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 287.4,
+      "distance_score": 0.425,
+      "orientation_score": 0.5,
+      "name_score": 0.591,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

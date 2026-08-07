@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14629",
+    "name": "Flinders",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "168-57",
+    "name": "Flinders Golf Club",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.686,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 69.5,
+      "distance_score": 0.861,
+      "orientation_score": 0.5,
+      "name_score": 0.615,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

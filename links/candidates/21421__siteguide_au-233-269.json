@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "21421",
+    "name": "Sand Patch Peak",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "233-269",
+    "name": "Sandpatch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.532,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 177.1,
+      "distance_score": 0.646,
+      "orientation_score": 0.5,
+      "name_score": 0.333,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

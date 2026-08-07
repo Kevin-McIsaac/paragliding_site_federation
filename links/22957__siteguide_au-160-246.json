@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "22957",
+    "name": "Teddy\u2019s Lookout",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "160-246",
+    "name": "Teddys Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.808,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 11.1,
+      "distance_score": 0.978,
+      "orientation_score": 0.5,
+      "name_score": 0.966,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

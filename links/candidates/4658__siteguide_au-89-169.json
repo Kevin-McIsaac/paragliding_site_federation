@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4658",
+    "name": "Greenhills - Penny's Tow Paddock, near York",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "89-169",
+    "name": "Penny's (Closed)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.442,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 286.5,
+      "distance_score": 0.427,
+      "orientation_score": 0.5,
+      "name_score": 0.373,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

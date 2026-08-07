@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "6595",
+    "name": "Mystic (Bright)",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "210-86",
+    "name": "Mystic",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.69,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 54.8,
+      "distance_score": 0.89,
+      "orientation_score": 0.5,
+      "name_score": 0.571,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

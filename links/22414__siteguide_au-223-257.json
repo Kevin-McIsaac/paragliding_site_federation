@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "22414",
+    "name": "Gerrards Lookout",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "223-257",
+    "name": "Buchy's, at Gerrards Lookout ",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.721,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 55.3,
+      "distance_score": 0.889,
+      "orientation_score": 0.5,
+      "name_score": 0.727,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

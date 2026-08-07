@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "13704",
+    "name": "Bells Beach",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "145-241",
+    "name": "Bells Beach - Winkipop",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.752,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 6.6,
+      "distance_score": 0.987,
+      "orientation_score": 0.5,
+      "name_score": 0.667,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

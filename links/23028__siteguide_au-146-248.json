@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "23028",
+    "name": "Thirteenth Beach",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "146-248",
+    "name": "PG beach launch 30W",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.553,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 169.1,
+      "distance_score": 0.662,
+      "orientation_score": 0.5,
+      "name_score": 0.4,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

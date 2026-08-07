@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15966",
+    "name": "Great Missendon",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "200-63",
+    "name": "Great Missenden (Previously known as Landscape)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.692,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 33.0,
+      "distance_score": 0.934,
+      "orientation_score": 0.5,
+      "name_score": 0.484,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

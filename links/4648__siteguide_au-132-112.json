@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4648",
+    "name": "Stanwell Park",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "132-112",
+    "name": "The Point",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.658,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 24.1,
+      "distance_score": 0.952,
+      "orientation_score": 0.5,
+      "name_score": 0.273,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "11487",
+    "name": "Blackheath",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "138-251",
+    "name": "North ramp",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.468,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 218.7,
+      "distance_score": 0.563,
+      "orientation_score": 0.5,
+      "name_score": 0.2,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

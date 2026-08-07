@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4663",
+    "name": "Serpentine",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "73-152",
+    "name": "Serpentine",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.605,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 244.7,
+      "distance_score": 0.511,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

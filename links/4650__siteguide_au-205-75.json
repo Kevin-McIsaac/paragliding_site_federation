@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4650",
+    "name": "Corryong, Mt Elliot",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "205-75",
+    "name": "Main launch (north-west)",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.602,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 77.4,
+      "distance_score": 0.845,
+      "orientation_score": 0.5,
+      "name_score": 0.233,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "14653",
+    "name": "Cairns Bay",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "163-44",
+    "name": "Cairns Bay",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.475,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 389.4,
+      "distance_score": 0.221,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

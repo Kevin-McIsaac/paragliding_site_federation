@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "7595",
+    "name": "Moonies",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "267-299",
+    "name": "Moonee Moonee",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.716,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 10.1,
+      "distance_score": 0.98,
+      "orientation_score": 0.5,
+      "name_score": 0.5,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

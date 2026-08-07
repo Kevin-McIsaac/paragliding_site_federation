@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4665",
+    "name": "Wozza's Knob - Geraldton",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "46-128",
+    "name": "Wozza's Knob",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.67,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 98.2,
+      "distance_score": 0.804,
+      "orientation_score": 0.5,
+      "name_score": 0.667,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

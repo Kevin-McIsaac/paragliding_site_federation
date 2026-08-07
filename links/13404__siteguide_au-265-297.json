@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "13404",
+    "name": "NE Heaton",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "265-297",
+    "name": "NNE Heaton Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.633,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 139.1,
+      "distance_score": 0.722,
+      "orientation_score": 0.5,
+      "name_score": 0.667,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

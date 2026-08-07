@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "13702",
+    "name": "Mt Lonarch",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "195-80",
+    "name": "Mt Lonarch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.694,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 145.5,
+      "distance_score": 0.709,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

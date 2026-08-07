@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "10814",
+    "name": "Cooks Terrace",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "126-31",
+    "name": "Cooks Terrace",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.819,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 6.7,
+      "distance_score": 0.987,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

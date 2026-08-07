@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "12803",
+    "name": "Dalby",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "22-1",
+    "name": "Dalby Aerodrome",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.626,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 109.7,
+      "distance_score": 0.781,
+      "orientation_score": 0.5,
+      "name_score": 0.5,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

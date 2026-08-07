@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15650",
+    "name": "N.E Bonny Hills",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "118-225",
+    "name": "Bartletts Reserve - NE Bonnys",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.679,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 30.5,
+      "distance_score": 0.939,
+      "orientation_score": 0.5,
+      "name_score": 0.409,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

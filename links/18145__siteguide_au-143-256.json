@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "18145",
+    "name": "Mt Rankin",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "143-256",
+    "name": "Mount Rankin",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.71,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 95.5,
+      "distance_score": 0.809,
+      "orientation_score": 0.5,
+      "name_score": 0.857,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

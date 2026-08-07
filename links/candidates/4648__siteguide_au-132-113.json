@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4648",
+    "name": "Stanwell Park",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "132-113",
+    "name": "East Launch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.495,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 218.3,
+      "distance_score": 0.563,
+      "orientation_score": 0.5,
+      "name_score": 0.333,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

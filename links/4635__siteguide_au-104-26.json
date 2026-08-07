@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "4635",
+    "name": "Canberra, Spring Range",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "104-26",
+    "name": "Spring Hill",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.631,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 87.7,
+      "distance_score": 0.825,
+      "orientation_score": 0.5,
+      "name_score": 0.424,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

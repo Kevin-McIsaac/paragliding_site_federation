@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "20000",
+    "name": "closed site",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "254-277",
+    "name": "Dunvegan Road, Phillip Island",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.576,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 98.4,
+      "distance_score": 0.803,
+      "orientation_score": 0.5,
+      "name_score": 0.2,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

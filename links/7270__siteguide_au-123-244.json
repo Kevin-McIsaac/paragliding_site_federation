@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "7270",
+    "name": "Crackneck Lookout",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "123-244",
+    "name": "Crackneck Lookout",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked",
+    "confidence": 0.825,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 0.0,
+      "distance_score": 1.0,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

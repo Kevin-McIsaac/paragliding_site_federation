@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "22859",
+    "name": "Gordon",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "187-59",
+    "name": "South launch",
+    "role": "launch"
+  },
+  "match": {
+    "status": "candidate",
+    "confidence": 0.524,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 162.1,
+      "distance_score": 0.676,
+      "orientation_score": 0.5,
+      "name_score": 0.222,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

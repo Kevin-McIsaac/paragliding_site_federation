@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15642",
+    "name": "Sellicks Cliffs",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "6-237",
+    "name": "Sellicks Beach",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.728,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 24.0,
+      "distance_score": 0.952,
+      "orientation_score": 0.5,
+      "name_score": 0.621,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

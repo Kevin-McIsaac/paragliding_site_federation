@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "15042",
+    "name": "Southside",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "144-37",
+    "name": "Southside",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.793,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 35.8,
+      "distance_score": 0.928,
+      "orientation_score": 0.5,
+      "name_score": 1.0,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

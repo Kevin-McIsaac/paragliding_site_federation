@@ -1,0 +1,26 @@
+{
+  "pge_site": {
+    "id": "13239",
+    "name": "Honeysuckle",
+    "role": "launch"
+  },
+  "source": {
+    "provider": "siteguide_au",
+    "id": "103-207",
+    "name": "Launch 3",
+    "role": "launch"
+  },
+  "match": {
+    "status": "auto_linked_flagged",
+    "confidence": 0.573,
+    "provenance": "computed",
+    "components": {
+      "distance_m": 104.1,
+      "distance_score": 0.792,
+      "orientation_score": 0.5,
+      "name_score": 0.211,
+      "altitude_score": 0.5
+    }
+  },
+  "last_changed_run": "2026-08-07"
+}

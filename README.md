@@ -32,7 +32,7 @@ deliberately absent. It's looked up from the source when a user opens a site,
 so it doesn't need to ship with every install. There's no `url` column either:
 every source page is derivable from `source` (`pge:4632` →
 `paraglidingearth.com/?site=4632`, `siteguide_au:106-28` →
-`siteguide.org.au/sites/106`).
+`siteguide.org.au/sites/details/106`).
 
 `sites/<cc>.json` is the richer per-country form that lives in git for review
 and provenance.
@@ -78,7 +78,7 @@ and wind is absent or prose-encoded depending on source. An earlier weighted
 model combining all four produced a confidence number that was hard to reason
 about and impossible to explain in a review.
 
-Two refinements: a record joins a cluster only if it's within 100 m of
+Two refinements: a record joins a cluster only if it's within 250 m of
 **every** member (otherwise A–B–C chains fuse distinct launches), and ~12
 Tasmanian sites that publish deliberately approximate coordinates
 ("available to THPA members") are never auto-merged, since proximity there is
@@ -117,7 +117,7 @@ redistribution.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 57 tests, no network
+pytest                                        # 70 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)

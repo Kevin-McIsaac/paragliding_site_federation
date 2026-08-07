@@ -50,6 +50,7 @@ jobs:
           body-path: .pr/body.md
           commit-message: "Site federation sync"
           add-paths: |
-            links/
-            unmatched/
+            sites/
+            review.json
+            rejections.json
             state/

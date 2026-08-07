@@ -1,10 +1,29 @@
-"""Cross-source matching: hard gates, weighted scoring, greedy 1:1 assignment."""
+"""Pairwise scoring between source records: gates, weights, bands.
+
+Two changes from v1, both driven by what the first real run showed:
+
+1. Scoring is symmetric. There is no longer a PGE side and an "other" side -
+   every source is a peer, so pairs are scored the same way regardless of who
+   they came from. Two records from the *same* provider are never compared:
+   Site Guide listing several launches at one site is a deliberate
+   distinction, not a duplicate to be merged away.
+
+2. Weights are renormalized over the signals actually available for a pair,
+   rather than substituting a neutral 0.5 for missing data. Under v1, Site
+   Guide AU carrying no wind orientation (and often no altitude) meant 0.35 of
+   the weight sat at neutral for nearly every Australian pair, capping even a
+   zero-distance, identical-name match near 0.82 and pushing 66 of 79 real
+   matches into the flagged band. Renormalizing scores a pair on what is known
+   about it instead of penalizing it for what the source never publishes.
+"""
 
 from __future__ import annotations
 
 import math
+from collections import defaultdict
 from dataclasses import dataclass
 from enum import Enum
+from typing import Iterator
 
 from rapidfuzz import fuzz
 
@@ -20,14 +39,22 @@ _WEIGHT_ORIENTATION = 0.25
 _WEIGHT_NAME = 0.20
 _WEIGHT_ALTITUDE = 0.10
 
-_AUTO_LINK_THRESHOLD = 0.80
-_FLAGGED_THRESHOLD = 0.55
-_CANDIDATE_THRESHOLD = 0.30
+AUTO_LINK_THRESHOLD = 0.80
+FLAGGED_THRESHOLD = 0.55
+CANDIDATE_THRESHOLD = 0.30
+
+# Grid cell in degrees of latitude; must exceed the 750m gate (0.00675 deg).
+_CELL_DEG = 0.01
+_LAT_NEIGHBOURS = 1
+# 750m spans more longitude cells the further from the equator you go:
+# 0.00675/cos(75 deg) ~= 0.026 deg, i.e. 3 cells. 4 covers every inhabited
+# latitude with room to spare and costs nothing.
+_LON_NEIGHBOURS = 4
 
 
 class Band(str, Enum):
     AUTO_LINKED = "auto_linked"
-    FLAGGED = "auto_linked_flagged"
+    FLAGGED = "flagged"
     CANDIDATE = "candidate"
     DISCARDED = "discarded"
 
@@ -36,26 +63,23 @@ class Band(str, Enum):
 class MatchComponents:
     distance_m: float
     distance_score: float
-    orientation_score: float
-    name_score: float
-    altitude_score: float
+    orientation_score: float | None
+    name_score: float | None
+    altitude_score: float | None
 
 
 @dataclass(frozen=True)
-class Match:
-    pge_site: SiteRecord
-    source_site: SiteRecord
+class ScoredPair:
+    a: SiteRecord
+    b: SiteRecord
     confidence: float
     band: Band
     components: MatchComponents
     provenance: str = "computed"
 
-
-@dataclass(frozen=True)
-class MatchResult:
-    linked: list[Match]
-    candidates: list[Match]
-    unmatched: list[SiteRecord]
+    @property
+    def keys(self) -> frozenset[str]:
+        return frozenset({self.a.key, self.b.key})
 
 
 def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
@@ -67,122 +91,111 @@ def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     return 2 * r * math.asin(math.sqrt(a))
 
 
-def _has_explicit_reference(pge: SiteRecord, other: SiteRecord) -> bool:
-    """Best-effort text scan for a cross-reference already present in either record.
+def _explicit_reference(a: SiteRecord, b: SiteRecord) -> bool:
+    """Whether either record already names the other.
 
-    Not a guaranteed detector - absence of a hit just means normal scoring
-    applies, not that no real link exists. A real reference (a URL or ID one
-    source already lists pointing at the other) should outrank any computed
-    score, which is why this is checked before the role gate and full scoring.
+    PGE publishes an `ffvl_site_id` column, so for some sources this is a real
+    structured cross-reference rather than a text heuristic. A reference that
+    already exists outranks anything geometry can infer.
     """
-    pge_text = str(pge.raw.get("description", "")).lower()
-    if other.id.lower() in pge_text or (other.name and other.name.lower() in pge_text):
-        return True
+    for owner, other in ((a, b), (b, a)):
+        declared = owner.raw.get(f"{other.provider}_site_id")
+        if declared and str(declared).strip() not in ("", "0") and str(declared) == other.id:
+            return True
+    return False
 
-    other_text = " ".join(str(v) for v in other.raw.values() if isinstance(v, str)).lower()
-    return "paraglidingearth" in other_text or str(pge.id).lower() in other_text
+
+def _band_for(score: float) -> Band:
+    if score >= AUTO_LINK_THRESHOLD:
+        return Band.AUTO_LINKED
+    if score >= FLAGGED_THRESHOLD:
+        return Band.FLAGGED
+    if score >= CANDIDATE_THRESHOLD:
+        return Band.CANDIDATE
+    return Band.DISCARDED
 
 
-def _score_pair(pge: SiteRecord, other: SiteRecord) -> tuple[float, MatchComponents, str] | None:
-    distance_m = haversine_m(pge.lat, pge.lon, other.lat, other.lon)
+def score_pair(a: SiteRecord, b: SiteRecord) -> ScoredPair | None:
+    """Score one pair, or None if a hard gate disqualifies it."""
+    if a.provider == b.provider:
+        return None
+
+    distance_m = haversine_m(a.lat, a.lon, b.lat, b.lon)
     if distance_m > _CANDIDATE_RADIUS_M:
         return None
 
-    if _has_explicit_reference(pge, other):
-        components = MatchComponents(
-            distance_m=round(distance_m, 1),
-            distance_score=1.0,
-            orientation_score=1.0,
-            name_score=1.0,
-            altitude_score=1.0,
-        )
-        return 1.0, components, "explicit_reference"
+    if _explicit_reference(a, b):
+        components = MatchComponents(round(distance_m, 1), 1.0, None, None, None)
+        return ScoredPair(a, b, 1.0, Band.AUTO_LINKED, components, "explicit_reference")
 
-    if pge.role != other.role:
+    if a.role != b.role:
         return None
 
     distance_score = max(0.0, 1 - distance_m / _DISTANCE_DECAY_M)
+    weighted = [(_WEIGHT_DISTANCE, distance_score)]
 
-    if pge.orientation and other.orientation:
-        union = pge.orientation | other.orientation
-        orientation_score = len(pge.orientation & other.orientation) / len(union) if union else 0.5
-    else:
-        orientation_score = 0.5
+    orientation_score = None
+    if a.orientation and b.orientation:
+        union = a.orientation | b.orientation
+        orientation_score = len(a.orientation & b.orientation) / len(union)
+        weighted.append((_WEIGHT_ORIENTATION, orientation_score))
 
-    name_score = fuzz.token_sort_ratio(pge.name, other.name) / 100 if pge.name and other.name else 0.5
+    name_score = None
+    if a.name and b.name:
+        name_score = fuzz.token_sort_ratio(a.name, b.name) / 100
+        weighted.append((_WEIGHT_NAME, name_score))
 
-    if pge.altitude is not None and other.altitude is not None:
-        altitude_score = max(0.0, 1 - abs(pge.altitude - other.altitude) / _ALTITUDE_DECAY_M)
-    else:
-        altitude_score = 0.5
+    altitude_score = None
+    if a.altitude is not None and b.altitude is not None:
+        altitude_score = max(0.0, 1 - abs(a.altitude - b.altitude) / _ALTITUDE_DECAY_M)
+        weighted.append((_WEIGHT_ALTITUDE, altitude_score))
 
-    score = (
-        _WEIGHT_DISTANCE * distance_score
-        + _WEIGHT_ORIENTATION * orientation_score
-        + _WEIGHT_NAME * name_score
-        + _WEIGHT_ALTITUDE * altitude_score
-    )
-    if pge.country and other.country and pge.country != other.country:
+    total_weight = sum(w for w, _ in weighted)
+    score = sum(w * s for w, s in weighted) / total_weight
+
+    if a.country and b.country and a.country != b.country:
         score -= _COUNTRY_MISMATCH_PENALTY
     score = min(1.0, max(0.0, score))
 
     components = MatchComponents(
         distance_m=round(distance_m, 1),
         distance_score=round(distance_score, 3),
-        orientation_score=round(orientation_score, 3),
-        name_score=round(name_score, 3),
-        altitude_score=round(altitude_score, 3),
+        orientation_score=round(orientation_score, 3) if orientation_score is not None else None,
+        name_score=round(name_score, 3) if name_score is not None else None,
+        altitude_score=round(altitude_score, 3) if altitude_score is not None else None,
     )
-    return score, components, "computed"
+    return ScoredPair(a, b, round(score, 3), _band_for(score), components)
 
 
-def _band_for(score: float) -> Band:
-    if score >= _AUTO_LINK_THRESHOLD:
-        return Band.AUTO_LINKED
-    if score >= _FLAGGED_THRESHOLD:
-        return Band.FLAGGED
-    if score >= _CANDIDATE_THRESHOLD:
-        return Band.CANDIDATE
-    return Band.DISCARDED
+def _cell(record: SiteRecord) -> tuple[int, int]:
+    return int(math.floor(record.lat / _CELL_DEG)), int(math.floor(record.lon / _CELL_DEG))
 
 
-def match(pge_sites: list[SiteRecord], other_sites: list[SiteRecord]) -> MatchResult:
-    """Score every candidate pair, then resolve the linkable bands 1:1 greedily.
+def scored_pairs(records: list[SiteRecord]) -> Iterator[ScoredPair]:
+    """Every pair that survives the gates, found via a coarse spatial index.
 
-    Candidate-band pairs (0.30-0.55) are not subject to mutual exclusion -
-    they aren't assertions of truth, so a site may appear in more than one.
-    `unmatched` is source sites with zero gate-surviving candidates at all
-    (nothing within range/role), distinct from ones that scored too low to
-    keep (those are just dropped, not backlogged - a nearby low-scoring
-    candidate means PGE likely already has *something* there).
+    Comparing 11k+ records naively is ~65M pairs; bucketing by ~1km cell and
+    only visiting neighbouring cells keeps it near-linear.
     """
-    scored: list[Match] = []
-    matched_other_ids: set[str] = set()
+    grid: dict[tuple[int, int], list[SiteRecord]] = defaultdict(list)
+    for record in records:
+        grid[_cell(record)].append(record)
 
-    for pge in pge_sites:
-        for other in other_sites:
-            result = _score_pair(pge, other)
-            if result is None:
-                continue
-            matched_other_ids.add(other.id)
-            score, components, provenance = result
-            scored.append(Match(pge, other, score, _band_for(score), components, provenance))
+    seen: set[frozenset[str]] = set()
+    for (lat_cell, lon_cell), bucket in grid.items():
+        neighbourhood: list[SiteRecord] = []
+        for dlat in range(-_LAT_NEIGHBOURS, _LAT_NEIGHBOURS + 1):
+            for dlon in range(-_LON_NEIGHBOURS, _LON_NEIGHBOURS + 1):
+                neighbourhood.extend(grid.get((lat_cell + dlat, lon_cell + dlon), ()))
 
-    linkable = sorted(
-        (m for m in scored if m.band in (Band.AUTO_LINKED, Band.FLAGGED)),
-        key=lambda m: m.confidence,
-        reverse=True,
-    )
-    claimed_pge: set[str] = set()
-    claimed_other: set[str] = set()
-    linked: list[Match] = []
-    for m in linkable:
-        if m.pge_site.id in claimed_pge or m.source_site.id in claimed_other:
-            continue
-        claimed_pge.add(m.pge_site.id)
-        claimed_other.add(m.source_site.id)
-        linked.append(m)
-
-    candidates = [m for m in scored if m.band is Band.CANDIDATE]
-    unmatched = [site for site in other_sites if site.id not in matched_other_ids]
-    return MatchResult(linked=linked, candidates=candidates, unmatched=unmatched)
+        for record in bucket:
+            for other in neighbourhood:
+                if record.key == other.key:
+                    continue
+                pair_key = frozenset({record.key, other.key})
+                if pair_key in seen:
+                    continue
+                seen.add(pair_key)
+                pair = score_pair(record, other)
+                if pair is not None and pair.band is not Band.DISCARDED:
+                    yield pair

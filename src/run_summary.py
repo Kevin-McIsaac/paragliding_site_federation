@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from src.matcher import Band, MatchResult
+from src.matcher import Band, ScoredPair
 
 _ANOMALY_DROP_FRACTION = 0.20
 
@@ -23,17 +23,22 @@ class RunHealth:
 
 
 def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> RunHealth:
-    """Abort-worthy check: a source's record count crashing usually means an
-    outage or an empty/error response, not that most sites vanished."""
-    notes = []
+    """A source's record count crashing almost always means an outage or an
+    error page parsed as an empty result - not that most sites disappeared.
+    Aborting beats opening a PR that proposes deleting a country."""
+    notes: list[str] = []
     ok = True
     for s in stats:
+        if s.skipped_unchanged:
+            continue
         previous = previous_counts.get(s.name)
         if previous and previous > 0:
             drop = (previous - s.record_count) / previous
             if drop > _ANOMALY_DROP_FRACTION:
                 ok = False
-                notes.append(f"{s.name}: record count dropped {drop:.0%} ({previous} -> {s.record_count})")
+                notes.append(
+                    f"{s.name}: record count dropped {drop:.0%} ({previous} -> {s.record_count})"
+                )
     if ok:
         notes.append("Record counts within normal range for all sources.")
     return RunHealth(ok=ok, notes=notes)
@@ -43,16 +48,16 @@ def build_pr(
     *,
     run_id: str,
     stats: list[SourceStats],
-    result: MatchResult,
-    link_counts: dict[str, int],
+    site_counts: dict[str, int],
+    merged_clusters: int,
+    review: list[ScoredPair],
     health: RunHealth,
 ) -> tuple[str, str]:
-    flagged = [m for m in result.linked if m.band is Band.FLAGGED]
-    auto = [m for m in result.linked if m.band is Band.AUTO_LINKED]
+    flagged = [p for p in review if p.band is Band.FLAGGED]
 
     title = (
-        f"Sync {run_id}: +{len(auto)} linked, {len(flagged)} need review, "
-        f"{len(result.candidates)} new candidates"
+        f"Sync {run_id}: {site_counts['sites']} sites, "
+        f"{merged_clusters} merged, {len(review)} to review"
     )
 
     lines = [
@@ -68,29 +73,27 @@ def build_pr(
 
     lines += [
         "",
-        "**Changes**",
-        f"- {link_counts.get('added', 0)} new links",
-        f"- {len(flagged)} flagged for review",
-        f"- {len(result.candidates)} candidates",
-        f"- {link_counts.get('unchanged', 0)} existing links unchanged",
-        f"- {link_counts.get('skipped_rejected', 0)} previously-rejected matches skipped",
+        "**Canonical dataset**",
+        f"- {site_counts['sites']} canonical sites across {site_counts['countries']} countries",
+        f"- {merged_clusters} sites backed by more than one source",
+        f"- {site_counts['written']} country files changed, {site_counts['unchanged']} unchanged",
     ]
 
-    if flagged:
-        lines += ["", "**Needs your attention**"]
-        for i, m in enumerate(flagged, start=1):
+    if review:
+        lines += ["", f"**Needs your attention** — {len(review)} pairs ({len(flagged)} flagged)"]
+        for i, p in enumerate(review[:20], start=1):
             lines.append(
-                f'{i}. PGE "{m.pge_site.name}" ↔ {m.source_site.provider} "{m.source_site.name}" '
-                f"— {m.confidence:.2f}"
+                f'{i}. "{p.a.name}" ({p.a.provider}) ↔ "{p.b.name}" ({p.b.provider}) '
+                f"— {p.confidence:.2f}, {p.components.distance_m:.0f}m"
             )
+        if len(review) > 20:
+            lines.append(f"...and {len(review) - 20} more in `review.json`.")
+        lines += [
+            "",
+            "To decline a merge permanently, add the pair to `rejections.json`.",
+        ]
 
-    lines += [
-        "",
-        f"**Unmatched** — {len(result.unmatched)} source sites with no PGE site within range "
-        "(worklist for possible new PGE submissions, not auto-created)",
-        "",
-        "**Run health**",
-    ]
+    lines += ["", "**Run health**"]
     lines += [f"- {note}" for note in health.notes]
 
     return title, "\n".join(lines)

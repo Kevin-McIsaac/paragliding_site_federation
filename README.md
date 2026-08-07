@@ -1,94 +1,127 @@
 # Paragliding Site Federation
 
-Cross-references national paragliding site guides against
-[ParaglidingEarth](https://www.paraglidingearth.com) (PGE) and proposes the
-resulting links as reviewed pull requests — never written directly into PGE
-or any other guide.
+Merges national paragliding site guides with
+[ParaglidingEarth](https://www.paraglidingearth.com) (PGE) into one canonical
+dataset, published as reviewed pull requests. Nothing is ever written back
+into PGE or any other guide.
 
 ## Why
 
 PGE is global and community-maintained, but several countries run their own
-better-curated guides. This project links those guides to their PGE
-counterparts so the connections are visible and, eventually, could be
-proposed back to PGE's maintainers for the whole community's benefit. v1
-covers exactly two sources — PGE and [Site Guide AU](https://siteguide.org.au)
-— scoped to Australia, since that's the only region both currently cover.
-Other national guides (DHV, FFVL, Flyland, BHPA) are follow-on work once each
-is confirmed to expose usable public data; none have been checked yet.
+better-curated guides. An earlier design treated PGE as the spine and only
+recorded cross-references to it — until the first real run showed **135 of 245
+Site Guide AU launches have no PGE counterpart at all**. Under that design
+they were invisible to the app indefinitely, waiting on a PGE submission
+process nobody controls.
+
+So PGE is now just another source. The pipeline's output *is* the integrated
+dataset. Coverage is the union of every source, not the intersection with PGE.
+
+v1 covers PGE (global) and [Site Guide AU](https://siteguide.org.au). DHV,
+FFVL, Flyland and BHPA are follow-on adapters; none have been checked for
+usable public data yet. PGE publishes an `ffvl_site_id` column, so an FFVL
+adapter should match on that directly rather than on geometry.
 
 ## How it works
 
-A scheduled GitHub Action re-fetches both sources, matches sites, and opens a
-single pull request per run summarizing what changed. Merging the PR is the
-actual publish step — nothing is written anywhere until a human approves it.
+A scheduled GitHub Action re-fetches every source, matches and merges, and
+opens one pull request per run. Merging the PR is the publish step.
 
 ### Matching
 
-Two records are compared only if they're the same role (launch/landing) and
-within 750m of each other — beyond that they're never even scored. An
-explicit cross-reference already present in either record (an ID or URL
-pointing at the other) short-circuits straight to a confirmed match,
-bypassing the role gate. Otherwise, four signals combine into a 0–1
-confidence score:
+Two records are compared only if they come from **different** sources (one
+guide listing several launches at a site is a deliberate distinction, not a
+duplicate), share a role (launch/landing), and sit within 750m. Four signals
+combine into a 0–1 confidence score:
 
 | Signal | Weight | Notes |
 |---|---|---|
 | Distance | 0.45 | Linear decay to 0 at 500m |
-| Wind orientation overlap | 0.25 | Neutral (0.5) if either side lacks the data |
-| Name similarity | 0.20 | Fuzzy match; neutral if a name is missing |
-| Altitude difference | 0.10 | Neutral if either side lacks the data |
+| Wind orientation overlap | 0.25 | |
+| Name similarity | 0.20 | Fuzzy, token-sorted |
+| Altitude difference | 0.10 | |
 
-Minus 0.15 if the two records report different countries. Many-candidates
-per site are resolved to a clean 1:1 assignment greedily (highest score
-claims first) — but only within the linkable bands; low-confidence
-candidates aren't mutually exclusive, since they're not assertions of truth.
+**Weights are renormalized over the signals actually available for a pair.**
+Substituting a neutral 0.5 for missing data (the original approach) meant Site
+Guide AU publishing no wind orientation left 0.35 of the weight permanently
+neutral, capping even a zero-distance identical-name match near 0.82 and
+pushing 66 of 79 real matches into manual review. Scoring a pair on what is
+known about it fixed that.
 
-**Bands**: ≥0.80 auto-linked · 0.55–0.80 auto-linked but flagged for review ·
-0.30–0.55 recorded as a candidate, not linked · below 0.30 discarded
-entirely.
+Minus 0.15 if the two records disagree on country. An explicit cross-reference
+already present in either record short-circuits to a confirmed match.
 
-### File format
+**Bands**: ≥0.80 merges · 0.30–0.80 becomes a review item · below 0.30 is
+discarded.
 
-One link = one file: `links/<pge_id>__<source>-<source_id>.json`, containing
-the two sides' identity, the match status/confidence/component breakdown,
-and `last_changed_run` (only bumped when content actually changes, so an
-unrelated run's diff stays clean). Candidates live in `links/candidates/`.
+### Clustering
 
-Rejecting a match is a **tombstone**, not a deletion — set
-`"status": "rejected"` with a `"rejected_reason"` and leave the file in
-place. The pipeline skips any pair with an existing rejected tombstone, so a
-declined match doesn't reappear on the next run. Promoting a candidate means
-moving its file into `links/` with `"status": "manual_linked"`.
+Records merge into a canonical site only if each one clears 0.80 against
+**every** existing member, not just one. Without that, A~B and B~C silently
+chain three distinct launches into a single site. Pairs that would only have
+linked transitively become review items instead.
 
-Source sites with no PGE candidate at all (nothing survives the gates) go to
-`unmatched/current.jsonl` — a plain worklist, not per-file, since there's
-nothing to review-and-decide yet. It's the seed list for eventually
-proposing genuinely new PGE sites.
+### Record selection
 
-## Licensing — must be checked before enabling real runs
+Whole-record wins: one source is selected per cluster (a national guide
+outranks PGE inside its own country), and its values are used — but **any
+field it leaves empty falls back to the next source**, recorded in
+`field_sources`.
 
-Both PGE and Site Guide AU expose key-less public read APIs that
-[the_paragliding_app](https://github.com/Kevin-McIsaac/the_paragliding_app)
-already consumes for on-screen display. That does not automatically cover republishing *derived* link data
-in a public repo, or eventually proposing it back to PGE. **Confirm this with
-each source's maintainers before merging the first real PR** — this is a
-manual/outreach task, not something resolvable by reading a terms page.
+That gap-fill is load-bearing, not polish. Site Guide AU publishes no wind
+orientation at all, while the app feeds `windDirections` straight into its
+flyability calculation. Strict whole-record selection would blank out
+flyability on precisely the sites this project set out to improve.
 
-- [ ] PGE — confirmed OK to cross-reference and publish derived links
-- [ ] Site Guide AU — confirmed OK to cross-reference and publish derived links
+### Output
+
+`sites/<cc>.json`, one file per country, sorted by canonical id. One file per
+site would be 11.7k files (unusable in GitHub's diff view); one global file
+would make every change a whole-file rewrite.
+
+Canonical ids (`PSF-000001`) are stable and never reused — the app's flight
+history references them, so churn is data loss. `state/id_registry.json` maps
+every source key to its id. A cluster inherits the lowest id among its known
+members; when a cluster splits, the first half assigned keeps the id and the
+rest get fresh ones.
+
+`review.json` holds pairs worth a look — near-misses and transitive-only
+links. To decline a merge permanently, add the pair to `rejections.json`:
+
+```json
+[{"a": "pge:4632", "b": "siteguide_au:106-28",
+  "reason": "distinct N- and S-facing launches on the same ridge"}]
+```
+
+Without that, a rejected match is re-proposed every run, forever.
+
+## Licensing — must be resolved before the app ships
+
+This publishes a *merged, derived* dataset intended to become the app's
+primary source. Both PGE and Site Guide AU expose key-less public read APIs
+that [the_paragliding_app](https://github.com/Kevin-McIsaac/the_paragliding_app)
+already consumes for display, but that does not by itself cover
+redistribution. Confirm with each source's maintainers before the app switches
+over.
+
+- [ ] PGE — confirmed OK to redistribute derived/merged data
+- [ ] Site Guide AU — confirmed OK to redistribute derived/merged data
 
 ## Running locally
 
 ```bash
 pip install -e ".[dev]"
-pytest                        # unit tests, no network required
+pytest                                    # 45 tests, no network
 
-python -m src.pipeline --dry-run   # fetch + match against the real APIs, write nothing
-python -m src.pipeline             # writes links/, unmatched/, state/, and .pr/ (for CI)
+python -m src.pipeline --dry-run --scope au   # fast: Australia only
+python -m src.pipeline --dry-run               # global, ~60s (one big PGE fetch)
+python -m src.pipeline                         # writes sites/, review.json, state/
 ```
+
+`--force` ignores the Site Guide version gate and refetches regardless.
 
 ## CI
 
-`.github/workflows/sync.yml` runs the pipeline weekly (and on manual
-dispatch), opens a PR from `.pr/title.txt` and `.pr/body.md` if
-`.pr/has_changes.txt` says `true`, and skips the PR step entirely otherwise.
+`.github/workflows/sync.yml` runs weekly and on manual dispatch, opening a PR
+only when something changed. A source whose record count drops more than 20%
+run-over-run aborts the whole run rather than proposing to delete a country.

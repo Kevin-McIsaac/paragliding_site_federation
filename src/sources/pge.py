@@ -1,11 +1,11 @@
-"""ParaglidingEarth adapter — public GeoJSON bounding-box endpoint, no API key.
+"""ParaglidingEarth adapter — the whole world in a single request.
 
-Endpoint and response shape verified against the existing Dart client in
-the_paragliding_app (lib/services/paragliding_earth_api.dart), which already
-calls this in production. A single request over the whole Australia bounding
-box was observed returning far fewer sites than a country that size should
-have, so this tiles the requested box into a grid and dedupes results by id
-across tile edges rather than trusting one request to return everything.
+`getBoundingBoxSites.php` with a -90/90, -180/180 box returns the complete
+dataset (11,437 sites across 137 countries when this was written). Verified
+complete rather than truncated by comparing against the per-country endpoint
+`getCountrySites.php?iso=au`: 238 vs 239 for Australia. This is the same call
+bin/fetch_pge_sites.sh in the app repo has always used to build the bundled
+world CSV, so it is well-proven.
 """
 
 from __future__ import annotations
@@ -15,56 +15,47 @@ import httpx
 from src.model import BoundingBox, SiteRecord
 
 _BASE_URL = "https://www.paraglidingearth.com/api/geojson/getBoundingBoxSites.php"
-_TIMEOUT = 15.0
-_TILE_LIMIT = 500
+_TIMEOUT = 120.0
 _LANDING_MARKERS = ("landing", "atterrissage", "landeplatz")
 _DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
+_FLAGS = ("thermals", "soaring", "xc", "winch", "flatland", "hanggliding", "paragliding")
 
 
 class PgeSource:
     name = "pge"
 
-    def __init__(self, *, grid: int = 4, client: httpx.Client | None = None) -> None:
-        self._grid = grid
+    def __init__(self, *, client: httpx.Client | None = None) -> None:
         self._client = client or httpx.Client(timeout=_TIMEOUT)
 
     def fetch(self, bbox: BoundingBox) -> list[SiteRecord]:
-        seen: dict[str, SiteRecord] = {}
-        for tile in _tiles(bbox, self._grid):
-            for record in self._fetch_tile(tile):
-                seen[record.id] = record
-        return list(seen.values())
-
-    def _fetch_tile(self, tile: BoundingBox) -> list[SiteRecord]:
         response = self._client.get(
             _BASE_URL,
             params={
-                "north": tile.north,
-                "south": tile.south,
-                "east": tile.east,
-                "west": tile.west,
-                "limit": _TILE_LIMIT,
+                "north": bbox.north,
+                "south": bbox.south,
+                "east": bbox.east,
+                "west": bbox.west,
                 "style": "detailled",
             },
         )
         response.raise_for_status()
         features = response.json().get("features", [])
-        return [record for f in features if (record := _parse_feature(f)) is not None]
+        return [r for f in features if (r := _parse_feature(f)) is not None]
 
 
-def _tiles(bbox: BoundingBox, grid: int) -> list[BoundingBox]:
-    lat_step = (bbox.north - bbox.south) / grid
-    lon_step = (bbox.east - bbox.west) / grid
-    return [
-        BoundingBox(
-            south=bbox.south + row * lat_step,
-            north=bbox.south + (row + 1) * lat_step,
-            west=bbox.west + col * lon_step,
-            east=bbox.west + (col + 1) * lon_step,
-        )
-        for row in range(grid)
-        for col in range(grid)
-    ]
+def _num(value) -> float | None:
+    try:
+        result = float(value)
+    except (TypeError, ValueError):
+        return None
+    return result if result != 0.0 else None
+
+
+def _text(value) -> str | None:
+    if value is None:
+        return None
+    stripped = str(value).strip()
+    return stripped or None
 
 
 def _parse_feature(feature: dict) -> SiteRecord | None:
@@ -74,31 +65,36 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
     if not coordinates or len(coordinates) < 2:
         return None
 
-    lon, lat = coordinates[0], coordinates[1]
-    altitude = coordinates[2] if len(coordinates) > 2 else None
+    lon, lat = _num(coordinates[0]), _num(coordinates[1])
+    if lat is None or lon is None:
+        return None
 
-    site_id = str(
-        feature.get("id") or properties.get("id") or properties.get("_id") or f"{lat:.6f},{lon:.6f}"
-    )
-    name = str(properties.get("name") or "Unknown site")
-    role = "landing" if any(marker in name.lower() for marker in _LANDING_MARKERS) else "launch"
+    site_id = _text(properties.get("pge_site_id")) or _text(feature.get("id"))
+    if site_id is None:
+        return None
 
-    orientation = frozenset(
-        direction for direction in _DIRECTIONS if str(properties.get(direction)) in ("1", "2")
-    )
+    name = _text(properties.get("name")) or "Unknown site"
+    role = "landing" if any(m in name.lower() for m in _LANDING_MARKERS) else "launch"
 
-    country_code = properties.get("countryCode")
-    country = str(country_code).upper() if country_code else None
+    orientation = frozenset(d for d in _DIRECTIONS if str(properties.get(d)) in ("1", "2"))
+    flags = frozenset(f for f in _FLAGS if str(properties.get(f)) in ("1", "2", "true", "True"))
+
+    country_code = _text(properties.get("countryCode"))
 
     return SiteRecord(
         provider="pge",
         id=site_id,
         name=name,
         role=role,
-        lat=float(lat),
-        lon=float(lon),
-        altitude=float(altitude) if altitude is not None else None,
+        lat=lat,
+        lon=lon,
+        altitude=_num(properties.get("takeoff_altitude")) or (_num(coordinates[2]) if len(coordinates) > 2 else None),
+        country=country_code.upper() if country_code else None,
         orientation=orientation,
-        country=country,
+        description=_text(properties.get("takeoff_description")),
+        landing_lat=_num(properties.get("landing_lat")),
+        landing_lon=_num(properties.get("landing_lng")),
+        url=_text(properties.get("pge_link")),
+        flags=flags,
         raw=properties,
     )

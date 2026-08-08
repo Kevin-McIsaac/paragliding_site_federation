@@ -72,7 +72,7 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
         "id", "name", "longitude", "latitude", "altitude", "country",
         "wind_n", "wind_ne", "wind_e", "wind_se",
         "wind_s", "wind_sw", "wind_w", "wind_nw",
-        "source",
+        "source", "closed",
     ]
     assert rows[0]["wind_n"] == "1" and rows[0]["wind_ne"] == "2"
     assert rows[0]["source"] == "pge:1"
@@ -89,7 +89,7 @@ def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
 
     assert path.read_text().splitlines()[0] == (
         "id,name,longitude,latitude,altitude,country,"
-        "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source"
+        "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source,closed"
     )
 
 
@@ -225,3 +225,35 @@ def test_report_leads_with_merged_and_unmerged_counts():
 
 def test_counts_are_omitted_when_merge_total_is_unknown():
     assert "merged automatically" not in render([])
+
+
+def test_a_closed_site_is_kept_and_flagged(tmp_path):
+    """Dropping closed sites left the other guides' entries for the same place
+    on the map as ordinary launches, with nothing to say it was shut - making
+    the merged dataset less safe than either source alone."""
+    path = tmp_path / "sites.csv"
+    shut = record("siteguide_au", "a", closed="Closed awaiting a council agreement")
+
+    write_app_csv([_select(shut)], path)
+
+    row = list(csv.DictReader(path.read_text().splitlines()))[0]
+    assert row["closed"] == "Closed awaiting a council agreement"
+
+
+def test_one_guide_calling_a_site_closed_is_enough(tmp_path):
+    """The warning must survive even when the guide that raised it lost every
+    other field to a higher-ranked source."""
+    au = record("siteguide_au", "a", closed="Closed: council agreement pending")
+    pge = record("pge", "1", name="Still listed as open", closed=None)
+
+    site = _select(au, pge)
+    assert site.closed == "Closed: council agreement pending"
+
+    other_way = _select(pge, au)
+    assert other_way.closed == "Closed: council agreement pending"
+
+
+def test_an_open_site_has_an_empty_closed_field(tmp_path):
+    path = tmp_path / "sites.csv"
+    write_app_csv([_select(record("pge", "1"))], path)
+    assert list(csv.DictReader(path.read_text().splitlines()))[0]["closed"] == ""

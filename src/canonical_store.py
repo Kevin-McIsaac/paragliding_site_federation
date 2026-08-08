@@ -19,16 +19,12 @@ SITES_DIR = Path("sites")
 APP_CSV = Path("app/sites.csv")
 _UNKNOWN = "xx"
 
-# Column order is dictated by the app, which parses this file *positionally*
-# (pge_sites_download_service._parseCsvLine) - so it deliberately matches the
-# PGE-only asset it replaces, field for field, with `source` taking the slot
-# `last_edit` used to occupy.
-#
-# Longitude before latitude looks wrong and is kept anyway. Reordering them
-# parses perfectly cleanly and silently puts every site in the wrong
-# hemisphere, which no row count or import log would catch. Changing this
-# means changing the app parser in the same commit, and spot-checking real
-# coordinates afterwards.
+# The app reads this by column *name*, so order is not load-bearing. It used
+# to be: the app split on newlines and read fixed indices, which made
+# longitude-before-latitude a permanent trap - swap them and every site lands
+# in the wrong hemisphere while still parsing cleanly. The order below is kept
+# only because it matches the asset this replaced, which makes a diff between
+# two versions of the file far easier to read.
 #
 # No url column: every source page is derivable from `source`
 # (pge:4632 -> paraglidingearth.com/?site=4632,
@@ -42,6 +38,7 @@ CSV_COLUMNS = [
     "country",
     *(f"wind_{d.lower()}" for d in DIRECTIONS),
     "source",
+    "closed",
 ]
 
 
@@ -86,21 +83,42 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
     for site in sorted(sites, key=lambda s: s.id):
         row = [
             str(site.numeric_id),
-            site.name,
+            _lf(site.name),
             f"{site.lon:.6f}",
             f"{site.lat:.6f}",
             "" if site.altitude is None else f"{site.altitude:.0f}",
             (site.country or "").lower(),
             *(str(site.wind.get(d, 0)) for d in DIRECTIONS),
             ";".join(f"{p}:{i}" for p, i in sorted(site.sources.items())),
+            _lf(site.closed or ""),
         ]
         lines.append(_csv_row(row))
     content = "\n".join(lines) + "\n"
 
-    if target.exists() and target.read_text() == content:
+    # Compared as bytes, and written as bytes. read_text() applies universal
+    # newline translation, so a file holding CRLF reads back as LF and
+    # compares equal to freshly generated LF content - the check reported
+    # "unchanged" while the bytes on disk differed, and the file was never
+    # rewritten. write_text() would translate on the way out too.
+    encoded = content.encode()
+    if target.exists() and target.read_bytes() == encoded:
         return False
-    target.write_text(content)
+    target.write_bytes(encoded)
     return True
+
+
+def _lf(value: str) -> str:
+    """Normalise line endings to LF, keeping the line breaks themselves.
+
+    Some guide prose arrives with Windows endings. Git rewrites CRLF to LF on
+    checkout, so the file on disk would differ from the one the pipeline just
+    produced - the idempotency check would see a change every run and rewrite
+    it, putting a spurious diff in the pull request every week.
+
+    This is not the same as flattening: paragraphs survive, and the app's CSV
+    parser reads them.
+    """
+    return value.replace("\r\n", "\n").replace("\r", "\n")
 
 
 def _csv_row(values: list[str]) -> str:

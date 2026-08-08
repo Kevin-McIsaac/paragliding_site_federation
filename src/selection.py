@@ -42,6 +42,11 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
     if altitude is None:
         altitude = next((m.altitude for m in ordered[1:] if m.altitude is not None), None)
 
+    # Closure is the one field not taken from the winner. One guide knowing a
+    # site is shut is reason enough to say so - a pilot wants the warning even
+    # if the guide that raised it lost on every other field.
+    closed = next((m.closed for m in ordered if m.closed), None)
+
     return CanonicalSite(
         id=registry.assign(cluster.keys),
         name=winner.name,
@@ -53,4 +58,5 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
         altitude=altitude,
         country=country,
         url=winner.url,
+        closed=closed,
     )

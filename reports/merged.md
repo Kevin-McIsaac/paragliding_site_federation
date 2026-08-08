@@ -1,6 +1,6 @@
 # Merged launches
 
-- **81** launches backed by more than one source
+- **89** launches backed by more than one source
 
 Folded together because the sources place them within 250 m of each other. Distance is how far apart they
 actually were, so the largest values are the ones worth checking.
@@ -12,8 +12,10 @@ To change a decision, copy the whole **Override** cell and paste it inside the a
 |---|---|---:|---:|---|
 | [80 Meter Dunes](https://www.paraglidingearth.com/?site=10498) | [Wagga (80m dunes)](https://siteguide.org.au/sites/details/251) | 0 m | 45% | `{"a": "pge:10498", "b": "siteguide_au:251-274", "verdict": "never", "reason": ""}` |
 | [Mt Widgee](https://www.paraglidingearth.com/?site=11971) | [Mt. Widgee](https://siteguide.org.au/sites/details/17) | 0 m | 95% | `{"a": "pge:11971", "b": "siteguide_au:17-243", "verdict": "never", "reason": ""}` |
+| [The Range Toodyay](https://www.paraglidingearth.com/?site=6777) | [The Range, Toodyay](https://siteguide.org.au/sites/details/85) | 0 m | 97% | `{"a": "pge:6777", "b": "siteguide_au:85-164", "verdict": "never", "reason": ""}` |
 | [Crackneck Lookout](https://www.paraglidingearth.com/?site=7270) | [Crackneck Lookout](https://siteguide.org.au/sites/details/123) | 0 m | 100% | `{"a": "pge:7270", "b": "siteguide_au:123-244", "verdict": "never", "reason": ""}` |
 | [Shelley Beach](https://www.paraglidingearth.com/?site=10096) | [Shelley Beach - Shelley Beach Launch](https://siteguide.org.au/sites/details/237) | 1 m | 100% | `{"a": "pge:10096", "b": "siteguide_au:237-271", "verdict": "never", "reason": ""}` |
+| [Sunnyside](https://www.paraglidingearth.com/?site=13715) | [Sunnyside](https://siteguide.org.au/sites/details/180) | 3 m | 100% | `{"a": "pge:13715", "b": "siteguide_au:180-102", "verdict": "never", "reason": ""}` |
 | [Long Reef SE](https://www.paraglidingearth.com/?site=18779) | [Long Reef SE](https://siteguide.org.au/sites/details/130) | 4 m | 100% | `{"a": "pge:18779", "b": "siteguide_au:130-35", "verdict": "never", "reason": ""}` |
 | [Bells Beach](https://www.paraglidingearth.com/?site=13704) | [Bells Beach - Winkipop](https://siteguide.org.au/sites/details/145) | 7 m | 100% | `{"a": "pge:13704", "b": "siteguide_au:145-241", "verdict": "never", "reason": ""}` |
 | [Cooks Terrace](https://www.paraglidingearth.com/?site=10814) | [Cooks Terrace](https://siteguide.org.au/sites/details/126) | 7 m | 100% | `{"a": "pge:10814", "b": "siteguide_au:126-31", "verdict": "never", "reason": ""}` |
@@ -61,10 +63,13 @@ To change a decision, copy the whole **Override** cell and paste it inside the a
 | [Portsea](https://www.paraglidingearth.com/?site=14274) | [Portsea](https://siteguide.org.au/sites/details/177) | 56 m | 100% | `{"a": "pge:14274", "b": "siteguide_au:177-98", "verdict": "never", "reason": ""}` |
 | [Canberra, Lanyon](https://www.paraglidingearth.com/?site=10060) | [Lanyon](https://siteguide.org.au/sites/details/106) | 58 m | 100% | `{"a": "pge:10060", "b": "siteguide_au:106-28", "verdict": "never", "reason": ""}` |
 | [S.E Middle Brother](https://www.paraglidingearth.com/?site=11480) | [Middle brother - SE](https://siteguide.org.au/sites/details/122) | 58 m | 70% | `{"a": "pge:11480", "b": "siteguide_au:122-229", "verdict": "never", "reason": ""}` |
+| [Lennox Head](https://www.paraglidingearth.com/?site=4642) | [Lennox Head](https://siteguide.org.au/sites/details/255) | 58 m | 100% | `{"a": "pge:4642", "b": "siteguide_au:255-278", "verdict": "never", "reason": ""}` |
 | [Mt Ovens](https://www.paraglidingearth.com/?site=19536) | [Mount Ovens](https://siteguide.org.au/sites/details/139) | 58 m | 84% | `{"a": "pge:19536", "b": "siteguide_au:139-252", "verdict": "never", "reason": ""}` |
 | [mount Emu](https://www.paraglidingearth.com/?site=4653) | [Mt Emu - Emu 1](https://siteguide.org.au/sites/details/206) | 60 m | 53% | `{"a": "pge:4653", "b": "siteguide_au:206-76", "verdict": "never", "reason": ""}` |
 | [Teewah Launch](https://www.paraglidingearth.com/?site=15320) | [Teewah Beach](https://siteguide.org.au/sites/details/16) | 67 m | 80% | `{"a": "pge:15320", "b": "siteguide_au:16-236", "verdict": "never", "reason": ""}` |
+| [Mt Broughton - Thistle Hille](https://www.paraglidingearth.com/?site=6824) | [Mt Broughton (Thistle Hill)](https://siteguide.org.au/sites/details/201) | 68 m | 73% | `{"a": "pge:6824", "b": "siteguide_au:201-68", "verdict": "never", "reason": ""}` |
 | [Flinders](https://www.paraglidingearth.com/?site=14629) | [Flinders Golf Club](https://siteguide.org.au/sites/details/168) | 69 m | 100% | `{"a": "pge:14629", "b": "siteguide_au:168-57", "verdict": "never", "reason": ""}` |
+| [Canberra, Lake George, Geary\'s Gap](https://www.paraglidingearth.com/?site=4634) | [Lake George (Geary's Gap)](https://siteguide.org.au/sites/details/100) | 72 m | 63% | `{"a": "pge:4634", "b": "siteguide_au:100-24", "verdict": "never", "reason": ""}` |
 | [Rabbit Hill](https://www.paraglidingearth.com/?site=18622) | [Yallingup - Rabbit Hill](https://siteguide.org.au/sites/details/58) | 72 m | 100% | `{"a": "pge:18622", "b": "siteguide_au:58-139", "verdict": "never", "reason": ""}` |
 | [Corryong, Mt Elliot](https://www.paraglidingearth.com/?site=4650) | [Mt Elliot - Main launch (north-west)](https://siteguide.org.au/sites/details/205) | 77 m | 64% | `{"a": "pge:4650", "b": "siteguide_au:205-75", "verdict": "never", "reason": ""}` |
 | [Canberra, Spring Range](https://www.paraglidingearth.com/?site=4635) | [Spring Hill](https://siteguide.org.au/sites/details/104) | 88 m | 71% | `{"a": "pge:4635", "b": "siteguide_au:104-26", "verdict": "never", "reason": ""}` |
@@ -79,14 +84,17 @@ To change a decision, copy the whole **Override** cell and paste it inside the a
 | [NE Heaton](https://www.paraglidingearth.com/?site=13404) | [NNE Heaton Lookout](https://siteguide.org.au/sites/details/265) | 139 m | 80% | `{"a": "pge:13404", "b": "siteguide_au:265-297", "verdict": "never", "reason": ""}` |
 | [Mt Lonarch](https://www.paraglidingearth.com/?site=13702) | [Mt Lonarch](https://siteguide.org.au/sites/details/195) | 145 m | 100% | `{"a": "pge:13702", "b": "siteguide_au:195-80", "verdict": "never", "reason": ""}` |
 | [Marriners Lookout](https://www.paraglidingearth.com/?site=14608) | [Marriners Lookout](https://siteguide.org.au/sites/details/155) | 146 m | 100% | `{"a": "pge:14608", "b": "siteguide_au:155-65", "verdict": "never", "reason": ""}` |
+| [Table Rock SE](https://www.paraglidingearth.com/?site=13491) | [Table Rock](https://siteguide.org.au/sites/details/142) | 158 m | 100% | `{"a": "pge:13491", "b": "siteguide_au:142-255", "verdict": "never", "reason": ""}` |
+| [Mutton Bird Beach](https://www.paraglidingearth.com/?site=21422) | [Muttonbird Beach](https://siteguide.org.au/sites/details/234) | 167 m | 73% | `{"a": "pge:21422", "b": "siteguide_au:234-270", "verdict": "never", "reason": ""}` |
 | [Thirteenth Beach](https://www.paraglidingearth.com/?site=23028) | [Barwon Heads (13th Beach) - PG beach launch 30W](https://siteguide.org.au/sites/details/146) | 169 m | 32% | `{"a": "pge:23028", "b": "siteguide_au:146-248", "verdict": "never", "reason": ""}` |
 | [Cape Jervis](https://www.paraglidingearth.com/?site=11371) | [Cape Jervis](https://siteguide.org.au/sites/details/2) | 173 m | 100% | `{"a": "pge:11371", "b": "siteguide_au:2-217", "verdict": "never", "reason": ""}` |
 | [Ma Ma](https://www.paraglidingearth.com/?site=14800) | [Ma Ma Creek](https://siteguide.org.au/sites/details/259) | 174 m | 100% | `{"a": "pge:14800", "b": "siteguide_au:259-287", "verdict": "never", "reason": ""}` |
 | [Mt Ben Nevis](https://www.paraglidingearth.com/?site=13870) | [Ben Nevis](https://siteguide.org.au/sites/details/188) | 175 m | 100% | `{"a": "pge:13870", "b": "siteguide_au:188-67", "verdict": "never", "reason": ""}` |
 | [Sand Patch Peak](https://www.paraglidingearth.com/?site=21421) | [Sand Patch - Sandpatch](https://siteguide.org.au/sites/details/233) | 177 m | 80% | `{"a": "pge:21421", "b": "siteguide_au:233-269", "verdict": "never", "reason": ""}` |
 | [Beechmont](https://www.paraglidingearth.com/?site=6747) | [Beechmont - Rosin's Lookout](https://siteguide.org.au/sites/details/18) | 181 m | 100% | `{"a": "pge:6747", "b": "siteguide_au:18-284", "verdict": "never", "reason": ""}` |
-| [Mt Bakewell](https://www.paraglidingearth.com/?site=6724) | [Mount Bakewell (top launches)](https://siteguide.org.au/sites/details/86) | 190 m | 84% | `{"a": "pge:6724", "b": "siteguide_au:86-165", "verdict": "never", "reason": ""}` |
+| [Mt Bakewell (top launches)](https://www.paraglidingearth.com/?site=6724) | [Mount Bakewell (top launches)](https://siteguide.org.au/sites/details/86) | 190 m | 95% | `{"a": "pge:6724", "b": "siteguide_au:86-165", "verdict": "never", "reason": ""}` |
 | [Montecollum](https://www.paraglidingearth.com/?site=14586) | [Montes - Private Property - All pilots must be inducted and 'check-in' prior to entry.](https://siteguide.org.au/sites/details/258) | 200 m | 17% | `{"a": "pge:14586", "b": "siteguide_au:258-282", "verdict": "never", "reason": ""}` |
+| [Mosman Park, Perth](https://www.paraglidingearth.com/?site=4633) | [Mosman Park](https://siteguide.org.au/sites/details/69) | 200 m | 76% | `{"a": "pge:4633", "b": "siteguide_au:69-151", "verdict": "never", "reason": ""}` |
 | [Johanna](https://www.paraglidingearth.com/?site=11756) | [Johanna](https://siteguide.org.au/sites/details/152) | 221 m | 100% | `{"a": "pge:11756", "b": "siteguide_au:152-61", "verdict": "never", "reason": ""}` |
 | [S.W Middle Brother](https://www.paraglidingearth.com/?site=11482) | [Middle brother - SW](https://siteguide.org.au/sites/details/122) | 241 m | 70% | `{"a": "pge:11482", "b": "siteguide_au:122-230", "verdict": "never", "reason": ""}` |
 | [Hinchcliffe Launch](https://www.paraglidingearth.com/?site=13383) | [Hinchcliffe's (Hart's, Flattop)](https://siteguide.org.au/sites/details/21) | 242 m | 45% | `{"a": "pge:13383", "b": "siteguide_au:21-285", "verdict": "never", "reason": ""}` |

@@ -96,8 +96,12 @@ def _text(value) -> str | None:
 
 
 def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
-    if site.get("closed"):
-        return []
+    # `closed` is free text, not a flag: "November 2025: Currently closed
+    # awaiting new site agreement to be finalised with council." It is carried
+    # rather than used to drop the record - dropping it left PGE's entries for
+    # the same place on the map as ordinary launches, with nothing anywhere to
+    # say the site was shut.
+    site_closed = _text(site.get("closed"))
 
     site_name = _text(site.get("name")) or "Unknown site"
     site_conditions = site.get("conditions")
@@ -107,8 +111,6 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
 
     records: list[SiteRecord] = []
     for launch in site.get("launches") or []:
-        if launch.get("closed"):
-            continue
         lat, lon = launch.get("lat"), launch.get("lon")
         if lat is None or lon is None:
             continue
@@ -134,6 +136,8 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
                 altitude=altitude,
                 country="AU",
                 url=url,
+                # A launch can be shut while its site is open, and vice versa.
+                closed=_text(launch.get("closed")) or site_closed,
                 approximate_location=approximate,
                 group_id=str(site["id"]),
             )

@@ -128,7 +128,7 @@ those are distinct by definition.
 | [Somator - normale](https://www.paraglidingearth.com/?site=21515) | [Monte Biaena](https://www.paraglidingearth.com/?site=21517) | 109 m | 28% | E,NE,S,SE | S | `pge:21515 pge:21517` |
 | [big bird South](https://www.paraglidingearth.com/?site=10828) | [Big Bird  East](https://www.paraglidingearth.com/?site=10993) | 111 m | 44% | S,SE,SW | E,N,NE,S,SE,SW | `pge:10828 pge:10993` |
 | [Glover Park (G-spot)](https://www.paraglidingearth.com/?site=10805) | [Cliff Rd-Glover park](https://www.paraglidingearth.com/?site=17108) | 111 m | 55% | N,NE | N,NE | `pge:10805 pge:17108` |
-| [Quinns](https://www.paraglidingearth.com/?site=18680) | [Quinns Rocks](https://www.paraglidingearth.com/?site=21427) | 111 m | 100% | SW,W | NW,SW,W | `pge:18680 pge:21427` |
+| [Quinns Beach Launch](https://www.paraglidingearth.com/?site=18680) | [Quinns Rocks](https://www.paraglidingearth.com/?site=21427) | 111 m | 67% | SW,W | NW,SW,W | `pge:18680 pge:21427` |
 | [deco sud 1](https://www.paraglidingearth.com/?site=17860) | [Anguilla -deco sud2](https://www.paraglidingearth.com/?site=17861) | 113 m | 55% | S | S | `pge:17860 pge:17861` |
 | [Knocknarea](https://www.paraglidingearth.com/?site=11034) | [Knocknarea](https://www.paraglidingearth.com/?site=14357) | 118 m | 100% | N,NE,NW,S,SW,W | E,N,NE,NW,S,SW,W | `pge:11034 pge:14357` |
 | [Veselie](https://www.paraglidingearth.com/?site=18255) | [Veselie](https://www.paraglidingearth.com/?site=18429) | 119 m | 100% | SW | — | `pge:18255 pge:18429` |

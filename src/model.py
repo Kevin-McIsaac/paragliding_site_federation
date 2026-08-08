@@ -44,6 +44,15 @@ class SiteRecord:
     altitude: float | None = None
     country: str | None = None
     url: str | None = None
+    # Why a guide says this launch is shut, verbatim.
+    #
+    # Closed sites used to be dropped. That left the *other* guides' entries
+    # for the same place on the map as ordinary launches with nothing to say
+    # it was closed, making the merged dataset less safe than either source
+    # alone. Quinns Rocks is the case: the Australian guide has it closed
+    # pending a council agreement, PGE has two entries that do not know that,
+    # and the app showed only PGE's.
+    closed: str | None = None
     # Sites whose published coordinates are deliberately approximate, so
     # proximity to another source is coincidence rather than evidence.
     approximate_location: bool = False
@@ -71,6 +80,9 @@ class CanonicalSite:
     altitude: float | None = None
     country: str | None = None
     url: str | None = None
+    #: Set if *any* contributing guide says the launch is shut - one guide
+    #: knowing is enough for a pilot to want to know.
+    closed: str | None = None
 
     @property
     def numeric_id(self) -> int:

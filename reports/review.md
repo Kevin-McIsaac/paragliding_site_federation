@@ -1,7 +1,7 @@
 # Unmerged near-misses
 
-- **81** merged automatically (within 250 m)
-- **18** left unmerged but close, listed below
+- **89** merged automatically (within 250 m)
+- **19** left unmerged but close, listed below
 
 Nothing here needs action — this is a report, not a worklist. A run of
 true matches just past 250 m would mean the threshold is wrong for this
@@ -28,6 +28,7 @@ To change a decision, copy the whole **Override** cell and paste it inside the a
 | [Manilla, Mt Borah (NSW)](https://www.paraglidingearth.com/?site=4632) | [Manilla - Mt Borah - East launch](https://siteguide.org.au/sites/details/136) | 253 m | 64% | beyond merge threshold | `{"a": "pge:4632", "b": "siteguide_au:136-21", "verdict": "always", "reason": ""}` |
 | [Mt Cambewarra](https://www.paraglidingearth.com/?site=12158) | [Cambewarra](https://siteguide.org.au/sites/details/135) | 273 m | 100% | beyond merge threshold | `{"a": "pge:12158", "b": "siteguide_au:135-183", "verdict": "always", "reason": ""}` |
 | [Shoreham](https://www.paraglidingearth.com/?site=15405) | [Shoreham](https://siteguide.org.au/sites/details/179) | 274 m | 100% | beyond merge threshold | `{"a": "pge:15405", "b": "siteguide_au:179-100", "verdict": "always", "reason": ""}` |
+| [Canberra, Pig Hill](https://www.paraglidingearth.com/?site=4638) | [Pig Hill](https://siteguide.org.au/sites/details/105) | 284 m | 100% | beyond merge threshold | `{"a": "pge:4638", "b": "siteguide_au:105-27", "verdict": "always", "reason": ""}` |
 | [Greenhills - Penny's Tow Paddock, near York](https://www.paraglidingearth.com/?site=4658) | [York - Greenhills Towing - Penny's (Closed)](https://siteguide.org.au/sites/details/89) | 286 m | 76% | beyond merge threshold | `{"a": "pge:4658", "b": "siteguide_au:89-169", "verdict": "always", "reason": ""}` |
 | [Rainbow Beach](https://www.paraglidingearth.com/?site=4649) | [Rainbow Beach - Carlo Sand Blow](https://siteguide.org.au/sites/details/11) | 287 m | 100% | beyond merge threshold | `{"a": "pge:4649", "b": "siteguide_au:11-9", "verdict": "always", "reason": ""}` |
 | [Warriewood](https://www.paraglidingearth.com/?site=14223) | [Turimetta](https://siteguide.org.au/sites/details/128) | 331 m | 32% | beyond merge threshold | `{"a": "pge:14223", "b": "siteguide_au:128-33", "verdict": "always", "reason": ""}` |

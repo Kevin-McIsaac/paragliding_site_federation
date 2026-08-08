@@ -90,7 +90,8 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     merged_changed = reports.write_merged(result.clusters)
     review_changed = reports.write_review(result.review, merged)
     overrides_changed = reports.write_overrides(decisions.entries, records, result.forced_applied)
-    duplicates_changed = reports.write_duplicates(list(intra_source_pairs(records)))
+    duplicate_pairs = list(intra_source_pairs(records))
+    duplicates_changed = reports.write_duplicates(duplicate_pairs)
     overrides.ensure_exists()
     registry.save()
 
@@ -98,8 +99,12 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         run_id=run_id,
         stats=stats,
         site_counts=site_counts,
-        merged_clusters=merged,
+        clusters=result.clusters,
         review=result.review,
+        duplicates=duplicate_pairs,
+        override_entries=decisions.entries,
+        records=records,
+        forced_applied=result.forced_applied,
         health=health,
         no_wind=no_wind,
     )

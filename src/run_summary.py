@@ -1,14 +1,29 @@
-"""Builds the PR title/body and the run-health anomaly check."""
+"""Builds the PR body and the run-health anomaly check.
+
+The body is a dashboard, not a copy of the reports. Each section states what
+it is, gives its numbers, says plainly whether anything is needed from the
+reader, and links to the *rendered* report - a diff shows markdown as source,
+and these tables are only readable rendered.
+
+Inlining a whole table duplicated what the diff already showed and grew
+without bound; counts do not. Sections are collapsible, and one that needs
+attention opens by default so the reader never has to go looking for the
+thing that matters. Empty sections still appear, because a missing section
+reads as "did that step run?" rather than "nothing found".
+"""
 
 from __future__ import annotations
 
+import os
+from collections import Counter
 from dataclasses import dataclass
 
-from src.clustering import ReviewItem
-from src.matcher import MERGE_DISTANCE_M
-from src.reports import render_review
+from src.clustering import Cluster, ReviewItem, ReviewReason
+from src.matcher import MERGE_DISTANCE_M, haversine_m
+from src.model import SiteRecord
 
 _ANOMALY_DROP_FRACTION = 0.20
+_NO_ACTION = "**Nothing needed.**"
 
 
 @dataclass(frozen=True)
@@ -52,45 +67,179 @@ def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> R
     return RunHealth(ok=ok, notes=notes)
 
 
+def report_link(filename: str) -> str:
+    """Link to the rendered report on the PR branch.
+
+    Falls back to a bare path outside Actions so local runs stay sensible.
+    """
+    server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
+    repo = os.environ.get("GITHUB_REPOSITORY")
+    branch = os.environ.get("PR_BRANCH", "sync/federation")
+    if not repo:
+        return f"`reports/{filename}`"
+    return f"[reports/{filename}]({server}/{repo}/blob/{branch}/reports/{filename})"
+
+
+def _section(title: str, summary: str, body: list[str], *, attention: bool = False) -> list[str]:
+    """A collapsible section. Anything needing attention starts open."""
+    marker = "⚠️ " if attention else ""
+    return [
+        f"<details{' open' if attention else ''}>",
+        f"<summary>{marker}<b>{title}</b> — {summary}</summary>",
+        "",
+        *body,
+        "",
+        "</details>",
+        "",
+    ]
+
+
+def _overrides_warnings(
+    entries: list[dict], records: list[SiteRecord], forced_applied: set[frozenset[str]]
+) -> list[str]:
+    """Overrides silently doing nothing - the failure you would never notice
+    unaided, since a stale key looks exactly like a decision being honoured."""
+    keys = {r.key for r in records}
+    warnings = []
+    for entry in entries:
+        a, b = entry.get("a", ""), entry.get("b", "")
+        if a not in keys or b not in keys:
+            warnings.append(f"`{a}` / `{b}` — key not found, so this override does nothing")
+        elif entry.get("verdict") == "always" and frozenset({a, b}) not in forced_applied:
+            warnings.append(f"`{a}` / `{b}` — forced merge did not apply")
+    return warnings
+
+
+def _spread(cluster: Cluster) -> float:
+    members = cluster.members
+    return max(
+        (
+            haversine_m(a.lat, a.lon, b.lat, b.lon)
+            for i, a in enumerate(members)
+            for b in members[i + 1 :]
+        ),
+        default=0.0,
+    )
+
+
 def build_pr(
     *,
     run_id: str,
     stats: list[SourceStats],
     site_counts: dict[str, int],
-    merged_clusters: int,
+    clusters: list[Cluster],
     review: list[ReviewItem],
+    duplicates: list[tuple[SiteRecord, SiteRecord, float]],
+    override_entries: list[dict],
+    records: list[SiteRecord],
+    forced_applied: set[frozenset[str]],
     health: RunHealth,
     no_wind: int,
 ) -> tuple[str, str]:
+    merged = [c for c in clusters if len(c.members) > 1]
+    warnings = _overrides_warnings(override_entries, records, forced_applied)
+    attention = len(warnings) + (0 if health.ok else 1)
+
     title = (
         f"Sync {run_id}: {site_counts['sites']} launches, "
-        f"{merged_clusters} merged, {len(review)} to review"
+        f"{len(merged)} merged, {len(review)} near-misses"
     )
 
-    lines = [
-        f"## Site federation sync — {run_id}",
-        "",
-        "**Sources fetched**",
-        "| Source | Status | Records | With wind directions |",
-        "|---|---|---:|---:|",
-    ]
+    lines = [f"## Site federation sync — {run_id}", ""]
+    if attention:
+        lines += [f"> ⚠️ **{attention} item(s) need attention.** Expanded below.", ""]
+    else:
+        lines += ["> ✅ **No action required.** Everything below is informational.", ""]
+
+    source_rows = ["| Source | Status | Records | With wind |", "|---|---|---:|---:|"]
     for s in stats:
         status = "unchanged, skipped" if s.skipped_unchanged else "fetched"
-        lines.append(f"| {s.name} | {status} | {s.record_count} | {s.wind_coverage} |")
+        source_rows.append(f"| {s.name} | {status} | {s.record_count} | {s.wind_coverage} |")
+    lines += _section(
+        "Sources",
+        f"{len(stats)} fetched",
+        source_rows + ["", *(f"- {note}" for note in health.notes)],
+        attention=not health.ok,
+    )
 
-    lines += [
-        "",
-        "**Dataset**",
-        f"- {site_counts['sites']} launches across {site_counts['countries']} countries",
-        f"- {merged_clusters} backed by more than one source (within {MERGE_DISTANCE_M:.0f} m)",
-        f"- {no_wind} with no wind directions from any source",
-        f"- {site_counts['written']} country files changed, {site_counts['unchanged']} unchanged",
-        "",
-        render_review(review, merged_clusters),
-        "",
-        "To decline a merge permanently, add the pair to `rejections.json`.",
-        "",
-        "**Run health**",
-    ]
-    lines += [f"- {note}" for note in health.notes]
+    lines += _section(
+        "Dataset",
+        f"{site_counts['sites']} launches, {site_counts['countries']} countries",
+        [
+            f"{site_counts['written']} country files changed, "
+            f"{site_counts['unchanged']} unchanged. "
+            f"{no_wind} launches have no wind directions from any source.",
+            "",
+            f"Ships to the app as `app/sites.csv`. {_NO_ACTION}",
+        ],
+    )
+
+    widest = f", widest gap {max(_spread(c) for c in merged):,.0f} m" if merged else ""
+    lines += _section(
+        "Merged launches",
+        f"{len(merged)} backed by more than one source{widest}",
+        [
+            f"Folded together because the sources place them within "
+            f"{MERGE_DISTANCE_M:.0f} m of each other.",
+            "",
+            f"{_NO_ACTION} To undo one, copy its override cell from "
+            f"{report_link('merged.md')}.",
+        ],
+    )
+
+    if review:
+        by_reason = Counter(item.reason for item in review)
+        review_body = ["Close enough to be suspicious, not close enough to merge:", ""]
+        review_body += [
+            f"- **{by_reason[reason]}** — {reason.value}"
+            for reason in ReviewReason
+            if by_reason.get(reason)
+        ]
+        review_body += [
+            "",
+            "A run of obviously-matching pairs just past the threshold would mean the "
+            "threshold is wrong for that region — that is what this is for.",
+            "",
+            f"{_NO_ACTION} To force one together, copy its override cell from "
+            f"{report_link('review.md')}.",
+        ]
+    else:
+        review_body = [f"Nothing close enough to question. {_NO_ACTION}"]
+    lines += _section("Unmerged near-misses", f"{len(review)} pairs", review_body)
+
+    if duplicates:
+        per_source = Counter(a.provider for a, _, _ in duplicates)
+        counts = ", ".join(f"{n} in {source}" for source, n in sorted(per_source.items()))
+        dup_body = [
+            f"Two entries in the *same* guide sitting close together ({counts}).",
+            "",
+            "Never merged, and `overrides.json` does not affect them — only that guide's "
+            "maintainers can say which are mistakes.",
+            "",
+            f"{_NO_ACTION} Reporting them upstream is optional and outside this pipeline. "
+            f"See {report_link('duplicates.md')}.",
+        ]
+    else:
+        dup_body = [f"None found. {_NO_ACTION} See {report_link('duplicates.md')}."]
+    lines += _section("Possible duplicates within one source", f"{len(duplicates)} pairs", dup_body)
+
+    never = sum(1 for e in override_entries if e.get("verdict") == "never")
+    always = sum(1 for e in override_entries if e.get("verdict") == "always")
+    if override_entries:
+        ov_body = [f"**{never}** pairs forced apart, **{always}** forced together, by hand."]
+    else:
+        ov_body = ["None. Every decision was made on distance alone."]
+    if warnings:
+        ov_body += ["", "**These overrides are not doing anything:**", ""]
+        ov_body += [f"- {w}" for w in warnings]
+        ov_body += ["", f"Fix or remove them in `overrides.json`. See {report_link('overrides.md')}."]
+    else:
+        ov_body += ["", f"{_NO_ACTION} See {report_link('overrides.md')}."]
+    lines += _section(
+        "Overrides",
+        f"{never} never, {always} always" + (f", {len(warnings)} not applied" if warnings else ""),
+        ov_body,
+        attention=bool(warnings),
+    )
+
     return title, "\n".join(lines)

@@ -32,6 +32,9 @@ jobs:
         run: pip install -e .
 
       - name: Run pipeline
+        env:
+          # Lets the PR body link to the rendered reports on the PR branch.
+          PR_BRANCH: sync/federation
         run: python -m src.pipeline
 
       - name: Read PR metadata

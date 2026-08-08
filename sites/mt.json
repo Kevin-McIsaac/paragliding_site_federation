@@ -5,6 +5,7 @@
     "lat": 35.9196,
     "lon": 14.4194,
     "wind": {},
+    "altitude": 44.0,
     "sources": {
       "pge": "15017"
     },
@@ -19,6 +20,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 218.0,
     "sources": {
       "pge": "15364"
     },
@@ -35,6 +37,7 @@
       "SE": 2,
       "S": 1
     },
+    "altitude": 73.0,
     "sources": {
       "pge": "15720"
     },
@@ -49,6 +52,7 @@
     "wind": {
       "E": 2
     },
+    "altitude": 91.0,
     "sources": {
       "pge": "18838"
     },
@@ -64,6 +68,7 @@
       "S": 2,
       "SW": 1
     },
+    "altitude": 171.0,
     "sources": {
       "pge": "18839"
     },
@@ -78,6 +83,7 @@
     "wind": {
       "S": 2
     },
+    "altitude": 149.0,
     "sources": {
       "pge": "23138"
     },
@@ -93,6 +99,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 49.0,
     "sources": {
       "pge": "9280"
     },
@@ -107,6 +114,7 @@
     "wind": {
       "S": 2
     },
+    "altitude": 114.0,
     "sources": {
       "pge": "9281"
     },
@@ -121,6 +129,7 @@
     "wind": {
       "SW": 2
     },
+    "altitude": 232.0,
     "sources": {
       "pge": "9282"
     },
@@ -136,6 +145,7 @@
       "N": 2,
       "NW": 2
     },
+    "altitude": 123.0,
     "sources": {
       "pge": "9283"
     },
@@ -151,6 +161,7 @@
       "SW": 2,
       "W": 2
     },
+    "altitude": 46.0,
     "sources": {
       "pge": "9284"
     },
@@ -165,6 +176,7 @@
     "wind": {
       "NW": 2
     },
+    "altitude": 69.0,
     "sources": {
       "pge": "9285"
     },

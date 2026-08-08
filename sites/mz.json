@@ -9,6 +9,7 @@
       "E": 2,
       "SE": 1
     },
+    "altitude": 0.0,
     "sources": {
       "pge": "11617"
     },
@@ -25,6 +26,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 88.0,
     "sources": {
       "pge": "14840"
     },
@@ -37,6 +39,7 @@
     "lat": -26.8,
     "lon": 32.8904,
     "wind": {},
+    "altitude": 62.0,
     "sources": {
       "pge": "21789"
     },
@@ -52,6 +55,7 @@
       "NE": 2,
       "E": 2
     },
+    "altitude": 31.0,
     "sources": {
       "pge": "7404"
     },

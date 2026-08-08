@@ -1,5 +1,9 @@
 """The two human-readable markdown reports.
 
+reports/merged.md     - every merge, with both source names and the distance
+                        bridged. The only place the discarded name survives:
+                        once selection picks a winner the other name is gone
+                        from every other artifact.
 reports/review.md     - what was *not* merged but sits close enough to be
                         worth a glance, and why. The calibration signal: true
                         matches just past the threshold mean the threshold is
@@ -10,9 +14,8 @@ reports/duplicates.md - pairs from a *single* source close enough to be one
                         place entered twice. Never merged; a worklist for
                         reporting upstream.
 
-There is no merged report. Which launches merged is already in
-sites/<cc>.json and the app CSV, and a full list does not scale past a couple
-of sources. Git history covers the audit case.
+The merged list will need sharding per country once a third source lands -
+at two sources it is 81 rows, but it grows with every overlap.
 
 None is a worklist. There is deliberately no approve/reject workflow: when the
 merge threshold was 100m the review list held 21 pairs that were all obviously
@@ -27,11 +30,12 @@ from pathlib import Path
 
 from rapidfuzz import fuzz
 
-from src.clustering import ReviewItem
-from src.matcher import MERGE_DISTANCE_M, Pair
+from src.clustering import Cluster, ReviewItem
+from src.matcher import MERGE_DISTANCE_M, Pair, haversine_m
 from src.model import SiteRecord
 
 REPORTS_DIR = Path("reports")
+MERGED_PATH = REPORTS_DIR / "merged.md"
 REVIEW_PATH = REPORTS_DIR / "review.md"
 OVERRIDES_PATH = REPORTS_DIR / "overrides.md"
 DUPLICATES_PATH = REPORTS_DIR / "duplicates.md"
@@ -89,6 +93,60 @@ def keys_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
     if a is None or b is None:
         return "—"
     return f"`{a.key} {b.key}`"
+
+
+def _member(cluster: Cluster, provider: str) -> SiteRecord | None:
+    return next((m for m in cluster.members if m.provider == provider), None)
+
+
+def _spread_m(cluster: Cluster) -> float:
+    """Furthest apart any two members are - the distance that was bridged."""
+    members = cluster.members
+    return max(
+        (
+            haversine_m(a.lat, a.lon, b.lat, b.lon)
+            for i, a in enumerate(members)
+            for b in members[i + 1 :]
+        ),
+        default=0.0,
+    )
+
+
+def render_merged(clusters: list[Cluster]) -> str:
+    """Every merge, and how far apart the sources placed it.
+
+    Worth its own report because selection keeps only the winner's name: once
+    Site Guide's "Wagga (80m dunes)" wins, PGE's "80 Meter Dunes" survives
+    nowhere else. If a merge looks wrong, this is what shows you what got
+    absorbed.
+    """
+    merged = [c for c in clusters if len(c.members) > 1]
+    rows = sorted(((_spread_m(c), c) for c in merged), key=lambda t: t[0])
+
+    lines = [
+        "# Merged launches",
+        "",
+        f"- **{len(merged)}** launches backed by more than one source",
+        "",
+        f"Folded together because the sources place them within "
+        f"{MERGE_DISTANCE_M:.0f} m of each other. Distance is how far apart they",
+        "actually were, so the largest values are the ones worth checking.",
+        "Name match is context only and played no part in the decision.",
+        "",
+        _TEMPLATE,
+        "",
+        "| PGE Name | AU Name | Distance | Name match | Keys |",
+        "|---|---|---:|---:|---|",
+    ]
+    for distance, cluster in rows:
+        pge, au = _member(cluster, _PGE), _member(cluster, _AU)
+        lines.append(
+            f"| {link_cell(pge)} | {link_cell(au)} | {distance:,.0f} m "
+            f"| {_similarity_cell(pge, au)} | {keys_cell(pge, au)} |"
+        )
+    if not merged:
+        lines.append("| _none_ | | | | |")
+    return "\n".join(lines) + "\n"
 
 
 def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
@@ -222,6 +280,10 @@ def _write_if_changed(path: Path, content: str) -> bool:
         return False
     path.write_text(content)
     return True
+
+
+def write_merged(clusters: list[Cluster], path: Path | None = None) -> bool:
+    return _write_if_changed(path or MERGED_PATH, render_merged(clusters))
 
 
 def write_review(items: list[ReviewItem], merged: int | None = None, path: Path | None = None) -> bool:

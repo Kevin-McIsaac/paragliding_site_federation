@@ -87,6 +87,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
 
     site_counts = write_sites(sites)
     csv_changed = write_app_csv(sites)
+    merged_changed = reports.write_merged(result.clusters)
     review_changed = reports.write_review(result.review, merged)
     overrides_changed = reports.write_overrides(decisions.entries, records, result.forced_applied)
     duplicates_changed = reports.write_duplicates(list(intra_source_pairs(records)))
@@ -103,7 +104,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         no_wind=no_wind,
     )
 
-    has_changes = any((site_counts["written"] > 0, csv_changed,
+    has_changes = any((site_counts["written"] > 0, csv_changed, merged_changed,
                       review_changed, overrides_changed, duplicates_changed))
     PR_OUTPUT_DIR.mkdir(exist_ok=True)
     (PR_OUTPUT_DIR / "has_changes.txt").write_text("true" if has_changes else "false")

@@ -1,8 +1,9 @@
-"""The three markdown reports: near-misses, overrides, duplicates."""
+"""The four markdown reports: merged, near-misses, overrides, duplicates."""
 
 import pytest
 
-from src.reports import render_overrides
+from src.clustering import Cluster
+from src.reports import render_merged, render_overrides
 from tests.conftest import metres, record
 
 
@@ -93,3 +94,35 @@ def test_overrides_report_flags_a_forced_pair_that_did_not_apply():
 
     assert "not applied" in render_overrides(entries, recs, set())
     assert "| yes |" in render_overrides(entries, recs, {frozenset({"pge:1", "siteguide_au:a"})})
+
+
+def test_merged_report_lists_both_source_names_and_the_distance():
+    """The discarded name survives nowhere else: once Site Guide wins, PGE's
+    name is gone from the CSV, the JSON and the app."""
+    pge = record("pge", "1", name="80 Meter Dunes", url="https://www.paraglidingearth.com/?site=1")
+    au = record("siteguide_au", "a", name="Wagga (80m dunes)",
+                lat=-33.7 - metres(120), url="https://siteguide.org.au/sites/details/9")
+
+    table = render_merged([Cluster((pge, au))])
+
+    assert "[80 Meter Dunes](https://www.paraglidingearth.com/?site=1)" in table
+    assert "[Wagga (80m dunes)](https://siteguide.org.au/sites/details/9)" in table
+    assert "| 120 m |" in table
+    assert "`pge:1 siteguide_au:a`" in table
+
+
+def test_merged_report_ignores_single_source_clusters():
+    table = render_merged([Cluster((record("pge", "1"),))])
+    assert "**0** launches" in table
+
+
+def test_merged_report_sorts_widest_gaps_last():
+    """Distance is the thing to check, so the doubtful ones sit together."""
+    close = Cluster((record("pge", "1", name="Close PGE"),
+                     record("siteguide_au", "a", name="Close AU", lat=-33.7 - metres(30))))
+    far = Cluster((record("pge", "2", name="Far PGE", lat=-34.0),
+                   record("siteguide_au", "b", name="Far AU", lat=-34.0 - metres(240))))
+
+    rows = [l for l in render_merged([far, close]).splitlines() if " m |" in l]
+
+    assert "Close PGE" in rows[0] and "Far PGE" in rows[1]

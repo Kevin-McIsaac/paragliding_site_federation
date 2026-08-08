@@ -69,13 +69,14 @@ in `overrides.json` by hand. What it is for is calibration — a run of true
 matches sitting just past the threshold means the threshold is wrong for that
 region's data.
 
-Every run writes three reports under `reports/`: `review.md` (close but not
-merged, and why), `overrides.md` (the readable view of `overrides.json`, keys
-resolved to names and stale entries flagged), and `duplicates.md`.
+Every run writes four reports under `reports/`: `merged.md` (every merge,
+widest gaps last), `review.md` (close but not merged, and why), `overrides.md`
+(the readable view of `overrides.json`, keys resolved to names and stale
+entries flagged), and `duplicates.md`.
 
-There is no merged report — which launches merged is already in
-`sites/<cc>.json` and the app CSV, and a full list would not scale past a
-couple of sources. Git history covers the audit case.
+`merged.md` earns its place because selection keeps only the winner's name —
+once Site Guide's `Wagga (80m dunes)` wins, PGE's `80 Meter Dunes` survives
+nowhere else. It will want sharding per country once a third source lands.
 
 To override the automatic decision, copy a **Keys** cell from any report into
 `overrides.json` and set a verdict: `never` keeps a pair apart, `always`

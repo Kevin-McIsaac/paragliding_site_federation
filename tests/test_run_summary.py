@@ -63,7 +63,7 @@ def test_sections_needing_attention_open_and_the_rest_collapse():
 def test_every_section_appears_even_when_empty():
     """A missing section reads as 'did that step run?', not 'nothing found'."""
     body = _body()
-    for title in ("Sources", "Dataset", "Merged launches", "Unmerged near-misses",
+    for title in ("Sources", "Merged Sites Dataset", "Merged launches", "Unmerged near-misses",
                   "Possible duplicates within one source", "Overrides"):
         assert f"<b>{title}</b>" in body, title
 
@@ -103,3 +103,21 @@ def test_source_table_still_reports_wind_coverage():
     body = _body(stats=[SourceStats("pge", 240, 140), SourceStats("siteguide_au", 245, 233)])
     assert "| pge | fetched | 240 | 140 (58%) |" in body
     assert "| siteguide_au | fetched | 245 | 233 (95%) |" in body
+
+
+def test_every_section_ends_with_a_link_to_its_report(monkeypatch):
+    """The way to open a report must sit in the same place every week, not
+    appear only when that report happens to be non-empty."""
+    monkeypatch.setenv("GITHUB_REPOSITORY", "acme/federation")
+
+    body = _body()  # nothing merged, nothing to review, no duplicates
+
+    for path in ("app/sites.csv", "reports/merged.md", "reports/review.md",
+                 "reports/duplicates.md", "reports/overrides.md"):
+        assert f"blob/sync/federation/{path}" in body, path
+
+
+def test_optional_actions_are_not_labelled_as_nothing_needed():
+    pge, au = record("pge", "1"), record("siteguide_au", "a")
+    body = _body(clusters=[Cluster((pge, au))], records=[pge, au])
+    assert "**Optional:** to undo a merge" in body

@@ -23,7 +23,7 @@ from src.matcher import MERGE_DISTANCE_M, haversine_m
 from src.model import SiteRecord
 
 _ANOMALY_DROP_FRACTION = 0.20
-_NO_ACTION = "**Nothing needed.**"
+
 
 
 @dataclass(frozen=True)
@@ -67,17 +67,36 @@ def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> R
     return RunHealth(ok=ok, notes=notes)
 
 
-def report_link(filename: str) -> str:
-    """Link to the rendered report on the PR branch.
+def file_link(path: str) -> str:
+    """Link to a file on the PR branch, rendered rather than as a diff.
 
-    Falls back to a bare path outside Actions so local runs stay sensible.
+    A diff shows markdown as source and CSV as raw text; GitHub renders both
+    properly at this URL. Falls back to a bare path outside Actions so local
+    runs stay sensible.
     """
     server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
     repo = os.environ.get("GITHUB_REPOSITORY")
     branch = os.environ.get("PR_BRANCH", "sync/federation")
     if not repo:
-        return f"`reports/{filename}`"
-    return f"[reports/{filename}]({server}/{repo}/blob/{branch}/reports/{filename})"
+        return f"`{path}`"
+    return f"[{path}]({server}/{repo}/blob/{branch}/{path})"
+
+
+def report_link(filename: str) -> str:
+    return file_link(f"reports/{filename}")
+
+
+def _action(view: str | None = None, todo: str | None = None) -> str:
+    """The closing line of every section: what to do, and where to look.
+
+    Every section ends with one - including those reporting nothing - so the
+    way to open a report is always in the same place, rather than appearing
+    only when that report happens to be non-empty.
+    """
+    parts = ["**Nothing needed.**" if todo is None else f"**Optional:** {todo}."]
+    if view:
+        parts.append(f"View {view}.")
+    return " ".join(parts)
 
 
 def _section(title: str, summary: str, body: list[str], *, attention: bool = False) -> list[str]:
@@ -163,14 +182,15 @@ def build_pr(
     )
 
     lines += _section(
-        "Dataset",
+        "Merged Sites Dataset",
         f"{site_counts['sites']} launches, {site_counts['countries']} countries",
         [
-            f"{site_counts['written']} country files changed, "
+            f"The merged output the app ships: every launch from every source, "
+            f"deduplicated. {site_counts['written']} country files changed, "
             f"{site_counts['unchanged']} unchanged. "
             f"{no_wind} launches have no wind directions from any source.",
             "",
-            f"Ships to the app as `app/sites.csv`. {_NO_ACTION}",
+            _action(view=file_link("app/sites.csv")),
         ],
     )
 
@@ -182,8 +202,10 @@ def build_pr(
             f"Folded together because the sources place them within "
             f"{MERGE_DISTANCE_M:.0f} m of each other.",
             "",
-            f"{_NO_ACTION} To undo one, copy its override cell from "
-            f"{report_link('merged.md')}.",
+            _action(
+                view=report_link("merged.md"),
+                todo="to undo a merge, copy its override cell from the report",
+            ),
         ],
     )
 
@@ -200,11 +222,17 @@ def build_pr(
             "A run of obviously-matching pairs just past the threshold would mean the "
             "threshold is wrong for that region — that is what this is for.",
             "",
-            f"{_NO_ACTION} To force one together, copy its override cell from "
-            f"{report_link('review.md')}.",
+            _action(
+                view=report_link("review.md"),
+                todo="to force a pair together, copy its override cell from the report",
+            ),
         ]
     else:
-        review_body = [f"Nothing close enough to question. {_NO_ACTION}"]
+        review_body = [
+            "Nothing close enough to question.",
+            "",
+            _action(view=report_link("review.md")),
+        ]
     lines += _section("Unmerged near-misses", f"{len(review)} pairs", review_body)
 
     if duplicates:
@@ -216,11 +244,14 @@ def build_pr(
             "Never merged, and `overrides.json` does not affect them — only that guide's "
             "maintainers can say which are mistakes.",
             "",
-            f"{_NO_ACTION} Reporting them upstream is optional and outside this pipeline. "
-            f"See {report_link('duplicates.md')}.",
+            _action(
+                view=report_link("duplicates.md"),
+                todo="reporting these upstream to the guide is worthwhile but outside "
+                "this pipeline",
+            ),
         ]
     else:
-        dup_body = [f"None found. {_NO_ACTION} See {report_link('duplicates.md')}."]
+        dup_body = ["None found.", "", _action(view=report_link("duplicates.md"))]
     lines += _section("Possible duplicates within one source", f"{len(duplicates)} pairs", dup_body)
 
     never = sum(1 for e in override_entries if e.get("verdict") == "never")
@@ -232,9 +263,15 @@ def build_pr(
     if warnings:
         ov_body += ["", "**These overrides are not doing anything:**", ""]
         ov_body += [f"- {w}" for w in warnings]
-        ov_body += ["", f"Fix or remove them in `overrides.json`. See {report_link('overrides.md')}."]
+        ov_body += [
+            "",
+            _action(
+                view=report_link("overrides.md"),
+                todo="fix or remove these entries in `overrides.json`",
+            ),
+        ]
     else:
-        ov_body += ["", f"{_NO_ACTION} See {report_link('overrides.md')}."]
+        ov_body += ["", _action(view=report_link("overrides.md"))]
     lines += _section(
         "Overrides",
         f"{never} never, {always} always" + (f", {len(warnings)} not applied" if warnings else ""),

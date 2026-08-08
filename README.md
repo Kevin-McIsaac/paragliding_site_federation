@@ -148,13 +148,11 @@ redistribution.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 99 tests, no network
+pytest                                        # 100 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)
 ```
-
-`--force` ignores the Site Guide version gate and refetches regardless.
 
 ## CI
 

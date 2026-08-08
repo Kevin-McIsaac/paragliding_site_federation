@@ -43,21 +43,14 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     previous = {n: e["record_count"] for n, e in state.get("sources", {}).items()}
 
     pge = PgeSource()
-    siteguide = SiteGuideAuSource(
-        last_version_id=None if force else state.get("siteguide_au", {}).get("version_id")
-    )
+    siteguide = SiteGuideAuSource()
 
     pge_records = pge.fetch(bbox)
     sg_records = siteguide.fetch(AUSTRALIA_BBOX)
 
     stats = [
         SourceStats("pge", len(pge_records), sum(1 for r in pge_records if r.wind)),
-        SourceStats(
-            "siteguide_au",
-            len(sg_records) if not siteguide.skipped_unchanged else previous.get("siteguide_au", 0),
-            sum(1 for r in sg_records if r.wind),
-            skipped_unchanged=siteguide.skipped_unchanged,
-        ),
+        SourceStats("siteguide_au", len(sg_records), sum(1 for r in sg_records if r.wind)),
     ]
 
     health = check_health(stats, previous)

@@ -31,7 +31,6 @@ class SourceStats:
     name: str
     record_count: int
     with_wind: int = 0
-    skipped_unchanged: bool = False
 
     @property
     def wind_coverage(self) -> str:
@@ -52,8 +51,6 @@ def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> R
     notes: list[str] = []
     ok = True
     for s in stats:
-        if s.skipped_unchanged:
-            continue
         previous = previous_counts.get(s.name)
         if previous and previous > 0:
             drop = (previous - s.record_count) / previous
@@ -172,8 +169,7 @@ def build_pr(
 
     source_rows = ["| Source | Status | Records | With wind |", "|---|---|---:|---:|"]
     for s in stats:
-        status = "unchanged, skipped" if s.skipped_unchanged else "fetched"
-        source_rows.append(f"| {s.name} | {status} | {s.record_count} | {s.wind_coverage} |")
+        source_rows.append(f"| {s.name} | fetched | {s.record_count} | {s.wind_coverage} |")
     lines += _section(
         "Sources",
         f"{len(stats)} fetched",

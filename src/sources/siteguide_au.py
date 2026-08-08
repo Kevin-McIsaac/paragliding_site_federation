@@ -12,8 +12,12 @@ their own - so a launch's own conditions win where present and the parent
 fills in otherwise. That matters for sites like Bastion, whose site-level
 string "SW-NW, NW-NE" is the union of its two launches' individual ranges.
 
-/api/Version is checked first; an unchanged version id skips the export
-download entirely.
+The published version id is recorded for the run summary, but is *not* used
+to skip the download. It was: an unchanged version returned no records, which
+silently removed every Site Guide launch from the dataset - including the 135
+that exist in no other source - while the health check waved it through
+because it exempted "skipped" sources. The export is a single request; the
+optimisation was never worth that failure mode.
 """
 
 from __future__ import annotations
@@ -37,22 +41,14 @@ _APPROXIMATE = re.compile(r"available to .*members", re.IGNORECASE)
 class SiteGuideAuSource:
     name = "siteguide_au"
 
-    def __init__(
-        self, *, last_version_id: int | None = None, client: httpx.Client | None = None
-    ) -> None:
-        self._last_version_id = last_version_id
+    def __init__(self, *, client: httpx.Client | None = None) -> None:
         self._client = client or httpx.Client(timeout=_TIMEOUT, base_url=_BASE_URL)
         self.current_version_id: int | None = None
-        self.skipped_unchanged = False
 
     def fetch(self, bbox: BoundingBox) -> list[SiteRecord]:
         version = self._client.get("/api/Version")
         version.raise_for_status()
         self.current_version_id = version.json()["id"]
-
-        if self._last_version_id is not None and self._last_version_id == self.current_version_id:
-            self.skipped_unchanged = True
-            return []
 
         export = self._client.get("/api/Export")
         export.raise_for_status()

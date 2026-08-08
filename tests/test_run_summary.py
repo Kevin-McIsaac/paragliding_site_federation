@@ -121,3 +121,17 @@ def test_optional_actions_are_not_labelled_as_nothing_needed():
     pge, au = record("pge", "1"), record("siteguide_au", "a")
     body = _body(clusters=[Cluster((pge, au))], records=[pge, au])
     assert "**Optional:** to undo a merge" in body
+
+
+def test_a_source_contributing_nothing_aborts_the_run():
+    """The failure that shipped: Site Guide's version gate returned no records
+    when the export was unchanged, silently dropping all 245 of its launches -
+    including the 135 in no other source - because health checks exempted
+    'skipped' sources. A source that contributed before and contributes
+    nothing now must stop the run, whatever the reason."""
+    stats = [SourceStats("pge", 11508, 7390), SourceStats("siteguide_au", 0, 0)]
+
+    health = check_health(stats, {"pge": 11508, "siteguide_au": 245})
+
+    assert not health.ok
+    assert any("siteguide_au" in note for note in health.notes)

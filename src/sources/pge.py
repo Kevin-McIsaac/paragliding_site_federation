@@ -75,6 +75,7 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
         if raw in ("1", "2"):
             wind[direction] = int(raw)
 
+    altitude = _text(properties.get("takeoff_altitude"))
     country = _text(properties.get("countryCode"))
 
     return SiteRecord(
@@ -85,6 +86,7 @@ def _parse_feature(feature: dict) -> SiteRecord | None:
         lat=lat,
         lon=lon,
         wind=wind,
+        altitude=float(altitude) if altitude and altitude.replace(".", "", 1).isdigit() else None,
         country=country.upper() if country else None,
         url=_site_url(properties.get("pge_link"), site_id),
     )

@@ -19,11 +19,30 @@ SITES_DIR = Path("sites")
 APP_CSV = Path("app/sites.csv")
 _UNKNOWN = "xx"
 
-# No url column: every source's page is derivable from its id
-# (pge:4632 -> paraglidingearth.com/?site=4632, verified on all 239 AU records;
-# siteguide_au:106-28 -> siteguide.org.au/sites/106), and at ~45 bytes a row it
-# was the single largest column in a file that ships with every install.
-CSV_COLUMNS = ["id", "name", "latitude", "longitude", *(f"wind_{d.lower()}" for d in DIRECTIONS), "source"]
+# Column order is dictated by the app, which parses this file *positionally*
+# (pge_sites_download_service._parseCsvLine) - so it deliberately matches the
+# PGE-only asset it replaces, field for field, with `source` taking the slot
+# `last_edit` used to occupy.
+#
+# Longitude before latitude looks wrong and is kept anyway. Reordering them
+# parses perfectly cleanly and silently puts every site in the wrong
+# hemisphere, which no row count or import log would catch. Changing this
+# means changing the app parser in the same commit, and spot-checking real
+# coordinates afterwards.
+#
+# No url column: every source page is derivable from `source`
+# (pge:4632 -> paraglidingearth.com/?site=4632,
+#  siteguide_au:106-28 -> siteguide.org.au/sites/details/106).
+CSV_COLUMNS = [
+    "id",
+    "name",
+    "longitude",
+    "latitude",
+    "altitude",
+    "country",
+    *(f"wind_{d.lower()}" for d in DIRECTIONS),
+    "source",
+]
 
 
 def write_sites(sites: list[CanonicalSite], sites_dir: Path | None = None) -> dict[str, int]:
@@ -53,11 +72,12 @@ def write_sites(sites: list[CanonicalSite], sites_dir: Path | None = None) -> di
 
 
 def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
-    """The app's bundle: name, position, wind and a source link. Nothing else.
+    """The app's bundle, in the exact column order its parser expects.
 
-    Altitude, rating, hazards and access notes are deliberately absent - they
-    are looked up from the source when a user opens a site, so they do not
-    need to ship with every install.
+    Altitude and country are here because the app reads them in nine places -
+    site cards, the edit screen, marker overlays, the flyability table - not
+    because the map itself needs them. Rating, hazards and access notes stay
+    out: those are looked up from the source when a user opens a site.
     """
     target = path or APP_CSV
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -65,10 +85,12 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
     lines = [",".join(CSV_COLUMNS)]
     for site in sorted(sites, key=lambda s: s.id):
         row = [
-            site.id,
+            str(site.numeric_id),
             site.name,
-            f"{site.lat:.6f}",
             f"{site.lon:.6f}",
+            f"{site.lat:.6f}",
+            "" if site.altitude is None else f"{site.altitude:.0f}",
+            (site.country or "").lower(),
             *(str(site.wind.get(d, 0)) for d in DIRECTIONS),
             ";".join(f"{p}:{i}" for p, i in sorted(site.sources.items())),
         ]

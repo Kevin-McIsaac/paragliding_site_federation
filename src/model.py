@@ -41,6 +41,7 @@ class SiteRecord:
     lon: float
     # direction -> 0 none / 1 good / 2 excellent. Only non-zero entries kept.
     wind: dict[str, int] = field(default_factory=dict)
+    altitude: float | None = None
     country: str | None = None
     url: str | None = None
     # Sites whose published coordinates are deliberately approximate, so
@@ -67,8 +68,21 @@ class CanonicalSite:
     wind: dict[str, int]
     sources: dict[str, str]  # provider -> that source's id
     primary: str
+    altitude: float | None = None
     country: str | None = None
     url: str | None = None
+
+    @property
+    def numeric_id(self) -> int:
+        """The canonical id as an integer, for the app's INTEGER PRIMARY KEY.
+
+        pge_sites.id and sites.pge_site_id are both INTEGER; migrating those
+        column types across every query to carry a "PSF-000001" string would
+        be a great deal of churn for a cosmetic prefix. The numeric part is
+        derived, stable and reversible, and sites/<cc>.json keeps the readable
+        form for review.
+        """
+        return int(self.id.rsplit("-", 1)[1])
 
     def to_dict(self) -> dict:
         return {
@@ -77,6 +91,7 @@ class CanonicalSite:
             "lat": round(self.lat, 6),
             "lon": round(self.lon, 6),
             "wind": {d: self.wind[d] for d in DIRECTIONS if self.wind.get(d)},
+            "altitude": self.altitude,
             "sources": dict(sorted(self.sources.items())),
             "primary": self.primary,
             "url": self.url,

@@ -38,6 +38,10 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
     if not wind:
         wind = next((m.wind for m in ordered[1:] if m.wind), {})
 
+    altitude = winner.altitude
+    if altitude is None:
+        altitude = next((m.altitude for m in ordered[1:] if m.altitude is not None), None)
+
     return CanonicalSite(
         id=registry.assign(cluster.keys),
         name=winner.name,
@@ -46,6 +50,7 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
         wind=dict(wind),
         sources={m.provider: m.id for m in ordered},
         primary=winner.provider,
+        altitude=altitude,
         country=country,
         url=winner.url,
     )

@@ -65,6 +65,34 @@ class SiteGuideAuSource:
         return records
 
 
+_METRES = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*m\b", re.IGNORECASE)
+_FEET = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*(?:ft|')", re.IGNORECASE)
+_FEET_TO_M = 0.3048
+
+
+def _parse_height(value) -> float | None:
+    """Site Guide's `height` is free text, never a number.
+
+    Every one of the 220 non-null values observed pairs feet with metres in
+    some order - "280'/85m asl, 250' agl", "2,450ft / 750m ASL", "55m / 170ft".
+    The first metre figure is taken because above-sea-level is conventionally
+    listed before above-ground-level, and ASL is what PGE's takeoff_altitude
+    means, so the two are comparable. Feet are only used if no metre figure is
+    given at all.
+    """
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+
+    text = str(value)
+    if match := _METRES.search(text):
+        return float(match.group(1).replace(",", ""))
+    if match := _FEET.search(text):
+        return round(float(match.group(1).replace(",", "")) * _FEET_TO_M, 1)
+    return None
+
+
 def _text(value) -> str | None:
     if value is None:
         return None
@@ -78,6 +106,7 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
     site_name = _text(site.get("name")) or "Unknown site"
     site_conditions = site.get("conditions")
     approximate = bool(_APPROXIMATE.search(site.get("shortLocation") or ""))
+    altitude = _parse_height(site.get("height"))
     url = f"{_BASE_URL}/sites/details/{site['id']}"
 
     records: list[SiteRecord] = []
@@ -106,6 +135,7 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
                 lat=float(lat),
                 lon=float(lon),
                 wind={d: 1 for d in sorted(directions)},
+                altitude=altitude,
                 country="AU",
                 url=url,
                 approximate_location=approximate,

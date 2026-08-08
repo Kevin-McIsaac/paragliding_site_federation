@@ -69,13 +69,61 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
 
     rows = list(csv.DictReader(path.read_text().splitlines()))
     assert list(rows[0]) == [
-        "id", "name", "latitude", "longitude",
+        "id", "name", "longitude", "latitude", "altitude", "country",
         "wind_n", "wind_ne", "wind_e", "wind_se",
         "wind_s", "wind_sw", "wind_w", "wind_nw",
         "source",
     ]
     assert rows[0]["wind_n"] == "1" and rows[0]["wind_ne"] == "2"
     assert rows[0]["source"] == "pge:1"
+
+
+def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
+    """The app parses this file positionally, so a column inserted anywhere
+    shifts every field after it. Latitude and longitude are adjacent and
+    interchangeable in type, so a swap parses cleanly and puts every site in
+    the wrong hemisphere - no row count or import log would catch it.
+    """
+    path = tmp_path / "sites.csv"
+    write_app_csv([_select(record("pge", "1"))], path)
+
+    assert path.read_text().splitlines()[0] == (
+        "id,name,longitude,latitude,altitude,country,"
+        "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source"
+    )
+
+
+def test_csv_writes_longitude_before_latitude(tmp_path):
+    """Guards the swap specifically, not just the header text."""
+    path = tmp_path / "sites.csv"
+    site = record("pge", "1", lat=-33.7, lon=151.3)
+    write_app_csv([_select(site)], path)
+
+    row = list(csv.DictReader(path.read_text().splitlines()))[0]
+    assert float(row["latitude"]) == -33.7
+    assert float(row["longitude"]) == 151.3
+
+
+def test_csv_id_is_the_numeric_part_of_the_canonical_id(tmp_path):
+    """pge_sites.id is INTEGER PRIMARY KEY; PSF-000001 would not fit."""
+    path = tmp_path / "sites.csv"
+    write_app_csv([_select(record("pge", "1"))], path)
+    assert list(csv.DictReader(path.read_text().splitlines()))[0]["id"] == "1"
+
+
+def test_csv_carries_altitude_and_lowercase_country(tmp_path):
+    path = tmp_path / "sites.csv"
+    write_app_csv([_select(record("pge", "1", altitude=341.0, country="GB"))], path)
+
+    row = list(csv.DictReader(path.read_text().splitlines()))[0]
+    assert row["altitude"] == "341"
+    assert row["country"] == "gb"  # matches the asset it replaces
+
+
+def test_csv_altitude_is_empty_when_no_source_has_it(tmp_path):
+    path = tmp_path / "sites.csv"
+    write_app_csv([_select(record("pge", "1", altitude=None))], path)
+    assert list(csv.DictReader(path.read_text().splitlines()))[0]["altitude"] == ""
 
 
 def test_app_csv_quotes_names_containing_commas(tmp_path):

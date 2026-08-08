@@ -21,14 +21,20 @@ the dataset.
 The app's core job is drawing launches on a map, which needs four things:
 
 ```
-id, name, latitude, longitude, wind_n..wind_nw, source
+id, name, longitude, latitude, altitude, country, wind_n..wind_nw, source
 ```
+
+Column order is dictated by the app, which parses positionally — it matches
+the PGE-only asset it replaces field for field, with `source` in the slot
+`last_edit` used to occupy. **Longitude before latitude looks wrong and is
+deliberate**: reordering them parses cleanly and puts every site in the wrong
+hemisphere, which no row count would catch.
 
 That's `app/sites.csv` — 11,692 launches, 301 KB gzipped, near-identical in
 size to the PGE-only asset it replaces despite carrying 255 more launches.
 
-Everything else — altitude, rating, hazards, access notes, landowners — is
-deliberately absent. It's looked up from the source when a user opens a site,
+Altitude and country are carried because the app reads them in nine places.
+Rating, hazards, access notes and landowners are deliberately absent. It's looked up from the source when a user opens a site,
 so it doesn't need to ship with every install. There's no `url` column either:
 every source page is derivable from `source` (`pge:4632` →
 `paraglidingearth.com/?site=4632`, `siteguide_au:106-28` →
@@ -142,7 +148,7 @@ redistribution.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 83 tests, no network
+pytest                                        # 99 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)

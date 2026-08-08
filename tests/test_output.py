@@ -113,7 +113,7 @@ def test_review_table_has_the_requested_columns_and_order():
     table = render([_item(pair_for(pge, far)), _item(pair_for(pge, near))])
     lines = [l for l in table.splitlines() if l.startswith("|")]
 
-    assert lines[0] == "| PGE Name | AU Name | Distance | Name match | Why |"
+    assert lines[0] == "| PGE Name | AU Name | Distance | Name match | Why | Keys |"
     assert "Cape Jervis SG" in lines[2]  # closest first
     assert "Shoreham SG" in lines[3]
 

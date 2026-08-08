@@ -3,7 +3,7 @@
 import pytest
 
 from src.clustering import Cluster
-from src.reports import render_merged, render_rejected
+from src.reports import render_merged, render_overrides
 from tests.conftest import metres, record
 
 
@@ -37,37 +37,37 @@ def test_merged_report_is_sorted_by_distance():
     assert "Close PGE" in rows[0] and "Far PGE" in rows[1]
 
 
-def test_rejected_report_resolves_keys_to_names():
+def test_overrides_report_resolves_keys_to_names():
     """rejections.json holds opaque keys; the report is what makes it readable."""
     pge = record("pge", "1", name="Long Reef NE", url="https://www.paraglidingearth.com/?site=1")
     au = record("siteguide_au", "a", name="Long Reef SE", url="https://siteguide.org.au/sites/details/9")
-    entries = [{"a": "pge:1", "b": "siteguide_au:a", "reason": "opposite aspects of one ridge"}]
+    entries = [{"a": "pge:1", "b": "siteguide_au:a", "verdict": "never", "reason": "opposite aspects of one ridge"}]
 
-    table = render_rejected(entries, [pge, au])
+    table = render_overrides(entries, [pge, au], set())
 
     assert "[Long Reef NE](https://www.paraglidingearth.com/?site=1)" in table
     assert "opposite aspects of one ridge" in table
     assert "| yes |" in table
 
 
-def test_rejected_report_flags_a_key_that_no_longer_resolves():
+def test_overrides_report_flags_a_key_that_no_longer_resolves():
     """A source can drop or renumber a site, leaving an entry suppressing
     nothing - that must be visible, not silently dropped."""
-    entries = [{"a": "pge:999", "b": "siteguide_au:a", "reason": "gone"}]
+    entries = [{"a": "pge:999", "b": "siteguide_au:a", "verdict": "never", "reason": "gone"}]
 
-    table = render_rejected(entries, [record("siteguide_au", "a")])
+    table = render_overrides(entries, [record("siteguide_au", "a")], set())
 
     assert "`pge:999`" in table
     assert "stale" in table
 
 
-def test_rejected_report_when_empty():
-    assert "**0** pairs will never be merged" in render_rejected([], [])
+def test_overrides_report_when_empty():
+    assert "**0** pairs forced apart" in render_overrides([], [], set())
 
 
 def test_reason_containing_a_pipe_cannot_break_the_table():
-    entries = [{"a": "pge:1", "b": "siteguide_au:a", "reason": "north | south"}]
-    table = render_rejected(entries, [record("pge", "1"), record("siteguide_au", "a")])
+    entries = [{"a": "pge:1", "b": "siteguide_au:a", "verdict": "never", "reason": "north | south"}]
+    table = render_overrides(entries, [record("pge", "1"), record("siteguide_au", "a")], set())
     assert r"north \| south" in table
 
 
@@ -105,3 +105,22 @@ def test_duplicates_report_shows_wind_so_deliberate_pairs_are_obvious():
     table = render_duplicates([(a, b, 35.0)])
 
     assert "| E,NE |" in table and "| NW,W |" in table
+
+
+def test_keys_cell_is_copy_pasteable():
+    """Constructing an override used to mean hunting two identifiers out of
+    two datasets; one selection should now yield both."""
+    from src.reports import keys_cell
+
+    a = record("pge", "10714")
+    b = record("siteguide_au", "109-238")
+
+    assert keys_cell(a, b) == "`pge:10714 siteguide_au:109-238`"
+
+
+def test_overrides_report_flags_a_forced_pair_that_did_not_apply():
+    entries = [{"a": "pge:1", "b": "siteguide_au:a", "verdict": "always", "reason": "one site"}]
+    recs = [record("pge", "1"), record("siteguide_au", "a")]
+
+    assert "not applied" in render_overrides(entries, recs, set())
+    assert "| yes |" in render_overrides(entries, recs, {frozenset({"pge:1", "siteguide_au:a"})})

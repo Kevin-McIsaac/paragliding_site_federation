@@ -4,7 +4,7 @@ MERGED.md     - what the pipeline folded together, and how far apart the
                 sources put it. The record of every decision actually taken.
 REVIEW.md     - what it did *not* merge but which sits close enough to be
                 worth a glance, with the reason it was left alone.
-REJECTED.md   - the readable view of rejections.json.
+OVERRIDES.md  - the readable view of overrides.json, the one hand-edited file.
 DUPLICATES.md - pairs from a *single* source close enough to be one place
                 entered twice. Never merged; a worklist for upstream.
 
@@ -31,7 +31,7 @@ from src.model import SiteRecord
 
 MERGED_PATH = Path("MERGED.md")
 REVIEW_PATH = Path("REVIEW.md")
-REJECTED_PATH = Path("REJECTED.md")
+OVERRIDES_PATH = Path("OVERRIDES.md")
 DUPLICATES_PATH = Path("DUPLICATES.md")
 _PGE = "pge"
 _AU = "siteguide_au"
@@ -67,6 +67,28 @@ def _similarity_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
     return "—" if score is None else f"{score:.0f}%"
 
 
+_TEMPLATE = (
+    "Copy a **Keys** cell into `overrides.json` to override the automatic "
+    "decision:\n\n"
+    "```json\n"
+    '[{"a": "<key a>", "b": "<key b>", "verdict": "never", "reason": "why"}]\n'
+    "```\n\n"
+    "`never` keeps them apart, `always` forces them together regardless of "
+    "distance."
+)
+
+
+def keys_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
+    """Both source keys, copy-pasteable in one selection.
+
+    Constructing an override used to mean hunting two identifiers out of two
+    datasets; this makes it a copy and a word.
+    """
+    if a is None or b is None:
+        return "—"
+    return f"`{a.key} {b.key}`"
+
+
 def _member(cluster: Cluster, provider: str) -> SiteRecord | None:
     return next((m for m in cluster.members if m.provider == provider), None)
 
@@ -95,17 +117,19 @@ def render_merged(clusters: list[Cluster]) -> str:
         "only and played no part in the decision — a low score here is worth a",
         "look. To stop a pair being merged, add it to `rejections.json`.",
         "",
-        "| PGE Name | AU Name | Distance | Name match |",
-        "|---|---|---:|---:|",
+        _TEMPLATE,
+        "",
+        "| PGE Name | AU Name | Distance | Name match | Keys |",
+        "|---|---|---:|---:|---|",
     ]
     for distance, cluster in rows:
         pge, au = _member(cluster, _PGE), _member(cluster, _AU)
         lines.append(
             f"| {link_cell(pge)} | {link_cell(au)} | {distance:,.0f} m "
-            f"| {_similarity_cell(pge, au)} |"
+            f"| {_similarity_cell(pge, au)} | {keys_cell(pge, au)} |"
         )
     if not merged:
-        lines.append("| _none_ | | | |")
+        lines.append("| _none_ | | | | |")
     return "\n".join(lines) + "\n"
 
 
@@ -128,17 +152,19 @@ def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
         "Names link to their source page. Name match is context only — it plays",
         "no part in merging, and a low score is the part worth a look.",
         "",
-        "| PGE Name | AU Name | Distance | Name match | Why |",
-        "|---|---|---:|---:|---|",
+        _TEMPLATE,
+        "",
+        "| PGE Name | AU Name | Distance | Name match | Why | Keys |",
+        "|---|---|---:|---:|---|---|",
     ]
     for item in sorted(items, key=lambda i: i.distance_m):
         pge, au = item.pair.by_provider(_PGE), item.pair.by_provider(_AU)
         lines.append(
             f"| {link_cell(pge)} | {link_cell(au)} | {item.distance_m:,.0f} m "
-            f"| {_similarity_cell(pge, au)} | {item.reason.value} |"
+            f"| {_similarity_cell(pge, au)} | {item.reason.value} | {keys_cell(pge, au)} |"
         )
     if not items:
-        lines.append("| _none_ | | | | |")
+        lines.append("| _none_ | | | | | |")
     return "\n".join(lines) + "\n"
 
 
@@ -162,59 +188,73 @@ def render_duplicates(groups: list[tuple[SiteRecord, SiteRecord, float]]) -> str
         "maintainers. Wind directions are shown because a pair facing opposite",
         "ways is almost certainly deliberate.",
         "",
-        "| Source | Site A | Site B | Distance | Name match | Wind A | Wind B |",
-        "|---|---|---|---:|---:|---|---|",
+        "| Source | Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |",
+        "|---|---|---|---:|---:|---|---|---|",
     ]
     for a, b, distance in sorted(groups, key=lambda g: g[2]):
         lines.append(
             f"| {a.provider} | {link_cell(a)} | {link_cell(b)} | {distance:,.0f} m "
             f"| {_similarity_cell(a, b)} "
-            f"| {','.join(sorted(a.wind)) or '—'} | {','.join(sorted(b.wind)) or '—'} |"
+            f"| {','.join(sorted(a.wind)) or '—'} | {','.join(sorted(b.wind)) or '—'} "
+            f"| {keys_cell(a, b)} |"
         )
     if not groups:
-        lines.append("| _none_ | | | | | | |")
+        lines.append("| _none_ | | | | | | | |")
     return "\n".join(lines) + "\n"
 
 
-def render_rejected(entries: list[dict], records: list[SiteRecord]) -> str:
-    """The readable view of rejections.json, with keys resolved to names.
+def render_overrides(
+    entries: list[dict], records: list[SiteRecord], forced_applied: set[frozenset[str]]
+) -> str:
+    """The readable view of overrides.json, keys resolved to names.
 
     A key can go stale - a source may drop or renumber a site - so anything
-    that no longer resolves is shown as its raw key and flagged, rather than
-    silently disappearing. A stale entry is dead weight suppressing nothing.
+    that no longer resolves is shown raw and flagged. A stale entry is dead
+    weight: it silently stops overriding anything, which is exactly the
+    failure you would never notice on your own.
     """
     by_key = {r.key: r for r in records}
+    never = [e for e in entries if e.get("verdict") == "never"]
+    always = [e for e in entries if e.get("verdict") == "always"]
 
     lines = [
-        "# Declined merges",
+        "# Overrides",
         "",
-        f"- **{len(entries)}** pairs will never be merged",
+        f"- **{len(never)}** pairs forced apart (`never`)",
+        f"- **{len(always)}** pairs forced together (`always`)",
         "",
-        "The readable view of `rejections.json`, which is the only file you edit",
-        "by hand. Add a pair there to stop it being merged; everything else the",
-        "pipeline decides on its own.",
+        "The readable view of `overrides.json`, the only file edited by hand.",
+        "Everything else the pipeline decides on distance alone. Copy a **Keys**",
+        "cell from any report to add an entry.",
         "",
-        "| PGE Name | AU Name | Reason | Still present? |",
-        "|---|---|---|---|",
+        "| Verdict | PGE Name | AU Name | Reason | Applied? |",
+        "|---|---|---|---|---|",
     ]
-    for entry in sorted(entries, key=lambda e: (e.get("a", ""), e.get("b", ""))):
+    for entry in sorted(entries, key=lambda e: (e.get("verdict", ""), e.get("a", ""))):
         keys = [entry.get("a", ""), entry.get("b", "")]
         resolved = [by_key.get(k) for k in keys]
         pge = next((r for r in resolved if r and r.provider == _PGE), None)
         au = next((r for r in resolved if r and r.provider == _AU), None)
 
         cells = []
-        for record, key in ((pge, next((k for k in keys if k.startswith(f"{_PGE}:")), None)),
-                            (au, next((k for k in keys if k.startswith(f"{_AU}:")), None))):
-            cells.append(link_cell(record) if record else (f"`{key}`" if key else "—"))
+        for record, prefix in ((pge, _PGE), (au, _AU)):
+            raw = next((k for k in keys if k.startswith(f"{prefix}:")), None)
+            cells.append(link_cell(record) if record else (f"`{raw}`" if raw else "—"))
 
-        stale = any(r is None for r in resolved)
-        status = "⚠️ key not found — stale?" if stale else "yes"
+        if any(r is None for r in resolved):
+            status = "⚠️ key not found — stale?"
+        elif entry.get("verdict") == "always" and frozenset(keys) not in forced_applied:
+            status = "⚠️ not applied"
+        else:
+            status = "yes"
+
         reason = str(entry.get("reason", "—")).replace("|", "\\|")
-        lines.append(f"| {cells[0]} | {cells[1]} | {reason} | {status} |")
+        lines.append(
+            f"| `{entry.get('verdict', '?')}` | {cells[0]} | {cells[1]} | {reason} | {status} |"
+        )
 
     if not entries:
-        lines.append("| _none_ | | | |")
+        lines.append("| _none_ | | | | |")
     return "\n".join(lines) + "\n"
 
 
@@ -237,5 +277,12 @@ def write_duplicates(groups, path: Path | None = None) -> bool:
     return _write_if_changed(path or DUPLICATES_PATH, render_duplicates(groups))
 
 
-def write_rejected(entries: list[dict], records: list[SiteRecord], path: Path | None = None) -> bool:
-    return _write_if_changed(path or REJECTED_PATH, render_rejected(entries, records))
+def write_overrides(
+    entries: list[dict],
+    records: list[SiteRecord],
+    forced_applied: set[frozenset[str]],
+    path: Path | None = None,
+) -> bool:
+    return _write_if_changed(
+        path or OVERRIDES_PATH, render_overrides(entries, records, forced_applied)
+    )

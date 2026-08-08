@@ -54,7 +54,7 @@ jobs:
             app/
             MERGED.md
             REVIEW.md
-            REJECTED.md
+            OVERRIDES.md
             DUPLICATES.md
-            rejections.json
+            overrides.json
             state/

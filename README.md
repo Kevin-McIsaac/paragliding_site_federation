@@ -65,14 +65,14 @@ launch under different naming conventions — `Hill 60` ~ `Hill 60` at 110 m,
 `Cape Jervis` ~ `Cape Jervis` at 173 m. A review step there would have meant
 hand-confirming the default 21 times. `REVIEW.md` is therefore a **report, not
 a worklist**: nothing in it needs action, and the rare genuine exception goes
-in `rejections.json` by hand. What it is for is calibration — a run of true
+in `overrides.json` by hand. What it is for is calibration — a run of true
 matches sitting just past the threshold means the threshold is wrong for that
 region's data.
 
 Every run writes four reports, so every outcome is visible: `MERGED.md` (what
 was folded together, and how far apart the sources put it), `REVIEW.md` (close
-but not merged, with *why*), `REJECTED.md` (the readable view of
-`rejections.json`, keys resolved to names and stale entries flagged), and
+but not merged, with *why*), `OVERRIDES.md` (the readable view of
+`overrides.json`, keys resolved to names and stale entries flagged), and
 `DUPLICATES.md`.
 
 That last one covers a gap cross-source matching cannot: PGE carries both
@@ -133,7 +133,7 @@ redistribution.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 81 tests, no network
+pytest                                        # 83 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)

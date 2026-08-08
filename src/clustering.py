@@ -10,7 +10,7 @@ the ones that landed in the review band on distance alone.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import Enum
 
 from src.matcher import MERGE_DISTANCE_M, Band, Pair
@@ -53,14 +53,19 @@ class Cluster:
 class ClusterResult:
     clusters: list[Cluster]
     review: list[ReviewItem]
+    #: Forced pairs whose keys both resolved. Anything in the overrides file
+    #: but missing here has a stale key and is silently doing nothing.
+    forced_applied: set[frozenset[str]] = field(default_factory=set)
 
 
 def cluster(
     records: list[SiteRecord],
     pairs: list[Pair],
     rejected: set[frozenset[str]] | None = None,
+    forced: set[frozenset[str]] | None = None,
 ) -> ClusterResult:
     rejected = rejected or set()
+    forced = forced or set()
     by_key = {r.key: r for r in records}
 
     distances = {p.keys: p.distance_m for p in pairs if p.keys not in rejected}
@@ -70,13 +75,29 @@ def cluster(
     )
 
     cluster_of: dict[str, set[str]] = {r.key: {r.key} for r in records}
+
+    # Forced pairs seed clusters before merging starts. They never arrive as
+    # scored pairs - a pair 387m apart, or a launch against a landing, would
+    # not survive the gates - so joining them here is what makes "always"
+    # meaningful. A key that no longer resolves is skipped; the overrides
+    # report flags it rather than failing the run.
+    applied_forced: set[frozenset[str]] = set()
+    for keys in forced:
+        a, b = sorted(keys)
+        if a not in cluster_of or b not in cluster_of:
+            continue
+        applied_forced.add(keys)
+        merged = cluster_of[a] | cluster_of[b]
+        for key in merged:
+            cluster_of[key] = merged
+
     blocked: list[Pair] = []
 
     for pair in mergeable:
         left, right = cluster_of[pair.a.key], cluster_of[pair.b.key]
         if left is right:
             continue
-        if _all_within(left, right, distances):
+        if _all_within(left, right, distances, applied_forced):
             merged = left | right
             for key in merged:
                 cluster_of[key] = merged
@@ -115,19 +136,29 @@ def cluster(
         review.append(ReviewItem(pair, reason))
 
     for pair in pairs:
-        if pair.band is Band.REVIEW and pair.keys not in rejected:
+        if pair.band is Band.REVIEW and pair.keys not in rejected and pair.keys not in forced:
             if cluster_of[pair.a.key] is not cluster_of[pair.b.key]:
                 if pair.a.key in spoken_for and pair.b.key in spoken_for:
                     continue
                 review.append(ReviewItem(pair, ReviewReason.BEYOND_THRESHOLD))
 
     review.sort(key=lambda item: item.distance_m)
-    return ClusterResult(clusters=clusters, review=review)
+    return ClusterResult(clusters=clusters, review=review, forced_applied=applied_forced)
 
 
-def _all_within(left: set[str], right: set[str], distances: dict[frozenset[str], float]) -> bool:
+def _all_within(
+    left: set[str],
+    right: set[str],
+    distances: dict[frozenset[str], float],
+    forced: set[frozenset[str]],
+) -> bool:
+    """Every cross-cluster pair must be within the threshold - except one a
+    human forced, whose whole point is that the distance does not apply."""
     for a in left:
         for b in right:
-            if distances.get(frozenset({a, b}), float("inf")) > MERGE_DISTANCE_M:
+            keys = frozenset({a, b})
+            if keys in forced:
+                continue
+            if distances.get(keys, float("inf")) > MERGE_DISTANCE_M:
                 return False
     return True

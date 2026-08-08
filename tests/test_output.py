@@ -5,10 +5,15 @@ import csv
 from src.canonical_store import write_app_csv, write_sites
 from src.clustering import Cluster
 from src.ids import IdRegistry
+from src.clustering import ReviewItem, ReviewReason
 from src.matcher import pair_for
 from src.reports import name_similarity, render_review as render
 from src.selection import select
 from tests.conftest import metres, record
+
+
+def _item(pair, reason=ReviewReason.BEYOND_THRESHOLD):
+    return ReviewItem(pair, reason)
 
 
 def _select(*members):
@@ -105,10 +110,10 @@ def test_review_table_has_the_requested_columns_and_order():
     near = record("siteguide_au", "a", name="Cape Jervis SG", lat=-33.7 - metres(120))
     far = record("siteguide_au", "b", name="Shoreham SG", lat=-33.7 - metres(240))
 
-    table = render([pair_for(pge, far), pair_for(pge, near)])
+    table = render([_item(pair_for(pge, far)), _item(pair_for(pge, near))])
     lines = [l for l in table.splitlines() if l.startswith("|")]
 
-    assert lines[0] == "| PGE Name | AU Name | Distance | Name match |"
+    assert lines[0] == "| PGE Name | AU Name | Distance | Name match | Why |"
     assert "Cape Jervis SG" in lines[2]  # closest first
     assert "Shoreham SG" in lines[3]
 
@@ -116,7 +121,7 @@ def test_review_table_has_the_requested_columns_and_order():
 def test_identical_names_score_full_similarity():
     pge = record("pge", "1", name="Cape Jervis")
     au = record("siteguide_au", "a", name="Cape Jervis", lat=-33.7 - metres(120))
-    assert "| 100% |" in render([pair_for(pge, au)])
+    assert "| 100% |" in render([_item(pair_for(pge, au))])
 
 
 def test_site_prefixed_name_is_not_penalised():
@@ -124,7 +129,7 @@ def test_site_prefixed_name_is_not_penalised():
     superset of the other - that must not read as a poor match."""
     pge = record("pge", "1", name="Honeysuckle")
     au = record("siteguide_au", "a", name="Honeysuckle - Launch 3", lat=-33.7 - metres(120))
-    assert "| 100% |" in render([pair_for(pge, au)])
+    assert "| 100% |" in render([_item(pair_for(pge, au))])
 
 
 def test_genuinely_different_names_score_low():
@@ -142,7 +147,7 @@ def test_review_names_link_to_their_source_page():
     au = record("siteguide_au", "a", name="Cape Jervis SG",
                 lat=-33.7 - metres(120), url="https://siteguide.org.au/sites/9")
 
-    table = render([pair_for(pge, au)])
+    table = render([_item(pair_for(pge, au))])
 
     assert "[Cape Jervis](https://www.paraglidingearth.com/?site=1)" in table
     assert "[Cape Jervis SG](https://siteguide.org.au/sites/9)" in table
@@ -151,20 +156,20 @@ def test_review_names_link_to_their_source_page():
 def test_review_falls_back_to_plain_name_without_a_url():
     pge = record("pge", "1", name="Cape Jervis", url=None)
     au = record("siteguide_au", "a", lat=-33.7 - metres(120), url=None)
-    assert "| Cape Jervis |" in render([pair_for(pge, au)])
+    assert "| Cape Jervis |" in render([_item(pair_for(pge, au))])
 
 
 def test_pipe_in_a_name_cannot_break_the_table():
     pge = record("pge", "1", name="Bald | Hill", url=None)
     au = record("siteguide_au", "a", lat=-33.7 - metres(120), url=None)
-    assert r"Bald \| Hill" in render([pair_for(pge, au)])
+    assert r"Bald \| Hill" in render([_item(pair_for(pge, au))])
 
 
 def test_report_leads_with_merged_and_unmerged_counts():
     pge = record("pge", "1")
     au = record("siteguide_au", "a", lat=-33.7 - metres(120))
 
-    table = render([pair_for(pge, au)], merged=61)
+    table = render([_item(pair_for(pge, au))], merged=61)
 
     assert "**61** merged automatically" in table
     assert "**1** left unmerged but close" in table

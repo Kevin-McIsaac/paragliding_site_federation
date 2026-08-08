@@ -4,7 +4,8 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 
-from src.matcher import MERGE_DISTANCE_M, Pair
+from src.clustering import ReviewItem
+from src.matcher import MERGE_DISTANCE_M
 from src.reports import render_review
 
 _ANOMALY_DROP_FRACTION = 0.20
@@ -57,7 +58,7 @@ def build_pr(
     stats: list[SourceStats],
     site_counts: dict[str, int],
     merged_clusters: int,
-    review: list[Pair],
+    review: list[ReviewItem],
     health: RunHealth,
     no_wind: int,
 ) -> tuple[str, str]:

@@ -46,6 +46,10 @@ class SiteRecord:
     # Sites whose published coordinates are deliberately approximate, so
     # proximity to another source is coincidence rather than evidence.
     approximate_location: bool = False
+    # The parent this record belongs to within its own source, where the
+    # source has that notion. Two launches under one Site Guide site are
+    # deliberately distinct, never duplicates of each other.
+    group_id: str | None = None
 
     @property
     def key(self) -> str:

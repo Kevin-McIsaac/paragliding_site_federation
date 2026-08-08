@@ -1,6 +1,7 @@
 """Clustering stays conservative and honours rejections."""
 
 from src.clustering import cluster
+from src.clustering import ReviewReason
 from src.matcher import Band, pairs
 from tests.conftest import metres, record
 
@@ -49,7 +50,8 @@ def test_near_miss_past_the_threshold_is_reported_not_merged():
     result = _cluster([record("pge", "1"), record("siteguide_au", "a", lat=-33.7 - metres(300))])
     assert len(result.clusters) == 2
     assert len(result.review) == 1
-    assert result.review[0].band is Band.REVIEW
+    assert result.review[0].pair.band is Band.REVIEW
+    assert result.review[0].reason is ReviewReason.BEYOND_THRESHOLD
 
 
 def test_pair_whose_sides_both_merged_elsewhere_is_not_reported():
@@ -73,5 +75,22 @@ def test_review_is_sorted_by_ascending_distance():
         record("dhv", "x", lat=-33.7 - metres(120)),
     ]
     result = _cluster(recs)
-    distances = [p.distance_m for p in result.review]
+    distances = [item.distance_m for item in result.review]
     assert distances == sorted(distances)
+
+
+def test_a_closer_match_stealing_the_counterpart_is_labelled_as_such():
+    """PGE holds two records for one place; Site Guide has one launch between
+    them. The nearer PGE record wins it, and the other is left unmerged at a
+    distance that would otherwise have merged - which is the visible symptom
+    of a duplicate inside PGE."""
+    near = record("pge", "1", name="Little Europe", lat=-33.7)
+    au = record("siteguide_au", "a", lat=-33.7 - metres(33))
+    far = record("pge", "2", name="Lake St Clair", lat=-33.7 - metres(133))
+
+    result = _cluster([near, au, far])
+
+    assert len(result.review) == 1
+    item = result.review[0]
+    assert item.pair.band is Band.MERGE, "close enough to merge, but blocked"
+    assert item.reason is ReviewReason.COUNTERPART_MERGED

@@ -1,4 +1,6 @@
-"""The three markdown reports: merged, near-misses, declined."""
+"""The four markdown reports: merged, near-misses, declined, duplicates."""
+
+import pytest
 
 from src.clustering import Cluster
 from src.reports import render_merged, render_rejected
@@ -67,3 +69,39 @@ def test_reason_containing_a_pipe_cannot_break_the_table():
     entries = [{"a": "pge:1", "b": "siteguide_au:a", "reason": "north | south"}]
     table = render_rejected(entries, [record("pge", "1"), record("siteguide_au", "a")])
     assert r"north \| south" in table
+
+
+def test_intra_source_pairs_skip_launches_under_one_parent():
+    """Two launches of one Site Guide site are deliberately distinct - "The
+    Paps - South west" and "- South east" are 47m apart and both real."""
+    from src.matcher import intra_source_pairs
+
+    a = record("siteguide_au", "212-1", name="The Paps - South west", group_id="212")
+    b = record("siteguide_au", "212-2", name="The Paps - South east",
+               lat=-33.7 - metres(47), group_id="212")
+
+    assert list(intra_source_pairs([a, b])) == []
+
+
+def test_intra_source_pairs_report_a_genuine_same_source_duplicate():
+    a = record("pge", "7596", name="Little Europe", group_id=None)
+    b = record("pge", "10714", name="Lake St Clair", lat=-33.7 - metres(133), group_id=None)
+
+    from src.matcher import intra_source_pairs
+
+    found = list(intra_source_pairs([a, b]))
+
+    assert len(found) == 1
+    assert found[0][2] == pytest.approx(133, abs=1)
+
+
+def test_duplicates_report_shows_wind_so_deliberate_pairs_are_obvious():
+    """Opposite aspects are the clearest sign a close pair is intentional."""
+    from src.reports import render_duplicates
+
+    a = record("siteguide_au", "1", name="Tasman 3", wind={"E": 1, "NE": 1})
+    b = record("siteguide_au", "2", name="Tasman 4", wind={"W": 1, "NW": 1})
+
+    table = render_duplicates([(a, b, 35.0)])
+
+    assert "| E,NE |" in table and "| NW,W |" in table

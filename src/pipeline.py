@@ -12,6 +12,7 @@ from src import rejections, reports
 from src.canonical_store import write_app_csv, write_sites
 from src.clustering import cluster
 from src.ids import IdRegistry
+from src.matcher import intra_source_pairs
 from src.matcher import pairs as build_pairs
 from src.model import AUSTRALIA_BBOX, WORLD_BBOX
 from src.run_summary import SourceStats, build_pr, check_health
@@ -88,6 +89,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     merged_changed = reports.write_merged(result.clusters)
     review_changed = reports.write_review(result.review, merged)
     rejected_changed = reports.write_rejected(rejection_entries, records)
+    duplicates_changed = reports.write_duplicates(list(intra_source_pairs(records)))
     rejections.ensure_exists()
     registry.save()
 
@@ -102,7 +104,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     )
 
     has_changes = any((site_counts["written"] > 0, csv_changed, merged_changed,
-                      review_changed, rejected_changed))
+                      review_changed, rejected_changed, duplicates_changed))
     PR_OUTPUT_DIR.mkdir(exist_ok=True)
     (PR_OUTPUT_DIR / "has_changes.txt").write_text("true" if has_changes else "false")
     (PR_OUTPUT_DIR / "title.txt").write_text(title)

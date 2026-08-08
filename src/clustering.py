@@ -11,9 +11,33 @@ the ones that landed in the review band on distance alone.
 from __future__ import annotations
 
 from dataclasses import dataclass
+from enum import Enum
 
 from src.matcher import MERGE_DISTANCE_M, Band, Pair
 from src.model import SiteRecord
+
+
+class ReviewReason(str, Enum):
+    #: Close enough to merge, but the other side already merged with something
+    #: nearer. PGE's "Lake St Clair" sits 100m from a Site Guide launch that
+    #: PGE's own "Little Europe" already claimed at 33m - the symptom of a
+    #: duplicate *within* PGE, which cross-source matching cannot resolve.
+    COUNTERPART_MERGED = "counterpart already merged"
+    #: Close enough to merge, but joining would have pulled together records
+    #: that are not all within the threshold of each other.
+    CLUSTER_GUARD = "would over-merge the cluster"
+    #: Simply further apart than the merge threshold.
+    BEYOND_THRESHOLD = "beyond merge threshold"
+
+
+@dataclass(frozen=True)
+class ReviewItem:
+    pair: Pair
+    reason: ReviewReason
+
+    @property
+    def distance_m(self) -> float:
+        return self.pair.distance_m
 
 
 @dataclass(frozen=True)
@@ -28,7 +52,7 @@ class Cluster:
 @dataclass(frozen=True)
 class ClusterResult:
     clusters: list[Cluster]
-    review: list[Pair]
+    review: list[ReviewItem]
 
 
 def cluster(
@@ -46,7 +70,7 @@ def cluster(
     )
 
     cluster_of: dict[str, set[str]] = {r.key: {r.key} for r in records}
-    review: list[Pair] = []
+    blocked: list[Pair] = []
 
     for pair in mergeable:
         left, right = cluster_of[pair.a.key], cluster_of[pair.b.key]
@@ -57,7 +81,7 @@ def cluster(
             for key in merged:
                 cluster_of[key] = merged
         else:
-            review.append(pair)
+            blocked.append(pair)
 
     seen: list[set[str]] = []
     clusters: list[Cluster] = []
@@ -68,20 +92,36 @@ def cluster(
         seen.append(group)
         clusters.append(Cluster(members=tuple(by_key[k] for k in sorted(group))))
 
-    for pair in pairs:
-        if pair.band is Band.REVIEW and pair.keys not in rejected:
-            if cluster_of[pair.a.key] is not cluster_of[pair.b.key]:
-                review.append(pair)
-
     # A pair where both records already merged with someone else is settled,
     # not a question - the one-to-one assignment gave each a better partner.
     # "Long Reef NE" ~ "Long Reef SE" is the case: each matched its own
     # counterpart at ~14m, so listing the 200m cross-pair only invites action
     # on something that cannot happen.
     spoken_for = {k for c in clusters if len(c.members) > 1 for k in c.keys}
-    review = [p for p in review if not (p.a.key in spoken_for and p.b.key in spoken_for)]
 
-    review.sort(key=lambda p: p.distance_m)
+    review: list[ReviewItem] = []
+    for pair in blocked:
+        if pair.a.key in spoken_for and pair.b.key in spoken_for:
+            continue
+        # Being blocked while the other side is already merged is a different
+        # story from over-merging: it usually means that side's own source
+        # holds a duplicate. Naming them apart saves the reader working out
+        # why a 100m pair did not merge.
+        reason = (
+            ReviewReason.COUNTERPART_MERGED
+            if pair.a.key in spoken_for or pair.b.key in spoken_for
+            else ReviewReason.CLUSTER_GUARD
+        )
+        review.append(ReviewItem(pair, reason))
+
+    for pair in pairs:
+        if pair.band is Band.REVIEW and pair.keys not in rejected:
+            if cluster_of[pair.a.key] is not cluster_of[pair.b.key]:
+                if pair.a.key in spoken_for and pair.b.key in spoken_for:
+                    continue
+                review.append(ReviewItem(pair, ReviewReason.BEYOND_THRESHOLD))
+
+    review.sort(key=lambda item: item.distance_m)
     return ClusterResult(clusters=clusters, review=review)
 
 

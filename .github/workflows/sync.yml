@@ -55,5 +55,6 @@ jobs:
             MERGED.md
             REVIEW.md
             REJECTED.md
+            DUPLICATES.md
             rejections.json
             state/

@@ -106,8 +106,8 @@ def _cell(record: SiteRecord) -> tuple[int, int]:
     return int(math.floor(record.lat / _CELL_DEG)), int(math.floor(record.lon / _CELL_DEG))
 
 
-def pairs(records: list[SiteRecord]) -> Iterator[Pair]:
-    """Every cross-source pair within the review radius, via a spatial index.
+def _neighbours(records: list[SiteRecord]) -> Iterator[tuple[SiteRecord, SiteRecord]]:
+    """Every nearby pair exactly once, via a spatial index.
 
     Comparing 11k+ records naively is ~65M combinations; bucketing into ~1km
     cells and visiting only neighbouring cells keeps it near-linear.
@@ -131,5 +131,36 @@ def pairs(records: list[SiteRecord]) -> Iterator[Pair]:
                 if pair_key in seen:
                     continue
                 seen.add(pair_key)
-                if (pair := pair_for(record, other)) is not None:
-                    yield pair
+                yield record, other
+
+
+def pairs(records: list[SiteRecord]) -> Iterator[Pair]:
+    """Every cross-source pair close enough to be a candidate."""
+    for a, b in _neighbours(records):
+        if (pair := pair_for(a, b)) is not None:
+            yield pair
+
+
+def intra_source_pairs(records: list[SiteRecord]) -> Iterator[tuple[SiteRecord, SiteRecord, float]]:
+    """Suspiciously close pairs from the *same* source - reported, never merged.
+
+    These are invisible to matching by design, because one guide listing
+    several launches at a site is a deliberate distinction. But some are real
+    duplicates: PGE carries both "Little Europe" and "Lake St Clair" 133m
+    apart, and Site Guide's single launch there is named "Glennies Ridge -
+    Lake St Clair (Little Europe)" - one place, entered twice.
+
+    Telling those apart from deliberate neighbours needs judgement (Site
+    Guide's "Tasman Flying Site 3" and "4" sit 35m apart and are genuinely
+    different launches facing opposite ways), so this only reports.
+    """
+    for a, b in _neighbours(records):
+        if a.provider != b.provider or a.role != b.role:
+            continue
+        # Two launches under one parent site are deliberately distinct.
+        if a.group_id is not None and a.group_id == b.group_id:
+            continue
+        distance_m = haversine_m(a.lat, a.lon, b.lat, b.lon)
+        if distance_m <= MERGE_DISTANCE_M:
+            first, second = sorted((a, b), key=lambda r: r.id)
+            yield first, second, round(distance_m, 1)

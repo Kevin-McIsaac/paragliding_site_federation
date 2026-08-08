@@ -109,6 +109,7 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
                 country="AU",
                 url=url,
                 approximate_location=approximate,
+                group_id=str(site["id"]),
             )
         )
     return records

@@ -69,11 +69,21 @@ in `rejections.json` by hand. What it is for is calibration — a run of true
 matches sitting just past the threshold means the threshold is wrong for that
 region's data.
 
-Every run writes three reports, so all three outcomes are visible:
-`MERGED.md` (what was folded together, and how far apart the sources put it),
-`REVIEW.md` (close but not merged), and `REJECTED.md` — the readable view of
-`rejections.json`, with the opaque keys resolved to site names and links, and
-stale entries flagged.
+Every run writes four reports, so every outcome is visible: `MERGED.md` (what
+was folded together, and how far apart the sources put it), `REVIEW.md` (close
+but not merged, with *why*), `REJECTED.md` (the readable view of
+`rejections.json`, keys resolved to names and stale entries flagged), and
+`DUPLICATES.md`.
+
+That last one covers a gap cross-source matching cannot: PGE carries both
+`Little Europe` and `Lake St Clair` 133 m apart, and Site Guide's single launch
+there is named `Glennies Ridge - Lake St Clair (Little Europe)` — one place,
+entered twice. Only the nearer PGE record can merge, so the other shows in
+`REVIEW.md` as *counterpart already merged*. These are never merged
+automatically, because telling a duplicate from a deliberate neighbour needs
+judgement — `Tasman Flying Site 3` and `4` are 35 m apart facing `E-NE` and
+`W-NW`. The report shows both sides' wind, which is the clearest tell, and
+skips launches sharing a parent site since those are distinct by definition.
 
 Records from the *same* source are never compared — one guide listing several
 launches at a site is a deliberate distinction, not a duplicate.
@@ -123,7 +133,7 @@ redistribution.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 77 tests, no network
+pytest                                        # 81 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)

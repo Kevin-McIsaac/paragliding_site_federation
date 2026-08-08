@@ -1,9 +1,12 @@
 """The two human-readable markdown reports.
 
-MERGED.md  - what the pipeline folded together, and how far apart the sources
-             put it. This is the record of every decision actually taken.
-REVIEW.md  - what it did *not* merge but which sits close enough to be worth
-             a glance.
+MERGED.md     - what the pipeline folded together, and how far apart the
+                sources put it. The record of every decision actually taken.
+REVIEW.md     - what it did *not* merge but which sits close enough to be
+                worth a glance, with the reason it was left alone.
+REJECTED.md   - the readable view of rejections.json.
+DUPLICATES.md - pairs from a *single* source close enough to be one place
+                entered twice. Never merged; a worklist for upstream.
 
 Neither is a worklist. There is deliberately no approve/reject workflow: when
 the merge threshold was 100m the review list held 21 pairs that were all
@@ -22,13 +25,14 @@ from pathlib import Path
 
 from rapidfuzz import fuzz
 
-from src.clustering import Cluster
+from src.clustering import Cluster, ReviewItem
 from src.matcher import MERGE_DISTANCE_M, Pair, haversine_m
 from src.model import SiteRecord
 
 MERGED_PATH = Path("MERGED.md")
 REVIEW_PATH = Path("REVIEW.md")
 REJECTED_PATH = Path("REJECTED.md")
+DUPLICATES_PATH = Path("DUPLICATES.md")
 _PGE = "pge"
 _AU = "siteguide_au"
 
@@ -105,32 +109,70 @@ def render_merged(clusters: list[Cluster]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def render_review(pairs: list[Pair], merged: int | None = None) -> str:
+def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
     lines = ["# Unmerged near-misses", ""]
     if merged is not None:
         lines += [f"- **{merged}** merged automatically (within {MERGE_DISTANCE_M:.0f} m) — see `MERGED.md`"]
     lines += [
-        f"- **{len(pairs)}** left unmerged but close, listed below",
+        f"- **{len(items)}** left unmerged but close, listed below",
         "",
         "Nothing here needs action — this is a report, not a worklist. A run of",
         f"true matches just past {MERGE_DISTANCE_M:.0f} m would mean the threshold is wrong for this",
         "region; that is what to watch for. To stop a specific pair being merged,",
         "add it to `rejections.json`.",
         "",
+        "**Why** explains a pair closer than the threshold that still did not",
+        "merge — usually because the other side had a nearer match, which points",
+        "at a duplicate inside that source (see `DUPLICATES.md`).",
+        "",
         "Names link to their source page. Name match is context only — it plays",
         "no part in merging, and a low score is the part worth a look.",
         "",
-        "| PGE Name | AU Name | Distance | Name match |",
-        "|---|---|---:|---:|",
+        "| PGE Name | AU Name | Distance | Name match | Why |",
+        "|---|---|---:|---:|---|",
     ]
-    for pair in sorted(pairs, key=lambda p: p.distance_m):
-        pge, au = pair.by_provider(_PGE), pair.by_provider(_AU)
+    for item in sorted(items, key=lambda i: i.distance_m):
+        pge, au = item.pair.by_provider(_PGE), item.pair.by_provider(_AU)
         lines.append(
-            f"| {link_cell(pge)} | {link_cell(au)} | {pair.distance_m:,.0f} m "
-            f"| {_similarity_cell(pge, au)} |"
+            f"| {link_cell(pge)} | {link_cell(au)} | {item.distance_m:,.0f} m "
+            f"| {_similarity_cell(pge, au)} | {item.reason.value} |"
         )
-    if not pairs:
-        lines.append("| _none_ | | | |")
+    if not items:
+        lines.append("| _none_ | | | | |")
+    return "\n".join(lines) + "\n"
+
+
+def render_duplicates(groups: list[tuple[SiteRecord, SiteRecord, float]]) -> str:
+    """Same-source pairs close enough to be one place entered twice.
+
+    Never merged - matching deliberately ignores same-source pairs, because a
+    guide listing several launches at a site means it. This is a worklist for
+    reporting upstream, and needs a human: Site Guide's "Tasman Flying Site 3"
+    and "4" are 35m apart and genuinely distinct, facing E-NE and W-NW.
+    Disagreeing wind is the clearest sign a close pair is deliberate.
+    """
+    lines = [
+        "# Possible duplicates within a single source",
+        "",
+        f"- **{len(groups)}** same-source pairs within {MERGE_DISTANCE_M:.0f} m",
+        "",
+        "These are never merged — one guide listing several launches at a site",
+        "is a deliberate distinction, not a duplicate. But some are one place",
+        "entered twice, and those are worth reporting upstream to the guide's",
+        "maintainers. Wind directions are shown because a pair facing opposite",
+        "ways is almost certainly deliberate.",
+        "",
+        "| Source | Site A | Site B | Distance | Name match | Wind A | Wind B |",
+        "|---|---|---|---:|---:|---|---|",
+    ]
+    for a, b, distance in sorted(groups, key=lambda g: g[2]):
+        lines.append(
+            f"| {a.provider} | {link_cell(a)} | {link_cell(b)} | {distance:,.0f} m "
+            f"| {_similarity_cell(a, b)} "
+            f"| {','.join(sorted(a.wind)) or '—'} | {','.join(sorted(b.wind)) or '—'} |"
+        )
+    if not groups:
+        lines.append("| _none_ | | | | | | |")
     return "\n".join(lines) + "\n"
 
 
@@ -187,8 +229,12 @@ def write_merged(clusters: list[Cluster], path: Path | None = None) -> bool:
     return _write_if_changed(path or MERGED_PATH, render_merged(clusters))
 
 
-def write_review(pairs: list[Pair], merged: int | None = None, path: Path | None = None) -> bool:
-    return _write_if_changed(path or REVIEW_PATH, render_review(pairs, merged))
+def write_review(items: list[ReviewItem], merged: int | None = None, path: Path | None = None) -> bool:
+    return _write_if_changed(path or REVIEW_PATH, render_review(items, merged))
+
+
+def write_duplicates(groups, path: Path | None = None) -> bool:
+    return _write_if_changed(path or DUPLICATES_PATH, render_duplicates(groups))
 
 
 def write_rejected(entries: list[dict], records: list[SiteRecord], path: Path | None = None) -> bool:

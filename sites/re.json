@@ -1,0 +1,231 @@
+[
+  {
+    "id": "PSF-003040",
+    "name": "bellemene 1200",
+    "lat": -21.0198,
+    "lon": 55.3527,
+    "wind": {},
+    "sources": {
+      "pge": "14451"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14451"
+  },
+  {
+    "id": "PSF-009753",
+    "name": "colimacon 800",
+    "lat": -21.1316,
+    "lon": 55.3032,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6876"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6876"
+  },
+  {
+    "id": "PSF-009754",
+    "name": "Saint Leu 1400",
+    "lat": -21.1509,
+    "lon": 55.3427,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6877"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6877"
+  },
+  {
+    "id": "PSF-009755",
+    "name": "dos d\\'ane",
+    "lat": -20.9774,
+    "lon": 55.3687,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6878"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6878"
+  },
+  {
+    "id": "PSF-009756",
+    "name": "riviere des remparts",
+    "lat": -21.192,
+    "lon": 55.64,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "6879"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6879"
+  },
+  {
+    "id": "PSF-009764",
+    "name": "piton textor",
+    "lat": -21.1876,
+    "lon": 55.6351,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "6888"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6888"
+  },
+  {
+    "id": "PSF-009765",
+    "name": "piton des neiges",
+    "lat": -21.0997,
+    "lon": 55.4808,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6889"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6889"
+  },
+  {
+    "id": "PSF-009766",
+    "name": "matouta",
+    "lat": -21.3591,
+    "lon": 55.6964,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6890"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6890"
+  },
+  {
+    "id": "PSF-009767",
+    "name": "maido",
+    "lat": -21.0593,
+    "lon": 55.3818,
+    "wind": {},
+    "sources": {
+      "pge": "6891"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6891"
+  },
+  {
+    "id": "PSF-009768",
+    "name": "plaine des gregues",
+    "lat": -21.3207,
+    "lon": 55.5932,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "6892"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6892"
+  },
+  {
+    "id": "PSF-009769",
+    "name": "piton entonnoir",
+    "lat": -21.3568,
+    "lon": 55.6145,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "6893"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6893"
+  },
+  {
+    "id": "PSF-009770",
+    "name": "piton rond",
+    "lat": -21.1549,
+    "lon": 55.5976,
+    "wind": {},
+    "sources": {
+      "pge": "6894"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6894"
+  },
+  {
+    "id": "PSF-009771",
+    "name": "le dimitile",
+    "lat": -21.1901,
+    "lon": 55.4846,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6895"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6895"
+  },
+  {
+    "id": "PSF-009772",
+    "name": "bellemene",
+    "lat": -21.0224,
+    "lon": 55.3212,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6896"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6896"
+  },
+  {
+    "id": "PSF-009777",
+    "name": "colimacons 1500",
+    "lat": -21.1674,
+    "lon": 55.3541,
+    "wind": {},
+    "sources": {
+      "pge": "6904"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6904"
+  },
+  {
+    "id": "PSF-009780",
+    "name": "MAKES",
+    "lat": -21.19,
+    "lon": 55.4075,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "6908"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6908"
+  }
+]

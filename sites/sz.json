@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PSF-009389",
+    "name": "Snake Hill",
+    "lat": -26.2527,
+    "lon": 31.1292,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6141"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6141"
+  }
+]

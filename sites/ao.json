@@ -1,0 +1,186 @@
+[
+  {
+    "id": "PSF-000125",
+    "name": "Barra do Cuanza",
+    "lat": -9.30833,
+    "lon": 13.1333,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10149"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10149"
+  },
+  {
+    "id": "PSF-000474",
+    "name": "Cabo Ledo",
+    "lat": -9.6634,
+    "lon": 13.225,
+    "wind": {},
+    "sources": {
+      "pge": "10547"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10547"
+  },
+  {
+    "id": "PSF-000475",
+    "name": "Caota",
+    "lat": -12.6076,
+    "lon": 13.2687,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10548"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10548"
+  },
+  {
+    "id": "PSF-000476",
+    "name": "Km 51 Estrada Luanda - Porto Amboim",
+    "lat": -9.16655,
+    "lon": 13.0519,
+    "wind": {},
+    "sources": {
+      "pge": "10549"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10549"
+  },
+  {
+    "id": "PSF-000477",
+    "name": "Lubango",
+    "lat": -14.9167,
+    "lon": 13.5,
+    "wind": {},
+    "sources": {
+      "pge": "10550"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10550"
+  },
+  {
+    "id": "PSF-000478",
+    "name": "Santiago Centre",
+    "lat": -8.6691,
+    "lon": 13.4314,
+    "wind": {},
+    "sources": {
+      "pge": "10551"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10551"
+  },
+  {
+    "id": "PSF-000479",
+    "name": "Miradouro da Lua",
+    "lat": -9.22133,
+    "lon": 13.0897,
+    "wind": {},
+    "sources": {
+      "pge": "10552"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10552"
+  },
+  {
+    "id": "PSF-000480",
+    "name": "Sumbe",
+    "lat": -11.2,
+    "lon": 13.8333,
+    "wind": {},
+    "sources": {
+      "pge": "10553"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10553"
+  },
+  {
+    "id": "PSF-001908",
+    "name": "Deco lado sul da Barra do Kwanza",
+    "lat": -9.38094,
+    "lon": 13.1649,
+    "wind": {},
+    "sources": {
+      "pge": "12627"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12627"
+  },
+  {
+    "id": "PSF-002513",
+    "name": "BARRA DO KWANZA",
+    "lat": -9.35612,
+    "lon": 13.1527,
+    "wind": {},
+    "sources": {
+      "pge": "13653"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13653"
+  },
+  {
+    "id": "PSF-003198",
+    "name": "North Side of Barra do Dande",
+    "lat": -8.42868,
+    "lon": 13.3891,
+    "wind": {},
+    "sources": {
+      "pge": "14717"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14717"
+  },
+  {
+    "id": "PSF-004257",
+    "name": "Beach of  Sangano",
+    "lat": -9.54512,
+    "lon": 13.2027,
+    "wind": {},
+    "sources": {
+      "pge": "16375"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16375"
+  },
+  {
+    "id": "PSF-006740",
+    "name": "Santiago Southern Hill",
+    "lat": -8.67184,
+    "lon": 13.4337,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21729"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21729"
+  },
+  {
+    "id": "PSF-006741",
+    "name": "Santiago North Ridge",
+    "lat": -8.6637,
+    "lon": 13.432,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21730"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21730"
+  }
+]

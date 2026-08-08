@@ -1,0 +1,138 @@
+[
+  {
+    "id": "PSF-001359",
+    "name": "Cubuy",
+    "lat": 18.2554,
+    "lon": -65.8514,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11630"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11630"
+  },
+  {
+    "id": "PSF-003074",
+    "name": "el farallon",
+    "lat": 18.5086,
+    "lon": -67.0513,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "14508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14508"
+  },
+  {
+    "id": "PSF-003441",
+    "name": "Cubuy",
+    "lat": 18.2538,
+    "lon": -65.852,
+    "wind": {},
+    "sources": {
+      "pge": "15098"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15098"
+  },
+  {
+    "id": "PSF-005508",
+    "name": "Morovis",
+    "lat": 18.2961,
+    "lon": -66.4461,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "18841"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18841"
+  },
+  {
+    "id": "PSF-005509",
+    "name": "Rancho Guayama",
+    "lat": 18.0042,
+    "lon": -66.2125,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18842"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18842"
+  },
+  {
+    "id": "PSF-005510",
+    "name": "Salinas",
+    "lat": 18.0547,
+    "lon": -66.2254,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18844"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18844"
+  },
+  {
+    "id": "PSF-005511",
+    "name": "Caguas",
+    "lat": 18.2674,
+    "lon": -66.0264,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "18845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18845"
+  },
+  {
+    "id": "PSF-005512",
+    "name": "La casita",
+    "lat": 18.2754,
+    "lon": -65.9332,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18846"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18846"
+  },
+  {
+    "id": "PSF-005513",
+    "name": "Pajaros",
+    "lat": 18.2132,
+    "lon": -65.8334,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "18847"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18847"
+  }
+]

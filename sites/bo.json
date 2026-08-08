@@ -1,0 +1,235 @@
+[
+  {
+    "id": "PSF-000108",
+    "name": "Huayllani",
+    "lat": -17.3575,
+    "lon": -66.0569,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10131"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10131"
+  },
+  {
+    "id": "PSF-000615",
+    "name": "Copacabana",
+    "lat": -16.1779,
+    "lon": -69.0866,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10723"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10723"
+  },
+  {
+    "id": "PSF-000625",
+    "name": "la Muela del diablo",
+    "lat": -16.562,
+    "lon": -68.0579,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10734"
+  },
+  {
+    "id": "PSF-003081",
+    "name": "Patamanta",
+    "lat": -16.3697,
+    "lon": -68.3629,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14517"
+  },
+  {
+    "id": "PSF-003084",
+    "name": "Huajchilla",
+    "lat": -16.6497,
+    "lon": -68.0608,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "14520"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14520"
+  },
+  {
+    "id": "PSF-003085",
+    "name": "Coroico",
+    "lat": -16.1942,
+    "lon": -67.7192,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14521"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14521"
+  },
+  {
+    "id": "PSF-003209",
+    "name": "Urmiri",
+    "lat": -18.5802,
+    "lon": -66.8769,
+    "wind": {},
+    "sources": {
+      "pge": "14747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14747"
+  },
+  {
+    "id": "PSF-004122",
+    "name": "Sapaqui",
+    "lat": -16.94,
+    "lon": -67.9549,
+    "wind": {},
+    "sources": {
+      "pge": "16156"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16156"
+  },
+  {
+    "id": "PSF-004123",
+    "name": "The Antenas",
+    "lat": -16.5722,
+    "lon": -68.0168,
+    "wind": {},
+    "sources": {
+      "pge": "16157"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16157"
+  },
+  {
+    "id": "PSF-004302",
+    "name": "Tiquipaya",
+    "lat": -17.2912,
+    "lon": -66.2117,
+    "wind": {},
+    "sources": {
+      "pge": "16453"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16453"
+  },
+  {
+    "id": "PSF-005627",
+    "name": "Yanari",
+    "lat": -16.7062,
+    "lon": -68.0293,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "19248"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19248"
+  },
+  {
+    "id": "PSF-007172",
+    "name": "Cap5",
+    "lat": -17.7053,
+    "lon": -66.3176,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22227"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22227"
+  },
+  {
+    "id": "PSF-007577",
+    "name": "Vinto",
+    "lat": -17.3567,
+    "lon": -66.3872,
+    "wind": {},
+    "sources": {
+      "pge": "22674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22674"
+  },
+  {
+    "id": "PSF-007578",
+    "name": "Colomi",
+    "lat": -17.3363,
+    "lon": -65.8941,
+    "wind": {},
+    "sources": {
+      "pge": "22675"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22675"
+  },
+  {
+    "id": "PSF-007579",
+    "name": "Municipio Oruro",
+    "lat": -17.9364,
+    "lon": -67.1267,
+    "wind": {},
+    "sources": {
+      "pge": "22676"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22676"
+  },
+  {
+    "id": "PSF-007580",
+    "name": "TUTI",
+    "lat": -17.4582,
+    "lon": -65.8586,
+    "wind": {},
+    "sources": {
+      "pge": "22677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22677"
+  },
+  {
+    "id": "PSF-007634",
+    "name": "Municipio Mairana",
+    "lat": -18.0973,
+    "lon": -63.9276,
+    "wind": {},
+    "sources": {
+      "pge": "22735"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22735"
+  }
+]

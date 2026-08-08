@@ -1,0 +1,133 @@
+[
+  {
+    "id": "PSF-003749",
+    "name": "Le Pouce",
+    "lat": -20.1994,
+    "lon": 57.5299,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15605"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15605"
+  },
+  {
+    "id": "PSF-005643",
+    "name": "Pyramid",
+    "lat": -20.4252,
+    "lon": 57.3838,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19274"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19274"
+  },
+  {
+    "id": "PSF-008535",
+    "name": "Quatre Soeurs VCA",
+    "lat": -20.3083,
+    "lon": 57.7747,
+    "wind": {},
+    "sources": {
+      "pge": "23753"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23753"
+  },
+  {
+    "id": "PSF-008536",
+    "name": "Le Morne VCA",
+    "lat": -20.4538,
+    "lon": 57.3304,
+    "wind": {},
+    "sources": {
+      "pge": "23754"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23754"
+  },
+  {
+    "id": "PSF-008537",
+    "name": "Souillac VCA",
+    "lat": -20.5246,
+    "lon": 57.5306,
+    "wind": {},
+    "sources": {
+      "pge": "23755"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23755"
+  },
+  {
+    "id": "PSF-008538",
+    "name": "Le Chat",
+    "lat": -20.3129,
+    "lon": 57.775,
+    "wind": {},
+    "sources": {
+      "pge": "23756"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23756"
+  },
+  {
+    "id": "PSF-008719",
+    "name": "Corps de Garde",
+    "lat": -20.251,
+    "lon": 57.4496,
+    "wind": {},
+    "sources": {
+      "pge": "23962"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23962"
+  },
+  {
+    "id": "PSF-008720",
+    "name": "Mt Saint Piere",
+    "lat": -20.2659,
+    "lon": 57.4295,
+    "wind": {},
+    "sources": {
+      "pge": "23963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23963"
+  },
+  {
+    "id": "PSF-008721",
+    "name": "La tourelle Tamarin",
+    "lat": -20.3473,
+    "lon": 57.3763,
+    "wind": {},
+    "sources": {
+      "pge": "23964"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23964"
+  },
+  {
+    "id": "PSF-010064",
+    "name": "Montagne Longue",
+    "lat": -20.1514,
+    "lon": 57.5525,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "7293"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7293"
+  }
+]

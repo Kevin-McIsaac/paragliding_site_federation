@@ -1,0 +1,155 @@
+[
+  {
+    "id": "PSF-002906",
+    "name": "Kerimasi Crater",
+    "lat": -2.87275,
+    "lon": 35.9556,
+    "wind": {},
+    "sources": {
+      "pge": "14289"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14289"
+  },
+  {
+    "id": "PSF-003031",
+    "name": "World's en View",
+    "lat": -8.83103,
+    "lon": 33.5418,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "14437"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14437"
+  },
+  {
+    "id": "PSF-004701",
+    "name": "Ol'molog",
+    "lat": -2.841,
+    "lon": 37.148,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17144"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17144"
+  },
+  {
+    "id": "PSF-004763",
+    "name": "Manyara South",
+    "lat": -3.79272,
+    "lon": 35.6757,
+    "wind": {},
+    "sources": {
+      "pge": "17296"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17296"
+  },
+  {
+    "id": "PSF-004776",
+    "name": "Lengai Volcano SE",
+    "lat": -2.77018,
+    "lon": 35.9365,
+    "wind": {},
+    "sources": {
+      "pge": "17324"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17324"
+  },
+  {
+    "id": "PSF-004777",
+    "name": "Engare Sero",
+    "lat": -2.61737,
+    "lon": 35.8675,
+    "wind": {},
+    "sources": {
+      "pge": "17325"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17325"
+  },
+  {
+    "id": "PSF-004781",
+    "name": "Ol-joro",
+    "lat": -3.4427,
+    "lon": 36.6043,
+    "wind": {},
+    "sources": {
+      "pge": "17332"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17332"
+  },
+  {
+    "id": "PSF-006270",
+    "name": "Kilimanjaro Stella Point",
+    "lat": -3.07963,
+    "lon": 37.3624,
+    "wind": {},
+    "sources": {
+      "pge": "20487"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20487"
+  },
+  {
+    "id": "PSF-007221",
+    "name": "Mount Mbeya",
+    "lat": -8.83996,
+    "lon": 33.3686,
+    "wind": {},
+    "sources": {
+      "pge": "22280"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22280"
+  },
+  {
+    "id": "PSF-007222",
+    "name": "Mbeya Cross",
+    "lat": -8.86171,
+    "lon": 33.4256,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "22281"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22281"
+  },
+  {
+    "id": "PSF-009540",
+    "name": "Usambara ridge",
+    "lat": -4.83787,
+    "lon": 38.2802,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6606"
+  }
+]

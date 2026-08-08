@@ -1,0 +1,400 @@
+[
+  {
+    "id": "PSF-000505",
+    "name": "Hyvinkaa",
+    "lat": 60.6517,
+    "lon": 24.8849,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10586"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10586"
+  },
+  {
+    "id": "PSF-000507",
+    "name": "Kiikala",
+    "lat": 60.4616,
+    "lon": 23.6491,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10588"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10588"
+  },
+  {
+    "id": "PSF-000739",
+    "name": "Leivonmaki",
+    "lat": 61.894,
+    "lon": 26.1874,
+    "wind": {
+      "N": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10871"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10871"
+  },
+  {
+    "id": "PSF-000960",
+    "name": "Menkijärvi EFME",
+    "lat": 62.9478,
+    "lon": 23.5137,
+    "wind": {
+      "NE": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11125"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11125"
+  },
+  {
+    "id": "PSF-000961",
+    "name": "Halkosaari,Lakeus, peltotie, field road",
+    "lat": 62.8548,
+    "lon": 22.7753,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11126"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11126"
+  },
+  {
+    "id": "PSF-000962",
+    "name": "EFKJ",
+    "lat": 62.4606,
+    "lon": 22.3798,
+    "wind": {
+      "NE": 2,
+      "E": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11127"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11127"
+  },
+  {
+    "id": "PSF-000963",
+    "name": "EFKA, Kauhava",
+    "lat": 63.1139,
+    "lon": 23.0459,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11129"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11129"
+  },
+  {
+    "id": "PSF-000964",
+    "name": "EFKV, Kivijärvi",
+    "lat": 63.1279,
+    "lon": 25.1184,
+    "wind": {
+      "SE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11130"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11130"
+  },
+  {
+    "id": "PSF-003157",
+    "name": "Siilinkari",
+    "lat": 61.5194,
+    "lon": 23.749,
+    "wind": {},
+    "sources": {
+      "pge": "14643"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14643"
+  },
+  {
+    "id": "PSF-003166",
+    "name": "Ailigas",
+    "lat": 69.424,
+    "lon": 25.9863,
+    "wind": {},
+    "sources": {
+      "pge": "14654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14654"
+  },
+  {
+    "id": "PSF-003317",
+    "name": "Pallas mountain",
+    "lat": 68.0598,
+    "lon": 24.0282,
+    "wind": {},
+    "sources": {
+      "pge": "14888"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14888"
+  },
+  {
+    "id": "PSF-003370",
+    "name": "Jämi",
+    "lat": 61.7708,
+    "lon": 22.7219,
+    "wind": {},
+    "sources": {
+      "pge": "14973"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14973"
+  },
+  {
+    "id": "PSF-003514",
+    "name": "Himos",
+    "lat": 61.881,
+    "lon": 25.3114,
+    "wind": {},
+    "sources": {
+      "pge": "15212"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15212"
+  },
+  {
+    "id": "PSF-004183",
+    "name": "Mihari",
+    "lat": 61.5723,
+    "lon": 23.3199,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16276"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16276"
+  },
+  {
+    "id": "PSF-004235",
+    "name": "Pallas",
+    "lat": 60.9928,
+    "lon": 25.6363,
+    "wind": {},
+    "sources": {
+      "pge": "16348"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16348"
+  },
+  {
+    "id": "PSF-004393",
+    "name": "Vesivehmä airfield",
+    "lat": 61.1451,
+    "lon": 25.699,
+    "wind": {},
+    "sources": {
+      "pge": "16608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16608"
+  },
+  {
+    "id": "PSF-004509",
+    "name": "Saana Mountain",
+    "lat": 69.0454,
+    "lon": 20.8317,
+    "wind": {},
+    "sources": {
+      "pge": "16826"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16826"
+  },
+  {
+    "id": "PSF-005807",
+    "name": "Ã„rjÃ¤nsaari",
+    "lat": 64.2683,
+    "lon": 27.3479,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19505"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19505"
+  },
+  {
+    "id": "PSF-006455",
+    "name": "Hameenkyro",
+    "lat": 61.6902,
+    "lon": 23.0806,
+    "wind": {},
+    "sources": {
+      "pge": "21398"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21398"
+  },
+  {
+    "id": "PSF-008130",
+    "name": "Kärkölän varjoliito",
+    "lat": 60.8637,
+    "lon": 25.1427,
+    "wind": {},
+    "sources": {
+      "pge": "23285"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23285"
+  },
+  {
+    "id": "PSF-008400",
+    "name": "Rajatie",
+    "lat": 62.8233,
+    "lon": 22.8346,
+    "wind": {
+      "SE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23593"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23593"
+  },
+  {
+    "id": "PSF-008401",
+    "name": "Horoonsuora",
+    "lat": 62.859,
+    "lon": 22.8057,
+    "wind": {
+      "NE": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23594"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23594"
+  },
+  {
+    "id": "PSF-008402",
+    "name": "Heroonsuora",
+    "lat": 62.7777,
+    "lon": 22.6061,
+    "wind": {
+      "NE": 2,
+      "E": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23595"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23595"
+  },
+  {
+    "id": "PSF-008403",
+    "name": "Lapuan suora",
+    "lat": 63.0542,
+    "lon": 22.9344,
+    "wind": {
+      "N": 1,
+      "SE": 2,
+      "S": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23596"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23596"
+  },
+  {
+    "id": "PSF-008404",
+    "name": "JP:n suora",
+    "lat": 62.744,
+    "lon": 22.6258,
+    "wind": {},
+    "sources": {
+      "pge": "23597"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23597"
+  },
+  {
+    "id": "PSF-008405",
+    "name": "Jumoonsuora",
+    "lat": 62.784,
+    "lon": 22.5669,
+    "wind": {},
+    "sources": {
+      "pge": "23599"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23599"
+  },
+  {
+    "id": "PSF-008574",
+    "name": "Isolähde",
+    "lat": 60.9001,
+    "lon": 26.1267,
+    "wind": {},
+    "sources": {
+      "pge": "23800"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23800"
+  }
+]

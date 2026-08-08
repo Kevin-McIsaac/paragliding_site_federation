@@ -1,0 +1,158 @@
+[
+  {
+    "id": "PSF-000977",
+    "name": "Rumbula",
+    "lat": 56.8853,
+    "lon": 24.2194,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11152"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11152"
+  },
+  {
+    "id": "PSF-001304",
+    "name": "Gr&#299;va",
+    "lat": 55.8907,
+    "lon": 26.4599,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11554"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11554"
+  },
+  {
+    "id": "PSF-002453",
+    "name": "Nakotne",
+    "lat": 56.6201,
+    "lon": 23.4929,
+    "wind": {},
+    "sources": {
+      "pge": "13544"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13544"
+  },
+  {
+    "id": "PSF-004360",
+    "name": "Baldone",
+    "lat": 56.7381,
+    "lon": 24.3565,
+    "wind": {},
+    "sources": {
+      "pge": "16556"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16556"
+  },
+  {
+    "id": "PSF-004986",
+    "name": "Krustpils air field",
+    "lat": 56.5348,
+    "lon": 25.8886,
+    "wind": {},
+    "sources": {
+      "pge": "17685"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17685"
+  },
+  {
+    "id": "PSF-008115",
+    "name": "Gulbene",
+    "lat": 57.1592,
+    "lon": 26.8023,
+    "wind": {},
+    "sources": {
+      "pge": "23268"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23268"
+  },
+  {
+    "id": "PSF-008116",
+    "name": "Vonadziņi boat winch",
+    "lat": 57.253,
+    "lon": 26.8953,
+    "wind": {},
+    "sources": {
+      "pge": "23269"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23269"
+  },
+  {
+    "id": "PSF-009571",
+    "name": "Saldus",
+    "lat": 56.696,
+    "lon": 22.4356,
+    "wind": {},
+    "sources": {
+      "pge": "6645"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6645"
+  },
+  {
+    "id": "PSF-009644",
+    "name": "Jurkalne",
+    "lat": 57.0366,
+    "lon": 21.4026,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6726"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6726"
+  },
+  {
+    "id": "PSF-009699",
+    "name": "Skriveri",
+    "lat": 56.6262,
+    "lon": 25.1209,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6804"
+  },
+  {
+    "id": "PSF-009703",
+    "name": "Sabile",
+    "lat": 57.0316,
+    "lon": 22.4985,
+    "wind": {},
+    "sources": {
+      "pge": "6810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6810"
+  }
+]

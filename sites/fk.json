@@ -1,0 +1,20 @@
+[
+  {
+    "id": "PSF-008346",
+    "name": "Saunders . Mount Egmont",
+    "lat": -51.3538,
+    "lon": -60.0917,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23536"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23536"
+  }
+]

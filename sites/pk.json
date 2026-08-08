@@ -1,0 +1,647 @@
+[
+  {
+    "id": "PSF-000102",
+    "name": "Mung",
+    "lat": 33.9043,
+    "lon": 72.896,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10125"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10125"
+  },
+  {
+    "id": "PSF-000103",
+    "name": "Express Way Site",
+    "lat": 33.9031,
+    "lon": 73.4038,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10126"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10126"
+  },
+  {
+    "id": "PSF-000629",
+    "name": "Shigar",
+    "lat": 35.4398,
+    "lon": 75.7419,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10739"
+  },
+  {
+    "id": "PSF-000630",
+    "name": "Chunda",
+    "lat": 35.3367,
+    "lon": 75.5008,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10740"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10740"
+  },
+  {
+    "id": "PSF-000976",
+    "name": "Choa Saidan Shah",
+    "lat": 32.7339,
+    "lon": 73.0042,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11151"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11151"
+  },
+  {
+    "id": "PSF-001101",
+    "name": "Pir Chinasi",
+    "lat": 34.384,
+    "lon": 73.5446,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11314"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11314"
+  },
+  {
+    "id": "PSF-001730",
+    "name": "Yasin village soccer field",
+    "lat": 36.3958,
+    "lon": 73.3222,
+    "wind": {},
+    "sources": {
+      "pge": "12282"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12282"
+  },
+  {
+    "id": "PSF-002198",
+    "name": "end of Shigar Valley",
+    "lat": 35.8901,
+    "lon": 75.3424,
+    "wind": {},
+    "sources": {
+      "pge": "13140"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13140"
+  },
+  {
+    "id": "PSF-002199",
+    "name": "Shigar",
+    "lat": 35.8862,
+    "lon": 75.3769,
+    "wind": {},
+    "sources": {
+      "pge": "13141"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13141"
+  },
+  {
+    "id": "PSF-002200",
+    "name": "Lasht",
+    "lat": 36.8298,
+    "lon": 73.1443,
+    "wind": {},
+    "sources": {
+      "pge": "13142"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13142"
+  },
+  {
+    "id": "PSF-002201",
+    "name": "Booni",
+    "lat": 36.286,
+    "lon": 72.316,
+    "wind": {},
+    "sources": {
+      "pge": "13143"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13143"
+  },
+  {
+    "id": "PSF-002202",
+    "name": "Chitral",
+    "lat": 35.9625,
+    "lon": 71.7595,
+    "wind": {},
+    "sources": {
+      "pge": "13144"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13144"
+  },
+  {
+    "id": "PSF-002203",
+    "name": "Chitral",
+    "lat": 35.8408,
+    "lon": 71.7156,
+    "wind": {},
+    "sources": {
+      "pge": "13145"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13145"
+  },
+  {
+    "id": "PSF-002204",
+    "name": "Lake 4700m",
+    "lat": 36.1705,
+    "lon": 74.871,
+    "wind": {},
+    "sources": {
+      "pge": "13146"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13146"
+  },
+  {
+    "id": "PSF-002205",
+    "name": "Chalt",
+    "lat": 36.3622,
+    "lon": 74.2505,
+    "wind": {},
+    "sources": {
+      "pge": "13147"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13147"
+  },
+  {
+    "id": "PSF-002503",
+    "name": "Teru",
+    "lat": 36.1976,
+    "lon": 72.8213,
+    "wind": {},
+    "sources": {
+      "pge": "13639"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13639"
+  },
+  {
+    "id": "PSF-002504",
+    "name": "Tarashing",
+    "lat": 35.2455,
+    "lon": 74.7441,
+    "wind": {},
+    "sources": {
+      "pge": "13642"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13642"
+  },
+  {
+    "id": "PSF-003595",
+    "name": "Rawaal",
+    "lat": 32.7236,
+    "lon": 73.1919,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15337"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15337"
+  },
+  {
+    "id": "PSF-004240",
+    "name": "Baba Gundi",
+    "lat": 36.8171,
+    "lon": 74.2999,
+    "wind": {},
+    "sources": {
+      "pge": "16354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16354"
+  },
+  {
+    "id": "PSF-004241",
+    "name": "Behind Tupopdan",
+    "lat": 36.5433,
+    "lon": 74.9808,
+    "wind": {},
+    "sources": {
+      "pge": "16355"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16355"
+  },
+  {
+    "id": "PSF-004242",
+    "name": "Above Faizabad",
+    "lat": 36.3309,
+    "lon": 74.7251,
+    "wind": {},
+    "sources": {
+      "pge": "16356"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16356"
+  },
+  {
+    "id": "PSF-004323",
+    "name": "Eagle's Nest - West",
+    "lat": 36.3314,
+    "lon": 74.6047,
+    "wind": {},
+    "sources": {
+      "pge": "16499"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16499"
+  },
+  {
+    "id": "PSF-004338",
+    "name": "Damalgan",
+    "lat": 36.2766,
+    "lon": 73.3718,
+    "wind": {},
+    "sources": {
+      "pge": "16523"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16523"
+  },
+  {
+    "id": "PSF-004339",
+    "name": "Ishkomen East",
+    "lat": 36.3615,
+    "lon": 73.8845,
+    "wind": {},
+    "sources": {
+      "pge": "16524"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16524"
+  },
+  {
+    "id": "PSF-004375",
+    "name": "Ishkomen West",
+    "lat": 36.3271,
+    "lon": 73.7847,
+    "wind": {},
+    "sources": {
+      "pge": "16581"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16581"
+  },
+  {
+    "id": "PSF-004376",
+    "name": "Shandur Pass",
+    "lat": 36.1016,
+    "lon": 72.5459,
+    "wind": {},
+    "sources": {
+      "pge": "16582"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16582"
+  },
+  {
+    "id": "PSF-004381",
+    "name": "Chalt",
+    "lat": 36.2983,
+    "lon": 74.266,
+    "wind": {},
+    "sources": {
+      "pge": "16591"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16591"
+  },
+  {
+    "id": "PSF-004384",
+    "name": "Bunji summer village",
+    "lat": 35.6775,
+    "lon": 74.7189,
+    "wind": {},
+    "sources": {
+      "pge": "16594"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16594"
+  },
+  {
+    "id": "PSF-004396",
+    "name": "Phandur Lake South",
+    "lat": 36.1569,
+    "lon": 72.9551,
+    "wind": {},
+    "sources": {
+      "pge": "16614"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16614"
+  },
+  {
+    "id": "PSF-004501",
+    "name": "spur above Bunji Jah",
+    "lat": 35.6559,
+    "lon": 74.6903,
+    "wind": {},
+    "sources": {
+      "pge": "16810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16810"
+  },
+  {
+    "id": "PSF-004575",
+    "name": "Tarbela Dam Darwaza",
+    "lat": 34.0852,
+    "lon": 72.9486,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16946"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16946"
+  },
+  {
+    "id": "PSF-005012",
+    "name": "Mubarak Village",
+    "lat": 24.8578,
+    "lon": 66.6782,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "17728"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17728"
+  },
+  {
+    "id": "PSF-005117",
+    "name": "Mubarak Village II",
+    "lat": 24.8533,
+    "lon": 66.6726,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "17967"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17967"
+  },
+  {
+    "id": "PSF-005474",
+    "name": "NFC-2 Winch Site",
+    "lat": 31.3549,
+    "lon": 74.1496,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18801"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18801"
+  },
+  {
+    "id": "PSF-005607",
+    "name": "Lalazar Naran",
+    "lat": 34.9155,
+    "lon": 73.758,
+    "wind": {},
+    "sources": {
+      "pge": "19228"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19228"
+  },
+  {
+    "id": "PSF-005827",
+    "name": "Ganj Ali Shah",
+    "lat": 32.8131,
+    "lon": 73.1081,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19532"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19532"
+  },
+  {
+    "id": "PSF-005916",
+    "name": "Chinarkot",
+    "lat": 34.0218,
+    "lon": 72.7763,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19660"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19660"
+  },
+  {
+    "id": "PSF-007095",
+    "name": "Ghunda Shamshaki",
+    "lat": 33.1438,
+    "lon": 71.3711,
+    "wind": {},
+    "sources": {
+      "pge": "22128"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22128"
+  },
+  {
+    "id": "PSF-008094",
+    "name": "Laram",
+    "lat": 34.7902,
+    "lon": 71.9601,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23244"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23244"
+  },
+  {
+    "id": "PSF-008328",
+    "name": "Saran",
+    "lat": 34.3816,
+    "lon": 73.5276,
+    "wind": {},
+    "sources": {
+      "pge": "23514"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23514"
+  },
+  {
+    "id": "PSF-009583",
+    "name": "Fairy Meadows",
+    "lat": 35.4053,
+    "lon": 74.5854,
+    "wind": {},
+    "sources": {
+      "pge": "6658"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6658"
+  },
+  {
+    "id": "PSF-010240",
+    "name": "Rajdhani",
+    "lat": 33.7771,
+    "lon": 72.9647,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7558"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7558"
+  },
+  {
+    "id": "PSF-010248",
+    "name": "Birmoghlasht (Summer Palace)",
+    "lat": 35.8854,
+    "lon": 71.7666,
+    "wind": {
+      "NE": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "7587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7587"
+  },
+  {
+    "id": "PSF-010263",
+    "name": "Eagle's Nest",
+    "lat": 36.3284,
+    "lon": 74.6801,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7605"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7605"
+  },
+  {
+    "id": "PSF-010684",
+    "name": "Uttul",
+    "lat": 36.3182,
+    "lon": 72.1626,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8267"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8267"
+  },
+  {
+    "id": "PSF-011073",
+    "name": "Kohala",
+    "lat": 33.8419,
+    "lon": 72.953,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9293"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9293"
+  }
+]

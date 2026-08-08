@@ -1,0 +1,229 @@
+[
+  {
+    "id": "PSF-000325",
+    "name": "Punaruu 600",
+    "lat": -17.6393,
+    "lon": -149.583,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10372"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10372"
+  },
+  {
+    "id": "PSF-000337",
+    "name": "Punaruu 350",
+    "lat": -17.6419,
+    "lon": -149.596,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10385"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10385"
+  },
+  {
+    "id": "PSF-000369",
+    "name": "Tautira",
+    "lat": -17.7558,
+    "lon": -149.171,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10421"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10421"
+  },
+  {
+    "id": "PSF-000370",
+    "name": "Mt Marau",
+    "lat": -17.6074,
+    "lon": -149.533,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "10422"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10422"
+  },
+  {
+    "id": "PSF-000373",
+    "name": "Le belvedere",
+    "lat": -17.5632,
+    "lon": -149.53,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "10427"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10427"
+  },
+  {
+    "id": "PSF-000396",
+    "name": "Vaiare",
+    "lat": -17.5295,
+    "lon": -149.78,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10452"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10452"
+  },
+  {
+    "id": "PSF-000397",
+    "name": "autemanu",
+    "lat": -16.5352,
+    "lon": -151.738,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10453"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10453"
+  },
+  {
+    "id": "PSF-000398",
+    "name": "taiohae",
+    "lat": -8.9177,
+    "lon": -140.114,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10454"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10454"
+  },
+  {
+    "id": "PSF-000399",
+    "name": "Uturoa",
+    "lat": -16.7431,
+    "lon": -151.452,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10455"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10455"
+  },
+  {
+    "id": "PSF-000400",
+    "name": "Tubuai",
+    "lat": -23.3673,
+    "lon": -149.446,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10456"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10456"
+  },
+  {
+    "id": "PSF-000401",
+    "name": "Tefarerii 60",
+    "lat": -16.7762,
+    "lon": -150.96,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10457"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10457"
+  },
+  {
+    "id": "PSF-000437",
+    "name": "350 SAGE",
+    "lat": -17.6284,
+    "lon": -149.59,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10499"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10499"
+  },
+  {
+    "id": "PSF-005701",
+    "name": "900 To'a Rotu Rahi",
+    "lat": -17.6218,
+    "lon": -149.579,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19363"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19363"
+  },
+  {
+    "id": "PSF-006847",
+    "name": "Faaroa",
+    "lat": -16.8019,
+    "lon": -151.407,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "21845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21845"
+  }
+]

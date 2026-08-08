@@ -1,0 +1,224 @@
+[
+  {
+    "id": "PSF-001904",
+    "name": "Korchon",
+    "lat": 28.3902,
+    "lon": 83.9349,
+    "wind": {},
+    "sources": {
+      "pge": "12621"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12621"
+  },
+  {
+    "id": "PSF-002265",
+    "name": "Killumn",
+    "lat": 28.0588,
+    "lon": 83.7689,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13229"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13229"
+  },
+  {
+    "id": "PSF-004778",
+    "name": "Mandredhunga",
+    "lat": 28.2694,
+    "lon": 83.921,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "17326"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17326"
+  },
+  {
+    "id": "PSF-005902",
+    "name": "Toripani",
+    "lat": 28.2591,
+    "lon": 83.9343,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19635"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19635"
+  },
+  {
+    "id": "PSF-005922",
+    "name": "Mardi Himal - High Camp",
+    "lat": 28.4329,
+    "lon": 83.8676,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "19674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19674"
+  },
+  {
+    "id": "PSF-006122",
+    "name": "Godawari-Kathmandu",
+    "lat": 27.5977,
+    "lon": 85.4024,
+    "wind": {},
+    "sources": {
+      "pge": "19990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19990"
+  },
+  {
+    "id": "PSF-006277",
+    "name": "Gokyo Ri",
+    "lat": 27.9564,
+    "lon": 86.6866,
+    "wind": {},
+    "sources": {
+      "pge": "20816"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20816"
+  },
+  {
+    "id": "PSF-006609",
+    "name": "Rainaskot",
+    "lat": 28.1217,
+    "lon": 84.4896,
+    "wind": {},
+    "sources": {
+      "pge": "21567"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21567"
+  },
+  {
+    "id": "PSF-006617",
+    "name": "Dharan",
+    "lat": 26.8426,
+    "lon": 87.3039,
+    "wind": {},
+    "sources": {
+      "pge": "21581"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21581"
+  },
+  {
+    "id": "PSF-007823",
+    "name": "Mudi",
+    "lat": 28.6979,
+    "lon": 83.4897,
+    "wind": {},
+    "sources": {
+      "pge": "22958"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22958"
+  },
+  {
+    "id": "PSF-007925",
+    "name": "Tansen",
+    "lat": 27.8707,
+    "lon": 83.5359,
+    "wind": {},
+    "sources": {
+      "pge": "23067"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23067"
+  },
+  {
+    "id": "PSF-009799",
+    "name": "Sarangkot",
+    "lat": 28.2436,
+    "lon": 83.9515,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "6938"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6938"
+  },
+  {
+    "id": "PSF-011403",
+    "name": "Diki Danda",
+    "lat": 28.2909,
+    "lon": 83.9787,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9854"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9854"
+  },
+  {
+    "id": "PSF-011430",
+    "name": "Bandipur",
+    "lat": 27.9391,
+    "lon": 84.3967,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9889"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9889"
+  },
+  {
+    "id": "PSF-011431",
+    "name": "Galem",
+    "lat": 28.18,
+    "lon": 83.8596,
+    "wind": {},
+    "sources": {
+      "pge": "9894"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9894"
+  },
+  {
+    "id": "PSF-011432",
+    "name": "Sirkot",
+    "lat": 28.0226,
+    "lon": 83.7325,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9896"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9896"
+  }
+]

@@ -1,0 +1,457 @@
+[
+  {
+    "id": "PSF-001265",
+    "name": "Aygezard",
+    "lat": 39.9382,
+    "lon": 44.6558,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11507"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11507"
+  },
+  {
+    "id": "PSF-001310",
+    "name": "APARAN",
+    "lat": 40.5913,
+    "lon": 44.4741,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "11564"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11564"
+  },
+  {
+    "id": "PSF-001563",
+    "name": "Arzni",
+    "lat": 40.3016,
+    "lon": 44.5687,
+    "wind": {},
+    "sources": {
+      "pge": "11992"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11992"
+  },
+  {
+    "id": "PSF-001573",
+    "name": "Ulgyur",
+    "lat": 39.8234,
+    "lon": 45.2118,
+    "wind": {},
+    "sources": {
+      "pge": "12015"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12015"
+  },
+  {
+    "id": "PSF-001588",
+    "name": "Xaraba",
+    "lat": 39.9139,
+    "lon": 44.9151,
+    "wind": {},
+    "sources": {
+      "pge": "12049"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12049"
+  },
+  {
+    "id": "PSF-001641",
+    "name": "Aghberk",
+    "lat": 40.5364,
+    "lon": 45.2972,
+    "wind": {},
+    "sources": {
+      "pge": "12129"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12129"
+  },
+  {
+    "id": "PSF-001669",
+    "name": "Sevakavan",
+    "lat": 39.8638,
+    "lon": 45.0049,
+    "wind": {},
+    "sources": {
+      "pge": "12174"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12174"
+  },
+  {
+    "id": "PSF-001677",
+    "name": "MikeArmenia",
+    "lat": 40.3359,
+    "lon": 44.1686,
+    "wind": {},
+    "sources": {
+      "pge": "12185"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12185"
+  },
+  {
+    "id": "PSF-001726",
+    "name": "Lusagyugh",
+    "lat": 40.6218,
+    "lon": 44.4151,
+    "wind": {},
+    "sources": {
+      "pge": "12272"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12272"
+  },
+  {
+    "id": "PSF-001822",
+    "name": "Tatevi Vank",
+    "lat": 39.351,
+    "lon": 46.247,
+    "wind": {},
+    "sources": {
+      "pge": "12446"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12446"
+  },
+  {
+    "id": "PSF-002052",
+    "name": "Vokhchaberd range",
+    "lat": 40.1607,
+    "lon": 44.7785,
+    "wind": {},
+    "sources": {
+      "pge": "12904"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12904"
+  },
+  {
+    "id": "PSF-002136",
+    "name": "Teghenis",
+    "lat": 40.5082,
+    "lon": 44.5045,
+    "wind": {},
+    "sources": {
+      "pge": "13035"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13035"
+  },
+  {
+    "id": "PSF-002162",
+    "name": "mt. Lalvar",
+    "lat": 41.1586,
+    "lon": 44.6221,
+    "wind": {},
+    "sources": {
+      "pge": "13080"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13080"
+  },
+  {
+    "id": "PSF-002219",
+    "name": "Miraq",
+    "lat": 40.6335,
+    "lon": 44.3515,
+    "wind": {},
+    "sources": {
+      "pge": "13163"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13163"
+  },
+  {
+    "id": "PSF-002795",
+    "name": "Maydan Range",
+    "lat": 40.6047,
+    "lon": 44.8612,
+    "wind": {},
+    "sources": {
+      "pge": "14108"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14108"
+  },
+  {
+    "id": "PSF-002924",
+    "name": "Nor Ughi",
+    "lat": 39.0,
+    "lon": 44.0,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14321"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14321"
+  },
+  {
+    "id": "PSF-003285",
+    "name": "Enokavan",
+    "lat": 40.9167,
+    "lon": 45.1001,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14843"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14843"
+  },
+  {
+    "id": "PSF-003654",
+    "name": "Lusashogh",
+    "lat": 39.8435,
+    "lon": 44.9606,
+    "wind": {},
+    "sources": {
+      "pge": "15451"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15451"
+  },
+  {
+    "id": "PSF-003655",
+    "name": "Lusashogh 2",
+    "lat": 39.839,
+    "lon": 44.9631,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15452"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15452"
+  },
+  {
+    "id": "PSF-003785",
+    "name": "Aragatsotn 2",
+    "lat": 40.2363,
+    "lon": 44.1798,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15652"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15652"
+  },
+  {
+    "id": "PSF-003829",
+    "name": "Mrghuz",
+    "lat": 40.7049,
+    "lon": 45.259,
+    "wind": {},
+    "sources": {
+      "pge": "15715"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15715"
+  },
+  {
+    "id": "PSF-005530",
+    "name": "Teghut / Haghartsin",
+    "lat": 40.8308,
+    "lon": 44.9458,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18865"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18865"
+  },
+  {
+    "id": "PSF-006079",
+    "name": "Arteni mountain",
+    "lat": 40.3772,
+    "lon": 43.7855,
+    "wind": {},
+    "sources": {
+      "pge": "19912"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19912"
+  },
+  {
+    "id": "PSF-006081",
+    "name": "Artanish mountain",
+    "lat": 40.4805,
+    "lon": 45.3089,
+    "wind": {},
+    "sources": {
+      "pge": "19927"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19927"
+  },
+  {
+    "id": "PSF-011082",
+    "name": "Mt. Hadis 300",
+    "lat": 40.2727,
+    "lon": 44.7074,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "9304"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9304"
+  },
+  {
+    "id": "PSF-011083",
+    "name": "Mt. Hadis 500",
+    "lat": 40.2925,
+    "lon": 44.6949,
+    "wind": {},
+    "sources": {
+      "pge": "9305"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9305"
+  },
+  {
+    "id": "PSF-011084",
+    "name": "Aragats Mountain-south top",
+    "lat": 40.5037,
+    "lon": 44.1841,
+    "wind": {},
+    "sources": {
+      "pge": "9306"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9306"
+  },
+  {
+    "id": "PSF-011085",
+    "name": "Fioletovo",
+    "lat": 40.7298,
+    "lon": 44.7511,
+    "wind": {},
+    "sources": {
+      "pge": "9307"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9307"
+  },
+  {
+    "id": "PSF-011086",
+    "name": "Mt. Gutansar",
+    "lat": 40.3639,
+    "lon": 44.6845,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "9308"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9308"
+  },
+  {
+    "id": "PSF-011087",
+    "name": "Mt Shaman",
+    "lat": 39.8869,
+    "lon": 44.9469,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9309"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9309"
+  },
+  {
+    "id": "PSF-011088",
+    "name": "Tsaxkadzor",
+    "lat": 40.5263,
+    "lon": 44.6509,
+    "wind": {},
+    "sources": {
+      "pge": "9310"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9310"
+  },
+  {
+    "id": "PSF-011089",
+    "name": "tsovagyugh",
+    "lat": 40.5933,
+    "lon": 44.9465,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9311"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9311"
+  },
+  {
+    "id": "PSF-011090",
+    "name": "Mt Large Lchasar",
+    "lat": 40.4959,
+    "lon": 44.8851,
+    "wind": {
+      "N": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9312"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9312"
+  },
+  {
+    "id": "PSF-011312",
+    "name": "Lernaglukh",
+    "lat": 40.5942,
+    "lon": 44.4704,
+    "wind": {
+      "E": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9744"
+  }
+]

@@ -1,0 +1,463 @@
+[
+  {
+    "id": "PSF-000006",
+    "name": "Sterksel",
+    "lat": 51.3444,
+    "lon": 5.63494,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10008"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10008"
+  },
+  {
+    "id": "PSF-000098",
+    "name": "Op Het Eiland",
+    "lat": 52.1583,
+    "lon": 6.4833,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10116"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10116"
+  },
+  {
+    "id": "PSF-000413",
+    "name": "Wijk aan Zee",
+    "lat": 52.4984,
+    "lon": 4.5872,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10472"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10472"
+  },
+  {
+    "id": "PSF-000414",
+    "name": "Zoutelande",
+    "lat": 51.4953,
+    "lon": 3.4973,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10473"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10473"
+  },
+  {
+    "id": "PSF-000433",
+    "name": "Plus4",
+    "lat": 52.2418,
+    "lon": 6.7035,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10495"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10495"
+  },
+  {
+    "id": "PSF-000504",
+    "name": "Bruinehaar",
+    "lat": 52.4681,
+    "lon": 6.6966,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10585"
+  },
+  {
+    "id": "PSF-000921",
+    "name": "Giethoorn",
+    "lat": 52.7545,
+    "lon": 6.0771,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11082"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11082"
+  },
+  {
+    "id": "PSF-001370",
+    "name": "Petten",
+    "lat": 52.7777,
+    "lon": 4.6642,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11641"
+  },
+  {
+    "id": "PSF-002117",
+    "name": "Ouddorp",
+    "lat": 51.7987,
+    "lon": 3.85818,
+    "wind": {},
+    "sources": {
+      "pge": "13006"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13006"
+  },
+  {
+    "id": "PSF-002332",
+    "name": "Renesse",
+    "lat": 51.7398,
+    "lon": 3.81328,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "13345"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13345"
+  },
+  {
+    "id": "PSF-002834",
+    "name": "Egmond aan Zee",
+    "lat": 52.6117,
+    "lon": 4.6192,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14181"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14181"
+  },
+  {
+    "id": "PSF-003106",
+    "name": "Cadzand-bad",
+    "lat": 51.3711,
+    "lon": 3.3697,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14558"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14558"
+  },
+  {
+    "id": "PSF-003187",
+    "name": "Bentelo",
+    "lat": 52.2279,
+    "lon": 6.79827,
+    "wind": {},
+    "sources": {
+      "pge": "14683"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14683"
+  },
+  {
+    "id": "PSF-004059",
+    "name": "Nedereindseplas",
+    "lat": 52.0337,
+    "lon": 5.0611,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16079"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16079"
+  },
+  {
+    "id": "PSF-004554",
+    "name": "Hoek",
+    "lat": 51.329,
+    "lon": 3.76448,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16904"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16904"
+  },
+  {
+    "id": "PSF-004968",
+    "name": "Aarlanderveen ZN",
+    "lat": 52.1413,
+    "lon": 4.75785,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17656"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17656"
+  },
+  {
+    "id": "PSF-004969",
+    "name": "Aarlanderveen OW",
+    "lat": 52.1409,
+    "lon": 4.73882,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17657"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17657"
+  },
+  {
+    "id": "PSF-005948",
+    "name": "Eurofly Stegeren",
+    "lat": 52.5689,
+    "lon": 6.4885,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19707"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19707"
+  },
+  {
+    "id": "PSF-006080",
+    "name": "Camperdune",
+    "lat": 52.7189,
+    "lon": 4.64015,
+    "wind": {},
+    "sources": {
+      "pge": "19926"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19926"
+  },
+  {
+    "id": "PSF-006345",
+    "name": "Mander",
+    "lat": 52.4575,
+    "lon": 6.8165,
+    "wind": {},
+    "sources": {
+      "pge": "21282"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21282"
+  },
+  {
+    "id": "PSF-006777",
+    "name": "Langevelderslag",
+    "lat": 52.3061,
+    "lon": 4.47856,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21768"
+  },
+  {
+    "id": "PSF-006782",
+    "name": "Houten",
+    "lat": 51.979,
+    "lon": 5.17984,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21773"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21773"
+  },
+  {
+    "id": "PSF-006783",
+    "name": "Numansdorp",
+    "lat": 51.7547,
+    "lon": 4.45575,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21774"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21774"
+  },
+  {
+    "id": "PSF-007270",
+    "name": "Skyline Twente",
+    "lat": 52.4677,
+    "lon": 6.69668,
+    "wind": {},
+    "sources": {
+      "pge": "22334"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22334"
+  },
+  {
+    "id": "PSF-007392",
+    "name": "Eurofly",
+    "lat": 52.5698,
+    "lon": 6.49058,
+    "wind": {},
+    "sources": {
+      "pge": "22467"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22467"
+  },
+  {
+    "id": "PSF-009984",
+    "name": "Eiland van Maurik",
+    "lat": 51.971,
+    "lon": 5.4315,
+    "wind": {},
+    "sources": {
+      "pge": "7185"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7185"
+  },
+  {
+    "id": "PSF-010125",
+    "name": "BVG Halle",
+    "lat": 51.983,
+    "lon": 6.433,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7372"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7372"
+  },
+  {
+    "id": "PSF-010245",
+    "name": "BVG Halle Noord",
+    "lat": 51.997,
+    "lon": 6.428,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "7584"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7584"
+  }
+]

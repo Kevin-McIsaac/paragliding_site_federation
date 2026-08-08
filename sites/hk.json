@@ -1,0 +1,123 @@
+[
+  {
+    "id": "PSF-001649",
+    "name": "Long Ke Wan",
+    "lat": 22.3702,
+    "lon": 114.374,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "12139"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12139"
+  },
+  {
+    "id": "PSF-002465",
+    "name": "Lantau",
+    "lat": 22.2437,
+    "lon": 113.951,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13564"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13564"
+  },
+  {
+    "id": "PSF-003450",
+    "name": "Wingwaging",
+    "lat": 22.6915,
+    "lon": 114.538,
+    "wind": {},
+    "sources": {
+      "pge": "15110"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15110"
+  },
+  {
+    "id": "PSF-011329",
+    "name": "Pat Sin",
+    "lat": 22.5105,
+    "lon": 114.212,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9766"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9766"
+  },
+  {
+    "id": "PSF-011330",
+    "name": "Ma On Shan",
+    "lat": 22.3912,
+    "lon": 114.253,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "9767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9767"
+  },
+  {
+    "id": "PSF-011331",
+    "name": "Cloudy Hills",
+    "lat": 22.4755,
+    "lon": 114.17,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "9768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9768"
+  },
+  {
+    "id": "PSF-011332",
+    "name": "Pak Tam Au",
+    "lat": 22.4228,
+    "lon": 114.323,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "9769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9769"
+  },
+  {
+    "id": "PSF-011333",
+    "name": "Shek-O (Dragon's Back)",
+    "lat": 22.24,
+    "lon": 114.242,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "9770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9770"
+  }
+]

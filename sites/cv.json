@@ -1,0 +1,103 @@
+[
+  {
+    "id": "PSF-002276",
+    "name": "Praia Cabo Verde",
+    "lat": 14.9266,
+    "lon": -23.4933,
+    "wind": {},
+    "sources": {
+      "pge": "13244"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13244"
+  },
+  {
+    "id": "PSF-007839",
+    "name": "Morro d Areia",
+    "lat": 16.0966,
+    "lon": -22.9376,
+    "wind": {},
+    "sources": {
+      "pge": "22974"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22974"
+  },
+  {
+    "id": "PSF-007840",
+    "name": "Chaves",
+    "lat": 16.113,
+    "lon": -22.9113,
+    "wind": {},
+    "sources": {
+      "pge": "22975"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22975"
+  },
+  {
+    "id": "PSF-007841",
+    "name": "Praia Carlotta",
+    "lat": 16.166,
+    "lon": -22.9126,
+    "wind": {},
+    "sources": {
+      "pge": "22976"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22976"
+  },
+  {
+    "id": "PSF-007842",
+    "name": "Cabo Santa Maria",
+    "lat": 16.2103,
+    "lon": -22.8941,
+    "wind": {},
+    "sources": {
+      "pge": "22977"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22977"
+  },
+  {
+    "id": "PSF-007843",
+    "name": "Uli´s Spot",
+    "lat": 16.2062,
+    "lon": -22.7483,
+    "wind": {},
+    "sources": {
+      "pge": "22978"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22978"
+  },
+  {
+    "id": "PSF-007844",
+    "name": "Ervatao",
+    "lat": 16.0461,
+    "lon": -22.6918,
+    "wind": {},
+    "sources": {
+      "pge": "22979"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22979"
+  },
+  {
+    "id": "PSF-010033",
+    "name": "Faja de Agua",
+    "lat": 14.8675,
+    "lon": -24.7397,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7247"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7247"
+  }
+]

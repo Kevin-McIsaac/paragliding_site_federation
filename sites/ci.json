@@ -1,0 +1,137 @@
+[
+  {
+    "id": "PSF-006034",
+    "name": "Lataha",
+    "lat": 9.5504,
+    "lon": -5.6067,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19809"
+  },
+  {
+    "id": "PSF-006393",
+    "name": "Mont Korhogo",
+    "lat": 9.45154,
+    "lon": -5.65038,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21333"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21333"
+  },
+  {
+    "id": "PSF-006491",
+    "name": "1998",
+    "lat": 8.2457,
+    "lon": -7.62161,
+    "wind": {},
+    "sources": {
+      "pge": "21438"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21438"
+  },
+  {
+    "id": "PSF-006492",
+    "name": "10 Dec 2017",
+    "lat": 8.24295,
+    "lon": -7.61424,
+    "wind": {},
+    "sources": {
+      "pge": "21440"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21440"
+  },
+  {
+    "id": "PSF-006786",
+    "name": "Ta West",
+    "lat": 8.17292,
+    "lon": -7.54889,
+    "wind": {},
+    "sources": {
+      "pge": "21777"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21777"
+  },
+  {
+    "id": "PSF-006787",
+    "name": "Ta East",
+    "lat": 8.16818,
+    "lon": -7.53877,
+    "wind": {},
+    "sources": {
+      "pge": "21778"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21778"
+  },
+  {
+    "id": "PSF-006788",
+    "name": "Gangoni Gbé",
+    "lat": 8.14607,
+    "lon": -7.65241,
+    "wind": {},
+    "sources": {
+      "pge": "21779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21779"
+  },
+  {
+    "id": "PSF-007065",
+    "name": "Petinagpou",
+    "lat": 9.66963,
+    "lon": -5.02367,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22096"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22096"
+  },
+  {
+    "id": "PSF-007066",
+    "name": "Boundiali",
+    "lat": 9.49452,
+    "lon": -6.48786,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22097"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22097"
+  }
+]

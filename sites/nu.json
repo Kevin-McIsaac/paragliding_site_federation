@@ -1,0 +1,17 @@
+[
+  {
+    "id": "PSF-006068",
+    "name": "Elorrio-Udalatx",
+    "lat": 43.1004,
+    "lon": -2.5331,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19852"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19852"
+  }
+]

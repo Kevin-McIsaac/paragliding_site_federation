@@ -1,0 +1,70 @@
+[
+  {
+    "id": "PSF-000494",
+    "name": "Wathba Hill",
+    "lat": 24.1636,
+    "lon": 54.6973,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10574"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10574"
+  },
+  {
+    "id": "PSF-001063",
+    "name": "Jebel Fayah",
+    "lat": 25.0679,
+    "lon": 55.8137,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11256"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11256"
+  },
+  {
+    "id": "PSF-001583",
+    "name": "Surami Dune",
+    "lat": 24.096,
+    "lon": 54.5271,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "12039"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12039"
+  },
+  {
+    "id": "PSF-001844",
+    "name": "Fossil Rock",
+    "lat": 25.1465,
+    "lon": 55.8354,
+    "wind": {
+      "N": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12483"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12483"
+  }
+]

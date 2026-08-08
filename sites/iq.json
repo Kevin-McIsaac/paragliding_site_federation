@@ -1,0 +1,75 @@
+[
+  {
+    "id": "PSF-005630",
+    "name": "Goyja",
+    "lat": 35.5769,
+    "lon": 45.4876,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19253"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19253"
+  },
+  {
+    "id": "PSF-005631",
+    "name": "Azmar",
+    "lat": 35.5803,
+    "lon": 45.4959,
+    "wind": {},
+    "sources": {
+      "pge": "19254"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19254"
+  },
+  {
+    "id": "PSF-006040",
+    "name": "Dukan - Sarah Mountain",
+    "lat": 35.9323,
+    "lon": 44.9823,
+    "wind": {
+      "N": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19817"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19817"
+  },
+  {
+    "id": "PSF-006041",
+    "name": "Amedi - Maten Mountain",
+    "lat": 37.1168,
+    "lon": 43.4814,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19818"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19818"
+  },
+  {
+    "id": "PSF-008292",
+    "name": "mar matiy",
+    "lat": 36.4983,
+    "lon": 43.4402,
+    "wind": {},
+    "sources": {
+      "pge": "23473"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23473"
+  }
+]

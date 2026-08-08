@@ -1,0 +1,14 @@
+[
+  {
+    "id": "PSF-005924",
+    "name": "Morne Gommier",
+    "lat": 14.465,
+    "lon": -60.899,
+    "wind": {},
+    "sources": {
+      "pge": "19676"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19676"
+  }
+]

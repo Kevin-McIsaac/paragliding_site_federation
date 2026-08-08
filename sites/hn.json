@@ -1,0 +1,103 @@
+[
+  {
+    "id": "PSF-003211",
+    "name": "Isla de la Tigre",
+    "lat": 13.2739,
+    "lon": -87.6388,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "14750"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14750"
+  },
+  {
+    "id": "PSF-003798",
+    "name": "Azacualpa",
+    "lat": 13.9431,
+    "lon": -87.1072,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "15670"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15670"
+  },
+  {
+    "id": "PSF-003799",
+    "name": "Danli, Bella Vista",
+    "lat": 13.9887,
+    "lon": -86.5416,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15671"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15671"
+  },
+  {
+    "id": "PSF-003800",
+    "name": "la Villa de San Fransisco",
+    "lat": 14.1715,
+    "lon": -87.0012,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "15672"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15672"
+  },
+  {
+    "id": "PSF-006524",
+    "name": "El Guayabo",
+    "lat": 14.1513,
+    "lon": -87.0028,
+    "wind": {},
+    "sources": {
+      "pge": "21476"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21476"
+  },
+  {
+    "id": "PSF-006525",
+    "name": "Chiquistepe",
+    "lat": 14.1937,
+    "lon": -87.0239,
+    "wind": {},
+    "sources": {
+      "pge": "21477"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21477"
+  },
+  {
+    "id": "PSF-010036",
+    "name": "yuscaran",
+    "lat": 13.9296,
+    "lon": -86.8616,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7252"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7252"
+  }
+]

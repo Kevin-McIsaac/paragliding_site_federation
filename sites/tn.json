@@ -1,0 +1,470 @@
+[
+  {
+    "id": "PSF-006943",
+    "name": "Zouz Roet.",
+    "lat": 37.1823,
+    "lon": 10.1382,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "21947"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21947"
+  },
+  {
+    "id": "PSF-006944",
+    "name": "les trois mousquetaires",
+    "lat": 37.0312,
+    "lon": 10.01,
+    "wind": {},
+    "sources": {
+      "pge": "21948"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21948"
+  },
+  {
+    "id": "PSF-006945",
+    "name": "La table de Jugurtha",
+    "lat": 35.7431,
+    "lon": 8.38128,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21949"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21949"
+  },
+  {
+    "id": "PSF-007224",
+    "name": "Hallouf",
+    "lat": 37.3204,
+    "lon": 9.79236,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22283"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22283"
+  },
+  {
+    "id": "PSF-007225",
+    "name": "Rafraf .skyriders",
+    "lat": 37.1784,
+    "lon": 10.2027,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22284"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22284"
+  },
+  {
+    "id": "PSF-008092",
+    "name": "mraya.skyriders",
+    "lat": 37.2868,
+    "lon": 9.76897,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23242"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23242"
+  },
+  {
+    "id": "PSF-008206",
+    "name": "DÉMNA.skyriders",
+    "lat": 37.2574,
+    "lon": 10.0549,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23370"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23370"
+  },
+  {
+    "id": "PSF-008207",
+    "name": "Sidi Bouchoucha.skyriders",
+    "lat": 37.2532,
+    "lon": 10.0602,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23373"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23373"
+  },
+  {
+    "id": "PSF-008208",
+    "name": "MIRAAA skyriders",
+    "lat": 37.0887,
+    "lon": 8.99549,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23374"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23374"
+  },
+  {
+    "id": "PSF-008209",
+    "name": "CAP NÉGRO .skyriders",
+    "lat": 37.107,
+    "lon": 8.98747,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23375"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23375"
+  },
+  {
+    "id": "PSF-008210",
+    "name": "zag ..skyriders",
+    "lat": 36.3794,
+    "lon": 10.1119,
+    "wind": {},
+    "sources": {
+      "pge": "23378"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23378"
+  },
+  {
+    "id": "PSF-008211",
+    "name": "Houma ... skyridres",
+    "lat": 36.6132,
+    "lon": 10.333,
+    "wind": {},
+    "sources": {
+      "pge": "23379"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23379"
+  },
+  {
+    "id": "PSF-008212",
+    "name": "skyriders kobros",
+    "lat": 36.7887,
+    "lon": 10.5563,
+    "wind": {},
+    "sources": {
+      "pge": "23380"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23380"
+  },
+  {
+    "id": "PSF-008213",
+    "name": "waga..skyriders",
+    "lat": 36.8939,
+    "lon": 10.7384,
+    "wind": {},
+    "sources": {
+      "pge": "23381"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23381"
+  },
+  {
+    "id": "PSF-008214",
+    "name": "Sidi Abd Mekki.. skyriders",
+    "lat": 36.7912,
+    "lon": 10.7587,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "23382"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23382"
+  },
+  {
+    "id": "PSF-008215",
+    "name": "El Haouaria. .skyriders",
+    "lat": 37.0714,
+    "lon": 11.0416,
+    "wind": {},
+    "sources": {
+      "pge": "23383"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23383"
+  },
+  {
+    "id": "PSF-008216",
+    "name": "mona skyriders",
+    "lat": 35.7837,
+    "lon": 10.8102,
+    "wind": {},
+    "sources": {
+      "pge": "23384"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23384"
+  },
+  {
+    "id": "PSF-008217",
+    "name": "boulahnach..skyriders",
+    "lat": 35.7085,
+    "lon": 8.6985,
+    "wind": {},
+    "sources": {
+      "pge": "23387"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23387"
+  },
+  {
+    "id": "PSF-008218",
+    "name": "Guermessa skyriders",
+    "lat": 32.9871,
+    "lon": 10.2513,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23391"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23391"
+  },
+  {
+    "id": "PSF-008219",
+    "name": "tata ...skyridres",
+    "lat": 32.9436,
+    "lon": 10.8384,
+    "wind": {},
+    "sources": {
+      "pge": "23392"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23392"
+  },
+  {
+    "id": "PSF-008220",
+    "name": "Zamza.skyriders",
+    "lat": 33.2731,
+    "lon": 10.1826,
+    "wind": {},
+    "sources": {
+      "pge": "23393"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23393"
+  },
+  {
+    "id": "PSF-008221",
+    "name": "zamour.skyriders",
+    "lat": 33.2776,
+    "lon": 10.194,
+    "wind": {},
+    "sources": {
+      "pge": "23394"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23394"
+  },
+  {
+    "id": "PSF-008222",
+    "name": "skyriders  sans nom",
+    "lat": 33.2827,
+    "lon": 10.2368,
+    "wind": {},
+    "sources": {
+      "pge": "23395"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23395"
+  },
+  {
+    "id": "PSF-008223",
+    "name": "Gabès.... skyriderstunisia.",
+    "lat": 33.3828,
+    "lon": 10.1474,
+    "wind": {},
+    "sources": {
+      "pge": "23396"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23396"
+  },
+  {
+    "id": "PSF-008224",
+    "name": "toujane skyriders",
+    "lat": 33.4797,
+    "lon": 10.1203,
+    "wind": {},
+    "sources": {
+      "pge": "23397"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23397"
+  },
+  {
+    "id": "PSF-008225",
+    "name": "El Mahassen repère de skyriders",
+    "lat": 34.035,
+    "lon": 8.2806,
+    "wind": {},
+    "sources": {
+      "pge": "23398"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23398"
+  },
+  {
+    "id": "PSF-008226",
+    "name": "errdaif skyriders spot",
+    "lat": 34.3634,
+    "lon": 8.09891,
+    "wind": {},
+    "sources": {
+      "pge": "23399"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23399"
+  },
+  {
+    "id": "PSF-008227",
+    "name": "le Mont rsass skyriders",
+    "lat": 36.6105,
+    "lon": 10.3361,
+    "wind": {},
+    "sources": {
+      "pge": "23401"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23401"
+  },
+  {
+    "id": "PSF-008228",
+    "name": "Beni Ouff",
+    "lat": 37.3197,
+    "lon": 9.78829,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23403"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23403"
+  },
+  {
+    "id": "PSF-008344",
+    "name": "pente EOL",
+    "lat": 37.1953,
+    "lon": 10.0628,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "23534"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23534"
+  },
+  {
+    "id": "PSF-008450",
+    "name": "PAF",
+    "lat": 37.1783,
+    "lon": 10.1931,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23653"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23653"
+  },
+  {
+    "id": "PSF-008593",
+    "name": "Djerissa",
+    "lat": 35.8253,
+    "lon": 8.64295,
+    "wind": {},
+    "sources": {
+      "pge": "23821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23821"
+  },
+  {
+    "id": "PSF-008607",
+    "name": "Curly",
+    "lat": 36.2415,
+    "lon": 8.8043,
+    "wind": {
+      "N": 1,
+      "SE": 2,
+      "S": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23837"
+  },
+  {
+    "id": "PSF-008668",
+    "name": "skyblanc",
+    "lat": 37.3305,
+    "lon": 9.83941,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "23909"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23909"
+  }
+]

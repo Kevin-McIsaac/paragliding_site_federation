@@ -1,0 +1,302 @@
+[
+  {
+    "id": "PSF-000280",
+    "name": "Chupuro",
+    "lat": -12.1793,
+    "lon": -75.2584,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10322"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10322"
+  },
+  {
+    "id": "PSF-000282",
+    "name": "Valle Sagrado Incas",
+    "lat": -13.3633,
+    "lon": -72.0678,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10324"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10324"
+  },
+  {
+    "id": "PSF-000607",
+    "name": "Ayacucho",
+    "lat": -13.2034,
+    "lon": -74.2438,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "10710"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10710"
+  },
+  {
+    "id": "PSF-001415",
+    "name": "Stoneforest",
+    "lat": -13.3179,
+    "lon": -74.4689,
+    "wind": {},
+    "sources": {
+      "pge": "11724"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11724"
+  },
+  {
+    "id": "PSF-001534",
+    "name": "Paracas",
+    "lat": -13.941,
+    "lon": -76.2789,
+    "wind": {},
+    "sources": {
+      "pge": "11949"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11949"
+  },
+  {
+    "id": "PSF-001650",
+    "name": "Huanta",
+    "lat": -13.0274,
+    "lon": -74.2397,
+    "wind": {},
+    "sources": {
+      "pge": "12143"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12143"
+  },
+  {
+    "id": "PSF-001704",
+    "name": "Cerro Sacro",
+    "lat": -13.3573,
+    "lon": -72.1105,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12232"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12232"
+  },
+  {
+    "id": "PSF-001722",
+    "name": "Atiquipa",
+    "lat": -15.7881,
+    "lon": -74.3589,
+    "wind": {},
+    "sources": {
+      "pge": "12263"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12263"
+  },
+  {
+    "id": "PSF-003324",
+    "name": "Pampa de Quinua",
+    "lat": -13.0305,
+    "lon": -74.1197,
+    "wind": {},
+    "sources": {
+      "pge": "14898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14898"
+  },
+  {
+    "id": "PSF-003386",
+    "name": "Sondor",
+    "lat": -13.6056,
+    "lon": -73.2708,
+    "wind": {},
+    "sources": {
+      "pge": "15000"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15000"
+  },
+  {
+    "id": "PSF-003388",
+    "name": "Wilkacocha",
+    "lat": -9.59443,
+    "lon": -77.5306,
+    "wind": {},
+    "sources": {
+      "pge": "15005"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15005"
+  },
+  {
+    "id": "PSF-003394",
+    "name": "Paron - Caraz",
+    "lat": -9.05958,
+    "lon": -77.7678,
+    "wind": {},
+    "sources": {
+      "pge": "15015"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15015"
+  },
+  {
+    "id": "PSF-003405",
+    "name": "Jangas",
+    "lat": -9.42938,
+    "lon": -77.5877,
+    "wind": {},
+    "sources": {
+      "pge": "15035"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15035"
+  },
+  {
+    "id": "PSF-003424",
+    "name": "Huaraz Punta Callan",
+    "lat": -9.55057,
+    "lon": -77.6135,
+    "wind": {},
+    "sources": {
+      "pge": "15070"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15070"
+  },
+  {
+    "id": "PSF-003622",
+    "name": "Abancay",
+    "lat": -13.657,
+    "lon": -72.8799,
+    "wind": {},
+    "sources": {
+      "pge": "15393"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15393"
+  },
+  {
+    "id": "PSF-004306",
+    "name": "Ancahuasi",
+    "lat": -13.4326,
+    "lon": -72.3243,
+    "wind": {},
+    "sources": {
+      "pge": "16461"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16461"
+  },
+  {
+    "id": "PSF-004496",
+    "name": "Chincha",
+    "lat": -13.3316,
+    "lon": -76.2364,
+    "wind": {},
+    "sources": {
+      "pge": "16792"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16792"
+  },
+  {
+    "id": "PSF-006043",
+    "name": "Cerro El Maldito",
+    "lat": -13.9241,
+    "lon": -76.2575,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19820"
+  },
+  {
+    "id": "PSF-006424",
+    "name": "Wamantanga",
+    "lat": -9.47505,
+    "lon": -77.5049,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21364"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21364"
+  },
+  {
+    "id": "PSF-010145",
+    "name": "Jangas",
+    "lat": -9.42938,
+    "lon": -77.5877,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "7395"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7395"
+  },
+  {
+    "id": "PSF-011442",
+    "name": "Miraflores",
+    "lat": -12.1259,
+    "lon": -77.0375,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9920"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9920"
+  },
+  {
+    "id": "PSF-011490",
+    "name": "Pachacamac",
+    "lat": -12.1904,
+    "lon": -76.8395,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9980"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9980"
+  }
+]

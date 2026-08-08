@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PSF-008345",
+    "name": "San Marino",
+    "lat": 43.9214,
+    "lon": 12.4531,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "23535"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23535"
+  }
+]

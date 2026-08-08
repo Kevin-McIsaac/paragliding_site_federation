@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "PSF-000160",
+    "name": "Xi Shan  West mountain",
+    "lat": 24.9101,
+    "lon": 102.633,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10195"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10195"
+  },
+  {
+    "id": "PSF-000267",
+    "name": "Xi Shan  West mountain lower launch",
+    "lat": 24.9235,
+    "lon": 102.637,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10308"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10308"
+  },
+  {
+    "id": "PSF-000268",
+    "name": "exploration",
+    "lat": 25.0288,
+    "lon": 103.011,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10309"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10309"
+  },
+  {
+    "id": "PSF-000738",
+    "name": "Dongchuan, north face",
+    "lat": 26.1345,
+    "lon": 103.225,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10870"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10870"
+  },
+  {
+    "id": "PSF-001210",
+    "name": "Mt.Wugong",
+    "lat": 27.4527,
+    "lon": 114.171,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11445"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11445"
+  },
+  {
+    "id": "PSF-001216",
+    "name": "Linzhou T1/林州1号",
+    "lat": 36.1489,
+    "lon": 113.735,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11451"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11451"
+  },
+  {
+    "id": "PSF-001701",
+    "name": "ziwuzhen",
+    "lat": 34.0283,
+    "lon": 108.919,
+    "wind": {},
+    "sources": {
+      "pge": "12227"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12227"
+  },
+  {
+    "id": "PSF-001771",
+    "name": "YongAnShan",
+    "lat": 29.8735,
+    "lon": 119.921,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12358"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12358"
+  },
+  {
+    "id": "PSF-002415",
+    "name": "Shuidi Shan",
+    "lat": 22.8967,
+    "lon": 114.939,
+    "wind": {},
+    "sources": {
+      "pge": "13485"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13485"
+  },
+  {
+    "id": "PSF-002493",
+    "name": "Siu Ying Tsui",
+    "lat": 22.6892,
+    "lon": 114.533,
+    "wind": {},
+    "sources": {
+      "pge": "13613"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13613"
+  },
+  {
+    "id": "PSF-002505",
+    "name": "ZhangFang",
+    "lat": 39.5916,
+    "lon": 115.703,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13643"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13643"
+  },
+  {
+    "id": "PSF-002774",
+    "name": "Xi Wah Shan",
+    "lat": 23.0828,
+    "lon": 114.825,
+    "wind": {},
+    "sources": {
+      "pge": "14074"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14074"
+  },
+  {
+    "id": "PSF-003617",
+    "name": "JiuLong/九龙",
+    "lat": 31.4119,
+    "lon": 104.111,
+    "wind": {},
+    "sources": {
+      "pge": "15385"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15385"
+  },
+  {
+    "id": "PSF-004391",
+    "name": "Ningbou New Site",
+    "lat": 29.383,
+    "lon": 121.662,
+    "wind": {},
+    "sources": {
+      "pge": "16605"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16605"
+  },
+  {
+    "id": "PSF-004560",
+    "name": "LinZhou TO 2",
+    "lat": 36.0313,
+    "lon": 113.714,
+    "wind": {},
+    "sources": {
+      "pge": "16915"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16915"
+  },
+  {
+    "id": "PSF-004623",
+    "name": "Lion Mountain North Slope",
+    "lat": 22.8053,
+    "lon": 115.016,
+    "wind": {},
+    "sources": {
+      "pge": "17023"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17023"
+  },
+  {
+    "id": "PSF-004801",
+    "name": "Qi'ao island No. 2",
+    "lat": 22.4323,
+    "lon": 113.659,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17390"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17390"
+  },
+  {
+    "id": "PSF-004802",
+    "name": "Qi'ao island No. 1",
+    "lat": 22.435,
+    "lon": 113.645,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17391"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17391"
+  },
+  {
+    "id": "PSF-004803",
+    "name": "Qi'ao island No. 3",
+    "lat": 22.4204,
+    "lon": 113.653,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "17392"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17392"
+  },
+  {
+    "id": "PSF-004804",
+    "name": "Qi'ao island No. 4",
+    "lat": 22.4136,
+    "lon": 113.648,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17393"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17393"
+  },
+  {
+    "id": "PSF-004805",
+    "name": "Bamianshan",
+    "lat": 28.8364,
+    "lon": 109.254,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17394"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17394"
+  },
+  {
+    "id": "PSF-004807",
+    "name": "NaoBei Mountain",
+    "lat": 22.1094,
+    "lon": 113.525,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17398"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17398"
+  },
+  {
+    "id": "PSF-004808",
+    "name": "Hebao island No. 1",
+    "lat": 21.8602,
+    "lon": 113.16,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17399"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17399"
+  },
+  {
+    "id": "PSF-004810",
+    "name": "Hebao island No. 2",
+    "lat": 21.8605,
+    "lon": 113.172,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17401"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17401"
+  },
+  {
+    "id": "PSF-005849",
+    "name": "Wangliaoling, Hailing island",
+    "lat": 21.5668,
+    "lon": 111.83,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19560"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19560"
+  },
+  {
+    "id": "PSF-005850",
+    "name": "Qiguling",
+    "lat": 22.0746,
+    "lon": 111.587,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19561"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19561"
+  },
+  {
+    "id": "PSF-005851",
+    "name": "Goujiding",
+    "lat": 22.1811,
+    "lon": 111.601,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19562"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19562"
+  },
+  {
+    "id": "PSF-005854",
+    "name": "Zaomushan",
+    "lat": 22.7208,
+    "lon": 112.776,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19565"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19565"
+  },
+  {
+    "id": "PSF-005856",
+    "name": "HAIXIHAI －1",
+    "lat": 26.2977,
+    "lon": 99.9577,
+    "wind": {},
+    "sources": {
+      "pge": "19569"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19569"
+  },
+  {
+    "id": "PSF-006103",
+    "name": "Gulang",
+    "lat": 37.4943,
+    "lon": 102.876,
+    "wind": {},
+    "sources": {
+      "pge": "19970"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19970"
+  },
+  {
+    "id": "PSF-006312",
+    "name": "Ren Shou",
+    "lat": 29.9132,
+    "lon": 104.086,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "21222"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21222"
+  },
+  {
+    "id": "PSF-006608",
+    "name": "Daping",
+    "lat": 30.6432,
+    "lon": 103.398,
+    "wind": {},
+    "sources": {
+      "pge": "21566"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21566"
+  },
+  {
+    "id": "PSF-006629",
+    "name": "LTX",
+    "lat": 26.0006,
+    "lon": 99.8523,
+    "wind": {},
+    "sources": {
+      "pge": "21598"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21598"
+  },
+  {
+    "id": "PSF-006630",
+    "name": "LTX",
+    "lat": 25.9991,
+    "lon": 99.854,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21599"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21599"
+  },
+  {
+    "id": "PSF-006653",
+    "name": "Baimachang",
+    "lat": 25.9018,
+    "lon": 99.9092,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21634"
+  },
+  {
+    "id": "PSF-006654",
+    "name": "Dali 3 Pagodas",
+    "lat": 25.6965,
+    "lon": 100.11,
+    "wind": {},
+    "sources": {
+      "pge": "21635"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21635"
+  },
+  {
+    "id": "PSF-006655",
+    "name": "Mekong North",
+    "lat": 25.6236,
+    "lon": 99.1765,
+    "wind": {},
+    "sources": {
+      "pge": "21636"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21636"
+  },
+  {
+    "id": "PSF-006656",
+    "name": "Mekong north",
+    "lat": 25.726,
+    "lon": 99.1592,
+    "wind": {},
+    "sources": {
+      "pge": "21637"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21637"
+  },
+  {
+    "id": "PSF-006657",
+    "name": "Lijiang Tower",
+    "lat": 26.9357,
+    "lon": 100.101,
+    "wind": {},
+    "sources": {
+      "pge": "21638"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21638"
+  },
+  {
+    "id": "PSF-006659",
+    "name": "Hanghai road",
+    "lat": 26.696,
+    "lon": 100.722,
+    "wind": {},
+    "sources": {
+      "pge": "21640"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21640"
+  },
+  {
+    "id": "PSF-006660",
+    "name": "Mekong tunnel pass",
+    "lat": 24.8997,
+    "lon": 100.313,
+    "wind": {},
+    "sources": {
+      "pge": "21641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21641"
+  },
+  {
+    "id": "PSF-006661",
+    "name": "Jinggu",
+    "lat": 23.5103,
+    "lon": 100.657,
+    "wind": {},
+    "sources": {
+      "pge": "21642"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21642"
+  },
+  {
+    "id": "PSF-006745",
+    "name": "太舞滑雪场",
+    "lat": 40.8747,
+    "lon": 115.457,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "21734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21734"
+  },
+  {
+    "id": "PSF-006751",
+    "name": "Heimifeng",
+    "lat": 28.454,
+    "lon": 112.987,
+    "wind": {},
+    "sources": {
+      "pge": "21740"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21740"
+  },
+  {
+    "id": "PSF-006752",
+    "name": "Lianhuashan",
+    "lat": 28.1303,
+    "lon": 112.79,
+    "wind": {},
+    "sources": {
+      "pge": "21741"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21741"
+  },
+  {
+    "id": "PSF-006757",
+    "name": "802",
+    "lat": 43.354,
+    "lon": 117.706,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21747"
+  },
+  {
+    "id": "PSF-006793",
+    "name": "Tiantaishan Mountain",
+    "lat": 30.3103,
+    "lon": 103.147,
+    "wind": {},
+    "sources": {
+      "pge": "21784"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21784"
+  },
+  {
+    "id": "PSF-006829",
+    "name": "Hua Shan",
+    "lat": 31.8535,
+    "lon": 120.289,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21823"
+  },
+  {
+    "id": "PSF-006901",
+    "name": "Mutianyu Great Wall",
+    "lat": 40.4499,
+    "lon": 116.55,
+    "wind": {},
+    "sources": {
+      "pge": "21901"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21901"
+  },
+  {
+    "id": "PSF-007045",
+    "name": "Big Love",
+    "lat": 22.3334,
+    "lon": 114.257,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "22074"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22074"
+  },
+  {
+    "id": "PSF-007090",
+    "name": "Niucao Mountain",
+    "lat": 31.0462,
+    "lon": 116.261,
+    "wind": {},
+    "sources": {
+      "pge": "22123"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22123"
+  },
+  {
+    "id": "PSF-007113",
+    "name": "mt. Huanghuashan/黄花山",
+    "lat": 40.163,
+    "lon": 117.584,
+    "wind": {},
+    "sources": {
+      "pge": "22154"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22154"
+  },
+  {
+    "id": "PSF-007617",
+    "name": "Luojiayu",
+    "lat": 39.6234,
+    "lon": 115.834,
+    "wind": {},
+    "sources": {
+      "pge": "22717"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22717"
+  },
+  {
+    "id": "PSF-007618",
+    "name": "Gujianshan/古剑山",
+    "lat": 28.9649,
+    "lon": 106.628,
+    "wind": {},
+    "sources": {
+      "pge": "22718"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22718"
+  },
+  {
+    "id": "PSF-007740",
+    "name": "Shijinglong Ski",
+    "lat": 40.5258,
+    "lon": 115.961,
+    "wind": {},
+    "sources": {
+      "pge": "22863"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22863"
+  },
+  {
+    "id": "PSF-007741",
+    "name": "mt. DaQingShan",
+    "lat": 40.9303,
+    "lon": 111.719,
+    "wind": {},
+    "sources": {
+      "pge": "22864"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22864"
+  },
+  {
+    "id": "PSF-007778",
+    "name": "JiuHuaShan",
+    "lat": 30.5981,
+    "lon": 117.806,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "22905"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22905"
+  },
+  {
+    "id": "PSF-007783",
+    "name": "Linzhou/林州三号",
+    "lat": 35.9976,
+    "lon": 113.694,
+    "wind": {},
+    "sources": {
+      "pge": "22910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22910"
+  },
+  {
+    "id": "PSF-007786",
+    "name": "HuanXian",
+    "lat": 29.9119,
+    "lon": 114.815,
+    "wind": {},
+    "sources": {
+      "pge": "22913"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22913"
+  },
+  {
+    "id": "PSF-007958",
+    "name": "HongJiaoLing International Paragliding Flight Camp",
+    "lat": 18.5729,
+    "lon": 110.111,
+    "wind": {},
+    "sources": {
+      "pge": "23102"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23102"
+  },
+  {
+    "id": "PSF-008097",
+    "name": "Mt.MingyueShan/明月山",
+    "lat": 27.6072,
+    "lon": 114.237,
+    "wind": {},
+    "sources": {
+      "pge": "23247"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23247"
+  },
+  {
+    "id": "PSF-008152",
+    "name": "mt.wansuishan",
+    "lat": 41.2153,
+    "lon": 124.141,
+    "wind": {},
+    "sources": {
+      "pge": "23310"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23310"
+  },
+  {
+    "id": "PSF-008258",
+    "name": "mumianshan",
+    "lat": 22.8609,
+    "lon": 114.284,
+    "wind": {},
+    "sources": {
+      "pge": "23437"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23437"
+  },
+  {
+    "id": "PSF-008269",
+    "name": "DaJianShan/大尖山",
+    "lat": 30.3503,
+    "lon": 120.762,
+    "wind": {},
+    "sources": {
+      "pge": "23448"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23448"
+  },
+  {
+    "id": "PSF-008302",
+    "name": "kamayami paragliding(nanxijiang river)",
+    "lat": 28.3406,
+    "lon": 120.774,
+    "wind": {},
+    "sources": {
+      "pge": "23484"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23484"
+  },
+  {
+    "id": "PSF-008361",
+    "name": "JingDeZhen",
+    "lat": 29.4503,
+    "lon": 117.533,
+    "wind": {},
+    "sources": {
+      "pge": "23552"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23552"
+  },
+  {
+    "id": "PSF-008362",
+    "name": "DaMingShan",
+    "lat": 23.5523,
+    "lon": 108.341,
+    "wind": {},
+    "sources": {
+      "pge": "23553"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23553"
+  },
+  {
+    "id": "PSF-008367",
+    "name": "mt. babaoshan",
+    "lat": 40.4981,
+    "lon": 115.414,
+    "wind": {},
+    "sources": {
+      "pge": "23558"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23558"
+  },
+  {
+    "id": "PSF-008368",
+    "name": "Fly ZhiYou",
+    "lat": 40.2103,
+    "lon": 117.315,
+    "wind": {},
+    "sources": {
+      "pge": "23559"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23559"
+  },
+  {
+    "id": "PSF-008463",
+    "name": "Mt. Bailongshan",
+    "lat": 38.8974,
+    "lon": 115.076,
+    "wind": {},
+    "sources": {
+      "pge": "23670"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23670"
+  },
+  {
+    "id": "PSF-008548",
+    "name": "JinJiaShan/金家山",
+    "lat": 29.7842,
+    "lon": 119.51,
+    "wind": {},
+    "sources": {
+      "pge": "23767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23767"
+  },
+  {
+    "id": "PSF-008549",
+    "name": "AnJi YuFeng/驭风",
+    "lat": 30.4854,
+    "lon": 119.447,
+    "wind": {},
+    "sources": {
+      "pge": "23768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23768"
+  },
+  {
+    "id": "PSF-008550",
+    "name": "LuNiao/鸬鸟",
+    "lat": 30.4666,
+    "lon": 119.726,
+    "wind": {},
+    "sources": {
+      "pge": "23769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23769"
+  },
+  {
+    "id": "PSF-008551",
+    "name": "ShaoXing HeiBao/黑豹",
+    "lat": 29.6247,
+    "lon": 120.959,
+    "wind": {},
+    "sources": {
+      "pge": "23770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23770"
+  },
+  {
+    "id": "PSF-008552",
+    "name": "BaiHe/白鹤",
+    "lat": 29.2377,
+    "lon": 120.908,
+    "wind": {},
+    "sources": {
+      "pge": "23771"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23771"
+  },
+  {
+    "id": "PSF-008553",
+    "name": "Fuyang DieKong/叠空",
+    "lat": 29.9931,
+    "lon": 119.611,
+    "wind": {},
+    "sources": {
+      "pge": "23772"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23772"
+  },
+  {
+    "id": "PSF-008577",
+    "name": "HuiXian International Flying Club Taking Off Site",
+    "lat": 35.4688,
+    "lon": 113.489,
+    "wind": {},
+    "sources": {
+      "pge": "23803"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23803"
+  },
+  {
+    "id": "PSF-008586",
+    "name": "YueLiangWan/月亮湾",
+    "lat": 30.6905,
+    "lon": 118.541,
+    "wind": {},
+    "sources": {
+      "pge": "23813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23813"
+  },
+  {
+    "id": "PSF-008595",
+    "name": "the Whale",
+    "lat": 40.5017,
+    "lon": 116.785,
+    "wind": {},
+    "sources": {
+      "pge": "23823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23823"
+  },
+  {
+    "id": "PSF-008603",
+    "name": "大幕山滑翔伞基地",
+    "lat": 29.7352,
+    "lon": 114.645,
+    "wind": {},
+    "sources": {
+      "pge": "23833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23833"
+  },
+  {
+    "id": "PSF-008628",
+    "name": "Jindouyun 筋斗云",
+    "lat": 31.1564,
+    "lon": 103.778,
+    "wind": {},
+    "sources": {
+      "pge": "23863"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23863"
+  },
+  {
+    "id": "PSF-008655",
+    "name": "Puhong",
+    "lat": 31.0829,
+    "lon": 103.662,
+    "wind": {},
+    "sources": {
+      "pge": "23896"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23896"
+  },
+  {
+    "id": "PSF-008656",
+    "name": "Douchuan Mountain",
+    "lat": 31.9146,
+    "lon": 104.812,
+    "wind": {},
+    "sources": {
+      "pge": "23897"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23897"
+  },
+  {
+    "id": "PSF-008657",
+    "name": "Manbuyunduan",
+    "lat": 30.5598,
+    "lon": 104.328,
+    "wind": {},
+    "sources": {
+      "pge": "23898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23898"
+  },
+  {
+    "id": "PSF-008658",
+    "name": "Little Cloud",
+    "lat": 30.7886,
+    "lon": 104.539,
+    "wind": {},
+    "sources": {
+      "pge": "23899"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23899"
+  },
+  {
+    "id": "PSF-008664",
+    "name": "Hanyuan",
+    "lat": 29.3823,
+    "lon": 102.66,
+    "wind": {},
+    "sources": {
+      "pge": "23905"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23905"
+  },
+  {
+    "id": "PSF-008675",
+    "name": "yuzui850",
+    "lat": 31.0054,
+    "lon": 103.562,
+    "wind": {},
+    "sources": {
+      "pge": "23916"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23916"
+  },
+  {
+    "id": "PSF-008676",
+    "name": "同温层 > ENGLISH please - otherwise site will be cancelled!",
+    "lat": 30.8181,
+    "lon": 104.563,
+    "wind": {},
+    "sources": {
+      "pge": "23917"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23917"
+  },
+  {
+    "id": "PSF-010056",
+    "name": "Simatai Great Wall",
+    "lat": 40.658,
+    "lon": 117.285,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7279"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7279"
+  },
+  {
+    "id": "PSF-010057",
+    "name": "mt. MiaoFengshan",
+    "lat": 40.0778,
+    "lon": 116.047,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "7280"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7280"
+  },
+  {
+    "id": "PSF-010060",
+    "name": "Chicheng chaoyang cliff",
+    "lat": 40.704,
+    "lon": 116.061,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7288"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7288"
+  },
+  {
+    "id": "PSF-010244",
+    "name": "Dujiangyan zipingpu",
+    "lat": 31.0467,
+    "lon": 103.558,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7583"
+  },
+  {
+    "id": "PSF-011309",
+    "name": "Anning",
+    "lat": 24.9681,
+    "lon": 102.402,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9740"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9740"
+  },
+  {
+    "id": "PSF-011390",
+    "name": "yuxi",
+    "lat": 24.4138,
+    "lon": 102.606,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9839"
+  },
+  {
+    "id": "PSF-011391",
+    "name": "Yang Zhong Hai",
+    "lat": 24.9609,
+    "lon": 102.99,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "9840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9840"
+  },
+  {
+    "id": "PSF-011392",
+    "name": "Haikou",
+    "lat": 24.867,
+    "lon": 102.626,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9842"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9842"
+  },
+  {
+    "id": "PSF-011424",
+    "name": "north mountain sunset dam",
+    "lat": 34.0283,
+    "lon": 108.919,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9883"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9883"
+  }
+]

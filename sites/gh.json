@@ -1,0 +1,109 @@
+[
+  {
+    "id": "PSF-000549",
+    "name": "Osuduku",
+    "lat": 6.0537,
+    "lon": 0.1869,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10641"
+  },
+  {
+    "id": "PSF-006462",
+    "name": "Amedzofe southwest",
+    "lat": 6.83047,
+    "lon": 0.427555,
+    "wind": {},
+    "sources": {
+      "pge": "21405"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21405"
+  },
+  {
+    "id": "PSF-006463",
+    "name": "Vane landing",
+    "lat": 6.82484,
+    "lon": 0.420206,
+    "wind": {},
+    "sources": {
+      "pge": "21406"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21406"
+  },
+  {
+    "id": "PSF-006464",
+    "name": "Amedzofe north (east launch)",
+    "lat": 6.85546,
+    "lon": 0.433391,
+    "wind": {},
+    "sources": {
+      "pge": "21407"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21407"
+  },
+  {
+    "id": "PSF-006465",
+    "name": "end of road from Amedzofe.",
+    "lat": 6.86056,
+    "lon": 0.472584,
+    "wind": {},
+    "sources": {
+      "pge": "21408"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21408"
+  },
+  {
+    "id": "PSF-006466",
+    "name": "Amedzofe (southeast launch)",
+    "lat": 6.84999,
+    "lon": 0.467842,
+    "wind": {},
+    "sources": {
+      "pge": "21409"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21409"
+  },
+  {
+    "id": "PSF-006467",
+    "name": "West Hills (west launch)",
+    "lat": 5.54039,
+    "lon": -0.376727,
+    "wind": {},
+    "sources": {
+      "pge": "21410"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21410"
+  },
+  {
+    "id": "PSF-009790",
+    "name": "Nkawkaw",
+    "lat": 6.5776,
+    "lon": -0.7603,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6921"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6921"
+  }
+]

@@ -1,0 +1,4579 @@
+[
+  {
+    "id": "PSF-000037",
+    "name": "vonitsa profitis ilias",
+    "lat": 38.8997,
+    "lon": 20.9355,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10045"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10045"
+  },
+  {
+    "id": "PSF-000041",
+    "name": "Stranoma - Thermo",
+    "lat": 38.53,
+    "lon": 21.7617,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10051"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10051"
+  },
+  {
+    "id": "PSF-000234",
+    "name": "akarnanika",
+    "lat": 38.8061,
+    "lon": 20.9807,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10274"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10274"
+  },
+  {
+    "id": "PSF-000447",
+    "name": "Lendas",
+    "lat": 34.9574,
+    "lon": 24.9112,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10512"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10512"
+  },
+  {
+    "id": "PSF-000448",
+    "name": "Pompia",
+    "lat": 34.9947,
+    "lon": 24.8718,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10513"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10513"
+  },
+  {
+    "id": "PSF-000453",
+    "name": "Kontogialos",
+    "lat": 39.5835,
+    "lon": 19.8249,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10518"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10518"
+  },
+  {
+    "id": "PSF-000460",
+    "name": "Kala Limania",
+    "lat": 34.9411,
+    "lon": 24.8169,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10525"
+  },
+  {
+    "id": "PSF-000473",
+    "name": "Orthi Petra",
+    "lat": 35.0792,
+    "lon": 24.9434,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10546"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10546"
+  },
+  {
+    "id": "PSF-000506",
+    "name": "Kokini amos",
+    "lat": 34.9855,
+    "lon": 24.7511,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10587"
+  },
+  {
+    "id": "PSF-000522",
+    "name": "Kofinas",
+    "lat": 34.9607,
+    "lon": 25.0998,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10606"
+  },
+  {
+    "id": "PSF-000567",
+    "name": "Gergeri",
+    "lat": 35.1439,
+    "lon": 24.9369,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10665"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10665"
+  },
+  {
+    "id": "PSF-000727",
+    "name": "Krapi",
+    "lat": 35.3132,
+    "lon": 24.2141,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10856"
+  },
+  {
+    "id": "PSF-000801",
+    "name": "mirtiotisa",
+    "lat": 39.5995,
+    "lon": 19.7951,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10941"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10941"
+  },
+  {
+    "id": "PSF-000802",
+    "name": "troumpetas",
+    "lat": 39.7089,
+    "lon": 19.7604,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10942"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10942"
+  },
+  {
+    "id": "PSF-000805",
+    "name": "agios gordis",
+    "lat": 39.5388,
+    "lon": 19.8587,
+    "wind": {
+      "N": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10945"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10945"
+  },
+  {
+    "id": "PSF-000807",
+    "name": "Embesos",
+    "lat": 39.0035,
+    "lon": 21.3302,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10947"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10947"
+  },
+  {
+    "id": "PSF-000819",
+    "name": "pantokratoras",
+    "lat": 39.7475,
+    "lon": 19.8722,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10961"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10961"
+  },
+  {
+    "id": "PSF-000830",
+    "name": "Uruguai",
+    "lat": 35.2236,
+    "lon": 24.7935,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10972"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10972"
+  },
+  {
+    "id": "PSF-000831",
+    "name": "Agathias",
+    "lat": 35.2207,
+    "lon": 24.7766,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10973"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10973"
+  },
+  {
+    "id": "PSF-000832",
+    "name": "stolistra",
+    "lat": 35.2324,
+    "lon": 24.7654,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10974"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10974"
+  },
+  {
+    "id": "PSF-000840",
+    "name": "Psiloritis-Akolita",
+    "lat": 35.1979,
+    "lon": 24.7967,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10990"
+  },
+  {
+    "id": "PSF-000841",
+    "name": "Psiloritis-Nida",
+    "lat": 35.2072,
+    "lon": 24.8391,
+    "wind": {
+      "N": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10991"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10991"
+  },
+  {
+    "id": "PSF-000843",
+    "name": "Psiloritis-Vistagi",
+    "lat": 35.2299,
+    "lon": 24.7453,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10994"
+  },
+  {
+    "id": "PSF-000859",
+    "name": "troumpetas north",
+    "lat": 39.7099,
+    "lon": 19.7509,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11013"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11013"
+  },
+  {
+    "id": "PSF-000882",
+    "name": "Voula - low take off",
+    "lat": 37.8496,
+    "lon": 23.7883,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11039"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11039"
+  },
+  {
+    "id": "PSF-000884",
+    "name": "Aspropirgos - kiting zone",
+    "lat": 38.0555,
+    "lon": 23.6233,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11042"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11042"
+  },
+  {
+    "id": "PSF-000885",
+    "name": "Kakia Thalassa",
+    "lat": 37.8485,
+    "lon": 24.0431,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11043"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11043"
+  },
+  {
+    "id": "PSF-000901",
+    "name": "Makrimaliana",
+    "lat": 35.0966,
+    "lon": 24.7187,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11062"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11062"
+  },
+  {
+    "id": "PSF-000929",
+    "name": "falasarna",
+    "lat": 35.4831,
+    "lon": 23.5941,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11091"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11091"
+  },
+  {
+    "id": "PSF-000975",
+    "name": "Ahentrias",
+    "lat": 35.0014,
+    "lon": 25.2074,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "11149"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11149"
+  },
+  {
+    "id": "PSF-000998",
+    "name": "Vlaherna - Agrinion",
+    "lat": 38.6544,
+    "lon": 21.3971,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "11176"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11176"
+  },
+  {
+    "id": "PSF-001000",
+    "name": "Petrohori",
+    "lat": 38.5471,
+    "lon": 21.6456,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "11178"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11178"
+  },
+  {
+    "id": "PSF-001001",
+    "name": "Palaiokaria",
+    "lat": 38.6183,
+    "lon": 21.5639,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11179"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11179"
+  },
+  {
+    "id": "PSF-001002",
+    "name": "Retsina",
+    "lat": 38.433,
+    "lon": 21.4017,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11180"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11180"
+  },
+  {
+    "id": "PSF-001004",
+    "name": "Menidi",
+    "lat": 39.0416,
+    "lon": 21.1304,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11183"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11183"
+  },
+  {
+    "id": "PSF-001005",
+    "name": "Varasova",
+    "lat": 38.3713,
+    "lon": 21.5775,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11184"
+  },
+  {
+    "id": "PSF-001006",
+    "name": "Paravola",
+    "lat": 38.6355,
+    "lon": 21.5222,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "11185"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11185"
+  },
+  {
+    "id": "PSF-001138",
+    "name": "Ypato",
+    "lat": 38.4024,
+    "lon": 23.4016,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11359"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11359"
+  },
+  {
+    "id": "PSF-001234",
+    "name": "kalusi",
+    "lat": 38.0438,
+    "lon": 21.7969,
+    "wind": {
+      "N": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11471"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11471"
+  },
+  {
+    "id": "PSF-001235",
+    "name": "Kalenji",
+    "lat": 37.9502,
+    "lon": 21.772,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11472"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11472"
+  },
+  {
+    "id": "PSF-001357",
+    "name": "Panteteimonas",
+    "lat": 39.9883,
+    "lon": 22.5697,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11628"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11628"
+  },
+  {
+    "id": "PSF-001375",
+    "name": "Kofinas Amfissas",
+    "lat": 38.5334,
+    "lon": 22.3897,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11648"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11648"
+  },
+  {
+    "id": "PSF-001407",
+    "name": "LGMG",
+    "lat": 37.9815,
+    "lon": 23.3655,
+    "wind": {},
+    "sources": {
+      "pge": "11713"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11713"
+  },
+  {
+    "id": "PSF-001422",
+    "name": "Paggaio North",
+    "lat": 40.9144,
+    "lon": 24.102,
+    "wind": {},
+    "sources": {
+      "pge": "11734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11734"
+  },
+  {
+    "id": "PSF-001431",
+    "name": "LGMK",
+    "lat": 37.4281,
+    "lon": 25.3513,
+    "wind": {},
+    "sources": {
+      "pge": "11749"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11749"
+  },
+  {
+    "id": "PSF-001442",
+    "name": "profitis galatistas",
+    "lat": 40.4763,
+    "lon": 23.2857,
+    "wind": {},
+    "sources": {
+      "pge": "11766"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11766"
+  },
+  {
+    "id": "PSF-001443",
+    "name": "seirios",
+    "lat": 38.2534,
+    "lon": 23.7334,
+    "wind": {},
+    "sources": {
+      "pge": "11767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11767"
+  },
+  {
+    "id": "PSF-001444",
+    "name": "Kyriakochori (Western Fthiotida)",
+    "lat": 38.8284,
+    "lon": 22.0144,
+    "wind": {},
+    "sources": {
+      "pge": "11768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11768"
+  },
+  {
+    "id": "PSF-001457",
+    "name": "Keratocampos/Kreta",
+    "lat": 35.0084,
+    "lon": 25.3735,
+    "wind": {},
+    "sources": {
+      "pge": "11806"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11806"
+  },
+  {
+    "id": "PSF-001458",
+    "name": "ÎžÎ±Î½Î¸Î· (Î±ÎµÏÎ¿Î´ÏÎ¿Î¼Î¹Î¿)",
+    "lat": 41.1174,
+    "lon": 24.9192,
+    "wind": {},
+    "sources": {
+      "pge": "11810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11810"
+  },
+  {
+    "id": "PSF-001487",
+    "name": "thiva",
+    "lat": 38.3534,
+    "lon": 23.2684,
+    "wind": {},
+    "sources": {
+      "pge": "11858"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11858"
+  },
+  {
+    "id": "PSF-001488",
+    "name": "Parnassos Ski Center",
+    "lat": 38.5591,
+    "lon": 22.5856,
+    "wind": {},
+    "sources": {
+      "pge": "11859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11859"
+  },
+  {
+    "id": "PSF-001500",
+    "name": "dasos haidarioy",
+    "lat": 38.0254,
+    "lon": 23.6514,
+    "wind": {},
+    "sources": {
+      "pge": "11877"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11877"
+  },
+  {
+    "id": "PSF-001501",
+    "name": "kastro",
+    "lat": 38.2416,
+    "lon": 23.2511,
+    "wind": {},
+    "sources": {
+      "pge": "11878"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11878"
+  },
+  {
+    "id": "PSF-001507",
+    "name": "Varkiza",
+    "lat": 37.822,
+    "lon": 23.8174,
+    "wind": {},
+    "sources": {
+      "pge": "11894"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11894"
+  },
+  {
+    "id": "PSF-001514",
+    "name": "FILAKIO",
+    "lat": 39.6844,
+    "lon": 19.7355,
+    "wind": {},
+    "sources": {
+      "pge": "11901"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11901"
+  },
+  {
+    "id": "PSF-001526",
+    "name": "LGSK",
+    "lat": 39.1725,
+    "lon": 23.5015,
+    "wind": {},
+    "sources": {
+      "pge": "11935"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11935"
+  },
+  {
+    "id": "PSF-001535",
+    "name": "vigla",
+    "lat": 39.7476,
+    "lon": 19.935,
+    "wind": {},
+    "sources": {
+      "pge": "11950"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11950"
+  },
+  {
+    "id": "PSF-001543",
+    "name": "Dimini",
+    "lat": 39.3508,
+    "lon": 22.9051,
+    "wind": {},
+    "sources": {
+      "pge": "11964"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11964"
+  },
+  {
+    "id": "PSF-001569",
+    "name": "Syros LGSO",
+    "lat": 37.4182,
+    "lon": 24.9594,
+    "wind": {},
+    "sources": {
+      "pge": "12002"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12002"
+  },
+  {
+    "id": "PSF-001590",
+    "name": "NEA XORA",
+    "lat": 35.5106,
+    "lon": 23.9988,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12053"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12053"
+  },
+  {
+    "id": "PSF-001594",
+    "name": "Agrinio Aeroclub",
+    "lat": 38.6065,
+    "lon": 21.4036,
+    "wind": {},
+    "sources": {
+      "pge": "12058"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12058"
+  },
+  {
+    "id": "PSF-001617",
+    "name": "Kithenonas",
+    "lat": 38.1996,
+    "lon": 23.2995,
+    "wind": {},
+    "sources": {
+      "pge": "12097"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12097"
+  },
+  {
+    "id": "PSF-001618",
+    "name": "ÎœÎ‘Î”Î¥Î¤ÎŸÎ£",
+    "lat": 40.615,
+    "lon": 23.546,
+    "wind": {},
+    "sources": {
+      "pge": "12099"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12099"
+  },
+  {
+    "id": "PSF-001632",
+    "name": "Milea - Zaxaros",
+    "lat": 37.4939,
+    "lon": 21.7654,
+    "wind": {},
+    "sources": {
+      "pge": "12119"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12119"
+  },
+  {
+    "id": "PSF-001633",
+    "name": "Arxaio Kastro (Aipy)",
+    "lat": 37.5397,
+    "lon": 21.7518,
+    "wind": {},
+    "sources": {
+      "pge": "12121"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12121"
+  },
+  {
+    "id": "PSF-001654",
+    "name": "Vrisinas",
+    "lat": 35.3135,
+    "lon": 24.5064,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12148"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12148"
+  },
+  {
+    "id": "PSF-001663",
+    "name": "Gkrika -  Ai Lias",
+    "lat": 39.4724,
+    "lon": 20.4559,
+    "wind": {},
+    "sources": {
+      "pge": "12160"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12160"
+  },
+  {
+    "id": "PSF-001672",
+    "name": "ÎœÎ¬Î¶Î¹Î±",
+    "lat": 39.6844,
+    "lon": 20.9141,
+    "wind": {},
+    "sources": {
+      "pge": "12179"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12179"
+  },
+  {
+    "id": "PSF-001689",
+    "name": "Malia",
+    "lat": 35.3075,
+    "lon": 25.5424,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12208"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12208"
+  },
+  {
+    "id": "PSF-001720",
+    "name": "Gerakari",
+    "lat": 39.6219,
+    "lon": 20.9882,
+    "wind": {},
+    "sources": {
+      "pge": "12261"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12261"
+  },
+  {
+    "id": "PSF-001724",
+    "name": "Alikes Oropos",
+    "lat": 38.3314,
+    "lon": 23.7771,
+    "wind": {},
+    "sources": {
+      "pge": "12269"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12269"
+  },
+  {
+    "id": "PSF-001739",
+    "name": "Pounta, Agia Triada",
+    "lat": 38.1631,
+    "lon": 22.2218,
+    "wind": {},
+    "sources": {
+      "pge": "12304"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12304"
+  },
+  {
+    "id": "PSF-001751",
+    "name": "Eleytheroxori",
+    "lat": 40.8896,
+    "lon": 22.3768,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12324"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12324"
+  },
+  {
+    "id": "PSF-001757",
+    "name": "Î Ï.Î—Î»Î¯Î±Ï‚ Î£Ï„Î±Ï…ÏÎ¿ÏÏ€Î¿Î»Î·Ï‚",
+    "lat": 41.1992,
+    "lon": 24.7323,
+    "wind": {},
+    "sources": {
+      "pge": "12332"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12332"
+  },
+  {
+    "id": "PSF-001778",
+    "name": "Meteora",
+    "lat": 39.7084,
+    "lon": 21.6407,
+    "wind": {},
+    "sources": {
+      "pge": "12368"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12368"
+  },
+  {
+    "id": "PSF-001780",
+    "name": "Maronia",
+    "lat": 40.901,
+    "lon": 25.4388,
+    "wind": {},
+    "sources": {
+      "pge": "12370"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12370"
+  },
+  {
+    "id": "PSF-001787",
+    "name": "Dikorfo Zagoriou",
+    "lat": 39.7717,
+    "lon": 20.7962,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "12386"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12386"
+  },
+  {
+    "id": "PSF-001791",
+    "name": "Lepetimnos",
+    "lat": 39.3476,
+    "lon": 26.2612,
+    "wind": {},
+    "sources": {
+      "pge": "12391"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12391"
+  },
+  {
+    "id": "PSF-001794",
+    "name": "Bouka",
+    "lat": 38.9196,
+    "lon": 21.1439,
+    "wind": {},
+    "sources": {
+      "pge": "12395"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12395"
+  },
+  {
+    "id": "PSF-001832",
+    "name": "Hanopoulo",
+    "lat": 39.2025,
+    "lon": 20.9479,
+    "wind": {},
+    "sources": {
+      "pge": "12464"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12464"
+  },
+  {
+    "id": "PSF-001843",
+    "name": "Î§ÏÏ…ÏƒÎ® Î†Î¼Î¼Î¿Ï‚ Î†Î½Î´ÏÎ¿Ï‚",
+    "lat": 37.8775,
+    "lon": 24.7605,
+    "wind": {},
+    "sources": {
+      "pge": "12481"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12481"
+  },
+  {
+    "id": "PSF-001845",
+    "name": "FLY IN DIOAN",
+    "lat": 40.8358,
+    "lon": 22.4058,
+    "wind": {},
+    "sources": {
+      "pge": "12484"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12484"
+  },
+  {
+    "id": "PSF-001846",
+    "name": "kremasto gidi (limanakia)",
+    "lat": 37.8012,
+    "lon": 23.7952,
+    "wind": {},
+    "sources": {
+      "pge": "12486"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12486"
+  },
+  {
+    "id": "PSF-001854",
+    "name": "Mandri",
+    "lat": 38.4857,
+    "lon": 22.4735,
+    "wind": {},
+    "sources": {
+      "pge": "12507"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12507"
+  },
+  {
+    "id": "PSF-001855",
+    "name": "Araxova",
+    "lat": 38.4918,
+    "lon": 22.5497,
+    "wind": {},
+    "sources": {
+      "pge": "12508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12508"
+  },
+  {
+    "id": "PSF-001863",
+    "name": "Kastri (Muli hill)",
+    "lat": 39.7101,
+    "lon": 20.7639,
+    "wind": {},
+    "sources": {
+      "pge": "12519"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12519"
+  },
+  {
+    "id": "PSF-001895",
+    "name": "Vrachos",
+    "lat": 39.1733,
+    "lon": 20.562,
+    "wind": {},
+    "sources": {
+      "pge": "12587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12587"
+  },
+  {
+    "id": "PSF-001897",
+    "name": "Skiades",
+    "lat": 39.3295,
+    "lon": 20.7507,
+    "wind": {},
+    "sources": {
+      "pge": "12589"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12589"
+  },
+  {
+    "id": "PSF-001913",
+    "name": "Anoixi",
+    "lat": 38.1332,
+    "lon": 23.8545,
+    "wind": {},
+    "sources": {
+      "pge": "12637"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12637"
+  },
+  {
+    "id": "PSF-001914",
+    "name": "LEHAIO",
+    "lat": 37.9307,
+    "lon": 22.8612,
+    "wind": {},
+    "sources": {
+      "pge": "12638"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12638"
+  },
+  {
+    "id": "PSF-001915",
+    "name": "ASPROPIRGOS",
+    "lat": 38.1064,
+    "lon": 23.6133,
+    "wind": {},
+    "sources": {
+      "pge": "12639"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12639"
+  },
+  {
+    "id": "PSF-001916",
+    "name": "TSABIKA",
+    "lat": 36.2338,
+    "lon": 28.1509,
+    "wind": {},
+    "sources": {
+      "pge": "12642"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12642"
+  },
+  {
+    "id": "PSF-001918",
+    "name": "Î‘vdira",
+    "lat": 40.9337,
+    "lon": 24.9669,
+    "wind": {},
+    "sources": {
+      "pge": "12645"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12645"
+  },
+  {
+    "id": "PSF-001920",
+    "name": "Sykaminia",
+    "lat": 39.3642,
+    "lon": 26.2997,
+    "wind": {},
+    "sources": {
+      "pge": "12647"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12647"
+  },
+  {
+    "id": "PSF-001921",
+    "name": "LGKC",
+    "lat": 36.2699,
+    "lon": 23.0142,
+    "wind": {},
+    "sources": {
+      "pge": "12648"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12648"
+  },
+  {
+    "id": "PSF-001922",
+    "name": "Agios Ioannis",
+    "lat": 38.847,
+    "lon": 20.6901,
+    "wind": {},
+    "sources": {
+      "pge": "12650"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12650"
+  },
+  {
+    "id": "PSF-001961",
+    "name": "Koropi",
+    "lat": 37.8896,
+    "lon": 23.8586,
+    "wind": {},
+    "sources": {
+      "pge": "12734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12734"
+  },
+  {
+    "id": "PSF-001994",
+    "name": "Omblos (Patras)",
+    "lat": 38.1789,
+    "lon": 21.767,
+    "wind": {
+      "N": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "128"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=128"
+  },
+  {
+    "id": "PSF-002000",
+    "name": "Ballos Bay",
+    "lat": 35.5291,
+    "lon": 23.606,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "12809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12809"
+  },
+  {
+    "id": "PSF-002009",
+    "name": "Kalifytos",
+    "lat": 41.1846,
+    "lon": 24.2539,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12824"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12824"
+  },
+  {
+    "id": "PSF-002014",
+    "name": "ANO STAYROS",
+    "lat": 40.6336,
+    "lon": 23.7264,
+    "wind": {},
+    "sources": {
+      "pge": "12834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12834"
+  },
+  {
+    "id": "PSF-002027",
+    "name": "Tatoi Airport - LGTT",
+    "lat": 38.1032,
+    "lon": 23.7799,
+    "wind": {},
+    "sources": {
+      "pge": "12853"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12853"
+  },
+  {
+    "id": "PSF-002030",
+    "name": "Lutra",
+    "lat": 34.9361,
+    "lon": 24.9562,
+    "wind": {},
+    "sources": {
+      "pge": "12858"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12858"
+  },
+  {
+    "id": "PSF-002031",
+    "name": "Kalikratia",
+    "lat": 40.323,
+    "lon": 23.0252,
+    "wind": {},
+    "sources": {
+      "pge": "12859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12859"
+  },
+  {
+    "id": "PSF-002049",
+    "name": "Skiadas",
+    "lat": 37.8741,
+    "lon": 21.6977,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "129"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=129"
+  },
+  {
+    "id": "PSF-002053",
+    "name": "PLAKA ELOUNDA",
+    "lat": 35.3087,
+    "lon": 25.7287,
+    "wind": {},
+    "sources": {
+      "pge": "12905"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12905"
+  },
+  {
+    "id": "PSF-002057",
+    "name": "Sidirohori Kastoria",
+    "lat": 40.5989,
+    "lon": 21.2623,
+    "wind": {},
+    "sources": {
+      "pge": "12910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12910"
+  },
+  {
+    "id": "PSF-002072",
+    "name": "Loukia",
+    "lat": 34.9707,
+    "lon": 25.0215,
+    "wind": {},
+    "sources": {
+      "pge": "12931"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12931"
+  },
+  {
+    "id": "PSF-002097",
+    "name": "Kopaida - Dimitra",
+    "lat": 38.3417,
+    "lon": 21.4871,
+    "wind": {},
+    "sources": {
+      "pge": "12974"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12974"
+  },
+  {
+    "id": "PSF-002102",
+    "name": "Saint \"Akindini\"",
+    "lat": 36.1505,
+    "lon": 23.0016,
+    "wind": {},
+    "sources": {
+      "pge": "12984"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12984"
+  },
+  {
+    "id": "PSF-002114",
+    "name": "Santomeri",
+    "lat": 37.99,
+    "lon": 21.5776,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "130"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=130"
+  },
+  {
+    "id": "PSF-002120",
+    "name": "Nemertsika mountain",
+    "lat": 40.0572,
+    "lon": 20.4949,
+    "wind": {},
+    "sources": {
+      "pge": "13011"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13011"
+  },
+  {
+    "id": "PSF-002139",
+    "name": "likotrihi",
+    "lat": 39.7406,
+    "lon": 20.8152,
+    "wind": {},
+    "sources": {
+      "pge": "13041"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13041"
+  },
+  {
+    "id": "PSF-002143",
+    "name": "Olitsika",
+    "lat": 39.5332,
+    "lon": 20.7589,
+    "wind": {},
+    "sources": {
+      "pge": "13045"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13045"
+  },
+  {
+    "id": "PSF-002144",
+    "name": "Faraklo-Neapoli",
+    "lat": 36.5352,
+    "lon": 23.0832,
+    "wind": {},
+    "sources": {
+      "pge": "13046"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13046"
+  },
+  {
+    "id": "PSF-002145",
+    "name": "Flying Paradise Ancient Theater",
+    "lat": 37.5796,
+    "lon": 23.0728,
+    "wind": {},
+    "sources": {
+      "pge": "13047"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13047"
+  },
+  {
+    "id": "PSF-002151",
+    "name": "Agios SIV",
+    "lat": 40.7499,
+    "lon": 21.7479,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13061"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13061"
+  },
+  {
+    "id": "PSF-002157",
+    "name": "verga",
+    "lat": 37.0068,
+    "lon": 22.1756,
+    "wind": {},
+    "sources": {
+      "pge": "13072"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13072"
+  },
+  {
+    "id": "PSF-002173",
+    "name": "Kalavrita - Velia",
+    "lat": 38.0095,
+    "lon": 22.1216,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "131"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=131"
+  },
+  {
+    "id": "PSF-002181",
+    "name": "Harakas",
+    "lat": 34.9945,
+    "lon": 25.1257,
+    "wind": {},
+    "sources": {
+      "pge": "13113"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13113"
+  },
+  {
+    "id": "PSF-002189",
+    "name": "malandrino",
+    "lat": 38.4725,
+    "lon": 22.246,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13126"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13126"
+  },
+  {
+    "id": "PSF-002216",
+    "name": "Flying Paradise Rolling Stone",
+    "lat": 37.6507,
+    "lon": 22.9153,
+    "wind": {},
+    "sources": {
+      "pge": "13159"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13159"
+  },
+  {
+    "id": "PSF-002224",
+    "name": "Flying paradise Toitoise",
+    "lat": 37.7038,
+    "lon": 22.7872,
+    "wind": {},
+    "sources": {
+      "pge": "13168"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13168"
+  },
+  {
+    "id": "PSF-002225",
+    "name": "Eratini's antenas",
+    "lat": 38.3907,
+    "lon": 22.2408,
+    "wind": {},
+    "sources": {
+      "pge": "13169"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13169"
+  },
+  {
+    "id": "PSF-002235",
+    "name": "Panio",
+    "lat": 37.8048,
+    "lon": 23.9247,
+    "wind": {
+      "N": 2,
+      "SE": 1,
+      "S": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13184"
+  },
+  {
+    "id": "PSF-002238",
+    "name": "lidoriki",
+    "lat": 38.5401,
+    "lon": 22.2108,
+    "wind": {},
+    "sources": {
+      "pge": "13190"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13190"
+  },
+  {
+    "id": "PSF-002244",
+    "name": "Karpenisi",
+    "lat": 38.9314,
+    "lon": 21.7952,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13199"
+  },
+  {
+    "id": "PSF-002245",
+    "name": "Kalavrita - Stiga- Avgo (ski ressort)",
+    "lat": 37.9895,
+    "lon": 22.2025,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "132"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=132"
+  },
+  {
+    "id": "PSF-002246",
+    "name": "Sxoinias - Dikastika",
+    "lat": 38.1676,
+    "lon": 24.0689,
+    "wind": {},
+    "sources": {
+      "pge": "13200"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13200"
+  },
+  {
+    "id": "PSF-002303",
+    "name": "Kalavrita - Agia Lavra",
+    "lat": 38.0168,
+    "lon": 22.0748,
+    "wind": {
+      "W": 1
+    },
+    "sources": {
+      "pge": "133"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=133"
+  },
+  {
+    "id": "PSF-002329",
+    "name": "Olymp",
+    "lat": 35.151,
+    "lon": 24.5611,
+    "wind": {},
+    "sources": {
+      "pge": "13340"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13340"
+  },
+  {
+    "id": "PSF-002330",
+    "name": "Troja",
+    "lat": 38.4844,
+    "lon": 22.7387,
+    "wind": {},
+    "sources": {
+      "pge": "13341"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13341"
+  },
+  {
+    "id": "PSF-002341",
+    "name": "Kopaida Gliderport",
+    "lat": 38.4401,
+    "lon": 23.1682,
+    "wind": {},
+    "sources": {
+      "pge": "13376"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13376"
+  },
+  {
+    "id": "PSF-002343",
+    "name": "Kallirahi",
+    "lat": 40.674,
+    "lon": 24.5508,
+    "wind": {},
+    "sources": {
+      "pge": "13380"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13380"
+  },
+  {
+    "id": "PSF-002401",
+    "name": "Penteli - Ntamaria - Karmaniolas",
+    "lat": 38.0825,
+    "lon": 23.8779,
+    "wind": {},
+    "sources": {
+      "pge": "13455"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13455"
+  },
+  {
+    "id": "PSF-002418",
+    "name": "Ano Lekani",
+    "lat": 41.1371,
+    "lon": 23.6426,
+    "wind": {},
+    "sources": {
+      "pge": "13490"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13490"
+  },
+  {
+    "id": "PSF-002425",
+    "name": "Panahaiko-South",
+    "lat": 38.2047,
+    "lon": 21.8409,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "135"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=135"
+  },
+  {
+    "id": "PSF-002426",
+    "name": "Î‘Î³Î¹Î± ÎœÎ±ÏÎ¯Î½Î± - Î£Î±ÏÏ‰Î½Î¯Î´Î±",
+    "lat": 37.8112,
+    "lon": 23.8528,
+    "wind": {},
+    "sources": {
+      "pge": "13501"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13501"
+  },
+  {
+    "id": "PSF-002431",
+    "name": "Vergina",
+    "lat": 40.4845,
+    "lon": 22.3244,
+    "wind": {},
+    "sources": {
+      "pge": "13511"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13511"
+  },
+  {
+    "id": "PSF-002449",
+    "name": "Plakountas",
+    "lat": 38.0152,
+    "lon": 23.9536,
+    "wind": {},
+    "sources": {
+      "pge": "13537"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13537"
+  },
+  {
+    "id": "PSF-002450",
+    "name": "Osios Patapios",
+    "lat": 38.0057,
+    "lon": 22.9636,
+    "wind": {},
+    "sources": {
+      "pge": "13538"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13538"
+  },
+  {
+    "id": "PSF-002471",
+    "name": "N.Ionia",
+    "lat": 39.3985,
+    "lon": 22.9571,
+    "wind": {},
+    "sources": {
+      "pge": "13579"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13579"
+  },
+  {
+    "id": "PSF-002481",
+    "name": "Panahaiko (Lower-1100m)",
+    "lat": 38.2254,
+    "lon": 21.8315,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "136"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=136"
+  },
+  {
+    "id": "PSF-002484",
+    "name": "THIRIO NORTH",
+    "lat": 38.8375,
+    "lon": 20.9695,
+    "wind": {},
+    "sources": {
+      "pge": "13602"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13602"
+  },
+  {
+    "id": "PSF-002499",
+    "name": "Mango",
+    "lat": 39.0484,
+    "lon": 20.7056,
+    "wind": {},
+    "sources": {
+      "pge": "13634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13634"
+  },
+  {
+    "id": "PSF-002602",
+    "name": "Farmakas",
+    "lat": 37.7669,
+    "lon": 22.5607,
+    "wind": {},
+    "sources": {
+      "pge": "13814"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13814"
+  },
+  {
+    "id": "PSF-002679",
+    "name": "S",
+    "lat": 40.1127,
+    "lon": 22.4685,
+    "wind": {},
+    "sources": {
+      "pge": "13927"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13927"
+  },
+  {
+    "id": "PSF-002713",
+    "name": "Kissavos",
+    "lat": 39.8016,
+    "lon": 22.6953,
+    "wind": {},
+    "sources": {
+      "pge": "13979"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13979"
+  },
+  {
+    "id": "PSF-002716",
+    "name": "Alikes",
+    "lat": 39.3152,
+    "lon": 22.9032,
+    "wind": {},
+    "sources": {
+      "pge": "13983"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13983"
+  },
+  {
+    "id": "PSF-002719",
+    "name": "Neohori Trikalon",
+    "lat": 39.6375,
+    "lon": 21.9893,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13987"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13987"
+  },
+  {
+    "id": "PSF-002733",
+    "name": "Î¼ÎµÏ„Î±Î»Î¹ÎºÎ¿",
+    "lat": 41.0054,
+    "lon": 22.8248,
+    "wind": {},
+    "sources": {
+      "pge": "14003"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14003"
+  },
+  {
+    "id": "PSF-002790",
+    "name": "Kosmira",
+    "lat": 39.5965,
+    "lon": 20.7892,
+    "wind": {},
+    "sources": {
+      "pge": "14102"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14102"
+  },
+  {
+    "id": "PSF-002799",
+    "name": "arhipoli",
+    "lat": 36.2522,
+    "lon": 28.0567,
+    "wind": {},
+    "sources": {
+      "pge": "14113"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14113"
+  },
+  {
+    "id": "PSF-002804",
+    "name": "Ag. Athanasios",
+    "lat": 40.8406,
+    "lon": 21.7791,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "14124"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14124"
+  },
+  {
+    "id": "PSF-002812",
+    "name": "Orosimo-Falakro",
+    "lat": 41.2939,
+    "lon": 24.0553,
+    "wind": {},
+    "sources": {
+      "pge": "14136"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14136"
+  },
+  {
+    "id": "PSF-002824",
+    "name": "akrefnio",
+    "lat": 38.4448,
+    "lon": 23.2246,
+    "wind": {},
+    "sources": {
+      "pge": "14158"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14158"
+  },
+  {
+    "id": "PSF-002825",
+    "name": "Panagia-Kefalari",
+    "lat": 41.0533,
+    "lon": 24.2868,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14159"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14159"
+  },
+  {
+    "id": "PSF-002828",
+    "name": "limni yliki",
+    "lat": 38.4525,
+    "lon": 23.2643,
+    "wind": {},
+    "sources": {
+      "pge": "14163"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14163"
+  },
+  {
+    "id": "PSF-002836",
+    "name": "Sesklo",
+    "lat": 39.3661,
+    "lon": 22.8242,
+    "wind": {},
+    "sources": {
+      "pge": "14184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14184"
+  },
+  {
+    "id": "PSF-002873",
+    "name": "Î‘Î¹Î³Î¿ÏƒÎ¸ÎµÎ½Î±",
+    "lat": 38.1056,
+    "lon": 23.2409,
+    "wind": {},
+    "sources": {
+      "pge": "14238"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14238"
+  },
+  {
+    "id": "PSF-002889",
+    "name": "Platania-antenna",
+    "lat": 41.1895,
+    "lon": 24.4411,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "14257"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14257"
+  },
+  {
+    "id": "PSF-002895",
+    "name": "Î“ÎµÎ½Î½Î·ÏƒÎ­Î± (ÎžÎ¬Î½Î¸Î·Ï‚)",
+    "lat": 41.0573,
+    "lon": 24.9458,
+    "wind": {},
+    "sources": {
+      "pge": "14267"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14267"
+  },
+  {
+    "id": "PSF-003036",
+    "name": "asiderotas",
+    "lat": 35.1527,
+    "lon": 24.5621,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14443"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14443"
+  },
+  {
+    "id": "PSF-003116",
+    "name": "Arma",
+    "lat": 38.3268,
+    "lon": 23.4987,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14577"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14577"
+  },
+  {
+    "id": "PSF-003133",
+    "name": "Eleftheria",
+    "lat": 40.847,
+    "lon": 24.2428,
+    "wind": {},
+    "sources": {
+      "pge": "14609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14609"
+  },
+  {
+    "id": "PSF-003145",
+    "name": "ai giannis",
+    "lat": 40.1926,
+    "lon": 23.6932,
+    "wind": {},
+    "sources": {
+      "pge": "14624"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14624"
+  },
+  {
+    "id": "PSF-003169",
+    "name": "trani amouda",
+    "lat": 40.2505,
+    "lon": 23.7222,
+    "wind": {},
+    "sources": {
+      "pge": "14657"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14657"
+  },
+  {
+    "id": "PSF-003188",
+    "name": "Sorros",
+    "lat": 38.3166,
+    "lon": 23.4042,
+    "wind": {},
+    "sources": {
+      "pge": "14686"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14686"
+  },
+  {
+    "id": "PSF-003312",
+    "name": "Rafail",
+    "lat": 40.9489,
+    "lon": 22.385,
+    "wind": {},
+    "sources": {
+      "pge": "14879"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14879"
+  },
+  {
+    "id": "PSF-003323",
+    "name": "Mouriki",
+    "lat": 38.3866,
+    "lon": 23.3341,
+    "wind": {},
+    "sources": {
+      "pge": "14897"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14897"
+  },
+  {
+    "id": "PSF-003331",
+    "name": "Î‘Î»Ï…ÎºÎ· ÎšÎ¿ÏÎ¹Î½Î¸Î¹Î±ÎºÎ¿Ï‚",
+    "lat": 38.2139,
+    "lon": 23.0156,
+    "wind": {},
+    "sources": {
+      "pge": "14909"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14909"
+  },
+  {
+    "id": "PSF-003345",
+    "name": "N.Ionia",
+    "lat": 39.3767,
+    "lon": 22.9186,
+    "wind": {},
+    "sources": {
+      "pge": "14935"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14935"
+  },
+  {
+    "id": "PSF-003346",
+    "name": "Elikonas neochori",
+    "lat": 38.297,
+    "lon": 23.0802,
+    "wind": {},
+    "sources": {
+      "pge": "14939"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14939"
+  },
+  {
+    "id": "PSF-003351",
+    "name": "Stefani",
+    "lat": 38.1736,
+    "lon": 23.5599,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14948"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14948"
+  },
+  {
+    "id": "PSF-003352",
+    "name": "Corte Droso",
+    "lat": 39.6033,
+    "lon": 19.8953,
+    "wind": {},
+    "sources": {
+      "pge": "14949"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14949"
+  },
+  {
+    "id": "PSF-003374",
+    "name": "Karla",
+    "lat": 39.4072,
+    "lon": 22.7768,
+    "wind": {},
+    "sources": {
+      "pge": "14980"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14980"
+  },
+  {
+    "id": "PSF-003384",
+    "name": "Skopia",
+    "lat": 41.1052,
+    "lon": 23.8906,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "14997"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14997"
+  },
+  {
+    "id": "PSF-003410",
+    "name": "Parga",
+    "lat": 39.2993,
+    "lon": 20.3912,
+    "wind": {},
+    "sources": {
+      "pge": "15046"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15046"
+  },
+  {
+    "id": "PSF-003416",
+    "name": "Agii Pantes east",
+    "lat": 37.0485,
+    "lon": 25.1761,
+    "wind": {},
+    "sources": {
+      "pge": "15057"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15057"
+  },
+  {
+    "id": "PSF-003423",
+    "name": "Î‘Î»ÏƒÎ¿Ï‚ ÎœÎ¿ÏƒÏ‡Î¿Ï€Î¿Î´Î¹Î¿Ï…",
+    "lat": 38.3194,
+    "lon": 23.3343,
+    "wind": {},
+    "sources": {
+      "pge": "15069"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15069"
+  },
+  {
+    "id": "PSF-003454",
+    "name": "LGKR - Ioannis Kapodistrias",
+    "lat": 39.5906,
+    "lon": 19.9165,
+    "wind": {},
+    "sources": {
+      "pge": "15127"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15127"
+  },
+  {
+    "id": "PSF-003456",
+    "name": "Kontogialos - Peraia",
+    "lat": 40.7521,
+    "lon": 21.8274,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15129"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15129"
+  },
+  {
+    "id": "PSF-003457",
+    "name": "Ano Trikala",
+    "lat": 37.974,
+    "lon": 22.4633,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "15130"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15130"
+  },
+  {
+    "id": "PSF-003511",
+    "name": "Taka Lake",
+    "lat": 37.4341,
+    "lon": 22.3838,
+    "wind": {},
+    "sources": {
+      "pge": "15208"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15208"
+  },
+  {
+    "id": "PSF-003519",
+    "name": "kithaironas",
+    "lat": 38.1819,
+    "lon": 23.2729,
+    "wind": {},
+    "sources": {
+      "pge": "15222"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15222"
+  },
+  {
+    "id": "PSF-003522",
+    "name": "KOROPI-KALA NERA",
+    "lat": 39.2892,
+    "lon": 23.1435,
+    "wind": {},
+    "sources": {
+      "pge": "15227"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15227"
+  },
+  {
+    "id": "PSF-003535",
+    "name": "Skepasto",
+    "lat": 39.2579,
+    "lon": 20.6295,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15246"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15246"
+  },
+  {
+    "id": "PSF-003536",
+    "name": "Ag. Merkourios",
+    "lat": 38.546,
+    "lon": 24.1926,
+    "wind": {},
+    "sources": {
+      "pge": "15247"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15247"
+  },
+  {
+    "id": "PSF-003546",
+    "name": "Î Î»Î±Ï„Î±Î¹Î­Ï‚",
+    "lat": 38.3092,
+    "lon": 23.288,
+    "wind": {},
+    "sources": {
+      "pge": "15265"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15265"
+  },
+  {
+    "id": "PSF-003553",
+    "name": "New Golden Beach",
+    "lat": 37.0252,
+    "lon": 25.2515,
+    "wind": {},
+    "sources": {
+      "pge": "15276"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15276"
+  },
+  {
+    "id": "PSF-003560",
+    "name": "Pounta",
+    "lat": 37.0313,
+    "lon": 25.0975,
+    "wind": {},
+    "sources": {
+      "pge": "15293"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15293"
+  },
+  {
+    "id": "PSF-003561",
+    "name": "Levadeia",
+    "lat": 38.435,
+    "lon": 22.8739,
+    "wind": {},
+    "sources": {
+      "pge": "15295"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15295"
+  },
+  {
+    "id": "PSF-003562",
+    "name": "Athinai",
+    "lat": 37.9833,
+    "lon": 23.7333,
+    "wind": {},
+    "sources": {
+      "pge": "15296"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15296"
+  },
+  {
+    "id": "PSF-003563",
+    "name": "Santa Maria",
+    "lat": 37.1311,
+    "lon": 25.2766,
+    "wind": {},
+    "sources": {
+      "pge": "15297"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15297"
+  },
+  {
+    "id": "PSF-003564",
+    "name": "Tsoukalia",
+    "lat": 37.0754,
+    "lon": 25.2573,
+    "wind": {},
+    "sources": {
+      "pge": "15299"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15299"
+  },
+  {
+    "id": "PSF-003603",
+    "name": "pirofilakio",
+    "lat": 39.321,
+    "lon": 21.6303,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "15357"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15357"
+  },
+  {
+    "id": "PSF-003638",
+    "name": "Kolchiko",
+    "lat": 40.7464,
+    "lon": 23.1262,
+    "wind": {},
+    "sources": {
+      "pge": "15425"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15425"
+  },
+  {
+    "id": "PSF-003639",
+    "name": "Nafplion",
+    "lat": 37.5636,
+    "lon": 22.8075,
+    "wind": {},
+    "sources": {
+      "pge": "15426"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15426"
+  },
+  {
+    "id": "PSF-003640",
+    "name": "Lamia",
+    "lat": 38.9,
+    "lon": 22.4333,
+    "wind": {},
+    "sources": {
+      "pge": "15427"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15427"
+  },
+  {
+    "id": "PSF-003641",
+    "name": "Chalkis",
+    "lat": 38.4636,
+    "lon": 23.5994,
+    "wind": {},
+    "sources": {
+      "pge": "15428"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15428"
+  },
+  {
+    "id": "PSF-003642",
+    "name": "Komotini",
+    "lat": 41.1228,
+    "lon": 25.3964,
+    "wind": {},
+    "sources": {
+      "pge": "15429"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15429"
+  },
+  {
+    "id": "PSF-003675",
+    "name": "Elati",
+    "lat": 38.6996,
+    "lon": 20.6657,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "15477"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15477"
+  },
+  {
+    "id": "PSF-003720",
+    "name": "falasarna",
+    "lat": 35.4652,
+    "lon": 23.5566,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "15554"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15554"
+  },
+  {
+    "id": "PSF-003817",
+    "name": "MIKRI BOLBI",
+    "lat": 40.696,
+    "lon": 23.5573,
+    "wind": {},
+    "sources": {
+      "pge": "15701"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15701"
+  },
+  {
+    "id": "PSF-003836",
+    "name": "Glyfada beach",
+    "lat": 37.8659,
+    "lon": 23.7404,
+    "wind": {},
+    "sources": {
+      "pge": "15733"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15733"
+  },
+  {
+    "id": "PSF-003858",
+    "name": "aspropirgos trash",
+    "lat": 38.0941,
+    "lon": 23.6448,
+    "wind": {},
+    "sources": {
+      "pge": "15817"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15817"
+  },
+  {
+    "id": "PSF-004036",
+    "name": "Korilovos East",
+    "lat": 41.1692,
+    "lon": 24.1734,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "16053"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16053"
+  },
+  {
+    "id": "PSF-004124",
+    "name": "Zarkadia",
+    "lat": 41.0256,
+    "lon": 24.6338,
+    "wind": {},
+    "sources": {
+      "pge": "16158"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16158"
+  },
+  {
+    "id": "PSF-004131",
+    "name": "Mega Lakkos",
+    "lat": 38.1611,
+    "lon": 20.4202,
+    "wind": {},
+    "sources": {
+      "pge": "16167"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16167"
+  },
+  {
+    "id": "PSF-004153",
+    "name": "trikala",
+    "lat": 39.582,
+    "lon": 21.7723,
+    "wind": {},
+    "sources": {
+      "pge": "16221"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16221"
+  },
+  {
+    "id": "PSF-004154",
+    "name": "Seaside Lixouri",
+    "lat": 38.1963,
+    "lon": 20.4404,
+    "wind": {},
+    "sources": {
+      "pge": "16222"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16222"
+  },
+  {
+    "id": "PSF-004166",
+    "name": "Stalida",
+    "lat": 35.275,
+    "lon": 25.4293,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16249"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16249"
+  },
+  {
+    "id": "PSF-004189",
+    "name": "Aghia Kyriaki",
+    "lat": 38.1031,
+    "lon": 23.9811,
+    "wind": {},
+    "sources": {
+      "pge": "16282"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16282"
+  },
+  {
+    "id": "PSF-004199",
+    "name": "PAN KANIAMOS",
+    "lat": 38.0646,
+    "lon": 23.6832,
+    "wind": {},
+    "sources": {
+      "pge": "16298"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16298"
+  },
+  {
+    "id": "PSF-004207",
+    "name": "Vatsa",
+    "lat": 38.1608,
+    "lon": 20.3785,
+    "wind": {},
+    "sources": {
+      "pge": "16306"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16306"
+  },
+  {
+    "id": "PSF-004215",
+    "name": "Kalochori",
+    "lat": 40.6386,
+    "lon": 22.8759,
+    "wind": {},
+    "sources": {
+      "pge": "16318"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16318"
+  },
+  {
+    "id": "PSF-004217",
+    "name": "Arta",
+    "lat": 39.1432,
+    "lon": 20.9964,
+    "wind": {},
+    "sources": {
+      "pge": "16320"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16320"
+  },
+  {
+    "id": "PSF-004222",
+    "name": "ÎºÎ±Î²ÎµÎ»Î¬ÏÎ·Ï‚",
+    "lat": 37.9825,
+    "lon": 23.2761,
+    "wind": {},
+    "sources": {
+      "pge": "16330"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16330"
+  },
+  {
+    "id": "PSF-004226",
+    "name": "Nea Kios",
+    "lat": 37.5904,
+    "lon": 22.7717,
+    "wind": {},
+    "sources": {
+      "pge": "16337"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16337"
+  },
+  {
+    "id": "PSF-004231",
+    "name": "Ancient Calydon",
+    "lat": 38.3766,
+    "lon": 21.5254,
+    "wind": {},
+    "sources": {
+      "pge": "16344"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16344"
+  },
+  {
+    "id": "PSF-004256",
+    "name": "Ai-Giorgis",
+    "lat": 40.8649,
+    "lon": 26.0446,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "16374"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16374"
+  },
+  {
+    "id": "PSF-004258",
+    "name": "Oινοη",
+    "lat": 38.202,
+    "lon": 23.4295,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16376"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16376"
+  },
+  {
+    "id": "PSF-004263",
+    "name": "Livadi",
+    "lat": 38.2554,
+    "lon": 20.4292,
+    "wind": {},
+    "sources": {
+      "pge": "16388"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16388"
+  },
+  {
+    "id": "PSF-004290",
+    "name": "MALEME",
+    "lat": 35.5303,
+    "lon": 23.838,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16433"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16433"
+  },
+  {
+    "id": "PSF-004305",
+    "name": "arxipelagos",
+    "lat": 37.0658,
+    "lon": 25.1133,
+    "wind": {},
+    "sources": {
+      "pge": "16459"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16459"
+  },
+  {
+    "id": "PSF-004343",
+    "name": "gavdos",
+    "lat": 34.8617,
+    "lon": 24.0879,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16528"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16528"
+  },
+  {
+    "id": "PSF-004371",
+    "name": "Panachaiko Wind Generators",
+    "lat": 38.2195,
+    "lon": 21.8716,
+    "wind": {},
+    "sources": {
+      "pge": "16576"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16576"
+  },
+  {
+    "id": "PSF-004374",
+    "name": "Argostoli (marine)",
+    "lat": 38.1792,
+    "lon": 20.4984,
+    "wind": {},
+    "sources": {
+      "pge": "16580"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16580"
+  },
+  {
+    "id": "PSF-004377",
+    "name": "Rodavgi",
+    "lat": 39.3374,
+    "lon": 20.994,
+    "wind": {},
+    "sources": {
+      "pge": "16583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16583"
+  },
+  {
+    "id": "PSF-004379",
+    "name": "Georgiani",
+    "lat": 40.9607,
+    "lon": 24.1342,
+    "wind": {},
+    "sources": {
+      "pge": "16588"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16588"
+  },
+  {
+    "id": "PSF-004404",
+    "name": "Ano Tiros",
+    "lat": 37.2453,
+    "lon": 22.8361,
+    "wind": {},
+    "sources": {
+      "pge": "16632"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16632"
+  },
+  {
+    "id": "PSF-004420",
+    "name": "Agia  Triada",
+    "lat": 38.4889,
+    "lon": 22.3195,
+    "wind": {},
+    "sources": {
+      "pge": "16658"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16658"
+  },
+  {
+    "id": "PSF-004519",
+    "name": "Potamos",
+    "lat": 40.381,
+    "lon": 22.9248,
+    "wind": {},
+    "sources": {
+      "pge": "16838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16838"
+  },
+  {
+    "id": "PSF-004522",
+    "name": "Asvestochori water tower kozi",
+    "lat": 40.6327,
+    "lon": 23.019,
+    "wind": {},
+    "sources": {
+      "pge": "16849"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16849"
+  },
+  {
+    "id": "PSF-004524",
+    "name": "Airfield N.Vrasna",
+    "lat": 40.6809,
+    "lon": 23.693,
+    "wind": {},
+    "sources": {
+      "pge": "16851"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16851"
+  },
+  {
+    "id": "PSF-004540",
+    "name": "sokarail",
+    "lat": 36.6366,
+    "lon": 23.0122,
+    "wind": {},
+    "sources": {
+      "pge": "16882"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16882"
+  },
+  {
+    "id": "PSF-004563",
+    "name": "Psatha",
+    "lat": 38.1304,
+    "lon": 23.213,
+    "wind": {},
+    "sources": {
+      "pge": "16924"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16924"
+  },
+  {
+    "id": "PSF-004601",
+    "name": "Ioannina",
+    "lat": 39.7173,
+    "lon": 20.896,
+    "wind": {},
+    "sources": {
+      "pge": "16977"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16977"
+  },
+  {
+    "id": "PSF-004706",
+    "name": "'West' Arnissas",
+    "lat": 40.7747,
+    "lon": 21.8708,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17188"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17188"
+  },
+  {
+    "id": "PSF-004720",
+    "name": "Edessa",
+    "lat": 40.7942,
+    "lon": 22.0452,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "17225"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17225"
+  },
+  {
+    "id": "PSF-004747",
+    "name": "Megara",
+    "lat": 38.0519,
+    "lon": 23.3206,
+    "wind": {},
+    "sources": {
+      "pge": "17270"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17270"
+  },
+  {
+    "id": "PSF-005067",
+    "name": "Madares - Kastro",
+    "lat": 35.3028,
+    "lon": 24.1171,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "17839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17839"
+  },
+  {
+    "id": "PSF-005186",
+    "name": "Golgothas, Arnissa Keraies",
+    "lat": 40.7661,
+    "lon": 21.8244,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "18091"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18091"
+  },
+  {
+    "id": "PSF-005277",
+    "name": "Agras",
+    "lat": 40.8206,
+    "lon": 21.9822,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18320"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18320"
+  },
+  {
+    "id": "PSF-005304",
+    "name": "Fragkokastello",
+    "lat": 35.2128,
+    "lon": 24.2403,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "18388"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18388"
+  },
+  {
+    "id": "PSF-005475",
+    "name": "Flying Paradise Tin Tin",
+    "lat": 37.6051,
+    "lon": 23.1503,
+    "wind": {},
+    "sources": {
+      "pge": "18802"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18802"
+  },
+  {
+    "id": "PSF-005547",
+    "name": "Ellinopirgos",
+    "lat": 39.41,
+    "lon": 21.73,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18886"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18886"
+  },
+  {
+    "id": "PSF-005548",
+    "name": "Mouzaki",
+    "lat": 39.4258,
+    "lon": 21.6362,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "18887"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18887"
+  },
+  {
+    "id": "PSF-005598",
+    "name": "Venna",
+    "lat": 40.987,
+    "lon": 25.5146,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19206"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19206"
+  },
+  {
+    "id": "PSF-005623",
+    "name": "varipetro",
+    "lat": 35.451,
+    "lon": 23.9759,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19244"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19244"
+  },
+  {
+    "id": "PSF-005680",
+    "name": "Agia Efthimia",
+    "lat": 38.4948,
+    "lon": 22.3386,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "19330"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19330"
+  },
+  {
+    "id": "PSF-005726",
+    "name": "Exanthia",
+    "lat": 38.7582,
+    "lon": 20.6165,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19397"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19397"
+  },
+  {
+    "id": "PSF-005730",
+    "name": "Exanthia, Lefkada",
+    "lat": 38.758,
+    "lon": 20.6165,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19402"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19402"
+  },
+  {
+    "id": "PSF-005737",
+    "name": "Plaka",
+    "lat": 40.8861,
+    "lon": 25.7455,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19411"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19411"
+  },
+  {
+    "id": "PSF-005761",
+    "name": "Kastania HG",
+    "lat": 40.1709,
+    "lon": 22.0324,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19441"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19441"
+  },
+  {
+    "id": "PSF-005762",
+    "name": "Levadi",
+    "lat": 40.1507,
+    "lon": 22.0971,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19442"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19442"
+  },
+  {
+    "id": "PSF-005771",
+    "name": "Chionochori",
+    "lat": 41.1225,
+    "lon": 23.647,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19452"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19452"
+  },
+  {
+    "id": "PSF-005879",
+    "name": "Kato Vasiliki",
+    "lat": 38.3653,
+    "lon": 21.6398,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19606"
+  },
+  {
+    "id": "PSF-005949",
+    "name": "STR",
+    "lat": 41.1896,
+    "lon": 24.4442,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19708"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19708"
+  },
+  {
+    "id": "PSF-006150",
+    "name": "Sounion water tank",
+    "lat": 37.6666,
+    "lon": 24.0249,
+    "wind": {},
+    "sources": {
+      "pge": "20020"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20020"
+  },
+  {
+    "id": "PSF-006210",
+    "name": "Platanos",
+    "lat": 39.6663,
+    "lon": 21.8037,
+    "wind": {},
+    "sources": {
+      "pge": "20090"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20090"
+  },
+  {
+    "id": "PSF-006264",
+    "name": "mesi apostoli",
+    "lat": 40.9155,
+    "lon": 22.7803,
+    "wind": {},
+    "sources": {
+      "pge": "20302"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20302"
+  },
+  {
+    "id": "PSF-006381",
+    "name": "Kamvounia Mt",
+    "lat": 39.9538,
+    "lon": 21.786,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "21321"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21321"
+  },
+  {
+    "id": "PSF-006383",
+    "name": "Kamvounia Mt NW",
+    "lat": 39.9471,
+    "lon": 21.7604,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21323"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21323"
+  },
+  {
+    "id": "PSF-006501",
+    "name": "Paggaio South",
+    "lat": 40.8994,
+    "lon": 24.1138,
+    "wind": {},
+    "sources": {
+      "pge": "21449"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21449"
+  },
+  {
+    "id": "PSF-006530",
+    "name": "Promachi",
+    "lat": 41.0392,
+    "lon": 21.9848,
+    "wind": {},
+    "sources": {
+      "pge": "21483"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21483"
+  },
+  {
+    "id": "PSF-006537",
+    "name": "Mesóvouno",
+    "lat": 40.6331,
+    "lon": 21.8452,
+    "wind": {
+      "N": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21492"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21492"
+  },
+  {
+    "id": "PSF-006538",
+    "name": "Peykoto - Vorino",
+    "lat": 41.0548,
+    "lon": 22.0881,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21493"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21493"
+  },
+  {
+    "id": "PSF-006539",
+    "name": "Komnina",
+    "lat": 40.5889,
+    "lon": 21.8229,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21494"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21494"
+  },
+  {
+    "id": "PSF-006540",
+    "name": "Stratiotis",
+    "lat": 40.8872,
+    "lon": 21.8464,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21495"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21495"
+  },
+  {
+    "id": "PSF-006541",
+    "name": "Tría Élata",
+    "lat": 41.0369,
+    "lon": 22.2413,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21496"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21496"
+  },
+  {
+    "id": "PSF-006542",
+    "name": "Aphrodite",
+    "lat": 40.1093,
+    "lon": 22.4789,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "21497"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21497"
+  },
+  {
+    "id": "PSF-006543",
+    "name": "Nymfaío",
+    "lat": 40.6396,
+    "lon": 21.4942,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21498"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21498"
+  },
+  {
+    "id": "PSF-006544",
+    "name": "Galatiní",
+    "lat": 40.3129,
+    "lon": 21.5304,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21499"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21499"
+  },
+  {
+    "id": "PSF-006606",
+    "name": "Leptokaryá",
+    "lat": 40.0306,
+    "lon": 22.4948,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "21563"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21563"
+  },
+  {
+    "id": "PSF-006736",
+    "name": "Ágios Geórgios",
+    "lat": 39.2963,
+    "lon": 21.8268,
+    "wind": {},
+    "sources": {
+      "pge": "21725"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21725"
+  },
+  {
+    "id": "PSF-006853",
+    "name": "Karya",
+    "lat": 39.9925,
+    "lon": 22.4078,
+    "wind": {},
+    "sources": {
+      "pge": "21851"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21851"
+  },
+  {
+    "id": "PSF-006854",
+    "name": "Askorís Límni",
+    "lat": 39.9404,
+    "lon": 22.4264,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "21852"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21852"
+  },
+  {
+    "id": "PSF-006889",
+    "name": "Santoméri Take Off",
+    "lat": 37.9783,
+    "lon": 21.573,
+    "wind": {},
+    "sources": {
+      "pge": "21889"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21889"
+  },
+  {
+    "id": "PSF-007344",
+    "name": "GREVENA",
+    "lat": 40.0956,
+    "lon": 21.3976,
+    "wind": {},
+    "sources": {
+      "pge": "22418"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22418"
+  },
+  {
+    "id": "PSF-007608",
+    "name": "Kallipefki, Larissa",
+    "lat": 39.9642,
+    "lon": 22.4519,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22708"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22708"
+  },
+  {
+    "id": "PSF-007665",
+    "name": "Aggelohori",
+    "lat": 40.4745,
+    "lon": 22.835,
+    "wind": {},
+    "sources": {
+      "pge": "22769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22769"
+  },
+  {
+    "id": "PSF-007743",
+    "name": "Anavissos paramotoring take-off site",
+    "lat": 37.7313,
+    "lon": 23.9396,
+    "wind": {},
+    "sources": {
+      "pge": "22867"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22867"
+  },
+  {
+    "id": "PSF-007744",
+    "name": "Mouriki paramotoring take-off and landing site",
+    "lat": 38.3833,
+    "lon": 23.3419,
+    "wind": {},
+    "sources": {
+      "pge": "22868"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22868"
+  },
+  {
+    "id": "PSF-007745",
+    "name": "Kandili paramotoring take-off and landing site",
+    "lat": 38.0457,
+    "lon": 23.4056,
+    "wind": {},
+    "sources": {
+      "pge": "22869"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22869"
+  },
+  {
+    "id": "PSF-007746",
+    "name": "Megara paramotoring take-off and landing site",
+    "lat": 38.0538,
+    "lon": 23.3177,
+    "wind": {},
+    "sources": {
+      "pge": "22870"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22870"
+  },
+  {
+    "id": "PSF-008015",
+    "name": "Margariti",
+    "lat": 39.3746,
+    "lon": 20.4407,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23161"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23161"
+  },
+  {
+    "id": "PSF-008016",
+    "name": "Olimpiada",
+    "lat": 40.5714,
+    "lon": 21.5605,
+    "wind": {},
+    "sources": {
+      "pge": "23162"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23162"
+  },
+  {
+    "id": "PSF-008080",
+    "name": "Pesada PPG Agios Pavlos",
+    "lat": 38.1181,
+    "lon": 20.5787,
+    "wind": {},
+    "sources": {
+      "pge": "23228"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23228"
+  },
+  {
+    "id": "PSF-008081",
+    "name": "PPG Kampos Agiou Gerasimou",
+    "lat": 38.1675,
+    "lon": 20.5853,
+    "wind": {},
+    "sources": {
+      "pge": "23229"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23229"
+  },
+  {
+    "id": "PSF-008082",
+    "name": "Observatory Paragliding",
+    "lat": 38.1668,
+    "lon": 20.6158,
+    "wind": {},
+    "sources": {
+      "pge": "23230"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23230"
+  },
+  {
+    "id": "PSF-008083",
+    "name": "Mouda Beach PPG+PG",
+    "lat": 38.0591,
+    "lon": 20.787,
+    "wind": {},
+    "sources": {
+      "pge": "23231"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23231"
+  },
+  {
+    "id": "PSF-008084",
+    "name": "Avithos PPG+PG",
+    "lat": 38.1047,
+    "lon": 20.5291,
+    "wind": {},
+    "sources": {
+      "pge": "23232"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23232"
+  },
+  {
+    "id": "PSF-008085",
+    "name": "Avithos2 PG+PPG",
+    "lat": 38.1046,
+    "lon": 20.5323,
+    "wind": {},
+    "sources": {
+      "pge": "23233"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23233"
+  },
+  {
+    "id": "PSF-008086",
+    "name": "Skala Beach PPG",
+    "lat": 38.0729,
+    "lon": 20.8005,
+    "wind": {},
+    "sources": {
+      "pge": "23234"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23234"
+  },
+  {
+    "id": "PSF-008087",
+    "name": "ΜΟΝΗ ΣΙΣΙΩΝ  Paramotor",
+    "lat": 38.1011,
+    "lon": 20.6595,
+    "wind": {},
+    "sources": {
+      "pge": "23235"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23235"
+  },
+  {
+    "id": "PSF-008095",
+    "name": "Krania",
+    "lat": 39.2262,
+    "lon": 20.7508,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "23245"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23245"
+  },
+  {
+    "id": "PSF-008370",
+    "name": "Monte Smith",
+    "lat": 36.4391,
+    "lon": 28.2084,
+    "wind": {},
+    "sources": {
+      "pge": "23561"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23561"
+  },
+  {
+    "id": "PSF-008612",
+    "name": "Komos",
+    "lat": 35.0108,
+    "lon": 24.7621,
+    "wind": {},
+    "sources": {
+      "pge": "23843"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23843"
+  },
+  {
+    "id": "PSF-008613",
+    "name": "Milatos",
+    "lat": 35.3217,
+    "lon": 25.5884,
+    "wind": {},
+    "sources": {
+      "pge": "23844"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23844"
+  },
+  {
+    "id": "PSF-008669",
+    "name": "Metheora",
+    "lat": 39.5437,
+    "lon": 21.5649,
+    "wind": {},
+    "sources": {
+      "pge": "23910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23910"
+  },
+  {
+    "id": "PSF-008674",
+    "name": "Κυρά Παναγιά",
+    "lat": 39.4006,
+    "lon": 20.4958,
+    "wind": {},
+    "sources": {
+      "pge": "23915"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23915"
+  },
+  {
+    "id": "PSF-008686",
+    "name": "Neochorouda",
+    "lat": 40.7356,
+    "lon": 22.8919,
+    "wind": {},
+    "sources": {
+      "pge": "23928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23928"
+  },
+  {
+    "id": "PSF-009504",
+    "name": "Kalogeriko",
+    "lat": 40.4948,
+    "lon": 23.2189,
+    "wind": {},
+    "sources": {
+      "pge": "6563"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6563"
+  },
+  {
+    "id": "PSF-009505",
+    "name": "Kithenonas",
+    "lat": 38.207,
+    "lon": 23.2526,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6564"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6564"
+  },
+  {
+    "id": "PSF-009506",
+    "name": "Amfiklia",
+    "lat": 38.6199,
+    "lon": 22.5653,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6565"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6565"
+  },
+  {
+    "id": "PSF-009507",
+    "name": "Anavissos",
+    "lat": 37.7508,
+    "lon": 23.9336,
+    "wind": {},
+    "sources": {
+      "pge": "6566"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6566"
+  },
+  {
+    "id": "PSF-009508",
+    "name": "Kerasies",
+    "lat": 40.8742,
+    "lon": 21.7967,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6567"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6567"
+  },
+  {
+    "id": "PSF-009509",
+    "name": "Servia / Kastania",
+    "lat": 40.171,
+    "lon": 22.0323,
+    "wind": {},
+    "sources": {
+      "pge": "6568"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6568"
+  },
+  {
+    "id": "PSF-009510",
+    "name": "Asprageloi",
+    "lat": 39.8208,
+    "lon": 20.7244,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6569"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6569"
+  },
+  {
+    "id": "PSF-009511",
+    "name": "Profitis",
+    "lat": 40.4866,
+    "lon": 23.1725,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6570"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6570"
+  },
+  {
+    "id": "PSF-009512",
+    "name": "Kalentzio",
+    "lat": 39.4613,
+    "lon": 20.9869,
+    "wind": {},
+    "sources": {
+      "pge": "6571"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6571"
+  },
+  {
+    "id": "PSF-009513",
+    "name": "Abdou",
+    "lat": 35.2191,
+    "lon": 25.4321,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6572"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6572"
+  },
+  {
+    "id": "PSF-009514",
+    "name": "Toksotes",
+    "lat": 41.1172,
+    "lon": 24.7498,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6574"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6574"
+  },
+  {
+    "id": "PSF-009515",
+    "name": "Kandili",
+    "lat": 38.0644,
+    "lon": 23.3754,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6575"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6575"
+  },
+  {
+    "id": "PSF-009516",
+    "name": "Paramithia",
+    "lat": 39.4582,
+    "lon": 20.5482,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6576"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6576"
+  },
+  {
+    "id": "PSF-009518",
+    "name": "Platanakia",
+    "lat": 41.3262,
+    "lon": 22.9011,
+    "wind": {},
+    "sources": {
+      "pge": "6578"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6578"
+  },
+  {
+    "id": "PSF-009519",
+    "name": "Sikourio",
+    "lat": 39.7922,
+    "lon": 22.6114,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6579"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6579"
+  },
+  {
+    "id": "PSF-009520",
+    "name": "Papadates",
+    "lat": 39.3237,
+    "lon": 20.8092,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6580"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6580"
+  },
+  {
+    "id": "PSF-009521",
+    "name": "Kalyvia Olympus",
+    "lat": 40.0238,
+    "lon": 22.278,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6581"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6581"
+  },
+  {
+    "id": "PSF-009522",
+    "name": "Elassona",
+    "lat": 39.8956,
+    "lon": 22.1484,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6582"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6582"
+  },
+  {
+    "id": "PSF-009523",
+    "name": "Eykarpia",
+    "lat": 40.678,
+    "lon": 22.969,
+    "wind": {},
+    "sources": {
+      "pge": "6583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6583"
+  },
+  {
+    "id": "PSF-009524",
+    "name": "Assiros",
+    "lat": 40.8234,
+    "lon": 22.961,
+    "wind": {},
+    "sources": {
+      "pge": "6584"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6584"
+  },
+  {
+    "id": "PSF-009525",
+    "name": "Voula",
+    "lat": 37.8775,
+    "lon": 23.7891,
+    "wind": {},
+    "sources": {
+      "pge": "6585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6585"
+  },
+  {
+    "id": "PSF-009526",
+    "name": "Konitsa",
+    "lat": 40.0598,
+    "lon": 20.7588,
+    "wind": {},
+    "sources": {
+      "pge": "6586"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6586"
+  },
+  {
+    "id": "PSF-009527",
+    "name": "Vavdos",
+    "lat": 40.4255,
+    "lon": 23.2487,
+    "wind": {},
+    "sources": {
+      "pge": "6587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6587"
+  },
+  {
+    "id": "PSF-009674",
+    "name": "Kiparissi",
+    "lat": 36.991,
+    "lon": 22.9671,
+    "wind": {},
+    "sources": {
+      "pge": "6771"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6771"
+  },
+  {
+    "id": "PSF-009705",
+    "name": "Kopaida",
+    "lat": 38.4553,
+    "lon": 23.1392,
+    "wind": {},
+    "sources": {
+      "pge": "6812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6812"
+  },
+  {
+    "id": "PSF-009747",
+    "name": "Korilovos South",
+    "lat": 41.1663,
+    "lon": 24.1664,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6864"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6864"
+  },
+  {
+    "id": "PSF-009748",
+    "name": "Pirgi-Petrousa",
+    "lat": 41.2248,
+    "lon": 23.9917,
+    "wind": {
+      "NE": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6865"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6865"
+  },
+  {
+    "id": "PSF-010107",
+    "name": "Kalamaki",
+    "lat": 35.0347,
+    "lon": 24.7594,
+    "wind": {
+      "N": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7348"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7348"
+  }
+]

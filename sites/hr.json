@@ -1,0 +1,652 @@
+[
+  {
+    "id": "PSF-000050",
+    "name": "Ivanscica",
+    "lat": 46.1822,
+    "lon": 16.1272,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10062"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10062"
+  },
+  {
+    "id": "PSF-000051",
+    "name": "Burgud - Susnjevica",
+    "lat": 45.2402,
+    "lon": 14.1964,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10063"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10063"
+  },
+  {
+    "id": "PSF-000052",
+    "name": "Osijek - Cepin",
+    "lat": 45.5415,
+    "lon": 18.6398,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10064"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10064"
+  },
+  {
+    "id": "PSF-000360",
+    "name": "Tribalj (Rijeka)",
+    "lat": 45.2388,
+    "lon": 14.6826,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10411"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10411"
+  },
+  {
+    "id": "PSF-000361",
+    "name": "Grobnik",
+    "lat": 45.3988,
+    "lon": 14.5453,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10412"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10412"
+  },
+  {
+    "id": "PSF-000364",
+    "name": "Baska (Krk)",
+    "lat": 44.9569,
+    "lon": 14.7391,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10416"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10416"
+  },
+  {
+    "id": "PSF-000585",
+    "name": "Hum Komiza",
+    "lat": 43.0379,
+    "lon": 16.1161,
+    "wind": {
+      "SE": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10687"
+  },
+  {
+    "id": "PSF-000624",
+    "name": "Greda (Split)",
+    "lat": 43.8297,
+    "lon": 16.6425,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10733"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10733"
+  },
+  {
+    "id": "PSF-000676",
+    "name": "Buzet - da Nevio",
+    "lat": 45.4238,
+    "lon": 13.9982,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10791"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10791"
+  },
+  {
+    "id": "PSF-000825",
+    "name": "Sky Baranda places",
+    "lat": 45.7675,
+    "lon": 18.7413,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10967"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10967"
+  },
+  {
+    "id": "PSF-000826",
+    "name": "Samatovci Luftwaffe plac",
+    "lat": 45.5913,
+    "lon": 18.492,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10968"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10968"
+  },
+  {
+    "id": "PSF-000959",
+    "name": "Strahinjcica South",
+    "lat": 46.1854,
+    "lon": 15.8959,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11124"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11124"
+  },
+  {
+    "id": "PSF-001131",
+    "name": "Kastelir",
+    "lat": 45.331,
+    "lon": 13.6682,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11352"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11352"
+  },
+  {
+    "id": "PSF-001885",
+    "name": "Lubenice",
+    "lat": 44.8888,
+    "lon": 14.3295,
+    "wind": {},
+    "sources": {
+      "pge": "12565"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12565"
+  },
+  {
+    "id": "PSF-002068",
+    "name": "Kalnik - W",
+    "lat": 46.131,
+    "lon": 16.4531,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12927"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12927"
+  },
+  {
+    "id": "PSF-002237",
+    "name": "Promina",
+    "lat": 43.9259,
+    "lon": 16.1655,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "13189"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13189"
+  },
+  {
+    "id": "PSF-002464",
+    "name": "Svilaja",
+    "lat": 43.7917,
+    "lon": 16.4969,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13563"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13563"
+  },
+  {
+    "id": "PSF-002600",
+    "name": "Duga Luka",
+    "lat": 45.0486,
+    "lon": 14.157,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "13812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13812"
+  },
+  {
+    "id": "PSF-003114",
+    "name": "Ravna gora North",
+    "lat": 46.2832,
+    "lon": 16.0095,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14571"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14571"
+  },
+  {
+    "id": "PSF-003277",
+    "name": "Strahinjcica North",
+    "lat": 46.1865,
+    "lon": 15.8849,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14834"
+  },
+  {
+    "id": "PSF-003633",
+    "name": "Bjelopolje",
+    "lat": 44.7049,
+    "lon": 15.8164,
+    "wind": {},
+    "sources": {
+      "pge": "15414"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15414"
+  },
+  {
+    "id": "PSF-003792",
+    "name": "Drniš",
+    "lat": 43.8726,
+    "lon": 16.1855,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15660"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15660"
+  },
+  {
+    "id": "PSF-004311",
+    "name": "Motovun",
+    "lat": 45.3367,
+    "lon": 13.8279,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16475"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16475"
+  },
+  {
+    "id": "PSF-005079",
+    "name": "Letjelište Daruvar",
+    "lat": 45.5842,
+    "lon": 17.2129,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17859"
+  },
+  {
+    "id": "PSF-005124",
+    "name": "Mali Kalnik",
+    "lat": 46.1206,
+    "lon": 16.4114,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17977"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17977"
+  },
+  {
+    "id": "PSF-005125",
+    "name": "Kalnik - E",
+    "lat": 46.1313,
+    "lon": 16.4554,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17978"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17978"
+  },
+  {
+    "id": "PSF-005227",
+    "name": "Vrgorac",
+    "lat": 43.2093,
+    "lon": 17.3582,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18173"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18173"
+  },
+  {
+    "id": "PSF-005725",
+    "name": "Libinje",
+    "lat": 44.29,
+    "lon": 15.5703,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19396"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19396"
+  },
+  {
+    "id": "PSF-006499",
+    "name": "Plasina Gašparac",
+    "lat": 44.816,
+    "lon": 15.2915,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "21447"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21447"
+  },
+  {
+    "id": "PSF-006500",
+    "name": "Godača (Sinac)",
+    "lat": 44.819,
+    "lon": 15.393,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21448"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21448"
+  },
+  {
+    "id": "PSF-006800",
+    "name": "Borje",
+    "lat": 46.127,
+    "lon": 16.4359,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "21792"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21792"
+  },
+  {
+    "id": "PSF-007747",
+    "name": "Basača",
+    "lat": 44.5336,
+    "lon": 15.1369,
+    "wind": {
+      "NE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "22871"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22871"
+  },
+  {
+    "id": "PSF-008304",
+    "name": "Omis",
+    "lat": 43.4327,
+    "lon": 16.7144,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23486"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23486"
+  },
+  {
+    "id": "PSF-009529",
+    "name": "Ravna gora South",
+    "lat": 46.2711,
+    "lon": 15.9843,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6589"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6589"
+  },
+  {
+    "id": "PSF-009546",
+    "name": "Japetic",
+    "lat": 45.7409,
+    "lon": 15.6035,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6614"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6614"
+  },
+  {
+    "id": "PSF-009547",
+    "name": "Sljeme",
+    "lat": 45.9169,
+    "lon": 15.9206,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6615"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6615"
+  },
+  {
+    "id": "PSF-009548",
+    "name": "Buzet - Zavoj",
+    "lat": 45.4445,
+    "lon": 13.9652,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6616"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6616"
+  },
+  {
+    "id": "PSF-010010",
+    "name": "Biokovo-Makarska",
+    "lat": 43.3028,
+    "lon": 17.0529,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7220"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7220"
+  },
+  {
+    "id": "PSF-011394",
+    "name": "Mirkovac",
+    "lat": 45.7047,
+    "lon": 18.7921,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9844"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9844"
+  }
+]

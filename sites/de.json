@@ -1,0 +1,8078 @@
+[
+  {
+    "id": "PSF-000036",
+    "name": "Stauf",
+    "lat": 49.5495,
+    "lon": 8.02746,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10043"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10043"
+  },
+  {
+    "id": "PSF-000340",
+    "name": "Ebersberg",
+    "lat": 48.9363,
+    "lon": 9.5314,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10388"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10388"
+  },
+  {
+    "id": "PSF-000358",
+    "name": "Watzmannhaus",
+    "lat": 47.5714,
+    "lon": 12.9337,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10409"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10409"
+  },
+  {
+    "id": "PSF-000402",
+    "name": "Wittental",
+    "lat": 47.9908,
+    "lon": 7.95773,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10458"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10458"
+  },
+  {
+    "id": "PSF-000405",
+    "name": "Bartholoma",
+    "lat": 48.7469,
+    "lon": 9.9941,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "10461"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10461"
+  },
+  {
+    "id": "PSF-000411",
+    "name": "Auenhain",
+    "lat": 51.27,
+    "lon": 12.44,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10468"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10468"
+  },
+  {
+    "id": "PSF-000455",
+    "name": "Bretzfeld",
+    "lat": 49.164,
+    "lon": 9.4701,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "10520"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10520"
+  },
+  {
+    "id": "PSF-000459",
+    "name": "Teufelsberg",
+    "lat": 49.0033,
+    "lon": 9.0434,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10524"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10524"
+  },
+  {
+    "id": "PSF-000523",
+    "name": "harsberg",
+    "lat": 51.0744,
+    "lon": 10.3724,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10607"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10607"
+  },
+  {
+    "id": "PSF-000670",
+    "name": "Niederlibbach",
+    "lat": 50.2035,
+    "lon": 8.1693,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10784"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10784"
+  },
+  {
+    "id": "PSF-000671",
+    "name": "Strinz-Margarethä",
+    "lat": 50.2182,
+    "lon": 8.1501,
+    "wind": {
+      "E": 2,
+      "SE": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10785"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10785"
+  },
+  {
+    "id": "PSF-000672",
+    "name": "Laufenselden",
+    "lat": 50.2201,
+    "lon": 7.9961,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10786"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10786"
+  },
+  {
+    "id": "PSF-000673",
+    "name": "Lorch-Espenschied",
+    "lat": 50.1129,
+    "lon": 7.8932,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10787"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10787"
+  },
+  {
+    "id": "PSF-000688",
+    "name": "Reichenbach",
+    "lat": 50.2788,
+    "lon": 8.3748,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10810"
+  },
+  {
+    "id": "PSF-000689",
+    "name": "Halberg",
+    "lat": 50.16,
+    "lon": 8.1858,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10811"
+  },
+  {
+    "id": "PSF-000690",
+    "name": "Gasleitung",
+    "lat": 50.2321,
+    "lon": 8.046,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10812"
+  },
+  {
+    "id": "PSF-000691",
+    "name": "Pferdskopf",
+    "lat": 50.2934,
+    "lon": 8.4302,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10813"
+  },
+  {
+    "id": "PSF-000744",
+    "name": "Neumagen-Dhron",
+    "lat": 49.8774,
+    "lon": 6.8877,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10876"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10876"
+  },
+  {
+    "id": "PSF-000812",
+    "name": "Nassach",
+    "lat": 49.0362,
+    "lon": 9.4095,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10952"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10952"
+  },
+  {
+    "id": "PSF-000854",
+    "name": "Steinbach",
+    "lat": 48.7181,
+    "lon": 12.0917,
+    "wind": {
+      "E": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "11007"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11007"
+  },
+  {
+    "id": "PSF-000868",
+    "name": "Winzerer Hoehen",
+    "lat": 49.035,
+    "lon": 12.0586,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11024"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11024"
+  },
+  {
+    "id": "PSF-000869",
+    "name": "Kaitersberg",
+    "lat": 49.173,
+    "lon": 12.951,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "11025"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11025"
+  },
+  {
+    "id": "PSF-000870",
+    "name": "Voithenberg",
+    "lat": 49.3348,
+    "lon": 12.7924,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "11026"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11026"
+  },
+  {
+    "id": "PSF-000881",
+    "name": "Lilienthal - Huegel",
+    "lat": 51.0639,
+    "lon": 13.7175,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11038"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11038"
+  },
+  {
+    "id": "PSF-000883",
+    "name": "Bannholz",
+    "lat": 49.0997,
+    "lon": 8.9877,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11040"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11040"
+  },
+  {
+    "id": "PSF-000930",
+    "name": "Jenzig northwest",
+    "lat": 50.94,
+    "lon": 11.6243,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11093"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11093"
+  },
+  {
+    "id": "PSF-000931",
+    "name": "Leuchtenburg",
+    "lat": 50.8008,
+    "lon": 11.6103,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11094"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11094"
+  },
+  {
+    "id": "PSF-000934",
+    "name": "Laucha",
+    "lat": 51.2472,
+    "lon": 11.6868,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11097"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11097"
+  },
+  {
+    "id": "PSF-001003",
+    "name": "Mecke-Info",
+    "lat": 49.3791,
+    "lon": 8.2081,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11182"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11182"
+  },
+  {
+    "id": "PSF-001214",
+    "name": "Vockrather Acker",
+    "lat": 51.148,
+    "lon": 6.63662,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11449"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11449"
+  },
+  {
+    "id": "PSF-001266",
+    "name": "Lauterbach",
+    "lat": 51.0745,
+    "lon": 10.3732,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11508"
+  },
+  {
+    "id": "PSF-001308",
+    "name": "Marienheim",
+    "lat": 53.2542,
+    "lon": 13.3675,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11559"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11559"
+  },
+  {
+    "id": "PSF-001324",
+    "name": "Malberg",
+    "lat": 50.7078,
+    "lon": 7.82728,
+    "wind": {
+      "N": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11583"
+  },
+  {
+    "id": "PSF-001398",
+    "name": "Hartplatz",
+    "lat": 50.1937,
+    "lon": 7.61752,
+    "wind": {},
+    "sources": {
+      "pge": "11702"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11702"
+  },
+  {
+    "id": "PSF-001423",
+    "name": "Heimatturm Colditz",
+    "lat": 51.1153,
+    "lon": 12.8172,
+    "wind": {},
+    "sources": {
+      "pge": "11735"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11735"
+  },
+  {
+    "id": "PSF-001424",
+    "name": "Randegge",
+    "lat": 48.3322,
+    "lon": 9.07303,
+    "wind": {},
+    "sources": {
+      "pge": "11736"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11736"
+  },
+  {
+    "id": "PSF-001430",
+    "name": "Scheibentalberg",
+    "lat": 50.9916,
+    "lon": 11.9764,
+    "wind": {},
+    "sources": {
+      "pge": "11747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11747"
+  },
+  {
+    "id": "PSF-001439",
+    "name": "Raumberg",
+    "lat": 49.7267,
+    "lon": 7.65912,
+    "wind": {},
+    "sources": {
+      "pge": "11758"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11758"
+  },
+  {
+    "id": "PSF-001440",
+    "name": "Gangelsberg",
+    "lat": 49.7935,
+    "lon": 7.74292,
+    "wind": {},
+    "sources": {
+      "pge": "11761"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11761"
+  },
+  {
+    "id": "PSF-001471",
+    "name": "Laurensiberg",
+    "lat": 49.9212,
+    "lon": 7.98438,
+    "wind": {},
+    "sources": {
+      "pge": "11832"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11832"
+  },
+  {
+    "id": "PSF-001486",
+    "name": "Veitsberg",
+    "lat": 50.062,
+    "lon": 11.0025,
+    "wind": {},
+    "sources": {
+      "pge": "11856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11856"
+  },
+  {
+    "id": "PSF-001490",
+    "name": "Möglingen",
+    "lat": 49.2478,
+    "lon": 9.42302,
+    "wind": {},
+    "sources": {
+      "pge": "11861"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11861"
+  },
+  {
+    "id": "PSF-001491",
+    "name": "Airfield Weimar Umpferstedt",
+    "lat": 50.9642,
+    "lon": 11.4009,
+    "wind": {},
+    "sources": {
+      "pge": "11863"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11863"
+  },
+  {
+    "id": "PSF-001492",
+    "name": "Meissner East",
+    "lat": 51.2099,
+    "lon": 9.87483,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11865"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11865"
+  },
+  {
+    "id": "PSF-001493",
+    "name": "Rebenrain",
+    "lat": 48.3004,
+    "lon": 8.05102,
+    "wind": {},
+    "sources": {
+      "pge": "11867"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11867"
+  },
+  {
+    "id": "PSF-001494",
+    "name": "Riedenheim",
+    "lat": 49.5492,
+    "lon": 10.0058,
+    "wind": {},
+    "sources": {
+      "pge": "11868"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11868"
+  },
+  {
+    "id": "PSF-001495",
+    "name": "Houbelsberg",
+    "lat": 48.8256,
+    "lon": 13.6709,
+    "wind": {},
+    "sources": {
+      "pge": "11869"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11869"
+  },
+  {
+    "id": "PSF-001505",
+    "name": "Nackte Halde",
+    "lat": 51.3013,
+    "lon": 8.07283,
+    "wind": {},
+    "sources": {
+      "pge": "11891"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11891"
+  },
+  {
+    "id": "PSF-001515",
+    "name": "Schoden",
+    "lat": 49.6402,
+    "lon": 6.5937,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11902"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11902"
+  },
+  {
+    "id": "PSF-001520",
+    "name": "Kipse",
+    "lat": 50.9356,
+    "lon": 13.7215,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "11912"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11912"
+  },
+  {
+    "id": "PSF-001531",
+    "name": "Matzlesberg",
+    "lat": 49.5961,
+    "lon": 12.2104,
+    "wind": {},
+    "sources": {
+      "pge": "11943"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11943"
+  },
+  {
+    "id": "PSF-001552",
+    "name": "Blocksberg",
+    "lat": 52.8786,
+    "lon": 12.6885,
+    "wind": {},
+    "sources": {
+      "pge": "11976"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11976"
+  },
+  {
+    "id": "PSF-001576",
+    "name": "Geising-Schauhübel",
+    "lat": 50.7487,
+    "lon": 13.8042,
+    "wind": {},
+    "sources": {
+      "pge": "12021"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12021"
+  },
+  {
+    "id": "PSF-001577",
+    "name": "Wichmar",
+    "lat": 51.0418,
+    "lon": 11.6979,
+    "wind": {},
+    "sources": {
+      "pge": "12024"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12024"
+  },
+  {
+    "id": "PSF-001584",
+    "name": "Bellings NO",
+    "lat": 50.3049,
+    "lon": 9.51428,
+    "wind": {},
+    "sources": {
+      "pge": "12043"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12043"
+  },
+  {
+    "id": "PSF-001597",
+    "name": "Löhma",
+    "lat": 50.598,
+    "lon": 11.4506,
+    "wind": {},
+    "sources": {
+      "pge": "12062"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12062"
+  },
+  {
+    "id": "PSF-001599",
+    "name": "Boehlen",
+    "lat": 51.2124,
+    "lon": 12.3685,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12066"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12066"
+  },
+  {
+    "id": "PSF-001604",
+    "name": "Reichental",
+    "lat": 48.7271,
+    "lon": 8.42297,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12075"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12075"
+  },
+  {
+    "id": "PSF-001607",
+    "name": "Bad Kissingen",
+    "lat": 50.2147,
+    "lon": 10.0675,
+    "wind": {},
+    "sources": {
+      "pge": "12079"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12079"
+  },
+  {
+    "id": "PSF-001615",
+    "name": "Koenigsheide",
+    "lat": 49.9978,
+    "lon": 11.7725,
+    "wind": {},
+    "sources": {
+      "pge": "12090"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12090"
+  },
+  {
+    "id": "PSF-001630",
+    "name": "Hochzellberg",
+    "lat": 49.0792,
+    "lon": 13.1285,
+    "wind": {},
+    "sources": {
+      "pge": "12117"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12117"
+  },
+  {
+    "id": "PSF-001631",
+    "name": "Strausberg Flugplatz",
+    "lat": 52.5754,
+    "lon": 13.9102,
+    "wind": {},
+    "sources": {
+      "pge": "12118"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12118"
+  },
+  {
+    "id": "PSF-001635",
+    "name": "Watergate Ostsee",
+    "lat": 54.0129,
+    "lon": 11.1851,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12123"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12123"
+  },
+  {
+    "id": "PSF-001640",
+    "name": "Welleringhausen",
+    "lat": 51.3489,
+    "lon": 8.71392,
+    "wind": {},
+    "sources": {
+      "pge": "12128"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12128"
+  },
+  {
+    "id": "PSF-001673",
+    "name": "Asklepios Harzklinik",
+    "lat": 51.8903,
+    "lon": 10.5739,
+    "wind": {},
+    "sources": {
+      "pge": "12180"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12180"
+  },
+  {
+    "id": "PSF-001682",
+    "name": "Nordhelle Werdohl",
+    "lat": 51.2491,
+    "lon": 7.74667,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12199"
+  },
+  {
+    "id": "PSF-001697",
+    "name": "Segelfluggelände Montabaur",
+    "lat": 50.423,
+    "lon": 7.8296,
+    "wind": {},
+    "sources": {
+      "pge": "12219"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12219"
+  },
+  {
+    "id": "PSF-001698",
+    "name": "Leinewiesen",
+    "lat": 52.0015,
+    "lon": 9.8115,
+    "wind": {},
+    "sources": {
+      "pge": "12221"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12221"
+  },
+  {
+    "id": "PSF-001700",
+    "name": "Ailertchen",
+    "lat": 50.5887,
+    "lon": 7.9396,
+    "wind": {},
+    "sources": {
+      "pge": "12225"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12225"
+  },
+  {
+    "id": "PSF-001710",
+    "name": "Herborn-Hörbach",
+    "lat": 50.6663,
+    "lon": 8.256,
+    "wind": {},
+    "sources": {
+      "pge": "12247"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12247"
+  },
+  {
+    "id": "PSF-001711",
+    "name": "Flugplatz Sonnen",
+    "lat": 48.6884,
+    "lon": 13.6971,
+    "wind": {},
+    "sources": {
+      "pge": "12248"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12248"
+  },
+  {
+    "id": "PSF-001714",
+    "name": "Döttesfeld",
+    "lat": 50.639,
+    "lon": 7.54583,
+    "wind": {},
+    "sources": {
+      "pge": "12253"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12253"
+  },
+  {
+    "id": "PSF-001717",
+    "name": "Flugplatz Uetersen",
+    "lat": 53.6497,
+    "lon": 9.69907,
+    "wind": {},
+    "sources": {
+      "pge": "12257"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12257"
+  },
+  {
+    "id": "PSF-001721",
+    "name": "Degmarn",
+    "lat": 49.2425,
+    "lon": 9.27572,
+    "wind": {},
+    "sources": {
+      "pge": "12262"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12262"
+  },
+  {
+    "id": "PSF-001737",
+    "name": "Flugplatz Asslar",
+    "lat": 50.6026,
+    "lon": 8.44252,
+    "wind": {},
+    "sources": {
+      "pge": "12299"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12299"
+  },
+  {
+    "id": "PSF-001742",
+    "name": "Roseneck",
+    "lat": 49.6547,
+    "lon": 8.8505,
+    "wind": {},
+    "sources": {
+      "pge": "12309"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12309"
+  },
+  {
+    "id": "PSF-001749",
+    "name": "Ipf",
+    "lat": 48.8704,
+    "lon": 10.3559,
+    "wind": {
+      "N": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12321"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12321"
+  },
+  {
+    "id": "PSF-001755",
+    "name": "Steinbruch Achenbach",
+    "lat": 50.868,
+    "lon": 8.41082,
+    "wind": {},
+    "sources": {
+      "pge": "12330"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12330"
+  },
+  {
+    "id": "PSF-001768",
+    "name": "Schwaigau",
+    "lat": 49.3596,
+    "lon": 10.3395,
+    "wind": {},
+    "sources": {
+      "pge": "12354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12354"
+  },
+  {
+    "id": "PSF-001773",
+    "name": "Hainberg",
+    "lat": 50.1639,
+    "lon": 11.5237,
+    "wind": {},
+    "sources": {
+      "pge": "12360"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12360"
+  },
+  {
+    "id": "PSF-001774",
+    "name": "Norheim",
+    "lat": 49.8061,
+    "lon": 7.82147,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "12361"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12361"
+  },
+  {
+    "id": "PSF-001775",
+    "name": "Alsfeld",
+    "lat": 50.7514,
+    "lon": 9.2504,
+    "wind": {},
+    "sources": {
+      "pge": "12363"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12363"
+  },
+  {
+    "id": "PSF-001789",
+    "name": "Flugplatz Neu Anspach",
+    "lat": 50.2891,
+    "lon": 8.53215,
+    "wind": {},
+    "sources": {
+      "pge": "12389"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12389"
+  },
+  {
+    "id": "PSF-001792",
+    "name": "Metzingen",
+    "lat": 52.6708,
+    "lon": 10.3712,
+    "wind": {
+      "NE": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12392"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12392"
+  },
+  {
+    "id": "PSF-001793",
+    "name": "Hochkippe RoÃŸbach",
+    "lat": 51.2527,
+    "lon": 11.8825,
+    "wind": {},
+    "sources": {
+      "pge": "12393"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12393"
+  },
+  {
+    "id": "PSF-001795",
+    "name": "Liebenau",
+    "lat": 50.7872,
+    "lon": 13.8411,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12400"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12400"
+  },
+  {
+    "id": "PSF-001801",
+    "name": "Schloss Marihn",
+    "lat": 53.5297,
+    "lon": 12.9929,
+    "wind": {},
+    "sources": {
+      "pge": "12411"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12411"
+  },
+  {
+    "id": "PSF-001802",
+    "name": "Eschenau/Paradies",
+    "lat": 49.1283,
+    "lon": 9.40788,
+    "wind": {},
+    "sources": {
+      "pge": "12412"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12412"
+  },
+  {
+    "id": "PSF-001810",
+    "name": "Bastenberg",
+    "lat": 51.7052,
+    "lon": 9.32485,
+    "wind": {},
+    "sources": {
+      "pge": "12429"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12429"
+  },
+  {
+    "id": "PSF-001818",
+    "name": "Wahrberg",
+    "lat": 51.6761,
+    "lon": 9.94113,
+    "wind": {},
+    "sources": {
+      "pge": "12438"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12438"
+  },
+  {
+    "id": "PSF-001834",
+    "name": "Obermaubach",
+    "lat": 50.7141,
+    "lon": 6.44903,
+    "wind": {},
+    "sources": {
+      "pge": "12466"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12466"
+  },
+  {
+    "id": "PSF-001835",
+    "name": "Liebschuetz",
+    "lat": 51.3555,
+    "lon": 13.1428,
+    "wind": {},
+    "sources": {
+      "pge": "12469"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12469"
+  },
+  {
+    "id": "PSF-001836",
+    "name": "Wonnegau",
+    "lat": 49.6203,
+    "lon": 8.27195,
+    "wind": {},
+    "sources": {
+      "pge": "12470"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12470"
+  },
+  {
+    "id": "PSF-001848",
+    "name": "Schwaney-Buke",
+    "lat": 51.7145,
+    "lon": 8.90192,
+    "wind": {},
+    "sources": {
+      "pge": "12489"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12489"
+  },
+  {
+    "id": "PSF-001849",
+    "name": "Bergstein",
+    "lat": 50.6925,
+    "lon": 6.41425,
+    "wind": {},
+    "sources": {
+      "pge": "12490"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12490"
+  },
+  {
+    "id": "PSF-001850",
+    "name": "Stachelhardt",
+    "lat": 50.781,
+    "lon": 7.3767,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "12492"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12492"
+  },
+  {
+    "id": "PSF-001859",
+    "name": "Teufelsberg",
+    "lat": 49.9101,
+    "lon": 10.9843,
+    "wind": {},
+    "sources": {
+      "pge": "12515"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12515"
+  },
+  {
+    "id": "PSF-001861",
+    "name": "Boxberg",
+    "lat": 49.3923,
+    "lon": 9.52835,
+    "wind": {},
+    "sources": {
+      "pge": "12517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12517"
+  },
+  {
+    "id": "PSF-001864",
+    "name": "Kohlberg",
+    "lat": 49.5942,
+    "lon": 12.0324,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12521"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12521"
+  },
+  {
+    "id": "PSF-001865",
+    "name": "Lianenstrasse",
+    "lat": 50.6869,
+    "lon": 8.06123,
+    "wind": {},
+    "sources": {
+      "pge": "12522"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12522"
+  },
+  {
+    "id": "PSF-001869",
+    "name": "Steiniger Hügel",
+    "lat": 50.4773,
+    "lon": 11.1497,
+    "wind": {},
+    "sources": {
+      "pge": "12527"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12527"
+  },
+  {
+    "id": "PSF-001872",
+    "name": "Schwitzberg",
+    "lat": 52.1952,
+    "lon": 14.5861,
+    "wind": {},
+    "sources": {
+      "pge": "12534"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12534"
+  },
+  {
+    "id": "PSF-001877",
+    "name": "Flehingen",
+    "lat": 49.0755,
+    "lon": 8.80542,
+    "wind": {},
+    "sources": {
+      "pge": "12541"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12541"
+  },
+  {
+    "id": "PSF-001878",
+    "name": "Langer Seibler",
+    "lat": 49.1825,
+    "lon": 7.41842,
+    "wind": {},
+    "sources": {
+      "pge": "12543"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12543"
+  },
+  {
+    "id": "PSF-001892",
+    "name": "Hartenrod Skihang",
+    "lat": 50.7519,
+    "lon": 8.45565,
+    "wind": {},
+    "sources": {
+      "pge": "12583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12583"
+  },
+  {
+    "id": "PSF-001898",
+    "name": "Rengersche",
+    "lat": 49.4035,
+    "lon": 9.72402,
+    "wind": {},
+    "sources": {
+      "pge": "12591"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12591"
+  },
+  {
+    "id": "PSF-001919",
+    "name": "Steckweiler",
+    "lat": 49.6837,
+    "lon": 7.81665,
+    "wind": {},
+    "sources": {
+      "pge": "12646"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12646"
+  },
+  {
+    "id": "PSF-001960",
+    "name": "Derdinger Horn",
+    "lat": 49.0442,
+    "lon": 8.80242,
+    "wind": {},
+    "sources": {
+      "pge": "12731"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12731"
+  },
+  {
+    "id": "PSF-001963",
+    "name": "Taucha",
+    "lat": 51.3991,
+    "lon": 12.5407,
+    "wind": {},
+    "sources": {
+      "pge": "12736"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12736"
+  },
+  {
+    "id": "PSF-002002",
+    "name": "Winde Hockenheim",
+    "lat": 49.3265,
+    "lon": 8.5264,
+    "wind": {},
+    "sources": {
+      "pge": "12812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12812"
+  },
+  {
+    "id": "PSF-002005",
+    "name": "Michelsberg - Burghausen",
+    "lat": 50.2524,
+    "lon": 10.1591,
+    "wind": {},
+    "sources": {
+      "pge": "12817"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12817"
+  },
+  {
+    "id": "PSF-002007",
+    "name": "Neubürg",
+    "lat": 49.8877,
+    "lon": 11.4052,
+    "wind": {},
+    "sources": {
+      "pge": "12820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12820"
+  },
+  {
+    "id": "PSF-002012",
+    "name": "Eichelberg",
+    "lat": 49.1899,
+    "lon": 8.80385,
+    "wind": {},
+    "sources": {
+      "pge": "12831"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12831"
+  },
+  {
+    "id": "PSF-002025",
+    "name": "Schleppwiese Vierruthenberg",
+    "lat": 52.848,
+    "lon": 12.8228,
+    "wind": {},
+    "sources": {
+      "pge": "12848"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12848"
+  },
+  {
+    "id": "PSF-002035",
+    "name": "Bergäcker-Langenberg",
+    "lat": 49.7663,
+    "lon": 10.4446,
+    "wind": {},
+    "sources": {
+      "pge": "12865"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12865"
+  },
+  {
+    "id": "PSF-002058",
+    "name": "Elleringhausen-Limberg",
+    "lat": 51.3364,
+    "lon": 8.56447,
+    "wind": {},
+    "sources": {
+      "pge": "12911"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12911"
+  },
+  {
+    "id": "PSF-002081",
+    "name": "Euerbach",
+    "lat": 50.0646,
+    "lon": 10.0997,
+    "wind": {},
+    "sources": {
+      "pge": "12946"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12946"
+  },
+  {
+    "id": "PSF-002107",
+    "name": "Pleidelsheim Segelflugplatz",
+    "lat": 48.9571,
+    "lon": 9.1907,
+    "wind": {},
+    "sources": {
+      "pge": "12990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12990"
+  },
+  {
+    "id": "PSF-002110",
+    "name": "Schwaigau, Westwind",
+    "lat": 49.2647,
+    "lon": 10.4099,
+    "wind": {},
+    "sources": {
+      "pge": "12994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12994"
+  },
+  {
+    "id": "PSF-002116",
+    "name": "Euerbach/Obbach",
+    "lat": 50.0869,
+    "lon": 10.0749,
+    "wind": {},
+    "sources": {
+      "pge": "13003"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13003"
+  },
+  {
+    "id": "PSF-002123",
+    "name": "Rennefeld",
+    "lat": 51.16,
+    "lon": 8.26095,
+    "wind": {},
+    "sources": {
+      "pge": "13015"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13015"
+  },
+  {
+    "id": "PSF-002127",
+    "name": "Düdinghausen",
+    "lat": 51.261,
+    "lon": 8.673,
+    "wind": {},
+    "sources": {
+      "pge": "13022"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13022"
+  },
+  {
+    "id": "PSF-002130",
+    "name": "Saarmund",
+    "lat": 52.3069,
+    "lon": 13.0902,
+    "wind": {
+      "E": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "13028"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13028"
+  },
+  {
+    "id": "PSF-002137",
+    "name": "Fichtelberg",
+    "lat": 50.4224,
+    "lon": 12.9559,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "13037"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13037"
+  },
+  {
+    "id": "PSF-002152",
+    "name": "Niederkleen",
+    "lat": 50.4861,
+    "lon": 8.59302,
+    "wind": {},
+    "sources": {
+      "pge": "13063"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13063"
+  },
+  {
+    "id": "PSF-002164",
+    "name": "Gadern",
+    "lat": 49.5844,
+    "lon": 8.8082,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "13086"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13086"
+  },
+  {
+    "id": "PSF-002179",
+    "name": "Wallertheim",
+    "lat": 49.8012,
+    "lon": 8.03238,
+    "wind": {},
+    "sources": {
+      "pge": "13108"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13108"
+  },
+  {
+    "id": "PSF-002183",
+    "name": "Audiotrack",
+    "lat": 51.4655,
+    "lon": 13.1056,
+    "wind": {},
+    "sources": {
+      "pge": "13115"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13115"
+  },
+  {
+    "id": "PSF-002221",
+    "name": "Giebelstadt",
+    "lat": 49.6492,
+    "lon": 9.9758,
+    "wind": {},
+    "sources": {
+      "pge": "13165"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13165"
+  },
+  {
+    "id": "PSF-002227",
+    "name": "Heppenheim",
+    "lat": 49.621,
+    "lon": 8.62415,
+    "wind": {},
+    "sources": {
+      "pge": "13172"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13172"
+  },
+  {
+    "id": "PSF-002247",
+    "name": "Tunihill",
+    "lat": 47.9703,
+    "lon": 7.67903,
+    "wind": {},
+    "sources": {
+      "pge": "13205"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13205"
+  },
+  {
+    "id": "PSF-002264",
+    "name": "Bockenau",
+    "lat": 49.8393,
+    "lon": 7.67393,
+    "wind": {},
+    "sources": {
+      "pge": "13228"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13228"
+  },
+  {
+    "id": "PSF-002274",
+    "name": "Stohl",
+    "lat": 54.4758,
+    "lon": 10.1558,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "13241"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13241"
+  },
+  {
+    "id": "PSF-002296",
+    "name": "Kleinbottwar/Benning",
+    "lat": 48.9862,
+    "lon": 9.2977,
+    "wind": {},
+    "sources": {
+      "pge": "13285"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13285"
+  },
+  {
+    "id": "PSF-002301",
+    "name": "Kützbrunn",
+    "lat": 49.5749,
+    "lon": 9.74467,
+    "wind": {},
+    "sources": {
+      "pge": "13294"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13294"
+  },
+  {
+    "id": "PSF-002304",
+    "name": "Schleppgelände Verl-Sürenheide",
+    "lat": 51.8938,
+    "lon": 8.54232,
+    "wind": {},
+    "sources": {
+      "pge": "13300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13300"
+  },
+  {
+    "id": "PSF-002307",
+    "name": "Wohlde",
+    "lat": 54.3881,
+    "lon": 9.27633,
+    "wind": {},
+    "sources": {
+      "pge": "13303"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13303"
+  },
+  {
+    "id": "PSF-002310",
+    "name": "Neustadt -",
+    "lat": 53.4359,
+    "lon": 11.587,
+    "wind": {},
+    "sources": {
+      "pge": "13308"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13308"
+  },
+  {
+    "id": "PSF-002311",
+    "name": "Hörselberg",
+    "lat": 50.9533,
+    "lon": 10.4606,
+    "wind": {},
+    "sources": {
+      "pge": "13309"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13309"
+  },
+  {
+    "id": "PSF-002313",
+    "name": "Hausen an der Lauchert",
+    "lat": 48.2999,
+    "lon": 9.19112,
+    "wind": {},
+    "sources": {
+      "pge": "13312"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13312"
+  },
+  {
+    "id": "PSF-002334",
+    "name": "oberleni",
+    "lat": 48.63,
+    "lon": 9.43317,
+    "wind": {},
+    "sources": {
+      "pge": "13354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13354"
+  },
+  {
+    "id": "PSF-002342",
+    "name": "Laubenheim",
+    "lat": 49.929,
+    "lon": 7.89227,
+    "wind": {},
+    "sources": {
+      "pge": "13378"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13378"
+  },
+  {
+    "id": "PSF-002487",
+    "name": "Finkenberg",
+    "lat": 50.5829,
+    "lon": 7.4113,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13606"
+  },
+  {
+    "id": "PSF-002536",
+    "name": "Pfeffelbach-Herzerberg",
+    "lat": 49.5266,
+    "lon": 7.27153,
+    "wind": {},
+    "sources": {
+      "pge": "13686"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13686"
+  },
+  {
+    "id": "PSF-002546",
+    "name": "Ithwiese",
+    "lat": 51.9572,
+    "lon": 9.65985,
+    "wind": {},
+    "sources": {
+      "pge": "13710"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13710"
+  },
+  {
+    "id": "PSF-002550",
+    "name": "Drehkopf",
+    "lat": 47.9289,
+    "lon": 8.02272,
+    "wind": {},
+    "sources": {
+      "pge": "13718"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13718"
+  },
+  {
+    "id": "PSF-002555",
+    "name": "Spitzer Kalkofen",
+    "lat": 51.2022,
+    "lon": 13.1902,
+    "wind": {},
+    "sources": {
+      "pge": "13729"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13729"
+  },
+  {
+    "id": "PSF-002556",
+    "name": "Roschlaub",
+    "lat": 50.0129,
+    "lon": 11.0299,
+    "wind": {},
+    "sources": {
+      "pge": "13730"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13730"
+  },
+  {
+    "id": "PSF-002557",
+    "name": "Widdern",
+    "lat": 49.323,
+    "lon": 9.4009,
+    "wind": {},
+    "sources": {
+      "pge": "13734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13734"
+  },
+  {
+    "id": "PSF-002559",
+    "name": "Bremmer Calmont",
+    "lat": 50.1072,
+    "lon": 7.11673,
+    "wind": {},
+    "sources": {
+      "pge": "13739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13739"
+  },
+  {
+    "id": "PSF-002561",
+    "name": "Hoheneck",
+    "lat": 48.9269,
+    "lon": 9.21665,
+    "wind": {},
+    "sources": {
+      "pge": "13745"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13745"
+  },
+  {
+    "id": "PSF-002563",
+    "name": "Nordhelle",
+    "lat": 51.1511,
+    "lon": 7.7525,
+    "wind": {},
+    "sources": {
+      "pge": "13748"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13748"
+  },
+  {
+    "id": "PSF-002564",
+    "name": "Wixberg",
+    "lat": 51.3174,
+    "lon": 7.66717,
+    "wind": {},
+    "sources": {
+      "pge": "13749"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13749"
+  },
+  {
+    "id": "PSF-002566",
+    "name": "Mecksheim-Reiterhof",
+    "lat": 49.3139,
+    "lon": 8.78788,
+    "wind": {},
+    "sources": {
+      "pge": "13753"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13753"
+  },
+  {
+    "id": "PSF-002568",
+    "name": "Reichenhausen",
+    "lat": 50.5871,
+    "lon": 10.122,
+    "wind": {},
+    "sources": {
+      "pge": "13757"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13757"
+  },
+  {
+    "id": "PSF-002571",
+    "name": "Meidelstetten Schleppgelände",
+    "lat": 48.364,
+    "lon": 9.30922,
+    "wind": {},
+    "sources": {
+      "pge": "13760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13760"
+  },
+  {
+    "id": "PSF-002573",
+    "name": "Himmighofen - Hainau",
+    "lat": 50.2186,
+    "lon": 7.77315,
+    "wind": {},
+    "sources": {
+      "pge": "13763"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13763"
+  },
+  {
+    "id": "PSF-002574",
+    "name": "Hohenunkel",
+    "lat": 50.6031,
+    "lon": 7.2336,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13764"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13764"
+  },
+  {
+    "id": "PSF-002583",
+    "name": "Kocherstetten",
+    "lat": 49.2732,
+    "lon": 9.76342,
+    "wind": {},
+    "sources": {
+      "pge": "13784"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13784"
+  },
+  {
+    "id": "PSF-002584",
+    "name": "Höllenberg",
+    "lat": 49.1903,
+    "lon": 7.88675,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13785"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13785"
+  },
+  {
+    "id": "PSF-002585",
+    "name": "Obermarsberg",
+    "lat": 51.4422,
+    "lon": 8.84948,
+    "wind": {},
+    "sources": {
+      "pge": "13786"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13786"
+  },
+  {
+    "id": "PSF-002586",
+    "name": "Eisenberg",
+    "lat": 51.0186,
+    "lon": 8.62048,
+    "wind": {},
+    "sources": {
+      "pge": "13787"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13787"
+  },
+  {
+    "id": "PSF-002588",
+    "name": "Mulfingen Ost",
+    "lat": 49.3343,
+    "lon": 9.8437,
+    "wind": {},
+    "sources": {
+      "pge": "13789"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13789"
+  },
+  {
+    "id": "PSF-002591",
+    "name": "Hohenmirsberg",
+    "lat": 49.8088,
+    "lon": 11.4247,
+    "wind": {},
+    "sources": {
+      "pge": "13796"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13796"
+  },
+  {
+    "id": "PSF-002596",
+    "name": "Meerfelder Maar Ost",
+    "lat": 50.0984,
+    "lon": 6.7481,
+    "wind": {},
+    "sources": {
+      "pge": "13808"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13808"
+  },
+  {
+    "id": "PSF-002598",
+    "name": "Deister",
+    "lat": 52.2935,
+    "lon": 9.38107,
+    "wind": {},
+    "sources": {
+      "pge": "13810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13810"
+  },
+  {
+    "id": "PSF-002601",
+    "name": "Segelflugplatz Vinsebeck",
+    "lat": 51.8507,
+    "lon": 9.0145,
+    "wind": {},
+    "sources": {
+      "pge": "13813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13813"
+  },
+  {
+    "id": "PSF-002604",
+    "name": "Epfenbach",
+    "lat": 49.3176,
+    "lon": 8.9147,
+    "wind": {},
+    "sources": {
+      "pge": "13822"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13822"
+  },
+  {
+    "id": "PSF-002605",
+    "name": "Auf dem unteren Mergesfeld",
+    "lat": 49.8733,
+    "lon": 7.7738,
+    "wind": {},
+    "sources": {
+      "pge": "13823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13823"
+  },
+  {
+    "id": "PSF-002613",
+    "name": "Dreisessel",
+    "lat": 48.7634,
+    "lon": 13.8292,
+    "wind": {},
+    "sources": {
+      "pge": "13831"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13831"
+  },
+  {
+    "id": "PSF-002614",
+    "name": "Schmalfelden",
+    "lat": 49.3213,
+    "lon": 10.0358,
+    "wind": {},
+    "sources": {
+      "pge": "13832"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13832"
+  },
+  {
+    "id": "PSF-002615",
+    "name": "Drehkopf",
+    "lat": 47.8607,
+    "lon": 8.10535,
+    "wind": {},
+    "sources": {
+      "pge": "13833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13833"
+  },
+  {
+    "id": "PSF-002618",
+    "name": "Herrenschwand",
+    "lat": 47.7723,
+    "lon": 7.9584,
+    "wind": {},
+    "sources": {
+      "pge": "13836"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13836"
+  },
+  {
+    "id": "PSF-002622",
+    "name": "Gänsberg",
+    "lat": 48.8184,
+    "lon": 9.58648,
+    "wind": {},
+    "sources": {
+      "pge": "13841"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13841"
+  },
+  {
+    "id": "PSF-002626",
+    "name": "Rauenstein",
+    "lat": 50.4229,
+    "lon": 11.0489,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13845"
+  },
+  {
+    "id": "PSF-002628",
+    "name": "Hönningen/ Ahr",
+    "lat": 50.4778,
+    "lon": 6.94678,
+    "wind": {},
+    "sources": {
+      "pge": "13849"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13849"
+  },
+  {
+    "id": "PSF-002629",
+    "name": "Krautheim",
+    "lat": 49.3949,
+    "lon": 9.6491,
+    "wind": {},
+    "sources": {
+      "pge": "13850"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13850"
+  },
+  {
+    "id": "PSF-002630",
+    "name": "Hohwarter Höhe",
+    "lat": 47.9441,
+    "lon": 8.06087,
+    "wind": {},
+    "sources": {
+      "pge": "13851"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13851"
+  },
+  {
+    "id": "PSF-002631",
+    "name": "Eschlkam",
+    "lat": 49.293,
+    "lon": 12.9289,
+    "wind": {},
+    "sources": {
+      "pge": "13853"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13853"
+  },
+  {
+    "id": "PSF-002632",
+    "name": "Tauchersreuth",
+    "lat": 49.5519,
+    "lon": 11.2341,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13854"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13854"
+  },
+  {
+    "id": "PSF-002635",
+    "name": "Flugplatz Schöngleina",
+    "lat": 50.9198,
+    "lon": 11.7145,
+    "wind": {},
+    "sources": {
+      "pge": "13857"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13857"
+  },
+  {
+    "id": "PSF-002636",
+    "name": "Walxheim",
+    "lat": 48.9529,
+    "lon": 10.3296,
+    "wind": {},
+    "sources": {
+      "pge": "13858"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13858"
+  },
+  {
+    "id": "PSF-002637",
+    "name": "Schnaittach-Rothenberg",
+    "lat": 49.5561,
+    "lon": 11.3561,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13859"
+  },
+  {
+    "id": "PSF-002638",
+    "name": "Braunenberg",
+    "lat": 48.8609,
+    "lon": 10.1306,
+    "wind": {},
+    "sources": {
+      "pge": "13860"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13860"
+  },
+  {
+    "id": "PSF-002639",
+    "name": "Weiler",
+    "lat": 49.8054,
+    "lon": 7.56635,
+    "wind": {},
+    "sources": {
+      "pge": "13863"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13863"
+  },
+  {
+    "id": "PSF-002640",
+    "name": "Wittelsbacher Turm",
+    "lat": 50.1641,
+    "lon": 10.0753,
+    "wind": {},
+    "sources": {
+      "pge": "13866"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13866"
+  },
+  {
+    "id": "PSF-002641",
+    "name": "Offenbach-Hundheim",
+    "lat": 49.6223,
+    "lon": 7.54138,
+    "wind": {},
+    "sources": {
+      "pge": "13867"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13867"
+  },
+  {
+    "id": "PSF-002642",
+    "name": "Neckargerach",
+    "lat": 49.3907,
+    "lon": 9.08498,
+    "wind": {},
+    "sources": {
+      "pge": "13868"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13868"
+  },
+  {
+    "id": "PSF-002645",
+    "name": "Mount Ensdorf",
+    "lat": 49.3168,
+    "lon": 6.78327,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13871"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13871"
+  },
+  {
+    "id": "PSF-002651",
+    "name": "Haardskopf",
+    "lat": 50.5585,
+    "lon": 7.4349,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "13883"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13883"
+  },
+  {
+    "id": "PSF-002652",
+    "name": "Jungfrauenwald-Sassenroth (160m)",
+    "lat": 50.7719,
+    "lon": 7.92423,
+    "wind": {},
+    "sources": {
+      "pge": "13884"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13884"
+  },
+  {
+    "id": "PSF-002653",
+    "name": "Dieberg",
+    "lat": 49.328,
+    "lon": 12.8659,
+    "wind": {},
+    "sources": {
+      "pge": "13885"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13885"
+  },
+  {
+    "id": "PSF-002655",
+    "name": "Winde Hoffenheim",
+    "lat": 49.2728,
+    "lon": 8.81307,
+    "wind": {},
+    "sources": {
+      "pge": "13888"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13888"
+  },
+  {
+    "id": "PSF-002657",
+    "name": "Flugplatz Kulmbach",
+    "lat": 50.1438,
+    "lon": 11.4627,
+    "wind": {},
+    "sources": {
+      "pge": "13891"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13891"
+  },
+  {
+    "id": "PSF-002658",
+    "name": "Eberholzen",
+    "lat": 52.0595,
+    "lon": 9.83825,
+    "wind": {},
+    "sources": {
+      "pge": "13893"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13893"
+  },
+  {
+    "id": "PSF-002659",
+    "name": "Frammersbach",
+    "lat": 50.068,
+    "lon": 9.45915,
+    "wind": {},
+    "sources": {
+      "pge": "13894"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13894"
+  },
+  {
+    "id": "PSF-002660",
+    "name": "Sophienhöhe",
+    "lat": 50.894,
+    "lon": 6.30423,
+    "wind": {},
+    "sources": {
+      "pge": "13895"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13895"
+  },
+  {
+    "id": "PSF-002663",
+    "name": "Korbach",
+    "lat": 51.2512,
+    "lon": 8.87297,
+    "wind": {},
+    "sources": {
+      "pge": "13899"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13899"
+  },
+  {
+    "id": "PSF-002664",
+    "name": "Waldtal",
+    "lat": 48.3084,
+    "lon": 9.31112,
+    "wind": {},
+    "sources": {
+      "pge": "13901"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13901"
+  },
+  {
+    "id": "PSF-002665",
+    "name": "Auchhalder Kopf",
+    "lat": 48.7393,
+    "lon": 8.53418,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "13902"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13902"
+  },
+  {
+    "id": "PSF-002666",
+    "name": "Hungriger Wolf - Itzehoe",
+    "lat": 53.9947,
+    "lon": 9.57295,
+    "wind": {},
+    "sources": {
+      "pge": "13905"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13905"
+  },
+  {
+    "id": "PSF-002667",
+    "name": "Schaufel",
+    "lat": 51.097,
+    "lon": 9.14905,
+    "wind": {},
+    "sources": {
+      "pge": "13906"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13906"
+  },
+  {
+    "id": "PSF-002668",
+    "name": "Dagenbach",
+    "lat": 49.4462,
+    "lon": 10.591,
+    "wind": {},
+    "sources": {
+      "pge": "13907"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13907"
+  },
+  {
+    "id": "PSF-002669",
+    "name": "Neresheim Segelflugplatz",
+    "lat": 48.7425,
+    "lon": 10.3364,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13908"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13908"
+  },
+  {
+    "id": "PSF-002670",
+    "name": "Frauenberg",
+    "lat": 51.3755,
+    "lon": 10.8372,
+    "wind": {},
+    "sources": {
+      "pge": "13910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13910"
+  },
+  {
+    "id": "PSF-002671",
+    "name": "Hochfirst",
+    "lat": 47.9013,
+    "lon": 8.18192,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13913"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13913"
+  },
+  {
+    "id": "PSF-002673",
+    "name": "Obergröningen",
+    "lat": 48.8904,
+    "lon": 9.91955,
+    "wind": {},
+    "sources": {
+      "pge": "13917"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13917"
+  },
+  {
+    "id": "PSF-002674",
+    "name": "Entenberg",
+    "lat": 50.9195,
+    "lon": 8.4349,
+    "wind": {},
+    "sources": {
+      "pge": "13919"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13919"
+  },
+  {
+    "id": "PSF-002675",
+    "name": "Uehlhof",
+    "lat": 51.0875,
+    "lon": 7.83802,
+    "wind": {},
+    "sources": {
+      "pge": "13920"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13920"
+  },
+  {
+    "id": "PSF-002676",
+    "name": "Vor dem weißen Stein",
+    "lat": 48.2038,
+    "lon": 8.82247,
+    "wind": {},
+    "sources": {
+      "pge": "13921"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13921"
+  },
+  {
+    "id": "PSF-002680",
+    "name": "Ummerstadt",
+    "lat": 50.2673,
+    "lon": 10.7954,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "13928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13928"
+  },
+  {
+    "id": "PSF-002682",
+    "name": "Aldenhoven",
+    "lat": 50.9229,
+    "lon": 6.22818,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "13936"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13936"
+  },
+  {
+    "id": "PSF-002684",
+    "name": "Almerswind",
+    "lat": 50.3703,
+    "lon": 11.0021,
+    "wind": {},
+    "sources": {
+      "pge": "13939"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13939"
+  },
+  {
+    "id": "PSF-002685",
+    "name": "Ronneburg",
+    "lat": 50.2396,
+    "lon": 9.06345,
+    "wind": {},
+    "sources": {
+      "pge": "13940"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13940"
+  },
+  {
+    "id": "PSF-002687",
+    "name": "Airport Grossenhain",
+    "lat": 51.3087,
+    "lon": 13.5454,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13944"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13944"
+  },
+  {
+    "id": "PSF-002690",
+    "name": "Westhausen",
+    "lat": 50.2857,
+    "lon": 10.6855,
+    "wind": {},
+    "sources": {
+      "pge": "13950"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13950"
+  },
+  {
+    "id": "PSF-002691",
+    "name": "Reitwein",
+    "lat": 52.4846,
+    "lon": 14.5795,
+    "wind": {},
+    "sources": {
+      "pge": "13952"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13952"
+  },
+  {
+    "id": "PSF-002692",
+    "name": "Hahnberg",
+    "lat": 51.1049,
+    "lon": 9.06442,
+    "wind": {},
+    "sources": {
+      "pge": "13953"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13953"
+  },
+  {
+    "id": "PSF-002694",
+    "name": "Oberried",
+    "lat": 47.8979,
+    "lon": 7.96705,
+    "wind": {},
+    "sources": {
+      "pge": "13956"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13956"
+  },
+  {
+    "id": "PSF-002695",
+    "name": "Lake Störmthal",
+    "lat": 51.242,
+    "lon": 12.4668,
+    "wind": {},
+    "sources": {
+      "pge": "13957"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13957"
+  },
+  {
+    "id": "PSF-002700",
+    "name": "Segelflugplatz Kamp-Lintfort",
+    "lat": 51.5951,
+    "lon": 6.15628,
+    "wind": {},
+    "sources": {
+      "pge": "13963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13963"
+  },
+  {
+    "id": "PSF-002726",
+    "name": "UL Flugplatz Bürstadt",
+    "lat": 49.6554,
+    "lon": 8.48722,
+    "wind": {},
+    "sources": {
+      "pge": "13994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13994"
+  },
+  {
+    "id": "PSF-002727",
+    "name": "Harsberg",
+    "lat": 51.0594,
+    "lon": 10.2391,
+    "wind": {},
+    "sources": {
+      "pge": "13995"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13995"
+  },
+  {
+    "id": "PSF-002746",
+    "name": "GeiÃŸkopf",
+    "lat": 48.932,
+    "lon": 13.0312,
+    "wind": {},
+    "sources": {
+      "pge": "14023"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14023"
+  },
+  {
+    "id": "PSF-002749",
+    "name": "Zellhausen",
+    "lat": 50.0207,
+    "lon": 8.98472,
+    "wind": {},
+    "sources": {
+      "pge": "14028"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14028"
+  },
+  {
+    "id": "PSF-002765",
+    "name": "Schimmingshoehe",
+    "lat": 51.0455,
+    "lon": 14.232,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "14058"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14058"
+  },
+  {
+    "id": "PSF-002779",
+    "name": "Schwartenberg",
+    "lat": 50.6619,
+    "lon": 13.4651,
+    "wind": {
+      "N": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14083"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14083"
+  },
+  {
+    "id": "PSF-002796",
+    "name": "Winch Schoenbrunn",
+    "lat": 49.4036,
+    "lon": 8.92637,
+    "wind": {},
+    "sources": {
+      "pge": "14110"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14110"
+  },
+  {
+    "id": "PSF-002801",
+    "name": "Winde Reichenbach",
+    "lat": 50.4288,
+    "lon": 11.4144,
+    "wind": {},
+    "sources": {
+      "pge": "14118"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14118"
+  },
+  {
+    "id": "PSF-002880",
+    "name": "Albernkopf",
+    "lat": 51.2187,
+    "lon": 8.39042,
+    "wind": {},
+    "sources": {
+      "pge": "14245"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14245"
+  },
+  {
+    "id": "PSF-002913",
+    "name": "Charlottenpolder",
+    "lat": 53.1956,
+    "lon": 7.24056,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14301"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14301"
+  },
+  {
+    "id": "PSF-003135",
+    "name": "Helmsdorf",
+    "lat": 51.2488,
+    "lon": 11.1996,
+    "wind": {},
+    "sources": {
+      "pge": "14611"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14611"
+  },
+  {
+    "id": "PSF-003138",
+    "name": "Kirgel",
+    "lat": 49.0034,
+    "lon": 9.74513,
+    "wind": {},
+    "sources": {
+      "pge": "14615"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14615"
+  },
+  {
+    "id": "PSF-003152",
+    "name": "Stockinger",
+    "lat": 48.446,
+    "lon": 8.42858,
+    "wind": {},
+    "sources": {
+      "pge": "14635"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14635"
+  },
+  {
+    "id": "PSF-003167",
+    "name": "Saarlouis Düren",
+    "lat": 49.313,
+    "lon": 6.66428,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14655"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14655"
+  },
+  {
+    "id": "PSF-003178",
+    "name": "Mellbeck",
+    "lat": 51.3128,
+    "lon": 7.18767,
+    "wind": {},
+    "sources": {
+      "pge": "14669"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14669"
+  },
+  {
+    "id": "PSF-003184",
+    "name": "Lindenberg",
+    "lat": 47.9959,
+    "lon": 8.01013,
+    "wind": {},
+    "sources": {
+      "pge": "14677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14677"
+  },
+  {
+    "id": "PSF-003192",
+    "name": "Tafelbühl",
+    "lat": 48.128,
+    "lon": 8.08043,
+    "wind": {},
+    "sources": {
+      "pge": "14693"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14693"
+  },
+  {
+    "id": "PSF-003193",
+    "name": "Rosenberg",
+    "lat": 50.3173,
+    "lon": 7.46325,
+    "wind": {},
+    "sources": {
+      "pge": "14695"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14695"
+  },
+  {
+    "id": "PSF-003194",
+    "name": "Sigritz",
+    "lat": 49.7622,
+    "lon": 11.3699,
+    "wind": {},
+    "sources": {
+      "pge": "14699"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14699"
+  },
+  {
+    "id": "PSF-003311",
+    "name": "Gehn-Mechernich",
+    "lat": 50.6305,
+    "lon": 6.66882,
+    "wind": {},
+    "sources": {
+      "pge": "14876"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14876"
+  },
+  {
+    "id": "PSF-003316",
+    "name": "Eschbach",
+    "lat": 50.3529,
+    "lon": 8.52332,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "14886"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14886"
+  },
+  {
+    "id": "PSF-003318",
+    "name": "Neukenroth",
+    "lat": 50.3246,
+    "lon": 11.2685,
+    "wind": {},
+    "sources": {
+      "pge": "14889"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14889"
+  },
+  {
+    "id": "PSF-003361",
+    "name": "Oberhövels",
+    "lat": 50.7949,
+    "lon": 7.78567,
+    "wind": {},
+    "sources": {
+      "pge": "14960"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14960"
+  },
+  {
+    "id": "PSF-003393",
+    "name": "Niederwillingen",
+    "lat": 50.7771,
+    "lon": 11.0436,
+    "wind": {},
+    "sources": {
+      "pge": "15011"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15011"
+  },
+  {
+    "id": "PSF-003404",
+    "name": "Langhennersdorf",
+    "lat": 50.9508,
+    "lon": 13.2624,
+    "wind": {},
+    "sources": {
+      "pge": "15034"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15034"
+  },
+  {
+    "id": "PSF-003411",
+    "name": "Söldenau",
+    "lat": 48.5697,
+    "lon": 13.2134,
+    "wind": {},
+    "sources": {
+      "pge": "15047"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15047"
+  },
+  {
+    "id": "PSF-003428",
+    "name": "Braunsberg",
+    "lat": 53.0513,
+    "lon": 12.8369,
+    "wind": {},
+    "sources": {
+      "pge": "15076"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15076"
+  },
+  {
+    "id": "PSF-003435",
+    "name": "Bösingen",
+    "lat": 48.2774,
+    "lon": 8.61232,
+    "wind": {},
+    "sources": {
+      "pge": "15085"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15085"
+  },
+  {
+    "id": "PSF-003449",
+    "name": "Flugplatz Segeletz",
+    "lat": 52.8257,
+    "lon": 12.5494,
+    "wind": {},
+    "sources": {
+      "pge": "15109"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15109"
+  },
+  {
+    "id": "PSF-003455",
+    "name": "Gau-Bickelheim",
+    "lat": 49.8491,
+    "lon": 8.02122,
+    "wind": {},
+    "sources": {
+      "pge": "15128"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15128"
+  },
+  {
+    "id": "PSF-003508",
+    "name": "Rothenburg",
+    "lat": 51.3632,
+    "lon": 14.9524,
+    "wind": {},
+    "sources": {
+      "pge": "15200"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15200"
+  },
+  {
+    "id": "PSF-003513",
+    "name": "Hesselbach Nord,",
+    "lat": 50.8861,
+    "lon": 8.35057,
+    "wind": {},
+    "sources": {
+      "pge": "15211"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15211"
+  },
+  {
+    "id": "PSF-003544",
+    "name": "Gassenreuth- 3 Fichten",
+    "lat": 50.3419,
+    "lon": 12.0718,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15261"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15261"
+  },
+  {
+    "id": "PSF-003554",
+    "name": "Müritzflugplatz",
+    "lat": 53.3087,
+    "lon": 12.7479,
+    "wind": {},
+    "sources": {
+      "pge": "15278"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15278"
+  },
+  {
+    "id": "PSF-003556",
+    "name": "Segelflugplatz Vielist",
+    "lat": 53.5671,
+    "lon": 12.655,
+    "wind": {},
+    "sources": {
+      "pge": "15280"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15280"
+  },
+  {
+    "id": "PSF-003593",
+    "name": "Schleppgelände Horgen",
+    "lat": 48.1479,
+    "lon": 8.56675,
+    "wind": {},
+    "sources": {
+      "pge": "15335"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15335"
+  },
+  {
+    "id": "PSF-003602",
+    "name": "Balos",
+    "lat": 51.6898,
+    "lon": 9.81603,
+    "wind": {},
+    "sources": {
+      "pge": "15353"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15353"
+  },
+  {
+    "id": "PSF-003605",
+    "name": "Sommerberg",
+    "lat": 48.613,
+    "lon": 9.72613,
+    "wind": {},
+    "sources": {
+      "pge": "15361"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15361"
+  },
+  {
+    "id": "PSF-003612",
+    "name": "oberrissdorf",
+    "lat": 51.5438,
+    "lon": 11.5939,
+    "wind": {},
+    "sources": {
+      "pge": "15375"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15375"
+  },
+  {
+    "id": "PSF-003632",
+    "name": "Dolmar-UL -Platz",
+    "lat": 50.6104,
+    "lon": 10.4135,
+    "wind": {},
+    "sources": {
+      "pge": "15413"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15413"
+  },
+  {
+    "id": "PSF-003725",
+    "name": "Steinberg",
+    "lat": 50.7918,
+    "lon": 11.3191,
+    "wind": {},
+    "sources": {
+      "pge": "15568"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15568"
+  },
+  {
+    "id": "PSF-003860",
+    "name": "Forestleaveshome",
+    "lat": 49.9352,
+    "lon": 7.8235,
+    "wind": {},
+    "sources": {
+      "pge": "15821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15821"
+  },
+  {
+    "id": "PSF-004144",
+    "name": "Schäferstuhl",
+    "lat": 52.0283,
+    "lon": 10.3677,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16199"
+  },
+  {
+    "id": "PSF-004165",
+    "name": "Kirschberg Doebeln",
+    "lat": 51.1355,
+    "lon": 13.0819,
+    "wind": {},
+    "sources": {
+      "pge": "16248"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16248"
+  },
+  {
+    "id": "PSF-004170",
+    "name": "Wanne Pfullingen",
+    "lat": 48.4475,
+    "lon": 9.2256,
+    "wind": {},
+    "sources": {
+      "pge": "16255"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16255"
+  },
+  {
+    "id": "PSF-004176",
+    "name": "Hohenöllen Startplatz SW",
+    "lat": 49.6234,
+    "lon": 7.62102,
+    "wind": {},
+    "sources": {
+      "pge": "16263"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16263"
+  },
+  {
+    "id": "PSF-004184",
+    "name": "Ailringen",
+    "lat": 49.382,
+    "lon": 9.77532,
+    "wind": {},
+    "sources": {
+      "pge": "16277"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16277"
+  },
+  {
+    "id": "PSF-004197",
+    "name": "Morsbach Hohe Hardt",
+    "lat": 50.8611,
+    "lon": 7.72337,
+    "wind": {},
+    "sources": {
+      "pge": "16295"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16295"
+  },
+  {
+    "id": "PSF-004224",
+    "name": "Linnich UL Schlepp",
+    "lat": 50.9596,
+    "lon": 6.32758,
+    "wind": {},
+    "sources": {
+      "pge": "16333"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16333"
+  },
+  {
+    "id": "PSF-004236",
+    "name": "Galgenberg Startplatz",
+    "lat": 49.5016,
+    "lon": 6.7399,
+    "wind": {},
+    "sources": {
+      "pge": "16349"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16349"
+  },
+  {
+    "id": "PSF-004273",
+    "name": "Gelnhausen",
+    "lat": 50.1989,
+    "lon": 9.168,
+    "wind": {},
+    "sources": {
+      "pge": "16406"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16406"
+  },
+  {
+    "id": "PSF-004285",
+    "name": "Krausberg Startplatz",
+    "lat": 50.5286,
+    "lon": 7.05287,
+    "wind": {},
+    "sources": {
+      "pge": "16423"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16423"
+  },
+  {
+    "id": "PSF-004292",
+    "name": "Wershofen/Eifel (EDRV)",
+    "lat": 50.4522,
+    "lon": 6.78497,
+    "wind": {},
+    "sources": {
+      "pge": "16435"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16435"
+  },
+  {
+    "id": "PSF-004299",
+    "name": "Niederwald Memorial",
+    "lat": 49.9815,
+    "lon": 7.90193,
+    "wind": {},
+    "sources": {
+      "pge": "16448"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16448"
+  },
+  {
+    "id": "PSF-004337",
+    "name": "Segelflugplatz Heiligenberg",
+    "lat": 47.8388,
+    "lon": 9.29888,
+    "wind": {},
+    "sources": {
+      "pge": "16518"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16518"
+  },
+  {
+    "id": "PSF-004344",
+    "name": "Hasenhorn",
+    "lat": 47.8211,
+    "lon": 7.9508,
+    "wind": {},
+    "sources": {
+      "pge": "16529"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16529"
+  },
+  {
+    "id": "PSF-004346",
+    "name": "Vineyard",
+    "lat": 47.7674,
+    "lon": 8.96918,
+    "wind": {},
+    "sources": {
+      "pge": "16532"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16532"
+  },
+  {
+    "id": "PSF-004364",
+    "name": "Hohensolms",
+    "lat": 50.6541,
+    "lon": 8.52205,
+    "wind": {},
+    "sources": {
+      "pge": "16560"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16560"
+  },
+  {
+    "id": "PSF-004415",
+    "name": "Flugplatz Segeletz",
+    "lat": 52.9231,
+    "lon": 12.4284,
+    "wind": {},
+    "sources": {
+      "pge": "16648"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16648"
+  },
+  {
+    "id": "PSF-004416",
+    "name": "Flugplatz Segeletz",
+    "lat": 52.8199,
+    "lon": 12.739,
+    "wind": {},
+    "sources": {
+      "pge": "16649"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16649"
+  },
+  {
+    "id": "PSF-004422",
+    "name": "Flugplatz Alsfeld",
+    "lat": 50.9054,
+    "lon": 9.35322,
+    "wind": {},
+    "sources": {
+      "pge": "16662"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16662"
+  },
+  {
+    "id": "PSF-004483",
+    "name": "Gemmingen",
+    "lat": 49.144,
+    "lon": 8.9902,
+    "wind": {},
+    "sources": {
+      "pge": "16765"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16765"
+  },
+  {
+    "id": "PSF-004489",
+    "name": "Kaiskorb",
+    "lat": 51.0261,
+    "lon": 6.47308,
+    "wind": {},
+    "sources": {
+      "pge": "16773"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16773"
+  },
+  {
+    "id": "PSF-004491",
+    "name": "Dürnsricht",
+    "lat": 49.4,
+    "lon": 11.812,
+    "wind": {},
+    "sources": {
+      "pge": "16780"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16780"
+  },
+  {
+    "id": "PSF-004493",
+    "name": "Steinbach Staustufe",
+    "lat": 49.993,
+    "lon": 9.57717,
+    "wind": {},
+    "sources": {
+      "pge": "16783"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16783"
+  },
+  {
+    "id": "PSF-004498",
+    "name": "Motorgleitschirm Bönstadt",
+    "lat": 50.2855,
+    "lon": 8.86919,
+    "wind": {},
+    "sources": {
+      "pge": "16794"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16794"
+  },
+  {
+    "id": "PSF-004510",
+    "name": "Alpenrod",
+    "lat": 50.6386,
+    "lon": 7.8788,
+    "wind": {},
+    "sources": {
+      "pge": "16827"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16827"
+  },
+  {
+    "id": "PSF-004516",
+    "name": "Airfield Nannhausen",
+    "lat": 49.969,
+    "lon": 7.4759,
+    "wind": {},
+    "sources": {
+      "pge": "16835"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16835"
+  },
+  {
+    "id": "PSF-004557",
+    "name": "Räuschenberg",
+    "lat": 51.8078,
+    "lon": 9.37007,
+    "wind": {},
+    "sources": {
+      "pge": "16909"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16909"
+  },
+  {
+    "id": "PSF-004558",
+    "name": "Luftsportgelände Hain Hain",
+    "lat": 51.4378,
+    "lon": 10.7744,
+    "wind": {},
+    "sources": {
+      "pge": "16910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16910"
+  },
+  {
+    "id": "PSF-004787",
+    "name": "Königsheide Startplatz",
+    "lat": 49.9628,
+    "lon": 11.7249,
+    "wind": {},
+    "sources": {
+      "pge": "17343"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17343"
+  },
+  {
+    "id": "PSF-004863",
+    "name": "Hohenberg",
+    "lat": 49.2027,
+    "lon": 8.00513,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17475"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17475"
+  },
+  {
+    "id": "PSF-004905",
+    "name": "Brilon-Poppenberg",
+    "lat": 51.379,
+    "lon": 8.56792,
+    "wind": {},
+    "sources": {
+      "pge": "17528"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17528"
+  },
+  {
+    "id": "PSF-004921",
+    "name": "Siegbart",
+    "lat": 51.6096,
+    "lon": 9.40155,
+    "wind": {},
+    "sources": {
+      "pge": "17555"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17555"
+  },
+  {
+    "id": "PSF-004930",
+    "name": "Meckelsheimer-Reitling",
+    "lat": 49.3059,
+    "lon": 8.6586,
+    "wind": {},
+    "sources": {
+      "pge": "17567"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17567"
+  },
+  {
+    "id": "PSF-004932",
+    "name": "Segelflugplatz Vielist",
+    "lat": 53.5936,
+    "lon": 12.7041,
+    "wind": {},
+    "sources": {
+      "pge": "17571"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17571"
+  },
+  {
+    "id": "PSF-004933",
+    "name": "Arnoldshain",
+    "lat": 50.2549,
+    "lon": 8.44683,
+    "wind": {},
+    "sources": {
+      "pge": "17572"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17572"
+  },
+  {
+    "id": "PSF-004934",
+    "name": "RÃ¶ÃŸberg Startplatz",
+    "lat": 51.2054,
+    "lon": 8.5947,
+    "wind": {},
+    "sources": {
+      "pge": "17573"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17573"
+  },
+  {
+    "id": "PSF-004944",
+    "name": "Mittelfischach-UL",
+    "lat": 49.0316,
+    "lon": 9.86627,
+    "wind": {},
+    "sources": {
+      "pge": "17593"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17593"
+  },
+  {
+    "id": "PSF-004948",
+    "name": "Sophienhöhe",
+    "lat": 50.9398,
+    "lon": 6.4731,
+    "wind": {},
+    "sources": {
+      "pge": "17603"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17603"
+  },
+  {
+    "id": "PSF-004949",
+    "name": "Berghaupten",
+    "lat": 48.4137,
+    "lon": 7.96605,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "17604"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17604"
+  },
+  {
+    "id": "PSF-004952",
+    "name": "Schöneberg",
+    "lat": 50.655,
+    "lon": 7.60402,
+    "wind": {},
+    "sources": {
+      "pge": "17608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17608"
+  },
+  {
+    "id": "PSF-004953",
+    "name": "Schäfersfeld",
+    "lat": 49.8538,
+    "lon": 7.16332,
+    "wind": {},
+    "sources": {
+      "pge": "17609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17609"
+  },
+  {
+    "id": "PSF-004954",
+    "name": "Hayingen-Airfield",
+    "lat": 48.2868,
+    "lon": 9.46223,
+    "wind": {},
+    "sources": {
+      "pge": "17610"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17610"
+  },
+  {
+    "id": "PSF-004980",
+    "name": "Beutelsbach - Schönbühl",
+    "lat": 48.7988,
+    "lon": 9.4025,
+    "wind": {},
+    "sources": {
+      "pge": "17671"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17671"
+  },
+  {
+    "id": "PSF-005035",
+    "name": "Segelfluggelände Montabaur",
+    "lat": 50.4125,
+    "lon": 7.97065,
+    "wind": {},
+    "sources": {
+      "pge": "17767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17767"
+  },
+  {
+    "id": "PSF-005036",
+    "name": "Segelfluggelände Riedlingen",
+    "lat": 48.1435,
+    "lon": 9.46562,
+    "wind": {},
+    "sources": {
+      "pge": "17768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17768"
+  },
+  {
+    "id": "PSF-005037",
+    "name": "Menzingen",
+    "lat": 49.1455,
+    "lon": 8.75455,
+    "wind": {},
+    "sources": {
+      "pge": "17769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17769"
+  },
+  {
+    "id": "PSF-005042",
+    "name": "Bauschlott",
+    "lat": 48.9635,
+    "lon": 8.746,
+    "wind": {},
+    "sources": {
+      "pge": "17779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17779"
+  },
+  {
+    "id": "PSF-005055",
+    "name": "Halver - Hohenplanken",
+    "lat": 51.1791,
+    "lon": 7.44195,
+    "wind": {},
+    "sources": {
+      "pge": "17804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17804"
+  },
+  {
+    "id": "PSF-005087",
+    "name": "Gersbach Skilift",
+    "lat": 47.6868,
+    "lon": 7.93127,
+    "wind": {},
+    "sources": {
+      "pge": "17872"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17872"
+  },
+  {
+    "id": "PSF-005105",
+    "name": "volkma",
+    "lat": 51.4422,
+    "lon": 9.08777,
+    "wind": {},
+    "sources": {
+      "pge": "17911"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17911"
+  },
+  {
+    "id": "PSF-005221",
+    "name": "Watzel",
+    "lat": 49.5289,
+    "lon": 8.51007,
+    "wind": {},
+    "sources": {
+      "pge": "18153"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18153"
+  },
+  {
+    "id": "PSF-005258",
+    "name": "Mönchsheide",
+    "lat": 50.509,
+    "lon": 7.25117,
+    "wind": {},
+    "sources": {
+      "pge": "18266"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18266"
+  },
+  {
+    "id": "PSF-005318",
+    "name": "Dad Saulgau Airfield EDTU",
+    "lat": 48.0237,
+    "lon": 9.51513,
+    "wind": {},
+    "sources": {
+      "pge": "18446"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18446"
+  },
+  {
+    "id": "PSF-005344",
+    "name": "Klausenlift take-off",
+    "lat": 49.9668,
+    "lon": 11.8458,
+    "wind": {},
+    "sources": {
+      "pge": "18523"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18523"
+  },
+  {
+    "id": "PSF-005374",
+    "name": "Wehingen take-off",
+    "lat": 49.4552,
+    "lon": 6.50753,
+    "wind": {},
+    "sources": {
+      "pge": "18627"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18627"
+  },
+  {
+    "id": "PSF-005402",
+    "name": "Oeventrop Segelflugplatz",
+    "lat": 51.3963,
+    "lon": 8.14493,
+    "wind": {},
+    "sources": {
+      "pge": "18669"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18669"
+  },
+  {
+    "id": "PSF-005409",
+    "name": "Airport Waldsee Reute",
+    "lat": 47.9179,
+    "lon": 9.70712,
+    "wind": {},
+    "sources": {
+      "pge": "18678"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18678"
+  },
+  {
+    "id": "PSF-005430",
+    "name": "Hirzenhain",
+    "lat": 50.8042,
+    "lon": 8.37708,
+    "wind": {},
+    "sources": {
+      "pge": "18709"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18709"
+  },
+  {
+    "id": "PSF-005448",
+    "name": "Flugplatz Brilon",
+    "lat": 51.4044,
+    "lon": 8.64595,
+    "wind": {},
+    "sources": {
+      "pge": "18737"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18737"
+  },
+  {
+    "id": "PSF-005549",
+    "name": "Halde Norddeutschland Schlepp",
+    "lat": 51.4585,
+    "lon": 6.5678,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18888"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18888"
+  },
+  {
+    "id": "PSF-005560",
+    "name": "Steinbruch-Halbestwig",
+    "lat": 51.3306,
+    "lon": 8.38983,
+    "wind": {},
+    "sources": {
+      "pge": "18931"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18931"
+  },
+  {
+    "id": "PSF-005576",
+    "name": "Valwiger Berg (Jeiersberg) take-off",
+    "lat": 50.1488,
+    "lon": 7.22917,
+    "wind": {},
+    "sources": {
+      "pge": "19108"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19108"
+  },
+  {
+    "id": "PSF-005583",
+    "name": "Amrum Satteldüne Strand",
+    "lat": 54.6413,
+    "lon": 8.32977,
+    "wind": {},
+    "sources": {
+      "pge": "19168"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19168"
+  },
+  {
+    "id": "PSF-005584",
+    "name": "Amrum Strand Norddorf",
+    "lat": 54.6907,
+    "lon": 8.32637,
+    "wind": {},
+    "sources": {
+      "pge": "19169"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19169"
+  },
+  {
+    "id": "PSF-005644",
+    "name": "Old Military Air Base Neubiberg",
+    "lat": 48.072,
+    "lon": 11.635,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19277"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19277"
+  },
+  {
+    "id": "PSF-005765",
+    "name": "Kreuzeck",
+    "lat": 47.4529,
+    "lon": 11.0697,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19445"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19445"
+  },
+  {
+    "id": "PSF-005787",
+    "name": "Nortmoor",
+    "lat": 53.2584,
+    "lon": 7.5672,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19471"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19471"
+  },
+  {
+    "id": "PSF-005878",
+    "name": "EDXT",
+    "lat": 54.0693,
+    "lon": 10.7442,
+    "wind": {
+      "NE": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19603"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19603"
+  },
+  {
+    "id": "PSF-005881",
+    "name": "MÃ¼hlberg Ãœbungshang",
+    "lat": 50.8606,
+    "lon": 10.8498,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19609"
+  },
+  {
+    "id": "PSF-006039",
+    "name": "Grünten Rohrmeier",
+    "lat": 47.5657,
+    "lon": 10.3087,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19816"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19816"
+  },
+  {
+    "id": "PSF-006098",
+    "name": "Hallgarten",
+    "lat": 50.0378,
+    "lon": 8.03428,
+    "wind": {},
+    "sources": {
+      "pge": "19965"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19965"
+  },
+  {
+    "id": "PSF-006133",
+    "name": "MadÃ–tzing",
+    "lat": 48.6337,
+    "lon": 13.3536,
+    "wind": {},
+    "sources": {
+      "pge": "20002"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20002"
+  },
+  {
+    "id": "PSF-006207",
+    "name": "Lindenfels",
+    "lat": 49.807,
+    "lon": 8.88947,
+    "wind": {},
+    "sources": {
+      "pge": "20087"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20087"
+  },
+  {
+    "id": "PSF-006208",
+    "name": "Filzberg ÃœbungsgelÃ¤nde",
+    "lat": 51.3421,
+    "lon": 10.9419,
+    "wind": {},
+    "sources": {
+      "pge": "20088"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20088"
+  },
+  {
+    "id": "PSF-006218",
+    "name": "Staffel",
+    "lat": 47.5864,
+    "lon": 11.4701,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "20099"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20099"
+  },
+  {
+    "id": "PSF-006223",
+    "name": "Wachtelberg",
+    "lat": 50.9817,
+    "lon": 13.6687,
+    "wind": {},
+    "sources": {
+      "pge": "20104"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20104"
+  },
+  {
+    "id": "PSF-006249",
+    "name": "Eisenberg / Battenberg Eisenberg Westhang",
+    "lat": 50.9654,
+    "lon": 8.71033,
+    "wind": {},
+    "sources": {
+      "pge": "20134"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20134"
+  },
+  {
+    "id": "PSF-006389",
+    "name": "DM-Arena (Groundhandling only)",
+    "lat": 48.9823,
+    "lon": 8.33566,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21329"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21329"
+  },
+  {
+    "id": "PSF-006397",
+    "name": "Drachenwiese (Groundhandling only)",
+    "lat": 49.0392,
+    "lon": 8.38402,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21337"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21337"
+  },
+  {
+    "id": "PSF-006572",
+    "name": "Fürstenberg South",
+    "lat": 47.8896,
+    "lon": 8.56225,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21528"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21528"
+  },
+  {
+    "id": "PSF-006861",
+    "name": "Graach",
+    "lat": 49.9407,
+    "lon": 7.06614,
+    "wind": {},
+    "sources": {
+      "pge": "21859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21859"
+  },
+  {
+    "id": "PSF-006862",
+    "name": "Erden",
+    "lat": 49.9849,
+    "lon": 7.03022,
+    "wind": {},
+    "sources": {
+      "pge": "21860"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21860"
+  },
+  {
+    "id": "PSF-007429",
+    "name": "Jägerkamp/Nagelspitz",
+    "lat": 47.6793,
+    "lon": 11.9043,
+    "wind": {
+      "E": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22508"
+  },
+  {
+    "id": "PSF-007497",
+    "name": "Wallberg",
+    "lat": 47.6611,
+    "lon": 11.7907,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22583"
+  },
+  {
+    "id": "PSF-007498",
+    "name": "Ürzig",
+    "lat": 49.9851,
+    "lon": 7.01838,
+    "wind": {},
+    "sources": {
+      "pge": "22584"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22584"
+  },
+  {
+    "id": "PSF-007499",
+    "name": "Meerfeld",
+    "lat": 50.1071,
+    "lon": 6.75711,
+    "wind": {},
+    "sources": {
+      "pge": "22585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22585"
+  },
+  {
+    "id": "PSF-007587",
+    "name": "Am Hainer See/Kahnsdorf",
+    "lat": 51.1513,
+    "lon": 12.4324,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22686"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22686"
+  },
+  {
+    "id": "PSF-007635",
+    "name": "Blomberg East",
+    "lat": 47.7307,
+    "lon": 11.5124,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22736"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22736"
+  },
+  {
+    "id": "PSF-007636",
+    "name": "Sonnberg",
+    "lat": 47.6288,
+    "lon": 11.6744,
+    "wind": {},
+    "sources": {
+      "pge": "22737"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22737"
+  },
+  {
+    "id": "PSF-007637",
+    "name": "Hörnle",
+    "lat": 47.6446,
+    "lon": 11.054,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22738"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22738"
+  },
+  {
+    "id": "PSF-007638",
+    "name": "Sulzberg",
+    "lat": 47.7447,
+    "lon": 12.0627,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "22739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22739"
+  },
+  {
+    "id": "PSF-007639",
+    "name": "Rampoldplatte",
+    "lat": 47.7245,
+    "lon": 12.0434,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "22740"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22740"
+  },
+  {
+    "id": "PSF-007640",
+    "name": "Heuberg",
+    "lat": 47.7261,
+    "lon": 12.1843,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22741"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22741"
+  },
+  {
+    "id": "PSF-007643",
+    "name": "Mittag",
+    "lat": 47.5373,
+    "lon": 10.218,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "22744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22744"
+  },
+  {
+    "id": "PSF-007645",
+    "name": "Unternberg",
+    "lat": 47.7284,
+    "lon": 12.6386,
+    "wind": {
+      "N": 1,
+      "S": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22746"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22746"
+  },
+  {
+    "id": "PSF-007646",
+    "name": "Rauschberg",
+    "lat": 47.733,
+    "lon": 12.6872,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "S": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22747"
+  },
+  {
+    "id": "PSF-007649",
+    "name": "Bad Hindelang Spieser",
+    "lat": 47.5271,
+    "lon": 10.3898,
+    "wind": {},
+    "sources": {
+      "pge": "22751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22751"
+  },
+  {
+    "id": "PSF-007650",
+    "name": "Bad Hindelang Landing",
+    "lat": 47.5002,
+    "lon": 10.3671,
+    "wind": {},
+    "sources": {
+      "pge": "22752"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22752"
+  },
+  {
+    "id": "PSF-007651",
+    "name": "Bad Hindelang Imberger Horn",
+    "lat": 47.4892,
+    "lon": 10.363,
+    "wind": {},
+    "sources": {
+      "pge": "22753"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22753"
+  },
+  {
+    "id": "PSF-007798",
+    "name": "Rintheimer Wiese (Groundhandling only)",
+    "lat": 49.0224,
+    "lon": 8.44796,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22929"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22929"
+  },
+  {
+    "id": "PSF-007825",
+    "name": "Madenburg",
+    "lat": 49.1608,
+    "lon": 8.01723,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "22960"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22960"
+  },
+  {
+    "id": "PSF-007936",
+    "name": "Boos/Staudernheim",
+    "lat": 49.7866,
+    "lon": 7.71457,
+    "wind": {},
+    "sources": {
+      "pge": "23079"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23079"
+  },
+  {
+    "id": "PSF-007937",
+    "name": "Duchroth NORD",
+    "lat": 49.7754,
+    "lon": 7.7224,
+    "wind": {},
+    "sources": {
+      "pge": "23080"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23080"
+  },
+  {
+    "id": "PSF-007941",
+    "name": "Strühter Wald / Hochstetten-Dhaun",
+    "lat": 49.7926,
+    "lon": 7.51222,
+    "wind": {},
+    "sources": {
+      "pge": "23084"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23084"
+  },
+  {
+    "id": "PSF-008091",
+    "name": "Aying",
+    "lat": 47.9651,
+    "lon": 11.7713,
+    "wind": {},
+    "sources": {
+      "pge": "23241"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23241"
+  },
+  {
+    "id": "PSF-008101",
+    "name": "Kleinkummerfeld",
+    "lat": 54.0265,
+    "lon": 10.0782,
+    "wind": {},
+    "sources": {
+      "pge": "23251"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23251"
+  },
+  {
+    "id": "PSF-008164",
+    "name": "Blomberg North",
+    "lat": 47.7346,
+    "lon": 11.5066,
+    "wind": {},
+    "sources": {
+      "pge": "23322"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23322"
+  },
+  {
+    "id": "PSF-008172",
+    "name": "Hintereck",
+    "lat": 48.049,
+    "lon": 8.12414,
+    "wind": {},
+    "sources": {
+      "pge": "23330"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23330"
+  },
+  {
+    "id": "PSF-008337",
+    "name": "Waltersberg",
+    "lat": 49.1914,
+    "lon": 11.5248,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23526"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23526"
+  },
+  {
+    "id": "PSF-008338",
+    "name": "Winnberg",
+    "lat": 49.2338,
+    "lon": 11.4856,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23527"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23527"
+  },
+  {
+    "id": "PSF-008339",
+    "name": "Schernfeld",
+    "lat": 48.8988,
+    "lon": 11.1288,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23528"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23528"
+  },
+  {
+    "id": "PSF-008340",
+    "name": "Obereichstätt",
+    "lat": 48.8967,
+    "lon": 11.1343,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23529"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23529"
+  },
+  {
+    "id": "PSF-008341",
+    "name": "Böhming",
+    "lat": 48.9446,
+    "lon": 11.35,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "23530"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23530"
+  },
+  {
+    "id": "PSF-008348",
+    "name": "Sammenheim",
+    "lat": 49.0508,
+    "lon": 10.733,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "23538"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23538"
+  },
+  {
+    "id": "PSF-008435",
+    "name": "Ul-Flugplatz Hinterweiler",
+    "lat": 50.245,
+    "lon": 6.75552,
+    "wind": {},
+    "sources": {
+      "pge": "23635"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23635"
+  },
+  {
+    "id": "PSF-008663",
+    "name": "Neuffen-Nord",
+    "lat": 48.5561,
+    "lon": 9.40546,
+    "wind": {},
+    "sources": {
+      "pge": "23904"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23904"
+  },
+  {
+    "id": "PSF-008677",
+    "name": "Sieseler Alm",
+    "lat": 51.2151,
+    "lon": 7.90186,
+    "wind": {},
+    "sources": {
+      "pge": "23918"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23918"
+  },
+  {
+    "id": "PSF-008678",
+    "name": "Am Kleff",
+    "lat": 51.2148,
+    "lon": 7.93182,
+    "wind": {},
+    "sources": {
+      "pge": "23919"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23919"
+  },
+  {
+    "id": "PSF-008688",
+    "name": "Airport Barssel (EDXL)",
+    "lat": 53.1627,
+    "lon": 7.79993,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23931"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23931"
+  },
+  {
+    "id": "PSF-008730",
+    "name": "Ockfen",
+    "lat": 49.6241,
+    "lon": 6.59495,
+    "wind": {},
+    "sources": {
+      "pge": "23973"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23973"
+  },
+  {
+    "id": "PSF-009535",
+    "name": "Buchenberg",
+    "lat": 47.6066,
+    "lon": 10.8112,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6599"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6599"
+  },
+  {
+    "id": "PSF-009561",
+    "name": "Klusserath",
+    "lat": 49.8478,
+    "lon": 6.8691,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6634"
+  },
+  {
+    "id": "PSF-009566",
+    "name": "Tegelberg - Allgaeu",
+    "lat": 47.5599,
+    "lon": 10.7798,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6640"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6640"
+  },
+  {
+    "id": "PSF-009585",
+    "name": "Laber - Oberammergau",
+    "lat": 47.5858,
+    "lon": 11.1031,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6660"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6660"
+  },
+  {
+    "id": "PSF-009587",
+    "name": "Neustadt-Glewe",
+    "lat": 53.3567,
+    "lon": 11.6147,
+    "wind": {},
+    "sources": {
+      "pge": "6662"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6662"
+  },
+  {
+    "id": "PSF-009602",
+    "name": "Wasserkuppe",
+    "lat": 50.4971,
+    "lon": 9.93203,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6679"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6679"
+  },
+  {
+    "id": "PSF-009646",
+    "name": "Burgen",
+    "lat": 49.8758,
+    "lon": 7.0183,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6729"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6729"
+  },
+  {
+    "id": "PSF-009647",
+    "name": "Zeltingen-Rachtig",
+    "lat": 49.9639,
+    "lon": 6.9889,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6730"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6730"
+  },
+  {
+    "id": "PSF-009717",
+    "name": "Ministerblick",
+    "lat": 51.3244,
+    "lon": 9.9508,
+    "wind": {},
+    "sources": {
+      "pge": "6828"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6828"
+  },
+  {
+    "id": "PSF-009798",
+    "name": "Oppenau Zuflucht/Rossbühl/Sandkopf",
+    "lat": 48.4873,
+    "lon": 8.23932,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6937"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6937"
+  },
+  {
+    "id": "PSF-010075",
+    "name": "Hochblauen Nord",
+    "lat": 47.7783,
+    "lon": 7.70167,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7308"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7308"
+  },
+  {
+    "id": "PSF-010695",
+    "name": "Oberemmendorf",
+    "lat": 48.9895,
+    "lon": 11.4434,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8573"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8573"
+  },
+  {
+    "id": "PSF-010696",
+    "name": "Hochfelln",
+    "lat": 47.7606,
+    "lon": 12.5597,
+    "wind": {
+      "N": 1,
+      "E": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "8575"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8575"
+  },
+  {
+    "id": "PSF-010697",
+    "name": "Oppenau Ost",
+    "lat": 48.4358,
+    "lon": 8.15317,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "8576"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8576"
+  },
+  {
+    "id": "PSF-010698",
+    "name": "HohenpÃƒÆ’Ã‚Â¶lz",
+    "lat": 49.9127,
+    "lon": 11.1656,
+    "wind": {},
+    "sources": {
+      "pge": "8577"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8577"
+  },
+  {
+    "id": "PSF-010699",
+    "name": "Nebelhorn (Oberstdorf)",
+    "lat": 47.4208,
+    "lon": 10.3422,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8578"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8578"
+  },
+  {
+    "id": "PSF-010700",
+    "name": "Oelberg-Schriesheim",
+    "lat": 49.4644,
+    "lon": 8.6786,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8579"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8579"
+  },
+  {
+    "id": "PSF-010701",
+    "name": "Schauinsland",
+    "lat": 47.9098,
+    "lon": 7.88955,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "8581"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8581"
+  },
+  {
+    "id": "PSF-010702",
+    "name": "Fuerstenberg North & Northeast",
+    "lat": 47.8926,
+    "lon": 8.56198,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8582"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8582"
+  },
+  {
+    "id": "PSF-010703",
+    "name": "Erlau",
+    "lat": 49.7431,
+    "lon": 8.8224,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "8585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8585"
+  },
+  {
+    "id": "PSF-010704",
+    "name": "Büchelstein",
+    "lat": 48.8043,
+    "lon": 13.176,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8587"
+  },
+  {
+    "id": "PSF-010705",
+    "name": "Schleppgela¤nde Sevelen",
+    "lat": 51.4852,
+    "lon": 6.43202,
+    "wind": {
+      "N": 2,
+      "E": 2,
+      "S": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8588"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8588"
+  },
+  {
+    "id": "PSF-010706",
+    "name": "Tafelbühl",
+    "lat": 48.1279,
+    "lon": 8.08379,
+    "wind": {},
+    "sources": {
+      "pge": "8589"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8589"
+  },
+  {
+    "id": "PSF-010707",
+    "name": "Hausstein",
+    "lat": 48.8712,
+    "lon": 13.0729,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "8590"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8590"
+  },
+  {
+    "id": "PSF-010708",
+    "name": "Gschasi",
+    "lat": 48.1926,
+    "lon": 8.11987,
+    "wind": {},
+    "sources": {
+      "pge": "8591"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8591"
+  },
+  {
+    "id": "PSF-010709",
+    "name": "Kirchberg",
+    "lat": 48.3047,
+    "lon": 8.20212,
+    "wind": {},
+    "sources": {
+      "pge": "8592"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8592"
+  },
+  {
+    "id": "PSF-010710",
+    "name": "Hörnleberg",
+    "lat": 48.1292,
+    "lon": 8.03663,
+    "wind": {},
+    "sources": {
+      "pge": "8593"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8593"
+  },
+  {
+    "id": "PSF-010711",
+    "name": "Gschasi",
+    "lat": 48.1863,
+    "lon": 8.1286,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8594"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8594"
+  },
+  {
+    "id": "PSF-010712",
+    "name": "Predigtstuhl",
+    "lat": 47.6978,
+    "lon": 12.877,
+    "wind": {
+      "NE": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8595"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8595"
+  },
+  {
+    "id": "PSF-010713",
+    "name": "Schneckenhorn",
+    "lat": 47.7698,
+    "lon": 7.9072,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8596"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8596"
+  },
+  {
+    "id": "PSF-010714",
+    "name": "Lindenfels",
+    "lat": 49.6911,
+    "lon": 8.76998,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "8597"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8597"
+  },
+  {
+    "id": "PSF-010715",
+    "name": "Osser",
+    "lat": 49.2033,
+    "lon": 13.0987,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8598"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8598"
+  },
+  {
+    "id": "PSF-010717",
+    "name": "Neuffen-West",
+    "lat": 48.5491,
+    "lon": 9.40407,
+    "wind": {},
+    "sources": {
+      "pge": "8600"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8600"
+  },
+  {
+    "id": "PSF-010718",
+    "name": "Messelberg",
+    "lat": 48.6794,
+    "lon": 9.8391,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8601"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8601"
+  },
+  {
+    "id": "PSF-010719",
+    "name": "Halde Norddeutschland",
+    "lat": 51.4619,
+    "lon": 6.56353,
+    "wind": {},
+    "sources": {
+      "pge": "8602"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8602"
+  },
+  {
+    "id": "PSF-010720",
+    "name": "Schrattenbach",
+    "lat": 47.8482,
+    "lon": 10.298,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8604"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8604"
+  },
+  {
+    "id": "PSF-010721",
+    "name": "Träbes",
+    "lat": 50.578,
+    "lon": 10.2956,
+    "wind": {},
+    "sources": {
+      "pge": "8605"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8605"
+  },
+  {
+    "id": "PSF-010722",
+    "name": "Boerry - Am Hellberg",
+    "lat": 52.0458,
+    "lon": 9.4509,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "8606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8606"
+  },
+  {
+    "id": "PSF-010723",
+    "name": "Harsberg",
+    "lat": 51.0748,
+    "lon": 10.371,
+    "wind": {},
+    "sources": {
+      "pge": "8608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8608"
+  },
+  {
+    "id": "PSF-010724",
+    "name": "Heukenberg",
+    "lat": 51.8269,
+    "lon": 9.65185,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "8609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8609"
+  },
+  {
+    "id": "PSF-010725",
+    "name": "Dolmar-UL -Platz",
+    "lat": 50.626,
+    "lon": 10.4754,
+    "wind": {},
+    "sources": {
+      "pge": "8610"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8610"
+  },
+  {
+    "id": "PSF-010726",
+    "name": "Königstuhl",
+    "lat": 49.4037,
+    "lon": 8.7268,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8611"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8611"
+  },
+  {
+    "id": "PSF-010727",
+    "name": "Brauneck",
+    "lat": 47.6634,
+    "lon": 11.5233,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8612"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8612"
+  },
+  {
+    "id": "PSF-010728",
+    "name": "Dielmissen",
+    "lat": 51.9824,
+    "lon": 9.62465,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8615"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8615"
+  },
+  {
+    "id": "PSF-010729",
+    "name": "Altes Lager",
+    "lat": 51.9958,
+    "lon": 12.9712,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8617"
+  },
+  {
+    "id": "PSF-010730",
+    "name": "Rammelsberg",
+    "lat": 51.8896,
+    "lon": 10.4311,
+    "wind": {
+      "SW": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8618"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8618"
+  },
+  {
+    "id": "PSF-010731",
+    "name": "Wank",
+    "lat": 47.5067,
+    "lon": 11.1469,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8620"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8620"
+  },
+  {
+    "id": "PSF-010732",
+    "name": "Gschasi",
+    "lat": 48.1932,
+    "lon": 8.0989,
+    "wind": {},
+    "sources": {
+      "pge": "8621"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8621"
+  },
+  {
+    "id": "PSF-010733",
+    "name": "Adelberg",
+    "lat": 49.216,
+    "lon": 7.96163,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "8623"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8623"
+  },
+  {
+    "id": "PSF-010734",
+    "name": "Melibokus",
+    "lat": 49.7256,
+    "lon": 8.6355,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8624"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8624"
+  },
+  {
+    "id": "PSF-010735",
+    "name": "Busigberg",
+    "lat": 49.7338,
+    "lon": 9.21125,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "8625"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8625"
+  },
+  {
+    "id": "PSF-010736",
+    "name": "Hochries",
+    "lat": 47.7471,
+    "lon": 12.2503,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8627"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8627"
+  },
+  {
+    "id": "PSF-010737",
+    "name": "Burgberg Kallmünz",
+    "lat": 49.1676,
+    "lon": 11.9552,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "8628"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8628"
+  },
+  {
+    "id": "PSF-010738",
+    "name": "Förlenberg",
+    "lat": 49.1928,
+    "lon": 8.00622,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8629"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8629"
+  },
+  {
+    "id": "PSF-010739",
+    "name": "Sommerberg",
+    "lat": 49.0366,
+    "lon": 12.7465,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8631"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8631"
+  },
+  {
+    "id": "PSF-010740",
+    "name": "Bad Griesbach (Vogtmaiers-Kanzel)",
+    "lat": 48.4552,
+    "lon": 8.26003,
+    "wind": {},
+    "sources": {
+      "pge": "8632"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8632"
+  },
+  {
+    "id": "PSF-010741",
+    "name": "Eichenhärtle",
+    "lat": 48.0681,
+    "lon": 8.79695,
+    "wind": {},
+    "sources": {
+      "pge": "8633"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8633"
+  },
+  {
+    "id": "PSF-010742",
+    "name": "Willingen Sonnenhang",
+    "lat": 51.2942,
+    "lon": 8.58722,
+    "wind": {},
+    "sources": {
+      "pge": "8634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8634"
+  },
+  {
+    "id": "PSF-010743",
+    "name": "SpieÃƒÅ¸horn - Krunkelbach",
+    "lat": 47.8268,
+    "lon": 8.03545,
+    "wind": {},
+    "sources": {
+      "pge": "8635"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8635"
+  },
+  {
+    "id": "PSF-010744",
+    "name": "Walberla",
+    "lat": 49.7203,
+    "lon": 11.152,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8637"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8637"
+  },
+  {
+    "id": "PSF-010745",
+    "name": "Flugplatz Michelstadt",
+    "lat": 49.675,
+    "lon": 8.96143,
+    "wind": {},
+    "sources": {
+      "pge": "8638"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8638"
+  },
+  {
+    "id": "PSF-010746",
+    "name": "Kleinheppacher Kopf",
+    "lat": 48.8339,
+    "lon": 9.37657,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "8639"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8639"
+  },
+  {
+    "id": "PSF-010747",
+    "name": "Ofenthaler Berg",
+    "lat": 50.1245,
+    "lon": 9.90952,
+    "wind": {},
+    "sources": {
+      "pge": "8640"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8640"
+  },
+  {
+    "id": "PSF-010748",
+    "name": "Osterfelder (Garmisch)",
+    "lat": 47.4386,
+    "lon": 11.0496,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8641"
+  },
+  {
+    "id": "PSF-010749",
+    "name": "Unterschwaningen airstrip",
+    "lat": 49.0519,
+    "lon": 10.3818,
+    "wind": {},
+    "sources": {
+      "pge": "8643"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8643"
+  },
+  {
+    "id": "PSF-010750",
+    "name": "Welleringhausen",
+    "lat": 51.2728,
+    "lon": 8.7194,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "8644"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8644"
+  },
+  {
+    "id": "PSF-010751",
+    "name": "Oberacker",
+    "lat": 49.1056,
+    "lon": 8.71997,
+    "wind": {
+      "NE": 2,
+      "E": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "8647"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8647"
+  },
+  {
+    "id": "PSF-010752",
+    "name": "Breitenberg Pfronten",
+    "lat": 47.5487,
+    "lon": 10.5549,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "8648"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8648"
+  },
+  {
+    "id": "PSF-010753",
+    "name": "Kella",
+    "lat": 51.2431,
+    "lon": 10.0799,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "8649"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8649"
+  },
+  {
+    "id": "PSF-010754",
+    "name": "Pfeffelbach",
+    "lat": 49.5495,
+    "lon": 7.3079,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "8650"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8650"
+  },
+  {
+    "id": "PSF-010755",
+    "name": "Ehrsberg Koepfle",
+    "lat": 47.7509,
+    "lon": 7.90732,
+    "wind": {
+      "N": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8651"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8651"
+  },
+  {
+    "id": "PSF-010756",
+    "name": "Winden-Gupfe",
+    "lat": 47.8102,
+    "lon": 7.90027,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "8652"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8652"
+  },
+  {
+    "id": "PSF-010757",
+    "name": "Dreisessel",
+    "lat": 48.7874,
+    "lon": 13.788,
+    "wind": {},
+    "sources": {
+      "pge": "8653"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8653"
+  },
+  {
+    "id": "PSF-010758",
+    "name": "Grainet",
+    "lat": 48.7986,
+    "lon": 13.6642,
+    "wind": {},
+    "sources": {
+      "pge": "8654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8654"
+  },
+  {
+    "id": "PSF-010759",
+    "name": "Porta-Westfalica-Wittekindsburg",
+    "lat": 52.2438,
+    "lon": 8.8966,
+    "wind": {},
+    "sources": {
+      "pge": "8656"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8656"
+  },
+  {
+    "id": "PSF-010760",
+    "name": "Porta-Westfalica-Wittekindsburg",
+    "lat": 52.2381,
+    "lon": 8.91033,
+    "wind": {},
+    "sources": {
+      "pge": "8657"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8657"
+  },
+  {
+    "id": "PSF-010761",
+    "name": "Rohrbahn",
+    "lat": 50.6315,
+    "lon": 11.4154,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "8658"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8658"
+  },
+  {
+    "id": "PSF-010762",
+    "name": "Bausenberg",
+    "lat": 50.4647,
+    "lon": 7.2227,
+    "wind": {},
+    "sources": {
+      "pge": "8661"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8661"
+  },
+  {
+    "id": "PSF-010763",
+    "name": "Merkur",
+    "lat": 48.7648,
+    "lon": 8.27941,
+    "wind": {
+      "NE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8662"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8662"
+  },
+  {
+    "id": "PSF-010764",
+    "name": "Orensberg",
+    "lat": 49.2381,
+    "lon": 8.0238,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "8663"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8663"
+  },
+  {
+    "id": "PSF-010765",
+    "name": "Loffenau Teufelsmühle",
+    "lat": 48.7572,
+    "lon": 8.40313,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8664"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8664"
+  },
+  {
+    "id": "PSF-010766",
+    "name": "MeiÃƒÅ¸ner West",
+    "lat": 51.2469,
+    "lon": 9.84443,
+    "wind": {},
+    "sources": {
+      "pge": "8665"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8665"
+  },
+  {
+    "id": "PSF-010767",
+    "name": "Ittenschwander Horn",
+    "lat": 47.764,
+    "lon": 7.86173,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "8666"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8666"
+  },
+  {
+    "id": "PSF-010768",
+    "name": "Mindersdorf Schleppgelände",
+    "lat": 47.8989,
+    "lon": 9.08403,
+    "wind": {},
+    "sources": {
+      "pge": "8667"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8667"
+  },
+  {
+    "id": "PSF-010769",
+    "name": "what erver",
+    "lat": 49.1259,
+    "lon": 9.78963,
+    "wind": {},
+    "sources": {
+      "pge": "8669"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8669"
+  },
+  {
+    "id": "PSF-010770",
+    "name": "Meddersheim",
+    "lat": 49.779,
+    "lon": 7.5837,
+    "wind": {},
+    "sources": {
+      "pge": "8670"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8670"
+  },
+  {
+    "id": "PSF-010771",
+    "name": "Tauberberg",
+    "lat": 49.4799,
+    "lon": 9.8478,
+    "wind": {},
+    "sources": {
+      "pge": "8671"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8671"
+  },
+  {
+    "id": "PSF-010772",
+    "name": "Schwabhausen",
+    "lat": 49.4503,
+    "lon": 9.59643,
+    "wind": {},
+    "sources": {
+      "pge": "8673"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8673"
+  },
+  {
+    "id": "PSF-010773",
+    "name": "Schwabhausen",
+    "lat": 49.4422,
+    "lon": 9.60247,
+    "wind": {},
+    "sources": {
+      "pge": "8675"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8675"
+  },
+  {
+    "id": "PSF-010774",
+    "name": "Agrarflugplatz Beilrode",
+    "lat": 51.5716,
+    "lon": 13.0548,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8676"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8676"
+  },
+  {
+    "id": "PSF-010775",
+    "name": "Schleppgelände Königsbrunn",
+    "lat": 48.244,
+    "lon": 10.8793,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8677"
+  },
+  {
+    "id": "PSF-010776",
+    "name": "Altbokhorst",
+    "lat": 54.1028,
+    "lon": 10.1417,
+    "wind": {},
+    "sources": {
+      "pge": "8679"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8679"
+  },
+  {
+    "id": "PSF-010777",
+    "name": "Duernsricht",
+    "lat": 49.3973,
+    "lon": 12.0601,
+    "wind": {},
+    "sources": {
+      "pge": "8680"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8680"
+  },
+  {
+    "id": "PSF-010778",
+    "name": "Görauer Anger",
+    "lat": 50.0598,
+    "lon": 11.3237,
+    "wind": {},
+    "sources": {
+      "pge": "8681"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8681"
+  },
+  {
+    "id": "PSF-010779",
+    "name": "Bösingen",
+    "lat": 48.2277,
+    "lon": 8.53674,
+    "wind": {},
+    "sources": {
+      "pge": "8683"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8683"
+  },
+  {
+    "id": "PSF-010780",
+    "name": "Schleppgelände Offenbach",
+    "lat": 49.1696,
+    "lon": 8.18762,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8685"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8685"
+  },
+  {
+    "id": "PSF-010781",
+    "name": "Stoeckerkopf",
+    "lat": 48.4954,
+    "lon": 8.3683,
+    "wind": {
+      "N": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "8686"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8686"
+  },
+  {
+    "id": "PSF-010782",
+    "name": "Oppenau Geroldseckle",
+    "lat": 48.4628,
+    "lon": 8.11353,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8687"
+  },
+  {
+    "id": "PSF-010783",
+    "name": "Weiherkopf",
+    "lat": 47.8044,
+    "lon": 7.77787,
+    "wind": {},
+    "sources": {
+      "pge": "8688"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8688"
+  },
+  {
+    "id": "PSF-010784",
+    "name": "Hohenpölz",
+    "lat": 49.9095,
+    "lon": 11.1502,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8689"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8689"
+  },
+  {
+    "id": "PSF-010785",
+    "name": "Görauer Anger",
+    "lat": 50.0622,
+    "lon": 11.3033,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "8691"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8691"
+  },
+  {
+    "id": "PSF-010786",
+    "name": "Königszinne",
+    "lat": 51.978,
+    "lon": 9.52323,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8692"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8692"
+  },
+  {
+    "id": "PSF-010787",
+    "name": "Türkheim",
+    "lat": 48.5945,
+    "lon": 9.80812,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8693"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8693"
+  },
+  {
+    "id": "PSF-010788",
+    "name": "Serrig",
+    "lat": 49.569,
+    "lon": 6.6155,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8698"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8698"
+  },
+  {
+    "id": "PSF-010789",
+    "name": "UL-Flugplatz Forst",
+    "lat": 49.2139,
+    "lon": 11.38,
+    "wind": {},
+    "sources": {
+      "pge": "8699"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8699"
+  },
+  {
+    "id": "PSF-010791",
+    "name": "UL-Flugplatz Kerken",
+    "lat": 51.4323,
+    "lon": 6.44722,
+    "wind": {},
+    "sources": {
+      "pge": "8701"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8701"
+  },
+  {
+    "id": "PSF-010792",
+    "name": "Blättersberg",
+    "lat": 49.2657,
+    "lon": 8.07042,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8702"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8702"
+  },
+  {
+    "id": "PSF-010793",
+    "name": "Siegritz",
+    "lat": 49.8556,
+    "lon": 11.2117,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8703"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8703"
+  },
+  {
+    "id": "PSF-010794",
+    "name": "Hesselberg",
+    "lat": 49.068,
+    "lon": 10.5344,
+    "wind": {},
+    "sources": {
+      "pge": "8706"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8706"
+  },
+  {
+    "id": "PSF-010795",
+    "name": "Wisselsing",
+    "lat": 48.7122,
+    "lon": 12.9545,
+    "wind": {},
+    "sources": {
+      "pge": "8708"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8708"
+  },
+  {
+    "id": "PSF-010796",
+    "name": "Mosbach-Finkenhof",
+    "lat": 49.3339,
+    "lon": 9.09388,
+    "wind": {},
+    "sources": {
+      "pge": "8710"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8710"
+  },
+  {
+    "id": "PSF-010797",
+    "name": "Kandel",
+    "lat": 48.0653,
+    "lon": 8.0156,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8711"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8711"
+  },
+  {
+    "id": "PSF-010798",
+    "name": "Einkorn",
+    "lat": 49.0901,
+    "lon": 9.7757,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "8714"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8714"
+  },
+  {
+    "id": "PSF-010799",
+    "name": "Winterberg",
+    "lat": 49.4833,
+    "lon": 9.88868,
+    "wind": {},
+    "sources": {
+      "pge": "8717"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8717"
+  },
+  {
+    "id": "PSF-010800",
+    "name": "Porta-Westfalica-Wittekindsburg",
+    "lat": 52.2489,
+    "lon": 8.876,
+    "wind": {},
+    "sources": {
+      "pge": "8719"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8719"
+  },
+  {
+    "id": "PSF-010801",
+    "name": "Grainet",
+    "lat": 48.7763,
+    "lon": 13.6286,
+    "wind": {},
+    "sources": {
+      "pge": "8720"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8720"
+  },
+  {
+    "id": "PSF-010802",
+    "name": "Wenholthausen",
+    "lat": 51.3031,
+    "lon": 8.19092,
+    "wind": {},
+    "sources": {
+      "pge": "8722"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8722"
+  },
+  {
+    "id": "PSF-010803",
+    "name": "Stüppel Andreasberg",
+    "lat": 51.2839,
+    "lon": 8.60002,
+    "wind": {},
+    "sources": {
+      "pge": "8723"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8723"
+  },
+  {
+    "id": "PSF-010804",
+    "name": "Crawinkel",
+    "lat": 50.7769,
+    "lon": 10.8146,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8724"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8724"
+  },
+  {
+    "id": "PSF-010805",
+    "name": "Hassloch",
+    "lat": 49.3543,
+    "lon": 8.28447,
+    "wind": {},
+    "sources": {
+      "pge": "8725"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8725"
+  },
+  {
+    "id": "PSF-010806",
+    "name": "Waldstetten-Skihütte",
+    "lat": 48.7519,
+    "lon": 9.815,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "8728"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8728"
+  },
+  {
+    "id": "PSF-010807",
+    "name": "Kampenwand",
+    "lat": 47.7531,
+    "lon": 12.3529,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8729"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8729"
+  },
+  {
+    "id": "PSF-010808",
+    "name": "Cottbus Nord",
+    "lat": 51.7676,
+    "lon": 14.3069,
+    "wind": {},
+    "sources": {
+      "pge": "8730"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8730"
+  },
+  {
+    "id": "PSF-010809",
+    "name": "Donnersberg",
+    "lat": 49.6349,
+    "lon": 7.93258,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8731"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8731"
+  },
+  {
+    "id": "PSF-010810",
+    "name": "Schleppgelände Dischingen",
+    "lat": 48.6941,
+    "lon": 10.3373,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8732"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8732"
+  },
+  {
+    "id": "PSF-010811",
+    "name": "Oerlinghausen",
+    "lat": 51.9283,
+    "lon": 8.66938,
+    "wind": {},
+    "sources": {
+      "pge": "8733"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8733"
+  },
+  {
+    "id": "PSF-010812",
+    "name": "Schneithalde",
+    "lat": 48.2962,
+    "lon": 9.05705,
+    "wind": {},
+    "sources": {
+      "pge": "8734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8734"
+  },
+  {
+    "id": "PSF-010813",
+    "name": "Buchberg",
+    "lat": 49.5147,
+    "lon": 12.0299,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8735"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8735"
+  },
+  {
+    "id": "PSF-010814",
+    "name": "Donnersberg",
+    "lat": 49.6269,
+    "lon": 7.94138,
+    "wind": {},
+    "sources": {
+      "pge": "8736"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8736"
+  },
+  {
+    "id": "PSF-010815",
+    "name": "Kuchalb",
+    "lat": 48.6566,
+    "lon": 9.81217,
+    "wind": {},
+    "sources": {
+      "pge": "8737"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8737"
+  },
+  {
+    "id": "PSF-010816",
+    "name": "Glasberg",
+    "lat": 50.6613,
+    "lon": 10.2253,
+    "wind": {},
+    "sources": {
+      "pge": "8738"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8738"
+  },
+  {
+    "id": "PSF-010817",
+    "name": "Blankenhain",
+    "lat": 50.8464,
+    "lon": 11.3475,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8739"
+  },
+  {
+    "id": "PSF-010818",
+    "name": "Jaegerberg",
+    "lat": 50.9697,
+    "lon": 11.6197,
+    "wind": {
+      "E": 1,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "8740"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8740"
+  },
+  {
+    "id": "PSF-010819",
+    "name": "Jenzig south",
+    "lat": 50.9388,
+    "lon": 11.6331,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "8741"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8741"
+  },
+  {
+    "id": "PSF-010820",
+    "name": "Stüppel-Fort Fun Abenteuerland",
+    "lat": 51.3145,
+    "lon": 8.42752,
+    "wind": {},
+    "sources": {
+      "pge": "8744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8744"
+  },
+  {
+    "id": "PSF-010821",
+    "name": "Auf der Platte",
+    "lat": 49.1623,
+    "lon": 7.22712,
+    "wind": {
+      "NE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8747"
+  },
+  {
+    "id": "PSF-010822",
+    "name": "Görauer Anger - Lopp",
+    "lat": 50.0573,
+    "lon": 11.3503,
+    "wind": {},
+    "sources": {
+      "pge": "8749"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8749"
+  },
+  {
+    "id": "PSF-010823",
+    "name": "Boxberg",
+    "lat": 49.47,
+    "lon": 9.64827,
+    "wind": {},
+    "sources": {
+      "pge": "8751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8751"
+  },
+  {
+    "id": "PSF-010824",
+    "name": "Proeller",
+    "lat": 49.0222,
+    "lon": 12.8215,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8754"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8754"
+  },
+  {
+    "id": "PSF-010825",
+    "name": "Hochgrat",
+    "lat": 47.4935,
+    "lon": 10.0732,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8756"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8756"
+  },
+  {
+    "id": "PSF-010826",
+    "name": "Mitteldachstetten",
+    "lat": 49.3996,
+    "lon": 10.4544,
+    "wind": {},
+    "sources": {
+      "pge": "8757"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8757"
+  },
+  {
+    "id": "PSF-010827",
+    "name": "Hoher Bogen",
+    "lat": 49.2359,
+    "lon": 12.9463,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "8758"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8758"
+  },
+  {
+    "id": "PSF-010828",
+    "name": "Mehring",
+    "lat": 49.7841,
+    "lon": 6.82187,
+    "wind": {},
+    "sources": {
+      "pge": "8760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8760"
+  },
+  {
+    "id": "PSF-010829",
+    "name": "Airfield Stapelburg",
+    "lat": 51.9144,
+    "lon": 10.6844,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8762"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8762"
+  },
+  {
+    "id": "PSF-010830",
+    "name": "Sodkopf",
+    "lat": 48.6251,
+    "lon": 8.1628,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8764"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8764"
+  },
+  {
+    "id": "PSF-010831",
+    "name": "Bürgstadt",
+    "lat": 49.7213,
+    "lon": 9.2858,
+    "wind": {},
+    "sources": {
+      "pge": "8765"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8765"
+  },
+  {
+    "id": "PSF-010832",
+    "name": "Flugplatz Aschersleben",
+    "lat": 51.763,
+    "lon": 11.4986,
+    "wind": {},
+    "sources": {
+      "pge": "8766"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8766"
+  },
+  {
+    "id": "PSF-010833",
+    "name": "Arnsberg Oberweissenbrunn",
+    "lat": 50.3986,
+    "lon": 9.95427,
+    "wind": {},
+    "sources": {
+      "pge": "8767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8767"
+  },
+  {
+    "id": "PSF-010834",
+    "name": "Eichberg",
+    "lat": 47.8457,
+    "lon": 8.51115,
+    "wind": {},
+    "sources": {
+      "pge": "8770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8770"
+  },
+  {
+    "id": "PSF-010835",
+    "name": "Rivenich",
+    "lat": 49.877,
+    "lon": 6.86105,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "8771"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8771"
+  },
+  {
+    "id": "PSF-010836",
+    "name": "Hubertushütte",
+    "lat": 47.9438,
+    "lon": 8.63266,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "8775"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8775"
+  },
+  {
+    "id": "PSF-010837",
+    "name": "Brunsberg",
+    "lat": 51.7501,
+    "lon": 9.35015,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "8776"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8776"
+  },
+  {
+    "id": "PSF-010838",
+    "name": "Heue",
+    "lat": 47.6197,
+    "lon": 7.9391,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8778"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8778"
+  },
+  {
+    "id": "PSF-010839",
+    "name": "Oberacker-Winde",
+    "lat": 49.1032,
+    "lon": 8.77458,
+    "wind": {},
+    "sources": {
+      "pge": "8779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8779"
+  },
+  {
+    "id": "PSF-010840",
+    "name": "Gedeonseck Boppard",
+    "lat": 50.2443,
+    "lon": 7.57293,
+    "wind": {},
+    "sources": {
+      "pge": "8780"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8780"
+  },
+  {
+    "id": "PSF-010841",
+    "name": "Grifte",
+    "lat": 51.2213,
+    "lon": 9.4482,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8782"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8782"
+  },
+  {
+    "id": "PSF-010842",
+    "name": "Oppenau NordOst",
+    "lat": 48.4475,
+    "lon": 8.1464,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8784"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8784"
+  },
+  {
+    "id": "PSF-010843",
+    "name": "Odernheim Neuberg",
+    "lat": 49.7632,
+    "lon": 7.69298,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "8785"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8785"
+  },
+  {
+    "id": "PSF-010844",
+    "name": "Lasserg",
+    "lat": 50.2173,
+    "lon": 7.38533,
+    "wind": {},
+    "sources": {
+      "pge": "8786"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8786"
+  },
+  {
+    "id": "PSF-010845",
+    "name": "Vogelsang",
+    "lat": 47.6649,
+    "lon": 12.038,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8787"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8787"
+  },
+  {
+    "id": "PSF-010846",
+    "name": "Durchhausen",
+    "lat": 48.0474,
+    "lon": 8.67847,
+    "wind": {},
+    "sources": {
+      "pge": "8788"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8788"
+  },
+  {
+    "id": "PSF-010847",
+    "name": "Fridingen Risi",
+    "lat": 48.0148,
+    "lon": 8.91563,
+    "wind": {},
+    "sources": {
+      "pge": "8789"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8789"
+  },
+  {
+    "id": "PSF-010848",
+    "name": "Leibertingen Segelflugplatz",
+    "lat": 48.0475,
+    "lon": 9.0439,
+    "wind": {},
+    "sources": {
+      "pge": "8790"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8790"
+  },
+  {
+    "id": "PSF-010849",
+    "name": "Stettelberg",
+    "lat": 47.8134,
+    "lon": 9.0754,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "8791"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8791"
+  },
+  {
+    "id": "PSF-010850",
+    "name": "Winde-Werlau",
+    "lat": 50.1618,
+    "lon": 7.69493,
+    "wind": {},
+    "sources": {
+      "pge": "8792"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8792"
+  },
+  {
+    "id": "PSF-010851",
+    "name": "Heinsheim",
+    "lat": 49.2506,
+    "lon": 9.15125,
+    "wind": {},
+    "sources": {
+      "pge": "8793"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8793"
+  },
+  {
+    "id": "PSF-010852",
+    "name": "Hausberg (Garmisch)",
+    "lat": 47.4658,
+    "lon": 11.1014,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "8794"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8794"
+  },
+  {
+    "id": "PSF-010853",
+    "name": "Auer Blick-Fliegen um Eschwege-Wanfried",
+    "lat": 51.1682,
+    "lon": 10.1302,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8795"
+  },
+  {
+    "id": "PSF-010854",
+    "name": "Dolberg",
+    "lat": 51.1094,
+    "lon": 8.16643,
+    "wind": {},
+    "sources": {
+      "pge": "8798"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8798"
+  },
+  {
+    "id": "PSF-010855",
+    "name": "Arzbach (Grosser Kopf Westerwald)W-NW",
+    "lat": 50.3709,
+    "lon": 7.75625,
+    "wind": {},
+    "sources": {
+      "pge": "8799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8799"
+  },
+  {
+    "id": "PSF-010857",
+    "name": "Segelflugplatz Pohlheim",
+    "lat": 50.5321,
+    "lon": 8.7355,
+    "wind": {},
+    "sources": {
+      "pge": "8801"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8801"
+  },
+  {
+    "id": "PSF-010858",
+    "name": "Jenner",
+    "lat": 47.6194,
+    "lon": 13.0773,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8802"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8802"
+  },
+  {
+    "id": "PSF-010859",
+    "name": "Katzenkopf",
+    "lat": 48.5965,
+    "lon": 8.19536,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "8804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8804"
+  },
+  {
+    "id": "PSF-010860",
+    "name": "Schreckhof Obrigheim",
+    "lat": 49.3617,
+    "lon": 9.1053,
+    "wind": {},
+    "sources": {
+      "pge": "8806"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8806"
+  },
+  {
+    "id": "PSF-010861",
+    "name": "Wernges",
+    "lat": 50.6851,
+    "lon": 9.41703,
+    "wind": {},
+    "sources": {
+      "pge": "8809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8809"
+  },
+  {
+    "id": "PSF-010862",
+    "name": "Winterberg",
+    "lat": 51.2068,
+    "lon": 8.53213,
+    "wind": {},
+    "sources": {
+      "pge": "8810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8810"
+  },
+  {
+    "id": "PSF-010863",
+    "name": "Neusling",
+    "lat": 48.7043,
+    "lon": 12.8777,
+    "wind": {},
+    "sources": {
+      "pge": "8813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8813"
+  },
+  {
+    "id": "PSF-010864",
+    "name": "Langfurt",
+    "lat": 48.8371,
+    "lon": 13.201,
+    "wind": {},
+    "sources": {
+      "pge": "8818"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8818"
+  },
+  {
+    "id": "PSF-010865",
+    "name": "Steinmarkskopf",
+    "lat": 51.2704,
+    "lon": 8.43337,
+    "wind": {},
+    "sources": {
+      "pge": "8819"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8819"
+  },
+  {
+    "id": "PSF-010866",
+    "name": "Gräfenthal",
+    "lat": 50.5177,
+    "lon": 11.3294,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8820"
+  },
+  {
+    "id": "PSF-010867",
+    "name": "Dietersdorf",
+    "lat": 49.7971,
+    "lon": 12.2001,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8821"
+  },
+  {
+    "id": "PSF-010868",
+    "name": "Serrenkopf",
+    "lat": 48.2886,
+    "lon": 8.2573,
+    "wind": {},
+    "sources": {
+      "pge": "8824"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8824"
+  },
+  {
+    "id": "PSF-010869",
+    "name": "Kreuzberg",
+    "lat": 50.3797,
+    "lon": 9.9926,
+    "wind": {},
+    "sources": {
+      "pge": "8825"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8825"
+  },
+  {
+    "id": "PSF-010870",
+    "name": "Langmühler Aussicht",
+    "lat": 49.2783,
+    "lon": 7.85922,
+    "wind": {},
+    "sources": {
+      "pge": "8827"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8827"
+  },
+  {
+    "id": "PSF-010871",
+    "name": "Dörzbach-Hohebach",
+    "lat": 49.3549,
+    "lon": 9.7351,
+    "wind": {},
+    "sources": {
+      "pge": "8828"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8828"
+  },
+  {
+    "id": "PSF-010872",
+    "name": "Altenbeuthen",
+    "lat": 50.5937,
+    "lon": 11.5939,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8829"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8829"
+  },
+  {
+    "id": "PSF-010873",
+    "name": "Rüsselhausen",
+    "lat": 49.4445,
+    "lon": 9.86773,
+    "wind": {},
+    "sources": {
+      "pge": "8830"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8830"
+  },
+  {
+    "id": "PSF-010874",
+    "name": "Flugplatz Ohlsbach",
+    "lat": 48.4435,
+    "lon": 7.96543,
+    "wind": {},
+    "sources": {
+      "pge": "8831"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8831"
+  },
+  {
+    "id": "PSF-010875",
+    "name": "Hörpel",
+    "lat": 53.1333,
+    "lon": 10.0331,
+    "wind": {},
+    "sources": {
+      "pge": "8832"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8832"
+  },
+  {
+    "id": "PSF-010876",
+    "name": "Bamling",
+    "lat": 48.7164,
+    "lon": 12.8851,
+    "wind": {},
+    "sources": {
+      "pge": "8833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8833"
+  },
+  {
+    "id": "PSF-010877",
+    "name": "Flugplatz Möckern",
+    "lat": 52.1771,
+    "lon": 11.9278,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8834"
+  },
+  {
+    "id": "PSF-010878",
+    "name": "Wirmighausen",
+    "lat": 51.351,
+    "lon": 8.8303,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8835"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8835"
+  },
+  {
+    "id": "PSF-010879",
+    "name": "Holzbronn",
+    "lat": 49.5269,
+    "lon": 9.82418,
+    "wind": {},
+    "sources": {
+      "pge": "8837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8837"
+  },
+  {
+    "id": "PSF-010880",
+    "name": "Radspitze",
+    "lat": 50.2369,
+    "lon": 11.4251,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8839"
+  },
+  {
+    "id": "PSF-010881",
+    "name": "Graach",
+    "lat": 49.9427,
+    "lon": 7.06545,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8840"
+  },
+  {
+    "id": "PSF-010882",
+    "name": "Honsbronn",
+    "lat": 49.4423,
+    "lon": 9.90972,
+    "wind": {},
+    "sources": {
+      "pge": "8842"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8842"
+  },
+  {
+    "id": "PSF-010883",
+    "name": "Omerskopf",
+    "lat": 48.6419,
+    "lon": 8.16878,
+    "wind": {},
+    "sources": {
+      "pge": "8843"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8843"
+  },
+  {
+    "id": "PSF-010884",
+    "name": "Knobelsdorf",
+    "lat": 50.6068,
+    "lon": 11.3708,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "8845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8845"
+  },
+  {
+    "id": "PSF-010885",
+    "name": "Burgberg",
+    "lat": 48.5876,
+    "lon": 10.2246,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8846"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8846"
+  },
+  {
+    "id": "PSF-010886",
+    "name": "Neidlingen",
+    "lat": 48.5771,
+    "lon": 9.59225,
+    "wind": {},
+    "sources": {
+      "pge": "8847"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8847"
+  },
+  {
+    "id": "PSF-010887",
+    "name": "Steinbruch Saal - Rönkhausen",
+    "lat": 51.2359,
+    "lon": 7.95353,
+    "wind": {},
+    "sources": {
+      "pge": "8848"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8848"
+  },
+  {
+    "id": "PSF-010888",
+    "name": "Segelflugplatz Riesa Canitz",
+    "lat": 51.3036,
+    "lon": 13.2242,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8851"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8851"
+  },
+  {
+    "id": "PSF-010889",
+    "name": "Kühnhardt am Schlegel",
+    "lat": 49.153,
+    "lon": 10.2447,
+    "wind": {},
+    "sources": {
+      "pge": "8853"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8853"
+  },
+  {
+    "id": "PSF-010890",
+    "name": "Althof",
+    "lat": 48.8223,
+    "lon": 8.40103,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8855"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8855"
+  },
+  {
+    "id": "PSF-010891",
+    "name": "Dürnsricht",
+    "lat": 49.4384,
+    "lon": 12.1881,
+    "wind": {},
+    "sources": {
+      "pge": "8856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8856"
+  },
+  {
+    "id": "PSF-010892",
+    "name": "Vogelberg",
+    "lat": 49.7747,
+    "lon": 12.0817,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8857"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8857"
+  },
+  {
+    "id": "PSF-010893",
+    "name": "Ascheloh-Hermannsweg",
+    "lat": 52.0504,
+    "lon": 8.40758,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8859"
+  },
+  {
+    "id": "PSF-010894",
+    "name": "Breitnau",
+    "lat": 47.8562,
+    "lon": 7.83933,
+    "wind": {},
+    "sources": {
+      "pge": "8860"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8860"
+  },
+  {
+    "id": "PSF-010895",
+    "name": "Hartenstein",
+    "lat": 50.6723,
+    "lon": 12.6728,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8862"
+  },
+  {
+    "id": "PSF-010896",
+    "name": "Obere Tonhalde- Buttenhausen",
+    "lat": 48.3594,
+    "lon": 9.4845,
+    "wind": {},
+    "sources": {
+      "pge": "8864"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8864"
+  },
+  {
+    "id": "PSF-010897",
+    "name": "Engerda",
+    "lat": 50.7924,
+    "lon": 11.4245,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "8867"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8867"
+  },
+  {
+    "id": "PSF-010898",
+    "name": "Longuich",
+    "lat": 49.8146,
+    "lon": 6.78065,
+    "wind": {},
+    "sources": {
+      "pge": "8868"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8868"
+  }
+]

@@ -1,0 +1,229 @@
+[
+  {
+    "id": "PSF-000586",
+    "name": "Rustavi",
+    "lat": 41.5544,
+    "lon": 44.9346,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10688"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10688"
+  },
+  {
+    "id": "PSF-000587",
+    "name": "Tbilisi Sea",
+    "lat": 41.7572,
+    "lon": 44.9195,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10689"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10689"
+  },
+  {
+    "id": "PSF-000588",
+    "name": "Jijeti",
+    "lat": 42.1663,
+    "lon": 44.8507,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10690"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10690"
+  },
+  {
+    "id": "PSF-000601",
+    "name": "Tkhibuli Crater",
+    "lat": 42.391,
+    "lon": 43.006,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10703"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10703"
+  },
+  {
+    "id": "PSF-001879",
+    "name": "Gudauri",
+    "lat": 42.4871,
+    "lon": 44.5017,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "12547"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12547"
+  },
+  {
+    "id": "PSF-004071",
+    "name": "Kazbegi",
+    "lat": 42.6645,
+    "lon": 44.6193,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16093"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16093"
+  },
+  {
+    "id": "PSF-005904",
+    "name": "Gudauri (skyatlantida.com)",
+    "lat": 42.4973,
+    "lon": 44.5073,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19641"
+  },
+  {
+    "id": "PSF-006941",
+    "name": "Kazaniani",
+    "lat": 41.6842,
+    "lon": 45.2818,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "21945"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21945"
+  },
+  {
+    "id": "PSF-006942",
+    "name": "Koda",
+    "lat": 41.7878,
+    "lon": 45.3417,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21946"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21946"
+  },
+  {
+    "id": "PSF-007266",
+    "name": "xcaucasus.ge",
+    "lat": 41.546,
+    "lon": 44.9516,
+    "wind": {},
+    "sources": {
+      "pge": "22329"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22329"
+  },
+  {
+    "id": "PSF-007462",
+    "name": "Mestia",
+    "lat": 43.0648,
+    "lon": 42.7194,
+    "wind": {},
+    "sources": {
+      "pge": "22543"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22543"
+  },
+  {
+    "id": "PSF-008007",
+    "name": "Kandaura",
+    "lat": 41.6925,
+    "lon": 45.5838,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "23153"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23153"
+  },
+  {
+    "id": "PSF-008008",
+    "name": "Manavi Tsivi",
+    "lat": 41.7795,
+    "lon": 45.4502,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23154"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23154"
+  },
+  {
+    "id": "PSF-008009",
+    "name": "Lalisquri",
+    "lat": 42.0992,
+    "lon": 45.418,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23155"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23155"
+  }
+]

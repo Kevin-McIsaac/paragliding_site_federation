@@ -1,0 +1,66 @@
+[
+  {
+    "id": "PSF-000456",
+    "name": "Worlds View",
+    "lat": -18.1724,
+    "lon": 32.7688,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10521"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10521"
+  },
+  {
+    "id": "PSF-003033",
+    "name": "Samanga",
+    "lat": -18.5226,
+    "lon": 32.7318,
+    "wind": {
+      "NE": 2,
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "14440"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14440"
+  },
+  {
+    "id": "PSF-003034",
+    "name": "St Albert's Mission",
+    "lat": -16.4458,
+    "lon": 31.3094,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "14441"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14441"
+  },
+  {
+    "id": "PSF-003035",
+    "name": "Caesar Mine",
+    "lat": -17.3214,
+    "lon": 30.6559,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "14442"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14442"
+  }
+]

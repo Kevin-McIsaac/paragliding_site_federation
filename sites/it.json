@@ -1,0 +1,8541 @@
+[
+  {
+    "id": "PSF-000027",
+    "name": "Monfestino",
+    "lat": 44.4263,
+    "lon": 10.8258,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10030"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10030"
+  },
+  {
+    "id": "PSF-000028",
+    "name": "Ospedaletti Monte Nero Alto",
+    "lat": 43.8076,
+    "lon": 7.6893,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10032"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10032"
+  },
+  {
+    "id": "PSF-000029",
+    "name": "Pianoro",
+    "lat": 43.8285,
+    "lon": 7.7141,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10033"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10033"
+  },
+  {
+    "id": "PSF-000129",
+    "name": "Massanera",
+    "lat": 43.7013,
+    "lon": 11.5559,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10153"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10153"
+  },
+  {
+    "id": "PSF-000130",
+    "name": "Serrone",
+    "lat": 41.8482,
+    "lon": 13.0903,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10154"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10154"
+  },
+  {
+    "id": "PSF-000131",
+    "name": "Pizzorne",
+    "lat": 43.9341,
+    "lon": 10.5846,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10155"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10155"
+  },
+  {
+    "id": "PSF-000132",
+    "name": "Tivoli",
+    "lat": 41.9418,
+    "lon": 12.807,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10156"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10156"
+  },
+  {
+    "id": "PSF-000133",
+    "name": "Cervara",
+    "lat": 41.9844,
+    "lon": 13.0744,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10157"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10157"
+  },
+  {
+    "id": "PSF-000134",
+    "name": "M.te Gennaro",
+    "lat": 42.0355,
+    "lon": 12.8239,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10158"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10158"
+  },
+  {
+    "id": "PSF-000135",
+    "name": "Trevignano",
+    "lat": 42.1669,
+    "lon": 12.2632,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10159"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10159"
+  },
+  {
+    "id": "PSF-000136",
+    "name": "Genzano",
+    "lat": 41.6984,
+    "lon": 12.6716,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10160"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10160"
+  },
+  {
+    "id": "PSF-000137",
+    "name": "Gioia dei Marsi",
+    "lat": 41.9504,
+    "lon": 13.7177,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10161"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10161"
+  },
+  {
+    "id": "PSF-000138",
+    "name": "Lago di Albano",
+    "lat": 41.76,
+    "lon": 12.6754,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10162"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10162"
+  },
+  {
+    "id": "PSF-000146",
+    "name": "Corteno Golgi",
+    "lat": 46.1792,
+    "lon": 10.2547,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10173"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10173"
+  },
+  {
+    "id": "PSF-000147",
+    "name": "Cevo Dos del Curu",
+    "lat": 46.1035,
+    "lon": 10.3876,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10174"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10174"
+  },
+  {
+    "id": "PSF-000225",
+    "name": "Colonei",
+    "lat": 45.6516,
+    "lon": 10.8147,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10265"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10265"
+  },
+  {
+    "id": "PSF-000226",
+    "name": "Fosse",
+    "lat": 45.667,
+    "lon": 10.9726,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10266"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10266"
+  },
+  {
+    "id": "PSF-000300",
+    "name": "Santa Elisabetta",
+    "lat": 45.4388,
+    "lon": 7.64683,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10344"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10344"
+  },
+  {
+    "id": "PSF-000301",
+    "name": "Gioiosa Guardia",
+    "lat": 38.157,
+    "lon": 14.9301,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "10345"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10345"
+  },
+  {
+    "id": "PSF-000302",
+    "name": "Pizzicalori",
+    "lat": 38.18,
+    "lon": 14.9202,
+    "wind": {
+      "E": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10347"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10347"
+  },
+  {
+    "id": "PSF-000316",
+    "name": "Monte Gazza",
+    "lat": 46.0817,
+    "lon": 10.9587,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10363"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10363"
+  },
+  {
+    "id": "PSF-000362",
+    "name": "Bagnara Calabra",
+    "lat": 38.2819,
+    "lon": 15.8179,
+    "wind": {},
+    "sources": {
+      "pge": "10414"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10414"
+  },
+  {
+    "id": "PSF-000452",
+    "name": "Montagna Grande SW",
+    "lat": 37.8923,
+    "lon": 12.7472,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10517"
+  },
+  {
+    "id": "PSF-000509",
+    "name": "Aviano",
+    "lat": 46.0873,
+    "lon": 12.5329,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10592"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10592"
+  },
+  {
+    "id": "PSF-000639",
+    "name": "etna Zafferana",
+    "lat": 37.683,
+    "lon": 15.0863,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "10749"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10749"
+  },
+  {
+    "id": "PSF-000640",
+    "name": "Etna - Punta Lucia",
+    "lat": 37.7646,
+    "lon": 14.9864,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10750"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10750"
+  },
+  {
+    "id": "PSF-000642",
+    "name": "Catenaia",
+    "lat": 43.6273,
+    "lon": 11.9223,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10752"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10752"
+  },
+  {
+    "id": "PSF-000668",
+    "name": "Santa Lucia del Mela",
+    "lat": 38.1259,
+    "lon": 15.2893,
+    "wind": {
+      "E": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10782"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10782"
+  },
+  {
+    "id": "PSF-000675",
+    "name": "Panettone (Mte.Grappa)",
+    "lat": 45.8613,
+    "lon": 11.8038,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10790"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10790"
+  },
+  {
+    "id": "PSF-000677",
+    "name": "Molveno",
+    "lat": 46.154,
+    "lon": 10.9553,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10793"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10793"
+  },
+  {
+    "id": "PSF-000678",
+    "name": "Paganella",
+    "lat": 46.1442,
+    "lon": 11.036,
+    "wind": {
+      "N": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10795"
+  },
+  {
+    "id": "PSF-000693",
+    "name": "Bocca della Selva",
+    "lat": 41.3686,
+    "lon": 14.5225,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10815"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10815"
+  },
+  {
+    "id": "PSF-000699",
+    "name": "Poggio Bustone - Collinette",
+    "lat": 42.4939,
+    "lon": 12.8976,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10823"
+  },
+  {
+    "id": "PSF-000705",
+    "name": "Tre Finestre",
+    "lat": 41.4552,
+    "lon": 14.4245,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10829"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10829"
+  },
+  {
+    "id": "PSF-000706",
+    "name": "San Michele",
+    "lat": 41.1659,
+    "lon": 14.5404,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10831"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10831"
+  },
+  {
+    "id": "PSF-000707",
+    "name": "Gran Sasso - Montecristo",
+    "lat": 42.3972,
+    "lon": 13.566,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10832"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10832"
+  },
+  {
+    "id": "PSF-000708",
+    "name": "Campocatino",
+    "lat": 41.8327,
+    "lon": 13.3447,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10833"
+  },
+  {
+    "id": "PSF-000709",
+    "name": "Leonessa - Tilia",
+    "lat": 42.5581,
+    "lon": 12.9374,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "10834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10834"
+  },
+  {
+    "id": "PSF-000710",
+    "name": "Colle delle Vacche -Sulmona",
+    "lat": 42.1191,
+    "lon": 13.9248,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10835"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10835"
+  },
+  {
+    "id": "PSF-000711",
+    "name": "Monte Farno",
+    "lat": 45.8278,
+    "lon": 9.90211,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10836"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10836"
+  },
+  {
+    "id": "PSF-000712",
+    "name": "Gubbio",
+    "lat": 43.3657,
+    "lon": 12.5712,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10837"
+  },
+  {
+    "id": "PSF-000713",
+    "name": "San Potito -Sant' Angiolillo",
+    "lat": 41.347,
+    "lon": 14.4334,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10838"
+  },
+  {
+    "id": "PSF-000714",
+    "name": "Monte Subasio",
+    "lat": 43.0463,
+    "lon": 12.6764,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10841"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10841"
+  },
+  {
+    "id": "PSF-000715",
+    "name": "Roiano",
+    "lat": 42.6954,
+    "lon": 13.6226,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "10842"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10842"
+  },
+  {
+    "id": "PSF-000716",
+    "name": "Gran Sasso - Montecristo basso",
+    "lat": 42.4148,
+    "lon": 13.5572,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10843"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10843"
+  },
+  {
+    "id": "PSF-000717",
+    "name": "Calvisi",
+    "lat": 41.3314,
+    "lon": 14.4541,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10845"
+  },
+  {
+    "id": "PSF-000718",
+    "name": "Campochiaro",
+    "lat": 41.4372,
+    "lon": 14.4984,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "10846"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10846"
+  },
+  {
+    "id": "PSF-000719",
+    "name": "Prada",
+    "lat": 46.0983,
+    "lon": 10.9079,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10847"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10847"
+  },
+  {
+    "id": "PSF-000721",
+    "name": "Bassano - Casette",
+    "lat": 45.8282,
+    "lon": 11.7681,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10849"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10849"
+  },
+  {
+    "id": "PSF-000726",
+    "name": "Luson / Luesen /Lüsen",
+    "lat": 46.7629,
+    "lon": 11.7545,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10855"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10855"
+  },
+  {
+    "id": "PSF-000743",
+    "name": "Muanda",
+    "lat": 45.6009,
+    "lon": 7.9646,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10875"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10875"
+  },
+  {
+    "id": "PSF-000755",
+    "name": "Monte Tubenna (Napoli- Neapel)",
+    "lat": 40.7088,
+    "lon": 14.846,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10887"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10887"
+  },
+  {
+    "id": "PSF-000790",
+    "name": "Loc. Caranna Cisternino",
+    "lat": 40.778,
+    "lon": 17.4202,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10928"
+  },
+  {
+    "id": "PSF-000808",
+    "name": "montefiascone",
+    "lat": 42.5524,
+    "lon": 12.0201,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10948"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10948"
+  },
+  {
+    "id": "PSF-000811",
+    "name": "Capaccio",
+    "lat": 40.4488,
+    "lon": 15.0496,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10951"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10951"
+  },
+  {
+    "id": "PSF-000814",
+    "name": "Monte Cosce",
+    "lat": 42.4059,
+    "lon": 12.6324,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10954"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10954"
+  },
+  {
+    "id": "PSF-000835",
+    "name": "Bagnolo -ciccio fly",
+    "lat": 44.1688,
+    "lon": 11.8995,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "10983"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10983"
+  },
+  {
+    "id": "PSF-000836",
+    "name": "cusercoli",
+    "lat": 44.0489,
+    "lon": 11.9903,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "10985"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10985"
+  },
+  {
+    "id": "PSF-000837",
+    "name": "wind valley - valle del vento",
+    "lat": 44.0847,
+    "lon": 12.0053,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10987"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10987"
+  },
+  {
+    "id": "PSF-000900",
+    "name": "Concei",
+    "lat": 45.9221,
+    "lon": 10.7553,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11061"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11061"
+  },
+  {
+    "id": "PSF-000986",
+    "name": "Mount Bargiglio - Diecimo",
+    "lat": 43.9819,
+    "lon": 10.5004,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11161"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11161"
+  },
+  {
+    "id": "PSF-001037",
+    "name": "Alassio - Puerta del Sol",
+    "lat": 43.9923,
+    "lon": 8.1591,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "11220"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11220"
+  },
+  {
+    "id": "PSF-001038",
+    "name": "Laigueglia - Capo Mele",
+    "lat": 43.9652,
+    "lon": 8.1607,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11221"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11221"
+  },
+  {
+    "id": "PSF-001039",
+    "name": "Andora -Rollo",
+    "lat": 43.9461,
+    "lon": 8.125,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11222"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11222"
+  },
+  {
+    "id": "PSF-001040",
+    "name": "Finale Ligure",
+    "lat": 44.1841,
+    "lon": 8.373,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11223"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11223"
+  },
+  {
+    "id": "PSF-001041",
+    "name": "Bergeggi",
+    "lat": 44.2515,
+    "lon": 8.4403,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11224"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11224"
+  },
+  {
+    "id": "PSF-001050",
+    "name": "Spotorno -basso",
+    "lat": 44.235,
+    "lon": 8.4245,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11237"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11237"
+  },
+  {
+    "id": "PSF-001051",
+    "name": "Alassio - Monte Pisciavino",
+    "lat": 44.0286,
+    "lon": 8.16331,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11238"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11238"
+  },
+  {
+    "id": "PSF-001060",
+    "name": "San Giacomo",
+    "lat": 45.9179,
+    "lon": 10.9292,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11251"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11251"
+  },
+  {
+    "id": "PSF-001215",
+    "name": "Liretta",
+    "lat": 44.4989,
+    "lon": 7.38187,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11450"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11450"
+  },
+  {
+    "id": "PSF-001219",
+    "name": "Capo Milazzo",
+    "lat": 38.2642,
+    "lon": 15.238,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11455"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11455"
+  },
+  {
+    "id": "PSF-001233",
+    "name": "Malanotte",
+    "lat": 44.2688,
+    "lon": 7.7934,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11470"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11470"
+  },
+  {
+    "id": "PSF-001236",
+    "name": "Valico di Cannatina",
+    "lat": 42.3078,
+    "lon": 13.8254,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11474"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11474"
+  },
+  {
+    "id": "PSF-001264",
+    "name": "Monte Pizzo",
+    "lat": 44.1545,
+    "lon": 10.886,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11506"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11506"
+  },
+  {
+    "id": "PSF-001371",
+    "name": "Maso Tais",
+    "lat": 46.1949,
+    "lon": 11.847,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11642"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11642"
+  },
+  {
+    "id": "PSF-001436",
+    "name": "Monte S. Giorgio - Piossasco",
+    "lat": 44.9957,
+    "lon": 7.44833,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11755"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11755"
+  },
+  {
+    "id": "PSF-001465",
+    "name": "Passo Valparolla",
+    "lat": 46.5658,
+    "lon": 11.9712,
+    "wind": {},
+    "sources": {
+      "pge": "11821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11821"
+  },
+  {
+    "id": "PSF-001601",
+    "name": "Sperlonga",
+    "lat": 41.2469,
+    "lon": 13.4604,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "12071"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12071"
+  },
+  {
+    "id": "PSF-001622",
+    "name": "Maniago - Monte Jouf",
+    "lat": 46.1765,
+    "lon": 12.676,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "12104"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12104"
+  },
+  {
+    "id": "PSF-001628",
+    "name": "Monte Rena",
+    "lat": 45.7827,
+    "lon": 9.80045,
+    "wind": {},
+    "sources": {
+      "pge": "12115"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12115"
+  },
+  {
+    "id": "PSF-001679",
+    "name": "Cucurru Fennugu",
+    "lat": 39.484,
+    "lon": 8.68008,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12189"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12189"
+  },
+  {
+    "id": "PSF-001680",
+    "name": "Scivu - Fluminimaggiore",
+    "lat": 39.4941,
+    "lon": 8.41188,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "12190"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12190"
+  },
+  {
+    "id": "PSF-001684",
+    "name": "SanGermano",
+    "lat": 45.4066,
+    "lon": 11.4701,
+    "wind": {},
+    "sources": {
+      "pge": "12201"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12201"
+  },
+  {
+    "id": "PSF-001777",
+    "name": "Mount ScanapÃ",
+    "lat": 45.9178,
+    "lon": 10.0881,
+    "wind": {},
+    "sources": {
+      "pge": "12367"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12367"
+  },
+  {
+    "id": "PSF-001783",
+    "name": "Becca d'Avers",
+    "lat": 45.7974,
+    "lon": 7.53,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "12374"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12374"
+  },
+  {
+    "id": "PSF-001784",
+    "name": "Chamois",
+    "lat": 45.8533,
+    "lon": 7.6429,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12375"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12375"
+  },
+  {
+    "id": "PSF-001842",
+    "name": "Lagazuoi",
+    "lat": 46.5278,
+    "lon": 12.0038,
+    "wind": {},
+    "sources": {
+      "pge": "12480"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12480"
+  },
+  {
+    "id": "PSF-001866",
+    "name": "Monte Ragola",
+    "lat": 44.5874,
+    "lon": 9.54218,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12523"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12523"
+  },
+  {
+    "id": "PSF-001875",
+    "name": "Portoscuso",
+    "lat": 39.2483,
+    "lon": 8.39803,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12537"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12537"
+  },
+  {
+    "id": "PSF-001884",
+    "name": "Compostello",
+    "lat": 46.6939,
+    "lon": 11.3739,
+    "wind": {},
+    "sources": {
+      "pge": "12562"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12562"
+  },
+  {
+    "id": "PSF-001891",
+    "name": "Il Colaturo - Serra Traversa",
+    "lat": 41.7229,
+    "lon": 13.784,
+    "wind": {},
+    "sources": {
+      "pge": "12578"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12578"
+  },
+  {
+    "id": "PSF-001893",
+    "name": "Monte Conero - Portonovo",
+    "lat": 43.5652,
+    "lon": 13.5773,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "12585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12585"
+  },
+  {
+    "id": "PSF-002042",
+    "name": "St. Martin",
+    "lat": 46.6359,
+    "lon": 10.867,
+    "wind": {},
+    "sources": {
+      "pge": "12887"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12887"
+  },
+  {
+    "id": "PSF-002065",
+    "name": "La Magdeleine",
+    "lat": 45.8146,
+    "lon": 7.6065,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "12923"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12923"
+  },
+  {
+    "id": "PSF-002147",
+    "name": "Praticino / Montrago",
+    "lat": 43.6538,
+    "lon": 11.6036,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "13055"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13055"
+  },
+  {
+    "id": "PSF-002153",
+    "name": "Mottarone",
+    "lat": 45.8787,
+    "lon": 8.45025,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13064"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13064"
+  },
+  {
+    "id": "PSF-002392",
+    "name": "Monte Piana",
+    "lat": 46.6119,
+    "lon": 12.2503,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13443"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13443"
+  },
+  {
+    "id": "PSF-002446",
+    "name": "Punta Ces - San Martino di Castrozza",
+    "lat": 46.2676,
+    "lon": 11.7606,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13530"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13530"
+  },
+  {
+    "id": "PSF-002490",
+    "name": "Alpe di Storo (Idro Lake)",
+    "lat": 45.8096,
+    "lon": 10.5758,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "13609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13609"
+  },
+  {
+    "id": "PSF-002531",
+    "name": "Monte Carpegna",
+    "lat": 43.8005,
+    "lon": 12.3349,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13677"
+  },
+  {
+    "id": "PSF-002534",
+    "name": "Campitello-Canazei-Brodol",
+    "lat": 46.4826,
+    "lon": 11.7952,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13680"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13680"
+  },
+  {
+    "id": "PSF-002570",
+    "name": "Dos del Sabion",
+    "lat": 46.1654,
+    "lon": 10.8082,
+    "wind": {},
+    "sources": {
+      "pge": "13759"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13759"
+  },
+  {
+    "id": "PSF-002572",
+    "name": "Monte Stino",
+    "lat": 45.7621,
+    "lon": 10.5485,
+    "wind": {},
+    "sources": {
+      "pge": "13761"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13761"
+  },
+  {
+    "id": "PSF-002576",
+    "name": "Flecknerhütte",
+    "lat": 46.8344,
+    "lon": 11.2817,
+    "wind": {},
+    "sources": {
+      "pge": "13767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13767"
+  },
+  {
+    "id": "PSF-002577",
+    "name": "Peio",
+    "lat": 46.3746,
+    "lon": 10.6693,
+    "wind": {},
+    "sources": {
+      "pge": "13769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13769"
+  },
+  {
+    "id": "PSF-002592",
+    "name": "Marmolada",
+    "lat": 46.4363,
+    "lon": 11.8582,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13798"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13798"
+  },
+  {
+    "id": "PSF-002594",
+    "name": "Cima Presanella",
+    "lat": 46.2192,
+    "lon": 10.6639,
+    "wind": {},
+    "sources": {
+      "pge": "13800"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13800"
+  },
+  {
+    "id": "PSF-002595",
+    "name": "Corvara Boè - Vallon",
+    "lat": 46.5265,
+    "lon": 11.8619,
+    "wind": {
+      "NE": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13801"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13801"
+  },
+  {
+    "id": "PSF-002599",
+    "name": "Seceda",
+    "lat": 46.5995,
+    "lon": 11.7259,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "13811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13811"
+  },
+  {
+    "id": "PSF-002616",
+    "name": "Bormio 3000",
+    "lat": 46.4234,
+    "lon": 10.412,
+    "wind": {},
+    "sources": {
+      "pge": "13834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13834"
+  },
+  {
+    "id": "PSF-002634",
+    "name": "Sulden",
+    "lat": 46.499,
+    "lon": 10.5544,
+    "wind": {},
+    "sources": {
+      "pge": "13856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13856"
+  },
+  {
+    "id": "PSF-002646",
+    "name": "Pauli Arbarei",
+    "lat": 39.691,
+    "lon": 8.94507,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13873"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13873"
+  },
+  {
+    "id": "PSF-002650",
+    "name": "Cime bianche (colle inf.)",
+    "lat": 45.8937,
+    "lon": 7.6452,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13880"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13880"
+  },
+  {
+    "id": "PSF-002654",
+    "name": "Villanders Samberger Hof",
+    "lat": 46.6426,
+    "lon": 11.5206,
+    "wind": {},
+    "sources": {
+      "pge": "13886"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13886"
+  },
+  {
+    "id": "PSF-002661",
+    "name": "Gallodoro - Letojanni",
+    "lat": 37.8934,
+    "lon": 15.3081,
+    "wind": {},
+    "sources": {
+      "pge": "13896"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13896"
+  },
+  {
+    "id": "PSF-002678",
+    "name": "Monte Bondone 2",
+    "lat": 46.0355,
+    "lon": 11.0198,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13926"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13926"
+  },
+  {
+    "id": "PSF-002686",
+    "name": "San Simeone - Bordano",
+    "lat": 46.3298,
+    "lon": 13.1015,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13942"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13942"
+  },
+  {
+    "id": "PSF-002703",
+    "name": "Grente/ Antholz",
+    "lat": 46.8491,
+    "lon": 12.0583,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "13966"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13966"
+  },
+  {
+    "id": "PSF-002705",
+    "name": "Monte Santu Padre Bortigali",
+    "lat": 40.2962,
+    "lon": 8.84097,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "13968"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13968"
+  },
+  {
+    "id": "PSF-002707",
+    "name": "Alghero Speranza La Siesta",
+    "lat": 40.5075,
+    "lon": 8.3831,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13970"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13970"
+  },
+  {
+    "id": "PSF-002806",
+    "name": "Kumeta - Piana degli albanesi",
+    "lat": 37.9673,
+    "lon": 13.2496,
+    "wind": {},
+    "sources": {
+      "pge": "14128"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14128"
+  },
+  {
+    "id": "PSF-002807",
+    "name": "Monte Inici",
+    "lat": 38.0002,
+    "lon": 12.8586,
+    "wind": {},
+    "sources": {
+      "pge": "14129"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14129"
+  },
+  {
+    "id": "PSF-002808",
+    "name": "Monte Cofano",
+    "lat": 38.1007,
+    "lon": 12.6854,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "14130"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14130"
+  },
+  {
+    "id": "PSF-002809",
+    "name": "Madonna del Alto",
+    "lat": 37.8317,
+    "lon": 14.0491,
+    "wind": {},
+    "sources": {
+      "pge": "14131"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14131"
+  },
+  {
+    "id": "PSF-002820",
+    "name": "Mount Campo",
+    "lat": 45.9361,
+    "lon": 10.023,
+    "wind": {},
+    "sources": {
+      "pge": "14152"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14152"
+  },
+  {
+    "id": "PSF-002866",
+    "name": "Monterosso",
+    "lat": 44.1527,
+    "lon": 9.66955,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14227"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14227"
+  },
+  {
+    "id": "PSF-003026",
+    "name": "Monte Battaglia Est",
+    "lat": 44.2222,
+    "lon": 11.5834,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "14432"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14432"
+  },
+  {
+    "id": "PSF-003027",
+    "name": "Monte Battaglia Ovest",
+    "lat": 44.2219,
+    "lon": 11.5826,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14433"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14433"
+  },
+  {
+    "id": "PSF-003028",
+    "name": "Passo della Sambuca",
+    "lat": 44.0714,
+    "lon": 11.4874,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "14434"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14434"
+  },
+  {
+    "id": "PSF-003030",
+    "name": "Ca' del Monte - Cecima",
+    "lat": 44.8183,
+    "lon": 9.0711,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14436"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14436"
+  },
+  {
+    "id": "PSF-003047",
+    "name": "Monte Caio",
+    "lat": 44.4633,
+    "lon": 10.1708,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14472"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14472"
+  },
+  {
+    "id": "PSF-003059",
+    "name": "Alpe Giumello",
+    "lat": 46.0449,
+    "lon": 9.3566,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14485"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14485"
+  },
+  {
+    "id": "PSF-003069",
+    "name": "Erice",
+    "lat": 38.0337,
+    "lon": 12.5786,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14498"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14498"
+  },
+  {
+    "id": "PSF-003070",
+    "name": "Montagna Grande N",
+    "lat": 37.8981,
+    "lon": 12.7732,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14499"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14499"
+  },
+  {
+    "id": "PSF-003093",
+    "name": "Porzus",
+    "lat": 46.1842,
+    "lon": 13.3326,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14543"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14543"
+  },
+  {
+    "id": "PSF-003119",
+    "name": "Chianocco",
+    "lat": 45.1544,
+    "lon": 7.18104,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "14585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14585"
+  },
+  {
+    "id": "PSF-003207",
+    "name": "Corio",
+    "lat": 45.3384,
+    "lon": 7.54303,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14744"
+  },
+  {
+    "id": "PSF-003212",
+    "name": "Monte Tenchia",
+    "lat": 46.5565,
+    "lon": 12.975,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14751"
+  },
+  {
+    "id": "PSF-003213",
+    "name": "Monte Paularo",
+    "lat": 46.5538,
+    "lon": 13.0865,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14752"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14752"
+  },
+  {
+    "id": "PSF-003215",
+    "name": "Rosbella (Boves)",
+    "lat": 44.2983,
+    "lon": 7.5529,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "14756"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14756"
+  },
+  {
+    "id": "PSF-003216",
+    "name": "Tocco Da Casauria",
+    "lat": 42.1928,
+    "lon": 13.9079,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "14757"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14757"
+  },
+  {
+    "id": "PSF-003217",
+    "name": "Rocca Calascio - Panettone",
+    "lat": 42.3113,
+    "lon": 13.7187,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14758"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14758"
+  },
+  {
+    "id": "PSF-003248",
+    "name": "Rueglio",
+    "lat": 45.4839,
+    "lon": 7.7358,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14794"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14794"
+  },
+  {
+    "id": "PSF-003249",
+    "name": "Moncuni",
+    "lat": 45.0491,
+    "lon": 7.4127,
+    "wind": {
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14795"
+  },
+  {
+    "id": "PSF-003268",
+    "name": "Monte Fallito",
+    "lat": 43.6747,
+    "lon": 11.8059,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14818"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14818"
+  },
+  {
+    "id": "PSF-003275",
+    "name": "Trucetti-Giaveno",
+    "lat": 45.0762,
+    "lon": 7.34753,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "14829"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14829"
+  },
+  {
+    "id": "PSF-003278",
+    "name": "Takeoff ovest Brescia",
+    "lat": 45.5371,
+    "lon": 10.2706,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14836"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14836"
+  },
+  {
+    "id": "PSF-003353",
+    "name": "Corte de Deoso - ILEMP",
+    "lat": 40.0957,
+    "lon": 18.2703,
+    "wind": {},
+    "sources": {
+      "pge": "14950"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14950"
+  },
+  {
+    "id": "PSF-003383",
+    "name": "Monte Maccione",
+    "lat": 40.2648,
+    "lon": 9.42985,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14996"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14996"
+  },
+  {
+    "id": "PSF-003437",
+    "name": "Alpe Quaggione",
+    "lat": 45.9137,
+    "lon": 8.38175,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15091"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15091"
+  },
+  {
+    "id": "PSF-003515",
+    "name": "Similaun",
+    "lat": 46.7634,
+    "lon": 10.866,
+    "wind": {},
+    "sources": {
+      "pge": "15214"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15214"
+  },
+  {
+    "id": "PSF-003521",
+    "name": "Serre Sarsena",
+    "lat": 44.8186,
+    "lon": 7.11378,
+    "wind": {},
+    "sources": {
+      "pge": "15226"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15226"
+  },
+  {
+    "id": "PSF-003528",
+    "name": "Ciavanis-Chialamberto",
+    "lat": 45.3779,
+    "lon": 7.3572,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15235"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15235"
+  },
+  {
+    "id": "PSF-003532",
+    "name": "Civitella Roveto - Monte Orbetta",
+    "lat": 41.9247,
+    "lon": 13.4513,
+    "wind": {},
+    "sources": {
+      "pge": "15242"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15242"
+  },
+  {
+    "id": "PSF-003547",
+    "name": "Prischeralm",
+    "lat": 46.929,
+    "lon": 11.3052,
+    "wind": {},
+    "sources": {
+      "pge": "15267"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15267"
+  },
+  {
+    "id": "PSF-003557",
+    "name": "Firenzuola",
+    "lat": 44.1645,
+    "lon": 11.3654,
+    "wind": {},
+    "sources": {
+      "pge": "15282"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15282"
+  },
+  {
+    "id": "PSF-003573",
+    "name": "Monte Soglio",
+    "lat": 45.3718,
+    "lon": 7.531,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15311"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15311"
+  },
+  {
+    "id": "PSF-003574",
+    "name": "Monte Musinè",
+    "lat": 45.1087,
+    "lon": 7.4646,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15312"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15312"
+  },
+  {
+    "id": "PSF-003580",
+    "name": "Campotenese",
+    "lat": 39.8474,
+    "lon": 16.0927,
+    "wind": {
+      "SE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15321"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15321"
+  },
+  {
+    "id": "PSF-003581",
+    "name": "Belvedere Marittimo",
+    "lat": 39.6448,
+    "lon": 15.8877,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15322"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15322"
+  },
+  {
+    "id": "PSF-003601",
+    "name": "Col di Tenda",
+    "lat": 44.1503,
+    "lon": 7.56823,
+    "wind": {
+      "N": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15352"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15352"
+  },
+  {
+    "id": "PSF-003607",
+    "name": "Mnt. Lussari",
+    "lat": 46.4805,
+    "lon": 13.521,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "15366"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15366"
+  },
+  {
+    "id": "PSF-003634",
+    "name": "Königsangerspitze",
+    "lat": 46.7071,
+    "lon": 11.5848,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "15417"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15417"
+  },
+  {
+    "id": "PSF-003656",
+    "name": "Colle di Fenestrelle",
+    "lat": 45.0727,
+    "lon": 7.0504,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15454"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15454"
+  },
+  {
+    "id": "PSF-003676",
+    "name": "Dreiherrenspitze",
+    "lat": 47.0686,
+    "lon": 12.2378,
+    "wind": {},
+    "sources": {
+      "pge": "15478"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15478"
+  },
+  {
+    "id": "PSF-003677",
+    "name": "Lorenzispitze",
+    "lat": 46.7108,
+    "lon": 11.5206,
+    "wind": {},
+    "sources": {
+      "pge": "15482"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15482"
+  },
+  {
+    "id": "PSF-003697",
+    "name": "La Riposa",
+    "lat": 45.1777,
+    "lon": 7.0829,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15522"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15522"
+  },
+  {
+    "id": "PSF-003714",
+    "name": "Bolognetta",
+    "lat": 37.9491,
+    "lon": 13.4509,
+    "wind": {},
+    "sources": {
+      "pge": "15543"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15543"
+  },
+  {
+    "id": "PSF-003728",
+    "name": "Praille",
+    "lat": 45.7585,
+    "lon": 7.474,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15578"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15578"
+  },
+  {
+    "id": "PSF-003745",
+    "name": "Creto",
+    "lat": 44.4777,
+    "lon": 9.0044,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15601"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15601"
+  },
+  {
+    "id": "PSF-003768",
+    "name": "Rignano Garganico",
+    "lat": 41.6771,
+    "lon": 15.5814,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15631"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15631"
+  },
+  {
+    "id": "PSF-003787",
+    "name": "Alpe  Bill (Macugnaga)",
+    "lat": 45.9799,
+    "lon": 7.9577,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "15654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15654"
+  },
+  {
+    "id": "PSF-003804",
+    "name": "Rucas",
+    "lat": 44.7446,
+    "lon": 7.22952,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15677"
+  },
+  {
+    "id": "PSF-003815",
+    "name": "sambuco",
+    "lat": 44.3575,
+    "lon": 7.05865,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15696"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15696"
+  },
+  {
+    "id": "PSF-003845",
+    "name": "Mottolino",
+    "lat": 46.529,
+    "lon": 10.1585,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15799"
+  },
+  {
+    "id": "PSF-003853",
+    "name": "Pobbio (Cabella Ligure)",
+    "lat": 44.695,
+    "lon": 9.14436,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15809"
+  },
+  {
+    "id": "PSF-003872",
+    "name": "Soglio - Orero",
+    "lat": 44.4017,
+    "lon": 9.2852,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15839"
+  },
+  {
+    "id": "PSF-003873",
+    "name": "Leco",
+    "lat": 44.5635,
+    "lon": 8.8722,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15840"
+  },
+  {
+    "id": "PSF-003877",
+    "name": "Casoni",
+    "lat": 44.2964,
+    "lon": 9.7843,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "15847"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15847"
+  },
+  {
+    "id": "PSF-003879",
+    "name": "Monte Bue - S.Stefano d' Aveto",
+    "lat": 44.5563,
+    "lon": 9.4923,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15849"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15849"
+  },
+  {
+    "id": "PSF-003888",
+    "name": "Plan-Belle-Crète",
+    "lat": 45.7697,
+    "lon": 7.0683,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "15862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15862"
+  },
+  {
+    "id": "PSF-003918",
+    "name": "Mombarcaro",
+    "lat": 44.466,
+    "lon": 8.09255,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "15899"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15899"
+  },
+  {
+    "id": "PSF-003945",
+    "name": "Montefalcone nel Sannio - North",
+    "lat": 41.8512,
+    "lon": 14.6686,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15937"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15937"
+  },
+  {
+    "id": "PSF-003973",
+    "name": "Schwarzseespitze - Rittner Horn",
+    "lat": 46.5954,
+    "lon": 11.4522,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15969"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15969"
+  },
+  {
+    "id": "PSF-003988",
+    "name": "Panni",
+    "lat": 41.2254,
+    "lon": 15.2707,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15985"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15985"
+  },
+  {
+    "id": "PSF-004018",
+    "name": "Livigno",
+    "lat": 46.5453,
+    "lon": 10.1268,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "16021"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16021"
+  },
+  {
+    "id": "PSF-004030",
+    "name": "Mondragone",
+    "lat": 41.1307,
+    "lon": 13.8957,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16046"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16046"
+  },
+  {
+    "id": "PSF-004032",
+    "name": "San Donato Val di Comino",
+    "lat": 41.7261,
+    "lon": 13.7825,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16048"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16048"
+  },
+  {
+    "id": "PSF-004035",
+    "name": "Monte Vandalino",
+    "lat": 44.8369,
+    "lon": 7.1655,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "16052"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16052"
+  },
+  {
+    "id": "PSF-004045",
+    "name": "Forino",
+    "lat": 40.8215,
+    "lon": 14.7298,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16063"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16063"
+  },
+  {
+    "id": "PSF-004046",
+    "name": "Calvanico Decollo Basso",
+    "lat": 40.7935,
+    "lon": 14.8336,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16064"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16064"
+  },
+  {
+    "id": "PSF-004047",
+    "name": "Montevergine",
+    "lat": 40.9357,
+    "lon": 14.7179,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "16065"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16065"
+  },
+  {
+    "id": "PSF-004048",
+    "name": "Tremezzo-Crocione-Bellagio",
+    "lat": 46.0056,
+    "lon": 9.19382,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "16066"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16066"
+  },
+  {
+    "id": "PSF-004066",
+    "name": "Pian dell' Alpe",
+    "lat": 45.0625,
+    "lon": 7.0267,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16088"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16088"
+  },
+  {
+    "id": "PSF-004067",
+    "name": "Forte di Fenestrelle",
+    "lat": 45.0507,
+    "lon": 7.10083,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "16089"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16089"
+  },
+  {
+    "id": "PSF-004114",
+    "name": "Pollina - Decollo basso/alto",
+    "lat": 38.0148,
+    "lon": 14.1393,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "16143"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16143"
+  },
+  {
+    "id": "PSF-004168",
+    "name": "Niscemi",
+    "lat": 37.1432,
+    "lon": 14.3804,
+    "wind": {},
+    "sources": {
+      "pge": "16251"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16251"
+  },
+  {
+    "id": "PSF-004259",
+    "name": "Monte Mauro",
+    "lat": 44.2352,
+    "lon": 11.6998,
+    "wind": {},
+    "sources": {
+      "pge": "16379"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16379"
+  },
+  {
+    "id": "PSF-004313",
+    "name": "Onferno",
+    "lat": 43.8657,
+    "lon": 12.5502,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16482"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16482"
+  },
+  {
+    "id": "PSF-004324",
+    "name": "Norsi",
+    "lat": 42.7641,
+    "lon": 10.339,
+    "wind": {},
+    "sources": {
+      "pge": "16500"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16500"
+  },
+  {
+    "id": "PSF-004389",
+    "name": "Val Secca",
+    "lat": 46.5461,
+    "lon": 12.9262,
+    "wind": {},
+    "sources": {
+      "pge": "16603"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16603"
+  },
+  {
+    "id": "PSF-004408",
+    "name": "Colli di San Fermo (Casazza)",
+    "lat": 45.7425,
+    "lon": 9.95,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16637"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16637"
+  },
+  {
+    "id": "PSF-004431",
+    "name": "Pila - Plan Praz",
+    "lat": 45.6992,
+    "lon": 7.3111,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16691"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16691"
+  },
+  {
+    "id": "PSF-004432",
+    "name": "Pila - Chamole (Aosta)",
+    "lat": 45.6746,
+    "lon": 7.3245,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16692"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16692"
+  },
+  {
+    "id": "PSF-004478",
+    "name": "Caseppa",
+    "lat": 45.1191,
+    "lon": 7.913,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "16758"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16758"
+  },
+  {
+    "id": "PSF-004479",
+    "name": "Rivalba",
+    "lat": 45.1182,
+    "lon": 7.8922,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16759"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16759"
+  },
+  {
+    "id": "PSF-004480",
+    "name": "Colliano",
+    "lat": 40.7005,
+    "lon": 15.3264,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16760"
+  },
+  {
+    "id": "PSF-004482",
+    "name": "Prato Fiorito",
+    "lat": 44.0541,
+    "lon": 10.6199,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16764"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16764"
+  },
+  {
+    "id": "PSF-004525",
+    "name": "Monte Blum - Clusone",
+    "lat": 45.9106,
+    "lon": 9.9797,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16856"
+  },
+  {
+    "id": "PSF-004530",
+    "name": "Alpe Cermis",
+    "lat": 46.2436,
+    "lon": 11.5024,
+    "wind": {},
+    "sources": {
+      "pge": "16862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16862"
+  },
+  {
+    "id": "PSF-004533",
+    "name": "San Michele",
+    "lat": 37.2491,
+    "lon": 14.4156,
+    "wind": {},
+    "sources": {
+      "pge": "16867"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16867"
+  },
+  {
+    "id": "PSF-004564",
+    "name": "Monte Veneretta",
+    "lat": 37.8696,
+    "lon": 15.2676,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16926"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16926"
+  },
+  {
+    "id": "PSF-004565",
+    "name": "Fossato di Vico",
+    "lat": 43.2806,
+    "lon": 12.7825,
+    "wind": {},
+    "sources": {
+      "pge": "16928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16928"
+  },
+  {
+    "id": "PSF-004576",
+    "name": "San Giacomo di Andrate",
+    "lat": 45.546,
+    "lon": 7.87533,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16947"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16947"
+  },
+  {
+    "id": "PSF-004579",
+    "name": "Stribugliano",
+    "lat": 42.8451,
+    "lon": 11.4777,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16951"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16951"
+  },
+  {
+    "id": "PSF-004597",
+    "name": "La Pesse",
+    "lat": 45.7676,
+    "lon": 7.4849,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16969"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16969"
+  },
+  {
+    "id": "PSF-004598",
+    "name": "Torgnon",
+    "lat": 45.8089,
+    "lon": 7.5622,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "16970"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16970"
+  },
+  {
+    "id": "PSF-004636",
+    "name": "Rifugio Perugia",
+    "lat": 42.7665,
+    "lon": 13.1772,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17052"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17052"
+  },
+  {
+    "id": "PSF-004638",
+    "name": "Certaldo training hill",
+    "lat": 43.5633,
+    "lon": 11.0504,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17056"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17056"
+  },
+  {
+    "id": "PSF-004654",
+    "name": "Monticchio",
+    "lat": 45.6578,
+    "lon": 8.0436,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "17081"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17081"
+  },
+  {
+    "id": "PSF-004744",
+    "name": "Pedicino",
+    "lat": 41.7406,
+    "lon": 13.4835,
+    "wind": {},
+    "sources": {
+      "pge": "17260"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17260"
+  },
+  {
+    "id": "PSF-004792",
+    "name": "Noli",
+    "lat": 44.1961,
+    "lon": 8.41056,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "17354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17354"
+  },
+  {
+    "id": "PSF-004822",
+    "name": "Caccamo Lake",
+    "lat": 43.1239,
+    "lon": 13.1946,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "17417"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17417"
+  },
+  {
+    "id": "PSF-004823",
+    "name": "Billiemi",
+    "lat": 37.9974,
+    "lon": 13.1259,
+    "wind": {},
+    "sources": {
+      "pge": "17421"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17421"
+  },
+  {
+    "id": "PSF-004825",
+    "name": "Col Bione",
+    "lat": 45.0781,
+    "lon": 7.2785,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17426"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17426"
+  },
+  {
+    "id": "PSF-004885",
+    "name": "Monte venere",
+    "lat": 44.2362,
+    "lon": 11.2577,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "17500"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17500"
+  },
+  {
+    "id": "PSF-004895",
+    "name": "Gualdo Tadino",
+    "lat": 43.2393,
+    "lon": 12.8142,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17514"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17514"
+  },
+  {
+    "id": "PSF-004918",
+    "name": "Guanzate",
+    "lat": 45.7117,
+    "lon": 9.01818,
+    "wind": {},
+    "sources": {
+      "pge": "17548"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17548"
+  },
+  {
+    "id": "PSF-004927",
+    "name": "La Caletta - Siniscola",
+    "lat": 40.6117,
+    "lon": 9.73847,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "17563"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17563"
+  },
+  {
+    "id": "PSF-004928",
+    "name": "Cala Gonone",
+    "lat": 40.2754,
+    "lon": 9.59533,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "17564"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17564"
+  },
+  {
+    "id": "PSF-004967",
+    "name": "Toirano",
+    "lat": 44.132,
+    "lon": 8.18727,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "17655"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17655"
+  },
+  {
+    "id": "PSF-004981",
+    "name": "Giggelberg",
+    "lat": 46.6857,
+    "lon": 11.0471,
+    "wind": {},
+    "sources": {
+      "pge": "17672"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17672"
+  },
+  {
+    "id": "PSF-004983",
+    "name": "Vellnairalm",
+    "lat": 46.5714,
+    "lon": 10.5653,
+    "wind": {},
+    "sources": {
+      "pge": "17678"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17678"
+  },
+  {
+    "id": "PSF-005001",
+    "name": "Stoanamandl",
+    "lat": 46.8335,
+    "lon": 11.6,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "17715"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17715"
+  },
+  {
+    "id": "PSF-005002",
+    "name": "Gaisjoch Handyempfänger",
+    "lat": 46.8541,
+    "lon": 11.6447,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17716"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17716"
+  },
+  {
+    "id": "PSF-005010",
+    "name": "Givoletto",
+    "lat": 45.1753,
+    "lon": 7.4879,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17726"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17726"
+  },
+  {
+    "id": "PSF-005074",
+    "name": "Lo Riondè",
+    "lat": 45.9595,
+    "lon": 7.6434,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17853"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17853"
+  },
+  {
+    "id": "PSF-005099",
+    "name": "Ciaculli(Pa)",
+    "lat": 38.0599,
+    "lon": 13.4101,
+    "wind": {},
+    "sources": {
+      "pge": "17898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17898"
+  },
+  {
+    "id": "PSF-005121",
+    "name": "Bassano - Stella Alpina",
+    "lat": 45.8193,
+    "lon": 11.7635,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17973"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17973"
+  },
+  {
+    "id": "PSF-005127",
+    "name": "Tuili",
+    "lat": 39.7296,
+    "lon": 8.97855,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17980"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17980"
+  },
+  {
+    "id": "PSF-005128",
+    "name": "Buggeru",
+    "lat": 39.4109,
+    "lon": 8.42537,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17984"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17984"
+  },
+  {
+    "id": "PSF-005129",
+    "name": "Littigheddu",
+    "lat": 40.8807,
+    "lon": 8.78574,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17986"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17986"
+  },
+  {
+    "id": "PSF-005130",
+    "name": "Muros",
+    "lat": 40.6789,
+    "lon": 8.6112,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "17987"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17987"
+  },
+  {
+    "id": "PSF-005131",
+    "name": "Baunei Golgo",
+    "lat": 40.0344,
+    "lon": 9.665,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "17988"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17988"
+  },
+  {
+    "id": "PSF-005132",
+    "name": "Villanova Tulo Sadali Lago Flumendosa",
+    "lat": 39.7769,
+    "lon": 9.2148,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "17989"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17989"
+  },
+  {
+    "id": "PSF-005133",
+    "name": "Gonnos",
+    "lat": 39.4807,
+    "lon": 8.6758,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17990"
+  },
+  {
+    "id": "PSF-005134",
+    "name": "Setzu",
+    "lat": 39.73,
+    "lon": 8.9608,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "17991"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17991"
+  },
+  {
+    "id": "PSF-005135",
+    "name": "Villacidro",
+    "lat": 39.438,
+    "lon": 8.7246,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17992"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17992"
+  },
+  {
+    "id": "PSF-005136",
+    "name": "Gonnosfanadiga",
+    "lat": 39.4837,
+    "lon": 8.681,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17993"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17993"
+  },
+  {
+    "id": "PSF-005137",
+    "name": "Nebida",
+    "lat": 39.2966,
+    "lon": 8.4365,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17994"
+  },
+  {
+    "id": "PSF-005138",
+    "name": "Setzu la Jara",
+    "lat": 39.7358,
+    "lon": 8.9524,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17995"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17995"
+  },
+  {
+    "id": "PSF-005139",
+    "name": "Siliqua",
+    "lat": 39.205,
+    "lon": 8.7717,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "17997"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17997"
+  },
+  {
+    "id": "PSF-005140",
+    "name": "Pauli",
+    "lat": 39.6837,
+    "lon": 8.939,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "17998"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17998"
+  },
+  {
+    "id": "PSF-005141",
+    "name": "Porto Palmas",
+    "lat": 40.758,
+    "lon": 8.1643,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "17999"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17999"
+  },
+  {
+    "id": "PSF-005142",
+    "name": "Argentiera",
+    "lat": 40.7576,
+    "lon": 8.1612,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18000"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18000"
+  },
+  {
+    "id": "PSF-005143",
+    "name": "Sinnai",
+    "lat": 39.3421,
+    "lon": 9.2436,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18001"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18001"
+  },
+  {
+    "id": "PSF-005144",
+    "name": "Grighine",
+    "lat": 39.904,
+    "lon": 8.8221,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "18002"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18002"
+  },
+  {
+    "id": "PSF-005145",
+    "name": "Balai",
+    "lat": 40.831,
+    "lon": 8.4304,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18003"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18003"
+  },
+  {
+    "id": "PSF-005146",
+    "name": "Villasalto",
+    "lat": 39.4781,
+    "lon": 9.4313,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "18004"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18004"
+  },
+  {
+    "id": "PSF-005147",
+    "name": "Guasila",
+    "lat": 39.6069,
+    "lon": 9.0389,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18005"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18005"
+  },
+  {
+    "id": "PSF-005148",
+    "name": "Gentilis",
+    "lat": 39.6578,
+    "lon": 8.5189,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "18006"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18006"
+  },
+  {
+    "id": "PSF-005149",
+    "name": "Monte Ortobene",
+    "lat": 40.3224,
+    "lon": 9.375,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18007"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18007"
+  },
+  {
+    "id": "PSF-005150",
+    "name": "Iglesias Marganai",
+    "lat": 39.3399,
+    "lon": 8.577,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "18008"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18008"
+  },
+  {
+    "id": "PSF-005151",
+    "name": "Domusnovas",
+    "lat": 39.3296,
+    "lon": 8.6208,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18009"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18009"
+  },
+  {
+    "id": "PSF-005152",
+    "name": "Fontanamare",
+    "lat": 39.2939,
+    "lon": 8.4397,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18010"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18010"
+  },
+  {
+    "id": "PSF-005153",
+    "name": "Ploaghe",
+    "lat": 40.6872,
+    "lon": 8.748,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "18011"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18011"
+  },
+  {
+    "id": "PSF-005154",
+    "name": "Monte Arci",
+    "lat": 39.8101,
+    "lon": 8.727,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "18012"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18012"
+  },
+  {
+    "id": "PSF-005155",
+    "name": "Solanas",
+    "lat": 39.1309,
+    "lon": 9.4354,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "18013"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18013"
+  },
+  {
+    "id": "PSF-005156",
+    "name": "Guspini",
+    "lat": 39.6518,
+    "lon": 8.5321,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18014"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18014"
+  },
+  {
+    "id": "PSF-005157",
+    "name": "Genuri",
+    "lat": 39.7434,
+    "lon": 8.9407,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18015"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18015"
+  },
+  {
+    "id": "PSF-005201",
+    "name": "San Bernardo di Mendatica",
+    "lat": 44.0893,
+    "lon": 7.7924,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18108"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18108"
+  },
+  {
+    "id": "PSF-005211",
+    "name": "Pizzo Cane",
+    "lat": 37.9535,
+    "lon": 13.5566,
+    "wind": {},
+    "sources": {
+      "pge": "18120"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18120"
+  },
+  {
+    "id": "PSF-005216",
+    "name": "Finestrelle",
+    "lat": 37.8037,
+    "lon": 12.9151,
+    "wind": {},
+    "sources": {
+      "pge": "18142"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18142"
+  },
+  {
+    "id": "PSF-005225",
+    "name": "Pedana Delta 3",
+    "lat": 42.3593,
+    "lon": 12.1478,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "18171"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18171"
+  },
+  {
+    "id": "PSF-005234",
+    "name": "Beigua",
+    "lat": 44.4278,
+    "lon": 8.59898,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18191"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18191"
+  },
+  {
+    "id": "PSF-005240",
+    "name": "Rovine S. Cosmo",
+    "lat": 37.9643,
+    "lon": 13.2072,
+    "wind": {},
+    "sources": {
+      "pge": "18203"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18203"
+  },
+  {
+    "id": "PSF-005241",
+    "name": "Rocca Vautero (Roletto)",
+    "lat": 44.9342,
+    "lon": 7.31375,
+    "wind": {},
+    "sources": {
+      "pge": "18218"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18218"
+  },
+  {
+    "id": "PSF-005283",
+    "name": "Chiaramonti",
+    "lat": 40.7507,
+    "lon": 8.817,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "18332"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18332"
+  },
+  {
+    "id": "PSF-005292",
+    "name": "Monte Ossoni",
+    "lat": 40.9081,
+    "lon": 8.7636,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "18348"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18348"
+  },
+  {
+    "id": "PSF-005302",
+    "name": "Monte Littu",
+    "lat": 40.562,
+    "lon": 8.9979,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "18386"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18386"
+  },
+  {
+    "id": "PSF-005313",
+    "name": "Pizzo Gallinaro",
+    "lat": 37.633,
+    "lon": 13.3513,
+    "wind": {},
+    "sources": {
+      "pge": "18426"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18426"
+  },
+  {
+    "id": "PSF-005314",
+    "name": "S.Antonio - Costa del Mito",
+    "lat": 40.0169,
+    "lon": 15.3495,
+    "wind": {
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "18428"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18428"
+  },
+  {
+    "id": "PSF-005320",
+    "name": "Il Monte",
+    "lat": 38.0213,
+    "lon": 13.9606,
+    "wind": {},
+    "sources": {
+      "pge": "18448"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18448"
+  },
+  {
+    "id": "PSF-005375",
+    "name": "S. Rosalia",
+    "lat": 37.6213,
+    "lon": 13.5215,
+    "wind": {},
+    "sources": {
+      "pge": "18629"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18629"
+  },
+  {
+    "id": "PSF-005403",
+    "name": "Ciglio - Cardile",
+    "lat": 40.2721,
+    "lon": 15.2593,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18670"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18670"
+  },
+  {
+    "id": "PSF-005411",
+    "name": "montelago",
+    "lat": 43.137,
+    "lon": 12.992,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "18684"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18684"
+  },
+  {
+    "id": "PSF-005413",
+    "name": "Mombarone",
+    "lat": 45.5844,
+    "lon": 7.89423,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18687"
+  },
+  {
+    "id": "PSF-005414",
+    "name": "Carosello 3000 (Livigno)",
+    "lat": 46.5164,
+    "lon": 10.091,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "18688"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18688"
+  },
+  {
+    "id": "PSF-005425",
+    "name": "Palamaggio",
+    "lat": 41.1307,
+    "lon": 14.3181,
+    "wind": {
+      "N": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18701"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18701"
+  },
+  {
+    "id": "PSF-005465",
+    "name": "Margone",
+    "lat": 46.0804,
+    "lon": 10.9583,
+    "wind": {
+      "N": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18786"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18786"
+  },
+  {
+    "id": "PSF-005487",
+    "name": "Campo Cecina",
+    "lat": 44.1155,
+    "lon": 10.1134,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "18819"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18819"
+  },
+  {
+    "id": "PSF-005488",
+    "name": "Monsummano Alto",
+    "lat": 43.8718,
+    "lon": 10.8273,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18820"
+  },
+  {
+    "id": "PSF-005489",
+    "name": "Sumbra",
+    "lat": 44.0782,
+    "lon": 10.2765,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "18821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18821"
+  },
+  {
+    "id": "PSF-005490",
+    "name": "Praglia",
+    "lat": 44.5155,
+    "lon": 8.8182,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "18822"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18822"
+  },
+  {
+    "id": "PSF-005519",
+    "name": "Bielmonte oasi zegna",
+    "lat": 45.6605,
+    "lon": 8.07566,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18854"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18854"
+  },
+  {
+    "id": "PSF-005521",
+    "name": "Orgiano-Polveriera",
+    "lat": 45.3692,
+    "lon": 11.4637,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "18856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18856"
+  },
+  {
+    "id": "PSF-005522",
+    "name": "Romitello",
+    "lat": 38.0405,
+    "lon": 13.1681,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18857"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18857"
+  },
+  {
+    "id": "PSF-005523",
+    "name": "Cefalù",
+    "lat": 38.0186,
+    "lon": 14.0095,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18858"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18858"
+  },
+  {
+    "id": "PSF-005543",
+    "name": "Tornimparte",
+    "lat": 42.3146,
+    "lon": 13.2488,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "18879"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18879"
+  },
+  {
+    "id": "PSF-005550",
+    "name": "Serino-Santo Stefano del Sole",
+    "lat": 40.8847,
+    "lon": 14.879,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "18889"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18889"
+  },
+  {
+    "id": "PSF-005573",
+    "name": "Punta San Matteo",
+    "lat": 46.3783,
+    "lon": 10.5648,
+    "wind": {},
+    "sources": {
+      "pge": "19075"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19075"
+  },
+  {
+    "id": "PSF-005575",
+    "name": "Stromboli",
+    "lat": 38.7936,
+    "lon": 15.2167,
+    "wind": {},
+    "sources": {
+      "pge": "19101"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19101"
+  },
+  {
+    "id": "PSF-005582",
+    "name": "Pleis",
+    "lat": 46.269,
+    "lon": 10.4395,
+    "wind": {},
+    "sources": {
+      "pge": "19164"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19164"
+  },
+  {
+    "id": "PSF-005585",
+    "name": "Oberöberst/Riffian",
+    "lat": 46.7233,
+    "lon": 11.1739,
+    "wind": {},
+    "sources": {
+      "pge": "19170"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19170"
+  },
+  {
+    "id": "PSF-005589",
+    "name": "Alto",
+    "lat": 44.1219,
+    "lon": 7.98649,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19195"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19195"
+  },
+  {
+    "id": "PSF-005602",
+    "name": "Giallonardo",
+    "lat": 37.3205,
+    "lon": 13.4163,
+    "wind": {},
+    "sources": {
+      "pge": "19217"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19217"
+  },
+  {
+    "id": "PSF-005604",
+    "name": "Serre di Ciminna",
+    "lat": 37.883,
+    "lon": 13.5421,
+    "wind": {},
+    "sources": {
+      "pge": "19220"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19220"
+  },
+  {
+    "id": "PSF-005633",
+    "name": "Madonnina Capo di Serra, aka Bacheca",
+    "lat": 42.3448,
+    "lon": 13.7848,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19256"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19256"
+  },
+  {
+    "id": "PSF-005635",
+    "name": "Ioanella",
+    "lat": 42.6775,
+    "lon": 13.6213,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19263"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19263"
+  },
+  {
+    "id": "PSF-005636",
+    "name": "Monte Piselli",
+    "lat": 42.7799,
+    "lon": 13.5845,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19264"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19264"
+  },
+  {
+    "id": "PSF-005637",
+    "name": "Tognola",
+    "lat": 46.2381,
+    "lon": 11.7778,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19265"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19265"
+  },
+  {
+    "id": "PSF-005638",
+    "name": "Cima Agnelezza - Lago Calaita",
+    "lat": 46.2124,
+    "lon": 11.7765,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19266"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19266"
+  },
+  {
+    "id": "PSF-005639",
+    "name": "Palamonda - Colverde - San Martino di Castrozza",
+    "lat": 46.2783,
+    "lon": 11.8159,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19267"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19267"
+  },
+  {
+    "id": "PSF-005684",
+    "name": "Scafa",
+    "lat": 42.2365,
+    "lon": 14.0017,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19335"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19335"
+  },
+  {
+    "id": "PSF-005689",
+    "name": "Montemale",
+    "lat": 44.4317,
+    "lon": 7.3619,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19345"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19345"
+  },
+  {
+    "id": "PSF-005690",
+    "name": "Ara della Regina",
+    "lat": 42.2444,
+    "lon": 11.8074,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19347"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19347"
+  },
+  {
+    "id": "PSF-005703",
+    "name": "Monte San Giacomo - Breccanecca",
+    "lat": 44.3264,
+    "lon": 9.38584,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19366"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19366"
+  },
+  {
+    "id": "PSF-005716",
+    "name": "Chiodo fisso - Passo del Chiodo",
+    "lat": 44.517,
+    "lon": 9.50227,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19387"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19387"
+  },
+  {
+    "id": "PSF-005740",
+    "name": "Secchieta",
+    "lat": 43.7205,
+    "lon": 11.5656,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19416"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19416"
+  },
+  {
+    "id": "PSF-005745",
+    "name": "Piombino",
+    "lat": 42.9211,
+    "lon": 10.5328,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19422"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19422"
+  },
+  {
+    "id": "PSF-005746",
+    "name": "Gavorrano",
+    "lat": 42.9146,
+    "lon": 10.902,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19423"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19423"
+  },
+  {
+    "id": "PSF-005750",
+    "name": "Castelmauro - NorthEast",
+    "lat": 41.8313,
+    "lon": 14.6951,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "19428"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19428"
+  },
+  {
+    "id": "PSF-005753",
+    "name": "Castelmauro - South",
+    "lat": 41.8382,
+    "lon": 14.6833,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19431"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19431"
+  },
+  {
+    "id": "PSF-005755",
+    "name": "Le Cornate",
+    "lat": 43.161,
+    "lon": 10.9501,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19434"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19434"
+  },
+  {
+    "id": "PSF-005772",
+    "name": "Monte Lesima",
+    "lat": 44.6832,
+    "lon": 9.25686,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19453"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19453"
+  },
+  {
+    "id": "PSF-005777",
+    "name": "Miranda",
+    "lat": 41.6385,
+    "lon": 14.268,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19458"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19458"
+  },
+  {
+    "id": "PSF-005806",
+    "name": "Razzano",
+    "lat": 41.2248,
+    "lon": 14.1793,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19504"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19504"
+  },
+  {
+    "id": "PSF-005808",
+    "name": "Vene Rosse di San Giacomo",
+    "lat": 42.8126,
+    "lon": 13.5893,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19506"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19506"
+  },
+  {
+    "id": "PSF-005844",
+    "name": "Gallina",
+    "lat": 36.9515,
+    "lon": 15.1507,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19553"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19553"
+  },
+  {
+    "id": "PSF-005868",
+    "name": "Rocca Calascio - Pinetina",
+    "lat": 42.3255,
+    "lon": 13.7092,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19586"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19586"
+  },
+  {
+    "id": "PSF-006005",
+    "name": "Alpe Lusentino / Moncucco",
+    "lat": 46.1022,
+    "lon": 8.25436,
+    "wind": {},
+    "sources": {
+      "pge": "19777"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19777"
+  },
+  {
+    "id": "PSF-006008",
+    "name": "Rocca Canavese",
+    "lat": 45.3276,
+    "lon": 7.5725,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19781"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19781"
+  },
+  {
+    "id": "PSF-006018",
+    "name": "Meduno",
+    "lat": 46.2306,
+    "lon": 12.8069,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19791"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19791"
+  },
+  {
+    "id": "PSF-006035",
+    "name": "Isolabona",
+    "lat": 43.8881,
+    "lon": 7.62184,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19811"
+  },
+  {
+    "id": "PSF-006174",
+    "name": "Monte Maggio",
+    "lat": 44.5538,
+    "lon": 9.00853,
+    "wind": {},
+    "sources": {
+      "pge": "20047"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20047"
+  },
+  {
+    "id": "PSF-006175",
+    "name": "Pian Rosso",
+    "lat": 44.155,
+    "lon": 7.77037,
+    "wind": {},
+    "sources": {
+      "pge": "20048"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20048"
+  },
+  {
+    "id": "PSF-006177",
+    "name": "Monte Bue - S.Stefano d' Aveto",
+    "lat": 44.5606,
+    "lon": 9.44925,
+    "wind": {},
+    "sources": {
+      "pge": "20050"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20050"
+  },
+  {
+    "id": "PSF-006191",
+    "name": "ParaEvoluti Roma",
+    "lat": 41.5135,
+    "lon": 12.6562,
+    "wind": {},
+    "sources": {
+      "pge": "20067"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20067"
+  },
+  {
+    "id": "PSF-006251",
+    "name": "Monte Acuto Nord",
+    "lat": 43.4963,
+    "lon": 12.6633,
+    "wind": {},
+    "sources": {
+      "pge": "20136"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20136"
+  },
+  {
+    "id": "PSF-006259",
+    "name": "Monte Spil",
+    "lat": 45.8261,
+    "lon": 11.1072,
+    "wind": {},
+    "sources": {
+      "pge": "20146"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20146"
+  },
+  {
+    "id": "PSF-006281",
+    "name": "Monte Saraceno",
+    "lat": 38.3884,
+    "lon": 14.9602,
+    "wind": {},
+    "sources": {
+      "pge": "20857"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20857"
+  },
+  {
+    "id": "PSF-006286",
+    "name": "Monte Capanne take-off",
+    "lat": 42.772,
+    "lon": 10.1686,
+    "wind": {},
+    "sources": {
+      "pge": "21035"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21035"
+  },
+  {
+    "id": "PSF-006322",
+    "name": "Colle dell Agnello",
+    "lat": 44.6832,
+    "lon": 6.9794,
+    "wind": {
+      "N": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "21233"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21233"
+  },
+  {
+    "id": "PSF-006333",
+    "name": "Bassano -Camol",
+    "lat": 45.8401,
+    "lon": 11.7848,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21263"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21263"
+  },
+  {
+    "id": "PSF-006338",
+    "name": "Castellucio -Trg Hill",
+    "lat": 42.7996,
+    "lon": 13.2138,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21271"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21271"
+  },
+  {
+    "id": "PSF-006339",
+    "name": "Quercianella",
+    "lat": 43.4594,
+    "lon": 10.3826,
+    "wind": {},
+    "sources": {
+      "pge": "21276"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21276"
+  },
+  {
+    "id": "PSF-006411",
+    "name": "Castelletto d'Erro",
+    "lat": 44.6134,
+    "lon": 8.38982,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "21351"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21351"
+  },
+  {
+    "id": "PSF-006423",
+    "name": "MEZZOLDO  - Passo S.Marco",
+    "lat": 46.0471,
+    "lon": 9.6208,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21363"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21363"
+  },
+  {
+    "id": "PSF-006470",
+    "name": "Lu Lioni",
+    "lat": 40.7819,
+    "lon": 9.62615,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "21414"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21414"
+  },
+  {
+    "id": "PSF-006521",
+    "name": "Vetan",
+    "lat": 45.7321,
+    "lon": 7.18356,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21473"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21473"
+  },
+  {
+    "id": "PSF-006554",
+    "name": "Muanda Low",
+    "lat": 45.5913,
+    "lon": 7.97099,
+    "wind": {
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21510"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21510"
+  },
+  {
+    "id": "PSF-006559",
+    "name": "Somator - normale",
+    "lat": 45.8764,
+    "lon": 10.9726,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "21515"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21515"
+  },
+  {
+    "id": "PSF-006560",
+    "name": "Sano",
+    "lat": 45.8537,
+    "lon": 10.949,
+    "wind": {},
+    "sources": {
+      "pge": "21516"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21516"
+  },
+  {
+    "id": "PSF-006561",
+    "name": "Monte Biaena",
+    "lat": 45.8765,
+    "lon": 10.9712,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "21517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21517"
+  },
+  {
+    "id": "PSF-006562",
+    "name": "Monte Campo",
+    "lat": 45.8099,
+    "lon": 10.9139,
+    "wind": {},
+    "sources": {
+      "pge": "21518"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21518"
+  },
+  {
+    "id": "PSF-006563",
+    "name": "Pradalago",
+    "lat": 46.2476,
+    "lon": 10.8124,
+    "wind": {},
+    "sources": {
+      "pge": "21519"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21519"
+  },
+  {
+    "id": "PSF-006603",
+    "name": "Pavillion",
+    "lat": 45.8296,
+    "lon": 6.94739,
+    "wind": {},
+    "sources": {
+      "pge": "21560"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21560"
+  },
+  {
+    "id": "PSF-006611",
+    "name": "DELTA TakeOff (NORMA)",
+    "lat": 41.6101,
+    "lon": 12.9356,
+    "wind": {},
+    "sources": {
+      "pge": "21569"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21569"
+  },
+  {
+    "id": "PSF-006621",
+    "name": "Valle di Rio",
+    "lat": 41.7413,
+    "lon": 13.7442,
+    "wind": {},
+    "sources": {
+      "pge": "21585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21585"
+  },
+  {
+    "id": "PSF-006622",
+    "name": "Sette Frati Alto",
+    "lat": 41.6803,
+    "lon": 13.8873,
+    "wind": {},
+    "sources": {
+      "pge": "21586"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21586"
+  },
+  {
+    "id": "PSF-006623",
+    "name": "Monte San Vicino",
+    "lat": 43.3129,
+    "lon": 13.0572,
+    "wind": {},
+    "sources": {
+      "pge": "21587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21587"
+  },
+  {
+    "id": "PSF-006624",
+    "name": "Monte San Vicino Alto",
+    "lat": 43.3171,
+    "lon": 13.0574,
+    "wind": {},
+    "sources": {
+      "pge": "21588"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21588"
+  },
+  {
+    "id": "PSF-006635",
+    "name": "Santa Lucia",
+    "lat": 44.0823,
+    "lon": 10.0594,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21607"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21607"
+  },
+  {
+    "id": "PSF-006648",
+    "name": "Regnano",
+    "lat": 44.2258,
+    "lon": 10.221,
+    "wind": {},
+    "sources": {
+      "pge": "21624"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21624"
+  },
+  {
+    "id": "PSF-006671",
+    "name": "Sant'Oronzo",
+    "lat": 40.8556,
+    "lon": 17.304,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21653"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21653"
+  },
+  {
+    "id": "PSF-006672",
+    "name": "Diga Poggiorsini",
+    "lat": 40.8445,
+    "lon": 16.2638,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21654"
+  },
+  {
+    "id": "PSF-006673",
+    "name": "Maratea - Colle della Salvia",
+    "lat": 40.0301,
+    "lon": 15.7071,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21655"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21655"
+  },
+  {
+    "id": "PSF-006718",
+    "name": "Monte Pizzocolo",
+    "lat": 45.667,
+    "lon": 10.5613,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "21702"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21702"
+  },
+  {
+    "id": "PSF-006785",
+    "name": "Canale di Pirro 2",
+    "lat": 40.8255,
+    "lon": 17.2989,
+    "wind": {},
+    "sources": {
+      "pge": "21776"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21776"
+  },
+  {
+    "id": "PSF-006790",
+    "name": "Folgorito",
+    "lat": 44.0161,
+    "lon": 10.194,
+    "wind": {},
+    "sources": {
+      "pge": "21781"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21781"
+  },
+  {
+    "id": "PSF-006791",
+    "name": "Summonti",
+    "lat": 43.945,
+    "lon": 10.3272,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21782"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21782"
+  },
+  {
+    "id": "PSF-006870",
+    "name": "Lu - vecchia cava",
+    "lat": 44.9933,
+    "lon": 8.48814,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21870"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21870"
+  },
+  {
+    "id": "PSF-006880",
+    "name": "Cusio - Monte Avaro",
+    "lat": 46.0038,
+    "lon": 9.6026,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21880"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21880"
+  },
+  {
+    "id": "PSF-006888",
+    "name": "Foraoro",
+    "lat": 45.7894,
+    "lon": 11.4843,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21888"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21888"
+  },
+  {
+    "id": "PSF-006918",
+    "name": "Monte Calvo",
+    "lat": 41.7566,
+    "lon": 13.7142,
+    "wind": {},
+    "sources": {
+      "pge": "21918"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21918"
+  },
+  {
+    "id": "PSF-006922",
+    "name": "Vetriolo / Levico Terme",
+    "lat": 46.0418,
+    "lon": 11.3171,
+    "wind": {},
+    "sources": {
+      "pge": "21922"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21922"
+  },
+  {
+    "id": "PSF-006925",
+    "name": "Pratino (Foppa Martinu)",
+    "lat": 45.7682,
+    "lon": 9.54898,
+    "wind": {},
+    "sources": {
+      "pge": "21925"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21925"
+  },
+  {
+    "id": "PSF-006926",
+    "name": "Leonessa Colleverde",
+    "lat": 42.5687,
+    "lon": 13.0267,
+    "wind": {},
+    "sources": {
+      "pge": "21927"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21927"
+  },
+  {
+    "id": "PSF-006927",
+    "name": "San'Antonio Abbandonato",
+    "lat": 45.8063,
+    "lon": 9.63397,
+    "wind": {},
+    "sources": {
+      "pge": "21928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21928"
+  },
+  {
+    "id": "PSF-006935",
+    "name": "Gagliano Aterno",
+    "lat": 42.1094,
+    "lon": 13.6966,
+    "wind": {},
+    "sources": {
+      "pge": "21939"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21939"
+  },
+  {
+    "id": "PSF-007014",
+    "name": "Minervino Murge",
+    "lat": 41.0663,
+    "lon": 16.0799,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22029"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22029"
+  },
+  {
+    "id": "PSF-007046",
+    "name": "Nemina",
+    "lat": 46.2018,
+    "lon": 10.0811,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22075"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22075"
+  },
+  {
+    "id": "PSF-007055",
+    "name": "Su Vrau - spot Sud",
+    "lat": 40.6183,
+    "lon": 9.6962,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22084"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22084"
+  },
+  {
+    "id": "PSF-007056",
+    "name": "Su Vrau - spot Nord",
+    "lat": 40.6207,
+    "lon": 9.69742,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22085"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22085"
+  },
+  {
+    "id": "PSF-007063",
+    "name": "Monte Antiogu Boi",
+    "lat": 39.276,
+    "lon": 9.37355,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22093"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22093"
+  },
+  {
+    "id": "PSF-007067",
+    "name": "Decollo S. Michele",
+    "lat": 40.8648,
+    "lon": 17.2912,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "22098"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22098"
+  },
+  {
+    "id": "PSF-007068",
+    "name": "Monte S. Vittoria",
+    "lat": 39.7571,
+    "lon": 9.30591,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22099"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22099"
+  },
+  {
+    "id": "PSF-007084",
+    "name": "Belice",
+    "lat": 45.4183,
+    "lon": 7.64195,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22117"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22117"
+  },
+  {
+    "id": "PSF-007086",
+    "name": "Castello di Monteserico - Genzano di Lucania (PZ)",
+    "lat": 40.855,
+    "lon": 16.1528,
+    "wind": {},
+    "sources": {
+      "pge": "22119"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22119"
+  },
+  {
+    "id": "PSF-007145",
+    "name": "Monte Cucco - Decolo Nord",
+    "lat": 43.357,
+    "lon": 12.7715,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22191"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22191"
+  },
+  {
+    "id": "PSF-007188",
+    "name": "Monte Lignano",
+    "lat": 43.405,
+    "lon": 11.8827,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22245"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22245"
+  },
+  {
+    "id": "PSF-007190",
+    "name": "GOLE",
+    "lat": 45.6898,
+    "lon": 10.1339,
+    "wind": {},
+    "sources": {
+      "pge": "22248"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22248"
+  },
+  {
+    "id": "PSF-007211",
+    "name": "Dromae and cima d oro",
+    "lat": 45.896,
+    "lon": 10.7843,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22270"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22270"
+  },
+  {
+    "id": "PSF-007232",
+    "name": "Varazze",
+    "lat": 44.3725,
+    "lon": 8.59514,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22291"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22291"
+  },
+  {
+    "id": "PSF-007288",
+    "name": "Carnale",
+    "lat": 46.1885,
+    "lon": 9.88529,
+    "wind": {},
+    "sources": {
+      "pge": "22353"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22353"
+  },
+  {
+    "id": "PSF-007295",
+    "name": "Landing Volo Libero Brescia",
+    "lat": 45.5244,
+    "lon": 10.2589,
+    "wind": {},
+    "sources": {
+      "pge": "22362"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22362"
+  },
+  {
+    "id": "PSF-007296",
+    "name": "Decollo Est Brescia",
+    "lat": 45.5491,
+    "lon": 10.2861,
+    "wind": {},
+    "sources": {
+      "pge": "22363"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22363"
+  },
+  {
+    "id": "PSF-007300",
+    "name": "Scala",
+    "lat": 40.6536,
+    "lon": 14.5935,
+    "wind": {},
+    "sources": {
+      "pge": "22367"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22367"
+  },
+  {
+    "id": "PSF-007301",
+    "name": "Maiori",
+    "lat": 40.6496,
+    "lon": 14.6777,
+    "wind": {},
+    "sources": {
+      "pge": "22368"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22368"
+  },
+  {
+    "id": "PSF-007302",
+    "name": "Castellammare di Stabia - Monte Faito",
+    "lat": 40.67,
+    "lon": 14.4709,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "22369"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22369"
+  },
+  {
+    "id": "PSF-007320",
+    "name": "Bevera",
+    "lat": 43.8311,
+    "lon": 7.56704,
+    "wind": {
+      "E": 2,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22388"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22388"
+  },
+  {
+    "id": "PSF-007501",
+    "name": "Pisciotta",
+    "lat": 40.1203,
+    "lon": 15.2255,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22587"
+  },
+  {
+    "id": "PSF-007556",
+    "name": "Monte Padrio",
+    "lat": 46.186,
+    "lon": 10.2318,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22650"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22650"
+  },
+  {
+    "id": "PSF-007557",
+    "name": "Monte Peller",
+    "lat": 46.3136,
+    "lon": 10.948,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22651"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22651"
+  },
+  {
+    "id": "PSF-007601",
+    "name": "Monte Pennino",
+    "lat": 43.0983,
+    "lon": 12.881,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22700"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22700"
+  },
+  {
+    "id": "PSF-007602",
+    "name": "Macchialunga",
+    "lat": 43.0451,
+    "lon": 12.9488,
+    "wind": {
+      "N": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22701"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22701"
+  },
+  {
+    "id": "PSF-007603",
+    "name": "Positano",
+    "lat": 40.6358,
+    "lon": 14.4733,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "22702"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22702"
+  },
+  {
+    "id": "PSF-007660",
+    "name": "SEIFRATI",
+    "lat": 41.6777,
+    "lon": 13.8724,
+    "wind": {},
+    "sources": {
+      "pge": "22762"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22762"
+  },
+  {
+    "id": "PSF-007690",
+    "name": "Paesana Pian Croesio",
+    "lat": 44.6576,
+    "lon": 7.26016,
+    "wind": {},
+    "sources": {
+      "pge": "22795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22795"
+  },
+  {
+    "id": "PSF-007720",
+    "name": "Castel San Giorgio",
+    "lat": 40.7779,
+    "lon": 14.657,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22836"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22836"
+  },
+  {
+    "id": "PSF-007721",
+    "name": "Principe",
+    "lat": 45.0905,
+    "lon": 7.35275,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22837"
+  },
+  {
+    "id": "PSF-007722",
+    "name": "Cherry peak",
+    "lat": 44.9633,
+    "lon": 7.17077,
+    "wind": {
+      "E": 1,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "22838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22838"
+  },
+  {
+    "id": "PSF-007723",
+    "name": "Punta Helbronner",
+    "lat": 45.8466,
+    "lon": 6.93209,
+    "wind": {},
+    "sources": {
+      "pge": "22839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22839"
+  },
+  {
+    "id": "PSF-007728",
+    "name": "Cugn",
+    "lat": 46.1697,
+    "lon": 9.16042,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22845"
+  },
+  {
+    "id": "PSF-007748",
+    "name": "San Giuliano Terme",
+    "lat": 43.7779,
+    "lon": 10.4401,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22872"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22872"
+  },
+  {
+    "id": "PSF-007772",
+    "name": "Refugio Auronzo / Tre Cie / Drei Zinnen",
+    "lat": 46.6122,
+    "lon": 12.2936,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22898"
+  },
+  {
+    "id": "PSF-007809",
+    "name": "Magliano Sabina",
+    "lat": 42.3597,
+    "lon": 12.4763,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22942"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22942"
+  },
+  {
+    "id": "PSF-007810",
+    "name": "Bellon",
+    "lat": 45.7296,
+    "lon": 7.22906,
+    "wind": {},
+    "sources": {
+      "pge": "22943"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22943"
+  },
+  {
+    "id": "PSF-007814",
+    "name": "Campo dei Fiorri",
+    "lat": 45.8675,
+    "lon": 8.76329,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "22948"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22948"
+  },
+  {
+    "id": "PSF-007819",
+    "name": "Campanara",
+    "lat": 45.7794,
+    "lon": 11.5022,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22954"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22954"
+  },
+  {
+    "id": "PSF-007820",
+    "name": "Ceresana, Cogollo del Cengio",
+    "lat": 45.804,
+    "lon": 11.4381,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22955"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22955"
+  },
+  {
+    "id": "PSF-007833",
+    "name": "Falzeben (Meran2000)",
+    "lat": 46.6772,
+    "lon": 11.254,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "22968"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22968"
+  },
+  {
+    "id": "PSF-007907",
+    "name": "punta dell'aquila",
+    "lat": 45.0046,
+    "lon": 7.23986,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23044"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23044"
+  },
+  {
+    "id": "PSF-007935",
+    "name": "Monte Bondone 3",
+    "lat": 46.041,
+    "lon": 11.0265,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "23078"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23078"
+  },
+  {
+    "id": "PSF-007996",
+    "name": "prati del piz",
+    "lat": 46.1694,
+    "lon": 10.9659,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23141"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23141"
+  },
+  {
+    "id": "PSF-008040",
+    "name": "San Raffaele Cimena",
+    "lat": 45.1555,
+    "lon": 7.86086,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23188"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23188"
+  },
+  {
+    "id": "PSF-008042",
+    "name": "Zuccul Supigna",
+    "lat": 46.1469,
+    "lon": 12.6089,
+    "wind": {},
+    "sources": {
+      "pge": "23190"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23190"
+  },
+  {
+    "id": "PSF-008071",
+    "name": "Bielli",
+    "lat": 45.7859,
+    "lon": 11.6343,
+    "wind": {},
+    "sources": {
+      "pge": "23219"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23219"
+  },
+  {
+    "id": "PSF-008072",
+    "name": "Possagno Vedetta Mandria",
+    "lat": 45.8819,
+    "lon": 11.8412,
+    "wind": {},
+    "sources": {
+      "pge": "23220"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23220"
+  },
+  {
+    "id": "PSF-008073",
+    "name": "Possagno Il Piz",
+    "lat": 45.884,
+    "lon": 11.8502,
+    "wind": {},
+    "sources": {
+      "pge": "23221"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23221"
+  },
+  {
+    "id": "PSF-008074",
+    "name": "Valdobbiadene Colonia",
+    "lat": 45.9165,
+    "lon": 12.0116,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23222"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23222"
+  },
+  {
+    "id": "PSF-008075",
+    "name": "Miane Budui",
+    "lat": 45.9468,
+    "lon": 12.0607,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23223"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23223"
+  },
+  {
+    "id": "PSF-008076",
+    "name": "Col Visentin",
+    "lat": 46.0557,
+    "lon": 12.2823,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23224"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23224"
+  },
+  {
+    "id": "PSF-008077",
+    "name": "Fregona Pizzoc",
+    "lat": 46.0427,
+    "lon": 12.3403,
+    "wind": {
+      "SE": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23225"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23225"
+  },
+  {
+    "id": "PSF-008078",
+    "name": "Belluno Monte Serva",
+    "lat": 46.2005,
+    "lon": 12.2312,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23226"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23226"
+  },
+  {
+    "id": "PSF-008112",
+    "name": "Hirzer Mittelstation",
+    "lat": 46.7259,
+    "lon": 11.2313,
+    "wind": {},
+    "sources": {
+      "pge": "23264"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23264"
+  },
+  {
+    "id": "PSF-008144",
+    "name": "Javello",
+    "lat": 43.9616,
+    "lon": 11.088,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23299"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23299"
+  },
+  {
+    "id": "PSF-008150",
+    "name": "Take-off Talvena",
+    "lat": 46.1812,
+    "lon": 12.1605,
+    "wind": {},
+    "sources": {
+      "pge": "23306"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23306"
+  },
+  {
+    "id": "PSF-008154",
+    "name": "Bassano - Colle Campeggia",
+    "lat": 45.8374,
+    "lon": 11.7489,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23312"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23312"
+  },
+  {
+    "id": "PSF-008162",
+    "name": "San Donato - Forca d'Acero",
+    "lat": 41.7364,
+    "lon": 13.8087,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "23320"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23320"
+  },
+  {
+    "id": "PSF-008181",
+    "name": "Talamone",
+    "lat": 42.5518,
+    "lon": 11.1679,
+    "wind": {
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23339"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23339"
+  },
+  {
+    "id": "PSF-008182",
+    "name": "Castello belvedere",
+    "lat": 41.8468,
+    "lon": 12.8935,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23340"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23340"
+  },
+  {
+    "id": "PSF-008193",
+    "name": "Le Rocchine, Serravalle Pistoiese",
+    "lat": 43.8657,
+    "lon": 10.882,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "23353"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23353"
+  },
+  {
+    "id": "PSF-008196",
+    "name": "Ciampinoi",
+    "lat": 46.5394,
+    "lon": 11.7531,
+    "wind": {},
+    "sources": {
+      "pge": "23357"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23357"
+  },
+  {
+    "id": "PSF-008232",
+    "name": "Bonassola",
+    "lat": 44.1992,
+    "lon": 9.59237,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23407"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23407"
+  },
+  {
+    "id": "PSF-008233",
+    "name": "Monte San Nicolao",
+    "lat": 44.2537,
+    "lon": 9.57042,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23408"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23408"
+  },
+  {
+    "id": "PSF-008234",
+    "name": "Riva Ginestra",
+    "lat": 44.2594,
+    "lon": 9.41031,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23409"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23409"
+  },
+  {
+    "id": "PSF-008235",
+    "name": "Riva Renà",
+    "lat": 44.2448,
+    "lon": 9.44228,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23410"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23410"
+  },
+  {
+    "id": "PSF-008303",
+    "name": "Castello Palestrina Tempio",
+    "lat": 41.8437,
+    "lon": 12.8951,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23485"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23485"
+  },
+  {
+    "id": "PSF-008317",
+    "name": "Cucetto Tabellone",
+    "lat": 44.9803,
+    "lon": 7.23463,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23501"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23501"
+  },
+  {
+    "id": "PSF-008318",
+    "name": "Monte Corno",
+    "lat": 45.2409,
+    "lon": 7.481,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23502"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23502"
+  },
+  {
+    "id": "PSF-008319",
+    "name": "Le Combe",
+    "lat": 45.1781,
+    "lon": 7.1612,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23503"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23503"
+  },
+  {
+    "id": "PSF-008321",
+    "name": "Salina",
+    "lat": 38.5561,
+    "lon": 14.8439,
+    "wind": {
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23505"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23505"
+  },
+  {
+    "id": "PSF-008322",
+    "name": "Pizzi Deneri",
+    "lat": 37.765,
+    "lon": 15.0173,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23506"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23506"
+  },
+  {
+    "id": "PSF-008352",
+    "name": "Monte Erio",
+    "lat": 45.887,
+    "lon": 11.4165,
+    "wind": {},
+    "sources": {
+      "pge": "23542"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23542"
+  },
+  {
+    "id": "PSF-008388",
+    "name": "Montericcio decollo da sotto, Tarquinia",
+    "lat": 42.2282,
+    "lon": 11.8476,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23581"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23581"
+  },
+  {
+    "id": "PSF-008389",
+    "name": "Montericcio, Zio Peppe",
+    "lat": 42.2314,
+    "lon": 11.843,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23582"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23582"
+  },
+  {
+    "id": "PSF-008390",
+    "name": "Tarquinia, Decollo Nord",
+    "lat": 42.2418,
+    "lon": 11.794,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23583"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23583"
+  },
+  {
+    "id": "PSF-008391",
+    "name": "Tarquinia, Decollo Sud Est",
+    "lat": 42.2201,
+    "lon": 11.8242,
+    "wind": {
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23584"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23584"
+  },
+  {
+    "id": "PSF-008392",
+    "name": "Falesietta, Sud, SudEst, Tarquinia",
+    "lat": 42.206,
+    "lon": 11.7974,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23585"
+  },
+  {
+    "id": "PSF-008398",
+    "name": "Porciano",
+    "lat": 41.7447,
+    "lon": 13.2322,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23591"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23591"
+  },
+  {
+    "id": "PSF-008459",
+    "name": "Porciano Alto",
+    "lat": 41.7614,
+    "lon": 13.2055,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23666"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23666"
+  },
+  {
+    "id": "PSF-008464",
+    "name": "Campocatino - Punta della Valle - Est",
+    "lat": 41.8286,
+    "lon": 13.3294,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23671"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23671"
+  },
+  {
+    "id": "PSF-008471",
+    "name": "Bivacco Bedin",
+    "lat": 46.3133,
+    "lon": 11.9789,
+    "wind": {},
+    "sources": {
+      "pge": "23679"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23679"
+  },
+  {
+    "id": "PSF-008479",
+    "name": "Campocatino - Punta della Valle - Ovest",
+    "lat": 41.8287,
+    "lon": 13.3287,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23687"
+  },
+  {
+    "id": "PSF-008486",
+    "name": "Biscia",
+    "lat": 44.3683,
+    "lon": 9.48835,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23699"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23699"
+  },
+  {
+    "id": "PSF-008487",
+    "name": "Kamasutra",
+    "lat": 44.3151,
+    "lon": 9.40039,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23700"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23700"
+  },
+  {
+    "id": "PSF-008524",
+    "name": "Costalta (Baselga di Piné)",
+    "lat": 46.1301,
+    "lon": 11.289,
+    "wind": {},
+    "sources": {
+      "pge": "23742"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23742"
+  },
+  {
+    "id": "PSF-008527",
+    "name": "Montoso",
+    "lat": 44.7638,
+    "lon": 7.25047,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23745"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23745"
+  },
+  {
+    "id": "PSF-008528",
+    "name": "Molè",
+    "lat": 45.1554,
+    "lon": 7.16751,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23746"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23746"
+  },
+  {
+    "id": "PSF-008529",
+    "name": "Rocca Patanua",
+    "lat": 45.1748,
+    "lon": 7.22149,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "23747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23747"
+  },
+  {
+    "id": "PSF-008530",
+    "name": "Piramide Vincent",
+    "lat": 45.908,
+    "lon": 7.86132,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23748"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23748"
+  },
+  {
+    "id": "PSF-008539",
+    "name": "Decollo-Sant'Oreste",
+    "lat": 42.2453,
+    "lon": 12.5019,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23757"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23757"
+  },
+  {
+    "id": "PSF-008556",
+    "name": "Mte Summano",
+    "lat": 45.7564,
+    "lon": 11.3912,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23775"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23775"
+  },
+  {
+    "id": "PSF-008573",
+    "name": "Sospirolo",
+    "lat": 46.1504,
+    "lon": 12.059,
+    "wind": {},
+    "sources": {
+      "pge": "23799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23799"
+  },
+  {
+    "id": "PSF-008610",
+    "name": "Rosengarten/ Catinaccio -Paolina (Karersee)",
+    "lat": 46.4159,
+    "lon": 11.6164,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23841"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23841"
+  },
+  {
+    "id": "PSF-008680",
+    "name": "FlyPark",
+    "lat": 43.7374,
+    "lon": 10.5348,
+    "wind": {},
+    "sources": {
+      "pge": "23922"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23922"
+  },
+  {
+    "id": "PSF-008691",
+    "name": "Fiori del Baldo",
+    "lat": 45.6797,
+    "lon": 10.8167,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23934"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23934"
+  },
+  {
+    "id": "PSF-009544",
+    "name": "Padova",
+    "lat": 45.3565,
+    "lon": 11.6545,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6611"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6611"
+  },
+  {
+    "id": "PSF-009556",
+    "name": "Val della Torre",
+    "lat": 45.1618,
+    "lon": 7.46361,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6629"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6629"
+  },
+  {
+    "id": "PSF-009557",
+    "name": "Revine",
+    "lat": 46.0028,
+    "lon": 12.2084,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "6630"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6630"
+  },
+  {
+    "id": "PSF-009564",
+    "name": "Praia a Mare",
+    "lat": 39.8918,
+    "lon": 15.8045,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6638"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6638"
+  },
+  {
+    "id": "PSF-009577",
+    "name": "Monte Avena (Feltre)",
+    "lat": 46.0294,
+    "lon": 11.8264,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6651"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6651"
+  },
+  {
+    "id": "PSF-009588",
+    "name": "Pieve d Alpago - Dolada",
+    "lat": 46.1917,
+    "lon": 12.3527,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6663"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6663"
+  },
+  {
+    "id": "PSF-009673",
+    "name": "Sestola M. Calvanella (MO)",
+    "lat": 44.217,
+    "lon": 10.7605,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6770"
+  },
+  {
+    "id": "PSF-009685",
+    "name": "Alpe Pala",
+    "lat": 45.9863,
+    "lon": 8.52012,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6785"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6785"
+  },
+  {
+    "id": "PSF-009947",
+    "name": "Celle",
+    "lat": 45.1316,
+    "lon": 7.36001,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "7141"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7141"
+  },
+  {
+    "id": "PSF-009948",
+    "name": "Chiamberlando",
+    "lat": 45.1473,
+    "lon": 7.08701,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "7142"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7142"
+  },
+  {
+    "id": "PSF-010028",
+    "name": "Campitello-Canazei-Locomotiva",
+    "lat": 46.5087,
+    "lon": 11.7719,
+    "wind": {
+      "N": 1,
+      "SE": 2,
+      "S": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7242"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7242"
+  },
+  {
+    "id": "PSF-010029",
+    "name": "Campitello-Canazei-Col Rodella",
+    "lat": 46.4972,
+    "lon": 11.7535,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7243"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7243"
+  },
+  {
+    "id": "PSF-010089",
+    "name": "Laveno - Mte.Nudo - Mombello",
+    "lat": 45.9222,
+    "lon": 8.67389,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7323"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7323"
+  },
+  {
+    "id": "PSF-010134",
+    "name": "Norma",
+    "lat": 41.591,
+    "lon": 12.9574,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7383"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7383"
+  },
+  {
+    "id": "PSF-010135",
+    "name": "Poggio Bustone - Monte Rosato",
+    "lat": 42.5149,
+    "lon": 12.8833,
+    "wind": {
+      "N": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7384"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7384"
+  },
+  {
+    "id": "PSF-010254",
+    "name": "la Guardia (Recoaro- Vicenza)",
+    "lat": 45.7196,
+    "lon": 11.1814,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7593"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7593"
+  },
+  {
+    "id": "PSF-010258",
+    "name": "Campogrosso  (Recoaro- Padova)",
+    "lat": 45.7292,
+    "lon": 11.1795,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7598"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7598"
+  },
+  {
+    "id": "PSF-010260",
+    "name": "Montefalcone (Recoaro- Vicenza)",
+    "lat": 45.6642,
+    "lon": 11.2107,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7601"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7601"
+  },
+  {
+    "id": "PSF-010261",
+    "name": "Malga Morando (Recoaro- Vicenza)",
+    "lat": 45.6884,
+    "lon": 11.1912,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7602"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7602"
+  },
+  {
+    "id": "PSF-010262",
+    "name": "Malga Rialto",
+    "lat": 45.6517,
+    "lon": 11.2383,
+    "wind": {},
+    "sources": {
+      "pge": "7603"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7603"
+  },
+  {
+    "id": "PSF-010685",
+    "name": "Valdarno",
+    "lat": 43.7013,
+    "lon": 11.5562,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8269"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8269"
+  },
+  {
+    "id": "PSF-011001",
+    "name": "Speikboden",
+    "lat": 46.9139,
+    "lon": 11.9078,
+    "wind": {
+      "NE": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9174"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9174"
+  },
+  {
+    "id": "PSF-011002",
+    "name": "Monte Cairo (Monte Cassino)",
+    "lat": 41.5471,
+    "lon": 13.8122,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9175"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9175"
+  },
+  {
+    "id": "PSF-011003",
+    "name": "Cornizzolo",
+    "lat": 45.833,
+    "lon": 9.30213,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9176"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9176"
+  },
+  {
+    "id": "PSF-011004",
+    "name": "Loggia di Pilato - Monopoli",
+    "lat": 40.8758,
+    "lon": 17.2862,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9177"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9177"
+  },
+  {
+    "id": "PSF-011005",
+    "name": "Cavallaria",
+    "lat": 45.5204,
+    "lon": 7.80742,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9178"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9178"
+  },
+  {
+    "id": "PSF-011006",
+    "name": "Pizzo Calabro",
+    "lat": 38.7256,
+    "lon": 16.1589,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9181"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9181"
+  },
+  {
+    "id": "PSF-011007",
+    "name": "Hirzer (Meran)",
+    "lat": 46.7314,
+    "lon": 11.248,
+    "wind": {},
+    "sources": {
+      "pge": "9183"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9183"
+  },
+  {
+    "id": "PSF-011008",
+    "name": "Laveno - Sasso del Ferro",
+    "lat": 45.9115,
+    "lon": 8.6432,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9184"
+  },
+  {
+    "id": "PSF-011009",
+    "name": "Monte Cesen",
+    "lat": 45.9326,
+    "lon": 12.0195,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9188"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9188"
+  },
+  {
+    "id": "PSF-011010",
+    "name": "Rubbio",
+    "lat": 45.7917,
+    "lon": 11.6606,
+    "wind": {},
+    "sources": {
+      "pge": "9189"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9189"
+  },
+  {
+    "id": "PSF-011011",
+    "name": "Essicher",
+    "lat": 46.6466,
+    "lon": 11.3514,
+    "wind": {},
+    "sources": {
+      "pge": "9191"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9191"
+  },
+  {
+    "id": "PSF-011012",
+    "name": "Watles - Praemajur",
+    "lat": 46.7008,
+    "lon": 10.5049,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9192"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9192"
+  },
+  {
+    "id": "PSF-011013",
+    "name": "Vigiljoch - San Vigilio",
+    "lat": 46.6248,
+    "lon": 11.1171,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9193"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9193"
+  },
+  {
+    "id": "PSF-011014",
+    "name": "Rosskopf (Monte Cavallo)",
+    "lat": 46.915,
+    "lon": 11.3724,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "9194"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9194"
+  },
+  {
+    "id": "PSF-011015",
+    "name": "Mendel/Mendola - Lavinaspitz",
+    "lat": 46.3846,
+    "lon": 11.2147,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9195"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9195"
+  },
+  {
+    "id": "PSF-011016",
+    "name": "Kronplatz",
+    "lat": 46.7396,
+    "lon": 11.9589,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 1,
+      "S": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9196"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9196"
+  },
+  {
+    "id": "PSF-011017",
+    "name": "Gemona - Mt.Cuarnan",
+    "lat": 46.2728,
+    "lon": 13.1743,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9198"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9198"
+  },
+  {
+    "id": "PSF-011018",
+    "name": "Bassano - South (da Bepi)",
+    "lat": 45.8238,
+    "lon": 11.7694,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9200"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9200"
+  },
+  {
+    "id": "PSF-011019",
+    "name": "Monte Gemmo - Tre Pizzi",
+    "lat": 43.2171,
+    "lon": 12.956,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "9201"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9201"
+  },
+  {
+    "id": "PSF-011020",
+    "name": "Monte Cucco",
+    "lat": 43.3567,
+    "lon": 12.7496,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9203"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9203"
+  },
+  {
+    "id": "PSF-011021",
+    "name": "Vöran / Verano",
+    "lat": 46.5992,
+    "lon": 11.2259,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9204"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9204"
+  },
+  {
+    "id": "PSF-011022",
+    "name": "Monte Baldo (Malcesine)",
+    "lat": 45.7761,
+    "lon": 10.8628,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9205"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9205"
+  },
+  {
+    "id": "PSF-011023",
+    "name": "Trafoi",
+    "lat": 46.5693,
+    "lon": 10.5061,
+    "wind": {},
+    "sources": {
+      "pge": "9206"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9206"
+  },
+  {
+    "id": "PSF-011024",
+    "name": "Ultimo / Ultental (Schwemmalm)",
+    "lat": 46.5353,
+    "lon": 10.9167,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9207"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9207"
+  },
+  {
+    "id": "PSF-011025",
+    "name": "Forca di Presta",
+    "lat": 42.7848,
+    "lon": 13.2518,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9208"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9208"
+  },
+  {
+    "id": "PSF-011026",
+    "name": "Partinges",
+    "lat": 46.8787,
+    "lon": 11.4936,
+    "wind": {},
+    "sources": {
+      "pge": "9210"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9210"
+  },
+  {
+    "id": "PSF-011027",
+    "name": "Unterstell - Naturns",
+    "lat": 46.6592,
+    "lon": 10.9858,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9211"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9211"
+  },
+  {
+    "id": "PSF-011028",
+    "name": "Valcava",
+    "lat": 45.7798,
+    "lon": 9.5099,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9212"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9212"
+  },
+  {
+    "id": "PSF-011029",
+    "name": "Plose",
+    "lat": 46.6877,
+    "lon": 11.7111,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9214"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9214"
+  },
+  {
+    "id": "PSF-011030",
+    "name": "Rodeneck",
+    "lat": 46.7896,
+    "lon": 11.712,
+    "wind": {},
+    "sources": {
+      "pge": "9215"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9215"
+  },
+  {
+    "id": "PSF-011031",
+    "name": "Plata - Pfalzen",
+    "lat": 46.8289,
+    "lon": 11.8765,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9216"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9216"
+  },
+  {
+    "id": "PSF-011032",
+    "name": "forcella",
+    "lat": 45.724,
+    "lon": 10.1462,
+    "wind": {
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9217"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9217"
+  },
+  {
+    "id": "PSF-011033",
+    "name": "Bernadia - Nimis",
+    "lat": 46.2252,
+    "lon": 13.2637,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9218"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9218"
+  },
+  {
+    "id": "PSF-011034",
+    "name": "Wanker",
+    "lat": 46.6498,
+    "lon": 11.3392,
+    "wind": {},
+    "sources": {
+      "pge": "9220"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9220"
+  },
+  {
+    "id": "PSF-011035",
+    "name": "Ahornach (Acereto)",
+    "lat": 46.926,
+    "lon": 11.9675,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9221"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9221"
+  },
+  {
+    "id": "PSF-011036",
+    "name": "Dantercepies",
+    "lat": 46.556,
+    "lon": 11.7912,
+    "wind": {},
+    "sources": {
+      "pge": "9223"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9223"
+  },
+  {
+    "id": "PSF-011037",
+    "name": "Montioli-Sarnano",
+    "lat": 43.0393,
+    "lon": 13.2419,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "9224"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9224"
+  },
+  {
+    "id": "PSF-011038",
+    "name": "Pichlberg Reinswald",
+    "lat": 46.6945,
+    "lon": 11.4411,
+    "wind": {},
+    "sources": {
+      "pge": "9225"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9225"
+  },
+  {
+    "id": "PSF-011039",
+    "name": "Gitschberg",
+    "lat": 46.8573,
+    "lon": 11.6899,
+    "wind": {},
+    "sources": {
+      "pge": "9226"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9226"
+  },
+  {
+    "id": "PSF-011040",
+    "name": "Weitental Oberhofer",
+    "lat": 46.8457,
+    "lon": 11.7137,
+    "wind": {},
+    "sources": {
+      "pge": "9229"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9229"
+  },
+  {
+    "id": "PSF-011041",
+    "name": "Hochmuth / Muthoefe (Dorf Tirol / Tirolo)",
+    "lat": 46.7015,
+    "lon": 11.1315,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9230"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9230"
+  },
+  {
+    "id": "PSF-011042",
+    "name": "Mals/ Malles",
+    "lat": 46.6941,
+    "lon": 10.5783,
+    "wind": {},
+    "sources": {
+      "pge": "9231"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9231"
+  },
+  {
+    "id": "PSF-011043",
+    "name": "Bassano -Mt.Legnarola",
+    "lat": 45.8423,
+    "lon": 11.7889,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "9232"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9232"
+  },
+  {
+    "id": "PSF-011044",
+    "name": "Roncola",
+    "lat": 45.7678,
+    "lon": 9.56617,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9233"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9233"
+  },
+  {
+    "id": "PSF-011045",
+    "name": "Helm (Sexten) - Elmo (Sesto)",
+    "lat": 46.7159,
+    "lon": 12.3648,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9234"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9234"
+  },
+  {
+    "id": "PSF-011046",
+    "name": "Maurerberg Top",
+    "lat": 46.7036,
+    "lon": 11.8251,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9235"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9235"
+  },
+  {
+    "id": "PSF-011047",
+    "name": "Osper Tom",
+    "lat": 46.8305,
+    "lon": 11.2104,
+    "wind": {},
+    "sources": {
+      "pge": "9236"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9236"
+  },
+  {
+    "id": "PSF-011048",
+    "name": "Castelluccio - Fontanile",
+    "lat": 42.8113,
+    "lon": 13.1833,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "9242"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9242"
+  },
+  {
+    "id": "PSF-011049",
+    "name": "Monte Mezzo (Lago di Como)",
+    "lat": 46.19,
+    "lon": 9.36323,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9243"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9243"
+  },
+  {
+    "id": "PSF-011050",
+    "name": "Roccasecca",
+    "lat": 41.4595,
+    "lon": 13.2292,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9244"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9244"
+  },
+  {
+    "id": "PSF-011051",
+    "name": "Gsiesertal -Uwaldalm- Spielalm",
+    "lat": 46.8523,
+    "lon": 12.2653,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9245"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9245"
+  },
+  {
+    "id": "PSF-011052",
+    "name": "Spitzbuhel -Siusi/ Seis am Schlern",
+    "lat": 46.5295,
+    "lon": 11.5994,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9247"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9247"
+  },
+  {
+    "id": "PSF-011053",
+    "name": "Campo Imperatore",
+    "lat": 42.4416,
+    "lon": 13.5589,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9248"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9248"
+  },
+  {
+    "id": "PSF-011054",
+    "name": "Rosengarten/ Catinaccio -Kölnerhütte",
+    "lat": 46.4425,
+    "lon": 11.6111,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "9249"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9249"
+  },
+  {
+    "id": "PSF-011081",
+    "name": "Vesuvio",
+    "lat": 40.8161,
+    "lon": 14.4244,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9303"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9303"
+  },
+  {
+    "id": "PSF-011099",
+    "name": "Santa Maria in Valle Vigezzo",
+    "lat": 46.1627,
+    "lon": 8.47543,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9321"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9321"
+  },
+  {
+    "id": "PSF-011417",
+    "name": "Boville Ernica",
+    "lat": 41.6404,
+    "lon": 13.4718,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9873"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9873"
+  },
+  {
+    "id": "PSF-011434",
+    "name": "Campitello-Canazei-Belvedere",
+    "lat": 46.4746,
+    "lon": 11.8,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9910"
+  },
+  {
+    "id": "PSF-011456",
+    "name": "Bassano -East (Antenne)",
+    "lat": 45.8116,
+    "lon": 11.7442,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9936"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9936"
+  }
+]

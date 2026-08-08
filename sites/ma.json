@@ -1,0 +1,642 @@
+[
+  {
+    "id": "PSF-000443",
+    "name": "Sidi Ifni",
+    "lat": 29.3632,
+    "lon": -10.1711,
+    "wind": {
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10508"
+  },
+  {
+    "id": "PSF-001093",
+    "name": "Tiz'n Test",
+    "lat": 30.8605,
+    "lon": -8.377,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11301"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11301"
+  },
+  {
+    "id": "PSF-001995",
+    "name": "Tifnit",
+    "lat": 30.1837,
+    "lon": -9.63844,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "12800"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12800"
+  },
+  {
+    "id": "PSF-002850",
+    "name": "Touflith / Ait Barka",
+    "lat": 31.4527,
+    "lon": -7.4447,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14206"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14206"
+  },
+  {
+    "id": "PSF-002855",
+    "name": "Mzouda",
+    "lat": 31.2139,
+    "lon": -8.5986,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "14216"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14216"
+  },
+  {
+    "id": "PSF-003123",
+    "name": "192km",
+    "lat": 32.6153,
+    "lon": -9.17627,
+    "wind": {},
+    "sources": {
+      "pge": "14590"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14590"
+  },
+  {
+    "id": "PSF-003337",
+    "name": "Skoura",
+    "lat": 31.0791,
+    "lon": -6.46058,
+    "wind": {},
+    "sources": {
+      "pge": "14921"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14921"
+  },
+  {
+    "id": "PSF-003912",
+    "name": "Kerdous",
+    "lat": 29.5446,
+    "lon": -9.3425,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15891"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15891"
+  },
+  {
+    "id": "PSF-003913",
+    "name": "Tirhmi",
+    "lat": 29.5973,
+    "lon": -9.38149,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15892"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15892"
+  },
+  {
+    "id": "PSF-003921",
+    "name": "Taghazout",
+    "lat": 30.5693,
+    "lon": -9.73115,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15904"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15904"
+  },
+  {
+    "id": "PSF-004624",
+    "name": "Taghia",
+    "lat": 31.8006,
+    "lon": -6.07042,
+    "wind": {},
+    "sources": {
+      "pge": "17024"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17024"
+  },
+  {
+    "id": "PSF-004874",
+    "name": "Oulja",
+    "lat": 33.9646,
+    "lon": -6.762,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17488"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17488"
+  },
+  {
+    "id": "PSF-004875",
+    "name": "Plage des nations (Plage)",
+    "lat": 34.1477,
+    "lon": -6.73559,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17489"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17489"
+  },
+  {
+    "id": "PSF-004876",
+    "name": "Plage des nations (Grande Dune)",
+    "lat": 34.1608,
+    "lon": -6.72611,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17490"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17490"
+  },
+  {
+    "id": "PSF-004877",
+    "name": "Moulay Bousselham (Plage)",
+    "lat": 34.8963,
+    "lon": -6.28832,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17491"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17491"
+  },
+  {
+    "id": "PSF-004878",
+    "name": "Moulay Bousselham (Grande Dune)",
+    "lat": 34.8678,
+    "lon": -6.29764,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17492"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17492"
+  },
+  {
+    "id": "PSF-004882",
+    "name": "MTERBA",
+    "lat": 33.8006,
+    "lon": -4.7422,
+    "wind": {
+      "N": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17496"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17496"
+  },
+  {
+    "id": "PSF-005363",
+    "name": "Imsouane",
+    "lat": 30.8352,
+    "lon": -9.8003,
+    "wind": {
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18611"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18611"
+  },
+  {
+    "id": "PSF-005527",
+    "name": "Mzedra-Est",
+    "lat": 33.7997,
+    "lon": -4.7366,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "18862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18862"
+  },
+  {
+    "id": "PSF-005542",
+    "name": "MTERBA-West",
+    "lat": 33.8001,
+    "lon": -4.7431,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18878"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18878"
+  },
+  {
+    "id": "PSF-005545",
+    "name": "Zalagh",
+    "lat": 34.1055,
+    "lon": -4.9679,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18883"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18883"
+  },
+  {
+    "id": "PSF-006012",
+    "name": "Legzira Beach (the beach)",
+    "lat": 29.4394,
+    "lon": -10.1204,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19785"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19785"
+  },
+  {
+    "id": "PSF-006127",
+    "name": "Soly Site",
+    "lat": 33.4649,
+    "lon": -6.47735,
+    "wind": {},
+    "sources": {
+      "pge": "19996"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19996"
+  },
+  {
+    "id": "PSF-006136",
+    "name": "Little Spot",
+    "lat": 33.6568,
+    "lon": -7.28378,
+    "wind": {},
+    "sources": {
+      "pge": "20006"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20006"
+  },
+  {
+    "id": "PSF-006137",
+    "name": "Sidi Abderrazzak Spot",
+    "lat": 33.9317,
+    "lon": -6.11338,
+    "wind": {},
+    "sources": {
+      "pge": "20007"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20007"
+  },
+  {
+    "id": "PSF-006138",
+    "name": "Mnasra Spot",
+    "lat": 34.4824,
+    "lon": -6.51695,
+    "wind": {},
+    "sources": {
+      "pge": "20008"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20008"
+  },
+  {
+    "id": "PSF-006139",
+    "name": "Fedallat Spot",
+    "lat": 33.5504,
+    "lon": -7.18733,
+    "wind": {},
+    "sources": {
+      "pge": "20009"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20009"
+  },
+  {
+    "id": "PSF-006140",
+    "name": "Id Magha Spot",
+    "lat": 29.5521,
+    "lon": -10.0103,
+    "wind": {},
+    "sources": {
+      "pge": "20010"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20010"
+  },
+  {
+    "id": "PSF-006152",
+    "name": "Abdellah Ibn Yassine",
+    "lat": 33.7423,
+    "lon": -6.71478,
+    "wind": {},
+    "sources": {
+      "pge": "20023"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20023"
+  },
+  {
+    "id": "PSF-007198",
+    "name": "\"Raven's home\" Crete de Guigou",
+    "lat": 33.3354,
+    "lon": -4.81871,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22256"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22256"
+  },
+  {
+    "id": "PSF-007199",
+    "name": "\"ALMOU\" Soaring boulemane",
+    "lat": 33.3212,
+    "lon": -4.70185,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "22257"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22257"
+  },
+  {
+    "id": "PSF-007200",
+    "name": "Boulemane North learning place",
+    "lat": 33.3315,
+    "lon": -4.69644,
+    "wind": {
+      "N": 1
+    },
+    "sources": {
+      "pge": "22258"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22258"
+  },
+  {
+    "id": "PSF-007201",
+    "name": "Titchouk",
+    "lat": 33.3939,
+    "lon": -4.65856,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22259"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22259"
+  },
+  {
+    "id": "PSF-007241",
+    "name": "Dousderm",
+    "lat": 29.6536,
+    "lon": -8.95628,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22302"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22302"
+  },
+  {
+    "id": "PSF-007242",
+    "name": "Tahala",
+    "lat": 29.6056,
+    "lon": -9.1547,
+    "wind": {
+      "E": 1,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "22303"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22303"
+  },
+  {
+    "id": "PSF-008462",
+    "name": "Bounaamane",
+    "lat": 29.5108,
+    "lon": -9.75561,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "23669"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23669"
+  },
+  {
+    "id": "PSF-009711",
+    "name": "Nid d'Aigle",
+    "lat": 29.7004,
+    "lon": -9.9318,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6820"
+  },
+  {
+    "id": "PSF-009712",
+    "name": "Idikel (Idikl/ Tafraout)",
+    "lat": 29.711,
+    "lon": -8.84659,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6821"
+  },
+  {
+    "id": "PSF-009774",
+    "name": "Aglou beach",
+    "lat": 29.855,
+    "lon": -9.79218,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6901"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6901"
+  },
+  {
+    "id": "PSF-009775",
+    "name": "Aguergour",
+    "lat": 31.2972,
+    "lon": -8.0654,
+    "wind": {
+      "N": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6902"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6902"
+  },
+  {
+    "id": "PSF-009776",
+    "name": "Ait-ourir",
+    "lat": 31.5057,
+    "lon": -7.6937,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6903"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6903"
+  },
+  {
+    "id": "PSF-009792",
+    "name": "Legzira (the hill)",
+    "lat": 29.4416,
+    "lon": -10.1008,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6923"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6923"
+  },
+  {
+    "id": "PSF-009793",
+    "name": "Merzouga Dunes",
+    "lat": 31.0773,
+    "lon": -3.9922,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6924"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6924"
+  }
+]

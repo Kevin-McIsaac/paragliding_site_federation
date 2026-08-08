@@ -1,0 +1,247 @@
+[
+  {
+    "id": "PSF-001546",
+    "name": "St. Elena Barillas",
+    "lat": 14.403,
+    "lon": -90.5318,
+    "wind": {},
+    "sources": {
+      "pge": "11968"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11968"
+  },
+  {
+    "id": "PSF-001675",
+    "name": "Pasabien Rio hondo",
+    "lat": 15.0376,
+    "lon": -89.6931,
+    "wind": {},
+    "sources": {
+      "pge": "12183"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12183"
+  },
+  {
+    "id": "PSF-001967",
+    "name": "San Pedro",
+    "lat": 14.7138,
+    "lon": -91.2922,
+    "wind": {},
+    "sources": {
+      "pge": "12744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12744"
+  },
+  {
+    "id": "PSF-003347",
+    "name": "El Sitio",
+    "lat": 14.5594,
+    "lon": -90.8074,
+    "wind": {},
+    "sources": {
+      "pge": "14940"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14940"
+  },
+  {
+    "id": "PSF-003826",
+    "name": "Palin",
+    "lat": 14.4251,
+    "lon": -90.6419,
+    "wind": {},
+    "sources": {
+      "pge": "15712"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15712"
+  },
+  {
+    "id": "PSF-004351",
+    "name": "Chipoton",
+    "lat": 14.6485,
+    "lon": -90.7701,
+    "wind": {},
+    "sources": {
+      "pge": "16540"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16540"
+  },
+  {
+    "id": "PSF-004358",
+    "name": "San Andres Itzapa",
+    "lat": 14.6029,
+    "lon": -90.8424,
+    "wind": {},
+    "sources": {
+      "pge": "16550"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16550"
+  },
+  {
+    "id": "PSF-004604",
+    "name": "Cerro de la Cruz, Salama",
+    "lat": 15.0886,
+    "lon": -90.3208,
+    "wind": {},
+    "sources": {
+      "pge": "16988"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16988"
+  },
+  {
+    "id": "PSF-004630",
+    "name": "Cerro El Carnero",
+    "lat": 15.1698,
+    "lon": -90.2962,
+    "wind": {},
+    "sources": {
+      "pge": "17032"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17032"
+  },
+  {
+    "id": "PSF-004742",
+    "name": "Paquish",
+    "lat": 15.439,
+    "lon": -91.4547,
+    "wind": {},
+    "sources": {
+      "pge": "17258"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17258"
+  },
+  {
+    "id": "PSF-004743",
+    "name": "Mirador Cuchumatanes",
+    "lat": 15.4004,
+    "lon": -91.4405,
+    "wind": {},
+    "sources": {
+      "pge": "17259"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17259"
+  },
+  {
+    "id": "PSF-004762",
+    "name": "Acatenango Volcano",
+    "lat": 14.5027,
+    "lon": -90.8718,
+    "wind": {},
+    "sources": {
+      "pge": "17294"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17294"
+  },
+  {
+    "id": "PSF-006898",
+    "name": "El Aguaje, Sansare",
+    "lat": 14.7238,
+    "lon": -90.1296,
+    "wind": {},
+    "sources": {
+      "pge": "21898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21898"
+  },
+  {
+    "id": "PSF-006932",
+    "name": "Jocotan",
+    "lat": 14.8007,
+    "lon": -89.4639,
+    "wind": {},
+    "sources": {
+      "pge": "21933"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21933"
+  },
+  {
+    "id": "PSF-007629",
+    "name": "Paramotor Club",
+    "lat": 14.6757,
+    "lon": -90.7919,
+    "wind": {},
+    "sources": {
+      "pge": "22730"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22730"
+  },
+  {
+    "id": "PSF-007675",
+    "name": "Rampa Villafuerte",
+    "lat": 14.7187,
+    "lon": -89.5371,
+    "wind": {},
+    "sources": {
+      "pge": "22779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22779"
+  },
+  {
+    "id": "PSF-008109",
+    "name": "Atitlán Volcano",
+    "lat": 14.5833,
+    "lon": -91.1856,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23261"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23261"
+  },
+  {
+    "id": "PSF-008114",
+    "name": "San Andres Panajachel",
+    "lat": 14.7373,
+    "lon": -91.1426,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23266"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23266"
+  },
+  {
+    "id": "PSF-010042",
+    "name": "Panajachel",
+    "lat": 14.7313,
+    "lon": -91.1283,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7259"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7259"
+  }
+]

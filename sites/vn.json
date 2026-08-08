@@ -1,0 +1,438 @@
+[
+  {
+    "id": "PSF-000844",
+    "name": "Vien Nam mountain",
+    "lat": 20.9814,
+    "lon": 105.442,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10995"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10995"
+  },
+  {
+    "id": "PSF-002739",
+    "name": "Hon Hong",
+    "lat": 11.0345,
+    "lon": 108.405,
+    "wind": {},
+    "sources": {
+      "pge": "14010"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14010"
+  },
+  {
+    "id": "PSF-002877",
+    "name": "Doi Bu",
+    "lat": 20.8088,
+    "lon": 105.57,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14242"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14242"
+  },
+  {
+    "id": "PSF-003256",
+    "name": "BoBuoi",
+    "lat": 20.706,
+    "lon": 104.964,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14804"
+  },
+  {
+    "id": "PSF-003575",
+    "name": "Linh Truong mountain",
+    "lat": 19.8797,
+    "lon": 105.946,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "15313"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15313"
+  },
+  {
+    "id": "PSF-004155",
+    "name": "Ta Xua",
+    "lat": 21.2626,
+    "lon": 104.449,
+    "wind": {},
+    "sources": {
+      "pge": "16223"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16223"
+  },
+  {
+    "id": "PSF-004488",
+    "name": "Bai Nha - Ngoc Son",
+    "lat": 20.442,
+    "lon": 105.384,
+    "wind": {},
+    "sources": {
+      "pge": "16770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16770"
+  },
+  {
+    "id": "PSF-004651",
+    "name": "Son Tra Peninsula",
+    "lat": 16.1179,
+    "lon": 108.274,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17078"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17078"
+  },
+  {
+    "id": "PSF-004676",
+    "name": "Mui Ne",
+    "lat": 10.9553,
+    "lon": 108.337,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "17116"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17116"
+  },
+  {
+    "id": "PSF-004679",
+    "name": "Bara",
+    "lat": 11.8172,
+    "lon": 107.0,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17119"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17119"
+  },
+  {
+    "id": "PSF-005480",
+    "name": "Dong Cao",
+    "lat": 21.4104,
+    "lon": 106.892,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18810"
+  },
+  {
+    "id": "PSF-005719",
+    "name": "Ubo",
+    "lat": 20.9649,
+    "lon": 105.455,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "19390"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19390"
+  },
+  {
+    "id": "PSF-005873",
+    "name": "Khau Pha",
+    "lat": 21.7553,
+    "lon": 104.265,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19593"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19593"
+  },
+  {
+    "id": "PSF-005919",
+    "name": "Nam Khê",
+    "lat": 21.0319,
+    "lon": 106.819,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19667"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19667"
+  },
+  {
+    "id": "PSF-005920",
+    "name": "Bình Liêu",
+    "lat": 21.5071,
+    "lon": 107.491,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19668"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19668"
+  },
+  {
+    "id": "PSF-006110",
+    "name": "Khanh Le pass",
+    "lat": 12.242,
+    "lon": 108.777,
+    "wind": {},
+    "sources": {
+      "pge": "19978"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19978"
+  },
+  {
+    "id": "PSF-006115",
+    "name": "Chin Khuc mountain",
+    "lat": 12.2281,
+    "lon": 109.131,
+    "wind": {},
+    "sources": {
+      "pge": "19983"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19983"
+  },
+  {
+    "id": "PSF-006186",
+    "name": "Dong Trieu - Quang Ninh",
+    "lat": 21.1614,
+    "lon": 106.588,
+    "wind": {},
+    "sources": {
+      "pge": "20061"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20061"
+  },
+  {
+    "id": "PSF-006456",
+    "name": "Pố Lồ, Đồng Văn",
+    "lat": 23.2925,
+    "lon": 105.368,
+    "wind": {},
+    "sources": {
+      "pge": "21399"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21399"
+  },
+  {
+    "id": "PSF-006468",
+    "name": "833-Đồi Bù",
+    "lat": 20.8086,
+    "lon": 105.568,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21412"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21412"
+  },
+  {
+    "id": "PSF-006640",
+    "name": "Tam Đường",
+    "lat": 22.3591,
+    "lon": 103.604,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21615"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21615"
+  },
+  {
+    "id": "PSF-006641",
+    "name": "Hoành Bồ",
+    "lat": 21.0841,
+    "lon": 107.012,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21616"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21616"
+  },
+  {
+    "id": "PSF-006642",
+    "name": "Yên Châu",
+    "lat": 21.0661,
+    "lon": 104.214,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "21617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21617"
+  },
+  {
+    "id": "PSF-007469",
+    "name": "Đại Tuệ",
+    "lat": 18.7571,
+    "lon": 105.537,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "22551"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22551"
+  },
+  {
+    "id": "PSF-007899",
+    "name": "Fly Nha Trang",
+    "lat": 12.3169,
+    "lon": 109.134,
+    "wind": {},
+    "sources": {
+      "pge": "23036"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23036"
+  },
+  {
+    "id": "PSF-008284",
+    "name": "Dateh Paragliding",
+    "lat": 11.6035,
+    "lon": 107.552,
+    "wind": {},
+    "sources": {
+      "pge": "23465"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23465"
+  },
+  {
+    "id": "PSF-008285",
+    "name": "\bNui Nghe",
+    "lat": 10.5995,
+    "lon": 107.187,
+    "wind": {},
+    "sources": {
+      "pge": "23466"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23466"
+  },
+  {
+    "id": "PSF-010012",
+    "name": "Langbiang",
+    "lat": 12.032,
+    "lon": 108.413,
+    "wind": {
+      "SE": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7222"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7222"
+  },
+  {
+    "id": "PSF-010013",
+    "name": "Hon Hong",
+    "lat": 11.0351,
+    "lon": 108.404,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7223"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7223"
+  }
+]

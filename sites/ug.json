@@ -1,0 +1,19 @@
+[
+  {
+    "id": "PSF-004963",
+    "name": "Isingero; Felix and Robert's place",
+    "lat": -0.269,
+    "lon": 30.516,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "17641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17641"
+  }
+]

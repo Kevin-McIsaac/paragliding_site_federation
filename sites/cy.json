@@ -1,0 +1,453 @@
+[
+  {
+    "id": "PSF-000597",
+    "name": "Dora",
+    "lat": 34.8005,
+    "lon": 32.7403,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "107"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=107"
+  },
+  {
+    "id": "PSF-000980",
+    "name": "Pissouri",
+    "lat": 34.6688,
+    "lon": 32.743,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "11155"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11155"
+  },
+  {
+    "id": "PSF-001099",
+    "name": "Petra Tou Romiou",
+    "lat": 34.6628,
+    "lon": 32.6403,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11312"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11312"
+  },
+  {
+    "id": "PSF-001100",
+    "name": "Fassoula",
+    "lat": 34.7476,
+    "lon": 32.6388,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11313"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11313"
+  },
+  {
+    "id": "PSF-001102",
+    "name": "Epilas",
+    "lat": 34.775,
+    "lon": 33.2,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11315"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11315"
+  },
+  {
+    "id": "PSF-001127",
+    "name": "Lefkara",
+    "lat": 34.9121,
+    "lon": 33.3172,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11347"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11347"
+  },
+  {
+    "id": "PSF-001136",
+    "name": "Avdellaro",
+    "lat": 35.0198,
+    "lon": 33.5606,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11357"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11357"
+  },
+  {
+    "id": "PSF-001137",
+    "name": "Oroklini",
+    "lat": 34.9924,
+    "lon": 33.6515,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "11358"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11358"
+  },
+  {
+    "id": "PSF-001147",
+    "name": "Cape Greko",
+    "lat": 34.9624,
+    "lon": 34.0668,
+    "wind": {
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11369"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11369"
+  },
+  {
+    "id": "PSF-001769",
+    "name": "Baba",
+    "lat": 35.3137,
+    "lon": 33.2454,
+    "wind": {},
+    "sources": {
+      "pge": "12356"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12356"
+  },
+  {
+    "id": "PSF-001948",
+    "name": "Cirium (Kourion)",
+    "lat": 34.6687,
+    "lon": 32.8818,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "127"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=127"
+  },
+  {
+    "id": "PSF-001980",
+    "name": "Vougies",
+    "lat": 35.011,
+    "lon": 33.5144,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "SE": 1,
+      "S": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12767"
+  },
+  {
+    "id": "PSF-002291",
+    "name": "Potamia",
+    "lat": 35.0598,
+    "lon": 33.4318,
+    "wind": {},
+    "sources": {
+      "pge": "13280"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13280"
+  },
+  {
+    "id": "PSF-002344",
+    "name": "Mouti tou Dia",
+    "lat": 35.0514,
+    "lon": 32.9535,
+    "wind": {},
+    "sources": {
+      "pge": "13382"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13382"
+  },
+  {
+    "id": "PSF-003537",
+    "name": "Pachyammos",
+    "lat": 35.1622,
+    "lon": 32.5949,
+    "wind": {},
+    "sources": {
+      "pge": "15248"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15248"
+  },
+  {
+    "id": "PSF-003847",
+    "name": "CASTLE OF FASOULA",
+    "lat": 34.7622,
+    "lon": 33.0233,
+    "wind": {},
+    "sources": {
+      "pge": "15801"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15801"
+  },
+  {
+    "id": "PSF-004399",
+    "name": "Dali",
+    "lat": 35.0131,
+    "lon": 33.4302,
+    "wind": {},
+    "sources": {
+      "pge": "16617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16617"
+  },
+  {
+    "id": "PSF-004735",
+    "name": "MAU",
+    "lat": 34.7626,
+    "lon": 33.0584,
+    "wind": {},
+    "sources": {
+      "pge": "17247"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17247"
+  },
+  {
+    "id": "PSF-005187",
+    "name": "Lara Bay",
+    "lat": 34.9658,
+    "lon": 32.3135,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "18092"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18092"
+  },
+  {
+    "id": "PSF-005493",
+    "name": "kayalar",
+    "lat": 35.354,
+    "lon": 33.076,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18825"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18825"
+  },
+  {
+    "id": "PSF-005494",
+    "name": "karpaz golden beach",
+    "lat": 35.644,
+    "lon": 34.56,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18826"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18826"
+  },
+  {
+    "id": "PSF-005495",
+    "name": "Tatlısu",
+    "lat": 35.384,
+    "lon": 33.75,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18827"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18827"
+  },
+  {
+    "id": "PSF-006042",
+    "name": "hisarbuyuk",
+    "lat": 35.293,
+    "lon": 33.0973,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19819"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19819"
+  },
+  {
+    "id": "PSF-006450",
+    "name": "Umut tepe",
+    "lat": 35.3496,
+    "lon": 33.0964,
+    "wind": {},
+    "sources": {
+      "pge": "21393"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21393"
+  },
+  {
+    "id": "PSF-006451",
+    "name": "Djumi tepe",
+    "lat": 35.2664,
+    "lon": 33.0777,
+    "wind": {},
+    "sources": {
+      "pge": "21394"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21394"
+  },
+  {
+    "id": "PSF-006452",
+    "name": "Yudi Suric Dagi",
+    "lat": 35.4622,
+    "lon": 34.0317,
+    "wind": {},
+    "sources": {
+      "pge": "21395"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21395"
+  },
+  {
+    "id": "PSF-006453",
+    "name": "hisar kucuk",
+    "lat": 35.2929,
+    "lon": 33.0799,
+    "wind": {},
+    "sources": {
+      "pge": "21396"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21396"
+  },
+  {
+    "id": "PSF-006454",
+    "name": "Balalan",
+    "lat": 35.4804,
+    "lon": 34.1011,
+    "wind": {},
+    "sources": {
+      "pge": "21397"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21397"
+  },
+  {
+    "id": "PSF-009997",
+    "name": "Kalo Chorio",
+    "lat": 34.8643,
+    "lon": 33.0207,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "7199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7199"
+  },
+  {
+    "id": "PSF-010129",
+    "name": "stavrovouni",
+    "lat": 34.8886,
+    "lon": 33.4379,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "7378"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7378"
+  },
+  {
+    "id": "PSF-010130",
+    "name": "Stavrovouni",
+    "lat": 34.8886,
+    "lon": 33.4379,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "7379"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7379"
+  }
+]

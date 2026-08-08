@@ -1,0 +1,1077 @@
+[
+  {
+    "id": "PSF-000152",
+    "name": "Kolba¤ck",
+    "lat": 58.0542,
+    "lon": 12.6644,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10184"
+  },
+  {
+    "id": "PSF-000217",
+    "name": "Ekholmsnas",
+    "lat": 59.3614,
+    "lon": 18.1825,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "10256"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10256"
+  },
+  {
+    "id": "PSF-000305",
+    "name": "Barkarby flygplats",
+    "lat": 59.4155,
+    "lon": 17.89,
+    "wind": {
+      "NE": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10350"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10350"
+  },
+  {
+    "id": "PSF-000306",
+    "name": "Granholmstoppen",
+    "lat": 59.4048,
+    "lon": 17.9002,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10351"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10351"
+  },
+  {
+    "id": "PSF-000307",
+    "name": "Gardet",
+    "lat": 59.3447,
+    "lon": 18.1054,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10353"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10353"
+  },
+  {
+    "id": "PSF-000314",
+    "name": "Flottsbrobacken",
+    "lat": 59.2276,
+    "lon": 17.8837,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10361"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10361"
+  },
+  {
+    "id": "PSF-000354",
+    "name": "Satrastrand",
+    "lat": 59.2897,
+    "lon": 17.8958,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10402"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10402"
+  },
+  {
+    "id": "PSF-000371",
+    "name": "Klovberget",
+    "lat": 59.2138,
+    "lon": 18.3501,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "10423"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10423"
+  },
+  {
+    "id": "PSF-000374",
+    "name": "Tarna",
+    "lat": 59.8253,
+    "lon": 16.7125,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10428"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10428"
+  },
+  {
+    "id": "PSF-000375",
+    "name": "Åre",
+    "lat": 63.4269,
+    "lon": 13.0817,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10429"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10429"
+  },
+  {
+    "id": "PSF-000376",
+    "name": "Hammars backar",
+    "lat": 55.403,
+    "lon": 14.0121,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10430"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10430"
+  },
+  {
+    "id": "PSF-000394",
+    "name": "Korpberget",
+    "lat": 59.2662,
+    "lon": 17.8693,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "10450"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10450"
+  },
+  {
+    "id": "PSF-000395",
+    "name": "Ekebyhov",
+    "lat": 59.2784,
+    "lon": 17.8326,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "10451"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10451"
+  },
+  {
+    "id": "PSF-000444",
+    "name": "Tosseberg",
+    "lat": 59.979,
+    "lon": 13.0888,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10509"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10509"
+  },
+  {
+    "id": "PSF-000554",
+    "name": "Harkeberga",
+    "lat": 59.69,
+    "lon": 17.1878,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10647"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10647"
+  },
+  {
+    "id": "PSF-000654",
+    "name": "Gesunda",
+    "lat": 60.8704,
+    "lon": 14.521,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10765"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10765"
+  },
+  {
+    "id": "PSF-000655",
+    "name": "Tallhed",
+    "lat": 61.1936,
+    "lon": 14.72,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10766"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10766"
+  },
+  {
+    "id": "PSF-000773",
+    "name": "Havsten",
+    "lat": 58.3233,
+    "lon": 11.7111,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10906"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10906"
+  },
+  {
+    "id": "PSF-000979",
+    "name": "Astebyhojden",
+    "lat": 60.3156,
+    "lon": 12.9809,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "11154"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11154"
+  },
+  {
+    "id": "PSF-000981",
+    "name": "Branas",
+    "lat": 60.6533,
+    "lon": 12.9447,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "11156"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11156"
+  },
+  {
+    "id": "PSF-000982",
+    "name": "Hosas",
+    "lat": 59.2931,
+    "lon": 12.7531,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11157"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11157"
+  },
+  {
+    "id": "PSF-000983",
+    "name": "Rankesnipen",
+    "lat": 59.6963,
+    "lon": 12.3675,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11158"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11158"
+  },
+  {
+    "id": "PSF-000984",
+    "name": "Lambacken",
+    "lat": 60.2933,
+    "lon": 12.6885,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "11159"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11159"
+  },
+  {
+    "id": "PSF-000987",
+    "name": "Syssleback",
+    "lat": 60.7111,
+    "lon": 12.9028,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11162"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11162"
+  },
+  {
+    "id": "PSF-000988",
+    "name": "Brattfors",
+    "lat": 59.6089,
+    "lon": 13.9136,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11163"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11163"
+  },
+  {
+    "id": "PSF-001054",
+    "name": "Ski Sunne",
+    "lat": 59.8016,
+    "lon": 13.0239,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "11242"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11242"
+  },
+  {
+    "id": "PSF-001380",
+    "name": "Nasby",
+    "lat": 59.1846,
+    "lon": 15.2885,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11655"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11655"
+  },
+  {
+    "id": "PSF-001408",
+    "name": "Eslöv",
+    "lat": 55.8508,
+    "lon": 13.3251,
+    "wind": {},
+    "sources": {
+      "pge": "11714"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11714"
+  },
+  {
+    "id": "PSF-001609",
+    "name": "Tvetaberg",
+    "lat": 59.1471,
+    "lon": 17.5951,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12083"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12083"
+  },
+  {
+    "id": "PSF-001652",
+    "name": "Skånes Fagerhult",
+    "lat": 56.3882,
+    "lon": 13.4707,
+    "wind": {},
+    "sources": {
+      "pge": "12146"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12146"
+  },
+  {
+    "id": "PSF-001690",
+    "name": "ESSX",
+    "lat": 59.5796,
+    "lon": 16.4991,
+    "wind": {},
+    "sources": {
+      "pge": "12209"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12209"
+  },
+  {
+    "id": "PSF-001805",
+    "name": "ESSX",
+    "lat": 59.5811,
+    "lon": 16.4405,
+    "wind": {},
+    "sources": {
+      "pge": "12420"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12420"
+  },
+  {
+    "id": "PSF-002060",
+    "name": "Myggenäs",
+    "lat": 58.0585,
+    "lon": 11.7392,
+    "wind": {},
+    "sources": {
+      "pge": "12915"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12915"
+  },
+  {
+    "id": "PSF-002070",
+    "name": "brunstorp",
+    "lat": 57.8221,
+    "lon": 14.2725,
+    "wind": {},
+    "sources": {
+      "pge": "12929"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12929"
+  },
+  {
+    "id": "PSF-002093",
+    "name": "Agnesberg",
+    "lat": 57.8044,
+    "lon": 12.0174,
+    "wind": {},
+    "sources": {
+      "pge": "12970"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12970"
+  },
+  {
+    "id": "PSF-002094",
+    "name": "Alleberg",
+    "lat": 58.136,
+    "lon": 13.6115,
+    "wind": {},
+    "sources": {
+      "pge": "12971"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12971"
+  },
+  {
+    "id": "PSF-002096",
+    "name": "Ravlunda",
+    "lat": 55.7351,
+    "lon": 14.1935,
+    "wind": {},
+    "sources": {
+      "pge": "12973"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12973"
+  },
+  {
+    "id": "PSF-002755",
+    "name": "Kaseberga Südhang",
+    "lat": 55.3857,
+    "lon": 14.0809,
+    "wind": {},
+    "sources": {
+      "pge": "14042"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14042"
+  },
+  {
+    "id": "PSF-002756",
+    "name": "Barsebäck",
+    "lat": 55.7703,
+    "lon": 12.9245,
+    "wind": {},
+    "sources": {
+      "pge": "14043"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14043"
+  },
+  {
+    "id": "PSF-003048",
+    "name": "Ullnabacken",
+    "lat": 59.4705,
+    "lon": 18.1419,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14473"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14473"
+  },
+  {
+    "id": "PSF-003056",
+    "name": "Rangsta",
+    "lat": 59.0023,
+    "lon": 17.7535,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "14482"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14482"
+  },
+  {
+    "id": "PSF-003057",
+    "name": "Brahehus",
+    "lat": 58.0539,
+    "lon": 14.5006,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14483"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14483"
+  },
+  {
+    "id": "PSF-003072",
+    "name": "Röllingen",
+    "lat": 59.4456,
+    "lon": 17.3588,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14502"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14502"
+  },
+  {
+    "id": "PSF-003623",
+    "name": "Lilla Edet",
+    "lat": 58.1546,
+    "lon": 12.1377,
+    "wind": {},
+    "sources": {
+      "pge": "15395"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15395"
+  },
+  {
+    "id": "PSF-003811",
+    "name": "Bottna",
+    "lat": 58.4998,
+    "lon": 11.3633,
+    "wind": {},
+    "sources": {
+      "pge": "15687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15687"
+  },
+  {
+    "id": "PSF-003818",
+    "name": "Hållsunga airport",
+    "lat": 57.844,
+    "lon": 11.7365,
+    "wind": {},
+    "sources": {
+      "pge": "15703"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15703"
+  },
+  {
+    "id": "PSF-003819",
+    "name": "Tofta airport",
+    "lat": 57.8738,
+    "lon": 11.713,
+    "wind": {},
+    "sources": {
+      "pge": "15704"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15704"
+  },
+  {
+    "id": "PSF-003820",
+    "name": "Rörkärrs flygklubb",
+    "lat": 58.3675,
+    "lon": 11.7731,
+    "wind": {},
+    "sources": {
+      "pge": "15705"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15705"
+  },
+  {
+    "id": "PSF-003902",
+    "name": "Asa Stenvik",
+    "lat": 57.3466,
+    "lon": 12.1153,
+    "wind": {
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "15878"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15878"
+  },
+  {
+    "id": "PSF-003956",
+    "name": "Tandådalen",
+    "lat": 61.1741,
+    "lon": 13.0142,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15949"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15949"
+  },
+  {
+    "id": "PSF-004277",
+    "name": "Branstad",
+    "lat": 55.6731,
+    "lon": 13.7264,
+    "wind": {},
+    "sources": {
+      "pge": "16412"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16412"
+  },
+  {
+    "id": "PSF-004308",
+    "name": "Feringe",
+    "lat": 56.9492,
+    "lon": 13.921,
+    "wind": {},
+    "sources": {
+      "pge": "16465"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16465"
+  },
+  {
+    "id": "PSF-004402",
+    "name": "Larslanda",
+    "lat": 56.9696,
+    "lon": 12.3783,
+    "wind": {},
+    "sources": {
+      "pge": "16626"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16626"
+  },
+  {
+    "id": "PSF-004425",
+    "name": "Hovs Hallar",
+    "lat": 56.4641,
+    "lon": 12.6979,
+    "wind": {},
+    "sources": {
+      "pge": "16665"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16665"
+  },
+  {
+    "id": "PSF-004864",
+    "name": "KA4",
+    "lat": 57.6738,
+    "lon": 11.8521,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17476"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17476"
+  },
+  {
+    "id": "PSF-004866",
+    "name": "Brudarebacken",
+    "lat": 57.6994,
+    "lon": 12.0525,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "17478"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17478"
+  },
+  {
+    "id": "PSF-004867",
+    "name": "Näset",
+    "lat": 57.6166,
+    "lon": 11.9014,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "17479"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17479"
+  },
+  {
+    "id": "PSF-004868",
+    "name": "Sandsjöbacka",
+    "lat": 57.5936,
+    "lon": 11.993,
+    "wind": {},
+    "sources": {
+      "pge": "17480"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17480"
+  },
+  {
+    "id": "PSF-004869",
+    "name": "Fiskebäck",
+    "lat": 57.6432,
+    "lon": 11.8628,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17481"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17481"
+  },
+  {
+    "id": "PSF-004870",
+    "name": "Ramberget",
+    "lat": 57.715,
+    "lon": 11.936,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17482"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17482"
+  },
+  {
+    "id": "PSF-004871",
+    "name": "Blixered",
+    "lat": 57.4992,
+    "lon": 12.0259,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17483"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17483"
+  },
+  {
+    "id": "PSF-004872",
+    "name": "Aleklätten",
+    "lat": 57.9035,
+    "lon": 12.017,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "17484"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17484"
+  },
+  {
+    "id": "PSF-004985",
+    "name": "Hundfjället",
+    "lat": 61.1686,
+    "lon": 12.9811,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "17684"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17684"
+  },
+  {
+    "id": "PSF-005766",
+    "name": "Balberget SW (Harahemberget)",
+    "lat": 63.9433,
+    "lon": 19.0461,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19447"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19447"
+  },
+  {
+    "id": "PSF-005988",
+    "name": "Margareteberg",
+    "lat": 56.2118,
+    "lon": 12.5428,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19753"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19753"
+  },
+  {
+    "id": "PSF-006893",
+    "name": "Kleven",
+    "lat": 58.1042,
+    "lon": 14.543,
+    "wind": {},
+    "sources": {
+      "pge": "21893"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21893"
+  },
+  {
+    "id": "PSF-007784",
+    "name": "Åre - Morvikshummeln",
+    "lat": 63.4106,
+    "lon": 13.085,
+    "wind": {},
+    "sources": {
+      "pge": "22911"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22911"
+  },
+  {
+    "id": "PSF-007785",
+    "name": "Åre - Skysport",
+    "lat": 63.4024,
+    "lon": 13.0549,
+    "wind": {},
+    "sources": {
+      "pge": "22912"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22912"
+  },
+  {
+    "id": "PSF-008067",
+    "name": "Vånsjö",
+    "lat": 59.7466,
+    "lon": 17.0925,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23215"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23215"
+  },
+  {
+    "id": "PSF-008068",
+    "name": "Bäckviken",
+    "lat": 55.8925,
+    "lon": 12.7162,
+    "wind": {},
+    "sources": {
+      "pge": "23216"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23216"
+  },
+  {
+    "id": "PSF-008134",
+    "name": "Stigsbacken",
+    "lat": 55.3916,
+    "lon": 14.0345,
+    "wind": {},
+    "sources": {
+      "pge": "23289"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23289"
+  },
+  {
+    "id": "PSF-008357",
+    "name": "Myrsjö",
+    "lat": 59.7654,
+    "lon": 17.0913,
+    "wind": {},
+    "sources": {
+      "pge": "23548"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23548"
+  },
+  {
+    "id": "PSF-008363",
+    "name": "Lofsdalen, Hovärken",
+    "lat": 62.1295,
+    "lon": 13.3198,
+    "wind": {},
+    "sources": {
+      "pge": "23554"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23554"
+  },
+  {
+    "id": "PSF-008726",
+    "name": "Karlskoga Flygplats",
+    "lat": 59.3397,
+    "lon": 14.4929,
+    "wind": {},
+    "sources": {
+      "pge": "23969"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23969"
+  }
+]

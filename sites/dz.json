@@ -1,0 +1,109 @@
+[
+  {
+    "id": "PSF-005686",
+    "name": "Corso",
+    "lat": 36.7682,
+    "lon": 3.4391,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19339"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19339"
+  },
+  {
+    "id": "PSF-005687",
+    "name": "Aiit Ziki",
+    "lat": 36.5621,
+    "lon": 4.476,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19341"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19341"
+  },
+  {
+    "id": "PSF-005688",
+    "name": "Aokas",
+    "lat": 36.6206,
+    "lon": 5.2477,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19342"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19342"
+  },
+  {
+    "id": "PSF-005804",
+    "name": "seddouk",
+    "lat": 36.5114,
+    "lon": 4.7439,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19496"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19496"
+  },
+  {
+    "id": "PSF-006985",
+    "name": "Decollage Bona (capfun seraidi)",
+    "lat": 36.9348,
+    "lon": 7.71994,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21998"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21998"
+  },
+  {
+    "id": "PSF-006986",
+    "name": "Zriba",
+    "lat": 36.9441,
+    "lon": 7.6779,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "21999"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21999"
+  },
+  {
+    "id": "PSF-010016",
+    "name": "Bouzeguene",
+    "lat": 28.0,
+    "lon": 3.39551,
+    "wind": {},
+    "sources": {
+      "pge": "7227"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7227"
+  }
+]

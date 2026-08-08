@@ -1,0 +1,174 @@
+[
+  {
+    "id": "PSF-003395",
+    "name": "gakab mosta",
+    "lat": 35.9196,
+    "lon": 14.4194,
+    "wind": {},
+    "sources": {
+      "pge": "15017"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15017"
+  },
+  {
+    "id": "PSF-003606",
+    "name": "bahrija kuncizjoni",
+    "lat": 35.8986,
+    "lon": 14.3554,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "15364"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15364"
+  },
+  {
+    "id": "PSF-003831",
+    "name": "mistra",
+    "lat": 35.9601,
+    "lon": 14.3846,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "15720"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15720"
+  },
+  {
+    "id": "PSF-005505",
+    "name": "Burmarrad",
+    "lat": 35.9313,
+    "lon": 14.4073,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "18838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18838"
+  },
+  {
+    "id": "PSF-005506",
+    "name": "Mtahleb",
+    "lat": 35.881,
+    "lon": 14.3471,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18839"
+  },
+  {
+    "id": "PSF-007993",
+    "name": "Nadur",
+    "lat": 36.0367,
+    "lon": 14.2911,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "23138"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23138"
+  },
+  {
+    "id": "PSF-011063",
+    "name": "ghajn tuffieha bay",
+    "lat": 35.9283,
+    "lon": 14.347,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9280"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9280"
+  },
+  {
+    "id": "PSF-011064",
+    "name": "qammieh",
+    "lat": 35.9722,
+    "lon": 14.3345,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "9281"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9281"
+  },
+  {
+    "id": "PSF-011065",
+    "name": "Dingli cliffs",
+    "lat": 35.8599,
+    "lon": 14.3706,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9282"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9282"
+  },
+  {
+    "id": "PSF-011066",
+    "name": "Top of the world",
+    "lat": 35.9311,
+    "lon": 14.4525,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9283"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9283"
+  },
+  {
+    "id": "PSF-011067",
+    "name": "delli",
+    "lat": 35.9549,
+    "lon": 14.3426,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9284"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9284"
+  },
+  {
+    "id": "PSF-011068",
+    "name": "znuber",
+    "lat": 35.9498,
+    "lon": 14.3407,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9285"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9285"
+  }
+]

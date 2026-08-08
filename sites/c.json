@@ -1,0 +1,23 @@
+[
+  {
+    "id": "PSF-008045",
+    "name": "TianMeng  Mountain",
+    "lat": 35.4749,
+    "lon": 118.041,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23193"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23193"
+  }
+]

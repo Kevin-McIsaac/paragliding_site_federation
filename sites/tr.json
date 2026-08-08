@@ -1,0 +1,4707 @@
+[
+  {
+    "id": "PSF-000085",
+    "name": "Gurle",
+    "lat": 40.3855,
+    "lon": 29.3208,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "10102"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10102"
+  },
+  {
+    "id": "PSF-000100",
+    "name": "cengiz arsu kalkýs pisti",
+    "lat": 40.0,
+    "lon": 35.0,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10120"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10120"
+  },
+  {
+    "id": "PSF-000367",
+    "name": "Bayramoren south",
+    "lat": 40.9316,
+    "lon": 33.2755,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10419"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10419"
+  },
+  {
+    "id": "PSF-000449",
+    "name": "Karagedik",
+    "lat": 36.7078,
+    "lon": 29.1521,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10514"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10514"
+  },
+  {
+    "id": "PSF-000484",
+    "name": "Olympos-Tahtali",
+    "lat": 36.5368,
+    "lon": 30.442,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10559"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10559"
+  },
+  {
+    "id": "PSF-000485",
+    "name": "Falez",
+    "lat": 36.8841,
+    "lon": 30.6803,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "10560"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10560"
+  },
+  {
+    "id": "PSF-000486",
+    "name": "Begis",
+    "lat": 36.8955,
+    "lon": 30.0826,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10561"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10561"
+  },
+  {
+    "id": "PSF-000487",
+    "name": "Alanya",
+    "lat": 36.5673,
+    "lon": 31.9783,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10562"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10562"
+  },
+  {
+    "id": "PSF-000488",
+    "name": "Tunek tepe",
+    "lat": 36.8225,
+    "lon": 30.5819,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10563"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10563"
+  },
+  {
+    "id": "PSF-000489",
+    "name": "Adrasan",
+    "lat": 36.2812,
+    "lon": 30.4349,
+    "wind": {
+      "E": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10564"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10564"
+  },
+  {
+    "id": "PSF-000508",
+    "name": "Catlakkaya",
+    "lat": 40.1393,
+    "lon": 29.1145,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10590"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10590"
+  },
+  {
+    "id": "PSF-000698",
+    "name": "INONU ESKISEHIR",
+    "lat": 39.811,
+    "lon": 30.1141,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10822"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10822"
+  },
+  {
+    "id": "PSF-000720",
+    "name": "Goveclik",
+    "lat": 37.769,
+    "lon": 28.9515,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10848"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10848"
+  },
+  {
+    "id": "PSF-000753",
+    "name": "Dikmen",
+    "lat": 40.6657,
+    "lon": 30.8986,
+    "wind": {},
+    "sources": {
+      "pge": "10885"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10885"
+  },
+  {
+    "id": "PSF-000886",
+    "name": "Badem Agaci",
+    "lat": 37.2219,
+    "lon": 30.4736,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "11046"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11046"
+  },
+  {
+    "id": "PSF-000924",
+    "name": "Kirtik 300",
+    "lat": 38.6021,
+    "lon": 27.4608,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "11085"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11085"
+  },
+  {
+    "id": "PSF-000926",
+    "name": "Karahuyuk Dagi-Akhisar",
+    "lat": 38.881,
+    "lon": 27.8134,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "11087"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11087"
+  },
+  {
+    "id": "PSF-000927",
+    "name": "Kale-Derekoy",
+    "lat": 38.9224,
+    "lon": 27.6738,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11088"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11088"
+  },
+  {
+    "id": "PSF-001049",
+    "name": "Alanya Sunway air sports",
+    "lat": 36.5765,
+    "lon": 31.9706,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "11236"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11236"
+  },
+  {
+    "id": "PSF-001110",
+    "name": "Karaburun",
+    "lat": 41.3413,
+    "lon": 28.6735,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11324"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11324"
+  },
+  {
+    "id": "PSF-001174",
+    "name": "Ayas",
+    "lat": 40.0311,
+    "lon": 32.3288,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11402"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11402"
+  },
+  {
+    "id": "PSF-001386",
+    "name": "Iskenderun",
+    "lat": 36.5645,
+    "lon": 36.2391,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11662"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11662"
+  },
+  {
+    "id": "PSF-001392",
+    "name": "Ahir Mountain",
+    "lat": 37.627,
+    "lon": 36.8712,
+    "wind": {},
+    "sources": {
+      "pge": "11694"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11694"
+  },
+  {
+    "id": "PSF-001410",
+    "name": "Adana Kabasakal - Ruzgarli Tepe",
+    "lat": 37.079,
+    "lon": 35.2143,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11718"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11718"
+  },
+  {
+    "id": "PSF-001425",
+    "name": "Merkesler Hill",
+    "lat": 40.8901,
+    "lon": 31.7819,
+    "wind": {},
+    "sources": {
+      "pge": "11737"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11737"
+  },
+  {
+    "id": "PSF-001432",
+    "name": "Cele Tepe",
+    "lat": 40.86,
+    "lon": 31.7033,
+    "wind": {},
+    "sources": {
+      "pge": "11750"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11750"
+  },
+  {
+    "id": "PSF-001435",
+    "name": "Tohumlar",
+    "lat": 39.7516,
+    "lon": 32.9402,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11754"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11754"
+  },
+  {
+    "id": "PSF-001489",
+    "name": "Elmadag Peak-East",
+    "lat": 39.7787,
+    "lon": 32.9972,
+    "wind": {},
+    "sources": {
+      "pge": "11860"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11860"
+  },
+  {
+    "id": "PSF-001553",
+    "name": "Gokheg, Ankara",
+    "lat": 39.9788,
+    "lon": 32.4849,
+    "wind": {},
+    "sources": {
+      "pge": "11977"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11977"
+  },
+  {
+    "id": "PSF-001562",
+    "name": "Ã‡atalca - Tepekent",
+    "lat": 41.061,
+    "lon": 28.5156,
+    "wind": {},
+    "sources": {
+      "pge": "11990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11990"
+  },
+  {
+    "id": "PSF-001591",
+    "name": "Karaelmas Universitesi",
+    "lat": 41.4549,
+    "lon": 31.7613,
+    "wind": {},
+    "sources": {
+      "pge": "12054"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12054"
+  },
+  {
+    "id": "PSF-001611",
+    "name": "Dadalli Hill, Tarsus",
+    "lat": 36.9732,
+    "lon": 34.8969,
+    "wind": {},
+    "sources": {
+      "pge": "12086"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12086"
+  },
+  {
+    "id": "PSF-001619",
+    "name": "Eskipazar",
+    "lat": 40.8615,
+    "lon": 32.6742,
+    "wind": {},
+    "sources": {
+      "pge": "12101"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12101"
+  },
+  {
+    "id": "PSF-001624",
+    "name": "Beysehir",
+    "lat": 37.6138,
+    "lon": 31.6921,
+    "wind": {},
+    "sources": {
+      "pge": "12108"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12108"
+  },
+  {
+    "id": "PSF-001626",
+    "name": "Karadag, Karaman",
+    "lat": 37.3888,
+    "lon": 33.1383,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12110"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12110"
+  },
+  {
+    "id": "PSF-001627",
+    "name": "kirkkiz",
+    "lat": 39.5239,
+    "lon": 30.8463,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12114"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12114"
+  },
+  {
+    "id": "PSF-001691",
+    "name": "Recai Tepe",
+    "lat": 39.6073,
+    "lon": 32.807,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "12213"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12213"
+  },
+  {
+    "id": "PSF-001696",
+    "name": "pecenek",
+    "lat": 39.885,
+    "lon": 32.5447,
+    "wind": {},
+    "sources": {
+      "pge": "12218"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12218"
+  },
+  {
+    "id": "PSF-001718",
+    "name": "Uzungöl (Trabzon)",
+    "lat": 40.6023,
+    "lon": 40.2999,
+    "wind": {},
+    "sources": {
+      "pge": "12258"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12258"
+  },
+  {
+    "id": "PSF-001747",
+    "name": "ELVANKÃ–Y - ETÄ°MESGUT",
+    "lat": 39.9188,
+    "lon": 32.6211,
+    "wind": {},
+    "sources": {
+      "pge": "12319"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12319"
+  },
+  {
+    "id": "PSF-001781",
+    "name": "Mahmatli, Aksaray",
+    "lat": 38.2316,
+    "lon": 34.149,
+    "wind": {},
+    "sources": {
+      "pge": "12372"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12372"
+  },
+  {
+    "id": "PSF-001785",
+    "name": "Hüseyin Gazi (Zile)",
+    "lat": 40.2784,
+    "lon": 35.8974,
+    "wind": {},
+    "sources": {
+      "pge": "12377"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12377"
+  },
+  {
+    "id": "PSF-001816",
+    "name": "Nikfer Bozdag",
+    "lat": 37.3585,
+    "lon": 29.1674,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12435"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12435"
+  },
+  {
+    "id": "PSF-001896",
+    "name": "Kackarag",
+    "lat": 37.4382,
+    "lon": 33.1883,
+    "wind": {},
+    "sources": {
+      "pge": "12588"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12588"
+  },
+  {
+    "id": "PSF-001939",
+    "name": "Bayramoren north",
+    "lat": 40.9712,
+    "lon": 33.209,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12668"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12668"
+  },
+  {
+    "id": "PSF-001944",
+    "name": "Muratli Kafasý Kesik Horoz Tepesi",
+    "lat": 37.0436,
+    "lon": 35.0034,
+    "wind": {},
+    "sources": {
+      "pge": "12674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12674"
+  },
+  {
+    "id": "PSF-001945",
+    "name": "Ityelmez, Zile, Tokat",
+    "lat": 40.2239,
+    "lon": 35.8789,
+    "wind": {},
+    "sources": {
+      "pge": "12677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12677"
+  },
+  {
+    "id": "PSF-001946",
+    "name": "Oksuruktepe, Sebinkarahisar",
+    "lat": 40.3075,
+    "lon": 38.4008,
+    "wind": {},
+    "sources": {
+      "pge": "12678"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12678"
+  },
+  {
+    "id": "PSF-002008",
+    "name": "Supugelik",
+    "lat": 40.5476,
+    "lon": 29.3026,
+    "wind": {},
+    "sources": {
+      "pge": "12823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12823"
+  },
+  {
+    "id": "PSF-002016",
+    "name": "Yalikoy",
+    "lat": 41.4526,
+    "lon": 28.3778,
+    "wind": {},
+    "sources": {
+      "pge": "12836"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12836"
+  },
+  {
+    "id": "PSF-002028",
+    "name": "Dagyenice, Bursa",
+    "lat": 40.1544,
+    "lon": 28.9372,
+    "wind": {},
+    "sources": {
+      "pge": "12854"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12854"
+  },
+  {
+    "id": "PSF-002037",
+    "name": "Zeyniler",
+    "lat": 40.1669,
+    "lon": 29.1086,
+    "wind": {},
+    "sources": {
+      "pge": "12875"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12875"
+  },
+  {
+    "id": "PSF-002041",
+    "name": "Cakirli Beldesi- Orhangazi",
+    "lat": 40.5238,
+    "lon": 29.4449,
+    "wind": {},
+    "sources": {
+      "pge": "12884"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12884"
+  },
+  {
+    "id": "PSF-002067",
+    "name": "Abant Kuzey Yayla, Bolu",
+    "lat": 40.591,
+    "lon": 31.249,
+    "wind": {},
+    "sources": {
+      "pge": "12926"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12926"
+  },
+  {
+    "id": "PSF-002075",
+    "name": "Isikli",
+    "lat": 36.2406,
+    "lon": 33.6558,
+    "wind": {},
+    "sources": {
+      "pge": "12935"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12935"
+  },
+  {
+    "id": "PSF-002168",
+    "name": "Sobu Tepesi, Isparta",
+    "lat": 37.8408,
+    "lon": 30.5237,
+    "wind": {},
+    "sources": {
+      "pge": "13092"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13092"
+  },
+  {
+    "id": "PSF-002169",
+    "name": "Dikmen Hill, Bolu",
+    "lat": 40.8457,
+    "lon": 32.6222,
+    "wind": {},
+    "sources": {
+      "pge": "13094"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13094"
+  },
+  {
+    "id": "PSF-002174",
+    "name": "Yenice, Inegol",
+    "lat": 40.0643,
+    "lon": 29.4288,
+    "wind": {},
+    "sources": {
+      "pge": "13101"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13101"
+  },
+  {
+    "id": "PSF-002176",
+    "name": "ARHAVİ (isina )Takeoff",
+    "lat": 41.3403,
+    "lon": 41.3353,
+    "wind": {},
+    "sources": {
+      "pge": "13103"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13103"
+  },
+  {
+    "id": "PSF-002177",
+    "name": "AZI TEPESİ",
+    "lat": 36.1164,
+    "lon": 32.9007,
+    "wind": {},
+    "sources": {
+      "pge": "13104"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13104"
+  },
+  {
+    "id": "PSF-002184",
+    "name": "Karacaoren Sivrihisar",
+    "lat": 39.3041,
+    "lon": 31.689,
+    "wind": {},
+    "sources": {
+      "pge": "13116"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13116"
+  },
+  {
+    "id": "PSF-002185",
+    "name": "Dumrek - Sivrihisar",
+    "lat": 39.6007,
+    "lon": 31.5187,
+    "wind": {},
+    "sources": {
+      "pge": "13118"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13118"
+  },
+  {
+    "id": "PSF-002191",
+    "name": "Catalagzi",
+    "lat": 41.5022,
+    "lon": 31.8606,
+    "wind": {},
+    "sources": {
+      "pge": "13130"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13130"
+  },
+  {
+    "id": "PSF-002192",
+    "name": "Harmanrock, Bilecik",
+    "lat": 40.1522,
+    "lon": 30.4001,
+    "wind": {},
+    "sources": {
+      "pge": "13133"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13133"
+  },
+  {
+    "id": "PSF-002197",
+    "name": "goktepe",
+    "lat": 36.8544,
+    "lon": 34.0247,
+    "wind": {},
+    "sources": {
+      "pge": "13138"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13138"
+  },
+  {
+    "id": "PSF-002211",
+    "name": "Radar (Tavsan dagi) Merzifon",
+    "lat": 40.9372,
+    "lon": 35.4169,
+    "wind": {},
+    "sources": {
+      "pge": "13154"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13154"
+  },
+  {
+    "id": "PSF-002217",
+    "name": "Gökpınar",
+    "lat": 39.943,
+    "lon": 32.3777,
+    "wind": {},
+    "sources": {
+      "pge": "13160"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13160"
+  },
+  {
+    "id": "PSF-002234",
+    "name": "MustafaKemalPaşa",
+    "lat": 40.0221,
+    "lon": 28.4839,
+    "wind": {},
+    "sources": {
+      "pge": "13183"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13183"
+  },
+  {
+    "id": "PSF-002239",
+    "name": "Pamuktepe",
+    "lat": 40.5379,
+    "lon": 30.1302,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13191"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13191"
+  },
+  {
+    "id": "PSF-002240",
+    "name": "ÃœrgÃ¼p",
+    "lat": 38.6442,
+    "lon": 34.9734,
+    "wind": {},
+    "sources": {
+      "pge": "13193"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13193"
+  },
+  {
+    "id": "PSF-002242",
+    "name": "Mutlu",
+    "lat": 37.957,
+    "lon": 31.6464,
+    "wind": {},
+    "sources": {
+      "pge": "13196"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13196"
+  },
+  {
+    "id": "PSF-002292",
+    "name": "Karahamzali",
+    "lat": 36.7391,
+    "lon": 34.2707,
+    "wind": {},
+    "sources": {
+      "pge": "13281"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13281"
+  },
+  {
+    "id": "PSF-002347",
+    "name": "Gultepe, Samsun",
+    "lat": 41.229,
+    "lon": 36.2829,
+    "wind": {},
+    "sources": {
+      "pge": "13387"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13387"
+  },
+  {
+    "id": "PSF-002398",
+    "name": "Sugoren Hoyuk Hill, Yalova",
+    "lat": 40.5636,
+    "lon": 29.3384,
+    "wind": {},
+    "sources": {
+      "pge": "13452"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13452"
+  },
+  {
+    "id": "PSF-002399",
+    "name": "Giresun",
+    "lat": 40.9186,
+    "lon": 38.38,
+    "wind": {},
+    "sources": {
+      "pge": "13453"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13453"
+  },
+  {
+    "id": "PSF-002402",
+    "name": "Akkoy South, Yalova",
+    "lat": 40.6313,
+    "lon": 29.1982,
+    "wind": {},
+    "sources": {
+      "pge": "13456"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13456"
+  },
+  {
+    "id": "PSF-002454",
+    "name": "Yaniktepe / Amasya",
+    "lat": 40.6387,
+    "lon": 35.7887,
+    "wind": {},
+    "sources": {
+      "pge": "13545"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13545"
+  },
+  {
+    "id": "PSF-002467",
+    "name": "Engiz Havaalanı",
+    "lat": 41.5039,
+    "lon": 36.1191,
+    "wind": {},
+    "sources": {
+      "pge": "13575"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13575"
+  },
+  {
+    "id": "PSF-002468",
+    "name": "Toptancilar Arkasi, Corum",
+    "lat": 40.5361,
+    "lon": 34.9114,
+    "wind": {},
+    "sources": {
+      "pge": "13576"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13576"
+  },
+  {
+    "id": "PSF-002469",
+    "name": "Gümüştepe",
+    "lat": 40.8204,
+    "lon": 35.1985,
+    "wind": {},
+    "sources": {
+      "pge": "13577"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13577"
+  },
+  {
+    "id": "PSF-002483",
+    "name": "Yenisehir North, Bursa",
+    "lat": 40.2333,
+    "lon": 29.6617,
+    "wind": {},
+    "sources": {
+      "pge": "13601"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13601"
+  },
+  {
+    "id": "PSF-002485",
+    "name": "AGACLI",
+    "lat": 41.274,
+    "lon": 28.8883,
+    "wind": {},
+    "sources": {
+      "pge": "13603"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13603"
+  },
+  {
+    "id": "PSF-002501",
+    "name": "Elmalik Istihkam, Yalova",
+    "lat": 40.6002,
+    "lon": 29.3128,
+    "wind": {},
+    "sources": {
+      "pge": "13637"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13637"
+  },
+  {
+    "id": "PSF-002696",
+    "name": "Karbogazi Medetsiz, Mersin",
+    "lat": 37.3453,
+    "lon": 34.6784,
+    "wind": {},
+    "sources": {
+      "pge": "13958"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13958"
+  },
+  {
+    "id": "PSF-002697",
+    "name": "Yuvacik, Kocaeli",
+    "lat": 40.6788,
+    "lon": 29.9963,
+    "wind": {},
+    "sources": {
+      "pge": "13959"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13959"
+  },
+  {
+    "id": "PSF-002698",
+    "name": "Saygili, Amasya",
+    "lat": 40.7138,
+    "lon": 35.6773,
+    "wind": {},
+    "sources": {
+      "pge": "13960"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13960"
+  },
+  {
+    "id": "PSF-002708",
+    "name": "dumanlı tepe",
+    "lat": 40.6161,
+    "lon": 29.423,
+    "wind": {},
+    "sources": {
+      "pge": "13972"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13972"
+  },
+  {
+    "id": "PSF-002724",
+    "name": "Yellibayır, İnönü",
+    "lat": 39.8118,
+    "lon": 30.1621,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13992"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13992"
+  },
+  {
+    "id": "PSF-002751",
+    "name": "Hasan Mountain",
+    "lat": 40.1851,
+    "lon": 30.305,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14031"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14031"
+  },
+  {
+    "id": "PSF-002788",
+    "name": "Laztepe, Yalova",
+    "lat": 40.6034,
+    "lon": 29.252,
+    "wind": {},
+    "sources": {
+      "pge": "14100"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14100"
+  },
+  {
+    "id": "PSF-002805",
+    "name": "TaÅŸ Masa",
+    "lat": 36.1501,
+    "lon": 33.3154,
+    "wind": {},
+    "sources": {
+      "pge": "14126"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14126"
+  },
+  {
+    "id": "PSF-002811",
+    "name": "Uludag 2000, Bursa",
+    "lat": 40.1342,
+    "lon": 29.1744,
+    "wind": {},
+    "sources": {
+      "pge": "14134"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14134"
+  },
+  {
+    "id": "PSF-002817",
+    "name": "ULUDAG KIRANTEPE EAST 2100",
+    "lat": 40.0711,
+    "lon": 29.3309,
+    "wind": {},
+    "sources": {
+      "pge": "14146"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14146"
+  },
+  {
+    "id": "PSF-002829",
+    "name": "Vize",
+    "lat": 41.5834,
+    "lon": 27.7828,
+    "wind": {},
+    "sources": {
+      "pge": "14164"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14164"
+  },
+  {
+    "id": "PSF-002852",
+    "name": "Saphane Mnt.",
+    "lat": 39.0375,
+    "lon": 29.2839,
+    "wind": {},
+    "sources": {
+      "pge": "14212"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14212"
+  },
+  {
+    "id": "PSF-002894",
+    "name": "Boştepe",
+    "lat": 40.9453,
+    "lon": 38.1503,
+    "wind": {},
+    "sources": {
+      "pge": "14263"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14263"
+  },
+  {
+    "id": "PSF-002899",
+    "name": "Isik Mnt, Kizilcahamam, Ankara",
+    "lat": 40.6658,
+    "lon": 32.7642,
+    "wind": {},
+    "sources": {
+      "pge": "14275"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14275"
+  },
+  {
+    "id": "PSF-002919",
+    "name": "Yukariseyhler",
+    "lat": 38.2568,
+    "lon": 39.4701,
+    "wind": {},
+    "sources": {
+      "pge": "14309"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14309"
+  },
+  {
+    "id": "PSF-002929",
+    "name": "sundance kingfishers",
+    "lat": 36.516,
+    "lon": 30.5413,
+    "wind": {},
+    "sources": {
+      "pge": "14329"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14329"
+  },
+  {
+    "id": "PSF-003041",
+    "name": "Camlidere otoban",
+    "lat": 40.3801,
+    "lon": 32.4452,
+    "wind": {},
+    "sources": {
+      "pge": "14458"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14458"
+  },
+  {
+    "id": "PSF-003115",
+    "name": "Yelli",
+    "lat": 40.2886,
+    "lon": 32.2601,
+    "wind": {},
+    "sources": {
+      "pge": "14573"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14573"
+  },
+  {
+    "id": "PSF-003153",
+    "name": "Cungus,  Diyarbakir",
+    "lat": 38.2257,
+    "lon": 39.2769,
+    "wind": {},
+    "sources": {
+      "pge": "14637"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14637"
+  },
+  {
+    "id": "PSF-003156",
+    "name": "Cermik, Diyarbakir",
+    "lat": 38.1438,
+    "lon": 39.4631,
+    "wind": {},
+    "sources": {
+      "pge": "14641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14641"
+  },
+  {
+    "id": "PSF-003162",
+    "name": "Güdül Sivrisi",
+    "lat": 40.1705,
+    "lon": 32.216,
+    "wind": {},
+    "sources": {
+      "pge": "14650"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14650"
+  },
+  {
+    "id": "PSF-003173",
+    "name": "Gebeli Koyu, Adiyaman",
+    "lat": 37.8191,
+    "lon": 38.2827,
+    "wind": {},
+    "sources": {
+      "pge": "14663"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14663"
+  },
+  {
+    "id": "PSF-003174",
+    "name": "Düzici",
+    "lat": 37.2775,
+    "lon": 36.5214,
+    "wind": {},
+    "sources": {
+      "pge": "14664"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14664"
+  },
+  {
+    "id": "PSF-003180",
+    "name": "hoc tepesi",
+    "lat": 36.9536,
+    "lon": 34.6695,
+    "wind": {},
+    "sources": {
+      "pge": "14672"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14672"
+  },
+  {
+    "id": "PSF-003263",
+    "name": "Kocatepe / Keramos �?ren/Bodrum/Mu�?la",
+    "lat": 37.0388,
+    "lon": 27.9876,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14813"
+  },
+  {
+    "id": "PSF-003315",
+    "name": "Ucan_Sef Sinop Adaburnu Takeoff",
+    "lat": 42.0343,
+    "lon": 35.1664,
+    "wind": {},
+    "sources": {
+      "pge": "14884"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14884"
+  },
+  {
+    "id": "PSF-003339",
+    "name": "Mut Guney",
+    "lat": 36.7217,
+    "lon": 33.5298,
+    "wind": {},
+    "sources": {
+      "pge": "14925"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14925"
+  },
+  {
+    "id": "PSF-003391",
+    "name": "murat sobacı nallıhan.rasim",
+    "lat": 40.193,
+    "lon": 31.3307,
+    "wind": {},
+    "sources": {
+      "pge": "15009"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15009"
+  },
+  {
+    "id": "PSF-003406",
+    "name": "Hasan Mount",
+    "lat": 38.1607,
+    "lon": 34.1601,
+    "wind": {},
+    "sources": {
+      "pge": "15036"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15036"
+  },
+  {
+    "id": "PSF-003412",
+    "name": "Hacka Yaylasi",
+    "lat": 40.7986,
+    "lon": 39.404,
+    "wind": {},
+    "sources": {
+      "pge": "15049"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15049"
+  },
+  {
+    "id": "PSF-003413",
+    "name": "Duzkoy",
+    "lat": 40.8611,
+    "lon": 39.434,
+    "wind": {},
+    "sources": {
+      "pge": "15050"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15050"
+  },
+  {
+    "id": "PSF-003418",
+    "name": "Ardıç-Senirkent Isparta",
+    "lat": 38.0938,
+    "lon": 30.562,
+    "wind": {},
+    "sources": {
+      "pge": "15064"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15064"
+  },
+  {
+    "id": "PSF-003426",
+    "name": "Suphan",
+    "lat": 38.9184,
+    "lon": 42.8224,
+    "wind": {},
+    "sources": {
+      "pge": "15074"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15074"
+  },
+  {
+    "id": "PSF-003463",
+    "name": "ULUABAT-Ayvaköy",
+    "lat": 40.1325,
+    "lon": 28.6865,
+    "wind": {},
+    "sources": {
+      "pge": "15136"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15136"
+  },
+  {
+    "id": "PSF-003464",
+    "name": "Nilüfer Belediyesi Havacılık Tesisleri",
+    "lat": 40.1449,
+    "lon": 28.7237,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "15137"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15137"
+  },
+  {
+    "id": "PSF-003465",
+    "name": "sinop gerze",
+    "lat": 41.6922,
+    "lon": 35.3331,
+    "wind": {},
+    "sources": {
+      "pge": "15139"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15139"
+  },
+  {
+    "id": "PSF-003466",
+    "name": "KIRANIÃžIKLAR KÃ–YÃœ",
+    "lat": 39.8467,
+    "lon": 29.2429,
+    "wind": {},
+    "sources": {
+      "pge": "15140"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15140"
+  },
+  {
+    "id": "PSF-003538",
+    "name": "Menekse Zirve",
+    "lat": 37.0718,
+    "lon": 35.3461,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15251"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15251"
+  },
+  {
+    "id": "PSF-003551",
+    "name": "çamtepesi",
+    "lat": 40.3214,
+    "lon": 38.7484,
+    "wind": {},
+    "sources": {
+      "pge": "15274"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15274"
+  },
+  {
+    "id": "PSF-003565",
+    "name": "Bingöl",
+    "lat": 38.8044,
+    "lon": 40.5745,
+    "wind": {},
+    "sources": {
+      "pge": "15300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15300"
+  },
+  {
+    "id": "PSF-003594",
+    "name": "alucra",
+    "lat": 40.3357,
+    "lon": 38.798,
+    "wind": {},
+    "sources": {
+      "pge": "15336"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15336"
+  },
+  {
+    "id": "PSF-003599",
+    "name": "kizildag",
+    "lat": 38.0261,
+    "lon": 31.3689,
+    "wind": {},
+    "sources": {
+      "pge": "15348"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15348"
+  },
+  {
+    "id": "PSF-003625",
+    "name": "BOTANTEPE",
+    "lat": 37.8849,
+    "lon": 41.8995,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "15399"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15399"
+  },
+  {
+    "id": "PSF-003643",
+    "name": "ALSANCAK TEPE",
+    "lat": 37.0365,
+    "lon": 30.552,
+    "wind": {},
+    "sources": {
+      "pge": "15431"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15431"
+  },
+  {
+    "id": "PSF-003644",
+    "name": "FÝSKÝN BATI-SÝÝRT",
+    "lat": 37.9861,
+    "lon": 41.9058,
+    "wind": {},
+    "sources": {
+      "pge": "15432"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15432"
+  },
+  {
+    "id": "PSF-003645",
+    "name": "Seçme",
+    "lat": 37.5526,
+    "lon": 32.5243,
+    "wind": {},
+    "sources": {
+      "pge": "15433"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15433"
+  },
+  {
+    "id": "PSF-003671",
+    "name": "Takkeli",
+    "lat": 37.9013,
+    "lon": 32.3899,
+    "wind": {},
+    "sources": {
+      "pge": "15472"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15472"
+  },
+  {
+    "id": "PSF-003695",
+    "name": "YÄ±ldÄ±zeli Ã‡al Tepesi",
+    "lat": 39.8478,
+    "lon": 36.5773,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15518"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15518"
+  },
+  {
+    "id": "PSF-003696",
+    "name": "Tatlısu yamaç",
+    "lat": 39.7142,
+    "lon": 37.0892,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "15519"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15519"
+  },
+  {
+    "id": "PSF-003709",
+    "name": "Narli/Kardelen Tepesi",
+    "lat": 37.328,
+    "lon": 37.1805,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15538"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15538"
+  },
+  {
+    "id": "PSF-003761",
+    "name": "nato tepesi",
+    "lat": 40.5975,
+    "lon": 27.5664,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15620"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15620"
+  },
+  {
+    "id": "PSF-003762",
+    "name": "intepe soar",
+    "lat": 40.028,
+    "lon": 26.3569,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15621"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15621"
+  },
+  {
+    "id": "PSF-003766",
+    "name": "Turkmen Akcakoy",
+    "lat": 39.4418,
+    "lon": 27.9636,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15629"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15629"
+  },
+  {
+    "id": "PSF-003809",
+    "name": "Mire Dagi, Ankara",
+    "lat": 40.2123,
+    "lon": 32.8778,
+    "wind": {},
+    "sources": {
+      "pge": "15684"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15684"
+  },
+  {
+    "id": "PSF-003875",
+    "name": "Ã‡Ä±ÄŸlÄ±k / Katran Mountain",
+    "lat": 37.1,
+    "lon": 30.648,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15844"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15844"
+  },
+  {
+    "id": "PSF-004025",
+    "name": "Karain",
+    "lat": 37.0812,
+    "lon": 30.5298,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16040"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16040"
+  },
+  {
+    "id": "PSF-004151",
+    "name": "geyran tepe",
+    "lat": 40.4343,
+    "lon": 36.0512,
+    "wind": {},
+    "sources": {
+      "pge": "16212"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16212"
+  },
+  {
+    "id": "PSF-004167",
+    "name": "Tashlik tepe",
+    "lat": 39.3644,
+    "lon": 28.2,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16250"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16250"
+  },
+  {
+    "id": "PSF-004169",
+    "name": "uzunburun",
+    "lat": 40.328,
+    "lon": 36.5948,
+    "wind": {},
+    "sources": {
+      "pge": "16252"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16252"
+  },
+  {
+    "id": "PSF-004179",
+    "name": "Tokat -- kampüs",
+    "lat": 40.3133,
+    "lon": 36.4528,
+    "wind": {},
+    "sources": {
+      "pge": "16266"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16266"
+  },
+  {
+    "id": "PSF-004260",
+    "name": "KARLIK TEPESi",
+    "lat": 40.9599,
+    "lon": 39.6777,
+    "wind": {},
+    "sources": {
+      "pge": "16380"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16380"
+  },
+  {
+    "id": "PSF-004268",
+    "name": "Niksar-Dönekse",
+    "lat": 40.5344,
+    "lon": 36.8696,
+    "wind": {},
+    "sources": {
+      "pge": "16396"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16396"
+  },
+  {
+    "id": "PSF-004274",
+    "name": "KapÄ±cak, Atabey, Isparta",
+    "lat": 37.9604,
+    "lon": 30.6792,
+    "wind": {},
+    "sources": {
+      "pge": "16407"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16407"
+  },
+  {
+    "id": "PSF-004275",
+    "name": "Termiksi",
+    "lat": 39.9809,
+    "lon": 29.1672,
+    "wind": {},
+    "sources": {
+      "pge": "16409"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16409"
+  },
+  {
+    "id": "PSF-004282",
+    "name": "Tokat - Dereyaka tepesi",
+    "lat": 40.2784,
+    "lon": 36.4976,
+    "wind": {},
+    "sources": {
+      "pge": "16420"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16420"
+  },
+  {
+    "id": "PSF-004291",
+    "name": "Ä°skenderun BitiÅŸik YaylasÄ±",
+    "lat": 36.6233,
+    "lon": 36.2838,
+    "wind": {},
+    "sources": {
+      "pge": "16434"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16434"
+  },
+  {
+    "id": "PSF-004297",
+    "name": "Yoroz",
+    "lat": 41.0951,
+    "lon": 39.4352,
+    "wind": {},
+    "sources": {
+      "pge": "16445"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16445"
+  },
+  {
+    "id": "PSF-004303",
+    "name": "Oguzlar",
+    "lat": 40.7683,
+    "lon": 34.7115,
+    "wind": {},
+    "sources": {
+      "pge": "16457"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16457"
+  },
+  {
+    "id": "PSF-004307",
+    "name": "Bandırma",
+    "lat": 40.3586,
+    "lon": 27.9454,
+    "wind": {},
+    "sources": {
+      "pge": "16463"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16463"
+  },
+  {
+    "id": "PSF-004319",
+    "name": "kılıç tepe",
+    "lat": 39.6995,
+    "lon": 30.8794,
+    "wind": {},
+    "sources": {
+      "pge": "16493"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16493"
+  },
+  {
+    "id": "PSF-004341",
+    "name": "Karaca DaÄŸ",
+    "lat": 37.7664,
+    "lon": 33.7595,
+    "wind": {},
+    "sources": {
+      "pge": "16526"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16526"
+  },
+  {
+    "id": "PSF-004357",
+    "name": "Kartepe",
+    "lat": 40.661,
+    "lon": 30.0826,
+    "wind": {},
+    "sources": {
+      "pge": "16549"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16549"
+  },
+  {
+    "id": "PSF-004359",
+    "name": "Ucan_Sef Sinop Kumkapı Takeoff",
+    "lat": 42.0237,
+    "lon": 35.129,
+    "wind": {},
+    "sources": {
+      "pge": "16554"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16554"
+  },
+  {
+    "id": "PSF-004366",
+    "name": "Ã‡al",
+    "lat": 40.4991,
+    "lon": 37.307,
+    "wind": {},
+    "sources": {
+      "pge": "16562"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16562"
+  },
+  {
+    "id": "PSF-004400",
+    "name": "Paradise Hill, Cankiri",
+    "lat": 40.957,
+    "lon": 33.3865,
+    "wind": {},
+    "sources": {
+      "pge": "16618"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16618"
+  },
+  {
+    "id": "PSF-004487",
+    "name": "Ümit Tepesi",
+    "lat": 37.4851,
+    "lon": 36.8672,
+    "wind": {},
+    "sources": {
+      "pge": "16769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16769"
+  },
+  {
+    "id": "PSF-004492",
+    "name": "Sile kumbaba",
+    "lat": 41.1765,
+    "lon": 29.5463,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16782"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16782"
+  },
+  {
+    "id": "PSF-004514",
+    "name": "Denizli �?ameli Yaylacik Mountain",
+    "lat": 36.983,
+    "lon": 29.3163,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16832"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16832"
+  },
+  {
+    "id": "PSF-004520",
+    "name": "Balatli",
+    "lat": 39.3573,
+    "lon": 28.1007,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16839"
+  },
+  {
+    "id": "PSF-004523",
+    "name": "Kurumcu Dagi, Camlidere Ankara",
+    "lat": 40.3458,
+    "lon": 32.3857,
+    "wind": {},
+    "sources": {
+      "pge": "16850"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16850"
+  },
+  {
+    "id": "PSF-004555",
+    "name": "Issızca",
+    "lat": 37.1292,
+    "lon": 36.3618,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16907"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16907"
+  },
+  {
+    "id": "PSF-004559",
+    "name": "ergan daÄŸÄ± zirve",
+    "lat": 39.5872,
+    "lon": 39.4977,
+    "wind": {},
+    "sources": {
+      "pge": "16912"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16912"
+  },
+  {
+    "id": "PSF-004600",
+    "name": "Kerpe",
+    "lat": 41.1183,
+    "lon": 30.2288,
+    "wind": {},
+    "sources": {
+      "pge": "16975"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16975"
+  },
+  {
+    "id": "PSF-004618",
+    "name": "GÃ¶bÃ¼ DoÄŸu",
+    "lat": 41.5414,
+    "lon": 31.9704,
+    "wind": {},
+    "sources": {
+      "pge": "17017"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17017"
+  },
+  {
+    "id": "PSF-004619",
+    "name": "Ã‡aycuma KayabaÅŸi",
+    "lat": 41.3443,
+    "lon": 32.0662,
+    "wind": {},
+    "sources": {
+      "pge": "17018"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17018"
+  },
+  {
+    "id": "PSF-004621",
+    "name": "AKINCI ÃœSSÃœ YANI",
+    "lat": 40.0722,
+    "lon": 32.5244,
+    "wind": {},
+    "sources": {
+      "pge": "17020"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17020"
+  },
+  {
+    "id": "PSF-004625",
+    "name": "çaycuma balat mounth",
+    "lat": 41.4593,
+    "lon": 32.0685,
+    "wind": {},
+    "sources": {
+      "pge": "17025"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17025"
+  },
+  {
+    "id": "PSF-004628",
+    "name": "Keltepe Beypazarı Ankara",
+    "lat": 40.2542,
+    "lon": 31.8256,
+    "wind": {},
+    "sources": {
+      "pge": "17029"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17029"
+  },
+  {
+    "id": "PSF-004631",
+    "name": "SuRuCu",
+    "lat": 40.1752,
+    "lon": 29.0053,
+    "wind": {},
+    "sources": {
+      "pge": "17036"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17036"
+  },
+  {
+    "id": "PSF-004680",
+    "name": "Eshab-i Kehf",
+    "lat": 36.961,
+    "lon": 34.7996,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "17120"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17120"
+  },
+  {
+    "id": "PSF-004703",
+    "name": "Buyukyenice Asar",
+    "lat": 39.4314,
+    "lon": 27.3522,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17171"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17171"
+  },
+  {
+    "id": "PSF-004707",
+    "name": "Akçalar",
+    "lat": 40.3748,
+    "lon": 28.7117,
+    "wind": {},
+    "sources": {
+      "pge": "17191"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17191"
+  },
+  {
+    "id": "PSF-004709",
+    "name": "Baglum Keçiören",
+    "lat": 40.0383,
+    "lon": 32.8378,
+    "wind": {},
+    "sources": {
+      "pge": "17198"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17198"
+  },
+  {
+    "id": "PSF-004721",
+    "name": "Keçi Kalesi",
+    "lat": 40.8118,
+    "lon": 32.1989,
+    "wind": {},
+    "sources": {
+      "pge": "17226"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17226"
+  },
+  {
+    "id": "PSF-004731",
+    "name": "Kestel ugurlu takeoff",
+    "lat": 40.2034,
+    "lon": 29.2652,
+    "wind": {},
+    "sources": {
+      "pge": "17239"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17239"
+  },
+  {
+    "id": "PSF-004741",
+    "name": "Sazlıdere",
+    "lat": 41.1302,
+    "lon": 28.706,
+    "wind": {},
+    "sources": {
+      "pge": "17256"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17256"
+  },
+  {
+    "id": "PSF-004748",
+    "name": "Sarisu",
+    "lat": 41.1399,
+    "lon": 30.1448,
+    "wind": {},
+    "sources": {
+      "pge": "17271"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17271"
+  },
+  {
+    "id": "PSF-004761",
+    "name": "AKSARAY-AKHÄ°SAR KÃ–YÃœ",
+    "lat": 38.3123,
+    "lon": 34.0989,
+    "wind": {},
+    "sources": {
+      "pge": "17293"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17293"
+  },
+  {
+    "id": "PSF-004764",
+    "name": "Yayladalı",
+    "lat": 40.3924,
+    "lon": 36.5206,
+    "wind": {},
+    "sources": {
+      "pge": "17300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17300"
+  },
+  {
+    "id": "PSF-004784",
+    "name": "Avcilar Kampus",
+    "lat": 40.9994,
+    "lon": 28.7276,
+    "wind": {},
+    "sources": {
+      "pge": "17336"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17336"
+  },
+  {
+    "id": "PSF-004821",
+    "name": "Fakiusagi",
+    "lat": 37.0239,
+    "lon": 36.2364,
+    "wind": {},
+    "sources": {
+      "pge": "17414"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17414"
+  },
+  {
+    "id": "PSF-004852",
+    "name": "Payas",
+    "lat": 36.7641,
+    "lon": 36.2884,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17455"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17455"
+  },
+  {
+    "id": "PSF-004853",
+    "name": "Kapıdag",
+    "lat": 40.4124,
+    "lon": 27.9283,
+    "wind": {},
+    "sources": {
+      "pge": "17456"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17456"
+  },
+  {
+    "id": "PSF-004858",
+    "name": "Düziçi",
+    "lat": 37.2787,
+    "lon": 36.5225,
+    "wind": {
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17469"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17469"
+  },
+  {
+    "id": "PSF-004865",
+    "name": "Yedi Kuyular",
+    "lat": 37.6282,
+    "lon": 37.0186,
+    "wind": {},
+    "sources": {
+      "pge": "17477"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17477"
+  },
+  {
+    "id": "PSF-004902",
+    "name": "PAÅžA YAYLASI",
+    "lat": 36.7607,
+    "lon": 36.2025,
+    "wind": {},
+    "sources": {
+      "pge": "17524"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17524"
+  },
+  {
+    "id": "PSF-004903",
+    "name": "UMÄ°T TEPE",
+    "lat": 36.5898,
+    "lon": 36.1703,
+    "wind": {},
+    "sources": {
+      "pge": "17525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17525"
+  },
+  {
+    "id": "PSF-004911",
+    "name": "Kızılfırla Hill",
+    "lat": 39.3966,
+    "lon": 28.158,
+    "wind": {},
+    "sources": {
+      "pge": "17536"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17536"
+  },
+  {
+    "id": "PSF-004912",
+    "name": "rize tea takeoff",
+    "lat": 41.0241,
+    "lon": 40.5608,
+    "wind": {},
+    "sources": {
+      "pge": "17539"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17539"
+  },
+  {
+    "id": "PSF-004913",
+    "name": "atatürk tepe takeoff",
+    "lat": 39.7988,
+    "lon": 39.5088,
+    "wind": {},
+    "sources": {
+      "pge": "17540"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17540"
+  },
+  {
+    "id": "PSF-004923",
+    "name": "Turkish a",
+    "lat": 40.9696,
+    "lon": 28.8447,
+    "wind": {},
+    "sources": {
+      "pge": "17557"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17557"
+  },
+  {
+    "id": "PSF-004939",
+    "name": "Amasra",
+    "lat": 41.7341,
+    "lon": 32.4006,
+    "wind": {},
+    "sources": {
+      "pge": "17587"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17587"
+  },
+  {
+    "id": "PSF-004940",
+    "name": "Uludag Orhaniye Peak",
+    "lat": 40.1009,
+    "lon": 29.2467,
+    "wind": {},
+    "sources": {
+      "pge": "17589"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17589"
+  },
+  {
+    "id": "PSF-004941",
+    "name": "Ilgaz Mountain Tower, Cankiri",
+    "lat": 41.0422,
+    "lon": 33.7047,
+    "wind": {},
+    "sources": {
+      "pge": "17590"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17590"
+  },
+  {
+    "id": "PSF-004942",
+    "name": "Aksu Isparta",
+    "lat": 37.8415,
+    "lon": 31.0523,
+    "wind": {},
+    "sources": {
+      "pge": "17591"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17591"
+  },
+  {
+    "id": "PSF-004943",
+    "name": "abalı",
+    "lat": 38.256,
+    "lon": 43.2113,
+    "wind": {},
+    "sources": {
+      "pge": "17592"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17592"
+  },
+  {
+    "id": "PSF-004945",
+    "name": "ÃœÃ‡ HÄ°LAL",
+    "lat": 39.7264,
+    "lon": 39.7065,
+    "wind": {},
+    "sources": {
+      "pge": "17594"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17594"
+  },
+  {
+    "id": "PSF-004979",
+    "name": "ÅŸimÅŸit kÃ¶yÃ¼",
+    "lat": 39.932,
+    "lon": 32.5882,
+    "wind": {},
+    "sources": {
+      "pge": "17670"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17670"
+  },
+  {
+    "id": "PSF-004982",
+    "name": "Yahyali",
+    "lat": 38.1562,
+    "lon": 35.4014,
+    "wind": {},
+    "sources": {
+      "pge": "17675"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17675"
+  },
+  {
+    "id": "PSF-005013",
+    "name": "Kartepe Kayacık Manisa",
+    "lat": 38.9159,
+    "lon": 28.1625,
+    "wind": {},
+    "sources": {
+      "pge": "17732"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17732"
+  },
+  {
+    "id": "PSF-005014",
+    "name": "Sahinkaya Kayacik Manisa",
+    "lat": 38.8969,
+    "lon": 28.1171,
+    "wind": {},
+    "sources": {
+      "pge": "17733"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17733"
+  },
+  {
+    "id": "PSF-005015",
+    "name": "Batı Park",
+    "lat": 41.3229,
+    "lon": 36.3253,
+    "wind": {},
+    "sources": {
+      "pge": "17735"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17735"
+  },
+  {
+    "id": "PSF-005016",
+    "name": "Yamaçlar Takeoff",
+    "lat": 38.199,
+    "lon": 39.6753,
+    "wind": {},
+    "sources": {
+      "pge": "17736"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17736"
+  },
+  {
+    "id": "PSF-005017",
+    "name": "The monastery of Virgin Mary",
+    "lat": 40.2743,
+    "lon": 38.511,
+    "wind": {},
+    "sources": {
+      "pge": "17737"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17737"
+  },
+  {
+    "id": "PSF-005019",
+    "name": "Kodobay",
+    "lat": 38.4786,
+    "lon": 42.2953,
+    "wind": {},
+    "sources": {
+      "pge": "17739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17739"
+  },
+  {
+    "id": "PSF-005020",
+    "name": "Nemrut Mt, Bitlis",
+    "lat": 38.594,
+    "lon": 42.279,
+    "wind": {},
+    "sources": {
+      "pge": "17740"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17740"
+  },
+  {
+    "id": "PSF-005022",
+    "name": "Kumludoruk",
+    "lat": 40.0179,
+    "lon": 32.364,
+    "wind": {},
+    "sources": {
+      "pge": "17742"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17742"
+  },
+  {
+    "id": "PSF-005023",
+    "name": "Dua Tepe",
+    "lat": 39.6131,
+    "lon": 32.0637,
+    "wind": {},
+    "sources": {
+      "pge": "17743"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17743"
+  },
+  {
+    "id": "PSF-005024",
+    "name": "Hazarbaba",
+    "lat": 38.4205,
+    "lon": 39.3148,
+    "wind": {},
+    "sources": {
+      "pge": "17744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17744"
+  },
+  {
+    "id": "PSF-005030",
+    "name": "Silyon",
+    "lat": 36.9907,
+    "lon": 30.9907,
+    "wind": {},
+    "sources": {
+      "pge": "17755"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17755"
+  },
+  {
+    "id": "PSF-005031",
+    "name": "Deniztepesi",
+    "lat": 36.9816,
+    "lon": 31.1212,
+    "wind": {},
+    "sources": {
+      "pge": "17756"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17756"
+  },
+  {
+    "id": "PSF-005039",
+    "name": "Ayazmana",
+    "lat": 37.741,
+    "lon": 30.5826,
+    "wind": {},
+    "sources": {
+      "pge": "17772"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17772"
+  },
+  {
+    "id": "PSF-005048",
+    "name": "Tut, Adiyaman",
+    "lat": 37.8162,
+    "lon": 37.9128,
+    "wind": {},
+    "sources": {
+      "pge": "17791"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17791"
+  },
+  {
+    "id": "PSF-005050",
+    "name": "Kepirli",
+    "lat": 36.9486,
+    "lon": 34.5603,
+    "wind": {},
+    "sources": {
+      "pge": "17793"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17793"
+  },
+  {
+    "id": "PSF-005053",
+    "name": "Dedeboynu Ã‡ukurbaÄŸ",
+    "lat": 36.5857,
+    "lon": 32.5919,
+    "wind": {},
+    "sources": {
+      "pge": "17799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17799"
+  },
+  {
+    "id": "PSF-005104",
+    "name": "Mahya DaÄŸ Kel Tepe",
+    "lat": 41.766,
+    "lon": 27.6306,
+    "wind": {},
+    "sources": {
+      "pge": "17910"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17910"
+  },
+  {
+    "id": "PSF-005107",
+    "name": "ÅžanlÄ±urfa Karababa",
+    "lat": 37.3341,
+    "lon": 38.6917,
+    "wind": {},
+    "sources": {
+      "pge": "17915"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17915"
+  },
+  {
+    "id": "PSF-005169",
+    "name": "Bagli Village Red Hill, Aksaray",
+    "lat": 38.2468,
+    "lon": 34.0622,
+    "wind": {},
+    "sources": {
+      "pge": "18044"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18044"
+  },
+  {
+    "id": "PSF-005170",
+    "name": "kengerli",
+    "lat": 37.0459,
+    "lon": 36.358,
+    "wind": {},
+    "sources": {
+      "pge": "18046"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18046"
+  },
+  {
+    "id": "PSF-005178",
+    "name": "Kilyos",
+    "lat": 41.2458,
+    "lon": 29.0128,
+    "wind": {},
+    "sources": {
+      "pge": "18066"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18066"
+  },
+  {
+    "id": "PSF-005179",
+    "name": "uludaÄŸ gÃ¼neye kalkÄ±ÅŸ 2030m",
+    "lat": 40.0872,
+    "lon": 29.133,
+    "wind": {},
+    "sources": {
+      "pge": "18067"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18067"
+  },
+  {
+    "id": "PSF-005180",
+    "name": "ser-dal mountain 2",
+    "lat": 39.3754,
+    "lon": 29.9661,
+    "wind": {},
+    "sources": {
+      "pge": "18068"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18068"
+  },
+  {
+    "id": "PSF-005189",
+    "name": "Uçmakdere 250",
+    "lat": 40.8108,
+    "lon": 27.3926,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18095"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18095"
+  },
+  {
+    "id": "PSF-005190",
+    "name": "Uçmakdere 550",
+    "lat": 40.8145,
+    "lon": 27.3833,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "18096"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18096"
+  },
+  {
+    "id": "PSF-005213",
+    "name": "Boztepe, Erzincan",
+    "lat": 39.6485,
+    "lon": 39.5219,
+    "wind": {},
+    "sources": {
+      "pge": "18131"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18131"
+  },
+  {
+    "id": "PSF-005217",
+    "name": "Suadiye Istanbul paramotor take off",
+    "lat": 40.9554,
+    "lon": 29.0816,
+    "wind": {},
+    "sources": {
+      "pge": "18143"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18143"
+  },
+  {
+    "id": "PSF-005257",
+    "name": "Karaisali, Adana",
+    "lat": 37.2511,
+    "lon": 35.0457,
+    "wind": {},
+    "sources": {
+      "pge": "18265"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18265"
+  },
+  {
+    "id": "PSF-005260",
+    "name": "alayunt",
+    "lat": 39.3944,
+    "lon": 30.1087,
+    "wind": {},
+    "sources": {
+      "pge": "18268"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18268"
+  },
+  {
+    "id": "PSF-005262",
+    "name": "Fethiye",
+    "lat": 39.7604,
+    "lon": 27.9129,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18270"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18270"
+  },
+  {
+    "id": "PSF-005264",
+    "name": "Dagbeli North, Antalya",
+    "lat": 37.188,
+    "lon": 30.53,
+    "wind": {},
+    "sources": {
+      "pge": "18275"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18275"
+  },
+  {
+    "id": "PSF-005265",
+    "name": "Güzelce",
+    "lat": 41.0067,
+    "lon": 28.512,
+    "wind": {},
+    "sources": {
+      "pge": "18276"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18276"
+  },
+  {
+    "id": "PSF-005268",
+    "name": "Gali Tepesi, Ã‡aycuma",
+    "lat": 41.515,
+    "lon": 32.0485,
+    "wind": {},
+    "sources": {
+      "pge": "18283"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18283"
+  },
+  {
+    "id": "PSF-005272",
+    "name": "EÄŸerce SÃ¼rÃ¼cÃ¼ Tepe",
+    "lat": 40.3662,
+    "lon": 28.609,
+    "wind": {},
+    "sources": {
+      "pge": "18287"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18287"
+  },
+  {
+    "id": "PSF-005299",
+    "name": "KILIÃ‡KAYA",
+    "lat": 40.4876,
+    "lon": 30.4362,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18383"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18383"
+  },
+  {
+    "id": "PSF-005311",
+    "name": "Davraz",
+    "lat": 37.7738,
+    "lon": 30.753,
+    "wind": {},
+    "sources": {
+      "pge": "18415"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18415"
+  },
+  {
+    "id": "PSF-005337",
+    "name": "Kizilkum",
+    "lat": 41.5973,
+    "lon": 32.1267,
+    "wind": {},
+    "sources": {
+      "pge": "18511"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18511"
+  },
+  {
+    "id": "PSF-005338",
+    "name": "Suadiye Istanbul paramotor take off",
+    "lat": 40.9237,
+    "lon": 29.1218,
+    "wind": {},
+    "sources": {
+      "pge": "18512"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18512"
+  },
+  {
+    "id": "PSF-005341",
+    "name": "Kadibuku",
+    "lat": 41.1885,
+    "lon": 32.8863,
+    "wind": {},
+    "sources": {
+      "pge": "18517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18517"
+  },
+  {
+    "id": "PSF-005373",
+    "name": "Meyrik",
+    "lat": 37.3016,
+    "lon": 37.1689,
+    "wind": {},
+    "sources": {
+      "pge": "18626"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18626"
+  },
+  {
+    "id": "PSF-005381",
+    "name": "Giresun Karagol",
+    "lat": 40.5537,
+    "lon": 38.1441,
+    "wind": {},
+    "sources": {
+      "pge": "18636"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18636"
+  },
+  {
+    "id": "PSF-005383",
+    "name": "Karatepe",
+    "lat": 41.1217,
+    "lon": 27.7397,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18642"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18642"
+  },
+  {
+    "id": "PSF-005386",
+    "name": "Keltepe",
+    "lat": 40.1775,
+    "lon": 32.9211,
+    "wind": {},
+    "sources": {
+      "pge": "18645"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18645"
+  },
+  {
+    "id": "PSF-005397",
+    "name": "Gokcebag, Ayas, Ankara",
+    "lat": 40.0858,
+    "lon": 32.3459,
+    "wind": {},
+    "sources": {
+      "pge": "18662"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18662"
+  },
+  {
+    "id": "PSF-005400",
+    "name": "Silivri Falezler",
+    "lat": 41.0681,
+    "lon": 28.2511,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18666"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18666"
+  },
+  {
+    "id": "PSF-005429",
+    "name": "Ã‡atalca-Elbasan",
+    "lat": 41.1546,
+    "lon": 28.4412,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "18708"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18708"
+  },
+  {
+    "id": "PSF-005435",
+    "name": "Turnalık Yaylası",
+    "lat": 40.6599,
+    "lon": 37.9327,
+    "wind": {},
+    "sources": {
+      "pge": "18718"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18718"
+  },
+  {
+    "id": "PSF-005436",
+    "name": "Bilal hill",
+    "lat": 40.1283,
+    "lon": 35.2621,
+    "wind": {},
+    "sources": {
+      "pge": "18719"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18719"
+  },
+  {
+    "id": "PSF-005437",
+    "name": "Oyuktepe",
+    "lat": 39.4057,
+    "lon": 38.124,
+    "wind": {},
+    "sources": {
+      "pge": "18721"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18721"
+  },
+  {
+    "id": "PSF-005439",
+    "name": "Kılıçkaya, Yangın Kulesi",
+    "lat": 40.4981,
+    "lon": 30.473,
+    "wind": {},
+    "sources": {
+      "pge": "18725"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18725"
+  },
+  {
+    "id": "PSF-005567",
+    "name": "Emler zirve - AladaÄŸlar - NiÄŸde",
+    "lat": 37.8054,
+    "lon": 35.1494,
+    "wind": {},
+    "sources": {
+      "pge": "19044"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19044"
+  },
+  {
+    "id": "PSF-005600",
+    "name": "Edeler",
+    "lat": 37.4186,
+    "lon": 37.2218,
+    "wind": {},
+    "sources": {
+      "pge": "19210"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19210"
+  },
+  {
+    "id": "PSF-005624",
+    "name": "Südalan",
+    "lat": 40.4808,
+    "lon": 30.4053,
+    "wind": {
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19245"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19245"
+  },
+  {
+    "id": "PSF-005696",
+    "name": "Silivri Dogu Kumsali",
+    "lat": 41.0641,
+    "lon": 28.2806,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19356"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19356"
+  },
+  {
+    "id": "PSF-005713",
+    "name": "Aydos Tepe",
+    "lat": 40.9442,
+    "lon": 29.2502,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19383"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19383"
+  },
+  {
+    "id": "PSF-005823",
+    "name": "Matts Bowl",
+    "lat": 37.5584,
+    "lon": 27.3819,
+    "wind": {
+      "W": 1
+    },
+    "sources": {
+      "pge": "19528"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19528"
+  },
+  {
+    "id": "PSF-005928",
+    "name": "Dinamit Tepe - Pamukkale - Denizli",
+    "lat": 37.9421,
+    "lon": 29.1357,
+    "wind": {
+      "N": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19682"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19682"
+  },
+  {
+    "id": "PSF-006111",
+    "name": "Karaman Toki",
+    "lat": 37.1466,
+    "lon": 33.2525,
+    "wind": {},
+    "sources": {
+      "pge": "19979"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19979"
+  },
+  {
+    "id": "PSF-006214",
+    "name": "Perli Village, Kutahya",
+    "lat": 39.4504,
+    "lon": 30.0369,
+    "wind": {},
+    "sources": {
+      "pge": "20094"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20094"
+  },
+  {
+    "id": "PSF-006226",
+    "name": "baÅŸÃ§iftlik",
+    "lat": 40.4963,
+    "lon": 37.1234,
+    "wind": {},
+    "sources": {
+      "pge": "20107"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20107"
+  },
+  {
+    "id": "PSF-006235",
+    "name": "Sayır Çıkmazı",
+    "lat": 40.6376,
+    "lon": 36.3507,
+    "wind": {},
+    "sources": {
+      "pge": "20118"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20118"
+  },
+  {
+    "id": "PSF-006237",
+    "name": "Narven",
+    "lat": 40.6967,
+    "lon": 31.6675,
+    "wind": {},
+    "sources": {
+      "pge": "20120"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20120"
+  },
+  {
+    "id": "PSF-006291",
+    "name": "Tunc Mountain",
+    "lat": 36.8007,
+    "lon": 30.3771,
+    "wind": {},
+    "sources": {
+      "pge": "21121"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21121"
+  },
+  {
+    "id": "PSF-006607",
+    "name": "Delibaş Kuşadası",
+    "lat": 37.6862,
+    "lon": 27.2842,
+    "wind": {},
+    "sources": {
+      "pge": "21565"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21565"
+  },
+  {
+    "id": "PSF-006683",
+    "name": "Bekirdede Tepe",
+    "lat": 40.7848,
+    "lon": 27.2969,
+    "wind": {},
+    "sources": {
+      "pge": "21665"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21665"
+  },
+  {
+    "id": "PSF-006949",
+    "name": "Soğanbükü",
+    "lat": 39.6327,
+    "lon": 27.6048,
+    "wind": {},
+    "sources": {
+      "pge": "21955"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21955"
+  },
+  {
+    "id": "PSF-006950",
+    "name": "Kirazköy",
+    "lat": 39.6235,
+    "lon": 27.6195,
+    "wind": {},
+    "sources": {
+      "pge": "21956"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21956"
+  },
+  {
+    "id": "PSF-006971",
+    "name": "Namazgah",
+    "lat": 39.906,
+    "lon": 27.2727,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21984"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21984"
+  },
+  {
+    "id": "PSF-006972",
+    "name": "Seyvan",
+    "lat": 39.9291,
+    "lon": 27.2691,
+    "wind": {},
+    "sources": {
+      "pge": "21985"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21985"
+  },
+  {
+    "id": "PSF-007057",
+    "name": "Yaren",
+    "lat": 39.6824,
+    "lon": 27.635,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22086"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22086"
+  },
+  {
+    "id": "PSF-007058",
+    "name": "Çınaroba",
+    "lat": 38.6735,
+    "lon": 27.6817,
+    "wind": {},
+    "sources": {
+      "pge": "22088"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22088"
+  },
+  {
+    "id": "PSF-007059",
+    "name": "Yaylacık",
+    "lat": 39.2183,
+    "lon": 28.1677,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22089"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22089"
+  },
+  {
+    "id": "PSF-007060",
+    "name": "Mecidiye Karyagdi",
+    "lat": 39.464,
+    "lon": 28.0461,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22090"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22090"
+  },
+  {
+    "id": "PSF-007061",
+    "name": "Dorak",
+    "lat": 40.1024,
+    "lon": 28.5854,
+    "wind": {},
+    "sources": {
+      "pge": "22091"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22091"
+  },
+  {
+    "id": "PSF-007106",
+    "name": "Deregündüzlü",
+    "lat": 41.122,
+    "lon": 27.6611,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22145"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22145"
+  },
+  {
+    "id": "PSF-007236",
+    "name": "Zeytin Barajı",
+    "lat": 41.1376,
+    "lon": 34.8369,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22295"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22295"
+  },
+  {
+    "id": "PSF-007238",
+    "name": "Kargı Yaylası",
+    "lat": 41.1877,
+    "lon": 34.5177,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22299"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22299"
+  },
+  {
+    "id": "PSF-007262",
+    "name": "Trabzon Havacılık Akyazı Takeoff",
+    "lat": 41.0,
+    "lon": 39.6344,
+    "wind": {},
+    "sources": {
+      "pge": "22325"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22325"
+  },
+  {
+    "id": "PSF-007480",
+    "name": "Oguzlar Obruk Barajı",
+    "lat": 40.7216,
+    "lon": 34.6783,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22565"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22565"
+  },
+  {
+    "id": "PSF-007481",
+    "name": "Ağaççamı",
+    "lat": 40.786,
+    "lon": 34.6681,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22566"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22566"
+  },
+  {
+    "id": "PSF-007482",
+    "name": "Ağaççamı (Güney)",
+    "lat": 40.7742,
+    "lon": 34.665,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22567"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22567"
+  },
+  {
+    "id": "PSF-007483",
+    "name": "Baspinar Yaylasi",
+    "lat": 40.9148,
+    "lon": 35.0596,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22568"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22568"
+  },
+  {
+    "id": "PSF-007522",
+    "name": "Asmatepe Bayat",
+    "lat": 40.6165,
+    "lon": 34.2462,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22608"
+  },
+  {
+    "id": "PSF-007538",
+    "name": "Dedeköy",
+    "lat": 37.7501,
+    "lon": 27.6667,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22631"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22631"
+  },
+  {
+    "id": "PSF-007677",
+    "name": "Cal Dagi Yaylasi",
+    "lat": 41.0802,
+    "lon": 34.8498,
+    "wind": {},
+    "sources": {
+      "pge": "22781"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22781"
+  },
+  {
+    "id": "PSF-007859",
+    "name": "Kup tepe 720",
+    "lat": 39.5987,
+    "lon": 26.7209,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22994"
+  },
+  {
+    "id": "PSF-007860",
+    "name": "Doyran stat",
+    "lat": 39.5685,
+    "lon": 26.712,
+    "wind": {},
+    "sources": {
+      "pge": "22995"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22995"
+  },
+  {
+    "id": "PSF-007872",
+    "name": "Yaylacık Burhaniye",
+    "lat": 39.4288,
+    "lon": 27.045,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23007"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23007"
+  },
+  {
+    "id": "PSF-007873",
+    "name": "Bahadinli Landing",
+    "lat": 39.4459,
+    "lon": 27.0198,
+    "wind": {},
+    "sources": {
+      "pge": "23008"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23008"
+  },
+  {
+    "id": "PSF-007998",
+    "name": "Hisarcik Kule",
+    "lat": 40.4656,
+    "lon": 29.9297,
+    "wind": {},
+    "sources": {
+      "pge": "23143"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23143"
+  },
+  {
+    "id": "PSF-008145",
+    "name": "Ucan_Sef Durağan Olukbaşı Takeoff",
+    "lat": 41.3874,
+    "lon": 35.0153,
+    "wind": {},
+    "sources": {
+      "pge": "23300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23300"
+  },
+  {
+    "id": "PSF-008146",
+    "name": "Durağan Buzluk Umuttepe Takeoff",
+    "lat": 41.4919,
+    "lon": 35.13,
+    "wind": {},
+    "sources": {
+      "pge": "23301"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23301"
+  },
+  {
+    "id": "PSF-008158",
+    "name": "Burhaniye Taylieli",
+    "lat": 39.4608,
+    "lon": 26.9224,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23316"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23316"
+  },
+  {
+    "id": "PSF-008159",
+    "name": "Taylieli Burhaniye",
+    "lat": 39.4617,
+    "lon": 26.9264,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23317"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23317"
+  },
+  {
+    "id": "PSF-008255",
+    "name": "Paramotorturkey Take off",
+    "lat": 41.2438,
+    "lon": 28.9685,
+    "wind": {},
+    "sources": {
+      "pge": "23432"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23432"
+  },
+  {
+    "id": "PSF-008256",
+    "name": "Paramotorturkey Take off",
+    "lat": 40.8759,
+    "lon": 29.222,
+    "wind": {},
+    "sources": {
+      "pge": "23433"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23433"
+  },
+  {
+    "id": "PSF-008257",
+    "name": "Şırnak Namaz Dagi",
+    "lat": 37.5284,
+    "lon": 42.4917,
+    "wind": {},
+    "sources": {
+      "pge": "23434"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23434"
+  },
+  {
+    "id": "PSF-008259",
+    "name": "Avunduk Burhaniye",
+    "lat": 39.4116,
+    "lon": 27.041,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23438"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23438"
+  },
+  {
+    "id": "PSF-008276",
+    "name": "Dikili karadag",
+    "lat": 38.9831,
+    "lon": 26.8567,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23456"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23456"
+  },
+  {
+    "id": "PSF-008277",
+    "name": "Dikili bimeyko",
+    "lat": 38.9412,
+    "lon": 26.851,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23458"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23458"
+  },
+  {
+    "id": "PSF-008283",
+    "name": "Erdek",
+    "lat": 40.4859,
+    "lon": 27.7253,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23464"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23464"
+  },
+  {
+    "id": "PSF-008294",
+    "name": "Ladik Akdağ",
+    "lat": 40.8771,
+    "lon": 35.91,
+    "wind": {},
+    "sources": {
+      "pge": "23475"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23475"
+  },
+  {
+    "id": "PSF-008295",
+    "name": "Bafra Kapıkaya",
+    "lat": 41.3655,
+    "lon": 35.78,
+    "wind": {},
+    "sources": {
+      "pge": "23476"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23476"
+  },
+  {
+    "id": "PSF-008296",
+    "name": "Hezarfen",
+    "lat": 37.9419,
+    "lon": 29.1364,
+    "wind": {},
+    "sources": {
+      "pge": "23477"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23477"
+  },
+  {
+    "id": "PSF-008309",
+    "name": "Cintepe Takeoff",
+    "lat": 38.4281,
+    "lon": 28.5999,
+    "wind": {},
+    "sources": {
+      "pge": "23491"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23491"
+  },
+  {
+    "id": "PSF-008312",
+    "name": "üçkardeşler takeoff",
+    "lat": 41.5057,
+    "lon": 41.5606,
+    "wind": {},
+    "sources": {
+      "pge": "23494"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23494"
+  },
+  {
+    "id": "PSF-008313",
+    "name": "Cefuka Takeoof",
+    "lat": 41.4716,
+    "lon": 41.5754,
+    "wind": {},
+    "sources": {
+      "pge": "23495"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23495"
+  },
+  {
+    "id": "PSF-008360",
+    "name": "Tokça",
+    "lat": 38.1639,
+    "lon": 29.783,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23551"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23551"
+  },
+  {
+    "id": "PSF-008423",
+    "name": "Meryem Dagi",
+    "lat": 40.2151,
+    "lon": 30.089,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23620"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23620"
+  },
+  {
+    "id": "PSF-008424",
+    "name": "Kayis Dagi",
+    "lat": 40.9695,
+    "lon": 29.173,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "23621"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23621"
+  },
+  {
+    "id": "PSF-008433",
+    "name": "Gölbaşı Takeoff",
+    "lat": 37.8122,
+    "lon": 37.6463,
+    "wind": {},
+    "sources": {
+      "pge": "23633"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23633"
+  },
+  {
+    "id": "PSF-008434",
+    "name": "Sakcagozu Takeoff",
+    "lat": 37.1915,
+    "lon": 36.9726,
+    "wind": {},
+    "sources": {
+      "pge": "23634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23634"
+  },
+  {
+    "id": "PSF-008451",
+    "name": "Beydağ",
+    "lat": 38.0403,
+    "lon": 28.2359,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23654"
+  },
+  {
+    "id": "PSF-008452",
+    "name": "Karadag Zirvesi 1950",
+    "lat": 36.8506,
+    "lon": 30.4263,
+    "wind": {},
+    "sources": {
+      "pge": "23655"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23655"
+  },
+  {
+    "id": "PSF-008466",
+    "name": "Ağva",
+    "lat": 41.1255,
+    "lon": 29.8629,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23674"
+  },
+  {
+    "id": "PSF-008467",
+    "name": "ATAY TEPE",
+    "lat": 41.0382,
+    "lon": 29.2963,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "23675"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23675"
+  },
+  {
+    "id": "PSF-008483",
+    "name": "RİVA",
+    "lat": 41.2126,
+    "lon": 29.2312,
+    "wind": {},
+    "sources": {
+      "pge": "23691"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23691"
+  },
+  {
+    "id": "PSF-008718",
+    "name": "KARATAŞ HARBİŞ TAKE OFF",
+    "lat": 36.5439,
+    "lon": 35.3391,
+    "wind": {},
+    "sources": {
+      "pge": "23961"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23961"
+  },
+  {
+    "id": "PSF-008725",
+    "name": "MAGARSUS TAKEOFF",
+    "lat": 36.5451,
+    "lon": 35.3539,
+    "wind": {},
+    "sources": {
+      "pge": "23968"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23968"
+  },
+  {
+    "id": "PSF-009613",
+    "name": "Aksehir",
+    "lat": 38.3293,
+    "lon": 31.4219,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "6691"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6691"
+  },
+  {
+    "id": "PSF-009615",
+    "name": "Cokelez",
+    "lat": 37.9641,
+    "lon": 29.2549,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6693"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6693"
+  },
+  {
+    "id": "PSF-009621",
+    "name": "Ali Dag - Kayseri",
+    "lat": 38.668,
+    "lon": 35.5462,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6699"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6699"
+  },
+  {
+    "id": "PSF-009690",
+    "name": "Erzincan",
+    "lat": 39.7613,
+    "lon": 39.6034,
+    "wind": {},
+    "sources": {
+      "pge": "6792"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6792"
+  },
+  {
+    "id": "PSF-009691",
+    "name": "Ormanli",
+    "lat": 41.4076,
+    "lon": 28.4894,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "6795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6795"
+  },
+  {
+    "id": "PSF-009724",
+    "name": "Abant",
+    "lat": 40.6008,
+    "lon": 31.3191,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6835"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6835"
+  },
+  {
+    "id": "PSF-009725",
+    "name": "Bozdag (Summit)",
+    "lat": 38.325,
+    "lon": 28.101,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6837"
+  },
+  {
+    "id": "PSF-009726",
+    "name": "Imecik",
+    "lat": 36.8628,
+    "lon": 30.254,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6838"
+  },
+  {
+    "id": "PSF-009782",
+    "name": "Uzumlu",
+    "lat": 36.7558,
+    "lon": 29.2586,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6911"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6911"
+  },
+  {
+    "id": "PSF-009783",
+    "name": "Kas",
+    "lat": 36.219,
+    "lon": 29.627,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6912"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6912"
+  },
+  {
+    "id": "PSF-009784",
+    "name": "Egirdir",
+    "lat": 37.8971,
+    "lon": 30.7885,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6913"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6913"
+  },
+  {
+    "id": "PSF-009785",
+    "name": "Golbasi",
+    "lat": 39.6478,
+    "lon": 32.8493,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6914"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6914"
+  },
+  {
+    "id": "PSF-010006",
+    "name": "Babadag (Oludeniz)",
+    "lat": 36.539,
+    "lon": 29.1696,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7216"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7216"
+  },
+  {
+    "id": "PSF-010243",
+    "name": "Gursu",
+    "lat": 40.268,
+    "lon": 29.2332,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7581"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7581"
+  },
+  {
+    "id": "PSF-011393",
+    "name": "Spil Karlik",
+    "lat": 38.5667,
+    "lon": 27.4126,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9843"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9843"
+  },
+  {
+    "id": "PSF-011444",
+    "name": "Castro",
+    "lat": 41.5791,
+    "lon": 28.1516,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "9924"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9924"
+  },
+  {
+    "id": "PSF-011445",
+    "name": "Kiyikoy",
+    "lat": 41.6375,
+    "lon": 28.096,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "9925"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9925"
+  },
+  {
+    "id": "PSF-011446",
+    "name": "Sile",
+    "lat": 41.1694,
+    "lon": 29.6375,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9926"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9926"
+  },
+  {
+    "id": "PSF-011447",
+    "name": "Uçmakdere",
+    "lat": 40.8128,
+    "lon": 27.3719,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9927"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9927"
+  },
+  {
+    "id": "PSF-011448",
+    "name": "Gebze",
+    "lat": 40.777,
+    "lon": 29.5103,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9928"
+  },
+  {
+    "id": "PSF-011449",
+    "name": "Bozdag",
+    "lat": 38.303,
+    "lon": 28.0448,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9929"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9929"
+  },
+  {
+    "id": "PSF-011451",
+    "name": "Esenli",
+    "lat": 38.1707,
+    "lon": 28.141,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9931"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9931"
+  },
+  {
+    "id": "PSF-011496",
+    "name": "Serdivan Kirantepe",
+    "lat": 40.7734,
+    "lon": 30.3331,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9986"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9986"
+  },
+  {
+    "id": "PSF-011497",
+    "name": "Boztepe (Ordu)",
+    "lat": 40.9919,
+    "lon": 37.8596,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "9987"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9987"
+  },
+  {
+    "id": "PSF-011498",
+    "name": "Senyurt Mercimek Tepesi",
+    "lat": 40.3489,
+    "lon": 36.1657,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9988"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9988"
+  },
+  {
+    "id": "PSF-011499",
+    "name": "Gelincik Tepesi",
+    "lat": 36.8279,
+    "lon": 34.5157,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9990"
+  }
+]

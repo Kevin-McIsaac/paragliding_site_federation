@@ -1,0 +1,215 @@
+[
+  {
+    "id": "PSF-000141",
+    "name": "Faraya - Mzar",
+    "lat": 33.9654,
+    "lon": 35.8392,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10166"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10166"
+  },
+  {
+    "id": "PSF-000722",
+    "name": "Jbeil",
+    "lat": 34.1288,
+    "lon": 35.6426,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10851"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10851"
+  },
+  {
+    "id": "PSF-000730",
+    "name": "Dedeh",
+    "lat": 34.3866,
+    "lon": 35.7989,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10859"
+  },
+  {
+    "id": "PSF-001209",
+    "name": "The Cedars - Soaring ridge",
+    "lat": 34.245,
+    "lon": 36.0376,
+    "wind": {
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11443"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11443"
+  },
+  {
+    "id": "PSF-003286",
+    "name": "Annaya",
+    "lat": 34.1152,
+    "lon": 35.758,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14845"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14845"
+  },
+  {
+    "id": "PSF-004129",
+    "name": "EHDEN",
+    "lat": 34.2918,
+    "lon": 35.9857,
+    "wind": {},
+    "sources": {
+      "pge": "16164"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16164"
+  },
+  {
+    "id": "PSF-008542",
+    "name": "Al Minieh",
+    "lat": 34.4648,
+    "lon": 35.9037,
+    "wind": {},
+    "sources": {
+      "pge": "23760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23760"
+  },
+  {
+    "id": "PSF-011070",
+    "name": "Hammana",
+    "lat": 33.8073,
+    "lon": 35.7425,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9290"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9290"
+  },
+  {
+    "id": "PSF-011075",
+    "name": "The Cedars - Top takeoff",
+    "lat": 34.2339,
+    "lon": 36.0797,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9295"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9295"
+  },
+  {
+    "id": "PSF-011076",
+    "name": "The Cedars - Bekaa side",
+    "lat": 34.2043,
+    "lon": 36.0593,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "9296"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9296"
+  },
+  {
+    "id": "PSF-011077",
+    "name": "The Cedars - Intermediate takeoff",
+    "lat": 34.2323,
+    "lon": 36.0654,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9297"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9297"
+  },
+  {
+    "id": "PSF-011308",
+    "name": "Ghosta",
+    "lat": 33.9946,
+    "lon": 35.669,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9739"
+  },
+  {
+    "id": "PSF-011320",
+    "name": "Miziara",
+    "lat": 34.3427,
+    "lon": 35.9264,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9753"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9753"
+  },
+  {
+    "id": "PSF-011411",
+    "name": "Faraya - Wardeh",
+    "lat": 33.9912,
+    "lon": 35.8748,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9864"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9864"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "PSF-001347",
+    "name": "Morongulu beach dune",
+    "lat": -23.2329,
+    "lon": 35.4936,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11617"
+  },
+  {
+    "id": "PSF-003282",
+    "name": "Bazaruto Dune",
+    "lat": -21.7295,
+    "lon": 35.4639,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "14840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14840"
+  },
+  {
+    "id": "PSF-006797",
+    "name": "Ponta Malongane East Ridge",
+    "lat": -26.8,
+    "lon": 32.8904,
+    "wind": {},
+    "sources": {
+      "pge": "21789"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21789"
+  },
+  {
+    "id": "PSF-010153",
+    "name": "Catembe",
+    "lat": -26.0181,
+    "lon": 32.5732,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "7404"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7404"
+  }
+]

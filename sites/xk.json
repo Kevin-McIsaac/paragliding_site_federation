@@ -1,0 +1,14 @@
+[
+  {
+    "id": "PSF-007171",
+    "name": "Cvilen North",
+    "lat": 42.1733,
+    "lon": 20.7432,
+    "wind": {},
+    "sources": {
+      "pge": "22226"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22226"
+  }
+]

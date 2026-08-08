@@ -1,0 +1,243 @@
+[
+  {
+    "id": "PSF-002581",
+    "name": "Bukovik",
+    "lat": 41.7818,
+    "lon": 22.9333,
+    "wind": {},
+    "sources": {
+      "pge": "13779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13779"
+  },
+  {
+    "id": "PSF-003422",
+    "name": "Chuka",
+    "lat": 41.0045,
+    "lon": 21.1097,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15068"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15068"
+  },
+  {
+    "id": "PSF-005944",
+    "name": "Bogoslovec",
+    "lat": 41.7672,
+    "lon": 22.0158,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19702"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19702"
+  },
+  {
+    "id": "PSF-007553",
+    "name": "Mavrovo",
+    "lat": 41.6502,
+    "lon": 20.7162,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "22647"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22647"
+  },
+  {
+    "id": "PSF-007554",
+    "name": "Struga",
+    "lat": 41.1646,
+    "lon": 20.586,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22648"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22648"
+  },
+  {
+    "id": "PSF-007830",
+    "name": "Treskavec",
+    "lat": 41.3995,
+    "lon": 21.5346,
+    "wind": {},
+    "sources": {
+      "pge": "22965"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22965"
+  },
+  {
+    "id": "PSF-007948",
+    "name": "Skopje - Vodno",
+    "lat": 41.9654,
+    "lon": 21.3911,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23091"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23091"
+  },
+  {
+    "id": "PSF-007949",
+    "name": "Cegrane",
+    "lat": 41.825,
+    "lon": 20.9931,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23092"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23092"
+  },
+  {
+    "id": "PSF-010025",
+    "name": "Krusevo",
+    "lat": 41.3432,
+    "lon": 21.2569,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7239"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7239"
+  },
+  {
+    "id": "PSF-010026",
+    "name": "Ohrid",
+    "lat": 40.9546,
+    "lon": 20.8124,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7240"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7240"
+  },
+  {
+    "id": "PSF-010081",
+    "name": "Skopska Crna Gora",
+    "lat": 42.1686,
+    "lon": 21.4761,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7315"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7315"
+  },
+  {
+    "id": "PSF-010082",
+    "name": "Ajvatovci",
+    "lat": 42.0052,
+    "lon": 21.6109,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "7316"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7316"
+  },
+  {
+    "id": "PSF-010083",
+    "name": "Popova Shapka",
+    "lat": 42.0078,
+    "lon": 20.8961,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "7317"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7317"
+  },
+  {
+    "id": "PSF-010084",
+    "name": "Ribnik",
+    "lat": 41.4036,
+    "lon": 21.4241,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7318"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7318"
+  },
+  {
+    "id": "PSF-010085",
+    "name": "Sliva",
+    "lat": 41.2495,
+    "lon": 21.5843,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7319"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7319"
+  }
+]

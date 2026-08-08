@@ -1,0 +1,30 @@
+[
+  {
+    "id": "PSF-003269",
+    "name": "sealine",
+    "lat": 24.804,
+    "lon": 51.4777,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "14820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14820"
+  },
+  {
+    "id": "PSF-004771",
+    "name": "Quick sand",
+    "lat": 24.7582,
+    "lon": 51.4725,
+    "wind": {},
+    "sources": {
+      "pge": "17313"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17313"
+  }
+]

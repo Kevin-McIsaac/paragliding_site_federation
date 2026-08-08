@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PSF-000764",
+    "name": "College Savannah",
+    "lat": 13.1824,
+    "lon": -59.458,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10897"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10897"
+  },
+  {
+    "id": "PSF-000765",
+    "name": "Mount Pleasant",
+    "lat": 13.16,
+    "lon": -59.4707,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10898"
+  }
+]

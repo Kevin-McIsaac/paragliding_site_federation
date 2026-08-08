@@ -1,0 +1,99 @@
+[
+  {
+    "id": "PSF-000142",
+    "name": "Taldy",
+    "lat": 50.393,
+    "lon": 79.7826,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10169"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10169"
+  },
+  {
+    "id": "PSF-002921",
+    "name": "Kosmostanciya",
+    "lat": 43.0437,
+    "lon": 76.9318,
+    "wind": {},
+    "sources": {
+      "pge": "14316"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14316"
+  },
+  {
+    "id": "PSF-003475",
+    "name": "Tekeli",
+    "lat": 44.8381,
+    "lon": 78.6839,
+    "wind": {},
+    "sources": {
+      "pge": "15158"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15158"
+  },
+  {
+    "id": "PSF-004605",
+    "name": "31km",
+    "lat": 43.1511,
+    "lon": 76.6498,
+    "wind": {},
+    "sources": {
+      "pge": "16989"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16989"
+  },
+  {
+    "id": "PSF-006626",
+    "name": "Gory Karatau",
+    "lat": 42.7094,
+    "lon": 71.0918,
+    "wind": {},
+    "sources": {
+      "pge": "21594"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21594"
+  },
+  {
+    "id": "PSF-008274",
+    "name": "Kokterek",
+    "lat": 49.1172,
+    "lon": 84.5472,
+    "wind": {},
+    "sources": {
+      "pge": "23453"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23453"
+  },
+  {
+    "id": "PSF-011334",
+    "name": "Ush Konyr",
+    "lat": 43.1269,
+    "lon": 76.4653,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9773"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9773"
+  }
+]

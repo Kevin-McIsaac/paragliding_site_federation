@@ -1,0 +1,246 @@
+[
+  {
+    "id": "PSF-006744",
+    "name": "Oua Koué",
+    "lat": -21.5988,
+    "lon": 165.378,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21733"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21733"
+  },
+  {
+    "id": "PSF-006815",
+    "name": "Mont Tonta",
+    "lat": -21.9348,
+    "lon": 166.25,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21807"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21807"
+  },
+  {
+    "id": "PSF-006816",
+    "name": "Kendu beach cliff",
+    "lat": -22.2622,
+    "lon": 166.389,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21808"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21808"
+  },
+  {
+    "id": "PSF-006817",
+    "name": "Bouraké",
+    "lat": -21.9145,
+    "lon": 165.975,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21809"
+  },
+  {
+    "id": "PSF-006818",
+    "name": "Leprédour",
+    "lat": -21.9817,
+    "lon": 165.997,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "21810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21810"
+  },
+  {
+    "id": "PSF-006819",
+    "name": "ga Wivaék",
+    "lat": -20.6924,
+    "lon": 164.96,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "21811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21811"
+  },
+  {
+    "id": "PSF-006820",
+    "name": "Ouano",
+    "lat": -21.8705,
+    "lon": 165.822,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "21812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21812"
+  },
+  {
+    "id": "PSF-009757",
+    "name": "Ouen Toro",
+    "lat": -22.3077,
+    "lon": 166.458,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6881"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6881"
+  },
+  {
+    "id": "PSF-009758",
+    "name": "Dzumac",
+    "lat": -22.1102,
+    "lon": 166.447,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6882"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6882"
+  },
+  {
+    "id": "PSF-009759",
+    "name": "Kuendu Beach",
+    "lat": -22.2607,
+    "lon": 166.399,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6883"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6883"
+  },
+  {
+    "id": "PSF-009760",
+    "name": "Mont Dore",
+    "lat": -22.2802,
+    "lon": 166.602,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6884"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6884"
+  },
+  {
+    "id": "PSF-009761",
+    "name": "Gadji",
+    "lat": -22.1988,
+    "lon": 166.354,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "6885"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6885"
+  },
+  {
+    "id": "PSF-009762",
+    "name": "Ga Kaleon",
+    "lat": -20.6885,
+    "lon": 164.939,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6886"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6886"
+  },
+  {
+    "id": "PSF-009763",
+    "name": "La Roche Percee",
+    "lat": -21.6064,
+    "lon": 165.456,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6887"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6887"
+  },
+  {
+    "id": "PSF-009794",
+    "name": "Barendeu",
+    "lat": -21.4544,
+    "lon": 165.368,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6925"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6925"
+  }
+]

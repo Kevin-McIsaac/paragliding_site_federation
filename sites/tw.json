@@ -1,0 +1,859 @@
+[
+  {
+    "id": "PSF-000194",
+    "name": "Wai Ao, To Cheung",
+    "lat": 24.8848,
+    "lon": 121.842,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10233"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10233"
+  },
+  {
+    "id": "PSF-000195",
+    "name": "ming li",
+    "lat": 23.7058,
+    "lon": 121.393,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10234"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10234"
+  },
+  {
+    "id": "PSF-000196",
+    "name": "Ji Chi",
+    "lat": 23.6984,
+    "lon": 121.54,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10235"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10235"
+  },
+  {
+    "id": "PSF-000619",
+    "name": "Big Bird N",
+    "lat": 22.3738,
+    "lon": 120.902,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10728"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10728"
+  },
+  {
+    "id": "PSF-000628",
+    "name": "Xr To San",
+    "lat": 22.238,
+    "lon": 120.674,
+    "wind": {
+      "N": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10737"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10737"
+  },
+  {
+    "id": "PSF-000631",
+    "name": "FS  station",
+    "lat": 22.2738,
+    "lon": 120.668,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10741"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10741"
+  },
+  {
+    "id": "PSF-000647",
+    "name": "wu bai",
+    "lat": 22.4007,
+    "lon": 120.907,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10758"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10758"
+  },
+  {
+    "id": "PSF-000649",
+    "name": "taimali 1",
+    "lat": 22.6213,
+    "lon": 120.976,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10760"
+  },
+  {
+    "id": "PSF-000653",
+    "name": "fang san xi",
+    "lat": 22.2755,
+    "lon": 120.661,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10764"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10764"
+  },
+  {
+    "id": "PSF-000656",
+    "name": "Bigfoot",
+    "lat": 22.6492,
+    "lon": 120.969,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10767"
+  },
+  {
+    "id": "PSF-000704",
+    "name": "big bird South",
+    "lat": 22.3725,
+    "lon": 120.902,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10828"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10828"
+  },
+  {
+    "id": "PSF-000842",
+    "name": "Big Bird  East",
+    "lat": 22.3735,
+    "lon": 120.902,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10993"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10993"
+  },
+  {
+    "id": "PSF-000906",
+    "name": "ping pu tso san",
+    "lat": 22.3247,
+    "lon": 120.649,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11067"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11067"
+  },
+  {
+    "id": "PSF-000939",
+    "name": "jindzen, dong huh",
+    "lat": 22.9435,
+    "lon": 121.279,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "11103"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11103"
+  },
+  {
+    "id": "PSF-000940",
+    "name": "dulan 1, the finger",
+    "lat": 22.8614,
+    "lon": 121.19,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11104"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11104"
+  },
+  {
+    "id": "PSF-000941",
+    "name": "Dulan 2 N elbow",
+    "lat": 22.8675,
+    "lon": 121.185,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11105"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11105"
+  },
+  {
+    "id": "PSF-000942",
+    "name": "Jin Loon 1000",
+    "lat": 22.5725,
+    "lon": 120.942,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11106"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11106"
+  },
+  {
+    "id": "PSF-000943",
+    "name": "jindzen san S point",
+    "lat": 22.6111,
+    "lon": 120.982,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "11107"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11107"
+  },
+  {
+    "id": "PSF-000944",
+    "name": "Li Jya",
+    "lat": 22.7907,
+    "lon": 121.053,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11108"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11108"
+  },
+  {
+    "id": "PSF-000945",
+    "name": "Stop and drop",
+    "lat": 22.3894,
+    "lon": 120.916,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11109"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11109"
+  },
+  {
+    "id": "PSF-001032",
+    "name": "Xr Dze X",
+    "lat": 22.2756,
+    "lon": 120.662,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11215"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11215"
+  },
+  {
+    "id": "PSF-001045",
+    "name": "wu jin",
+    "lat": 22.5148,
+    "lon": 120.942,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11231"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11231"
+  },
+  {
+    "id": "PSF-001047",
+    "name": "60 egg mtn",
+    "lat": 23.2221,
+    "lon": 121.317,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11234"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11234"
+  },
+  {
+    "id": "PSF-001048",
+    "name": "jr bun",
+    "lat": 22.6766,
+    "lon": 121.007,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "11235"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11235"
+  },
+  {
+    "id": "PSF-001057",
+    "name": "yeh kwang san",
+    "lat": 22.9669,
+    "lon": 120.577,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11246"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11246"
+  },
+  {
+    "id": "PSF-001059",
+    "name": "Duo Liang",
+    "lat": 22.5083,
+    "lon": 120.954,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11250"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11250"
+  },
+  {
+    "id": "PSF-001064",
+    "name": "Fang San station",
+    "lat": 22.2687,
+    "lon": 120.665,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "11257"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11257"
+  },
+  {
+    "id": "PSF-001081",
+    "name": "nan xr",
+    "lat": 22.3174,
+    "lon": 120.65,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11285"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11285"
+  },
+  {
+    "id": "PSF-002101",
+    "name": "I-Lan 61K",
+    "lat": 24.8564,
+    "lon": 121.791,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "12983"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12983"
+  },
+  {
+    "id": "PSF-002302",
+    "name": "Wood Mountain",
+    "lat": 24.6898,
+    "lon": 121.113,
+    "wind": {},
+    "sources": {
+      "pge": "13298"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13298"
+  },
+  {
+    "id": "PSF-003064",
+    "name": "taimali 250",
+    "lat": 22.6172,
+    "lon": 120.994,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "14492"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14492"
+  },
+  {
+    "id": "PSF-004063",
+    "name": "grasslands Hsu hai",
+    "lat": 22.2052,
+    "lon": 120.89,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "16085"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16085"
+  },
+  {
+    "id": "PSF-004073",
+    "name": "Hsu Hai North",
+    "lat": 22.2055,
+    "lon": 120.888,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16097"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16097"
+  },
+  {
+    "id": "PSF-004469",
+    "name": "Hunag Di",
+    "lat": 22.9415,
+    "lon": 120.548,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16747"
+  },
+  {
+    "id": "PSF-004473",
+    "name": "lion  mtn",
+    "lat": 22.9804,
+    "lon": 120.572,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16751"
+  },
+  {
+    "id": "PSF-004474",
+    "name": "lion north",
+    "lat": 22.9819,
+    "lon": 120.575,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16752"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16752"
+  },
+  {
+    "id": "PSF-004581",
+    "name": "Road 26 - East",
+    "lat": 22.27,
+    "lon": 120.889,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "16953"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16953"
+  },
+  {
+    "id": "PSF-004652",
+    "name": "Nei Xr",
+    "lat": 22.3003,
+    "lon": 120.651,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17079"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17079"
+  },
+  {
+    "id": "PSF-004653",
+    "name": "nei shr",
+    "lat": 22.3003,
+    "lon": 120.651,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17080"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17080"
+  },
+  {
+    "id": "PSF-004655",
+    "name": "pingway",
+    "lat": 22.3,
+    "lon": 120.651,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17082"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17082"
+  },
+  {
+    "id": "PSF-004658",
+    "name": "Dapu",
+    "lat": 23.2928,
+    "lon": 120.602,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17087"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17087"
+  },
+  {
+    "id": "PSF-004806",
+    "name": "Cha Ding",
+    "lat": 22.9074,
+    "lon": 120.596,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17395"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17395"
+  },
+  {
+    "id": "PSF-005062",
+    "name": "eagle's nest",
+    "lat": 22.5747,
+    "lon": 120.649,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17830"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17830"
+  },
+  {
+    "id": "PSF-007739",
+    "name": "Xiulin",
+    "lat": 24.1447,
+    "lon": 121.662,
+    "wind": {},
+    "sources": {
+      "pge": "22862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22862"
+  },
+  {
+    "id": "PSF-009788",
+    "name": "Saijia",
+    "lat": 22.7533,
+    "lon": 120.647,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6919"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6919"
+  },
+  {
+    "id": "PSF-010144",
+    "name": "Hu To San, Tigerhead Mtn",
+    "lat": 23.9636,
+    "lon": 120.989,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7394"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7394"
+  },
+  {
+    "id": "PSF-010150",
+    "name": "Lu Yeh, Gao Tai",
+    "lat": 22.9127,
+    "lon": 121.12,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7401"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7401"
+  },
+  {
+    "id": "PSF-010151",
+    "name": "Taiping San",
+    "lat": 22.9284,
+    "lon": 121.1,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7402"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7402"
+  },
+  {
+    "id": "PSF-010154",
+    "name": "Wan Li",
+    "lat": 25.1818,
+    "lon": 121.684,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7405"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7405"
+  },
+  {
+    "id": "PSF-010155",
+    "name": "Puli old",
+    "lat": 23.9664,
+    "lon": 120.99,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7406"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7406"
+  }
+]

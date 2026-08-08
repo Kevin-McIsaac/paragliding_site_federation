@@ -1,0 +1,17 @@
+[
+  {
+    "id": "PSF-005909",
+    "name": "Gangan Kiria",
+    "lat": 10.0652,
+    "lon": -12.8887,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "19651"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19651"
+  }
+]

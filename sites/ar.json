@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "PSF-000736",
+    "name": "Mar del Plata acantilados",
+    "lat": -38.1198,
+    "lon": -57.5944,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10867"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10867"
+  },
+  {
+    "id": "PSF-000737",
+    "name": "Playa Varesse",
+    "lat": -38.0147,
+    "lon": -57.5316,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10868"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10868"
+  },
+  {
+    "id": "PSF-000816",
+    "name": "LA SIERRA",
+    "lat": -34.17,
+    "lon": -59.02,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10958"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10958"
+  },
+  {
+    "id": "PSF-000817",
+    "name": "ARECO FLY",
+    "lat": -34.1814,
+    "lon": -59.5014,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10959"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10959"
+  },
+  {
+    "id": "PSF-000820",
+    "name": "Concepcion",
+    "lat": -27.34,
+    "lon": -65.59,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10962"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10962"
+  },
+  {
+    "id": "PSF-000821",
+    "name": "Sierra de la Ventana",
+    "lat": -38.08,
+    "lon": -61.97,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10963"
+  },
+  {
+    "id": "PSF-000822",
+    "name": "Toay",
+    "lat": -36.71,
+    "lon": -64.43,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10964"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10964"
+  },
+  {
+    "id": "PSF-000823",
+    "name": "Parada Leis",
+    "lat": -27.61,
+    "lon": -55.91,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10965"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10965"
+  },
+  {
+    "id": "PSF-000824",
+    "name": "Tafi del Valle",
+    "lat": -26.85,
+    "lon": -65.67,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10966"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10966"
+  },
+  {
+    "id": "PSF-001033",
+    "name": "Playa Larga",
+    "lat": -54.8026,
+    "lon": -68.2221,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11216"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11216"
+  },
+  {
+    "id": "PSF-001133",
+    "name": "Pan de Azucar",
+    "lat": -31.2382,
+    "lon": -64.4203,
+    "wind": {
+      "N": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11354"
+  },
+  {
+    "id": "PSF-001173",
+    "name": "Leon Colgado",
+    "lat": -33.1957,
+    "lon": -66.2691,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11401"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11401"
+  },
+  {
+    "id": "PSF-001456",
+    "name": "Nina Paula",
+    "lat": -31.7389,
+    "lon": -64.9206,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11805"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11805"
+  },
+  {
+    "id": "PSF-001502",
+    "name": "Ruta 193 Km 20",
+    "lat": -34.2117,
+    "lon": -59.1808,
+    "wind": {
+      "NE": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11884"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11884"
+  },
+  {
+    "id": "PSF-001676",
+    "name": "Cerro de la cruz",
+    "lat": -29.4215,
+    "lon": -66.935,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "12184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12184"
+  },
+  {
+    "id": "PSF-003262",
+    "name": "SkyTour.com.ar",
+    "lat": -32.8397,
+    "lon": -68.9334,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14812"
+  },
+  {
+    "id": "PSF-003265",
+    "name": "San Jorge",
+    "lat": -31.3188,
+    "lon": -64.3511,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "14815"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14815"
+  },
+  {
+    "id": "PSF-003842",
+    "name": "Cerro Otto",
+    "lat": -41.1442,
+    "lon": -71.3763,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15762"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15762"
+  },
+  {
+    "id": "PSF-003843",
+    "name": "Gemelas",
+    "lat": -30.8782,
+    "lon": -64.491,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15770"
+  },
+  {
+    "id": "PSF-003844",
+    "name": "Despegue SAT",
+    "lat": -32.3686,
+    "lon": -64.9475,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15772"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15772"
+  },
+  {
+    "id": "PSF-004755",
+    "name": "Pliegue Tumbado",
+    "lat": -49.3548,
+    "lon": -72.9608,
+    "wind": {},
+    "sources": {
+      "pge": "17285"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17285"
+  },
+  {
+    "id": "PSF-004917",
+    "name": "Cerro de los Cristales",
+    "lat": -50.5659,
+    "lon": -72.7814,
+    "wind": {},
+    "sources": {
+      "pge": "17546"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17546"
+  },
+  {
+    "id": "PSF-005661",
+    "name": "Los Pinos",
+    "lat": -26.8156,
+    "lon": -65.3642,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "19307"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19307"
+  },
+  {
+    "id": "PSF-005855",
+    "name": "Playa Santa Isabel",
+    "lat": -43.414,
+    "lon": -65.0703,
+    "wind": {
+      "E": 1,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19567"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19567"
+  },
+  {
+    "id": "PSF-005864",
+    "name": "Rada Tilly",
+    "lat": -45.946,
+    "lon": -67.5591,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "19579"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19579"
+  },
+  {
+    "id": "PSF-005921",
+    "name": "Playa Paraná",
+    "lat": -42.793,
+    "lon": -64.9499,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "19671"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19671"
+  },
+  {
+    "id": "PSF-005955",
+    "name": "Pampa Fly",
+    "lat": -35.0956,
+    "lon": -58.0844,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19716"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19716"
+  },
+  {
+    "id": "PSF-005991",
+    "name": "Punta Peligro",
+    "lat": -46.0137,
+    "lon": -67.5993,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "19758"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19758"
+  },
+  {
+    "id": "PSF-005992",
+    "name": "Punta Peligro Sur",
+    "lat": -46.0229,
+    "lon": -67.5913,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19759"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19759"
+  },
+  {
+    "id": "PSF-005993",
+    "name": "La Grulla",
+    "lat": -46.694,
+    "lon": -67.178,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "19760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19760"
+  },
+  {
+    "id": "PSF-006072",
+    "name": "Laishi",
+    "lat": -26.3544,
+    "lon": -58.4235,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "19856"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19856"
+  },
+  {
+    "id": "PSF-006073",
+    "name": "Luciano Gauchito",
+    "lat": -27.4068,
+    "lon": -58.5523,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19857"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19857"
+  },
+  {
+    "id": "PSF-006074",
+    "name": "San Luis del Palmar",
+    "lat": -27.5636,
+    "lon": -58.504,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19858"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19858"
+  },
+  {
+    "id": "PSF-006097",
+    "name": "Meiling",
+    "lat": -41.1766,
+    "lon": -71.8159,
+    "wind": {},
+    "sources": {
+      "pge": "19963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19963"
+  },
+  {
+    "id": "PSF-006105",
+    "name": "Camino Negro",
+    "lat": -37.6012,
+    "lon": -59.4963,
+    "wind": {},
+    "sources": {
+      "pge": "19972"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19972"
+  },
+  {
+    "id": "PSF-006108",
+    "name": "Paso del Cordoba",
+    "lat": -40.5983,
+    "lon": -71.1312,
+    "wind": {},
+    "sources": {
+      "pge": "19975"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19975"
+  },
+  {
+    "id": "PSF-006181",
+    "name": "Cerro Montura",
+    "lat": -38.0314,
+    "lon": -62.0872,
+    "wind": {},
+    "sources": {
+      "pge": "20054"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20054"
+  },
+  {
+    "id": "PSF-006247",
+    "name": "Nogoli-San Luis",
+    "lat": -33.0448,
+    "lon": -66.1563,
+    "wind": {},
+    "sources": {
+      "pge": "20132"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20132"
+  },
+  {
+    "id": "PSF-006565",
+    "name": "Paso Córdova",
+    "lat": -39.1349,
+    "lon": -67.5951,
+    "wind": {},
+    "sources": {
+      "pge": "21521"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21521"
+  },
+  {
+    "id": "PSF-006566",
+    "name": "Mangrullo",
+    "lat": -38.5279,
+    "lon": -69.4929,
+    "wind": {},
+    "sources": {
+      "pge": "21522"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21522"
+  },
+  {
+    "id": "PSF-006567",
+    "name": "Balneario El Cóndor",
+    "lat": -41.0678,
+    "lon": -62.8601,
+    "wind": {},
+    "sources": {
+      "pge": "21523"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21523"
+  },
+  {
+    "id": "PSF-006568",
+    "name": "Bahía Creek",
+    "lat": -41.0832,
+    "lon": -63.9348,
+    "wind": {},
+    "sources": {
+      "pge": "21524"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21524"
+  },
+  {
+    "id": "PSF-006569",
+    "name": "Caviahue",
+    "lat": -37.9005,
+    "lon": -70.9691,
+    "wind": {},
+    "sources": {
+      "pge": "21525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21525"
+  },
+  {
+    "id": "PSF-006610",
+    "name": "Despegue Arnold",
+    "lat": -33.113,
+    "lon": -61.0054,
+    "wind": {},
+    "sources": {
+      "pge": "21568"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21568"
+  },
+  {
+    "id": "PSF-006729",
+    "name": "Cordon del tigre",
+    "lat": -38.2107,
+    "lon": -61.5334,
+    "wind": {},
+    "sources": {
+      "pge": "21715"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21715"
+  },
+  {
+    "id": "PSF-006825",
+    "name": "Cerro Chapelco Chico",
+    "lat": -40.1613,
+    "lon": -71.2753,
+    "wind": {},
+    "sources": {
+      "pge": "21819"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21819"
+  },
+  {
+    "id": "PSF-006849",
+    "name": "Tres Marías (Ullum Dam)",
+    "lat": -31.4812,
+    "lon": -68.6562,
+    "wind": {},
+    "sources": {
+      "pge": "21847"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21847"
+  },
+  {
+    "id": "PSF-007291",
+    "name": "Villa Pehuenia",
+    "lat": -38.8141,
+    "lon": -71.1979,
+    "wind": {},
+    "sources": {
+      "pge": "22358"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22358"
+  },
+  {
+    "id": "PSF-007316",
+    "name": "Cerro Elefante",
+    "lat": -24.7282,
+    "lon": -65.5139,
+    "wind": {},
+    "sources": {
+      "pge": "22384"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22384"
+  },
+  {
+    "id": "PSF-007560",
+    "name": "Añelo",
+    "lat": -38.3509,
+    "lon": -68.8663,
+    "wind": {},
+    "sources": {
+      "pge": "22654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22654"
+  },
+  {
+    "id": "PSF-007869",
+    "name": "Club Argentino de Aladelta /Flyranch Bs As",
+    "lat": -34.6431,
+    "lon": -59.4565,
+    "wind": {},
+    "sources": {
+      "pge": "23004"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23004"
+  },
+  {
+    "id": "PSF-007875",
+    "name": "SFMO",
+    "lat": -32.7163,
+    "lon": -66.1591,
+    "wind": {},
+    "sources": {
+      "pge": "23011"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23011"
+  },
+  {
+    "id": "PSF-007913",
+    "name": "4CamimosBaradero",
+    "lat": -33.9366,
+    "lon": -59.5661,
+    "wind": {},
+    "sources": {
+      "pge": "23053"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23053"
+  },
+  {
+    "id": "PSF-007914",
+    "name": "4Caminos Oeste",
+    "lat": -33.921,
+    "lon": -59.5862,
+    "wind": {},
+    "sources": {
+      "pge": "23054"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23054"
+  },
+  {
+    "id": "PSF-007915",
+    "name": "4Caminos Norte",
+    "lat": -33.9165,
+    "lon": -59.5552,
+    "wind": {},
+    "sources": {
+      "pge": "23055"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23055"
+  },
+  {
+    "id": "PSF-007916",
+    "name": "4Caminos Este",
+    "lat": -33.9413,
+    "lon": -59.5599,
+    "wind": {},
+    "sources": {
+      "pge": "23056"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23056"
+  },
+  {
+    "id": "PSF-008000",
+    "name": "Cacchiporra",
+    "lat": -50.3075,
+    "lon": -71.7785,
+    "wind": {},
+    "sources": {
+      "pge": "23145"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23145"
+  },
+  {
+    "id": "PSF-008001",
+    "name": "Cerro Moyano",
+    "lat": -50.4484,
+    "lon": -72.3912,
+    "wind": {},
+    "sources": {
+      "pge": "23146"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23146"
+  },
+  {
+    "id": "PSF-008002",
+    "name": "Los Alamos",
+    "lat": -49.5275,
+    "lon": -72.3443,
+    "wind": {},
+    "sources": {
+      "pge": "23147"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23147"
+  },
+  {
+    "id": "PSF-008003",
+    "name": "Cerro Polo",
+    "lat": -49.2548,
+    "lon": -72.9274,
+    "wind": {},
+    "sources": {
+      "pge": "23148"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23148"
+  },
+  {
+    "id": "PSF-008051",
+    "name": "Club Asociacion Parapentes Junin",
+    "lat": -34.6556,
+    "lon": -61.0423,
+    "wind": {},
+    "sources": {
+      "pge": "23199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23199"
+  },
+  {
+    "id": "PSF-008053",
+    "name": "Parapentes Junin",
+    "lat": -34.6554,
+    "lon": -61.0432,
+    "wind": {},
+    "sources": {
+      "pge": "23201"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23201"
+  },
+  {
+    "id": "PSF-008100",
+    "name": "Airlider Paramotor",
+    "lat": -35.0482,
+    "lon": -58.1524,
+    "wind": {},
+    "sources": {
+      "pge": "23250"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23250"
+  },
+  {
+    "id": "PSF-008124",
+    "name": "Aeroclub Las Varillas",
+    "lat": -31.8898,
+    "lon": -62.707,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23279"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23279"
+  },
+  {
+    "id": "PSF-008672",
+    "name": "Cerro Largo",
+    "lat": -36.9156,
+    "lon": -60.153,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23913"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23913"
+  },
+  {
+    "id": "PSF-008723",
+    "name": "Berazategui",
+    "lat": -34.7604,
+    "lon": -58.176,
+    "wind": {},
+    "sources": {
+      "pge": "23966"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23966"
+  },
+  {
+    "id": "PSF-009412",
+    "name": "Loma Bola",
+    "lat": -26.8226,
+    "lon": -65.3691,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "6180"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6180"
+  },
+  {
+    "id": "PSF-009528",
+    "name": "El mirador de los condores",
+    "lat": -32.4051,
+    "lon": -64.9335,
+    "wind": {
+      "N": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6588"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6588"
+  },
+  {
+    "id": "PSF-009704",
+    "name": "Cuchi Corral",
+    "lat": -30.9671,
+    "lon": -64.5847,
+    "wind": {
+      "N": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6811"
+  },
+  {
+    "id": "PSF-009719",
+    "name": "Cerro Arco (Mendoza)",
+    "lat": -32.8397,
+    "lon": -68.9336,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6830"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6830"
+  },
+  {
+    "id": "PSF-009727",
+    "name": "Piedra del Condor",
+    "lat": -41.1553,
+    "lon": -71.4676,
+    "wind": {},
+    "sources": {
+      "pge": "6840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6840"
+  },
+  {
+    "id": "PSF-010017",
+    "name": "El Bolson",
+    "lat": -41.973,
+    "lon": -71.479,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7228"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7228"
+  },
+  {
+    "id": "PSF-010239",
+    "name": "Merlo",
+    "lat": -32.4053,
+    "lon": -64.9337,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7557"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7557"
+  }
+]

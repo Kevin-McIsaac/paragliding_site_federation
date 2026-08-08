@@ -1,0 +1,230 @@
+[
+  {
+    "id": "PSF-006928",
+    "name": "Ambohimiangara",
+    "lat": -19.0036,
+    "lon": 46.8636,
+    "wind": {},
+    "sources": {
+      "pge": "21929"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21929"
+  },
+  {
+    "id": "PSF-006929",
+    "name": "Saint Augustin",
+    "lat": -23.542,
+    "lon": 43.7519,
+    "wind": {},
+    "sources": {
+      "pge": "21930"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21930"
+  },
+  {
+    "id": "PSF-006930",
+    "name": "Ambatondranijay",
+    "lat": -18.9779,
+    "lon": 46.6985,
+    "wind": {},
+    "sources": {
+      "pge": "21931"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21931"
+  },
+  {
+    "id": "PSF-007694",
+    "name": "Ambohitromby",
+    "lat": -18.4527,
+    "lon": 47.1619,
+    "wind": {},
+    "sources": {
+      "pge": "22799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22799"
+  },
+  {
+    "id": "PSF-007695",
+    "name": "Amborokely 1",
+    "lat": -17.9503,
+    "lon": 47.1209,
+    "wind": {},
+    "sources": {
+      "pge": "22800"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22800"
+  },
+  {
+    "id": "PSF-007696",
+    "name": "Amborokely 2",
+    "lat": -17.9256,
+    "lon": 47.1094,
+    "wind": {},
+    "sources": {
+      "pge": "22801"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22801"
+  },
+  {
+    "id": "PSF-007697",
+    "name": "Ankazobe Soaring East",
+    "lat": -18.2804,
+    "lon": 47.1426,
+    "wind": {},
+    "sources": {
+      "pge": "22802"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22802"
+  },
+  {
+    "id": "PSF-007698",
+    "name": "Ambohimanambola",
+    "lat": -18.9746,
+    "lon": 47.612,
+    "wind": {},
+    "sources": {
+      "pge": "22803"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22803"
+  },
+  {
+    "id": "PSF-007699",
+    "name": "Alasora",
+    "lat": -18.9627,
+    "lon": 47.5915,
+    "wind": {},
+    "sources": {
+      "pge": "22804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22804"
+  },
+  {
+    "id": "PSF-007700",
+    "name": "Inflating spot",
+    "lat": -18.8796,
+    "lon": 47.6168,
+    "wind": {},
+    "sources": {
+      "pge": "22805"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22805"
+  },
+  {
+    "id": "PSF-007701",
+    "name": "Ambohimanambola West",
+    "lat": -18.9304,
+    "lon": 47.6247,
+    "wind": {},
+    "sources": {
+      "pge": "22806"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22806"
+  },
+  {
+    "id": "PSF-007702",
+    "name": "Ambohimanambola West",
+    "lat": -18.9304,
+    "lon": 47.6247,
+    "wind": {},
+    "sources": {
+      "pge": "22807"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22807"
+  },
+  {
+    "id": "PSF-007703",
+    "name": "Ambondrona",
+    "lat": -13.3687,
+    "lon": 48.2112,
+    "wind": {},
+    "sources": {
+      "pge": "22808"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22808"
+  },
+  {
+    "id": "PSF-007704",
+    "name": "Andilana",
+    "lat": -13.2886,
+    "lon": 48.2077,
+    "wind": {},
+    "sources": {
+      "pge": "22809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22809"
+  },
+  {
+    "id": "PSF-007705",
+    "name": "Rocher du Farihy",
+    "lat": -19.0843,
+    "lon": 46.7379,
+    "wind": {},
+    "sources": {
+      "pge": "22810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22810"
+  },
+  {
+    "id": "PSF-007706",
+    "name": "Route de Faratsio",
+    "lat": -19.274,
+    "lon": 46.7901,
+    "wind": {},
+    "sources": {
+      "pge": "22811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22811"
+  },
+  {
+    "id": "PSF-007707",
+    "name": "Topy",
+    "lat": -19.0566,
+    "lon": 46.7127,
+    "wind": {},
+    "sources": {
+      "pge": "22812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22812"
+  },
+  {
+    "id": "PSF-007708",
+    "name": "Pente ecole Analavory",
+    "lat": -18.9587,
+    "lon": 46.6944,
+    "wind": {},
+    "sources": {
+      "pge": "22813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22813"
+  },
+  {
+    "id": "PSF-007709",
+    "name": "Caméléon",
+    "lat": -22.0976,
+    "lon": 46.7865,
+    "wind": {},
+    "sources": {
+      "pge": "22814"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22814"
+  }
+]

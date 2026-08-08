@@ -1,0 +1,103 @@
+[
+  {
+    "id": "PSF-005206",
+    "name": "Rutovu",
+    "lat": -3.9091,
+    "lon": 29.8462,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "18113"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18113"
+  },
+  {
+    "id": "PSF-005207",
+    "name": "Mutumba",
+    "lat": -3.6127,
+    "lon": 29.371,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18114"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18114"
+  },
+  {
+    "id": "PSF-005208",
+    "name": "Kabezi",
+    "lat": -3.5032,
+    "lon": 29.349,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18115"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18115"
+  },
+  {
+    "id": "PSF-005360",
+    "name": "Rutovu - Ouest",
+    "lat": -3.94495,
+    "lon": 29.8687,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18608"
+  },
+  {
+    "id": "PSF-005361",
+    "name": "Banga",
+    "lat": -3.1073,
+    "lon": 29.6073,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "18609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18609"
+  },
+  {
+    "id": "PSF-005362",
+    "name": "Kabezi 2",
+    "lat": -3.5097,
+    "lon": 29.3951,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18610"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18610"
+  }
+]

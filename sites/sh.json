@@ -1,0 +1,17 @@
+[
+  {
+    "id": "PSF-007731",
+    "name": "St Paul's",
+    "lat": -15.9721,
+    "lon": -5.72645,
+    "wind": {
+      "N": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "22850"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22850"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "PSF-005365",
+    "name": "Cheoc-Van Beach",
+    "lat": 22.1164,
+    "lon": 113.561,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18613"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18613"
+  }
+]

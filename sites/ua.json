@@ -1,0 +1,1927 @@
+[
+  {
+    "id": "PSF-000357",
+    "name": "Shelenkov school",
+    "lat": 45.0182,
+    "lon": 35.2368,
+    "wind": {},
+    "sources": {
+      "pge": "10408"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10408"
+  },
+  {
+    "id": "PSF-000377",
+    "name": "Kashpero-Nikolaevka",
+    "lat": 47.3624,
+    "lon": 32.2027,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10432"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10432"
+  },
+  {
+    "id": "PSF-000378",
+    "name": "Kozirka",
+    "lat": 46.8001,
+    "lon": 31.8757,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10433"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10433"
+  },
+  {
+    "id": "PSF-000379",
+    "name": "Ochakov",
+    "lat": 46.6443,
+    "lon": 31.596,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10434"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10434"
+  },
+  {
+    "id": "PSF-000380",
+    "name": "Luparevo",
+    "lat": 46.6306,
+    "lon": 32.0231,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10435"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10435"
+  },
+  {
+    "id": "PSF-000381",
+    "name": "Morskoe",
+    "lat": 46.6111,
+    "lon": 31.2626,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10436"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10436"
+  },
+  {
+    "id": "PSF-000382",
+    "name": "Ribakovka",
+    "lat": 46.61,
+    "lon": 31.3053,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10437"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10437"
+  },
+  {
+    "id": "PSF-000383",
+    "name": "Voznesensk",
+    "lat": 47.5291,
+    "lon": 31.1859,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10438"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10438"
+  },
+  {
+    "id": "PSF-000384",
+    "name": "Koblevo",
+    "lat": 46.6296,
+    "lon": 31.2273,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10439"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10439"
+  },
+  {
+    "id": "PSF-000385",
+    "name": "Kapustino",
+    "lat": 47.1139,
+    "lon": 32.032,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10440"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10440"
+  },
+  {
+    "id": "PSF-000386",
+    "name": "Chernomorka",
+    "lat": 46.6273,
+    "lon": 31.4634,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10441"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10441"
+  },
+  {
+    "id": "PSF-000387",
+    "name": "Dneprovskoe",
+    "lat": 46.6348,
+    "lon": 31.8769,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10442"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10442"
+  },
+  {
+    "id": "PSF-000388",
+    "name": "Katalino",
+    "lat": 46.7799,
+    "lon": 31.871,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "10443"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10443"
+  },
+  {
+    "id": "PSF-000525",
+    "name": "Ivanovka",
+    "lat": 46.6452,
+    "lon": 31.6783,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10610"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10610"
+  },
+  {
+    "id": "PSF-000526",
+    "name": "Stanislav",
+    "lat": 46.5722,
+    "lon": 32.1315,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10611"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10611"
+  },
+  {
+    "id": "PSF-000527",
+    "name": "Konstantinovka",
+    "lat": 47.0956,
+    "lon": 31.9131,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10612"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10612"
+  },
+  {
+    "id": "PSF-000528",
+    "name": "Solyanie",
+    "lat": 47.0081,
+    "lon": 31.9882,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10613"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10613"
+  },
+  {
+    "id": "PSF-000529",
+    "name": "Neftebaza",
+    "lat": 46.9291,
+    "lon": 32.0242,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10614"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10614"
+  },
+  {
+    "id": "PSF-000543",
+    "name": "Verkhnesadovoe",
+    "lat": 44.695,
+    "lon": 33.7368,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10633"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10633"
+  },
+  {
+    "id": "PSF-000547",
+    "name": "Strogonovka",
+    "lat": 44.9529,
+    "lon": 34.1927,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10639"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10639"
+  },
+  {
+    "id": "PSF-000658",
+    "name": "Agarmysh",
+    "lat": 45.0404,
+    "lon": 35.056,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10771"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10771"
+  },
+  {
+    "id": "PSF-001171",
+    "name": "Aromatnoe",
+    "lat": 44.8245,
+    "lon": 33.8987,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11399"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11399"
+  },
+  {
+    "id": "PSF-001194",
+    "name": "Cherkasskaya Lozovaya",
+    "lat": 50.1125,
+    "lon": 36.2467,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11427"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11427"
+  },
+  {
+    "id": "PSF-001226",
+    "name": "Halich-Buruk",
+    "lat": 45.0086,
+    "lon": 34.6431,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "11463"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11463"
+  },
+  {
+    "id": "PSF-001451",
+    "name": "Aylyanma-Kai",
+    "lat": 45.0942,
+    "lon": 34.6838,
+    "wind": {},
+    "sources": {
+      "pge": "11787"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11787"
+  },
+  {
+    "id": "PSF-001503",
+    "name": "Towing Voskodavy",
+    "lat": 50.6487,
+    "lon": 26.6782,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11887"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11887"
+  },
+  {
+    "id": "PSF-001754",
+    "name": "Dovjik",
+    "lat": 50.1965,
+    "lon": 35.8765,
+    "wind": {},
+    "sources": {
+      "pge": "12329"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12329"
+  },
+  {
+    "id": "PSF-001779",
+    "name": "Stonehenge",
+    "lat": 50.1253,
+    "lon": 36.0557,
+    "wind": {},
+    "sources": {
+      "pge": "12369"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12369"
+  },
+  {
+    "id": "PSF-001950",
+    "name": "Bliznica",
+    "lat": 48.2165,
+    "lon": 24.2342,
+    "wind": {},
+    "sources": {
+      "pge": "12718"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12718"
+  },
+  {
+    "id": "PSF-001951",
+    "name": "Lukvycja",
+    "lat": 48.7426,
+    "lon": 24.239,
+    "wind": {},
+    "sources": {
+      "pge": "12719"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12719"
+  },
+  {
+    "id": "PSF-001952",
+    "name": "Apetska mount",
+    "lat": 48.1804,
+    "lon": 23.9961,
+    "wind": {},
+    "sources": {
+      "pge": "12720"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12720"
+  },
+  {
+    "id": "PSF-001953",
+    "name": "Kornin",
+    "lat": 50.5568,
+    "lon": 26.3222,
+    "wind": {},
+    "sources": {
+      "pge": "12721"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12721"
+  },
+  {
+    "id": "PSF-001954",
+    "name": "Turn to Motovilovksa",
+    "lat": 50.158,
+    "lon": 30.2118,
+    "wind": {},
+    "sources": {
+      "pge": "12722"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12722"
+  },
+  {
+    "id": "PSF-001955",
+    "name": "Lozovay",
+    "lat": 48.8528,
+    "lon": 36.3786,
+    "wind": {},
+    "sources": {
+      "pge": "12723"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12723"
+  },
+  {
+    "id": "PSF-002040",
+    "name": "Velyka Krucha",
+    "lat": 50.1533,
+    "lon": 32.5247,
+    "wind": {},
+    "sources": {
+      "pge": "12879"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12879"
+  },
+  {
+    "id": "PSF-002193",
+    "name": "Gimba mnt.",
+    "lat": 48.6351,
+    "lon": 23.2683,
+    "wind": {},
+    "sources": {
+      "pge": "13134"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13134"
+  },
+  {
+    "id": "PSF-002194",
+    "name": "Pyzhivka",
+    "lat": 48.5893,
+    "lon": 27.1696,
+    "wind": {},
+    "sources": {
+      "pge": "13135"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13135"
+  },
+  {
+    "id": "PSF-002195",
+    "name": "Otrokiv",
+    "lat": 48.8099,
+    "lon": 27.1091,
+    "wind": {},
+    "sources": {
+      "pge": "13136"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13136"
+  },
+  {
+    "id": "PSF-002269",
+    "name": "Stufchyntsi",
+    "lat": 49.4831,
+    "lon": 27.1401,
+    "wind": {},
+    "sources": {
+      "pge": "13234"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13234"
+  },
+  {
+    "id": "PSF-002436",
+    "name": "Fasova",
+    "lat": 50.3607,
+    "lon": 29.7248,
+    "wind": {},
+    "sources": {
+      "pge": "13517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13517"
+  },
+  {
+    "id": "PSF-002492",
+    "name": "Fasova (NE)",
+    "lat": 50.3506,
+    "lon": 29.7743,
+    "wind": {},
+    "sources": {
+      "pge": "13612"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13612"
+  },
+  {
+    "id": "PSF-002725",
+    "name": "Karachun",
+    "lat": 48.8241,
+    "lon": 37.5196,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "13993"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13993"
+  },
+  {
+    "id": "PSF-002777",
+    "name": "Trostyan mnt.",
+    "lat": 48.8556,
+    "lon": 23.393,
+    "wind": {},
+    "sources": {
+      "pge": "14079"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14079"
+  },
+  {
+    "id": "PSF-002791",
+    "name": "Karachun",
+    "lat": 50.052,
+    "lon": 36.2722,
+    "wind": {},
+    "sources": {
+      "pge": "14103"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14103"
+  },
+  {
+    "id": "PSF-002792",
+    "name": "Travyanskoe",
+    "lat": 50.2557,
+    "lon": 36.3865,
+    "wind": {},
+    "sources": {
+      "pge": "14104"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14104"
+  },
+  {
+    "id": "PSF-003203",
+    "name": "Byshev",
+    "lat": 50.243,
+    "lon": 29.8594,
+    "wind": {},
+    "sources": {
+      "pge": "14738"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14738"
+  },
+  {
+    "id": "PSF-003214",
+    "name": "Halich-Buruk2",
+    "lat": 45.0162,
+    "lon": 34.6281,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "14755"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14755"
+  },
+  {
+    "id": "PSF-003287",
+    "name": "Hodosiyevka mountain",
+    "lat": 50.2613,
+    "lon": 30.5294,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14846"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14846"
+  },
+  {
+    "id": "PSF-003319",
+    "name": "Dovjik",
+    "lat": 50.1773,
+    "lon": 35.8423,
+    "wind": {},
+    "sources": {
+      "pge": "14892"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14892"
+  },
+  {
+    "id": "PSF-003472",
+    "name": "Osoevka",
+    "lat": 50.8518,
+    "lon": 35.1845,
+    "wind": {},
+    "sources": {
+      "pge": "15155"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15155"
+  },
+  {
+    "id": "PSF-003473",
+    "name": "Berdichev",
+    "lat": 49.8803,
+    "lon": 28.4962,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15156"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15156"
+  },
+  {
+    "id": "PSF-003474",
+    "name": "Bezruki",
+    "lat": 50.1962,
+    "lon": 36.0872,
+    "wind": {},
+    "sources": {
+      "pge": "15157"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15157"
+  },
+  {
+    "id": "PSF-003477",
+    "name": "Krasnopolie",
+    "lat": 50.7439,
+    "lon": 35.2069,
+    "wind": {},
+    "sources": {
+      "pge": "15160"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15160"
+  },
+  {
+    "id": "PSF-003478",
+    "name": "Borkaya",
+    "lat": 45.0963,
+    "lon": 34.9199,
+    "wind": {},
+    "sources": {
+      "pge": "15162"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15162"
+  },
+  {
+    "id": "PSF-003524",
+    "name": "Gimba mnt.",
+    "lat": 48.6019,
+    "lon": 23.3037,
+    "wind": {},
+    "sources": {
+      "pge": "15231"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15231"
+  },
+  {
+    "id": "PSF-003568",
+    "name": "Kuyalnik",
+    "lat": 46.5829,
+    "lon": 30.7162,
+    "wind": {},
+    "sources": {
+      "pge": "15305"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15305"
+  },
+  {
+    "id": "PSF-003569",
+    "name": "Lisovi Grinivtsy",
+    "lat": 49.4917,
+    "lon": 26.9863,
+    "wind": {},
+    "sources": {
+      "pge": "15306"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15306"
+  },
+  {
+    "id": "PSF-003646",
+    "name": "Stig - Dragobrat",
+    "lat": 48.2491,
+    "lon": 24.2243,
+    "wind": {},
+    "sources": {
+      "pge": "15441"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15441"
+  },
+  {
+    "id": "PSF-003647",
+    "name": "nord takeOFF",
+    "lat": 44.5378,
+    "lon": 34.099,
+    "wind": {},
+    "sources": {
+      "pge": "15442"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15442"
+  },
+  {
+    "id": "PSF-003692",
+    "name": "Vetrovka (Fasova)",
+    "lat": 50.3054,
+    "lon": 29.8213,
+    "wind": {},
+    "sources": {
+      "pge": "15515"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15515"
+  },
+  {
+    "id": "PSF-004021",
+    "name": "cape Meganom",
+    "lat": 44.8062,
+    "lon": 35.0739,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16027"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16027"
+  },
+  {
+    "id": "PSF-004062",
+    "name": "Zolochiv",
+    "lat": 49.8125,
+    "lon": 24.917,
+    "wind": {},
+    "sources": {
+      "pge": "16083"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16083"
+  },
+  {
+    "id": "PSF-004074",
+    "name": "PG brizz",
+    "lat": 46.8364,
+    "lon": 36.9394,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "16098"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16098"
+  },
+  {
+    "id": "PSF-004445",
+    "name": "Blahodatnoe",
+    "lat": 47.8961,
+    "lon": 38.5222,
+    "wind": {
+      "N": 2,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16707"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16707"
+  },
+  {
+    "id": "PSF-004447",
+    "name": "Sladkoe",
+    "lat": 47.7896,
+    "lon": 37.4139,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16709"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16709"
+  },
+  {
+    "id": "PSF-004448",
+    "name": "Mospine",
+    "lat": 47.9068,
+    "lon": 38.0539,
+    "wind": {
+      "E": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "16710"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16710"
+  },
+  {
+    "id": "PSF-004608",
+    "name": "Pikuj",
+    "lat": 48.8742,
+    "lon": 22.9691,
+    "wind": {},
+    "sources": {
+      "pge": "16994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16994"
+  },
+  {
+    "id": "PSF-004678",
+    "name": "Spasskoe",
+    "lat": 48.6553,
+    "lon": 35.0209,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "17118"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17118"
+  },
+  {
+    "id": "PSF-004859",
+    "name": "Malaya Volcha",
+    "lat": 50.3762,
+    "lon": 37.2952,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17471"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17471"
+  },
+  {
+    "id": "PSF-005194",
+    "name": "Kreminne",
+    "lat": 48.4779,
+    "lon": 27.6035,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18101"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18101"
+  },
+  {
+    "id": "PSF-005204",
+    "name": "Kozliv",
+    "lat": 48.4972,
+    "lon": 27.5136,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "18111"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18111"
+  },
+  {
+    "id": "PSF-005224",
+    "name": "Tsupivka",
+    "lat": 50.2595,
+    "lon": 36.1526,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "18169"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18169"
+  },
+  {
+    "id": "PSF-005459",
+    "name": "Nadbugskoe",
+    "lat": 47.0012,
+    "lon": 31.8593,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "18780"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18780"
+  },
+  {
+    "id": "PSF-005537",
+    "name": "Hudlevo",
+    "lat": 48.5987,
+    "lon": 22.4965,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18873"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18873"
+  },
+  {
+    "id": "PSF-005539",
+    "name": "Shopki",
+    "lat": 49.7397,
+    "lon": 24.5203,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18875"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18875"
+  },
+  {
+    "id": "PSF-005540",
+    "name": "Lagodiv",
+    "lat": 49.7246,
+    "lon": 24.4978,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18876"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18876"
+  },
+  {
+    "id": "PSF-005783",
+    "name": "Balovnoe",
+    "lat": 47.0629,
+    "lon": 31.8982,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19467"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19467"
+  },
+  {
+    "id": "PSF-005784",
+    "name": "Konstantinovka 2",
+    "lat": 47.1074,
+    "lon": 31.9023,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19468"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19468"
+  },
+  {
+    "id": "PSF-005829",
+    "name": "Luhoviki (uncle Tolya's North)",
+    "lat": 50.2562,
+    "lon": 32.7953,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "19534"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19534"
+  },
+  {
+    "id": "PSF-005870",
+    "name": "Kremenets (Sokolyna Gora)",
+    "lat": 50.0619,
+    "lon": 25.6362,
+    "wind": {},
+    "sources": {
+      "pge": "19589"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19589"
+  },
+  {
+    "id": "PSF-005872",
+    "name": "Roksolany",
+    "lat": 46.159,
+    "lon": 30.4821,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19592"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19592"
+  },
+  {
+    "id": "PSF-005898",
+    "name": "Sursko-Mikhailovka",
+    "lat": 48.269,
+    "lon": 34.6998,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "19629"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19629"
+  },
+  {
+    "id": "PSF-005899",
+    "name": "Mlinok",
+    "lat": 48.8705,
+    "lon": 33.6446,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19630"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19630"
+  },
+  {
+    "id": "PSF-005930",
+    "name": "Kapulovka",
+    "lat": 47.5324,
+    "lon": 34.2131,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19687"
+  },
+  {
+    "id": "PSF-005959",
+    "name": "Zmeinka",
+    "lat": 44.8499,
+    "lon": 34.0535,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19720"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19720"
+  },
+  {
+    "id": "PSF-005960",
+    "name": "Laspi",
+    "lat": 44.4286,
+    "lon": 33.7109,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19721"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19721"
+  },
+  {
+    "id": "PSF-005961",
+    "name": "Fiolent SE-SEE",
+    "lat": 44.5056,
+    "lon": 33.4964,
+    "wind": {
+      "E": 1,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19722"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19722"
+  },
+  {
+    "id": "PSF-005962",
+    "name": "Fiolent SSW-S-SSE - English please!!",
+    "lat": 44.5064,
+    "lon": 33.5029,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19723"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19723"
+  },
+  {
+    "id": "PSF-005963",
+    "name": "Pozharskoe",
+    "lat": 44.9227,
+    "lon": 33.8708,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "19724"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19724"
+  },
+  {
+    "id": "PSF-005966",
+    "name": "Irita-Kaya",
+    "lat": 44.5341,
+    "lon": 33.8863,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "19727"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19727"
+  },
+  {
+    "id": "PSF-005970",
+    "name": "Mangup",
+    "lat": 44.5907,
+    "lon": 33.8056,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "19733"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19733"
+  },
+  {
+    "id": "PSF-006493",
+    "name": "Klemuha",
+    "lat": 45.0125,
+    "lon": 35.2448,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21441"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21441"
+  },
+  {
+    "id": "PSF-006494",
+    "name": "Nord Side",
+    "lat": 44.6372,
+    "lon": 33.5242,
+    "wind": {},
+    "sources": {
+      "pge": "21442"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21442"
+  },
+  {
+    "id": "PSF-006761",
+    "name": "Bukhta Koktebel’ Pograntsy",
+    "lat": 44.9698,
+    "lon": 35.2757,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "21751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21751"
+  },
+  {
+    "id": "PSF-006916",
+    "name": "Tas-Tao (Mramornoe)",
+    "lat": 44.8305,
+    "lon": 34.2817,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21916"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21916"
+  },
+  {
+    "id": "PSF-006917",
+    "name": "Kalendy-Bair (Podgornoe)",
+    "lat": 44.4389,
+    "lon": 33.8308,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21917"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21917"
+  },
+  {
+    "id": "PSF-007264",
+    "name": "Vinogradovo Chorna Gora",
+    "lat": 48.1383,
+    "lon": 23.0767,
+    "wind": {},
+    "sources": {
+      "pge": "22327"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22327"
+  },
+  {
+    "id": "PSF-007621",
+    "name": "novograd",
+    "lat": 50.5471,
+    "lon": 27.6231,
+    "wind": {},
+    "sources": {
+      "pge": "22721"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22721"
+  },
+  {
+    "id": "PSF-007692",
+    "name": "Kuybishevo (Kullu-Kaja)",
+    "lat": 44.6497,
+    "lon": 33.8583,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "22797"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22797"
+  },
+  {
+    "id": "PSF-010074",
+    "name": "Kiev paragliding club",
+    "lat": 50.2611,
+    "lon": 30.529,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7307"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7307"
+  },
+  {
+    "id": "PSF-010148",
+    "name": "Foros",
+    "lat": 44.4073,
+    "lon": 33.802,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7399"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7399"
+  },
+  {
+    "id": "PSF-010689",
+    "name": "Polonina Rivna",
+    "lat": 48.8005,
+    "lon": 22.8121,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "8273"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8273"
+  },
+  {
+    "id": "PSF-010690",
+    "name": "Polonina Borzhava",
+    "lat": 48.6472,
+    "lon": 23.2299,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "8274"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=8274"
+  },
+  {
+    "id": "PSF-011460",
+    "name": "Khodoseevka",
+    "lat": 50.2613,
+    "lon": 30.53,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9940"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9940"
+  },
+  {
+    "id": "PSF-011461",
+    "name": "Fasovaya",
+    "lat": 50.2221,
+    "lon": 29.482,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9941"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9941"
+  },
+  {
+    "id": "PSF-011462",
+    "name": "Beregovoe",
+    "lat": 44.9179,
+    "lon": 33.6139,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9945"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9945"
+  },
+  {
+    "id": "PSF-011463",
+    "name": "Druzhnoe",
+    "lat": 45.9182,
+    "lon": 34.3117,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9946"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9946"
+  },
+  {
+    "id": "PSF-011464",
+    "name": "Kacha",
+    "lat": 44.7636,
+    "lon": 33.5422,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "9947"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9947"
+  },
+  {
+    "id": "PSF-011465",
+    "name": "Oboronnoe",
+    "lat": 44.5052,
+    "lon": 33.648,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9948"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9948"
+  },
+  {
+    "id": "PSF-011466",
+    "name": "Bakota",
+    "lat": 48.6084,
+    "lon": 26.9564,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9952"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9952"
+  },
+  {
+    "id": "PSF-011467",
+    "name": "Ivane Zolote",
+    "lat": 48.7153,
+    "lon": 25.6519,
+    "wind": {},
+    "sources": {
+      "pge": "9953"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9953"
+  },
+  {
+    "id": "PSF-011468",
+    "name": "Zalischyky Klimuha",
+    "lat": 48.6792,
+    "lon": 25.771,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9954"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9954"
+  },
+  {
+    "id": "PSF-011469",
+    "name": "Veseloe",
+    "lat": 44.8223,
+    "lon": 34.8694,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9955"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9955"
+  },
+  {
+    "id": "PSF-011470",
+    "name": "Nagoriani",
+    "lat": 48.4923,
+    "lon": 27.6035,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "9956"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9956"
+  },
+  {
+    "id": "PSF-011471",
+    "name": "Leninskoe",
+    "lat": 51.4347,
+    "lon": 33.3375,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "9957"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9957"
+  },
+  {
+    "id": "PSF-011472",
+    "name": "Chervonyi Kut",
+    "lat": 47.4083,
+    "lon": 30.45,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "9958"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9958"
+  },
+  {
+    "id": "PSF-011473",
+    "name": "Kalinovka",
+    "lat": 46.8959,
+    "lon": 31.0062,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9959"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9959"
+  },
+  {
+    "id": "PSF-011474",
+    "name": "Tash-Djorgan",
+    "lat": 44.857,
+    "lon": 34.0797,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9961"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9961"
+  },
+  {
+    "id": "PSF-011475",
+    "name": "Ternovka",
+    "lat": 44.6,
+    "lon": 33.7208,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9962"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9962"
+  },
+  {
+    "id": "PSF-011476",
+    "name": "Deleva",
+    "lat": 48.9102,
+    "lon": 25.2071,
+    "wind": {},
+    "sources": {
+      "pge": "9963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9963"
+  },
+  {
+    "id": "PSF-011477",
+    "name": "Demshin",
+    "lat": 48.6478,
+    "lon": 26.802,
+    "wind": {},
+    "sources": {
+      "pge": "9964"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9964"
+  },
+  {
+    "id": "PSF-011478",
+    "name": "Khresty",
+    "lat": 48.6798,
+    "lon": 25.6172,
+    "wind": {},
+    "sources": {
+      "pge": "9965"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9965"
+  },
+  {
+    "id": "PSF-011479",
+    "name": "Kostryjivka",
+    "lat": 48.6309,
+    "lon": 25.7312,
+    "wind": {},
+    "sources": {
+      "pge": "9966"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9966"
+  },
+  {
+    "id": "PSF-011480",
+    "name": "Nejin",
+    "lat": 51.0642,
+    "lon": 31.9247,
+    "wind": {},
+    "sources": {
+      "pge": "9967"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9967"
+  },
+  {
+    "id": "PSF-011481",
+    "name": "Odayiv",
+    "lat": 48.8607,
+    "lon": 25.1587,
+    "wind": {},
+    "sources": {
+      "pge": "9968"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9968"
+  },
+  {
+    "id": "PSF-011482",
+    "name": "Odessa",
+    "lat": 46.47,
+    "lon": 30.7,
+    "wind": {},
+    "sources": {
+      "pge": "9969"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9969"
+  },
+  {
+    "id": "PSF-011483",
+    "name": "VelikiyVerh",
+    "lat": 48.6333,
+    "lon": 23.2167,
+    "wind": {},
+    "sources": {
+      "pge": "9972"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9972"
+  },
+  {
+    "id": "PSF-011484",
+    "name": "Agarmish",
+    "lat": 45.0526,
+    "lon": 35.0781,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9973"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9973"
+  },
+  {
+    "id": "PSF-011485",
+    "name": "Borkaya",
+    "lat": 45.0542,
+    "lon": 34.9467,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9974"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9974"
+  },
+  {
+    "id": "PSF-011486",
+    "name": "Demerdzhi",
+    "lat": 44.7496,
+    "lon": 34.4135,
+    "wind": {
+      "SE": 2,
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9976"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9976"
+  },
+  {
+    "id": "PSF-011487",
+    "name": "Tihaya buhta",
+    "lat": 44.9708,
+    "lon": 35.3084,
+    "wind": {},
+    "sources": {
+      "pge": "9977"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9977"
+  },
+  {
+    "id": "PSF-011488",
+    "name": "Rybachye",
+    "lat": 44.774,
+    "lon": 34.6064,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9978"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9978"
+  }
+]

@@ -1,0 +1,3704 @@
+[
+  {
+    "id": "PSF-000008",
+    "name": "Cabeco da Neve - Caramulo",
+    "lat": 40.5527,
+    "lon": -8.1798,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10011"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10011"
+  },
+  {
+    "id": "PSF-000012",
+    "name": "Chao da Lagoa",
+    "lat": 32.7064,
+    "lon": -16.9141,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10015"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10015"
+  },
+  {
+    "id": "PSF-000014",
+    "name": "Barrosa, Lagoa - Sao Miguel",
+    "lat": 37.753,
+    "lon": -25.4923,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10017"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10017"
+  },
+  {
+    "id": "PSF-000017",
+    "name": "Falesia Stª. Barbara, Ribeira Grande, Sao Miguel",
+    "lat": 37.8177,
+    "lon": -25.5439,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10020"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10020"
+  },
+  {
+    "id": "PSF-000018",
+    "name": "Monte Verde, Falesia da Ribeira Grande - Sao Miguel",
+    "lat": 37.8215,
+    "lon": -25.5283,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10021"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10021"
+  },
+  {
+    "id": "PSF-000019",
+    "name": "Pico das Freiras, Ribeira Grande - Sao Miguel",
+    "lat": 37.801,
+    "lon": -25.6505,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10022"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10022"
+  },
+  {
+    "id": "PSF-000020",
+    "name": "Monte Escuro, Ribeira Grande - Sao Miguel",
+    "lat": 37.7913,
+    "lon": -25.4275,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10023"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10023"
+  },
+  {
+    "id": "PSF-000021",
+    "name": "Miradouro, Vila Franca do Campo - Sao Miguel",
+    "lat": 37.7427,
+    "lon": -25.4384,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "10024"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10024"
+  },
+  {
+    "id": "PSF-000022",
+    "name": "Sra da Paz, Vila Franca do Campo - Sao Miguel",
+    "lat": 37.7282,
+    "lon": -25.431,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10025"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10025"
+  },
+  {
+    "id": "PSF-000023",
+    "name": "Faial da Terra, Sao Miguel",
+    "lat": 37.7426,
+    "lon": -25.2024,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10026"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10026"
+  },
+  {
+    "id": "PSF-000024",
+    "name": "Salto do Cavalo, Furnas- Sao Miguel",
+    "lat": 37.7921,
+    "lon": -25.3055,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10027"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10027"
+  },
+  {
+    "id": "PSF-000025",
+    "name": "Planalto dos Graminais, Povoacao - Sao Miguel",
+    "lat": 37.7979,
+    "lon": -25.2754,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10028"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10028"
+  },
+  {
+    "id": "PSF-000042",
+    "name": "Bica da Cana",
+    "lat": 32.7652,
+    "lon": -17.0654,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10054"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10054"
+  },
+  {
+    "id": "PSF-000043",
+    "name": "Pico da Cruz",
+    "lat": 32.6421,
+    "lon": -16.9396,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10055"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10055"
+  },
+  {
+    "id": "PSF-000044",
+    "name": "Rabacal (Madeira)",
+    "lat": 32.7521,
+    "lon": -17.1315,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10056"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10056"
+  },
+  {
+    "id": "PSF-000045",
+    "name": "Fanal",
+    "lat": 32.8108,
+    "lon": -17.1402,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10057"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10057"
+  },
+  {
+    "id": "PSF-000046",
+    "name": "Canhas",
+    "lat": 32.7029,
+    "lon": -17.1261,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10058"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10058"
+  },
+  {
+    "id": "PSF-000115",
+    "name": "Arco da Calheta",
+    "lat": 32.7082,
+    "lon": -17.1415,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10138"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10138"
+  },
+  {
+    "id": "PSF-000116",
+    "name": "Prazeres",
+    "lat": 32.7494,
+    "lon": -17.2122,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10139"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10139"
+  },
+  {
+    "id": "PSF-000117",
+    "name": "Faja da Ovelha",
+    "lat": 32.7708,
+    "lon": -17.2342,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10140"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10140"
+  },
+  {
+    "id": "PSF-000118",
+    "name": "Raposeira",
+    "lat": 32.7667,
+    "lon": -17.2254,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10141"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10141"
+  },
+  {
+    "id": "PSF-000119",
+    "name": "Paul da Serra Cristo Rei",
+    "lat": 32.7349,
+    "lon": -17.0983,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10142"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10142"
+  },
+  {
+    "id": "PSF-000120",
+    "name": "Paul da Serra Juncal",
+    "lat": 32.7424,
+    "lon": -17.1004,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10143"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10143"
+  },
+  {
+    "id": "PSF-000121",
+    "name": "Pico Gordo",
+    "lat": 32.7654,
+    "lon": -17.1493,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10144"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10144"
+  },
+  {
+    "id": "PSF-000122",
+    "name": "Ponta do Pargo Casa de Cha",
+    "lat": 32.8082,
+    "lon": -17.2558,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10145"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10145"
+  },
+  {
+    "id": "PSF-000123",
+    "name": "Ponta do Pargo Capela",
+    "lat": 32.8251,
+    "lon": -17.2455,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10146"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10146"
+  },
+  {
+    "id": "PSF-000124",
+    "name": "Paul da Serra",
+    "lat": 32.7531,
+    "lon": -17.0989,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10147"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10147"
+  },
+  {
+    "id": "PSF-000127",
+    "name": "Porto da Cruz - Lamaceiros (Madeira)",
+    "lat": 32.7455,
+    "lon": -16.8363,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10151"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10151"
+  },
+  {
+    "id": "PSF-000128",
+    "name": "Ponta da Cruz (Funchal)",
+    "lat": 32.6354,
+    "lon": -16.9473,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10152"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10152"
+  },
+  {
+    "id": "PSF-000213",
+    "name": "Loule - Cerro de Cabeco de Camara",
+    "lat": 37.1131,
+    "lon": -8.0618,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10252"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10252"
+  },
+  {
+    "id": "PSF-000246",
+    "name": "Praia da Cordoama",
+    "lat": 37.1058,
+    "lon": -8.93851,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10286"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10286"
+  },
+  {
+    "id": "PSF-000252",
+    "name": "Foia",
+    "lat": 37.3159,
+    "lon": -8.5971,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10293"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10293"
+  },
+  {
+    "id": "PSF-000253",
+    "name": "Benafatima",
+    "lat": 37.3696,
+    "lon": -8.43583,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10294"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10294"
+  },
+  {
+    "id": "PSF-000561",
+    "name": "Alcaria Ruiva",
+    "lat": 37.7005,
+    "lon": -7.7623,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10657"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10657"
+  },
+  {
+    "id": "PSF-000566",
+    "name": "poco da cruz",
+    "lat": 40.4875,
+    "lon": -8.7934,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10662"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10662"
+  },
+  {
+    "id": "PSF-000613",
+    "name": "Arco da Calheta - Rochao",
+    "lat": 32.7263,
+    "lon": -17.1348,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10720"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10720"
+  },
+  {
+    "id": "PSF-000623",
+    "name": "salvador NE",
+    "lat": 40.092,
+    "lon": -7.0838,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10732"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10732"
+  },
+  {
+    "id": "PSF-000852",
+    "name": "Gomide",
+    "lat": 41.7248,
+    "lon": -8.3794,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11005"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11005"
+  },
+  {
+    "id": "PSF-000875",
+    "name": "foios",
+    "lat": 40.2586,
+    "lon": -6.8858,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11031"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11031"
+  },
+  {
+    "id": "PSF-000894",
+    "name": "Baião Teste",
+    "lat": 41.17,
+    "lon": -8.046,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11055"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11055"
+  },
+  {
+    "id": "PSF-000895",
+    "name": "baião teste",
+    "lat": 41.1711,
+    "lon": -8.0454,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11056"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11056"
+  },
+  {
+    "id": "PSF-000918",
+    "name": "Nazare",
+    "lat": 39.6046,
+    "lon": -9.0787,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11079"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11079"
+  },
+  {
+    "id": "PSF-001499",
+    "name": "venda da cruz",
+    "lat": 39.96,
+    "lon": -8.63345,
+    "wind": {},
+    "sources": {
+      "pge": "11876"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11876"
+  },
+  {
+    "id": "PSF-001521",
+    "name": "GALA FIG FOZ",
+    "lat": 40.1162,
+    "lon": -8.8664,
+    "wind": {},
+    "sources": {
+      "pge": "11913"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11913"
+  },
+  {
+    "id": "PSF-001523",
+    "name": "Sizandro",
+    "lat": 39.081,
+    "lon": -9.41685,
+    "wind": {},
+    "sources": {
+      "pge": "11916"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11916"
+  },
+  {
+    "id": "PSF-001530",
+    "name": "Falésia das Feteiras",
+    "lat": 37.7859,
+    "lon": -25.7683,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11941"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11941"
+  },
+  {
+    "id": "PSF-001540",
+    "name": "Freita",
+    "lat": 40.8849,
+    "lon": -8.2611,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11958"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11958"
+  },
+  {
+    "id": "PSF-001559",
+    "name": "Cerro Cabeço Camara - Loulé",
+    "lat": 37.1001,
+    "lon": -7.83302,
+    "wind": {},
+    "sources": {
+      "pge": "11985"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11985"
+  },
+  {
+    "id": "PSF-001561",
+    "name": "alcaria1",
+    "lat": 37.7031,
+    "lon": -7.80428,
+    "wind": {},
+    "sources": {
+      "pge": "11988"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11988"
+  },
+  {
+    "id": "PSF-001566",
+    "name": "salir",
+    "lat": 37.2605,
+    "lon": -8.04913,
+    "wind": {},
+    "sources": {
+      "pge": "11997"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11997"
+  },
+  {
+    "id": "PSF-001693",
+    "name": "Serra do Cume",
+    "lat": 38.7072,
+    "lon": -27.1112,
+    "wind": {},
+    "sources": {
+      "pge": "12215"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12215"
+  },
+  {
+    "id": "PSF-001708",
+    "name": "4 Ribeiras",
+    "lat": 38.7654,
+    "lon": -27.2205,
+    "wind": {},
+    "sources": {
+      "pge": "12241"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12241"
+  },
+  {
+    "id": "PSF-001753",
+    "name": "Fónzelar",
+    "lat": 39.2063,
+    "lon": -8.05767,
+    "wind": {},
+    "sources": {
+      "pge": "12326"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12326"
+  },
+  {
+    "id": "PSF-001853",
+    "name": "Serra Gorda",
+    "lat": 37.7859,
+    "lon": -25.682,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12503"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12503"
+  },
+  {
+    "id": "PSF-001886",
+    "name": "Aeródromo de Castelo Branco",
+    "lat": 39.8526,
+    "lon": -7.45207,
+    "wind": {},
+    "sources": {
+      "pge": "12566"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12566"
+  },
+  {
+    "id": "PSF-001905",
+    "name": "Porto de Abrigo",
+    "lat": 33.065,
+    "lon": -16.3173,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12622"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12622"
+  },
+  {
+    "id": "PSF-001906",
+    "name": "Costa de Arnes",
+    "lat": 40.1507,
+    "lon": -8.67005,
+    "wind": {},
+    "sources": {
+      "pge": "12625"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12625"
+  },
+  {
+    "id": "PSF-001907",
+    "name": "Cabanas de Tavira",
+    "lat": 37.1453,
+    "lon": -7.57675,
+    "wind": {},
+    "sources": {
+      "pge": "12626"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12626"
+  },
+  {
+    "id": "PSF-001909",
+    "name": "Santa Barbara",
+    "lat": 38.7301,
+    "lon": -27.3177,
+    "wind": {},
+    "sources": {
+      "pge": "12628"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12628"
+  },
+  {
+    "id": "PSF-001910",
+    "name": "Serra sicó junto eolicas",
+    "lat": 39.9347,
+    "lon": -8.55507,
+    "wind": {},
+    "sources": {
+      "pge": "12631"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12631"
+  },
+  {
+    "id": "PSF-001911",
+    "name": "Praia da vieira",
+    "lat": 39.8816,
+    "lon": -8.96925,
+    "wind": {},
+    "sources": {
+      "pge": "12632"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12632"
+  },
+  {
+    "id": "PSF-001912",
+    "name": "golegã",
+    "lat": 39.4365,
+    "lon": -8.46282,
+    "wind": {},
+    "sources": {
+      "pge": "12635"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12635"
+  },
+  {
+    "id": "PSF-002017",
+    "name": "Pico da Ana Ferreira",
+    "lat": 33.0483,
+    "lon": -16.3651,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12837"
+  },
+  {
+    "id": "PSF-002018",
+    "name": "Lajes do Pico",
+    "lat": 38.4152,
+    "lon": -28.2445,
+    "wind": {},
+    "sources": {
+      "pge": "12839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12839"
+  },
+  {
+    "id": "PSF-002024",
+    "name": "Salvador - N/NE",
+    "lat": 39.7551,
+    "lon": -6.94177,
+    "wind": {},
+    "sources": {
+      "pge": "12847"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12847"
+  },
+  {
+    "id": "PSF-002076",
+    "name": "ChÃƒ Vermoil Pbl",
+    "lat": 39.8617,
+    "lon": -8.6616,
+    "wind": {},
+    "sources": {
+      "pge": "12936"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12936"
+  },
+  {
+    "id": "PSF-002104",
+    "name": "Ofir",
+    "lat": 41.5122,
+    "lon": -8.78595,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "12987"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12987"
+  },
+  {
+    "id": "PSF-002112",
+    "name": "Vale Barosa leiria",
+    "lat": 39.7635,
+    "lon": -8.83398,
+    "wind": {},
+    "sources": {
+      "pge": "12997"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12997"
+  },
+  {
+    "id": "PSF-002155",
+    "name": "Pico Vulcano",
+    "lat": 38.4692,
+    "lon": -28.3966,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13069"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13069"
+  },
+  {
+    "id": "PSF-002156",
+    "name": "Lagoa de Capitao",
+    "lat": 38.4975,
+    "lon": -28.3337,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "13070"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13070"
+  },
+  {
+    "id": "PSF-002190",
+    "name": "Porto de",
+    "lat": 39.6109,
+    "lon": -8.84417,
+    "wind": {},
+    "sources": {
+      "pge": "13128"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13128"
+  },
+  {
+    "id": "PSF-002196",
+    "name": "Soito",
+    "lat": 40.3444,
+    "lon": -6.97988,
+    "wind": {},
+    "sources": {
+      "pge": "13137"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13137"
+  },
+  {
+    "id": "PSF-002250",
+    "name": "Achadas da Cruz Cable Car",
+    "lat": 32.8529,
+    "lon": -17.2105,
+    "wind": {},
+    "sources": {
+      "pge": "13210"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13210"
+  },
+  {
+    "id": "PSF-002263",
+    "name": "Porto de Mós- Algarve",
+    "lat": 37.0858,
+    "lon": -8.69205,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13227"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13227"
+  },
+  {
+    "id": "PSF-002268",
+    "name": "Sete Cidades - Desc. W",
+    "lat": 37.8639,
+    "lon": -25.8178,
+    "wind": {},
+    "sources": {
+      "pge": "13232"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13232"
+  },
+  {
+    "id": "PSF-002289",
+    "name": "Pombal Portugal",
+    "lat": 40.165,
+    "lon": -8.8812,
+    "wind": {},
+    "sources": {
+      "pge": "13274"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13274"
+  },
+  {
+    "id": "PSF-002331",
+    "name": "Faró",
+    "lat": 38.1802,
+    "lon": -8.7799,
+    "wind": {},
+    "sources": {
+      "pge": "13344"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13344"
+  },
+  {
+    "id": "PSF-002337",
+    "name": "Outeiro",
+    "lat": 39.9639,
+    "lon": -8.47128,
+    "wind": {},
+    "sources": {
+      "pge": "13365"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13365"
+  },
+  {
+    "id": "PSF-002338",
+    "name": "Poço do Inferno",
+    "lat": 40.3606,
+    "lon": -7.514,
+    "wind": {},
+    "sources": {
+      "pge": "13368"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13368"
+  },
+  {
+    "id": "PSF-002339",
+    "name": "Cabeco Sailvado - Cascalheira, Pico (E)",
+    "lat": 38.4158,
+    "lon": -28.1016,
+    "wind": {},
+    "sources": {
+      "pge": "13373"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13373"
+  },
+  {
+    "id": "PSF-002340",
+    "name": "calheta",
+    "lat": 38.6505,
+    "lon": -9.1079,
+    "wind": {},
+    "sources": {
+      "pge": "13374"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13374"
+  },
+  {
+    "id": "PSF-002365",
+    "name": "Peniche/ Ponte sor",
+    "lat": 39.9182,
+    "lon": -8.61912,
+    "wind": {},
+    "sources": {
+      "pge": "13407"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13407"
+  },
+  {
+    "id": "PSF-002366",
+    "name": "Cabo Girao",
+    "lat": 32.6563,
+    "lon": -17.0082,
+    "wind": {},
+    "sources": {
+      "pge": "13408"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13408"
+  },
+  {
+    "id": "PSF-002367",
+    "name": "evora",
+    "lat": 38.541,
+    "lon": -7.8888,
+    "wind": {},
+    "sources": {
+      "pge": "13409"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13409"
+  },
+  {
+    "id": "PSF-002368",
+    "name": "Melides",
+    "lat": 38.1525,
+    "lon": -8.78698,
+    "wind": {},
+    "sources": {
+      "pge": "13410"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13410"
+  },
+  {
+    "id": "PSF-002369",
+    "name": "Arganil",
+    "lat": 40.2254,
+    "lon": -7.9744,
+    "wind": {},
+    "sources": {
+      "pge": "13412"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13412"
+  },
+  {
+    "id": "PSF-002370",
+    "name": "Monte do Pisco - Tourém",
+    "lat": 41.8801,
+    "lon": -7.91577,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "13413"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13413"
+  },
+  {
+    "id": "PSF-002371",
+    "name": "Mação",
+    "lat": 39.612,
+    "lon": -7.9702,
+    "wind": {},
+    "sources": {
+      "pge": "13414"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13414"
+  },
+  {
+    "id": "PSF-002372",
+    "name": "Subserra - S. Jo",
+    "lat": 38.9383,
+    "lon": -9.04233,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "13415"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13415"
+  },
+  {
+    "id": "PSF-002373",
+    "name": "Sarzedo",
+    "lat": 40.372,
+    "lon": -7.41688,
+    "wind": {},
+    "sources": {
+      "pge": "13416"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13416"
+  },
+  {
+    "id": "PSF-002374",
+    "name": "Leiranco Mountain",
+    "lat": 41.7308,
+    "lon": -7.64042,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "13417"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13417"
+  },
+  {
+    "id": "PSF-002375",
+    "name": "Bucelas",
+    "lat": 38.896,
+    "lon": -9.09172,
+    "wind": {},
+    "sources": {
+      "pge": "13418"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13418"
+  },
+  {
+    "id": "PSF-002376",
+    "name": "Serra da Olga _Chaves",
+    "lat": 41.7783,
+    "lon": -7.52922,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13419"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13419"
+  },
+  {
+    "id": "PSF-002377",
+    "name": "Areias Brancas",
+    "lat": 38.0551,
+    "lon": -8.8209,
+    "wind": {},
+    "sources": {
+      "pge": "13420"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13420"
+  },
+  {
+    "id": "PSF-002378",
+    "name": "Peninha",
+    "lat": 38.7671,
+    "lon": -9.46153,
+    "wind": {},
+    "sources": {
+      "pge": "13421"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13421"
+  },
+  {
+    "id": "PSF-002380",
+    "name": "Caldas das Taipas",
+    "lat": 41.4784,
+    "lon": -8.3823,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "13423"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13423"
+  },
+  {
+    "id": "PSF-002381",
+    "name": "Poiares",
+    "lat": 40.2225,
+    "lon": -8.22035,
+    "wind": {},
+    "sources": {
+      "pge": "13426"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13426"
+  },
+  {
+    "id": "PSF-002383",
+    "name": "Monte Vez",
+    "lat": 40.0017,
+    "lon": -8.40602,
+    "wind": {},
+    "sources": {
+      "pge": "13429"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13429"
+  },
+  {
+    "id": "PSF-002384",
+    "name": "Lagoa Sete Cidades",
+    "lat": 37.8542,
+    "lon": -25.7603,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13430"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13430"
+  },
+  {
+    "id": "PSF-002385",
+    "name": "Moncorvo",
+    "lat": 42.2455,
+    "lon": -7.17518,
+    "wind": {},
+    "sources": {
+      "pge": "13431"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13431"
+  },
+  {
+    "id": "PSF-002386",
+    "name": "Lousa",
+    "lat": 40.0203,
+    "lon": -8.34733,
+    "wind": {},
+    "sources": {
+      "pge": "13433"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13433"
+  },
+  {
+    "id": "PSF-002387",
+    "name": "Goncalo",
+    "lat": 40.4248,
+    "lon": -7.35858,
+    "wind": {},
+    "sources": {
+      "pge": "13434"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13434"
+  },
+  {
+    "id": "PSF-002388",
+    "name": "Castanheira de Pêra",
+    "lat": 40.0066,
+    "lon": -8.23207,
+    "wind": {},
+    "sources": {
+      "pge": "13435"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13435"
+  },
+  {
+    "id": "PSF-002389",
+    "name": "Magoito Aerodromo",
+    "lat": 38.8769,
+    "lon": -9.4245,
+    "wind": {},
+    "sources": {
+      "pge": "13436"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13436"
+  },
+  {
+    "id": "PSF-002393",
+    "name": "Senhora do Minho",
+    "lat": 41.7989,
+    "lon": -8.68828,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13447"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13447"
+  },
+  {
+    "id": "PSF-002408",
+    "name": "Castanheira",
+    "lat": 41.7948,
+    "lon": -7.8185,
+    "wind": {},
+    "sources": {
+      "pge": "13467"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13467"
+  },
+  {
+    "id": "PSF-002416",
+    "name": "Soida, Aldeia Viçosa",
+    "lat": 40.5765,
+    "lon": -7.33262,
+    "wind": {},
+    "sources": {
+      "pge": "13487"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13487"
+  },
+  {
+    "id": "PSF-002427",
+    "name": "Pia",
+    "lat": 41.1477,
+    "lon": -8.47167,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13504"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13504"
+  },
+  {
+    "id": "PSF-002434",
+    "name": "LPCV",
+    "lat": 40.2665,
+    "lon": -7.47743,
+    "wind": {},
+    "sources": {
+      "pge": "13515"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13515"
+  },
+  {
+    "id": "PSF-002439",
+    "name": "Manta Rota",
+    "lat": 37.9215,
+    "lon": -8.80578,
+    "wind": {},
+    "sources": {
+      "pge": "13520"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13520"
+  },
+  {
+    "id": "PSF-002440",
+    "name": "Manta Rota",
+    "lat": 37.1622,
+    "lon": -7.52055,
+    "wind": {},
+    "sources": {
+      "pge": "13521"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13521"
+  },
+  {
+    "id": "PSF-002441",
+    "name": "Trafaria - Silos",
+    "lat": 38.6723,
+    "lon": -9.24105,
+    "wind": {},
+    "sources": {
+      "pge": "13522"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13522"
+  },
+  {
+    "id": "PSF-002442",
+    "name": "Montemor",
+    "lat": 38.7138,
+    "lon": -8.27507,
+    "wind": {},
+    "sources": {
+      "pge": "13523"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13523"
+  },
+  {
+    "id": "PSF-002443",
+    "name": "Campinho",
+    "lat": 38.3597,
+    "lon": -7.4657,
+    "wind": {},
+    "sources": {
+      "pge": "13525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13525"
+  },
+  {
+    "id": "PSF-002444",
+    "name": "V.N.Milfontes - Furnas",
+    "lat": 37.715,
+    "lon": -8.78705,
+    "wind": {},
+    "sources": {
+      "pge": "13526"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13526"
+  },
+  {
+    "id": "PSF-002452",
+    "name": "Praia da Leirosa",
+    "lat": 40.0499,
+    "lon": -8.89273,
+    "wind": {},
+    "sources": {
+      "pge": "13542"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13542"
+  },
+  {
+    "id": "PSF-002474",
+    "name": "Osso da Baleia",
+    "lat": 39.9995,
+    "lon": -8.91515,
+    "wind": {},
+    "sources": {
+      "pge": "13585"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13585"
+  },
+  {
+    "id": "PSF-002482",
+    "name": "Ponta Delgada",
+    "lat": 32.8242,
+    "lon": -16.9847,
+    "wind": {},
+    "sources": {
+      "pge": "13600"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13600"
+  },
+  {
+    "id": "PSF-002486",
+    "name": "Ribeira da Janela-Madeira island",
+    "lat": 32.848,
+    "lon": -17.1519,
+    "wind": {},
+    "sources": {
+      "pge": "13604"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13604"
+  },
+  {
+    "id": "PSF-002489",
+    "name": "Sao Jorge Madeira island",
+    "lat": 32.8285,
+    "lon": -16.9257,
+    "wind": {},
+    "sources": {
+      "pge": "13608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13608"
+  },
+  {
+    "id": "PSF-002506",
+    "name": "serra do socorro",
+    "lat": 39.018,
+    "lon": -9.22672,
+    "wind": {},
+    "sources": {
+      "pge": "13644"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13644"
+  },
+  {
+    "id": "PSF-002509",
+    "name": "Praia de Mira-Sul",
+    "lat": 40.4301,
+    "lon": -8.8123,
+    "wind": {},
+    "sources": {
+      "pge": "13649"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13649"
+  },
+  {
+    "id": "PSF-002512",
+    "name": "Aerodromo das Moitas",
+    "lat": 39.7342,
+    "lon": -7.8749,
+    "wind": {},
+    "sources": {
+      "pge": "13652"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13652"
+  },
+  {
+    "id": "PSF-002514",
+    "name": "Pico do Areeiro",
+    "lat": 32.7348,
+    "lon": -16.9308,
+    "wind": {},
+    "sources": {
+      "pge": "13654"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13654"
+  },
+  {
+    "id": "PSF-002515",
+    "name": "Lagoa de Melides",
+    "lat": 38.2749,
+    "lon": -8.77647,
+    "wind": {},
+    "sources": {
+      "pge": "13655"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13655"
+  },
+  {
+    "id": "PSF-002516",
+    "name": "Serra de S. Mamede",
+    "lat": 39.316,
+    "lon": -7.36435,
+    "wind": {},
+    "sources": {
+      "pge": "13656"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13656"
+  },
+  {
+    "id": "PSF-002517",
+    "name": "Miranda do corvo",
+    "lat": 40.0502,
+    "lon": -8.28035,
+    "wind": {},
+    "sources": {
+      "pge": "13657"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13657"
+  },
+  {
+    "id": "PSF-002532",
+    "name": "pocariça",
+    "lat": 39.698,
+    "lon": -8.89252,
+    "wind": {},
+    "sources": {
+      "pge": "13678"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13678"
+  },
+  {
+    "id": "PSF-002729",
+    "name": "Maia - S.Miguel - Açores",
+    "lat": 37.8268,
+    "lon": -25.3903,
+    "wind": {},
+    "sources": {
+      "pge": "13999"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13999"
+  },
+  {
+    "id": "PSF-002731",
+    "name": "Varanda dos Pastores",
+    "lat": 40.2992,
+    "lon": -7.58245,
+    "wind": {},
+    "sources": {
+      "pge": "14001"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14001"
+  },
+  {
+    "id": "PSF-002768",
+    "name": "barracão",
+    "lat": 39.8309,
+    "lon": -8.7216,
+    "wind": {},
+    "sources": {
+      "pge": "14062"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14062"
+  },
+  {
+    "id": "PSF-002783",
+    "name": "Casa velha  (Cercal)",
+    "lat": 37.8459,
+    "lon": -8.70153,
+    "wind": {},
+    "sources": {
+      "pge": "14088"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14088"
+  },
+  {
+    "id": "PSF-002810",
+    "name": "casalinho pombal",
+    "lat": 39.887,
+    "lon": -8.647,
+    "wind": {},
+    "sources": {
+      "pge": "14132"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14132"
+  },
+  {
+    "id": "PSF-002826",
+    "name": "Sta. Cruz - Max",
+    "lat": 39.1362,
+    "lon": -9.38168,
+    "wind": {},
+    "sources": {
+      "pge": "14160"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14160"
+  },
+  {
+    "id": "PSF-002839",
+    "name": "Cabeça Alta - Valhelhas",
+    "lat": 40.4308,
+    "lon": -7.41692,
+    "wind": {},
+    "sources": {
+      "pge": "14188"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14188"
+  },
+  {
+    "id": "PSF-002897",
+    "name": "CVLC-ALVÃ”CO",
+    "lat": 40.2831,
+    "lon": -7.8197,
+    "wind": {},
+    "sources": {
+      "pge": "14273"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14273"
+  },
+  {
+    "id": "PSF-003043",
+    "name": "Almograve - PT",
+    "lat": 37.6491,
+    "lon": -8.80365,
+    "wind": {},
+    "sources": {
+      "pge": "14462"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14462"
+  },
+  {
+    "id": "PSF-003101",
+    "name": "Capela de Santo Antao",
+    "lat": 41.8488,
+    "lon": -8.83531,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14553"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14553"
+  },
+  {
+    "id": "PSF-003111",
+    "name": "Pico das Flores",
+    "lat": 33.0326,
+    "lon": -16.3843,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14568"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14568"
+  },
+  {
+    "id": "PSF-003196",
+    "name": "Chãs de tavares",
+    "lat": 40.6343,
+    "lon": -7.60452,
+    "wind": {},
+    "sources": {
+      "pge": "14714"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14714"
+  },
+  {
+    "id": "PSF-003197",
+    "name": "São Pedro Moel Norte",
+    "lat": 39.7801,
+    "lon": -9.02202,
+    "wind": {},
+    "sources": {
+      "pge": "14716"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14716"
+  },
+  {
+    "id": "PSF-003451",
+    "name": "Praia Areão",
+    "lat": 40.3378,
+    "lon": -8.84193,
+    "wind": {},
+    "sources": {
+      "pge": "15120"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15120"
+  },
+  {
+    "id": "PSF-003452",
+    "name": "Praia Quiaios",
+    "lat": 40.2416,
+    "lon": -8.88195,
+    "wind": {},
+    "sources": {
+      "pge": "15121"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15121"
+  },
+  {
+    "id": "PSF-003453",
+    "name": "fronteira",
+    "lat": 39.054,
+    "lon": -7.63985,
+    "wind": {},
+    "sources": {
+      "pge": "15122"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15122"
+  },
+  {
+    "id": "PSF-003527",
+    "name": "Santo Amaro Lagoas",
+    "lat": 38.4396,
+    "lon": -28.1811,
+    "wind": {},
+    "sources": {
+      "pge": "15234"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15234"
+  },
+  {
+    "id": "PSF-003533",
+    "name": "Ribeiras",
+    "lat": 38.4029,
+    "lon": -28.2129,
+    "wind": {},
+    "sources": {
+      "pge": "15244"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15244"
+  },
+  {
+    "id": "PSF-003534",
+    "name": "Espalamanca",
+    "lat": 38.5497,
+    "lon": -28.6068,
+    "wind": {},
+    "sources": {
+      "pge": "15245"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15245"
+  },
+  {
+    "id": "PSF-003558",
+    "name": "Melgaço-Côto do Pomedelo- Roussas",
+    "lat": 42.0819,
+    "lon": -8.21225,
+    "wind": {},
+    "sources": {
+      "pge": "15291"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15291"
+  },
+  {
+    "id": "PSF-003559",
+    "name": "Melgaço-Saínde-Paderne",
+    "lat": 42.07,
+    "lon": -8.29157,
+    "wind": {},
+    "sources": {
+      "pge": "15292"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15292"
+  },
+  {
+    "id": "PSF-003620",
+    "name": "Columbeira",
+    "lat": 39.3007,
+    "lon": -9.19722,
+    "wind": {},
+    "sources": {
+      "pge": "15388"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15388"
+  },
+  {
+    "id": "PSF-003636",
+    "name": "pista da comporta",
+    "lat": 38.395,
+    "lon": -8.79678,
+    "wind": {},
+    "sources": {
+      "pge": "15423"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15423"
+  },
+  {
+    "id": "PSF-003637",
+    "name": "ALV�?CO - Colcurinho Oeste 1000m",
+    "lat": 40.2487,
+    "lon": -7.83458,
+    "wind": {},
+    "sources": {
+      "pge": "15424"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15424"
+  },
+  {
+    "id": "PSF-003687",
+    "name": "Traz de Figueiró",
+    "lat": 39.9787,
+    "lon": -8.44047,
+    "wind": {},
+    "sources": {
+      "pge": "15505"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15505"
+  },
+  {
+    "id": "PSF-003866",
+    "name": "pegões",
+    "lat": 38.7445,
+    "lon": -8.65058,
+    "wind": {},
+    "sources": {
+      "pge": "15830"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15830"
+  },
+  {
+    "id": "PSF-003867",
+    "name": "centro geodésico de portugal",
+    "lat": 39.6934,
+    "lon": -8.13173,
+    "wind": {},
+    "sources": {
+      "pge": "15833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15833"
+  },
+  {
+    "id": "PSF-003868",
+    "name": "praia pequena",
+    "lat": 38.6916,
+    "lon": -9.3652,
+    "wind": {},
+    "sources": {
+      "pge": "15834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15834"
+  },
+  {
+    "id": "PSF-003869",
+    "name": "S. António Valpoldres",
+    "lat": 42.0205,
+    "lon": -8.28863,
+    "wind": {},
+    "sources": {
+      "pge": "15835"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15835"
+  },
+  {
+    "id": "PSF-004193",
+    "name": "Polvoeira",
+    "lat": 39.7177,
+    "lon": -8.0493,
+    "wind": {},
+    "sources": {
+      "pge": "16289"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16289"
+  },
+  {
+    "id": "PSF-004194",
+    "name": "Nerra da Nogueira",
+    "lat": 41.7168,
+    "lon": -6.84017,
+    "wind": {},
+    "sources": {
+      "pge": "16290"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16290"
+  },
+  {
+    "id": "PSF-004405",
+    "name": "Figo",
+    "lat": 39.0503,
+    "lon": -9.2349,
+    "wind": {},
+    "sources": {
+      "pge": "16634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16634"
+  },
+  {
+    "id": "PSF-004407",
+    "name": "Atenor",
+    "lat": 41.4133,
+    "lon": -6.46578,
+    "wind": {},
+    "sources": {
+      "pge": "16636"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16636"
+  },
+  {
+    "id": "PSF-004409",
+    "name": "Tarouca",
+    "lat": 41.0111,
+    "lon": -7.80755,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "16638"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16638"
+  },
+  {
+    "id": "PSF-004544",
+    "name": "Santarém Aerodrome",
+    "lat": 39.2119,
+    "lon": -8.68478,
+    "wind": {},
+    "sources": {
+      "pge": "16887"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16887"
+  },
+  {
+    "id": "PSF-004556",
+    "name": "Guincho",
+    "lat": 38.7235,
+    "lon": -9.47767,
+    "wind": {},
+    "sources": {
+      "pge": "16908"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16908"
+  },
+  {
+    "id": "PSF-004602",
+    "name": "MONTE FARINHA",
+    "lat": 38.8951,
+    "lon": -9.2393,
+    "wind": {},
+    "sources": {
+      "pge": "16978"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16978"
+  },
+  {
+    "id": "PSF-004719",
+    "name": "Montemor-o-Velho",
+    "lat": 40.1764,
+    "lon": -8.6533,
+    "wind": {},
+    "sources": {
+      "pge": "17214"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17214"
+  },
+  {
+    "id": "PSF-004860",
+    "name": "Mirandela - S/SE",
+    "lat": 41.4623,
+    "lon": -7.29061,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "17472"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17472"
+  },
+  {
+    "id": "PSF-004888",
+    "name": "Gardunha - Norte",
+    "lat": 40.1059,
+    "lon": -7.5015,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17506"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17506"
+  },
+  {
+    "id": "PSF-004908",
+    "name": "Monte Perdigão",
+    "lat": 39.7062,
+    "lon": -7.74642,
+    "wind": {},
+    "sources": {
+      "pge": "17532"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17532"
+  },
+  {
+    "id": "PSF-004920",
+    "name": "cabeço montachique",
+    "lat": 38.8972,
+    "lon": -9.17423,
+    "wind": {},
+    "sources": {
+      "pge": "17553"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17553"
+  },
+  {
+    "id": "PSF-005034",
+    "name": "Pico da Torre",
+    "lat": 32.6516,
+    "lon": -16.9749,
+    "wind": {},
+    "sources": {
+      "pge": "17763"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17763"
+  },
+  {
+    "id": "PSF-005046",
+    "name": "Fundão - Sul",
+    "lat": 40.1214,
+    "lon": -7.41562,
+    "wind": {},
+    "sources": {
+      "pge": "17788"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17788"
+  },
+  {
+    "id": "PSF-005059",
+    "name": "Salgado II",
+    "lat": 39.5463,
+    "lon": -9.102,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17827"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17827"
+  },
+  {
+    "id": "PSF-005070",
+    "name": "Gonça (Aterro)",
+    "lat": 41.5118,
+    "lon": -8.27174,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17848"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17848"
+  },
+  {
+    "id": "PSF-005102",
+    "name": "Baleal",
+    "lat": 39.3602,
+    "lon": -9.35533,
+    "wind": {},
+    "sources": {
+      "pge": "17906"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17906"
+  },
+  {
+    "id": "PSF-005570",
+    "name": "Toledo San Jorge",
+    "lat": 38.6942,
+    "lon": -28.1579,
+    "wind": {},
+    "sources": {
+      "pge": "19063"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19063"
+  },
+  {
+    "id": "PSF-006162",
+    "name": "Cernache CBR",
+    "lat": 40.1585,
+    "lon": -8.4704,
+    "wind": {},
+    "sources": {
+      "pge": "20034"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20034"
+  },
+  {
+    "id": "PSF-006183",
+    "name": "Marialva NE",
+    "lat": 40.9197,
+    "lon": -7.22968,
+    "wind": {},
+    "sources": {
+      "pge": "20056"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20056"
+  },
+  {
+    "id": "PSF-007091",
+    "name": "Ribeira de Nisa e Carreiras",
+    "lat": 39.3884,
+    "lon": -7.43367,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22124"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22124"
+  },
+  {
+    "id": "PSF-007589",
+    "name": "Praïa Azul Nord",
+    "lat": 39.1016,
+    "lon": -9.40138,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22688"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22688"
+  },
+  {
+    "id": "PSF-007710",
+    "name": "Pena Furada",
+    "lat": 37.1112,
+    "lon": -8.90339,
+    "wind": {
+      "N": 2,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22815"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22815"
+  },
+  {
+    "id": "PSF-007711",
+    "name": "WinchSpot",
+    "lat": 37.6574,
+    "lon": -7.54194,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22817"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22817"
+  },
+  {
+    "id": "PSF-007893",
+    "name": "Porto da Cruz Maiata",
+    "lat": 32.767,
+    "lon": -16.8223,
+    "wind": {},
+    "sources": {
+      "pge": "23030"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23030"
+  },
+  {
+    "id": "PSF-008480",
+    "name": "Marvão",
+    "lat": 39.3928,
+    "lon": -7.37661,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23688"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23688"
+  },
+  {
+    "id": "PSF-008481",
+    "name": "Arrabida HG ramp",
+    "lat": 38.4814,
+    "lon": -8.98921,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23689"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23689"
+  },
+  {
+    "id": "PSF-008541",
+    "name": "Vila do Carvalho",
+    "lat": 40.3242,
+    "lon": -7.49489,
+    "wind": {},
+    "sources": {
+      "pge": "23759"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23759"
+  },
+  {
+    "id": "PSF-009550",
+    "name": "Serro Ventoso",
+    "lat": 39.5374,
+    "lon": -8.84428,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6618"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6618"
+  },
+  {
+    "id": "PSF-009551",
+    "name": "Mertola",
+    "lat": 37.691,
+    "lon": -7.74462,
+    "wind": {},
+    "sources": {
+      "pge": "6623"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6623"
+  },
+  {
+    "id": "PSF-009552",
+    "name": "Seia",
+    "lat": 40.4215,
+    "lon": -7.6369,
+    "wind": {},
+    "sources": {
+      "pge": "6624"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6624"
+  },
+  {
+    "id": "PSF-009553",
+    "name": "Bornes",
+    "lat": 41.4637,
+    "lon": -6.96567,
+    "wind": {
+      "N": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6625"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6625"
+  },
+  {
+    "id": "PSF-009554",
+    "name": "Penedo Durao",
+    "lat": 41.0427,
+    "lon": -6.86047,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6626"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6626"
+  },
+  {
+    "id": "PSF-009559",
+    "name": "Polvoeira N",
+    "lat": 39.72,
+    "lon": -9.049,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6632"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6632"
+  },
+  {
+    "id": "PSF-009591",
+    "name": "Torre de Moncorvo - Serra do Reboredo",
+    "lat": 41.1653,
+    "lon": -7.03728,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6666"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6666"
+  },
+  {
+    "id": "PSF-009601",
+    "name": "Porto da Espada",
+    "lat": 39.3471,
+    "lon": -7.32867,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6678"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6678"
+  },
+  {
+    "id": "PSF-009603",
+    "name": "Mirandela - E",
+    "lat": 41.4505,
+    "lon": -7.31102,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "6680"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6680"
+  },
+  {
+    "id": "PSF-009614",
+    "name": "Vale Amoreira (Manteigas)",
+    "lat": 40.4035,
+    "lon": -7.45425,
+    "wind": {},
+    "sources": {
+      "pge": "6692"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6692"
+  },
+  {
+    "id": "PSF-009625",
+    "name": "Sesimbra",
+    "lat": 38.4455,
+    "lon": -9.09171,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6704"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6704"
+  },
+  {
+    "id": "PSF-009626",
+    "name": "Chaves",
+    "lat": 41.6979,
+    "lon": -7.43773,
+    "wind": {},
+    "sources": {
+      "pge": "6705"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6705"
+  },
+  {
+    "id": "PSF-009627",
+    "name": "Lousa",
+    "lat": 40.1049,
+    "lon": -8.20912,
+    "wind": {
+      "N": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6706"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6706"
+  },
+  {
+    "id": "PSF-009657",
+    "name": "Redinha - Sico",
+    "lat": 39.9754,
+    "lon": -8.55388,
+    "wind": {},
+    "sources": {
+      "pge": "6744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6744"
+  },
+  {
+    "id": "PSF-009679",
+    "name": "Serra do Louro - Palmela",
+    "lat": 38.564,
+    "lon": -8.91813,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6778"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6778"
+  },
+  {
+    "id": "PSF-009683",
+    "name": "Vale de Azares - Linhares",
+    "lat": 40.5939,
+    "lon": -7.38973,
+    "wind": {},
+    "sources": {
+      "pge": "6783"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6783"
+  },
+  {
+    "id": "PSF-011313",
+    "name": "Bicas",
+    "lat": 38.4623,
+    "lon": -9.1928,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9745"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9745"
+  },
+  {
+    "id": "PSF-011314",
+    "name": "Meco",
+    "lat": 38.4866,
+    "lon": -9.1835,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9746"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9746"
+  },
+  {
+    "id": "PSF-011315",
+    "name": "Fonte da Telha",
+    "lat": 38.5611,
+    "lon": -9.1889,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9747"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9747"
+  },
+  {
+    "id": "PSF-011339",
+    "name": "Aguda",
+    "lat": 38.8501,
+    "lon": -9.45488,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9779"
+  },
+  {
+    "id": "PSF-011340",
+    "name": "Alcobertas",
+    "lat": 39.4313,
+    "lon": -8.91763,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9780"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9780"
+  },
+  {
+    "id": "PSF-011341",
+    "name": "Almargem do Bispo",
+    "lat": 38.8452,
+    "lon": -9.28321,
+    "wind": {},
+    "sources": {
+      "pge": "9781"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9781"
+  },
+  {
+    "id": "PSF-011342",
+    "name": "AlqueidaÂ£o",
+    "lat": 39.6441,
+    "lon": -8.49708,
+    "wind": {},
+    "sources": {
+      "pge": "9782"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9782"
+  },
+  {
+    "id": "PSF-011343",
+    "name": "Alvados",
+    "lat": 39.5435,
+    "lon": -8.78724,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "9783"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9783"
+  },
+  {
+    "id": "PSF-011344",
+    "name": "Alvaiazere",
+    "lat": 39.8221,
+    "lon": -8.41407,
+    "wind": {},
+    "sources": {
+      "pge": "9784"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9784"
+  },
+  {
+    "id": "PSF-011345",
+    "name": "Areão",
+    "lat": 40.5236,
+    "lon": -8.77194,
+    "wind": {},
+    "sources": {
+      "pge": "9786"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9786"
+  },
+  {
+    "id": "PSF-011346",
+    "name": "Arrabida",
+    "lat": 38.4897,
+    "lon": -8.9759,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9789"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9789"
+  },
+  {
+    "id": "PSF-011347",
+    "name": "Arrimal",
+    "lat": 39.4781,
+    "lon": -8.87778,
+    "wind": {},
+    "sources": {
+      "pge": "9791"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9791"
+  },
+  {
+    "id": "PSF-011348",
+    "name": "Arruda Leste",
+    "lat": 38.9911,
+    "lon": -9.09657,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "9792"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9792"
+  },
+  {
+    "id": "PSF-011349",
+    "name": "Arruda Moinho",
+    "lat": 38.9796,
+    "lon": -9.10059,
+    "wind": {},
+    "sources": {
+      "pge": "9793"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9793"
+  },
+  {
+    "id": "PSF-011350",
+    "name": "Arruda Nordeste",
+    "lat": 38.9923,
+    "lon": -9.09803,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "9794"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9794"
+  },
+  {
+    "id": "PSF-011351",
+    "name": "Azinha",
+    "lat": 40.4307,
+    "lon": -7.4554,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9795"
+  },
+  {
+    "id": "PSF-011352",
+    "name": "Caldelas",
+    "lat": 41.6586,
+    "lon": -8.35923,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9796"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9796"
+  },
+  {
+    "id": "PSF-011353",
+    "name": "Cardos",
+    "lat": 38.8153,
+    "lon": -9.30938,
+    "wind": {},
+    "sources": {
+      "pge": "9797"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9797"
+  },
+  {
+    "id": "PSF-011354",
+    "name": "Castelo de Vide",
+    "lat": 39.4008,
+    "lon": -7.45904,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9798"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9798"
+  },
+  {
+    "id": "PSF-011355",
+    "name": "Cerdal PPD",
+    "lat": 41.9729,
+    "lon": -8.57821,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9799"
+  },
+  {
+    "id": "PSF-011356",
+    "name": "Covilhã PPD",
+    "lat": 40.2886,
+    "lon": -7.53891,
+    "wind": {},
+    "sources": {
+      "pge": "9800"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9800"
+  },
+  {
+    "id": "PSF-011357",
+    "name": "Fonte Coberta",
+    "lat": 40.0781,
+    "lon": -8.46325,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9801"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9801"
+  },
+  {
+    "id": "PSF-011358",
+    "name": "Foz do Lizandro",
+    "lat": 38.9455,
+    "lon": -9.41453,
+    "wind": {},
+    "sources": {
+      "pge": "9802"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9802"
+  },
+  {
+    "id": "PSF-011359",
+    "name": "Góis",
+    "lat": 40.1811,
+    "lon": -8.00155,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "9803"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9803"
+  },
+  {
+    "id": "PSF-011360",
+    "name": "Gralha",
+    "lat": 39.5226,
+    "lon": -9.13163,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9804"
+  },
+  {
+    "id": "PSF-011361",
+    "name": "Larouco Sul",
+    "lat": 41.8798,
+    "lon": -7.72098,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "9805"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9805"
+  },
+  {
+    "id": "PSF-011362",
+    "name": "Larouco Norte",
+    "lat": 41.9163,
+    "lon": -7.71461,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9806"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9806"
+  },
+  {
+    "id": "PSF-011363",
+    "name": "Linhares 1",
+    "lat": 40.5327,
+    "lon": -7.44556,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9807"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9807"
+  },
+  {
+    "id": "PSF-011364",
+    "name": "Linhares 2",
+    "lat": 40.5365,
+    "lon": -7.44352,
+    "wind": {},
+    "sources": {
+      "pge": "9808"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9808"
+  },
+  {
+    "id": "PSF-011365",
+    "name": "Linhares 3",
+    "lat": 40.5398,
+    "lon": -7.44378,
+    "wind": {},
+    "sources": {
+      "pge": "9809"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9809"
+  },
+  {
+    "id": "PSF-011366",
+    "name": "Lousã - Pico da Ortiga",
+    "lat": 40.1045,
+    "lon": -8.20921,
+    "wind": {},
+    "sources": {
+      "pge": "9810"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9810"
+  },
+  {
+    "id": "PSF-011367",
+    "name": "Mangualde",
+    "lat": 40.4716,
+    "lon": -7.54139,
+    "wind": {},
+    "sources": {
+      "pge": "9811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9811"
+  },
+  {
+    "id": "PSF-011368",
+    "name": "Minde",
+    "lat": 39.5079,
+    "lon": -8.69513,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "9812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9812"
+  },
+  {
+    "id": "PSF-011369",
+    "name": "Mirandela - S/SW",
+    "lat": 41.4584,
+    "lon": -7.29803,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "9813"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9813"
+  },
+  {
+    "id": "PSF-011370",
+    "name": "Mirandela W",
+    "lat": 41.4653,
+    "lon": -7.33358,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9814"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9814"
+  },
+  {
+    "id": "PSF-011371",
+    "name": "Montejunto NE",
+    "lat": 39.179,
+    "lon": -9.04153,
+    "wind": {},
+    "sources": {
+      "pge": "9815"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9815"
+  },
+  {
+    "id": "PSF-011372",
+    "name": "Obidos",
+    "lat": 39.4251,
+    "lon": -9.23837,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9816"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9816"
+  },
+  {
+    "id": "PSF-011373",
+    "name": "Pedrulha",
+    "lat": 40.2387,
+    "lon": -8.4462,
+    "wind": {},
+    "sources": {
+      "pge": "9817"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9817"
+  },
+  {
+    "id": "PSF-011374",
+    "name": "Pinheiro da Cruz",
+    "lat": 38.2352,
+    "lon": -8.77174,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9818"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9818"
+  },
+  {
+    "id": "PSF-011375",
+    "name": "Polvoeira",
+    "lat": 39.7065,
+    "lon": -9.04945,
+    "wind": {
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9819"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9819"
+  },
+  {
+    "id": "PSF-011376",
+    "name": "Pombinho",
+    "lat": 37.7307,
+    "lon": -8.70506,
+    "wind": {},
+    "sources": {
+      "pge": "9820"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9820"
+  },
+  {
+    "id": "PSF-011377",
+    "name": "Pombinho - alunos",
+    "lat": 37.7303,
+    "lon": -8.71029,
+    "wind": {},
+    "sources": {
+      "pge": "9821"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9821"
+  },
+  {
+    "id": "PSF-011378",
+    "name": "Pombinho 2",
+    "lat": 37.7312,
+    "lon": -8.70851,
+    "wind": {},
+    "sources": {
+      "pge": "9822"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9822"
+  },
+  {
+    "id": "PSF-011379",
+    "name": "Porto da Espada",
+    "lat": 39.3483,
+    "lon": -7.33509,
+    "wind": {},
+    "sources": {
+      "pge": "9823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9823"
+  },
+  {
+    "id": "PSF-011380",
+    "name": "Redinha",
+    "lat": 39.9741,
+    "lon": -8.55267,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9826"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9826"
+  },
+  {
+    "id": "PSF-011381",
+    "name": "Salgado",
+    "lat": 39.5436,
+    "lon": -9.1076,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9827"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9827"
+  },
+  {
+    "id": "PSF-011382",
+    "name": "Santa Cruz-Santa Rita",
+    "lat": 39.1643,
+    "lon": -9.36247,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "9828"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9828"
+  },
+  {
+    "id": "PSF-011383",
+    "name": "Serra Boa Viagem",
+    "lat": 40.2088,
+    "lon": -8.88254,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9829"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9829"
+  },
+  {
+    "id": "PSF-011384",
+    "name": "Serro Ventoso",
+    "lat": 39.5496,
+    "lon": -8.86762,
+    "wind": {},
+    "sources": {
+      "pge": "9830"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9830"
+  },
+  {
+    "id": "PSF-011385",
+    "name": "Serro Ventoso - Moinhos",
+    "lat": 39.5285,
+    "lon": -8.85695,
+    "wind": {},
+    "sources": {
+      "pge": "9831"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9831"
+  },
+  {
+    "id": "PSF-011386",
+    "name": "Sra da Graça",
+    "lat": 41.4164,
+    "lon": -7.9168,
+    "wind": {
+      "N": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9833"
+  },
+  {
+    "id": "PSF-011492",
+    "name": "Lapinha",
+    "lat": 41.1516,
+    "lon": -7.0506,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9982"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9982"
+  },
+  {
+    "id": "PSF-011493",
+    "name": "Macores",
+    "lat": 41.1411,
+    "lon": -7.0153,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "9983"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9983"
+  },
+  {
+    "id": "PSF-011494",
+    "name": "Carvalhal",
+    "lat": 41.171,
+    "lon": -6.9864,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9984"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9984"
+  },
+  {
+    "id": "PSF-011495",
+    "name": "Freixo de Espada-a-Cinta",
+    "lat": 41.1383,
+    "lon": -6.8019,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "9985"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9985"
+  },
+  {
+    "id": "PSF-011500",
+    "name": "Rio Sabor - Estevais",
+    "lat": 41.2239,
+    "lon": -7.0807,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9991"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9991"
+  },
+  {
+    "id": "PSF-011501",
+    "name": "Quinta Branca - Serra do Reboredo",
+    "lat": 41.1723,
+    "lon": -7.0011,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9992"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9992"
+  },
+  {
+    "id": "PSF-011502",
+    "name": "Castanheira, Mogadouro",
+    "lat": 41.391,
+    "lon": -6.6073,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9993"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9993"
+  }
+]

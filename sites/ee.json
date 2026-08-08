@@ -1,0 +1,234 @@
+[
+  {
+    "id": "PSF-000285",
+    "name": "Rapla South",
+    "lat": 58.9821,
+    "lon": 24.7214,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10327"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10327"
+  },
+  {
+    "id": "PSF-000568",
+    "name": "Keila flight fields",
+    "lat": 59.3176,
+    "lon": 24.4251,
+    "wind": {},
+    "sources": {
+      "pge": "10666"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10666"
+  },
+  {
+    "id": "PSF-001378",
+    "name": "Tabasalu",
+    "lat": 59.438,
+    "lon": 24.5406,
+    "wind": {
+      "N": 1,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "11651"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11651"
+  },
+  {
+    "id": "PSF-003279",
+    "name": "Nurmsi Airfield",
+    "lat": 58.865,
+    "lon": 25.7341,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14837"
+  },
+  {
+    "id": "PSF-005641",
+    "name": "Paldiski",
+    "lat": 59.3818,
+    "lon": 24.0363,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19271"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19271"
+  },
+  {
+    "id": "PSF-005642",
+    "name": "Turisalu",
+    "lat": 59.4208,
+    "lon": 24.3238,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19272"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19272"
+  },
+  {
+    "id": "PSF-006863",
+    "name": "Päite",
+    "lat": 59.4143,
+    "lon": 27.6301,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21861"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21861"
+  },
+  {
+    "id": "PSF-006864",
+    "name": "Alajõe",
+    "lat": 59.0075,
+    "lon": 27.4432,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "21862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21862"
+  },
+  {
+    "id": "PSF-006865",
+    "name": "Kakumäe",
+    "lat": 59.4481,
+    "lon": 24.6083,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "21863"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21863"
+  },
+  {
+    "id": "PSF-006866",
+    "name": "Tehumardi",
+    "lat": 58.1839,
+    "lon": 22.2626,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "21864"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21864"
+  },
+  {
+    "id": "PSF-006867",
+    "name": "Laulasmaa",
+    "lat": 59.3794,
+    "lon": 24.2272,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21865"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21865"
+  },
+  {
+    "id": "PSF-006868",
+    "name": "Võhma",
+    "lat": 58.651,
+    "lon": 25.5662,
+    "wind": {
+      "N": 2,
+      "SE": 1,
+      "S": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21866"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21866"
+  },
+  {
+    "id": "PSF-008580",
+    "name": "Toila",
+    "lat": 59.43,
+    "lon": 27.488,
+    "wind": {},
+    "sources": {
+      "pge": "23807"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23807"
+  },
+  {
+    "id": "PSF-008606",
+    "name": "Rapla North",
+    "lat": 58.9995,
+    "lon": 24.7049,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23836"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23836"
+  },
+  {
+    "id": "PSF-008619",
+    "name": "Paldiski East",
+    "lat": 59.3601,
+    "lon": 24.1545,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "23850"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23850"
+  }
+]

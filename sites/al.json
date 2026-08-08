@@ -1,0 +1,178 @@
+[
+  {
+    "id": "PSF-000513",
+    "name": "Kanine",
+    "lat": 40.4103,
+    "lon": 19.5073,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10597"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10597"
+  },
+  {
+    "id": "PSF-001208",
+    "name": "Eagles-Sky",
+    "lat": 40.3732,
+    "lon": 19.5331,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11442"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11442"
+  },
+  {
+    "id": "PSF-002089",
+    "name": "Drymades beach",
+    "lat": 40.1598,
+    "lon": 19.6034,
+    "wind": {},
+    "sources": {
+      "pge": "12960"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12960"
+  },
+  {
+    "id": "PSF-002170",
+    "name": "Dajti",
+    "lat": 41.3692,
+    "lon": 19.9039,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13095"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13095"
+  },
+  {
+    "id": "PSF-002171",
+    "name": "Dhermi",
+    "lat": 40.1884,
+    "lon": 19.5993,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "13097"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13097"
+  },
+  {
+    "id": "PSF-002172",
+    "name": "Llogara Antenna",
+    "lat": 40.1988,
+    "lon": 19.5727,
+    "wind": {
+      "E": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13098"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13098"
+  },
+  {
+    "id": "PSF-002699",
+    "name": "Pusi Thate",
+    "lat": 42.116,
+    "lon": 20.3927,
+    "wind": {},
+    "sources": {
+      "pge": "13962"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13962"
+  },
+  {
+    "id": "PSF-003651",
+    "name": "korca take off",
+    "lat": 40.6106,
+    "lon": 20.8138,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15448"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15448"
+  },
+  {
+    "id": "PSF-007801",
+    "name": "Gjirokastra",
+    "lat": 40.1726,
+    "lon": 20.1696,
+    "wind": {},
+    "sources": {
+      "pge": "22932"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22932"
+  },
+  {
+    "id": "PSF-007802",
+    "name": "Gjirokastra",
+    "lat": 40.1687,
+    "lon": 20.1706,
+    "wind": {},
+    "sources": {
+      "pge": "22933"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22933"
+  },
+  {
+    "id": "PSF-008584",
+    "name": "Landeplatz",
+    "lat": 40.1713,
+    "lon": 19.5817,
+    "wind": {},
+    "sources": {
+      "pge": "23811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23811"
+  },
+  {
+    "id": "PSF-008585",
+    "name": "Morgen Tomorr 2400m",
+    "lat": 40.637,
+    "lon": 20.1596,
+    "wind": {
+      "E": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23812"
+  }
+]

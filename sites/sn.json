@@ -1,0 +1,14 @@
+[
+  {
+    "id": "PSF-008420",
+    "name": "Dakar",
+    "lat": 14.7125,
+    "lon": -17.489,
+    "wind": {},
+    "sources": {
+      "pge": "23617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23617"
+  }
+]

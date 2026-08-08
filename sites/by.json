@@ -1,0 +1,54 @@
+[
+  {
+    "id": "PSF-005274",
+    "name": "Krutaja Hara (Anoshki)",
+    "lat": 54.085,
+    "lon": 27.874,
+    "wind": {
+      "N": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18314"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18314"
+  },
+  {
+    "id": "PSF-005275",
+    "name": "Varonickae Balota (Viezhy)",
+    "lat": 53.31,
+    "lon": 27.67,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18315"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18315"
+  },
+  {
+    "id": "PSF-005507",
+    "name": "Zaozerje",
+    "lat": 54.1759,
+    "lon": 27.8719,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18840"
+  }
+]

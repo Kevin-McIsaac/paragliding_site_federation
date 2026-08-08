@@ -1,0 +1,137 @@
+[
+  {
+    "id": "PSF-002129",
+    "name": "ÃŒkatÃ¨q",
+    "lat": 65.6384,
+    "lon": -37.9397,
+    "wind": {},
+    "sources": {
+      "pge": "13025"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13025"
+  },
+  {
+    "id": "PSF-004350",
+    "name": "Isortoq",
+    "lat": 60.9837,
+    "lon": -47.5242,
+    "wind": {},
+    "sources": {
+      "pge": "16539"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16539"
+  },
+  {
+    "id": "PSF-004392",
+    "name": "Nunarsuit- paramotor bay",
+    "lat": 60.8233,
+    "lon": -47.9901,
+    "wind": {},
+    "sources": {
+      "pge": "16607"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16607"
+  },
+  {
+    "id": "PSF-004599",
+    "name": "Qinngorput. Nuuk",
+    "lat": 64.1909,
+    "lon": -51.6554,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16972"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16972"
+  },
+  {
+    "id": "PSF-006320",
+    "name": "Maligiaq",
+    "lat": 66.9696,
+    "lon": -52.6319,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "21231"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21231"
+  },
+  {
+    "id": "PSF-008440",
+    "name": "Nuuk city",
+    "lat": 64.1722,
+    "lon": -51.7489,
+    "wind": {},
+    "sources": {
+      "pge": "23640"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23640"
+  },
+  {
+    "id": "PSF-008441",
+    "name": "Narsaq",
+    "lat": 60.9151,
+    "lon": -46.013,
+    "wind": {},
+    "sources": {
+      "pge": "23641"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23641"
+  },
+  {
+    "id": "PSF-008442",
+    "name": "Nasassaq seddle",
+    "lat": 66.9279,
+    "lon": -53.5868,
+    "wind": {},
+    "sources": {
+      "pge": "23642"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23642"
+  },
+  {
+    "id": "PSF-008443",
+    "name": "Canoe center",
+    "lat": 66.906,
+    "lon": -51.7806,
+    "wind": {},
+    "sources": {
+      "pge": "23643"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23643"
+  },
+  {
+    "id": "PSF-011059",
+    "name": "Nuuk Area",
+    "lat": 64.19,
+    "lon": -51.65,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9275"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9275"
+  }
+]

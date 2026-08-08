@@ -1,0 +1,95 @@
+[
+  {
+    "id": "PSF-000114",
+    "name": "Roghi",
+    "lat": 46.7758,
+    "lon": 28.2138,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10137"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10137"
+  },
+  {
+    "id": "PSF-000438",
+    "name": "Rogi - Dachi",
+    "lat": 47.3352,
+    "lon": 29.1665,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10501"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10501"
+  },
+  {
+    "id": "PSF-003717",
+    "name": "Imasu Negureni",
+    "lat": 47.5687,
+    "lon": 28.5132,
+    "wind": {},
+    "sources": {
+      "pge": "15547"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15547"
+  },
+  {
+    "id": "PSF-008156",
+    "name": "Firladeni",
+    "lat": 46.7851,
+    "lon": 29.287,
+    "wind": {},
+    "sources": {
+      "pge": "23314"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23314"
+  },
+  {
+    "id": "PSF-008700",
+    "name": "Molovata",
+    "lat": 47.3638,
+    "lon": 29.0769,
+    "wind": {},
+    "sources": {
+      "pge": "23943"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23943"
+  },
+  {
+    "id": "PSF-008701",
+    "name": "Trebujeni south",
+    "lat": 47.3099,
+    "lon": 28.9615,
+    "wind": {},
+    "sources": {
+      "pge": "23944"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23944"
+  },
+  {
+    "id": "PSF-008702",
+    "name": "Trebujeni west",
+    "lat": 47.3087,
+    "lon": 28.9922,
+    "wind": {},
+    "sources": {
+      "pge": "23945"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23945"
+  }
+]

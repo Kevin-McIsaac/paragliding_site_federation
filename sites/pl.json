@@ -1,0 +1,2713 @@
+[
+  {
+    "id": "PSF-000139",
+    "name": "Dzialy",
+    "lat": 49.7374,
+    "lon": 21.8408,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10163"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10163"
+  },
+  {
+    "id": "PSF-000140",
+    "name": "Iskszynia",
+    "lat": 49.6546,
+    "lon": 21.8202,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10164"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10164"
+  },
+  {
+    "id": "PSF-000390",
+    "name": "Cergowa",
+    "lat": 49.5319,
+    "lon": 21.7188,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10445"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10445"
+  },
+  {
+    "id": "PSF-000445",
+    "name": "Ciecien",
+    "lat": 49.7711,
+    "lon": 20.1401,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10510"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10510"
+  },
+  {
+    "id": "PSF-000569",
+    "name": "Jeżów Sudecki - Góra Szybowcowa",
+    "lat": 50.9441,
+    "lon": 15.7644,
+    "wind": {
+      "N": 1,
+      "E": 1,
+      "S": 1,
+      "SW": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10667"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10667"
+  },
+  {
+    "id": "PSF-000582",
+    "name": "Góra Siewierska",
+    "lat": 50.3955,
+    "lon": 19.0829,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10683"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10683"
+  },
+  {
+    "id": "PSF-000583",
+    "name": "Ma?a Czantoria",
+    "lat": 49.6948,
+    "lon": 18.7781,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10684"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10684"
+  },
+  {
+    "id": "PSF-000584",
+    "name": "Mała Czantoria NE",
+    "lat": 49.6982,
+    "lon": 18.7837,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "10685"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10685"
+  },
+  {
+    "id": "PSF-000703",
+    "name": "Mszana",
+    "lat": 49.4808,
+    "lon": 21.646,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "10827"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10827"
+  },
+  {
+    "id": "PSF-000784",
+    "name": "Lubon Wielki",
+    "lat": 49.6526,
+    "lon": 19.9925,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10918"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10918"
+  },
+  {
+    "id": "PSF-000829",
+    "name": "Stradomka",
+    "lat": 49.9194,
+    "lon": 20.3151,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10971"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10971"
+  },
+  {
+    "id": "PSF-000847",
+    "name": "Czeszka",
+    "lat": 50.6288,
+    "lon": 16.6067,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "10999"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10999"
+  },
+  {
+    "id": "PSF-000896",
+    "name": "Mrzezino",
+    "lat": 54.6495,
+    "lon": 18.428,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11057"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11057"
+  },
+  {
+    "id": "PSF-000947",
+    "name": "Tarnica",
+    "lat": 49.075,
+    "lon": 22.7266,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11111"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11111"
+  },
+  {
+    "id": "PSF-001043",
+    "name": "Roztoki Gorne",
+    "lat": 49.145,
+    "lon": 22.3543,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11228"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11228"
+  },
+  {
+    "id": "PSF-001096",
+    "name": "Mrzezino g. wsch.",
+    "lat": 54.6607,
+    "lon": 18.4603,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "11307"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11307"
+  },
+  {
+    "id": "PSF-001115",
+    "name": "Nowe Marzy",
+    "lat": 53.4678,
+    "lon": 18.6479,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11329"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11329"
+  },
+  {
+    "id": "PSF-001152",
+    "name": "leszno",
+    "lat": 51.8355,
+    "lon": 16.5292,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11375"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11375"
+  },
+  {
+    "id": "PSF-001222",
+    "name": "Stog Izersky",
+    "lat": 50.8922,
+    "lon": 15.3094,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "11459"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11459"
+  },
+  {
+    "id": "PSF-001286",
+    "name": "Che?m k. Grybowa",
+    "lat": 49.5976,
+    "lon": 20.9983,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11535"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11535"
+  },
+  {
+    "id": "PSF-001313",
+    "name": "Wierchomla",
+    "lat": 49.4123,
+    "lon": 20.8336,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11570"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11570"
+  },
+  {
+    "id": "PSF-001603",
+    "name": "Krynica M.",
+    "lat": 54.3806,
+    "lon": 19.4122,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12074"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12074"
+  },
+  {
+    "id": "PSF-001612",
+    "name": "Gołogłowy",
+    "lat": 50.4726,
+    "lon": 16.6237,
+    "wind": {
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "12087"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12087"
+  },
+  {
+    "id": "PSF-001613",
+    "name": "Snieznica",
+    "lat": 49.7167,
+    "lon": 20.1762,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12088"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12088"
+  },
+  {
+    "id": "PSF-001620",
+    "name": "Mszana 1",
+    "lat": 49.4883,
+    "lon": 21.6755,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12102"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12102"
+  },
+  {
+    "id": "PSF-001637",
+    "name": "Michalkow",
+    "lat": 51.6715,
+    "lon": 17.9192,
+    "wind": {},
+    "sources": {
+      "pge": "12125"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12125"
+  },
+  {
+    "id": "PSF-001670",
+    "name": "Stegna",
+    "lat": 54.3469,
+    "lon": 19.1179,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "12177"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12177"
+  },
+  {
+    "id": "PSF-001719",
+    "name": "Turbia",
+    "lat": 50.6274,
+    "lon": 22.0017,
+    "wind": {},
+    "sources": {
+      "pge": "12259"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12259"
+  },
+  {
+    "id": "PSF-001956",
+    "name": "Rowy",
+    "lat": 54.6578,
+    "lon": 17.0336,
+    "wind": {},
+    "sources": {
+      "pge": "12726"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12726"
+  },
+  {
+    "id": "PSF-002055",
+    "name": "Czaszyn",
+    "lat": 49.4503,
+    "lon": 22.2281,
+    "wind": {},
+    "sources": {
+      "pge": "12908"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12908"
+  },
+  {
+    "id": "PSF-002056",
+    "name": "Leki Koscielne",
+    "lat": 52.1712,
+    "lon": 19.4944,
+    "wind": {},
+    "sources": {
+      "pge": "12909"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12909"
+  },
+  {
+    "id": "PSF-002059",
+    "name": "Biskupice",
+    "lat": 50.6948,
+    "lon": 19.2872,
+    "wind": {},
+    "sources": {
+      "pge": "12913"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12913"
+  },
+  {
+    "id": "PSF-002063",
+    "name": "Tatry - Kopa",
+    "lat": 49.2549,
+    "lon": 20.0037,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12921"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12921"
+  },
+  {
+    "id": "PSF-002163",
+    "name": "KWB Belchatow",
+    "lat": 51.232,
+    "lon": 19.2921,
+    "wind": {},
+    "sources": {
+      "pge": "13082"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13082"
+  },
+  {
+    "id": "PSF-002252",
+    "name": "Zory",
+    "lat": 50.0254,
+    "lon": 18.6272,
+    "wind": {},
+    "sources": {
+      "pge": "13214"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13214"
+  },
+  {
+    "id": "PSF-002253",
+    "name": "Łysa Góra",
+    "lat": 50.6935,
+    "lon": 16.6422,
+    "wind": {},
+    "sources": {
+      "pge": "13215"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13215"
+  },
+  {
+    "id": "PSF-002255",
+    "name": "Kuraszków",
+    "lat": 51.3153,
+    "lon": 16.9546,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13217"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13217"
+  },
+  {
+    "id": "PSF-002293",
+    "name": "Prace Male - soccer field",
+    "lat": 51.9805,
+    "lon": 20.8995,
+    "wind": {},
+    "sources": {
+      "pge": "13282"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13282"
+  },
+  {
+    "id": "PSF-002417",
+    "name": "Kudowa-Czermna",
+    "lat": 50.4596,
+    "lon": 16.2499,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "13488"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13488"
+  },
+  {
+    "id": "PSF-002721",
+    "name": "Konarzyny",
+    "lat": 53.8123,
+    "lon": 17.3287,
+    "wind": {},
+    "sources": {
+      "pge": "13989"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13989"
+  },
+  {
+    "id": "PSF-002722",
+    "name": "Korne",
+    "lat": 54.1277,
+    "lon": 17.8515,
+    "wind": {},
+    "sources": {
+      "pge": "13990"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13990"
+  },
+  {
+    "id": "PSF-002917",
+    "name": "Wolowiec",
+    "lat": 49.211,
+    "lon": 19.7621,
+    "wind": {},
+    "sources": {
+      "pge": "14305"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14305"
+  },
+  {
+    "id": "PSF-003042",
+    "name": "Konczysty",
+    "lat": 49.2062,
+    "lon": 19.8079,
+    "wind": {},
+    "sources": {
+      "pge": "14459"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14459"
+  },
+  {
+    "id": "PSF-003229",
+    "name": "Kwadrat",
+    "lat": 49.4887,
+    "lon": 20.0941,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14773"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14773"
+  },
+  {
+    "id": "PSF-003252",
+    "name": "Obarzym",
+    "lat": 49.7083,
+    "lon": 22.1871,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "14798"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14798"
+  },
+  {
+    "id": "PSF-003326",
+    "name": "Runow",
+    "lat": 52.0159,
+    "lon": 20.9491,
+    "wind": {},
+    "sources": {
+      "pge": "14900"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14900"
+  },
+  {
+    "id": "PSF-003329",
+    "name": "Stegna",
+    "lat": 54.3438,
+    "lon": 19.0432,
+    "wind": {},
+    "sources": {
+      "pge": "14903"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14903"
+  },
+  {
+    "id": "PSF-003336",
+    "name": "Jastrzębia Góra",
+    "lat": 54.8351,
+    "lon": 18.3038,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "14920"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14920"
+  },
+  {
+    "id": "PSF-003367",
+    "name": "Szczebel",
+    "lat": 49.6895,
+    "lon": 20.0114,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "14966"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14966"
+  },
+  {
+    "id": "PSF-003381",
+    "name": "Jarmuta",
+    "lat": 49.4135,
+    "lon": 20.5077,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14993"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14993"
+  },
+  {
+    "id": "PSF-003389",
+    "name": "Tatry - Kopa",
+    "lat": 49.2321,
+    "lon": 19.9815,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15006"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15006"
+  },
+  {
+    "id": "PSF-003530",
+    "name": "Wiag",
+    "lat": 53.4187,
+    "lon": 18.5182,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15240"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15240"
+  },
+  {
+    "id": "PSF-003531",
+    "name": "Janikowa Grappa",
+    "lat": 49.6634,
+    "lon": 19.3253,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "15241"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15241"
+  },
+  {
+    "id": "PSF-003796",
+    "name": "Krynica Morska",
+    "lat": 54.3887,
+    "lon": 19.4479,
+    "wind": {
+      "N": 2,
+      "NE": 1
+    },
+    "sources": {
+      "pge": "15665"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15665"
+  },
+  {
+    "id": "PSF-004061",
+    "name": "Zlotoria",
+    "lat": 53.2011,
+    "lon": 22.9142,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16082"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16082"
+  },
+  {
+    "id": "PSF-004096",
+    "name": "preis",
+    "lat": 49.5218,
+    "lon": 22.4099,
+    "wind": {},
+    "sources": {
+      "pge": "16121"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16121"
+  },
+  {
+    "id": "PSF-004120",
+    "name": "Salasz",
+    "lat": 49.7261,
+    "lon": 20.4701,
+    "wind": {},
+    "sources": {
+      "pge": "16153"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16153"
+  },
+  {
+    "id": "PSF-004136",
+    "name": "Bloczek",
+    "lat": 53.2125,
+    "lon": 18.1736,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "16176"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16176"
+  },
+  {
+    "id": "PSF-004174",
+    "name": "Unislaw",
+    "lat": 53.2157,
+    "lon": 18.3781,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16260"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16260"
+  },
+  {
+    "id": "PSF-004186",
+    "name": "Czarna Góra",
+    "lat": 49.3817,
+    "lon": 20.1211,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16279"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16279"
+  },
+  {
+    "id": "PSF-004192",
+    "name": "Osiek",
+    "lat": 51.3514,
+    "lon": 16.2389,
+    "wind": {},
+    "sources": {
+      "pge": "16288"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16288"
+  },
+  {
+    "id": "PSF-004196",
+    "name": "Inowrocław",
+    "lat": 52.8067,
+    "lon": 18.2901,
+    "wind": {},
+    "sources": {
+      "pge": "16293"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16293"
+  },
+  {
+    "id": "PSF-004247",
+    "name": "Oleśnica",
+    "lat": 51.2179,
+    "lon": 17.4432,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16361"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16361"
+  },
+  {
+    "id": "PSF-004272",
+    "name": "Swiebodzin",
+    "lat": 52.2482,
+    "lon": 15.5728,
+    "wind": {},
+    "sources": {
+      "pge": "16404"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16404"
+  },
+  {
+    "id": "PSF-004390",
+    "name": "Obora",
+    "lat": 51.4309,
+    "lon": 16.1059,
+    "wind": {},
+    "sources": {
+      "pge": "16604"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16604"
+  },
+  {
+    "id": "PSF-004504",
+    "name": "Chełmsko Śląskie - Góra Róg",
+    "lat": 50.6689,
+    "lon": 16.1016,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16815"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16815"
+  },
+  {
+    "id": "PSF-004515",
+    "name": "Stary Lubin",
+    "lat": 51.3854,
+    "lon": 16.1798,
+    "wind": {},
+    "sources": {
+      "pge": "16834"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16834"
+  },
+  {
+    "id": "PSF-004553",
+    "name": "Krepa Slupsk EPSR",
+    "lat": 54.4095,
+    "lon": 17.092,
+    "wind": {},
+    "sources": {
+      "pge": "16901"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16901"
+  },
+  {
+    "id": "PSF-004738",
+    "name": "Ustka-Rowy",
+    "lat": 54.5933,
+    "lon": 16.8989,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "17251"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17251"
+  },
+  {
+    "id": "PSF-004760",
+    "name": "Konaszewski",
+    "lat": 54.4732,
+    "lon": 16.9531,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17291"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17291"
+  },
+  {
+    "id": "PSF-004899",
+    "name": "Rogoznica",
+    "lat": 50.9985,
+    "lon": 16.3035,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17520"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17520"
+  },
+  {
+    "id": "PSF-004935",
+    "name": "Szwejkówko",
+    "lat": 53.7783,
+    "lon": 21.8951,
+    "wind": {},
+    "sources": {
+      "pge": "17576"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17576"
+  },
+  {
+    "id": "PSF-005049",
+    "name": "Ćwilin",
+    "lat": 49.6856,
+    "lon": 20.1927,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "17792"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17792"
+  },
+  {
+    "id": "PSF-005061",
+    "name": "Mszana Paryj",
+    "lat": 49.5107,
+    "lon": 21.6534,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17829"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17829"
+  },
+  {
+    "id": "PSF-005091",
+    "name": "Babia Hora",
+    "lat": 49.5715,
+    "lon": 19.5286,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "17885"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17885"
+  },
+  {
+    "id": "PSF-005114",
+    "name": "Parski",
+    "lat": 53.5252,
+    "lon": 18.7634,
+    "wind": {
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17926"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17926"
+  },
+  {
+    "id": "PSF-005215",
+    "name": "Malomicka",
+    "lat": 51.414,
+    "lon": 16.2149,
+    "wind": {},
+    "sources": {
+      "pge": "18137"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18137"
+  },
+  {
+    "id": "PSF-005223",
+    "name": "Kroczewo",
+    "lat": 52.4732,
+    "lon": 20.5377,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18168"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18168"
+  },
+  {
+    "id": "PSF-005243",
+    "name": "RUDNA PPG",
+    "lat": 51.5221,
+    "lon": 16.2672,
+    "wind": {},
+    "sources": {
+      "pge": "18221"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18221"
+  },
+  {
+    "id": "PSF-005321",
+    "name": "Malolaczniak",
+    "lat": 49.2363,
+    "lon": 19.9178,
+    "wind": {},
+    "sources": {
+      "pge": "18451"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18451"
+  },
+  {
+    "id": "PSF-005331",
+    "name": "Debrzno",
+    "lat": 53.5242,
+    "lon": 17.2565,
+    "wind": {},
+    "sources": {
+      "pge": "18483"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18483"
+  },
+  {
+    "id": "PSF-005340",
+    "name": "Lisie",
+    "lat": 53.5163,
+    "lon": 18.8643,
+    "wind": {},
+    "sources": {
+      "pge": "18514"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18514"
+  },
+  {
+    "id": "PSF-005345",
+    "name": "Szukalowy Garb",
+    "lat": 49.4828,
+    "lon": 22.6501,
+    "wind": {},
+    "sources": {
+      "pge": "18524"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18524"
+  },
+  {
+    "id": "PSF-005346",
+    "name": "Chudow",
+    "lat": 50.2121,
+    "lon": 18.7896,
+    "wind": {},
+    "sources": {
+      "pge": "18525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18525"
+  },
+  {
+    "id": "PSF-005349",
+    "name": "Binowo",
+    "lat": 53.293,
+    "lon": 14.6566,
+    "wind": {},
+    "sources": {
+      "pge": "18532"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18532"
+  },
+  {
+    "id": "PSF-005359",
+    "name": "Krajno",
+    "lat": 50.8964,
+    "lon": 20.8207,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18606"
+  },
+  {
+    "id": "PSF-005372",
+    "name": "Koźlice",
+    "lat": 51.4523,
+    "lon": 16.2364,
+    "wind": {},
+    "sources": {
+      "pge": "18625"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18625"
+  },
+  {
+    "id": "PSF-005394",
+    "name": "Jaworzyna Krynicka",
+    "lat": 49.4133,
+    "lon": 20.8993,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "18656"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18656"
+  },
+  {
+    "id": "PSF-005406",
+    "name": "Trzebielino",
+    "lat": 54.2084,
+    "lon": 17.0723,
+    "wind": {},
+    "sources": {
+      "pge": "18674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18674"
+  },
+  {
+    "id": "PSF-005571",
+    "name": "Holica",
+    "lat": 49.4062,
+    "lon": 22.5438,
+    "wind": {},
+    "sources": {
+      "pge": "19071"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19071"
+  },
+  {
+    "id": "PSF-005741",
+    "name": "Grzes",
+    "lat": 49.2362,
+    "lon": 19.7665,
+    "wind": {
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19417"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19417"
+  },
+  {
+    "id": "PSF-005742",
+    "name": "Gubalowka",
+    "lat": 49.3067,
+    "lon": 19.9356,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19418"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19418"
+  },
+  {
+    "id": "PSF-005743",
+    "name": "Nosal",
+    "lat": 49.278,
+    "lon": 19.9885,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19419"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19419"
+  },
+  {
+    "id": "PSF-005744",
+    "name": "Harenda",
+    "lat": 49.3248,
+    "lon": 19.9759,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19420"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19420"
+  },
+  {
+    "id": "PSF-005956",
+    "name": "Jeziorsko Popów",
+    "lat": 51.8385,
+    "lon": 18.719,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19717"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19717"
+  },
+  {
+    "id": "PSF-006046",
+    "name": "Grzmiąca",
+    "lat": 50.6953,
+    "lon": 16.3281,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19824"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19824"
+  },
+  {
+    "id": "PSF-006190",
+    "name": "Roh",
+    "lat": 49.1605,
+    "lon": 22.5466,
+    "wind": {},
+    "sources": {
+      "pge": "20066"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20066"
+  },
+  {
+    "id": "PSF-006298",
+    "name": "Debina",
+    "lat": 54.637,
+    "lon": 17.0033,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21205"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21205"
+  },
+  {
+    "id": "PSF-006417",
+    "name": "Seroki Wieś",
+    "lat": 52.2015,
+    "lon": 20.4544,
+    "wind": {},
+    "sources": {
+      "pge": "21357"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21357"
+  },
+  {
+    "id": "PSF-006418",
+    "name": "Stare Kozłowice",
+    "lat": 52.0898,
+    "lon": 20.4112,
+    "wind": {},
+    "sources": {
+      "pge": "21358"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21358"
+  },
+  {
+    "id": "PSF-006634",
+    "name": "Rogożnica",
+    "lat": 50.9975,
+    "lon": 16.3011,
+    "wind": {},
+    "sources": {
+      "pge": "21606"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21606"
+  },
+  {
+    "id": "PSF-006682",
+    "name": "Losiowe Gory- Moose Hills",
+    "lat": 53.5566,
+    "lon": 18.7673,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "21664"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21664"
+  },
+  {
+    "id": "PSF-006728",
+    "name": "Gdańsk - Nowy Port",
+    "lat": 54.4079,
+    "lon": 18.6529,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21714"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21714"
+  },
+  {
+    "id": "PSF-006742",
+    "name": "Chłapowo",
+    "lat": 54.811,
+    "lon": 18.3726,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "21731"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21731"
+  },
+  {
+    "id": "PSF-006796",
+    "name": "Plaża Białogóra",
+    "lat": 54.83,
+    "lon": 18.0011,
+    "wind": {
+      "N": 1
+    },
+    "sources": {
+      "pge": "21788"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21788"
+  },
+  {
+    "id": "PSF-006924",
+    "name": "Piła",
+    "lat": 53.1698,
+    "lon": 16.7116,
+    "wind": {},
+    "sources": {
+      "pge": "21924"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21924"
+  },
+  {
+    "id": "PSF-007244",
+    "name": "EPKZ Aeroklub Koszalinski",
+    "lat": 54.0477,
+    "lon": 16.2802,
+    "wind": {},
+    "sources": {
+      "pge": "22305"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22305"
+  },
+  {
+    "id": "PSF-007307",
+    "name": "Dobre",
+    "lat": 51.2872,
+    "lon": 21.8863,
+    "wind": {},
+    "sources": {
+      "pge": "22374"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22374"
+  },
+  {
+    "id": "PSF-007379",
+    "name": "Mielnik",
+    "lat": 50.3555,
+    "lon": 16.6618,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22454"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22454"
+  },
+  {
+    "id": "PSF-007380",
+    "name": "Sędzisz",
+    "lat": 50.3531,
+    "lon": 16.7131,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22455"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22455"
+  },
+  {
+    "id": "PSF-007381",
+    "name": "Sędzisz N",
+    "lat": 50.3546,
+    "lon": 16.7139,
+    "wind": {},
+    "sources": {
+      "pge": "22456"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22456"
+  },
+  {
+    "id": "PSF-007382",
+    "name": "Gniewoszów",
+    "lat": 50.1964,
+    "lon": 16.5888,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "22457"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22457"
+  },
+  {
+    "id": "PSF-007383",
+    "name": "Kukułka",
+    "lat": 50.4427,
+    "lon": 16.71,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "22458"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22458"
+  },
+  {
+    "id": "PSF-007384",
+    "name": "Mąkolno",
+    "lat": 50.4501,
+    "lon": 16.8494,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "22459"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22459"
+  },
+  {
+    "id": "PSF-007385",
+    "name": "Jagodna",
+    "lat": 50.2552,
+    "lon": 16.5663,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22460"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22460"
+  },
+  {
+    "id": "PSF-007386",
+    "name": "Urwista",
+    "lat": 50.1446,
+    "lon": 16.7329,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22461"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22461"
+  },
+  {
+    "id": "PSF-007622",
+    "name": "Akwarium",
+    "lat": 54.5181,
+    "lon": 18.5588,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "22723"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22723"
+  },
+  {
+    "id": "PSF-008096",
+    "name": "Huta",
+    "lat": 50.3326,
+    "lon": 16.5456,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "23246"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23246"
+  },
+  {
+    "id": "PSF-008105",
+    "name": "EPZP PRZYLEP - ZIELONA GÓRA",
+    "lat": 51.9789,
+    "lon": 15.4637,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23257"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23257"
+  },
+  {
+    "id": "PSF-008108",
+    "name": "Zieleniec",
+    "lat": 50.3357,
+    "lon": 16.381,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "23260"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23260"
+  },
+  {
+    "id": "PSF-008155",
+    "name": "Lotniskowiec Małuszów",
+    "lat": 51.1069,
+    "lon": 16.1651,
+    "wind": {},
+    "sources": {
+      "pge": "23313"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23313"
+  },
+  {
+    "id": "PSF-008557",
+    "name": "Borowa",
+    "lat": 51.1883,
+    "lon": 17.2947,
+    "wind": {},
+    "sources": {
+      "pge": "23779"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23779"
+  },
+  {
+    "id": "PSF-008651",
+    "name": "Wojcieszów",
+    "lat": 50.9685,
+    "lon": 15.9251,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23892"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23892"
+  },
+  {
+    "id": "PSF-009906",
+    "name": "Michalkow",
+    "lat": 51.6958,
+    "lon": 17.8486,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7084"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7084"
+  },
+  {
+    "id": "PSF-009907",
+    "name": "Janowiec",
+    "lat": 51.324,
+    "lon": 21.9097,
+    "wind": {},
+    "sources": {
+      "pge": "7085"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7085"
+  },
+  {
+    "id": "PSF-010096",
+    "name": "Żar",
+    "lat": 49.7869,
+    "lon": 19.225,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7332"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7332"
+  },
+  {
+    "id": "PSF-010097",
+    "name": "Skrzyczne",
+    "lat": 49.6853,
+    "lon": 19.0311,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7333"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7333"
+  },
+  {
+    "id": "PSF-010179",
+    "name": "Andrzejówka",
+    "lat": 50.6923,
+    "lon": 16.2762,
+    "wind": {
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7493"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7493"
+  },
+  {
+    "id": "PSF-010180",
+    "name": "Babie DoÅ‚y",
+    "lat": 54.5814,
+    "lon": 18.5408,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7494"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7494"
+  },
+  {
+    "id": "PSF-010181",
+    "name": "BartÃ„â€¦Ã…Â¼ek",
+    "lat": 53.706,
+    "lon": 20.5044,
+    "wind": {
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7495"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7495"
+  },
+  {
+    "id": "PSF-010182",
+    "name": "Bezmiechowa",
+    "lat": 49.5206,
+    "lon": 22.4097,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "7496"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7496"
+  },
+  {
+    "id": "PSF-010183",
+    "name": "Bialystok - Krywlany",
+    "lat": 53.103,
+    "lon": 23.1715,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7497"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7497"
+  },
+  {
+    "id": "PSF-010184",
+    "name": "Borsk",
+    "lat": 53.9518,
+    "lon": 17.9431,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7498"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7498"
+  },
+  {
+    "id": "PSF-010185",
+    "name": "Bukowiec",
+    "lat": 50.7,
+    "lon": 16.2542,
+    "wind": {
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7499"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7499"
+  },
+  {
+    "id": "PSF-010186",
+    "name": "Bukowiec - półka",
+    "lat": 50.7053,
+    "lon": 16.2556,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7500"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7500"
+  },
+  {
+    "id": "PSF-010187",
+    "name": "Chełmiec",
+    "lat": 50.7797,
+    "lon": 16.2144,
+    "wind": {
+      "E": 1
+    },
+    "sources": {
+      "pge": "7501"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7501"
+  },
+  {
+    "id": "PSF-010188",
+    "name": "Chlapowo",
+    "lat": 54.806,
+    "lon": 18.3869,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "7502"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7502"
+  },
+  {
+    "id": "PSF-010189",
+    "name": "Czarna Góra",
+    "lat": 50.2531,
+    "lon": 16.8079,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7503"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7503"
+  },
+  {
+    "id": "PSF-010190",
+    "name": "CzoÅ‚o",
+    "lat": 50.7544,
+    "lon": 15.8174,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "7504"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7504"
+  },
+  {
+    "id": "PSF-010191",
+    "name": "Dzikowiec",
+    "lat": 50.7206,
+    "lon": 16.2111,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "7505"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7505"
+  },
+  {
+    "id": "PSF-010192",
+    "name": "Dźwiniacz",
+    "lat": 49.4636,
+    "lon": 22.5367,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "7507"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7507"
+  },
+  {
+    "id": "PSF-010193",
+    "name": "Gdynia OrÅ‚owo - upper",
+    "lat": 54.4848,
+    "lon": 18.5673,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7508"
+  },
+  {
+    "id": "PSF-010194",
+    "name": "Gdynia Orłowo - lower",
+    "lat": 54.479,
+    "lon": 18.5632,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "7509"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7509"
+  },
+  {
+    "id": "PSF-010195",
+    "name": "Janowiec - skarpa SW",
+    "lat": 51.324,
+    "lon": 21.9067,
+    "wind": {
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7510"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7510"
+  },
+  {
+    "id": "PSF-010196",
+    "name": "Janowiec - skarpa S",
+    "lat": 51.324,
+    "lon": 21.9097,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "7511"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7511"
+  },
+  {
+    "id": "PSF-010197",
+    "name": "Janowiec - Ã…â€šÃ„â€¦ka 1",
+    "lat": 51.3261,
+    "lon": 21.9194,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "7512"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7512"
+  },
+  {
+    "id": "PSF-010198",
+    "name": "Janowiec - Ã…â€šÃ„â€¦ka 2",
+    "lat": 51.327,
+    "lon": 21.9239,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "7513"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7513"
+  },
+  {
+    "id": "PSF-010199",
+    "name": "Jeziorany - School slope",
+    "lat": 53.9613,
+    "lon": 20.7089,
+    "wind": {
+      "W": 1
+    },
+    "sources": {
+      "pge": "7514"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7514"
+  },
+  {
+    "id": "PSF-010200",
+    "name": "Jeziorany",
+    "lat": 53.9539,
+    "lon": 20.6951,
+    "wind": {
+      "E": 1
+    },
+    "sources": {
+      "pge": "7515"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7515"
+  },
+  {
+    "id": "PSF-010201",
+    "name": "Kamienna Laworta",
+    "lat": 49.4447,
+    "lon": 22.5819,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "7516"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7516"
+  },
+  {
+    "id": "PSF-010202",
+    "name": "Kamień Slaski",
+    "lat": 50.5285,
+    "lon": 18.0836,
+    "wind": {
+      "E": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7517"
+  },
+  {
+    "id": "PSF-010203",
+    "name": "Katowice - Muchowiec",
+    "lat": 50.2362,
+    "lon": 19.0337,
+    "wind": {},
+    "sources": {
+      "pge": "7518"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7518"
+  },
+  {
+    "id": "PSF-010204",
+    "name": "Klonówka",
+    "lat": 50.9122,
+    "lon": 20.7556,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7519"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7519"
+  },
+  {
+    "id": "PSF-010205",
+    "name": "Konarzyny",
+    "lat": 53.8298,
+    "lon": 17.3682,
+    "wind": {},
+    "sources": {
+      "pge": "7520"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7520"
+  },
+  {
+    "id": "PSF-010206",
+    "name": "Konopki",
+    "lat": 52.9885,
+    "lon": 20.5084,
+    "wind": {
+      "SE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7521"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7521"
+  },
+  {
+    "id": "PSF-010207",
+    "name": "Kowale",
+    "lat": 51.0814,
+    "lon": 18.4987,
+    "wind": {},
+    "sources": {
+      "pge": "7522"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7522"
+  },
+  {
+    "id": "PSF-010208",
+    "name": "Lysiec (Łysiec)",
+    "lat": 50.2869,
+    "lon": 16.9267,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7523"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7523"
+  },
+  {
+    "id": "PSF-010209",
+    "name": "Mała Kopa",
+    "lat": 50.7667,
+    "lon": 15.7539,
+    "wind": {
+      "N": 1
+    },
+    "sources": {
+      "pge": "7524"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7524"
+  },
+  {
+    "id": "PSF-010210",
+    "name": "Mechelinki",
+    "lat": 54.6039,
+    "lon": 18.518,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7525"
+  },
+  {
+    "id": "PSF-010211",
+    "name": "Mieroszów",
+    "lat": 50.6727,
+    "lon": 16.2094,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7527"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7527"
+  },
+  {
+    "id": "PSF-010212",
+    "name": "Mirosławice",
+    "lat": 50.9569,
+    "lon": 16.7708,
+    "wind": {},
+    "sources": {
+      "pge": "7528"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7528"
+  },
+  {
+    "id": "PSF-010213",
+    "name": "Mrï¿½?gowo, GÃ³ra czterech wiatrÃ³w",
+    "lat": 53.8543,
+    "lon": 21.3264,
+    "wind": {
+      "W": 1
+    },
+    "sources": {
+      "pge": "7529"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7529"
+  },
+  {
+    "id": "PSF-010214",
+    "name": "Nowe",
+    "lat": 53.6529,
+    "lon": 18.736,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "7530"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7530"
+  },
+  {
+    "id": "PSF-010215",
+    "name": "Olsztyn",
+    "lat": 53.7741,
+    "lon": 20.4172,
+    "wind": {},
+    "sources": {
+      "pge": "7531"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7531"
+  },
+  {
+    "id": "PSF-010216",
+    "name": "Orneta",
+    "lat": 54.1227,
+    "lon": 20.0742,
+    "wind": {
+      "NE": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7532"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7532"
+  },
+  {
+    "id": "PSF-010217",
+    "name": "Pińczów",
+    "lat": 50.537,
+    "lon": 20.5084,
+    "wind": {
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7533"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7533"
+  },
+  {
+    "id": "PSF-010218",
+    "name": "Plock",
+    "lat": 52.5447,
+    "lon": 19.6831,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "7534"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7534"
+  },
+  {
+    "id": "PSF-010219",
+    "name": "Podobin",
+    "lat": 49.638,
+    "lon": 20.0931,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7535"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7535"
+  },
+  {
+    "id": "PSF-010220",
+    "name": "Polska Nowa Wieś",
+    "lat": 50.6325,
+    "lon": 17.7828,
+    "wind": {},
+    "sources": {
+      "pge": "7536"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7536"
+  },
+  {
+    "id": "PSF-010221",
+    "name": "Przasnysz",
+    "lat": 53.0058,
+    "lon": 20.9265,
+    "wind": {
+      "E": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7537"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7537"
+  },
+  {
+    "id": "PSF-010222",
+    "name": "Rudnik",
+    "lat": 50.7742,
+    "lon": 15.866,
+    "wind": {
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7538"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7538"
+  },
+  {
+    "id": "PSF-010223",
+    "name": "Rudniki",
+    "lat": 50.8843,
+    "lon": 19.2028,
+    "wind": {
+      "E": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7539"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7539"
+  },
+  {
+    "id": "PSF-010224",
+    "name": "Santok",
+    "lat": 52.7327,
+    "lon": 15.3859,
+    "wind": {
+      "S": 1
+    },
+    "sources": {
+      "pge": "7540"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7540"
+  },
+  {
+    "id": "PSF-010225",
+    "name": "Skrzetla",
+    "lat": 49.7155,
+    "lon": 20.5883,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "7541"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7541"
+  },
+  {
+    "id": "PSF-010226",
+    "name": "Srebrna Góra",
+    "lat": 50.5717,
+    "lon": 16.6574,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7543"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7543"
+  },
+  {
+    "id": "PSF-010227",
+    "name": "Starogród",
+    "lat": 53.2969,
+    "lon": 18.3763,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "7544"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7544"
+  },
+  {
+    "id": "PSF-010228",
+    "name": "Szrenica",
+    "lat": 50.7929,
+    "lon": 15.5146,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "7545"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7545"
+  },
+  {
+    "id": "PSF-010229",
+    "name": "Swiecie-Diabelce",
+    "lat": 53.4135,
+    "lon": 18.4625,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "7546"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7546"
+  },
+  {
+    "id": "PSF-010230",
+    "name": "Toruń",
+    "lat": 53.0251,
+    "lon": 18.5451,
+    "wind": {
+      "E": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "7547"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7547"
+  },
+  {
+    "id": "PSF-010231",
+    "name": "Trzęsacz",
+    "lat": 54.0782,
+    "lon": 14.9964,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7548"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7548"
+  },
+  {
+    "id": "PSF-010232",
+    "name": "WeremieÃ…â€ž",
+    "lat": 49.4431,
+    "lon": 22.3139,
+    "wind": {
+      "NE": 1
+    },
+    "sources": {
+      "pge": "7549"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7549"
+  },
+  {
+    "id": "PSF-010233",
+    "name": "Witków Śląski",
+    "lat": 50.8161,
+    "lon": 16.1193,
+    "wind": {
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7550"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7550"
+  },
+  {
+    "id": "PSF-010234",
+    "name": "Wołowa Góra",
+    "lat": 50.7683,
+    "lon": 15.8167,
+    "wind": {
+      "N": 1
+    },
+    "sources": {
+      "pge": "7551"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7551"
+  },
+  {
+    "id": "PSF-010235",
+    "name": "Wrocław - Ceglana",
+    "lat": 51.1249,
+    "lon": 17.1277,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7552"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7552"
+  },
+  {
+    "id": "PSF-010236",
+    "name": "Wysoki KamieÅ„",
+    "lat": 50.8447,
+    "lon": 15.5153,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "7553"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7553"
+  },
+  {
+    "id": "PSF-010237",
+    "name": "Żmij",
+    "lat": 50.6362,
+    "lon": 16.5462,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "7555"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7555"
+  }
+]

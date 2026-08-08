@@ -1,0 +1,221 @@
+[
+  {
+    "id": "PSF-002511",
+    "name": "Paraiso",
+    "lat": 18.0295,
+    "lon": -71.1565,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "13651"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13651"
+  },
+  {
+    "id": "PSF-005914",
+    "name": "Constanza",
+    "lat": 18.8779,
+    "lon": -70.7082,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19658"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19658"
+  },
+  {
+    "id": "PSF-006002",
+    "name": "Playa Rincon",
+    "lat": 19.3044,
+    "lon": -69.2546,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19771"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19771"
+  },
+  {
+    "id": "PSF-006003",
+    "name": "Matua",
+    "lat": 18.6402,
+    "lon": -70.0781,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19772"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19772"
+  },
+  {
+    "id": "PSF-006896",
+    "name": "Cosón",
+    "lat": 19.2895,
+    "lon": -69.5991,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "21896"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21896"
+  },
+  {
+    "id": "PSF-006897",
+    "name": "Sanchez",
+    "lat": 19.2402,
+    "lon": -69.6022,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "21897"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21897"
+  },
+  {
+    "id": "PSF-007423",
+    "name": "Jarabacoa",
+    "lat": 19.0824,
+    "lon": -70.6378,
+    "wind": {},
+    "sources": {
+      "pge": "22500"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22500"
+  },
+  {
+    "id": "PSF-009738",
+    "name": "Vallejuelo",
+    "lat": 18.7343,
+    "lon": -71.43,
+    "wind": {},
+    "sources": {
+      "pge": "6854"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6854"
+  },
+  {
+    "id": "PSF-009739",
+    "name": "Las Aguitas",
+    "lat": 18.9597,
+    "lon": -71.2494,
+    "wind": {},
+    "sources": {
+      "pge": "6855"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6855"
+  },
+  {
+    "id": "PSF-009743",
+    "name": "Azua",
+    "lat": 18.4575,
+    "lon": -70.7079,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "6859"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6859"
+  },
+  {
+    "id": "PSF-009744",
+    "name": "Casabito",
+    "lat": 19.0332,
+    "lon": -70.4825,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "6860"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6860"
+  },
+  {
+    "id": "PSF-010110",
+    "name": "Playita",
+    "lat": 18.3569,
+    "lon": -70.7314,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "7353"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7353"
+  },
+  {
+    "id": "PSF-010111",
+    "name": "Galvan",
+    "lat": 18.5606,
+    "lon": -71.3125,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "7354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7354"
+  },
+  {
+    "id": "PSF-010112",
+    "name": "San Juan",
+    "lat": 18.9597,
+    "lon": -71.2492,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "7355"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7355"
+  },
+  {
+    "id": "PSF-010113",
+    "name": "Jarabacoa",
+    "lat": 19.1328,
+    "lon": -70.6586,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "7356"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7356"
+  }
+]

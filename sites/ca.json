@@ -1,0 +1,3366 @@
+[
+  {
+    "id": "PSF-000104",
+    "name": "Cochrane",
+    "lat": 51.1955,
+    "lon": -114.449,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "10127"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10127"
+  },
+  {
+    "id": "PSF-000269",
+    "name": "Dennis Beach",
+    "lat": 45.629,
+    "lon": -64.8436,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10310"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10310"
+  },
+  {
+    "id": "PSF-000287",
+    "name": "Sim Site",
+    "lat": 49.3495,
+    "lon": -122.734,
+    "wind": {},
+    "sources": {
+      "pge": "10329"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10329"
+  },
+  {
+    "id": "PSF-000323",
+    "name": "Point Prim",
+    "lat": 46.0733,
+    "lon": -62.9712,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10370"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10370"
+  },
+  {
+    "id": "PSF-000324",
+    "name": "Halliday Bank",
+    "lat": 46.1061,
+    "lon": -62.896,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10371"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10371"
+  },
+  {
+    "id": "PSF-000412",
+    "name": "Mont-Edouard",
+    "lat": 48.1551,
+    "lon": -70.2872,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10470"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10470"
+  },
+  {
+    "id": "PSF-000544",
+    "name": "Ymir - Mt Dundee",
+    "lat": 49.2912,
+    "lon": -117.179,
+    "wind": {
+      "N": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10634"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10634"
+  },
+  {
+    "id": "PSF-000552",
+    "name": "Salt Spring Island, Bruce Peak",
+    "lat": 48.7671,
+    "lon": -123.508,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "10645"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10645"
+  },
+  {
+    "id": "PSF-000553",
+    "name": "Mount Prevost",
+    "lat": 48.8313,
+    "lon": -123.767,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10646"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10646"
+  },
+  {
+    "id": "PSF-000750",
+    "name": "Ottawa paragliding school",
+    "lat": 45.4522,
+    "lon": -75.4668,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10882"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10882"
+  },
+  {
+    "id": "PSF-000848",
+    "name": "Camrose Ridge",
+    "lat": 52.7898,
+    "lon": -112.689,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11000"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11000"
+  },
+  {
+    "id": "PSF-000994",
+    "name": "Fox River",
+    "lat": 45.4006,
+    "lon": -64.5276,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11171"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11171"
+  },
+  {
+    "id": "PSF-000997",
+    "name": "White Mountain",
+    "lat": 60.3023,
+    "lon": -133.947,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11175"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11175"
+  },
+  {
+    "id": "PSF-001011",
+    "name": "Vista Mountain",
+    "lat": 60.9322,
+    "lon": -135.222,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "SE": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11191"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11191"
+  },
+  {
+    "id": "PSF-001012",
+    "name": "Sodbusters",
+    "lat": 61.0201,
+    "lon": -135.214,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11192"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11192"
+  },
+  {
+    "id": "PSF-001013",
+    "name": "Little Fox Lake",
+    "lat": 61.3474,
+    "lon": -135.637,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11193"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11193"
+  },
+  {
+    "id": "PSF-001014",
+    "name": "Eagle Site - Jakes Corner",
+    "lat": 60.3613,
+    "lon": -133.92,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11194"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11194"
+  },
+  {
+    "id": "PSF-001015",
+    "name": "Minto Landing",
+    "lat": 62.577,
+    "lon": -136.793,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11195"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11195"
+  },
+  {
+    "id": "PSF-001016",
+    "name": "Stewart Crossing",
+    "lat": 63.409,
+    "lon": -136.776,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11197"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11197"
+  },
+  {
+    "id": "PSF-001017",
+    "name": "Klondike - Tombstone Campground",
+    "lat": 64.5211,
+    "lon": -138.23,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11198"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11198"
+  },
+  {
+    "id": "PSF-001018",
+    "name": "Klondike - Tombstone Goldensides",
+    "lat": 64.5264,
+    "lon": -138.199,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11199"
+  },
+  {
+    "id": "PSF-001019",
+    "name": "Klondike - Tombstone Angelcomb",
+    "lat": 64.6047,
+    "lon": -138.275,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11200"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11200"
+  },
+  {
+    "id": "PSF-001020",
+    "name": "Dawson - Dome",
+    "lat": 64.0677,
+    "lon": -139.396,
+    "wind": {
+      "N": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11201"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11201"
+  },
+  {
+    "id": "PSF-001021",
+    "name": "Klondike - US-Canada Border",
+    "lat": 64.109,
+    "lon": -140.793,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11202"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11202"
+  },
+  {
+    "id": "PSF-001022",
+    "name": "Fraser Lake",
+    "lat": 59.7198,
+    "lon": -135.094,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11203"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11203"
+  },
+  {
+    "id": "PSF-001023",
+    "name": "Dawson - King Solomon Dome",
+    "lat": 63.868,
+    "lon": -138.954,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11205"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11205"
+  },
+  {
+    "id": "PSF-001024",
+    "name": "Carcross Desert Training Hill",
+    "lat": 60.1886,
+    "lon": -134.689,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11206"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11206"
+  },
+  {
+    "id": "PSF-001025",
+    "name": "Teslin Tower",
+    "lat": 60.2106,
+    "lon": -132.815,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11208"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11208"
+  },
+  {
+    "id": "PSF-001026",
+    "name": "Richards Roost",
+    "lat": 60.5371,
+    "lon": -134.371,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "11209"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11209"
+  },
+  {
+    "id": "PSF-001027",
+    "name": "Haines Junction Paint Mountain",
+    "lat": 60.8258,
+    "lon": -137.51,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "11210"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11210"
+  },
+  {
+    "id": "PSF-001028",
+    "name": "Three Guardsmen Pass",
+    "lat": 59.5986,
+    "lon": -136.471,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11211"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11211"
+  },
+  {
+    "id": "PSF-001030",
+    "name": "Mountainview",
+    "lat": 60.7748,
+    "lon": -135.083,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11213"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11213"
+  },
+  {
+    "id": "PSF-001031",
+    "name": "Klondike - Keno",
+    "lat": 63.9179,
+    "lon": -135.303,
+    "wind": {},
+    "sources": {
+      "pge": "11214"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11214"
+  },
+  {
+    "id": "PSF-001035",
+    "name": "Tally-Ho",
+    "lat": 60.2294,
+    "lon": -135.047,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11218"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11218"
+  },
+  {
+    "id": "PSF-001068",
+    "name": "Dawson - Dome North Launch",
+    "lat": 64.0691,
+    "lon": -139.401,
+    "wind": {},
+    "sources": {
+      "pge": "11264"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11264"
+  },
+  {
+    "id": "PSF-001069",
+    "name": "Dawson - Fire-tower",
+    "lat": 64.0561,
+    "lon": -139.339,
+    "wind": {},
+    "sources": {
+      "pge": "11266"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11266"
+  },
+  {
+    "id": "PSF-001070",
+    "name": "Dawson - Landing Zone",
+    "lat": 64.0594,
+    "lon": -139.439,
+    "wind": {},
+    "sources": {
+      "pge": "11267"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11267"
+  },
+  {
+    "id": "PSF-001071",
+    "name": "Klondike - Tombstone A",
+    "lat": 64.4118,
+    "lon": -138.667,
+    "wind": {},
+    "sources": {
+      "pge": "11268"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11268"
+  },
+  {
+    "id": "PSF-001072",
+    "name": "Klondike - Tombstone B",
+    "lat": 64.4258,
+    "lon": -138.624,
+    "wind": {},
+    "sources": {
+      "pge": "11269"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11269"
+  },
+  {
+    "id": "PSF-001073",
+    "name": "Klondike  - Tombstone 02",
+    "lat": 64.5867,
+    "lon": -138.248,
+    "wind": {},
+    "sources": {
+      "pge": "11275"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11275"
+  },
+  {
+    "id": "PSF-001074",
+    "name": "Klondike - Top-World Hwy 03",
+    "lat": 64.0908,
+    "lon": -140.958,
+    "wind": {},
+    "sources": {
+      "pge": "11276"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11276"
+  },
+  {
+    "id": "PSF-001075",
+    "name": "Klondike - Top-World Hwy 02",
+    "lat": 64.0975,
+    "lon": -140.885,
+    "wind": {},
+    "sources": {
+      "pge": "11277"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11277"
+  },
+  {
+    "id": "PSF-001076",
+    "name": "Klondike - Top-World Hwy 01",
+    "lat": 64.2004,
+    "lon": -140.352,
+    "wind": {},
+    "sources": {
+      "pge": "11278"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11278"
+  },
+  {
+    "id": "PSF-001095",
+    "name": "Pt Burwell",
+    "lat": 42.6439,
+    "lon": -80.7925,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11303"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11303"
+  },
+  {
+    "id": "PSF-001097",
+    "name": "Blue Point",
+    "lat": 43.0962,
+    "lon": -82.1304,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11310"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11310"
+  },
+  {
+    "id": "PSF-001179",
+    "name": "Shannon Lake",
+    "lat": 49.8613,
+    "lon": -119.64,
+    "wind": {
+      "SE": 1,
+      "S": 2
+    },
+    "sources": {
+      "pge": "11408"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11408"
+  },
+  {
+    "id": "PSF-001325",
+    "name": "Bridal Falls (Lower)",
+    "lat": 49.1712,
+    "lon": -121.749,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11584"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11584"
+  },
+  {
+    "id": "PSF-001516",
+    "name": "Mont des Florents",
+    "lat": 47.5081,
+    "lon": -70.5243,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11903"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11903"
+  },
+  {
+    "id": "PSF-001636",
+    "name": "Freedom Road",
+    "lat": 52.8173,
+    "lon": -112.28,
+    "wind": {},
+    "sources": {
+      "pge": "12124"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12124"
+  },
+  {
+    "id": "PSF-001664",
+    "name": "Blue Grouse",
+    "lat": 49.9507,
+    "lon": -119.512,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "12161"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12161"
+  },
+  {
+    "id": "PSF-001671",
+    "name": "Nanton Tow Site",
+    "lat": 50.4264,
+    "lon": -113.686,
+    "wind": {},
+    "sources": {
+      "pge": "12178"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12178"
+  },
+  {
+    "id": "PSF-001699",
+    "name": "Saddle Mountain",
+    "lat": 50.2617,
+    "lon": -118.945,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "12223"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12223"
+  },
+  {
+    "id": "PSF-002047",
+    "name": "Standard Tow Site",
+    "lat": 50.9286,
+    "lon": -113.005,
+    "wind": {},
+    "sources": {
+      "pge": "12898"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12898"
+  },
+  {
+    "id": "PSF-002054",
+    "name": "Vulcan Tow rd. 161",
+    "lat": 50.3214,
+    "lon": -113.255,
+    "wind": {},
+    "sources": {
+      "pge": "12906"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12906"
+  },
+  {
+    "id": "PSF-002100",
+    "name": "Rainbow Mountain  (BC)",
+    "lat": 52.5363,
+    "lon": -125.338,
+    "wind": {},
+    "sources": {
+      "pge": "12982"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12982"
+  },
+  {
+    "id": "PSF-002167",
+    "name": "Blackcomb Mountain",
+    "lat": 50.0945,
+    "lon": -122.908,
+    "wind": {},
+    "sources": {
+      "pge": "13091"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13091"
+  },
+  {
+    "id": "PSF-002461",
+    "name": "Vulcan Tow Site",
+    "lat": 50.4034,
+    "lon": -113.438,
+    "wind": {},
+    "sources": {
+      "pge": "13560"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13560"
+  },
+  {
+    "id": "PSF-002463",
+    "name": "Camrose",
+    "lat": 52.8432,
+    "lon": -112.568,
+    "wind": {},
+    "sources": {
+      "pge": "13562"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13562"
+  },
+  {
+    "id": "PSF-002518",
+    "name": "Steinbach North airport, MB",
+    "lat": 49.5523,
+    "lon": -96.6812,
+    "wind": {},
+    "sources": {
+      "pge": "13658"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13658"
+  },
+  {
+    "id": "PSF-002519",
+    "name": "Sale Mtn, BC",
+    "lat": 51.1668,
+    "lon": -118.157,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "13659"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13659"
+  },
+  {
+    "id": "PSF-002521",
+    "name": "Deadman's / Savona, BC",
+    "lat": 50.7943,
+    "lon": -120.902,
+    "wind": {},
+    "sources": {
+      "pge": "13661"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13661"
+  },
+  {
+    "id": "PSF-002523",
+    "name": "Sun Peaks, BC",
+    "lat": 50.898,
+    "lon": -119.922,
+    "wind": {},
+    "sources": {
+      "pge": "13664"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13664"
+  },
+  {
+    "id": "PSF-002524",
+    "name": "Smithers, BC",
+    "lat": 54.7994,
+    "lon": -126.873,
+    "wind": {},
+    "sources": {
+      "pge": "13665"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13665"
+  },
+  {
+    "id": "PSF-002525",
+    "name": "Cornwall, BC",
+    "lat": 50.6931,
+    "lon": -121.448,
+    "wind": {},
+    "sources": {
+      "pge": "13666"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13666"
+  },
+  {
+    "id": "PSF-002527",
+    "name": "Vulcan",
+    "lat": 50.3645,
+    "lon": -113.323,
+    "wind": {},
+    "sources": {
+      "pge": "13668"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13668"
+  },
+  {
+    "id": "PSF-002528",
+    "name": "Brussels",
+    "lat": 43.7482,
+    "lon": -81.2381,
+    "wind": {},
+    "sources": {
+      "pge": "13672"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13672"
+  },
+  {
+    "id": "PSF-002530",
+    "name": "Winnifred",
+    "lat": 49.9604,
+    "lon": -111.126,
+    "wind": {},
+    "sources": {
+      "pge": "13674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13674"
+  },
+  {
+    "id": "PSF-002545",
+    "name": "Drowning Ford",
+    "lat": 50.2686,
+    "lon": -110.596,
+    "wind": {},
+    "sources": {
+      "pge": "13705"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13705"
+  },
+  {
+    "id": "PSF-002688",
+    "name": "BEISEKER",
+    "lat": 51.3605,
+    "lon": -113.709,
+    "wind": {},
+    "sources": {
+      "pge": "13946"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13946"
+  },
+  {
+    "id": "PSF-002702",
+    "name": "Winnifred N-S",
+    "lat": 49.9469,
+    "lon": -111.074,
+    "wind": {},
+    "sources": {
+      "pge": "13965"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13965"
+  },
+  {
+    "id": "PSF-002786",
+    "name": "LaFramboise",
+    "lat": 45.5298,
+    "lon": -75.962,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14092"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14092"
+  },
+  {
+    "id": "PSF-002868",
+    "name": "Mont Pelneault",
+    "lat": 46.3956,
+    "lon": -75.5149,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14229"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14229"
+  },
+  {
+    "id": "PSF-002910",
+    "name": "Bald Peak",
+    "lat": 47.1733,
+    "lon": -67.1084,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14298"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14298"
+  },
+  {
+    "id": "PSF-002911",
+    "name": "Gardner's Creek",
+    "lat": 45.2651,
+    "lon": -65.7331,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "14299"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14299"
+  },
+  {
+    "id": "PSF-002912",
+    "name": "Red Head",
+    "lat": 45.2512,
+    "lon": -66.0107,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "14300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14300"
+  },
+  {
+    "id": "PSF-002914",
+    "name": "Welsford",
+    "lat": 45.472,
+    "lon": -66.5086,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14302"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14302"
+  },
+  {
+    "id": "PSF-002915",
+    "name": "Florenceville",
+    "lat": 46.4356,
+    "lon": -67.5693,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14303"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14303"
+  },
+  {
+    "id": "PSF-003051",
+    "name": "Thompson's lookout",
+    "lat": 49.0878,
+    "lon": -116.378,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14477"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14477"
+  },
+  {
+    "id": "PSF-003090",
+    "name": "Cliffton",
+    "lat": 47.7361,
+    "lon": -65.3818,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14538"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14538"
+  },
+  {
+    "id": "PSF-003223",
+    "name": "Hidden Falls",
+    "lat": 45.4324,
+    "lon": -64.2489,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14765"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14765"
+  },
+  {
+    "id": "PSF-003224",
+    "name": "Cape Chignecto",
+    "lat": 45.3532,
+    "lon": -64.8309,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14767"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14767"
+  },
+  {
+    "id": "PSF-003225",
+    "name": "Economy Mountain",
+    "lat": 45.3997,
+    "lon": -64.0059,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "14768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14768"
+  },
+  {
+    "id": "PSF-003226",
+    "name": "Half Island",
+    "lat": 44.6369,
+    "lon": -63.3137,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "14769"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14769"
+  },
+  {
+    "id": "PSF-003227",
+    "name": "West Bay",
+    "lat": 45.3701,
+    "lon": -64.3916,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "14770"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14770"
+  },
+  {
+    "id": "PSF-003228",
+    "name": "Joggins",
+    "lat": 45.7116,
+    "lon": -64.4349,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14771"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14771"
+  },
+  {
+    "id": "PSF-003230",
+    "name": "High Head",
+    "lat": 45.6185,
+    "lon": -63.5388,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "14774"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14774"
+  },
+  {
+    "id": "PSF-003231",
+    "name": "Hugh's Brook",
+    "lat": 48.9895,
+    "lon": -57.8929,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "14776"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14776"
+  },
+  {
+    "id": "PSF-003364",
+    "name": "Daysland",
+    "lat": 52.756,
+    "lon": -111.965,
+    "wind": {},
+    "sources": {
+      "pge": "14963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14963"
+  },
+  {
+    "id": "PSF-003365",
+    "name": "North Battleford",
+    "lat": 52.9294,
+    "lon": -108.342,
+    "wind": {},
+    "sources": {
+      "pge": "14964"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14964"
+  },
+  {
+    "id": "PSF-003402",
+    "name": "Bolean",
+    "lat": 50.5226,
+    "lon": -119.526,
+    "wind": {},
+    "sources": {
+      "pge": "15029"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15029"
+  },
+  {
+    "id": "PSF-003496",
+    "name": "High Perspective Tow",
+    "lat": 43.9131,
+    "lon": -79.1318,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15184"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15184"
+  },
+  {
+    "id": "PSF-003497",
+    "name": "East Point Park Scarborough",
+    "lat": 43.7631,
+    "lon": -79.15,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "15185"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15185"
+  },
+  {
+    "id": "PSF-003498",
+    "name": "Centennial Park Etobicoke",
+    "lat": 43.6561,
+    "lon": -79.5903,
+    "wind": {
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "15186"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15186"
+  },
+  {
+    "id": "PSF-003608",
+    "name": "Tofield",
+    "lat": 53.3066,
+    "lon": -112.587,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15367"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15367"
+  },
+  {
+    "id": "PSF-003650",
+    "name": "Luskville Ouest",
+    "lat": 45.5318,
+    "lon": -75.9772,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15447"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15447"
+  },
+  {
+    "id": "PSF-003653",
+    "name": "Brennan recreational farm",
+    "lat": 46.0088,
+    "lon": -77.2062,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15450"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15450"
+  },
+  {
+    "id": "PSF-003667",
+    "name": "Riverdale Park",
+    "lat": 43.6701,
+    "lon": -79.3547,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "15465"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15465"
+  },
+  {
+    "id": "PSF-003704",
+    "name": "Kings Forest Park Hamilton aka The Nest",
+    "lat": 43.2136,
+    "lon": -79.8146,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "15529"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15529"
+  },
+  {
+    "id": "PSF-003917",
+    "name": "Atlin - Monarch Mountain",
+    "lat": 59.5467,
+    "lon": -133.627,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15897"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15897"
+  },
+  {
+    "id": "PSF-003923",
+    "name": "Cathedral Bluffers Park (Toronto)",
+    "lat": 43.7165,
+    "lon": -79.2281,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "15906"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15906"
+  },
+  {
+    "id": "PSF-003924",
+    "name": "Westover Training Hill",
+    "lat": 43.3359,
+    "lon": -80.0811,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "15907"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15907"
+  },
+  {
+    "id": "PSF-003948",
+    "name": "Mont Adstock",
+    "lat": 46.0313,
+    "lon": -71.1981,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15940"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15940"
+  },
+  {
+    "id": "PSF-004020",
+    "name": "Sussex",
+    "lat": 45.7775,
+    "lon": -65.4377,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16023"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16023"
+  },
+  {
+    "id": "PSF-004090",
+    "name": "Mt. Sima",
+    "lat": 60.6047,
+    "lon": -135.062,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "16115"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16115"
+  },
+  {
+    "id": "PSF-004142",
+    "name": "Prarie Mountain",
+    "lat": 50.8882,
+    "lon": -114.807,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16189"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16189"
+  },
+  {
+    "id": "PSF-004304",
+    "name": "Anarchist (Osoyoos)",
+    "lat": 49.0458,
+    "lon": -119.403,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16458"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16458"
+  },
+  {
+    "id": "PSF-004316",
+    "name": "Chimps Pioneered",
+    "lat": 50.8064,
+    "lon": -121.23,
+    "wind": {},
+    "sources": {
+      "pge": "16487"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16487"
+  },
+  {
+    "id": "PSF-004321",
+    "name": "Camrose",
+    "lat": 53.8065,
+    "lon": -112.369,
+    "wind": {},
+    "sources": {
+      "pge": "16497"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16497"
+  },
+  {
+    "id": "PSF-004394",
+    "name": "Stoney Creek Airport",
+    "lat": 43.1687,
+    "lon": -79.7095,
+    "wind": {},
+    "sources": {
+      "pge": "16610"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16610"
+  },
+  {
+    "id": "PSF-004424",
+    "name": "King Eddy Baldy",
+    "lat": 50.2034,
+    "lon": -119.154,
+    "wind": {},
+    "sources": {
+      "pge": "16664"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16664"
+  },
+  {
+    "id": "PSF-004428",
+    "name": "Blackstrap Ridge / Saskatoon Ridge",
+    "lat": 51.7738,
+    "lon": -106.452,
+    "wind": {
+      "N": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16685"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16685"
+  },
+  {
+    "id": "PSF-004459",
+    "name": "Nares Mountain",
+    "lat": 60.1666,
+    "lon": -134.607,
+    "wind": {},
+    "sources": {
+      "pge": "16730"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16730"
+  },
+  {
+    "id": "PSF-004460",
+    "name": "Mount Mac",
+    "lat": 60.6224,
+    "lon": -135.144,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16731"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16731"
+  },
+  {
+    "id": "PSF-004461",
+    "name": "Camping Ste Veronique",
+    "lat": 46.5097,
+    "lon": -74.9834,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "16734"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16734"
+  },
+  {
+    "id": "PSF-004462",
+    "name": "Mont-Blanc",
+    "lat": 46.1007,
+    "lon": -74.4917,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16735"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16735"
+  },
+  {
+    "id": "PSF-004467",
+    "name": "Nadahini",
+    "lat": 59.6943,
+    "lon": -136.63,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16744"
+  },
+  {
+    "id": "PSF-004477",
+    "name": "Teston Rd Vaughan",
+    "lat": 43.8763,
+    "lon": -79.5123,
+    "wind": {
+      "SW": 1,
+      "W": 2
+    },
+    "sources": {
+      "pge": "16757"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16757"
+  },
+  {
+    "id": "PSF-004570",
+    "name": "Teston Rd Vaughn 2nd site",
+    "lat": 43.8705,
+    "lon": -79.5051,
+    "wind": {
+      "N": 1,
+      "SE": 2,
+      "S": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "16939"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16939"
+  },
+  {
+    "id": "PSF-004572",
+    "name": "Intrepid Park Whitby",
+    "lat": 43.8523,
+    "lon": -78.8799,
+    "wind": {
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16941"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16941"
+  },
+  {
+    "id": "PSF-004574",
+    "name": "Thickson Rd Whitby",
+    "lat": 43.8488,
+    "lon": -78.8999,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "16945"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16945"
+  },
+  {
+    "id": "PSF-004578",
+    "name": "Fly Hills Lower, Mid and Upper Launches.",
+    "lat": 50.6863,
+    "lon": -119.412,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "16950"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16950"
+  },
+  {
+    "id": "PSF-004580",
+    "name": "Fly Hills north",
+    "lat": 50.691,
+    "lon": -119.387,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "16952"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16952"
+  },
+  {
+    "id": "PSF-005122",
+    "name": "Petite neigette",
+    "lat": 48.4468,
+    "lon": -68.3008,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "17975"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17975"
+  },
+  {
+    "id": "PSF-005287",
+    "name": "Coopers ('Thermal Rise')",
+    "lat": 50.2856,
+    "lon": -118.986,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18342"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18342"
+  },
+  {
+    "id": "PSF-005295",
+    "name": "Le Grand Morne",
+    "lat": 46.1373,
+    "lon": -71.1001,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "18354"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18354"
+  },
+  {
+    "id": "PSF-005298",
+    "name": "Dawson - Sunnydale",
+    "lat": 64.0557,
+    "lon": -139.461,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "18377"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18377"
+  },
+  {
+    "id": "PSF-005369",
+    "name": "Diefenbaker Training Hill",
+    "lat": 49.0054,
+    "lon": -123.074,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "18620"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18620"
+  },
+  {
+    "id": "PSF-005456",
+    "name": "Haeckel Hill",
+    "lat": 60.7479,
+    "lon": -135.233,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "18777"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18777"
+  },
+  {
+    "id": "PSF-005457",
+    "name": "Schwatka Lake",
+    "lat": 60.694,
+    "lon": -135.031,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18778"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18778"
+  },
+  {
+    "id": "PSF-005460",
+    "name": "Havelock",
+    "lat": 45.9865,
+    "lon": -65.2961,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18781"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18781"
+  },
+  {
+    "id": "PSF-005484",
+    "name": "Tyler's Bay",
+    "lat": 46.2325,
+    "lon": -64.2509,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18815"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18815"
+  },
+  {
+    "id": "PSF-005668",
+    "name": "Little Nic",
+    "lat": 49.19,
+    "lon": -122.147,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "19317"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19317"
+  },
+  {
+    "id": "PSF-005727",
+    "name": "Lower Ripley - CLOSED DO NOT FLY",
+    "lat": 49.251,
+    "lon": -119.608,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19398"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19398"
+  },
+  {
+    "id": "PSF-005736",
+    "name": "Mont Ste-Marie (MSM) South",
+    "lat": 45.9275,
+    "lon": -75.8806,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19410"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19410"
+  },
+  {
+    "id": "PSF-005813",
+    "name": "Hedley",
+    "lat": 49.3515,
+    "lon": -120.035,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19516"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19516"
+  },
+  {
+    "id": "PSF-005814",
+    "name": "Cawston",
+    "lat": 49.1854,
+    "lon": -119.699,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19517"
+  },
+  {
+    "id": "PSF-005843",
+    "name": "Mont Ste-Marie (MSM) West",
+    "lat": 45.9344,
+    "lon": -75.8767,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19550"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19550"
+  },
+  {
+    "id": "PSF-005915",
+    "name": "Mont-Megantic",
+    "lat": 45.4476,
+    "lon": -71.1195,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19659"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19659"
+  },
+  {
+    "id": "PSF-005976",
+    "name": "Mesa Butte",
+    "lat": 50.7794,
+    "lon": -114.561,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "19739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19739"
+  },
+  {
+    "id": "PSF-005981",
+    "name": "Idaho Peak",
+    "lat": 49.971,
+    "lon": -117.3,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19744"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19744"
+  },
+  {
+    "id": "PSF-006010",
+    "name": "Pin rouge",
+    "lat": 48.3237,
+    "lon": -65.7179,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19783"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19783"
+  },
+  {
+    "id": "PSF-006032",
+    "name": "Elk Mountain",
+    "lat": 49.1132,
+    "lon": -121.804,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19807"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19807"
+  },
+  {
+    "id": "PSF-006077",
+    "name": "Sumas Mountain",
+    "lat": 49.1193,
+    "lon": -122.126,
+    "wind": {},
+    "sources": {
+      "pge": "19869"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19869"
+  },
+  {
+    "id": "PSF-006119",
+    "name": "Mt. Bruce",
+    "lat": 50.5195,
+    "lon": -116.223,
+    "wind": {},
+    "sources": {
+      "pge": "19987"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19987"
+  },
+  {
+    "id": "PSF-006120",
+    "name": "Whitetail Lake",
+    "lat": 50.2163,
+    "lon": -116.071,
+    "wind": {},
+    "sources": {
+      "pge": "19988"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19988"
+  },
+  {
+    "id": "PSF-006121",
+    "name": "Eagle Hill",
+    "lat": 50.448,
+    "lon": -115.907,
+    "wind": {},
+    "sources": {
+      "pge": "19989"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19989"
+  },
+  {
+    "id": "PSF-006142",
+    "name": "Tunnel Bluff",
+    "lat": 49.4868,
+    "lon": -123.237,
+    "wind": {},
+    "sources": {
+      "pge": "20012"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20012"
+  },
+  {
+    "id": "PSF-006193",
+    "name": "Padella Peak",
+    "lat": 54.8481,
+    "lon": -126.919,
+    "wind": {},
+    "sources": {
+      "pge": "20069"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20069"
+  },
+  {
+    "id": "PSF-006194",
+    "name": "Kits",
+    "lat": 54.9489,
+    "lon": -127.479,
+    "wind": {},
+    "sources": {
+      "pge": "20070"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20070"
+  },
+  {
+    "id": "PSF-006246",
+    "name": "Jasper Tram",
+    "lat": 52.8368,
+    "lon": -118.129,
+    "wind": {},
+    "sources": {
+      "pge": "20131"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20131"
+  },
+  {
+    "id": "PSF-006253",
+    "name": "Galahad E-W",
+    "lat": 52.4923,
+    "lon": -111.963,
+    "wind": {},
+    "sources": {
+      "pge": "20139"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20139"
+  },
+  {
+    "id": "PSF-006258",
+    "name": "Alliance S/W Tow",
+    "lat": 52.4048,
+    "lon": -111.586,
+    "wind": {},
+    "sources": {
+      "pge": "20145"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20145"
+  },
+  {
+    "id": "PSF-006283",
+    "name": "The Pimple",
+    "lat": 50.7527,
+    "lon": -120.523,
+    "wind": {},
+    "sources": {
+      "pge": "20862"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20862"
+  },
+  {
+    "id": "PSF-006288",
+    "name": "Carleton",
+    "lat": 48.1205,
+    "lon": -66.0406,
+    "wind": {},
+    "sources": {
+      "pge": "21054"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21054"
+  },
+  {
+    "id": "PSF-006472",
+    "name": "Mount St. Benedict",
+    "lat": 49.2979,
+    "lon": -122.205,
+    "wind": {},
+    "sources": {
+      "pge": "21417"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21417"
+  },
+  {
+    "id": "PSF-006473",
+    "name": "Benny School LZ",
+    "lat": 49.2134,
+    "lon": -122.234,
+    "wind": {},
+    "sources": {
+      "pge": "21419"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21419"
+  },
+  {
+    "id": "PSF-006474",
+    "name": "Stawamus Chief Mountain",
+    "lat": 49.6828,
+    "lon": -123.144,
+    "wind": {},
+    "sources": {
+      "pge": "21420"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21420"
+  },
+  {
+    "id": "PSF-006528",
+    "name": "Blacktail Creek",
+    "lat": 48.9859,
+    "lon": -114.975,
+    "wind": {},
+    "sources": {
+      "pge": "21481"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21481"
+  },
+  {
+    "id": "PSF-006531",
+    "name": "Go Parapente",
+    "lat": 46.2385,
+    "lon": -74.1043,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21484"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21484"
+  },
+  {
+    "id": "PSF-006570",
+    "name": "Orofino",
+    "lat": 49.2254,
+    "lon": -119.78,
+    "wind": {},
+    "sources": {
+      "pge": "21526"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21526"
+  },
+  {
+    "id": "PSF-006571",
+    "name": "Mount Kobau",
+    "lat": 49.1113,
+    "lon": -119.667,
+    "wind": {},
+    "sources": {
+      "pge": "21527"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21527"
+  },
+  {
+    "id": "PSF-006632",
+    "name": "Benny PG",
+    "lat": 49.2847,
+    "lon": -122.214,
+    "wind": {},
+    "sources": {
+      "pge": "21604"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21604"
+  },
+  {
+    "id": "PSF-006633",
+    "name": "Benny HG",
+    "lat": 49.2832,
+    "lon": -122.21,
+    "wind": {},
+    "sources": {
+      "pge": "21605"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21605"
+  },
+  {
+    "id": "PSF-006668",
+    "name": "Horsefly",
+    "lat": 49.2798,
+    "lon": -121.983,
+    "wind": {},
+    "sources": {
+      "pge": "21650"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21650"
+  },
+  {
+    "id": "PSF-006700",
+    "name": "Cherryville Golf Course LZ",
+    "lat": 50.2498,
+    "lon": -118.704,
+    "wind": {},
+    "sources": {
+      "pge": "21682"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21682"
+  },
+  {
+    "id": "PSF-006810",
+    "name": "Ross' Ridge",
+    "lat": 46.1156,
+    "lon": -62.8838,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "21802"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21802"
+  },
+  {
+    "id": "PSF-006811",
+    "name": "Cousins Shore",
+    "lat": 46.5516,
+    "lon": -63.5962,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "21803"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21803"
+  },
+  {
+    "id": "PSF-006812",
+    "name": "Shaws Bank",
+    "lat": 46.171,
+    "lon": -63.4011,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21804"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21804"
+  },
+  {
+    "id": "PSF-006813",
+    "name": "Fitzpatricks Mountain",
+    "lat": 45.6458,
+    "lon": -62.8807,
+    "wind": {
+      "NW": 2
+    },
+    "sources": {
+      "pge": "21805"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21805"
+  },
+  {
+    "id": "PSF-006814",
+    "name": "Greenhill Provincial Park",
+    "lat": 45.5824,
+    "lon": -62.7951,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "21806"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21806"
+  },
+  {
+    "id": "PSF-006840",
+    "name": "Mara",
+    "lat": 50.7119,
+    "lon": -118.996,
+    "wind": {},
+    "sources": {
+      "pge": "21838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21838"
+  },
+  {
+    "id": "PSF-006841",
+    "name": "Sicamous",
+    "lat": 50.8605,
+    "lon": -118.996,
+    "wind": {},
+    "sources": {
+      "pge": "21839"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21839"
+  },
+  {
+    "id": "PSF-007015",
+    "name": "Savona",
+    "lat": 50.762,
+    "lon": -120.879,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "22030"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22030"
+  },
+  {
+    "id": "PSF-007016",
+    "name": "Fernie Mic Towers",
+    "lat": 49.4451,
+    "lon": -114.99,
+    "wind": {},
+    "sources": {
+      "pge": "22031"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22031"
+  },
+  {
+    "id": "PSF-007017",
+    "name": "Fernie LZ",
+    "lat": 49.5121,
+    "lon": -115.054,
+    "wind": {},
+    "sources": {
+      "pge": "22032"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22032"
+  },
+  {
+    "id": "PSF-007019",
+    "name": "SavonaBowl",
+    "lat": 50.7707,
+    "lon": -120.902,
+    "wind": {
+      "N": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22034"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22034"
+  },
+  {
+    "id": "PSF-007044",
+    "name": "Chetwynd",
+    "lat": 55.6346,
+    "lon": -121.577,
+    "wind": {},
+    "sources": {
+      "pge": "22064"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22064"
+  },
+  {
+    "id": "PSF-007215",
+    "name": "port smellon",
+    "lat": 49.543,
+    "lon": -123.468,
+    "wind": {},
+    "sources": {
+      "pge": "22274"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22274"
+  },
+  {
+    "id": "PSF-007216",
+    "name": "soames hill",
+    "lat": 49.4207,
+    "lon": -123.488,
+    "wind": {},
+    "sources": {
+      "pge": "22275"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22275"
+  },
+  {
+    "id": "PSF-007217",
+    "name": "mt elphinstone",
+    "lat": 49.4604,
+    "lon": -123.565,
+    "wind": {},
+    "sources": {
+      "pge": "22276"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22276"
+  },
+  {
+    "id": "PSF-007218",
+    "name": "Sechelt Ridge",
+    "lat": 49.4986,
+    "lon": -123.696,
+    "wind": {},
+    "sources": {
+      "pge": "22277"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22277"
+  },
+  {
+    "id": "PSF-007219",
+    "name": "mt richardson",
+    "lat": 49.569,
+    "lon": -123.756,
+    "wind": {},
+    "sources": {
+      "pge": "22278"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22278"
+  },
+  {
+    "id": "PSF-007220",
+    "name": "mt hallowell",
+    "lat": 49.681,
+    "lon": -123.941,
+    "wind": {},
+    "sources": {
+      "pge": "22279"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22279"
+  },
+  {
+    "id": "PSF-007255",
+    "name": "Rainbow Mountain (Alpine Meadows)",
+    "lat": 50.1426,
+    "lon": -122.984,
+    "wind": {},
+    "sources": {
+      "pge": "22316"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22316"
+  },
+  {
+    "id": "PSF-007256",
+    "name": "Meadow Park",
+    "lat": 50.1444,
+    "lon": -122.962,
+    "wind": {},
+    "sources": {
+      "pge": "22317"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22317"
+  },
+  {
+    "id": "PSF-007339",
+    "name": "Mont-Ham",
+    "lat": 45.7896,
+    "lon": -71.6348,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "22413"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22413"
+  },
+  {
+    "id": "PSF-007349",
+    "name": "Saint-Fabien N",
+    "lat": 48.3055,
+    "lon": -68.8858,
+    "wind": {
+      "N": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22423"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22423"
+  },
+  {
+    "id": "PSF-007529",
+    "name": "Cap-Santé",
+    "lat": 46.678,
+    "lon": -71.8053,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "sources": {
+      "pge": "22617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22617"
+  },
+  {
+    "id": "PSF-007588",
+    "name": "Grand Valley",
+    "lat": 44.0163,
+    "lon": -80.324,
+    "wind": {},
+    "sources": {
+      "pge": "22687"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22687"
+  },
+  {
+    "id": "PSF-007627",
+    "name": "Pokeshaw Cliff / Air Exploration",
+    "lat": 47.7676,
+    "lon": -65.2961,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22728"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22728"
+  },
+  {
+    "id": "PSF-007631",
+    "name": "Baie-des-Sables",
+    "lat": 48.7032,
+    "lon": -67.9262,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22732"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22732"
+  },
+  {
+    "id": "PSF-007750",
+    "name": "Athabasca Lookout",
+    "lat": 53.408,
+    "lon": -117.787,
+    "wind": {},
+    "sources": {
+      "pge": "22875"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22875"
+  },
+  {
+    "id": "PSF-007781",
+    "name": "Les Dunes",
+    "lat": 48.1543,
+    "lon": -69.6671,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22908"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22908"
+  },
+  {
+    "id": "PSF-007845",
+    "name": "CVLY OUEST",
+    "lat": 45.4542,
+    "lon": -72.8797,
+    "wind": {},
+    "sources": {
+      "pge": "22980"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22980"
+  },
+  {
+    "id": "PSF-007846",
+    "name": "CVLY NORD EST",
+    "lat": 45.4728,
+    "lon": -72.8577,
+    "wind": {},
+    "sources": {
+      "pge": "22981"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22981"
+  },
+  {
+    "id": "PSF-007847",
+    "name": "CVLY NORD",
+    "lat": 45.4729,
+    "lon": -72.8586,
+    "wind": {},
+    "sources": {
+      "pge": "22982"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22982"
+  },
+  {
+    "id": "PSF-007848",
+    "name": "Yamaska deco SUD",
+    "lat": 45.447,
+    "lon": -72.8725,
+    "wind": {},
+    "sources": {
+      "pge": "22983"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22983"
+  },
+  {
+    "id": "PSF-007894",
+    "name": "Goderich",
+    "lat": 43.7273,
+    "lon": -81.7235,
+    "wind": {
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23031"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23031"
+  },
+  {
+    "id": "PSF-008106",
+    "name": "Ha Ling",
+    "lat": 51.0602,
+    "lon": -115.398,
+    "wind": {},
+    "sources": {
+      "pge": "23258"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23258"
+  },
+  {
+    "id": "PSF-008107",
+    "name": "Grotto Mountain",
+    "lat": 51.0952,
+    "lon": -115.288,
+    "wind": {},
+    "sources": {
+      "pge": "23259"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23259"
+  },
+  {
+    "id": "PSF-008135",
+    "name": "Lac-au-Saumon",
+    "lat": 48.4457,
+    "lon": -67.3468,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23290"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23290"
+  },
+  {
+    "id": "PSF-008136",
+    "name": "Amqui",
+    "lat": 48.4529,
+    "lon": -67.3729,
+    "wind": {
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23291"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23291"
+  },
+  {
+    "id": "PSF-008137",
+    "name": "Saint-Fulgence",
+    "lat": 48.4436,
+    "lon": -70.9,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23292"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23292"
+  },
+  {
+    "id": "PSF-008297",
+    "name": "Emerald Lake",
+    "lat": 51.4565,
+    "lon": -116.57,
+    "wind": {},
+    "sources": {
+      "pge": "23479"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23479"
+  },
+  {
+    "id": "PSF-008298",
+    "name": "Moose Mountain",
+    "lat": 50.905,
+    "lon": -114.783,
+    "wind": {},
+    "sources": {
+      "pge": "23480"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23480"
+  },
+  {
+    "id": "PSF-008299",
+    "name": "Lady MacDonald",
+    "lat": 51.1162,
+    "lon": -115.317,
+    "wind": {},
+    "sources": {
+      "pge": "23481"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23481"
+  },
+  {
+    "id": "PSF-008300",
+    "name": "Panorama Roller Coaster Launch",
+    "lat": 50.4363,
+    "lon": -116.219,
+    "wind": {},
+    "sources": {
+      "pge": "23482"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23482"
+  },
+  {
+    "id": "PSF-008301",
+    "name": "Panorama Top Launch",
+    "lat": 50.4309,
+    "lon": -116.205,
+    "wind": {},
+    "sources": {
+      "pge": "23483"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23483"
+  },
+  {
+    "id": "PSF-008311",
+    "name": "Paragliding Ontario Tow Field",
+    "lat": 42.9256,
+    "lon": -80.1201,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "23493"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23493"
+  },
+  {
+    "id": "PSF-008336",
+    "name": "XCT 900",
+    "lat": 49.2993,
+    "lon": -122.216,
+    "wind": {},
+    "sources": {
+      "pge": "23525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23525"
+  },
+  {
+    "id": "PSF-008358",
+    "name": "Ottos",
+    "lat": 49.2609,
+    "lon": -119.607,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "23549"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23549"
+  },
+  {
+    "id": "PSF-008359",
+    "name": "Seacrest",
+    "lat": 49.2543,
+    "lon": -119.578,
+    "wind": {
+      "N": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "23550"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23550"
+  },
+  {
+    "id": "PSF-008365",
+    "name": "Gower Point",
+    "lat": 49.3844,
+    "lon": -123.537,
+    "wind": {},
+    "sources": {
+      "pge": "23556"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23556"
+  },
+  {
+    "id": "PSF-008383",
+    "name": "Upper Ripley",
+    "lat": 49.2432,
+    "lon": -119.622,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "23576"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23576"
+  },
+  {
+    "id": "PSF-008569",
+    "name": "Irwin Lower",
+    "lat": 49.3407,
+    "lon": -124.856,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "23795"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23795"
+  },
+  {
+    "id": "PSF-008598",
+    "name": "Mt Strachan NW",
+    "lat": 49.411,
+    "lon": -123.195,
+    "wind": {},
+    "sources": {
+      "pge": "23826"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23826"
+  },
+  {
+    "id": "PSF-008630",
+    "name": "Kitchener",
+    "lat": 50.2844,
+    "lon": -125.703,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "23865"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23865"
+  },
+  {
+    "id": "PSF-009600",
+    "name": "Tenas Hill",
+    "lat": 55.4469,
+    "lon": -127.655,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "6677"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6677"
+  },
+  {
+    "id": "PSF-009629",
+    "name": "Pemberton",
+    "lat": 50.3529,
+    "lon": -122.799,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6709"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6709"
+  },
+  {
+    "id": "PSF-009630",
+    "name": "Mt 7 - Golden",
+    "lat": 51.2758,
+    "lon": -116.885,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6710"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6710"
+  },
+  {
+    "id": "PSF-009651",
+    "name": "Woodside",
+    "lat": 49.2431,
+    "lon": -121.89,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "6735"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6735"
+  },
+  {
+    "id": "PSF-009655",
+    "name": "Grouse",
+    "lat": 49.386,
+    "lon": -123.077,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "6739"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6739"
+  },
+  {
+    "id": "PSF-009905",
+    "name": "Yamaska (Montreal)",
+    "lat": 45.4522,
+    "lon": -72.8781,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7082"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7082"
+  },
+  {
+    "id": "PSF-009927",
+    "name": "MacKenzie",
+    "lat": 50.9652,
+    "lon": -118.103,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7109"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7109"
+  },
+  {
+    "id": "PSF-009953",
+    "name": "Swansea",
+    "lat": 50.5081,
+    "lon": -115.953,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7147"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7147"
+  },
+  {
+    "id": "PSF-010143",
+    "name": "Kaaikop",
+    "lat": 46.2278,
+    "lon": -74.189,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7393"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7393"
+  },
+  {
+    "id": "PSF-011310",
+    "name": "Mont-Sainte-Anne",
+    "lat": 47.0807,
+    "lon": -70.9347,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "SW": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9741"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9741"
+  },
+  {
+    "id": "PSF-011388",
+    "name": "carlosparaglideclub",
+    "lat": 45.3941,
+    "lon": -75.6718,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9837"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9837"
+  },
+  {
+    "id": "PSF-011491",
+    "name": "Mont St Pierre",
+    "lat": 49.2272,
+    "lon": -65.785,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9981"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9981"
+  }
+]

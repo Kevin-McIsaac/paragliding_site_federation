@@ -1,0 +1,81 @@
+[
+  {
+    "id": "PSF-000661",
+    "name": "Gringlay",
+    "lat": 49.9158,
+    "lon": 6.0917,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10774"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10774"
+  },
+  {
+    "id": "PSF-001827",
+    "name": "Kautenbach",
+    "lat": 49.9522,
+    "lon": 6.03158,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "12454"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12454"
+  },
+  {
+    "id": "PSF-004615",
+    "name": "Eppeldorf",
+    "lat": 49.837,
+    "lon": 6.24422,
+    "wind": {},
+    "sources": {
+      "pge": "17009"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17009"
+  },
+  {
+    "id": "PSF-007192",
+    "name": "Michelau",
+    "lat": 49.8991,
+    "lon": 6.0811,
+    "wind": {},
+    "sources": {
+      "pge": "22250"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22250"
+  },
+  {
+    "id": "PSF-007193",
+    "name": "Michelau-LP",
+    "lat": 49.8977,
+    "lon": 6.08924,
+    "wind": {},
+    "sources": {
+      "pge": "22251"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22251"
+  },
+  {
+    "id": "PSF-007194",
+    "name": "Kautenbach LP",
+    "lat": 49.9541,
+    "lon": 6.02743,
+    "wind": {},
+    "sources": {
+      "pge": "22252"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22252"
+  }
+]

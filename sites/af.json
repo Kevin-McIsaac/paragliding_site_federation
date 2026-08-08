@@ -1,0 +1,19 @@
+[
+  {
+    "id": "PSF-004475",
+    "name": "Ptukh",
+    "lat": 37.0091,
+    "lon": 73.3684,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "16753"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16753"
+  }
+]

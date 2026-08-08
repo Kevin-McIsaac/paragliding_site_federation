@@ -1,0 +1,19 @@
+[
+  {
+    "id": "PSF-007387",
+    "name": "Galala 1 Ain soukhna",
+    "lat": 29.4684,
+    "lon": 32.3992,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22462"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22462"
+  }
+]

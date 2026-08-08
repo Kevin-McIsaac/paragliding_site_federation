@@ -1,0 +1,62 @@
+[
+  {
+    "id": "PSF-005554",
+    "name": "Fazayah Bay",
+    "lat": 16.831,
+    "lon": 53.6654,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18893"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18893"
+  },
+  {
+    "id": "PSF-005555",
+    "name": "Eftalquot Beach",
+    "lat": 16.8963,
+    "lon": 53.8641,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18894"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18894"
+  },
+  {
+    "id": "PSF-006066",
+    "name": "Dibab",
+    "lat": 23.0728,
+    "lon": 59.0443,
+    "wind": {},
+    "sources": {
+      "pge": "19849"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19849"
+  },
+  {
+    "id": "PSF-007950",
+    "name": "Fins",
+    "lat": 22.871,
+    "lon": 59.1777,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "23093"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23093"
+  }
+]

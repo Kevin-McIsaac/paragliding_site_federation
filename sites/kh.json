@@ -1,0 +1,34 @@
+[
+  {
+    "id": "PSF-000555",
+    "name": "Otres hill",
+    "lat": 10.6174,
+    "lon": 103.56,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "10648"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10648"
+  },
+  {
+    "id": "PSF-004686",
+    "name": "Bokor",
+    "lat": 10.6229,
+    "lon": 104.024,
+    "wind": {
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "17127"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17127"
+  }
+]

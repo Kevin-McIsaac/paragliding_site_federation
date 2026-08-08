@@ -1,0 +1,302 @@
+[
+  {
+    "id": "PSF-000218",
+    "name": "Hafrafell",
+    "lat": 64.1369,
+    "lon": -21.6547,
+    "wind": {
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10257"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10257"
+  },
+  {
+    "id": "PSF-000648",
+    "name": "Herdisarvik",
+    "lat": 63.8809,
+    "lon": -21.6911,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "10759"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10759"
+  },
+  {
+    "id": "PSF-000681",
+    "name": "Skalafell",
+    "lat": 64.24,
+    "lon": -21.468,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10799"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10799"
+  },
+  {
+    "id": "PSF-000700",
+    "name": "Kambar",
+    "lat": 64.0043,
+    "lon": -21.241,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10824"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10824"
+  },
+  {
+    "id": "PSF-001803",
+    "name": "Blafell",
+    "lat": 64.499,
+    "lon": -19.8937,
+    "wind": {},
+    "sources": {
+      "pge": "12417"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12417"
+  },
+  {
+    "id": "PSF-001888",
+    "name": "Snaekollur",
+    "lat": 64.6425,
+    "lon": -19.2491,
+    "wind": {},
+    "sources": {
+      "pge": "12571"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12571"
+  },
+  {
+    "id": "PSF-003387",
+    "name": "Helgafell mountain",
+    "lat": 64.1754,
+    "lon": -21.6391,
+    "wind": {},
+    "sources": {
+      "pge": "15002"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15002"
+  },
+  {
+    "id": "PSF-003509",
+    "name": "Ingólfsfjall",
+    "lat": 63.9615,
+    "lon": -21.0711,
+    "wind": {},
+    "sources": {
+      "pge": "15203"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15203"
+  },
+  {
+    "id": "PSF-004264",
+    "name": "Grimnafell",
+    "lat": 64.1706,
+    "lon": -21.5737,
+    "wind": {},
+    "sources": {
+      "pge": "16389"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16389"
+  },
+  {
+    "id": "PSF-004329",
+    "name": "Rolf's Ridge",
+    "lat": 65.3833,
+    "lon": -21.9635,
+    "wind": {},
+    "sources": {
+      "pge": "16506"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16506"
+  },
+  {
+    "id": "PSF-004330",
+    "name": "Skard",
+    "lat": 65.2531,
+    "lon": -22.3521,
+    "wind": {},
+    "sources": {
+      "pge": "16507"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16507"
+  },
+  {
+    "id": "PSF-004331",
+    "name": "Herby's Little Rock",
+    "lat": 65.2045,
+    "lon": -22.4968,
+    "wind": {},
+    "sources": {
+      "pge": "16508"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16508"
+  },
+  {
+    "id": "PSF-004336",
+    "name": "Husavikurfjall",
+    "lat": 66.0449,
+    "lon": -17.304,
+    "wind": {},
+    "sources": {
+      "pge": "16517"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16517"
+  },
+  {
+    "id": "PSF-004340",
+    "name": "Burfell",
+    "lat": 64.0795,
+    "lon": -19.8156,
+    "wind": {},
+    "sources": {
+      "pge": "16525"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16525"
+  },
+  {
+    "id": "PSF-004352",
+    "name": "Kaldakinn",
+    "lat": 65.8208,
+    "lon": -17.5765,
+    "wind": {},
+    "sources": {
+      "pge": "16542"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16542"
+  },
+  {
+    "id": "PSF-004486",
+    "name": "Esja",
+    "lat": 64.2637,
+    "lon": -21.8213,
+    "wind": {},
+    "sources": {
+      "pge": "16768"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16768"
+  },
+  {
+    "id": "PSF-004626",
+    "name": "Thornbjorn",
+    "lat": 63.8675,
+    "lon": -22.4309,
+    "wind": {},
+    "sources": {
+      "pge": "17027"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17027"
+  },
+  {
+    "id": "PSF-005700",
+    "name": "Seljalandvoss",
+    "lat": 63.6162,
+    "lon": -19.9871,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19360"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19360"
+  },
+  {
+    "id": "PSF-005763",
+    "name": "Hjallafjall",
+    "lat": 63.9347,
+    "lon": -21.3258,
+    "wind": {
+      "SE": 2
+    },
+    "sources": {
+      "pge": "19443"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19443"
+  },
+  {
+    "id": "PSF-006285",
+    "name": "Víkurklettar",
+    "lat": 63.4215,
+    "lon": -18.9802,
+    "wind": {},
+    "sources": {
+      "pge": "20994"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=20994"
+  },
+  {
+    "id": "PSF-006290",
+    "name": "Skogarfoss",
+    "lat": 63.5313,
+    "lon": -19.5042,
+    "wind": {},
+    "sources": {
+      "pge": "21087"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21087"
+  },
+  {
+    "id": "PSF-006292",
+    "name": "Hafell",
+    "lat": 63.4397,
+    "lon": -18.8688,
+    "wind": {},
+    "sources": {
+      "pge": "21159"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21159"
+  },
+  {
+    "id": "PSF-006296",
+    "name": "Reykanakyslöverdoemonytasekof",
+    "lat": 63.8787,
+    "lon": -21.7979,
+    "wind": {},
+    "sources": {
+      "pge": "21199"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21199"
+  }
+]

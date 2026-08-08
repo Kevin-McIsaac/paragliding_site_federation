@@ -1,0 +1,29 @@
+[
+  {
+    "id": "PSF-003763",
+    "name": "Bois Baron",
+    "lat": 16.3559,
+    "lon": -61.3919,
+    "wind": {
+      "NE": 1,
+      "E": 2
+    },
+    "sources": {
+      "pge": "15622"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15622"
+  },
+  {
+    "id": "PSF-004497",
+    "name": "Bananier",
+    "lat": 16.0036,
+    "lon": -61.6091,
+    "wind": {},
+    "sources": {
+      "pge": "16793"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16793"
+  }
+]

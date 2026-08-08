@@ -1,0 +1,416 @@
+[
+  {
+    "id": "PSF-003022",
+    "name": "Carmona",
+    "lat": 14.2847,
+    "lon": 121.039,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "14425"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14425"
+  },
+  {
+    "id": "PSF-003065",
+    "name": "Punod",
+    "lat": 10.5203,
+    "lon": 123.324,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "14493"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14493"
+  },
+  {
+    "id": "PSF-003295",
+    "name": "Nataban Peak",
+    "lat": 10.5047,
+    "lon": 123.315,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14855"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14855"
+  },
+  {
+    "id": "PSF-003878",
+    "name": "safi ranch",
+    "lat": 5.9533,
+    "lon": 125.079,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "15848"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15848"
+  },
+  {
+    "id": "PSF-005655",
+    "name": "Marcillia",
+    "lat": 12.0045,
+    "lon": 120.326,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "19300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19300"
+  },
+  {
+    "id": "PSF-005660",
+    "name": "St Nicholas valley",
+    "lat": 12.0771,
+    "lon": 120.182,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19306"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19306"
+  },
+  {
+    "id": "PSF-005847",
+    "name": "Puro island, Tablas,",
+    "lat": 12.1446,
+    "lon": 122.041,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19558"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19558"
+  },
+  {
+    "id": "PSF-005861",
+    "name": "NOAH flysite",
+    "lat": 17.4332,
+    "lon": 120.455,
+    "wind": {},
+    "sources": {
+      "pge": "19574"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19574"
+  },
+  {
+    "id": "PSF-005886",
+    "name": "Omaya mountain",
+    "lat": 15.027,
+    "lon": 120.197,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19617"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19617"
+  },
+  {
+    "id": "PSF-005887",
+    "name": "Labney Grassy mountain",
+    "lat": 15.5756,
+    "lon": 120.275,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "19618"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19618"
+  },
+  {
+    "id": "PSF-005888",
+    "name": "Labney jungle start",
+    "lat": 15.5652,
+    "lon": 120.313,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19619"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19619"
+  },
+  {
+    "id": "PSF-005906",
+    "name": "Mambajao",
+    "lat": 9.2262,
+    "lon": 124.707,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "19646"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19646"
+  },
+  {
+    "id": "PSF-005945",
+    "name": "Mike V FlySite",
+    "lat": 14.0522,
+    "lon": 120.495,
+    "wind": {
+      "NE": 2,
+      "E": 1
+    },
+    "sources": {
+      "pge": "19703"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19703"
+  },
+  {
+    "id": "PSF-006497",
+    "name": "Pitogo Point, Tabugon, Tablas Island.",
+    "lat": 12.1428,
+    "lon": 122.012,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "21445"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21445"
+  },
+  {
+    "id": "PSF-006685",
+    "name": "Oslob, Cebu",
+    "lat": 9.52688,
+    "lon": 123.409,
+    "wind": {},
+    "sources": {
+      "pge": "21667"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21667"
+  },
+  {
+    "id": "PSF-006894",
+    "name": "Mount Caniaw",
+    "lat": 17.6029,
+    "lon": 120.486,
+    "wind": {},
+    "sources": {
+      "pge": "21894"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21894"
+  },
+  {
+    "id": "PSF-006895",
+    "name": "Tubalina Pass",
+    "lat": 17.1857,
+    "lon": 120.653,
+    "wind": {},
+    "sources": {
+      "pge": "21895"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21895"
+  },
+  {
+    "id": "PSF-007396",
+    "name": "NMPC PG club",
+    "lat": 8.42691,
+    "lon": 124.664,
+    "wind": {},
+    "sources": {
+      "pge": "22471"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22471"
+  },
+  {
+    "id": "PSF-007870",
+    "name": "Mount Malindang Gardens of the World",
+    "lat": 8.16111,
+    "lon": 123.688,
+    "wind": {},
+    "sources": {
+      "pge": "23005"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23005"
+  },
+  {
+    "id": "PSF-007871",
+    "name": "Mount Malindang East Landing",
+    "lat": 8.16155,
+    "lon": 123.713,
+    "wind": {},
+    "sources": {
+      "pge": "23006"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23006"
+  },
+  {
+    "id": "PSF-007878",
+    "name": "Canangay",
+    "lat": 10.9758,
+    "lon": 123.979,
+    "wind": {},
+    "sources": {
+      "pge": "23014"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23014"
+  },
+  {
+    "id": "PSF-007879",
+    "name": "Cebu City",
+    "lat": 10.3996,
+    "lon": 123.872,
+    "wind": {},
+    "sources": {
+      "pge": "23015"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23015"
+  },
+  {
+    "id": "PSF-008314",
+    "name": "Chocolate Hill",
+    "lat": 9.78848,
+    "lon": 124.168,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "23497"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23497"
+  },
+  {
+    "id": "PSF-008315",
+    "name": "Mahinog",
+    "lat": 9.17731,
+    "lon": 124.755,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "23498"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23498"
+  },
+  {
+    "id": "PSF-011452",
+    "name": "Kasay beach flight park",
+    "lat": 13.4674,
+    "lon": 120.719,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1
+    },
+    "sources": {
+      "pge": "9932"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9932"
+  },
+  {
+    "id": "PSF-011453",
+    "name": "Dingalan",
+    "lat": 15.3838,
+    "lon": 121.409,
+    "wind": {
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "9933"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9933"
+  },
+  {
+    "id": "PSF-011454",
+    "name": "Montalban",
+    "lat": 14.7251,
+    "lon": 121.167,
+    "wind": {
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "9934"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9934"
+  },
+  {
+    "id": "PSF-011455",
+    "name": "Nabas",
+    "lat": 11.8159,
+    "lon": 122.095,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "9935"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9935"
+  }
+]

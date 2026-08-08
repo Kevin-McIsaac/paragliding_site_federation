@@ -1,0 +1,172 @@
+[
+  {
+    "id": "PSF-002451",
+    "name": "Zubiskes",
+    "lat": 54.9571,
+    "lon": 24.619,
+    "wind": {},
+    "sources": {
+      "pge": "13541"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13541"
+  },
+  {
+    "id": "PSF-002747",
+    "name": "Urnieziai",
+    "lat": 55.1537,
+    "lon": 23.8622,
+    "wind": {},
+    "sources": {
+      "pge": "14024"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14024"
+  },
+  {
+    "id": "PSF-003124",
+    "name": "Paluknys",
+    "lat": 54.4791,
+    "lon": 24.9928,
+    "wind": {},
+    "sources": {
+      "pge": "14593"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14593"
+  },
+  {
+    "id": "PSF-003125",
+    "name": "Birstonas",
+    "lat": 54.5841,
+    "lon": 24.0532,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14594"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14594"
+  },
+  {
+    "id": "PSF-004220",
+    "name": "Juseviciai",
+    "lat": 54.3768,
+    "lon": 23.2543,
+    "wind": {},
+    "sources": {
+      "pge": "16328"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16328"
+  },
+  {
+    "id": "PSF-004684",
+    "name": "Netoniai",
+    "lat": 54.9405,
+    "lon": 23.7218,
+    "wind": {
+      "S": 2
+    },
+    "sources": {
+      "pge": "17125"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17125"
+  },
+  {
+    "id": "PSF-004873",
+    "name": "Leonpolis",
+    "lat": 55.2084,
+    "lon": 24.7023,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "17487"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17487"
+  },
+  {
+    "id": "PSF-009560",
+    "name": "Valkininkai",
+    "lat": 54.3729,
+    "lon": 24.8439,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6633"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6633"
+  },
+  {
+    "id": "PSF-009565",
+    "name": "Guduline",
+    "lat": 54.9162,
+    "lon": 25.0419,
+    "wind": {},
+    "sources": {
+      "pge": "6639"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6639"
+  },
+  {
+    "id": "PSF-009572",
+    "name": "Bagaslaviskis",
+    "lat": 55.0654,
+    "lon": 24.8376,
+    "wind": {},
+    "sources": {
+      "pge": "6646"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6646"
+  },
+  {
+    "id": "PSF-009575",
+    "name": "Kartena",
+    "lat": 55.919,
+    "lon": 21.5743,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "6649"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6649"
+  },
+  {
+    "id": "PSF-009623",
+    "name": "Klabiniai",
+    "lat": 55.3773,
+    "lon": 25.1911,
+    "wind": {},
+    "sources": {
+      "pge": "6702"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6702"
+  }
+]

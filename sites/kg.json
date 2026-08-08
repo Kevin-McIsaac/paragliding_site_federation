@@ -1,0 +1,29 @@
+[
+  {
+    "id": "PSF-005990",
+    "name": "Chon-Tash",
+    "lat": 42.7149,
+    "lon": 74.6036,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "19757"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19757"
+  },
+  {
+    "id": "PSF-008705",
+    "name": "Tysha",
+    "lat": 42.6807,
+    "lon": 74.5959,
+    "wind": {},
+    "sources": {
+      "pge": "23948"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23948"
+  }
+]

@@ -1,0 +1,303 @@
+[
+  {
+    "id": "PSF-001393",
+    "name": "Koh Larn",
+    "lat": 12.9234,
+    "lon": 100.776,
+    "wind": {},
+    "sources": {
+      "pge": "11697"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11697"
+  },
+  {
+    "id": "PSF-001394",
+    "name": "Nongkajong",
+    "lat": 12.6356,
+    "lon": 100.947,
+    "wind": {},
+    "sources": {
+      "pge": "11698"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11698"
+  },
+  {
+    "id": "PSF-001412",
+    "name": "Phu Noom",
+    "lat": 13.0994,
+    "lon": 101.054,
+    "wind": {},
+    "sources": {
+      "pge": "11720"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11720"
+  },
+  {
+    "id": "PSF-001480",
+    "name": "Phu Thap Boek",
+    "lat": 16.8981,
+    "lon": 101.109,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1
+    },
+    "sources": {
+      "pge": "11846"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11846"
+  },
+  {
+    "id": "PSF-001524",
+    "name": "Phu Lungka top",
+    "lat": 19.3944,
+    "lon": 100.484,
+    "wind": {},
+    "sources": {
+      "pge": "11920"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11920"
+  },
+  {
+    "id": "PSF-001544",
+    "name": "Khao Son",
+    "lat": 13.5736,
+    "lon": 99.4861,
+    "wind": {},
+    "sources": {
+      "pge": "11966"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11966"
+  },
+  {
+    "id": "PSF-001545",
+    "name": "Moo Dud",
+    "lat": 12.5609,
+    "lon": 101.925,
+    "wind": {},
+    "sources": {
+      "pge": "11967"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11967"
+  },
+  {
+    "id": "PSF-001555",
+    "name": "Arphakorn",
+    "lat": 12.6534,
+    "lon": 100.859,
+    "wind": {},
+    "sources": {
+      "pge": "11979"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11979"
+  },
+  {
+    "id": "PSF-003131",
+    "name": "Khao Prig",
+    "lat": 14.8934,
+    "lon": 101.571,
+    "wind": {},
+    "sources": {
+      "pge": "14607"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14607"
+  },
+  {
+    "id": "PSF-004283",
+    "name": "Khao morn",
+    "lat": 12.6907,
+    "lon": 100.919,
+    "wind": {},
+    "sources": {
+      "pge": "16421"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16421"
+  },
+  {
+    "id": "PSF-005632",
+    "name": "Nai Harn Beach",
+    "lat": 7.7702,
+    "lon": 98.3062,
+    "wind": {
+      "W": 2
+    },
+    "sources": {
+      "pge": "19255"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19255"
+  },
+  {
+    "id": "PSF-005646",
+    "name": "Doi Pha-Phueng",
+    "lat": 18.8395,
+    "lon": 99.1773,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19279"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19279"
+  },
+  {
+    "id": "PSF-005882",
+    "name": "Phu Sing",
+    "lat": 18.2537,
+    "lon": 103.812,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 1,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19610"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19610"
+  },
+  {
+    "id": "PSF-005883",
+    "name": "Pha Tak Suea",
+    "lat": 18.0372,
+    "lon": 102.309,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19611"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19611"
+  },
+  {
+    "id": "PSF-005896",
+    "name": "El Setero",
+    "lat": 13.1003,
+    "lon": 101.048,
+    "wind": {
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19627"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19627"
+  },
+  {
+    "id": "PSF-006026",
+    "name": "Songkrasip Trainning Hill",
+    "lat": 12.6784,
+    "lon": 101.098,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19800"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19800"
+  },
+  {
+    "id": "PSF-006469",
+    "name": "Wat Prong Chang Pha Sawan",
+    "lat": 16.0793,
+    "lon": 102.099,
+    "wind": {},
+    "sources": {
+      "pge": "21413"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21413"
+  },
+  {
+    "id": "PSF-008609",
+    "name": "Khao Raboet",
+    "lat": 13.163,
+    "lon": 101.417,
+    "wind": {},
+    "sources": {
+      "pge": "23840"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23840"
+  },
+  {
+    "id": "PSF-009499",
+    "name": "Sik Hiu  -  Khao Sadao",
+    "lat": 14.92,
+    "lon": 101.598,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "6289"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6289"
+  },
+  {
+    "id": "PSF-009500",
+    "name": "Petchaburi  -  Khoa Dan",
+    "lat": 13.0342,
+    "lon": 99.7989,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "6290"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6290"
+  },
+  {
+    "id": "PSF-009501",
+    "name": "Chumpon  - Khoa Pang",
+    "lat": 10.5833,
+    "lon": 99.1333,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "6291"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6291"
+  }
+]

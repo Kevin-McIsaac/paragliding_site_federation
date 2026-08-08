@@ -1,0 +1,829 @@
+[
+  {
+    "id": "PSF-000627",
+    "name": "Mungyeong",
+    "lat": 36.7309,
+    "lon": 128.175,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10736"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10736"
+  },
+  {
+    "id": "PSF-000641",
+    "name": "Anseong",
+    "lat": 36.9304,
+    "lon": 127.283,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "10751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10751"
+  },
+  {
+    "id": "PSF-000659",
+    "name": "ChunCheon",
+    "lat": 37.8563,
+    "lon": 127.809,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "10772"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10772"
+  },
+  {
+    "id": "PSF-000662",
+    "name": "Airport",
+    "lat": 35.5925,
+    "lon": 129.401,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "10775"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10775"
+  },
+  {
+    "id": "PSF-000751",
+    "name": "PyeongChang",
+    "lat": 37.3809,
+    "lon": 128.422,
+    "wind": {
+      "N": 1,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10883"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10883"
+  },
+  {
+    "id": "PSF-000919",
+    "name": "Danyang",
+    "lat": 36.9957,
+    "lon": 128.397,
+    "wind": {
+      "N": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11080"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11080"
+  },
+  {
+    "id": "PSF-001092",
+    "name": "Mt BangJang",
+    "lat": 35.4491,
+    "lon": 126.738,
+    "wind": {
+      "N": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11300"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11300"
+  },
+  {
+    "id": "PSF-001220",
+    "name": "Bongrae Mt.",
+    "lat": 37.1992,
+    "lon": 128.486,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "11456"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11456"
+  },
+  {
+    "id": "PSF-001459",
+    "name": "Oh san",
+    "lat": 35.1801,
+    "lon": 127.48,
+    "wind": {},
+    "sources": {
+      "pge": "11811"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11811"
+  },
+  {
+    "id": "PSF-001460",
+    "name": "Okmasan",
+    "lat": 36.3186,
+    "lon": 126.633,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11812"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11812"
+  },
+  {
+    "id": "PSF-001643",
+    "name": "Gom Doli",
+    "lat": 35.6511,
+    "lon": 129.103,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "12131"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12131"
+  },
+  {
+    "id": "PSF-002134",
+    "name": "KoJyae BongSan",
+    "lat": 35.13,
+    "lon": 127.717,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13033"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13033"
+  },
+  {
+    "id": "PSF-002135",
+    "name": "Hyeong Jyae Bong Mountain",
+    "lat": 35.2049,
+    "lon": 127.685,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "13034"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13034"
+  },
+  {
+    "id": "PSF-002326",
+    "name": "Sanjo-BumBossa",
+    "lat": 35.7215,
+    "lon": 127.141,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "13336"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13336"
+  },
+  {
+    "id": "PSF-002647",
+    "name": "Jeonbuk Iksan",
+    "lat": 36.0325,
+    "lon": 127.035,
+    "wind": {},
+    "sources": {
+      "pge": "13876"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13876"
+  },
+  {
+    "id": "PSF-003080",
+    "name": "Choburi",
+    "lat": 37.3172,
+    "lon": 127.282,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14515"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14515"
+  },
+  {
+    "id": "PSF-003649",
+    "name": "Geoje-si",
+    "lat": 34.8621,
+    "lon": 128.616,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "15446"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15446"
+  },
+  {
+    "id": "PSF-005491",
+    "name": "Jil Lae",
+    "lat": 35.2192,
+    "lon": 128.744,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2
+    },
+    "sources": {
+      "pge": "18823"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18823"
+  },
+  {
+    "id": "PSF-005532",
+    "name": "SamcheonPo",
+    "lat": 34.9573,
+    "lon": 128.056,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "18868"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18868"
+  },
+  {
+    "id": "PSF-005533",
+    "name": "Samsangro",
+    "lat": 34.9544,
+    "lon": 128.098,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "18869"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18869"
+  },
+  {
+    "id": "PSF-005591",
+    "name": "Haman",
+    "lat": 35.2915,
+    "lon": 128.457,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19197"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19197"
+  },
+  {
+    "id": "PSF-005634",
+    "name": "Haman 2",
+    "lat": 35.2915,
+    "lon": 128.457,
+    "wind": {
+      "N": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19260"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19260"
+  },
+  {
+    "id": "PSF-006319",
+    "name": "Songdo",
+    "lat": 35.0766,
+    "lon": 129.012,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "21230"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21230"
+  },
+  {
+    "id": "PSF-006692",
+    "name": "H 508 Heliport흑성산",
+    "lat": 36.797,
+    "lon": 127.208,
+    "wind": {},
+    "sources": {
+      "pge": "21674"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21674"
+  },
+  {
+    "id": "PSF-006743",
+    "name": "Gubongdo Island",
+    "lat": 37.2757,
+    "lon": 126.563,
+    "wind": {},
+    "sources": {
+      "pge": "21732"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21732"
+  },
+  {
+    "id": "PSF-007174",
+    "name": "Gangdong-myeon",
+    "lat": 35.981,
+    "lon": 129.293,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "22229"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22229"
+  },
+  {
+    "id": "PSF-007183",
+    "name": "Yangbangsan Observatory",
+    "lat": 36.968,
+    "lon": 128.381,
+    "wind": {
+      "N": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "22240"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22240"
+  },
+  {
+    "id": "PSF-007226",
+    "name": "Pyeongtaek-si",
+    "lat": 36.9214,
+    "lon": 126.925,
+    "wind": {},
+    "sources": {
+      "pge": "22285"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22285"
+  },
+  {
+    "id": "PSF-007227",
+    "name": "Munsubong",
+    "lat": 37.1797,
+    "lon": 127.287,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "22286"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22286"
+  },
+  {
+    "id": "PSF-007797",
+    "name": "Geum Oreum",
+    "lat": 33.3544,
+    "lon": 126.306,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22928"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22928"
+  },
+  {
+    "id": "PSF-007828",
+    "name": "Ju wol San",
+    "lat": 34.8119,
+    "lon": 127.211,
+    "wind": {},
+    "sources": {
+      "pge": "22963"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22963"
+  },
+  {
+    "id": "PSF-008102",
+    "name": "Jujak Mt'(주작산)",
+    "lat": 34.5056,
+    "lon": 126.699,
+    "wind": {},
+    "sources": {
+      "pge": "23252"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23252"
+  },
+  {
+    "id": "PSF-008183",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23342"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23342"
+  },
+  {
+    "id": "PSF-008184",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23343"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23343"
+  },
+  {
+    "id": "PSF-008185",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23345"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23345"
+  },
+  {
+    "id": "PSF-008186",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23346"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23346"
+  },
+  {
+    "id": "PSF-008187",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23347"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23347"
+  },
+  {
+    "id": "PSF-008188",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23348"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23348"
+  },
+  {
+    "id": "PSF-008189",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23349"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23349"
+  },
+  {
+    "id": "PSF-008190",
+    "name": "ByeokDo San",
+    "lat": 35.8065,
+    "lon": 129.16,
+    "wind": {},
+    "sources": {
+      "pge": "23350"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23350"
+  },
+  {
+    "id": "PSF-008191",
+    "name": "Bongrae San",
+    "lat": 35.0819,
+    "lon": 129.055,
+    "wind": {},
+    "sources": {
+      "pge": "23351"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23351"
+  },
+  {
+    "id": "PSF-008192",
+    "name": "Orangdae",
+    "lat": 35.2054,
+    "lon": 129.227,
+    "wind": {},
+    "sources": {
+      "pge": "23352"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23352"
+  },
+  {
+    "id": "PSF-008531",
+    "name": "Bonghwasan",
+    "lat": 35.3166,
+    "lon": 128.78,
+    "wind": {},
+    "sources": {
+      "pge": "23749"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23749"
+  },
+  {
+    "id": "PSF-008532",
+    "name": "Kunlun Shan",
+    "lat": 36.1348,
+    "lon": 129.392,
+    "wind": {},
+    "sources": {
+      "pge": "23750"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23750"
+  },
+  {
+    "id": "PSF-008533",
+    "name": "Mangun Shan",
+    "lat": 34.8448,
+    "lon": 127.845,
+    "wind": {},
+    "sources": {
+      "pge": "23751"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23751"
+  },
+  {
+    "id": "PSF-008534",
+    "name": "Yeonhwa san",
+    "lat": 35.6327,
+    "lon": 129.206,
+    "wind": {},
+    "sources": {
+      "pge": "23752"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23752"
+  },
+  {
+    "id": "PSF-009779",
+    "name": "Mt. Jungkwang",
+    "lat": 37.3103,
+    "lon": 127.277,
+    "wind": {
+      "E": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6906"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6906"
+  },
+  {
+    "id": "PSF-010114",
+    "name": "Gan Wahl Jae",
+    "lat": 35.547,
+    "lon": 129.046,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "7357"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7357"
+  },
+  {
+    "id": "PSF-010115",
+    "name": "Cheongdo",
+    "lat": 35.6354,
+    "lon": 128.775,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7359"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7359"
+  },
+  {
+    "id": "PSF-010116",
+    "name": "Um Dahl San",
+    "lat": 35.4269,
+    "lon": 128.802,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "7360"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7360"
+  },
+  {
+    "id": "PSF-010117",
+    "name": "Day Am San",
+    "lat": 35.534,
+    "lon": 128.217,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2
+    },
+    "sources": {
+      "pge": "7361"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7361"
+  },
+  {
+    "id": "PSF-010118",
+    "name": "Bohyan San",
+    "lat": 36.161,
+    "lon": 128.974,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "7362"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7362"
+  },
+  {
+    "id": "PSF-010126",
+    "name": "Oh Bung San",
+    "lat": 35.3417,
+    "lon": 129.005,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "7373"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=7373"
+  },
+  {
+    "id": "PSF-011504",
+    "name": "Yebongsan",
+    "lat": 37.5657,
+    "lon": 127.257,
+    "wind": {
+      "SW": 1,
+      "W": 2,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "9995"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9995"
+  },
+  {
+    "id": "PSF-011505",
+    "name": "Yumyungsan",
+    "lat": 37.5737,
+    "lon": 127.485,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "9996"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=9996"
+  }
+]

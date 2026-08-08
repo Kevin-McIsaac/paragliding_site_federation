@@ -1,0 +1,598 @@
+[
+  {
+    "id": "PSF-000309",
+    "name": "Csobánc",
+    "lat": 46.8716,
+    "lon": 17.5047,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10355"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10355"
+  },
+  {
+    "id": "PSF-000310",
+    "name": "Mókus-hegy",
+    "lat": 47.6886,
+    "lon": 18.7088,
+    "wind": {
+      "SE": 2,
+      "S": 2
+    },
+    "sources": {
+      "pge": "10356"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10356"
+  },
+  {
+    "id": "PSF-000311",
+    "name": "Kalocsa",
+    "lat": 46.541,
+    "lon": 18.9433,
+    "wind": {
+      "N": 2,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "10357"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10357"
+  },
+  {
+    "id": "PSF-000902",
+    "name": "Gödöllői reptér - Gödöllő airport",
+    "lat": 47.5761,
+    "lon": 19.3347,
+    "wind": {
+      "SE": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "11063"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11063"
+  },
+  {
+    "id": "PSF-000917",
+    "name": "Naszály",
+    "lat": 47.8312,
+    "lon": 19.1435,
+    "wind": {
+      "SE": 2,
+      "S": 1,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "11078"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11078"
+  },
+  {
+    "id": "PSF-001472",
+    "name": "Kékestető",
+    "lat": 47.8755,
+    "lon": 20.0078,
+    "wind": {
+      "N": 2
+    },
+    "sources": {
+      "pge": "11833"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11833"
+  },
+  {
+    "id": "PSF-001509",
+    "name": "Tokaj",
+    "lat": 48.1174,
+    "lon": 21.3852,
+    "wind": {
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "11896"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11896"
+  },
+  {
+    "id": "PSF-001655",
+    "name": "Szársomlyó",
+    "lat": 45.8554,
+    "lon": 18.4105,
+    "wind": {
+      "N": 2,
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12149"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12149"
+  },
+  {
+    "id": "PSF-001772",
+    "name": "FertÅ‘rÃ¡kos",
+    "lat": 47.7444,
+    "lon": 16.6143,
+    "wind": {
+      "N": 2,
+      "SE": 2,
+      "S": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "12359"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=12359"
+  },
+  {
+    "id": "PSF-002333",
+    "name": "Bér-hegy",
+    "lat": 47.2123,
+    "lon": 18.0781,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "13348"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13348"
+  },
+  {
+    "id": "PSF-002553",
+    "name": "Dunaújváros Airfield",
+    "lat": 46.8875,
+    "lon": 18.9053,
+    "wind": {},
+    "sources": {
+      "pge": "13723"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13723"
+  },
+  {
+    "id": "PSF-002771",
+    "name": "Vértesszőlős - Öregkovács-hegy",
+    "lat": 47.6191,
+    "lon": 18.4082,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "14069"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14069"
+  },
+  {
+    "id": "PSF-002789",
+    "name": "Kétágú-hegy",
+    "lat": 47.7238,
+    "lon": 18.8046,
+    "wind": {
+      "S": 1,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14101"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14101"
+  },
+  {
+    "id": "PSF-002822",
+    "name": "Tardosbánya - Gorbatető",
+    "lat": 47.6534,
+    "lon": 18.4357,
+    "wind": {
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "14155"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14155"
+  },
+  {
+    "id": "PSF-002823",
+    "name": "Csóka-hegy",
+    "lat": 47.3704,
+    "lon": 18.2519,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "14156"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14156"
+  },
+  {
+    "id": "PSF-002881",
+    "name": "Pilis - Partizán",
+    "lat": 47.6829,
+    "lon": 18.8756,
+    "wind": {
+      "E": 1,
+      "SE": 2,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "14246"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14246"
+  },
+  {
+    "id": "PSF-003946",
+    "name": "HHH-Ujlaki",
+    "lat": 47.5522,
+    "lon": 18.9891,
+    "wind": {
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "15938"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=15938"
+  },
+  {
+    "id": "PSF-004024",
+    "name": "Nagy-Kevély",
+    "lat": 47.6225,
+    "lon": 18.9847,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "16039"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16039"
+  },
+  {
+    "id": "PSF-004060",
+    "name": "Hajdúszoboszló",
+    "lat": 47.4588,
+    "lon": 21.3839,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "16081"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16081"
+  },
+  {
+    "id": "PSF-004633",
+    "name": "Márkó",
+    "lat": 47.1087,
+    "lon": 17.8199,
+    "wind": {
+      "N": 2,
+      "NE": 2
+    },
+    "sources": {
+      "pge": "17048"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17048"
+  },
+  {
+    "id": "PSF-005468",
+    "name": "LHDK Dunakeszi",
+    "lat": 47.614,
+    "lon": 19.145,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "18790"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=18790"
+  },
+  {
+    "id": "PSF-005747",
+    "name": "Pilis - East",
+    "lat": 47.6868,
+    "lon": 18.8742,
+    "wind": {
+      "NE": 1,
+      "E": 2,
+      "SE": 1
+    },
+    "sources": {
+      "pge": "19424"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19424"
+  },
+  {
+    "id": "PSF-005748",
+    "name": "Pilis - Southwest",
+    "lat": 47.6865,
+    "lon": 18.8703,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19425"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19425"
+  },
+  {
+    "id": "PSF-005749",
+    "name": "Nagy-Gete",
+    "lat": 47.7067,
+    "lon": 18.694,
+    "wind": {
+      "SE": 1,
+      "S": 2,
+      "SW": 1
+    },
+    "sources": {
+      "pge": "19426"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19426"
+  },
+  {
+    "id": "PSF-005751",
+    "name": "Mogyorós-orom",
+    "lat": 47.9164,
+    "lon": 19.9409,
+    "wind": {
+      "E": 2
+    },
+    "sources": {
+      "pge": "19429"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19429"
+  },
+  {
+    "id": "PSF-005752",
+    "name": "Jakab-hegy",
+    "lat": 46.0972,
+    "lon": 18.1272,
+    "wind": {
+      "S": 1,
+      "SW": 2,
+      "W": 1
+    },
+    "sources": {
+      "pge": "19430"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19430"
+  },
+  {
+    "id": "PSF-005754",
+    "name": "Bérceli-hegy",
+    "lat": 47.8891,
+    "lon": 19.4143,
+    "wind": {
+      "SW": 2
+    },
+    "sources": {
+      "pge": "19432"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19432"
+  },
+  {
+    "id": "PSF-006109",
+    "name": "Dinnyes",
+    "lat": 47.1494,
+    "lon": 18.5955,
+    "wind": {},
+    "sources": {
+      "pge": "19977"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19977"
+  },
+  {
+    "id": "PSF-006753",
+    "name": "Fedémes Siklóernyős Park - Paragliding Park",
+    "lat": 48.0275,
+    "lon": 20.1673,
+    "wind": {},
+    "sources": {
+      "pge": "21742"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21742"
+  },
+  {
+    "id": "PSF-006798",
+    "name": "Dömörkapu",
+    "lat": 46.0983,
+    "lon": 18.2347,
+    "wind": {
+      "NE": 2,
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "21790"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21790"
+  },
+  {
+    "id": "PSF-006799",
+    "name": "Tenkes",
+    "lat": 45.8833,
+    "lon": 18.2482,
+    "wind": {
+      "SE": 2,
+      "S": 2,
+      "SW": 2
+    },
+    "sources": {
+      "pge": "21791"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=21791"
+  },
+  {
+    "id": "PSF-007230",
+    "name": "Gomba",
+    "lat": 47.3647,
+    "lon": 19.5294,
+    "wind": {
+      "N": 1,
+      "NE": 2,
+      "E": 2,
+      "SE": 2,
+      "S": 2,
+      "SW": 2,
+      "W": 1,
+      "NW": 1
+    },
+    "sources": {
+      "pge": "22289"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=22289"
+  },
+  {
+    "id": "PSF-009530",
+    "name": "Nyikom",
+    "lat": 47.91,
+    "lon": 19.7613,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6590"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6590"
+  },
+  {
+    "id": "PSF-009531",
+    "name": "Nagy-Eged",
+    "lat": 47.9288,
+    "lon": 20.412,
+    "wind": {
+      "SE": 2,
+      "S": 1,
+      "SW": 2,
+      "W": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6591"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6591"
+  },
+  {
+    "id": "PSF-009541",
+    "name": "Sár-hegy",
+    "lat": 47.7927,
+    "lon": 19.9694,
+    "wind": {
+      "SE": 2,
+      "S": 1
+    },
+    "sources": {
+      "pge": "6607"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6607"
+  },
+  {
+    "id": "PSF-009542",
+    "name": "Óbuda",
+    "lat": 47.5558,
+    "lon": 19.0027,
+    "wind": {
+      "NE": 2
+    },
+    "sources": {
+      "pge": "6608"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6608"
+  },
+  {
+    "id": "PSF-009543",
+    "name": "Kartal",
+    "lat": 47.7005,
+    "lon": 19.5516,
+    "wind": {
+      "N": 1,
+      "SE": 2,
+      "S": 1,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "6609"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=6609"
+  }
+]

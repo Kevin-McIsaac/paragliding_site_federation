@@ -1,0 +1,142 @@
+[
+  {
+    "id": "PSF-001349",
+    "name": "Spreets Hoogte",
+    "lat": -23.6337,
+    "lon": 16.184,
+    "wind": {},
+    "sources": {
+      "pge": "11619"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=11619"
+  },
+  {
+    "id": "PSF-002294",
+    "name": "Take off Pad Burgsdorf",
+    "lat": -25.0015,
+    "lon": 16.903,
+    "wind": {},
+    "sources": {
+      "pge": "13283"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13283"
+  },
+  {
+    "id": "PSF-002325",
+    "name": "Hohingeslost",
+    "lat": -29.2884,
+    "lon": 21.1555,
+    "wind": {},
+    "sources": {
+      "pge": "13332"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13332"
+  },
+  {
+    "id": "PSF-002619",
+    "name": "Pokweni",
+    "lat": -23.6401,
+    "lon": 17.7223,
+    "wind": {},
+    "sources": {
+      "pge": "13838"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13838"
+  },
+  {
+    "id": "PSF-002624",
+    "name": "Farm Moreson Maltahoehe District",
+    "lat": -25.0961,
+    "lon": 16.9023,
+    "wind": {},
+    "sources": {
+      "pge": "13843"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=13843"
+  },
+  {
+    "id": "PSF-004112",
+    "name": "Sandwich Harbour",
+    "lat": -23.3086,
+    "lon": 14.4999,
+    "wind": {},
+    "sources": {
+      "pge": "16139"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16139"
+  },
+  {
+    "id": "PSF-004137",
+    "name": "Henties Bay",
+    "lat": -22.0813,
+    "lon": 14.2438,
+    "wind": {},
+    "sources": {
+      "pge": "16177"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16177"
+  },
+  {
+    "id": "PSF-004414",
+    "name": "Torra Bay",
+    "lat": -20.3271,
+    "lon": 13.2886,
+    "wind": {},
+    "sources": {
+      "pge": "16647"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16647"
+  },
+  {
+    "id": "PSF-004418",
+    "name": "Büllsport 1",
+    "lat": -24.1504,
+    "lon": 16.3462,
+    "wind": {},
+    "sources": {
+      "pge": "16653"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=16653"
+  },
+  {
+    "id": "PSF-004769",
+    "name": "Langstrand Dunes",
+    "lat": -22.7685,
+    "lon": 14.5434,
+    "wind": {},
+    "sources": {
+      "pge": "17307"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=17307"
+  },
+  {
+    "id": "PSF-005699",
+    "name": "Vogelberg",
+    "lat": -23.057,
+    "lon": 14.986,
+    "wind": {
+      "N": 2,
+      "NE": 1,
+      "SE": 1,
+      "S": 2,
+      "SW": 2,
+      "W": 2,
+      "NW": 2
+    },
+    "sources": {
+      "pge": "19359"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=19359"
+  }
+]

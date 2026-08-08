@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PSF-000148",
+    "name": "diriomito",
+    "lat": 11.9416,
+    "lon": -86.057,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "10175"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=10175"
+  },
+  {
+    "id": "PSF-003219",
+    "name": "Diriomito",
+    "lat": 11.9366,
+    "lon": -86.06,
+    "wind": {
+      "E": 2,
+      "SE": 2
+    },
+    "sources": {
+      "pge": "14760"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=14760"
+  }
+]

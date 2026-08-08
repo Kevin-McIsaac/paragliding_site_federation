@@ -7,6 +7,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 900.0,
     "sources": {
       "pge": "10060",
       "siteguide_au": "106-28"
@@ -22,6 +23,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 85.0,
     "sources": {
       "pge": "10096",
       "siteguide_au": "237-271"
@@ -35,6 +37,7 @@
     "lat": -26.8097,
     "lon": 152.602,
     "wind": {},
+    "altitude": 489.0,
     "sources": {
       "pge": "10129"
     },
@@ -51,6 +54,7 @@
       "SE": 2,
       "S": 1
     },
+    "altitude": 17.0,
     "sources": {
       "pge": "10171"
     },
@@ -65,6 +69,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 200.0,
     "sources": {
       "pge": "10498",
       "siteguide_au": "251-274"
@@ -81,6 +86,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 85.0,
     "sources": {
       "pge": "10625",
       "siteguide_au": "1-111"
@@ -98,6 +104,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 576.0,
     "sources": {
       "pge": "10714"
     },
@@ -113,6 +120,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 231.0,
     "sources": {
       "pge": "10715"
     },
@@ -127,6 +135,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 30.0,
     "sources": {
       "pge": "10809",
       "siteguide_au": "129-34"
@@ -143,6 +152,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 25.0,
     "sources": {
       "pge": "10814",
       "siteguide_au": "126-31"
@@ -159,6 +169,7 @@
       "N": 2,
       "NE": 1
     },
+    "altitude": 805.0,
     "sources": {
       "pge": "10877"
     },
@@ -178,6 +189,7 @@
       "SW": 2,
       "NW": 1
     },
+    "altitude": 924.0,
     "sources": {
       "pge": "10969"
     },
@@ -199,6 +211,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 233.0,
     "sources": {
       "pge": "11077"
     },
@@ -214,6 +227,7 @@
       "NE": 2,
       "E": 2
     },
+    "altitude": 894.0,
     "sources": {
       "pge": "11177"
     },
@@ -228,6 +242,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 60.0,
     "sources": {
       "pge": "11371",
       "siteguide_au": "2-217"
@@ -244,6 +259,7 @@
       "SE": 1,
       "SW": 1
     },
+    "altitude": 548.0,
     "sources": {
       "pge": "11480",
       "siteguide_au": "122-229"
@@ -260,6 +276,7 @@
       "SE": 1,
       "SW": 1
     },
+    "altitude": 548.0,
     "sources": {
       "pge": "11482",
       "siteguide_au": "122-230"
@@ -275,6 +292,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 1040.0,
     "sources": {
       "pge": "11487",
       "siteguide_au": "138-250"
@@ -291,6 +309,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 75.0,
     "sources": {
       "pge": "11512",
       "siteguide_au": "107-239"
@@ -306,6 +325,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 82.0,
     "sources": {
       "pge": "11513",
       "siteguide_au": "261-290"
@@ -321,6 +341,7 @@
     "wind": {
       "SE": 2
     },
+    "altitude": 26.0,
     "sources": {
       "pge": "11514"
     },
@@ -337,6 +358,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 59.0,
     "sources": {
       "pge": "11516"
     },
@@ -351,6 +373,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 35.0,
     "sources": {
       "pge": "11571",
       "siteguide_au": "119-227"
@@ -368,6 +391,7 @@
       "NE": 2,
       "NW": 2
     },
+    "altitude": 57.0,
     "sources": {
       "pge": "11661"
     },
@@ -383,6 +407,7 @@
       "SW": 2,
       "W": 2
     },
+    "altitude": 16.0,
     "sources": {
       "pge": "11665"
     },
@@ -404,6 +429,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 233.0,
     "sources": {
       "pge": "11710"
     },
@@ -418,6 +444,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 60.0,
     "sources": {
       "pge": "11756",
       "siteguide_au": "152-61"
@@ -436,6 +463,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 765.0,
     "sources": {
       "pge": "11893"
     },
@@ -451,6 +479,7 @@
       "NE": 1,
       "E": 2
     },
+    "altitude": 0.0,
     "sources": {
       "pge": "11897"
     },
@@ -467,6 +496,7 @@
       "SW": 2,
       "W": 1
     },
+    "altitude": 220.0,
     "sources": {
       "pge": "11906"
     },
@@ -479,6 +509,7 @@
     "lat": -30.4855,
     "lon": 150.53,
     "wind": {},
+    "altitude": 672.0,
     "sources": {
       "pge": "11922"
     },
@@ -491,6 +522,7 @@
     "lat": -28.6319,
     "lon": 153.509,
     "wind": {},
+    "altitude": 134.0,
     "sources": {
       "pge": "11944"
     },
@@ -507,6 +539,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 428.0,
     "sources": {
       "pge": "11970"
     },
@@ -522,6 +555,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 620.0,
     "sources": {
       "pge": "11971",
       "siteguide_au": "17-243"
@@ -538,6 +572,7 @@
       "SW": 1,
       "W": 2
     },
+    "altitude": 635.0,
     "sources": {
       "pge": "11972"
     },
@@ -552,6 +587,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 60.0,
     "sources": {
       "pge": "11987",
       "siteguide_au": "133-181"
@@ -565,6 +601,7 @@
     "lat": -42.8932,
     "lon": 147.235,
     "wind": {},
+    "altitude": 1219.0,
     "sources": {
       "pge": "12136"
     },
@@ -577,6 +614,7 @@
     "lat": -31.9927,
     "lon": 152.173,
     "wind": {},
+    "altitude": 420.0,
     "sources": {
       "pge": "12137"
     },
@@ -594,6 +632,7 @@
       "E": 2,
       "SE": 1
     },
+    "altitude": 344.0,
     "sources": {
       "pge": "12138"
     },
@@ -606,6 +645,7 @@
     "lat": -34.8015,
     "lon": 150.58,
     "wind": {},
+    "altitude": 487.0,
     "sources": {
       "pge": "12158"
     },
@@ -618,6 +658,7 @@
     "lat": -30.7459,
     "lon": 150.727,
     "wind": {},
+    "altitude": 362.0,
     "sources": {
       "pge": "12501"
     },
@@ -630,6 +671,7 @@
     "lat": -30.3304,
     "lon": 150.335,
     "wind": {},
+    "altitude": 753.0,
     "sources": {
       "pge": "12502"
     },
@@ -646,6 +688,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 240.0,
     "sources": {
       "pge": "12753"
     },
@@ -658,6 +701,7 @@
     "lat": -42.8429,
     "lon": 146.293,
     "wind": {},
+    "altitude": 1010.0,
     "sources": {
       "pge": "12789"
     },
@@ -670,6 +714,7 @@
     "lat": -27.162474,
     "lon": 151.264515,
     "wind": {},
+    "altitude": 345.0,
     "sources": {
       "pge": "12803",
       "siteguide_au": "22-1"
@@ -683,6 +728,7 @@
     "lat": -41.4586,
     "lon": 146.279,
     "wind": {},
+    "altitude": 977.0,
     "sources": {
       "pge": "12857"
     },
@@ -695,6 +741,7 @@
     "lat": -33.7918,
     "lon": 148.224,
     "wind": {},
+    "altitude": 330.0,
     "sources": {
       "pge": "13050"
     },
@@ -707,6 +754,7 @@
     "lat": -31.4411,
     "lon": 152.412,
     "wind": {},
+    "altitude": 77.0,
     "sources": {
       "pge": "13230"
     },
@@ -723,6 +771,7 @@
       "E": 2,
       "SE": 1
     },
+    "altitude": 225.0,
     "sources": {
       "pge": "13231"
     },
@@ -744,6 +793,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 268.0,
     "sources": {
       "pge": "13237"
     },
@@ -762,6 +812,7 @@
       "SE": 2,
       "S": 2
     },
+    "altitude": 320.0,
     "sources": {
       "pge": "13238"
     },
@@ -777,6 +828,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 685.0,
     "sources": {
       "pge": "13239",
       "siteguide_au": "103-207"
@@ -794,6 +846,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 527.0,
     "sources": {
       "pge": "13383",
       "siteguide_au": "21-285"
@@ -807,6 +860,7 @@
     "lat": -26.7595,
     "lon": 152.893,
     "wind": {},
+    "altitude": 367.0,
     "sources": {
       "pge": "13384"
     },
@@ -822,6 +876,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 409.0,
     "sources": {
       "pge": "13404",
       "siteguide_au": "265-297"
@@ -838,6 +893,7 @@
       "SE": 2,
       "S": 1
     },
+    "altitude": 20.0,
     "sources": {
       "pge": "13475"
     },
@@ -850,6 +906,7 @@
     "lat": -28.3402,
     "lon": 152.295,
     "wind": {},
+    "altitude": 512.0,
     "sources": {
       "pge": "13476"
     },
@@ -862,6 +919,7 @@
     "lat": -33.7001,
     "lon": 150.129,
     "wind": {},
+    "altitude": 836.0,
     "sources": {
       "pge": "13491"
     },
@@ -874,6 +932,7 @@
     "lat": -28.641,
     "lon": 153.634,
     "wind": {},
+    "altitude": 49.0,
     "sources": {
       "pge": "13667"
     },
@@ -886,6 +945,7 @@
     "lat": -32.7715,
     "lon": 149.998,
     "wind": {},
+    "altitude": 602.0,
     "sources": {
       "pge": "13673"
     },
@@ -898,6 +958,7 @@
     "lat": -30.8724,
     "lon": 150.542,
     "wind": {},
+    "altitude": 342.0,
     "sources": {
       "pge": "13687"
     },
@@ -919,6 +980,7 @@
       "W": 1,
       "NW": 2
     },
+    "altitude": 374.0,
     "sources": {
       "pge": "13701"
     },
@@ -934,6 +996,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 410.0,
     "sources": {
       "pge": "13702",
       "siteguide_au": "195-80"
@@ -956,6 +1019,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 91.0,
     "sources": {
       "pge": "13703"
     },
@@ -971,6 +1035,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 30.0,
     "sources": {
       "pge": "13704",
       "siteguide_au": "145-241"
@@ -986,6 +1051,7 @@
     "wind": {
       "NW": 2
     },
+    "altitude": 31.0,
     "sources": {
       "pge": "13715"
     },
@@ -1002,6 +1068,7 @@
       "S": 2,
       "SW": 2
     },
+    "altitude": 53.0,
     "sources": {
       "pge": "13824"
     },
@@ -1017,6 +1084,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 410.0,
     "sources": {
       "pge": "13870",
       "siteguide_au": "188-67"
@@ -1034,6 +1102,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 414.0,
     "sources": {
       "pge": "13967"
     },
@@ -1049,6 +1118,7 @@
       "W": 1,
       "NW": 2
     },
+    "altitude": 42.0,
     "sources": {
       "pge": "14014"
     },
@@ -1063,6 +1133,7 @@
     "wind": {
       "W": 2
     },
+    "altitude": 33.0,
     "sources": {
       "pge": "14193"
     },
@@ -1077,6 +1148,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 9.0,
     "sources": {
       "pge": "14196",
       "siteguide_au": "158-91"
@@ -1092,6 +1164,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 40.0,
     "sources": {
       "pge": "14223",
       "siteguide_au": "127-32"
@@ -1108,6 +1181,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 20.0,
     "sources": {
       "pge": "14274",
       "siteguide_au": "177-98"
@@ -1124,6 +1198,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 250.0,
     "sources": {
       "pge": "14586",
       "siteguide_au": "258-282"
@@ -1137,6 +1212,7 @@
     "lat": -30.8891,
     "lon": 153.076,
     "wind": {},
+    "altitude": 23.0,
     "sources": {
       "pge": "14602"
     },
@@ -1151,6 +1227,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 230.0,
     "sources": {
       "pge": "14608",
       "siteguide_au": "155-65"
@@ -1166,6 +1243,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 35.0,
     "sources": {
       "pge": "14629",
       "siteguide_au": "168-57"
@@ -1179,6 +1257,7 @@
     "lat": -32.3554,
     "lon": 152.534,
     "wind": {},
+    "altitude": 4.0,
     "sources": {
       "pge": "14651"
     },
@@ -1194,6 +1273,7 @@
       "S": 2,
       "SW": 1
     },
+    "altitude": 34.0,
     "sources": {
       "pge": "14653"
     },
@@ -1209,6 +1289,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 15.0,
     "sources": {
       "pge": "14656",
       "siteguide_au": "170-62"
@@ -1226,6 +1307,7 @@
       "S": 2,
       "SW": 1
     },
+    "altitude": 591.0,
     "sources": {
       "pge": "14799"
     },
@@ -1241,6 +1323,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 372.0,
     "sources": {
       "pge": "14800",
       "siteguide_au": "259-287"
@@ -1257,6 +1340,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 35.0,
     "sources": {
       "pge": "15042",
       "siteguide_au": "144-37"
@@ -1270,6 +1354,7 @@
     "lat": -27.5132,
     "lon": 152.585,
     "wind": {},
+    "altitude": 270.0,
     "sources": {
       "pge": "15223"
     },
@@ -1284,6 +1369,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 30.0,
     "sources": {
       "pge": "15320",
       "siteguide_au": "16-236"
@@ -1297,6 +1383,7 @@
     "lat": -26.7775,
     "lon": 152.918,
     "wind": {},
+    "altitude": 311.0,
     "sources": {
       "pge": "15368"
     },
@@ -1312,6 +1399,7 @@
       "E": 2,
       "SE": 1
     },
+    "altitude": 20.0,
     "sources": {
       "pge": "15405"
     },
@@ -1326,6 +1414,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 40.0,
     "sources": {
       "pge": "15461",
       "siteguide_au": "169-58"
@@ -1339,6 +1428,7 @@
     "lat": -28.2941,
     "lon": 152.418,
     "wind": {},
+    "altitude": 1032.0,
     "sources": {
       "pge": "15542"
     },
@@ -1351,6 +1441,7 @@
     "lat": -42.7758,
     "lon": 146.068,
     "wind": {},
+    "altitude": 648.0,
     "sources": {
       "pge": "15574"
     },
@@ -1365,6 +1456,7 @@
     "wind": {
       "NW": 2
     },
+    "altitude": 160.0,
     "sources": {
       "pge": "15602"
     },
@@ -1380,6 +1472,7 @@
       "S": 1,
       "SW": 2
     },
+    "altitude": 9.0,
     "sources": {
       "pge": "15639"
     },
@@ -1394,6 +1487,7 @@
     "wind": {
       "SE": 2
     },
+    "altitude": 167.0,
     "sources": {
       "pge": "15640"
     },
@@ -1409,6 +1503,7 @@
       "S": 2,
       "SW": 2
     },
+    "altitude": 224.0,
     "sources": {
       "pge": "15641"
     },
@@ -1424,6 +1519,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 60.0,
     "sources": {
       "pge": "15642",
       "siteguide_au": "6-237"
@@ -1440,6 +1536,7 @@
       "N": 2,
       "NW": 1
     },
+    "altitude": 19.0,
     "sources": {
       "pge": "15643"
     },
@@ -1455,6 +1552,7 @@
       "W": 2,
       "NW": 1
     },
+    "altitude": 46.0,
     "sources": {
       "pge": "15644"
     },
@@ -1470,6 +1568,7 @@
       "N": 2,
       "NW": 1
     },
+    "altitude": 343.0,
     "sources": {
       "pge": "15645"
     },
@@ -1484,6 +1583,7 @@
     "wind": {
       "S": 2
     },
+    "altitude": 13.0,
     "sources": {
       "pge": "15646"
     },
@@ -1496,6 +1596,7 @@
     "lat": -35.5128,
     "lon": 138.714,
     "wind": {},
+    "altitude": 12.0,
     "sources": {
       "pge": "15647"
     },
@@ -1511,6 +1612,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 35.0,
     "sources": {
       "pge": "15649",
       "siteguide_au": "117-224"
@@ -1527,6 +1629,7 @@
       "NE": 2,
       "E": 2
     },
+    "altitude": 18.0,
     "sources": {
       "pge": "15650",
       "siteguide_au": "118-225"
@@ -1540,6 +1643,7 @@
     "lat": -32.7809,
     "lon": 151.25,
     "wind": {},
+    "altitude": 371.0,
     "sources": {
       "pge": "15714"
     },
@@ -1552,6 +1656,7 @@
     "lat": -31.6657,
     "lon": 152.742,
     "wind": {},
+    "altitude": 2.0,
     "sources": {
       "pge": "15738"
     },
@@ -1564,6 +1669,7 @@
     "lat": -34.81,
     "lon": 149.729,
     "wind": {},
+    "altitude": 643.0,
     "sources": {
       "pge": "15802"
     },
@@ -1576,6 +1682,7 @@
     "lat": -33.3223,
     "lon": 151.517,
     "wind": {},
+    "altitude": 9.0,
     "sources": {
       "pge": "15815"
     },
@@ -1588,6 +1695,7 @@
     "lat": -31.8065,
     "lon": 151.941,
     "wind": {},
+    "altitude": 176.0,
     "sources": {
       "pge": "15816"
     },
@@ -1600,6 +1708,7 @@
     "lat": -32.2996,
     "lon": 149.559,
     "wind": {},
+    "altitude": 449.0,
     "sources": {
       "pge": "15829"
     },
@@ -1615,6 +1724,7 @@
       "NE": 2,
       "E": 2
     },
+    "altitude": 567.0,
     "sources": {
       "pge": "15933"
     },
@@ -1630,6 +1740,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 90.0,
     "sources": {
       "pge": "15952",
       "siteguide_au": "164-45"
@@ -1646,6 +1757,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 425.0,
     "sources": {
       "pge": "15966",
       "siteguide_au": "200-63"
@@ -1662,6 +1774,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 445.0,
     "sources": {
       "pge": "15967",
       "siteguide_au": "203-72"
@@ -1681,6 +1794,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 945.0,
     "sources": {
       "pge": "15968",
       "siteguide_au": "204-73"
@@ -1698,6 +1812,7 @@
       "W": 2,
       "NW": 1
     },
+    "altitude": 25.0,
     "sources": {
       "pge": "16045"
     },
@@ -1710,6 +1825,7 @@
     "lat": -27.2961,
     "lon": 152.712,
     "wind": {},
+    "altitude": 348.0,
     "sources": {
       "pge": "16087"
     },
@@ -1722,6 +1838,7 @@
     "lat": -33.5291,
     "lon": 151.359,
     "wind": {},
+    "altitude": 61.0,
     "sources": {
       "pge": "16144"
     },
@@ -1734,6 +1851,7 @@
     "lat": -35.3776,
     "lon": 138.705,
     "wind": {},
+    "altitude": 242.0,
     "sources": {
       "pge": "16342"
     },
@@ -1746,6 +1864,7 @@
     "lat": -27.463,
     "lon": 151.592,
     "wind": {},
+    "altitude": 387.0,
     "sources": {
       "pge": "16422"
     },
@@ -1758,6 +1877,7 @@
     "lat": -34.1512,
     "lon": 138.064,
     "wind": {},
+    "altitude": 4.0,
     "sources": {
       "pge": "16485"
     },
@@ -1773,6 +1893,7 @@
       "SE": 2,
       "S": 2
     },
+    "altitude": 17.0,
     "sources": {
       "pge": "16515"
     },
@@ -1785,6 +1906,7 @@
     "lat": -27.5518,
     "lon": 152.112,
     "wind": {},
+    "altitude": 147.0,
     "sources": {
       "pge": "16536"
     },
@@ -1797,6 +1919,7 @@
     "lat": -27.9391,
     "lon": 153.424,
     "wind": {},
+    "altitude": 4.0,
     "sources": {
       "pge": "16559"
     },
@@ -1809,6 +1932,7 @@
     "lat": -27.774,
     "lon": 153.328,
     "wind": {},
+    "altitude": 2.0,
     "sources": {
       "pge": "16868"
     },
@@ -1821,6 +1945,7 @@
     "lat": -43.0223,
     "lon": 147.925,
     "wind": {},
+    "altitude": 29.0,
     "sources": {
       "pge": "16870"
     },
@@ -1833,6 +1958,7 @@
     "lat": -28.334,
     "lon": 153.572,
     "wind": {},
+    "altitude": 13.0,
     "sources": {
       "pge": "17231"
     },
@@ -1845,6 +1971,7 @@
     "lat": -27.59,
     "lon": 152.822,
     "wind": {},
+    "altitude": 22.0,
     "sources": {
       "pge": "17288"
     },
@@ -1857,6 +1984,7 @@
     "lat": -34.068,
     "lon": 150.709,
     "wind": {},
+    "altitude": 70.0,
     "sources": {
       "pge": "17529"
     },
@@ -1869,6 +1997,7 @@
     "lat": -33.8202,
     "lon": 150.922,
     "wind": {},
+    "altitude": 50.0,
     "sources": {
       "pge": "17530"
     },
@@ -1881,6 +2010,7 @@
     "lat": -31.7965,
     "lon": 150.829,
     "wind": {},
+    "altitude": 878.0,
     "sources": {
       "pge": "17541"
     },
@@ -1902,6 +2032,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 152.0,
     "sources": {
       "pge": "17691"
     },
@@ -1923,6 +2054,7 @@
       "W": 2,
       "NW": 2
     },
+    "altitude": 148.0,
     "sources": {
       "pge": "17692"
     },
@@ -1938,6 +2070,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 3.0,
     "sources": {
       "pge": "17750"
     },
@@ -1950,6 +2083,7 @@
     "lat": -27.4154,
     "lon": 152.411,
     "wind": {},
+    "altitude": 89.0,
     "sources": {
       "pge": "17751"
     },
@@ -1964,6 +2098,7 @@
     "wind": {
       "SE": 2
     },
+    "altitude": 10.0,
     "sources": {
       "pge": "17753"
     },
@@ -1976,6 +2111,7 @@
     "lat": -34.0448,
     "lon": 150.686,
     "wind": {},
+    "altitude": 66.0,
     "sources": {
       "pge": "17867"
     },
@@ -1988,6 +2124,7 @@
     "lat": -32.0527,
     "lon": 151.976,
     "wind": {},
+    "altitude": 118.0,
     "sources": {
       "pge": "17886"
     },
@@ -2000,6 +2137,7 @@
     "lat": -27.4517,
     "lon": 151.562,
     "wind": {},
+    "altitude": 380.0,
     "sources": {
       "pge": "17887"
     },
@@ -2012,6 +2150,7 @@
     "lat": -28.3094,
     "lon": 152.29,
     "wind": {},
+    "altitude": 752.0,
     "sources": {
       "pge": "17912"
     },
@@ -2024,6 +2163,7 @@
     "lat": -33.476,
     "lon": 149.565,
     "wind": {},
+    "altitude": 669.0,
     "sources": {
       "pge": "18019"
     },
@@ -2036,6 +2176,7 @@
     "lat": -31.2323,
     "lon": 150.574,
     "wind": {},
+    "altitude": 324.0,
     "sources": {
       "pge": "18021"
     },
@@ -2048,6 +2189,7 @@
     "lat": -31.3327,
     "lon": 150.186,
     "wind": {},
+    "altitude": 333.0,
     "sources": {
       "pge": "18022"
     },
@@ -2060,6 +2202,7 @@
     "lat": -31.1665,
     "lon": 118.671,
     "wind": {},
+    "altitude": 385.0,
     "sources": {
       "pge": "18075"
     },
@@ -2075,6 +2218,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 900.0,
     "sources": {
       "pge": "18145",
       "siteguide_au": "143-256"
@@ -2090,6 +2234,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 15.0,
     "sources": {
       "pge": "18176",
       "siteguide_au": "157-87"
@@ -2105,6 +2250,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 90.0,
     "sources": {
       "pge": "18186",
       "siteguide_au": "47-129"
@@ -2118,6 +2264,7 @@
     "lat": -33.7754,
     "lon": 150.862,
     "wind": {},
+    "altitude": 35.0,
     "sources": {
       "pge": "18189"
     },
@@ -2130,6 +2277,7 @@
     "lat": -27.4875,
     "lon": 153.516,
     "wind": {},
+    "altitude": 7.0,
     "sources": {
       "pge": "18220"
     },
@@ -2142,6 +2290,7 @@
     "lat": -31.4586,
     "lon": 151.113,
     "wind": {},
+    "altitude": 615.0,
     "sources": {
       "pge": "18271"
     },
@@ -2156,6 +2305,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 9.0,
     "sources": {
       "pge": "18280",
       "siteguide_au": "158-97"
@@ -2169,6 +2319,7 @@
     "lat": -33.7685,
     "lon": 150.73,
     "wind": {},
+    "altitude": 55.0,
     "sources": {
       "pge": "18282"
     },
@@ -2181,6 +2332,7 @@
     "lat": -31.1556,
     "lon": 118.637,
     "wind": {},
+    "altitude": 343.0,
     "sources": {
       "pge": "18452"
     },
@@ -2197,6 +2349,7 @@
       "W": 2,
       "NW": 1
     },
+    "altitude": 13.0,
     "sources": {
       "pge": "18616"
     },
@@ -2211,6 +2364,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 10.0,
     "sources": {
       "pge": "18622",
       "siteguide_au": "58-139"
@@ -2224,6 +2378,7 @@
     "lat": -28.332,
     "lon": 153.413,
     "wind": {},
+    "altitude": 3.0,
     "sources": {
       "pge": "18657"
     },
@@ -2236,6 +2391,7 @@
     "lat": -27.7552,
     "lon": 153.269,
     "wind": {},
+    "altitude": 3.0,
     "sources": {
       "pge": "18672"
     },
@@ -2251,6 +2407,7 @@
       "SW": 2,
       "W": 1
     },
+    "altitude": 0.0,
     "sources": {
       "pge": "18680"
     },
@@ -2265,6 +2422,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 60.0,
     "sources": {
       "pge": "18686",
       "siteguide_au": "61-142"
@@ -2280,6 +2438,7 @@
     "wind": {
       "NW": 2
     },
+    "altitude": 355.0,
     "sources": {
       "pge": "18699"
     },
@@ -2295,6 +2454,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 30.0,
     "sources": {
       "pge": "18779",
       "siteguide_au": "130-35"
@@ -2311,6 +2471,7 @@
       "SE": 2,
       "S": 2
     },
+    "altitude": 25.0,
     "sources": {
       "pge": "18871"
     },
@@ -2326,6 +2487,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 25.0,
     "sources": {
       "pge": "18874",
       "siteguide_au": "124-29"
@@ -2339,6 +2501,7 @@
     "lat": -33.7871,
     "lon": 150.692,
     "wind": {},
+    "altitude": 47.0,
     "sources": {
       "pge": "19018"
     },
@@ -2351,6 +2514,7 @@
     "lat": -33.9519,
     "lon": 150.877,
     "wind": {},
+    "altitude": 38.0,
     "sources": {
       "pge": "19088"
     },
@@ -2366,6 +2530,7 @@
       "E": 2,
       "SE": 2
     },
+    "altitude": 40.0,
     "sources": {
       "pge": "19303"
     },
@@ -2380,6 +2545,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 450.0,
     "sources": {
       "pge": "19536",
       "siteguide_au": "139-252"
@@ -2395,6 +2561,7 @@
     "wind": {
       "NE": 2
     },
+    "altitude": 24.0,
     "sources": {
       "pge": "19570"
     },
@@ -2407,6 +2574,7 @@
     "lat": -27.2869,
     "lon": 151.256,
     "wind": {},
+    "altitude": 340.0,
     "sources": {
       "pge": "19992"
     },
@@ -2422,6 +2590,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 15.2,
     "sources": {
       "pge": "20000",
       "siteguide_au": "254-277"
@@ -2439,6 +2608,7 @@
       "NE": 1,
       "NW": 1
     },
+    "altitude": 22.0,
     "sources": {
       "pge": "21219"
     },
@@ -2453,6 +2623,7 @@
     "wind": {
       "E": 2
     },
+    "altitude": 39.0,
     "sources": {
       "pge": "21220"
     },
@@ -2468,6 +2639,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "pge": "21347"
     },
@@ -2482,6 +2654,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 150.0,
     "sources": {
       "pge": "21421",
       "siteguide_au": "233-269"
@@ -2495,6 +2668,7 @@
     "lat": -35.0437,
     "lon": 117.688,
     "wind": {},
+    "altitude": 12.0,
     "sources": {
       "pge": "21422"
     },
@@ -2507,6 +2681,7 @@
     "lat": -35.0236,
     "lon": 117.279,
     "wind": {},
+    "altitude": 0.0,
     "sources": {
       "pge": "21424"
     },
@@ -2521,6 +2696,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "pge": "21425",
       "siteguide_au": "55-231"
@@ -2537,6 +2713,7 @@
       "SW": 1,
       "W": 2
     },
+    "altitude": 10.0,
     "sources": {
       "pge": "21426"
     },
@@ -2553,6 +2730,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 10.0,
     "sources": {
       "pge": "21427"
     },
@@ -2569,6 +2747,7 @@
       "SE": 2,
       "S": 1
     },
+    "altitude": 10.0,
     "sources": {
       "pge": "21846"
     },
@@ -2584,6 +2763,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 660.0,
     "sources": {
       "pge": "22198",
       "siteguide_au": "10-8"
@@ -2597,6 +2777,7 @@
     "lat": -20.4778,
     "lon": 148.763,
     "wind": {},
+    "altitude": 19.0,
     "sources": {
       "pge": "22199"
     },
@@ -2609,6 +2790,7 @@
     "lat": -20.4804,
     "lon": 148.736,
     "wind": {},
+    "altitude": 39.0,
     "sources": {
       "pge": "22200"
     },
@@ -2621,6 +2803,7 @@
     "lat": -20.0154,
     "lon": 148.266,
     "wind": {},
+    "altitude": 56.0,
     "sources": {
       "pge": "22201"
     },
@@ -2633,6 +2816,7 @@
     "lat": -19.7461,
     "lon": 147.497,
     "wind": {},
+    "altitude": 192.0,
     "sources": {
       "pge": "22215"
     },
@@ -2645,6 +2829,7 @@
     "lat": -19.7286,
     "lon": 147.589,
     "wind": {},
+    "altitude": 74.0,
     "sources": {
       "pge": "22216"
     },
@@ -2659,6 +2844,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 375.0,
     "sources": {
       "pge": "22414",
       "siteguide_au": "223-257"
@@ -2672,6 +2858,7 @@
     "lat": -26.257,
     "lon": 152.382,
     "wind": {},
+    "altitude": 162.0,
     "sources": {
       "pge": "22640"
     },
@@ -2686,6 +2873,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 20.0,
     "sources": {
       "pge": "22856",
       "siteguide_au": "178-99"
@@ -2704,6 +2892,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 120.0,
     "sources": {
       "pge": "22859",
       "siteguide_au": "187-194"
@@ -2717,6 +2906,7 @@
     "lat": -37.2042,
     "lon": 143.43,
     "wind": {},
+    "altitude": 520.0,
     "sources": {
       "pge": "22860"
     },
@@ -2731,6 +2921,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 110.0,
     "sources": {
       "pge": "22957",
       "siteguide_au": "160-246"
@@ -2746,6 +2937,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 23.0,
     "sources": {
       "pge": "22970",
       "siteguide_au": "14-234"
@@ -2761,6 +2953,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 250.0,
     "sources": {
       "pge": "23013",
       "siteguide_au": "193-190"
@@ -2777,6 +2970,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 7.0,
     "sources": {
       "pge": "23028",
       "siteguide_au": "146-248"
@@ -2790,6 +2984,7 @@
     "lat": -38.3182,
     "lon": 144.349,
     "wind": {},
+    "altitude": 12.0,
     "sources": {
       "pge": "23029"
     },
@@ -2807,6 +3002,7 @@
       "SW": 1,
       "NW": 1
     },
+    "altitude": 640.0,
     "sources": {
       "pge": "23186",
       "siteguide_au": "219-186"
@@ -2820,6 +3016,7 @@
     "lat": -23.127,
     "lon": 150.749,
     "wind": {},
+    "altitude": 33.0,
     "sources": {
       "pge": "23283"
     },
@@ -2832,6 +3029,7 @@
     "lat": -23.1817,
     "lon": 150.799,
     "wind": {},
+    "altitude": 102.0,
     "sources": {
       "pge": "23284"
     },
@@ -2848,6 +3046,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "pge": "23852",
       "siteguide_au": "49-131"
@@ -2863,6 +3062,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 970.0,
     "sources": {
       "pge": "23900",
       "siteguide_au": "211-103"
@@ -2880,6 +3080,7 @@
       "NE": 2,
       "NW": 2
     },
+    "altitude": 1300.0,
     "sources": {
       "pge": "23912"
     },
@@ -2901,6 +3102,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 880.0,
     "sources": {
       "pge": "4632",
       "siteguide_au": "136-20"
@@ -2916,6 +3118,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 39.0,
     "sources": {
       "pge": "4633"
     },
@@ -2930,6 +3133,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 739.0,
     "sources": {
       "pge": "4634"
     },
@@ -2946,6 +3150,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 870.0,
     "sources": {
       "pge": "4635",
       "siteguide_au": "104-26"
@@ -2962,6 +3167,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 1553.0,
     "sources": {
       "pge": "4637"
     },
@@ -2977,6 +3183,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 922.0,
     "sources": {
       "pge": "4638"
     },
@@ -2991,6 +3198,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 40.0,
     "sources": {
       "pge": "4642"
     },
@@ -3006,6 +3214,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 180.0,
     "sources": {
       "pge": "4648",
       "siteguide_au": "132-112"
@@ -3022,6 +3231,7 @@
       "NE": 2,
       "E": 1
     },
+    "altitude": 120.0,
     "sources": {
       "pge": "4649"
     },
@@ -3037,6 +3247,7 @@
       "NE": 1,
       "NW": 1
     },
+    "altitude": 600.0,
     "sources": {
       "pge": "4650",
       "siteguide_au": "205-75"
@@ -3052,6 +3263,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 1360.0,
     "sources": {
       "pge": "4653",
       "siteguide_au": "206-76"
@@ -3068,6 +3280,7 @@
       "W": 2,
       "NW": 1
     },
+    "altitude": 15.0,
     "sources": {
       "pge": "4657"
     },
@@ -3089,6 +3302,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 226.0,
     "sources": {
       "pge": "4658"
     },
@@ -3106,6 +3320,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 17.0,
     "sources": {
       "pge": "4659"
     },
@@ -3124,6 +3339,7 @@
       "SW": 1,
       "NW": 1
     },
+    "altitude": 799.0,
     "sources": {
       "pge": "4662"
     },
@@ -3139,6 +3355,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 120.0,
     "sources": {
       "pge": "4663",
       "siteguide_au": "73-152"
@@ -3156,6 +3373,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 14.0,
     "sources": {
       "pge": "4664"
     },
@@ -3172,6 +3390,7 @@
       "SE": 1,
       "W": 1
     },
+    "altitude": 60.0,
     "sources": {
       "pge": "4665",
       "siteguide_au": "46-128"
@@ -3194,6 +3413,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 335.0,
     "sources": {
       "pge": "4666"
     },
@@ -3208,6 +3428,7 @@
     "wind": {
       "N": 1
     },
+    "altitude": 797.0,
     "sources": {
       "pge": "6595",
       "siteguide_au": "210-86"
@@ -3230,6 +3451,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 312.0,
     "sources": {
       "pge": "6613",
       "siteguide_au": "89-170"
@@ -3248,6 +3470,7 @@
       "S": 1,
       "NW": 1
     },
+    "altitude": 484.0,
     "sources": {
       "pge": "6635"
     },
@@ -3264,6 +3487,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 255.0,
     "sources": {
       "pge": "6724",
       "siteguide_au": "86-165"
@@ -3281,6 +3505,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 548.0,
     "sources": {
       "pge": "6746",
       "siteguide_au": "19-286"
@@ -3298,6 +3523,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 530.0,
     "sources": {
       "pge": "6747",
       "siteguide_au": "18-284"
@@ -3311,6 +3537,7 @@
     "lat": -28.3054,
     "lon": 152.324,
     "wind": {},
+    "altitude": 941.0,
     "sources": {
       "pge": "6750"
     },
@@ -3323,6 +3550,7 @@
     "lat": -31.5308,
     "lon": 116.519,
     "wind": {},
+    "altitude": 248.0,
     "sources": {
       "pge": "6777"
     },
@@ -3338,6 +3566,7 @@
       "SE": 2,
       "S": 1
     },
+    "altitude": 187.0,
     "sources": {
       "pge": "6784"
     },
@@ -3352,6 +3581,7 @@
     "wind": {
       "W": 2
     },
+    "altitude": 417.0,
     "sources": {
       "pge": "6786"
     },
@@ -3367,6 +3597,7 @@
       "SE": 2,
       "S": 2
     },
+    "altitude": 166.0,
     "sources": {
       "pge": "6802"
     },
@@ -3379,6 +3610,7 @@
     "lat": -31.219,
     "lon": 150.541,
     "wind": {},
+    "altitude": 301.0,
     "sources": {
       "pge": "6817"
     },
@@ -3395,6 +3627,7 @@
       "S": 1,
       "SW": 2
     },
+    "altitude": 629.0,
     "sources": {
       "pge": "6824"
     },
@@ -3410,6 +3643,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 105.0,
     "sources": {
       "pge": "7270",
       "siteguide_au": "123-244"
@@ -3427,6 +3661,7 @@
       "SE": 2,
       "S": 1
     },
+    "altitude": 108.0,
     "sources": {
       "pge": "7585"
     },
@@ -3441,6 +3676,7 @@
     "wind": {
       "S": 2
     },
+    "altitude": 120.0,
     "sources": {
       "pge": "7588"
     },
@@ -3455,6 +3691,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 52.0,
     "sources": {
       "pge": "7595",
       "siteguide_au": "267-299"
@@ -3472,6 +3709,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 596.0,
     "sources": {
       "pge": "7596",
       "siteguide_au": "109-238"
@@ -3487,6 +3725,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 37.0,
     "sources": {
       "pge": "7600",
       "siteguide_au": "108-240"
@@ -3503,6 +3742,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 465.0,
     "sources": {
       "pge": "7606",
       "siteguide_au": "115-222"
@@ -3519,6 +3759,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 660.0,
     "sources": {
       "siteguide_au": "10-7"
     },
@@ -3533,6 +3774,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 730.0,
     "sources": {
       "siteguide_au": "101-206"
     },
@@ -3547,6 +3789,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 910.0,
     "sources": {
       "siteguide_au": "102-25"
     },
@@ -3562,6 +3805,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 685.0,
     "sources": {
       "siteguide_au": "103-208"
     },
@@ -3577,6 +3821,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 685.0,
     "sources": {
       "siteguide_au": "103-329"
     },
@@ -3591,6 +3836,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "11-9"
     },
@@ -3606,6 +3852,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "114-114"
     },
@@ -3621,6 +3868,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "114-115"
     },
@@ -3635,6 +3883,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 35.0,
     "sources": {
       "siteguide_au": "116-223"
     },
@@ -3649,6 +3898,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "120-226"
     },
@@ -3664,6 +3914,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 515.0,
     "sources": {
       "siteguide_au": "121-228"
     },
@@ -3679,6 +3930,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 20.0,
     "sources": {
       "siteguide_au": "125-30"
     },
@@ -3693,6 +3945,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 20.0,
     "sources": {
       "siteguide_au": "128-33"
     },
@@ -3708,6 +3961,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "131-215"
     },
@@ -3722,6 +3976,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 180.0,
     "sources": {
       "siteguide_au": "132-113"
     },
@@ -3736,6 +3991,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 620.0,
     "sources": {
       "siteguide_au": "134-182"
     },
@@ -3752,6 +4008,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 680.0,
     "sources": {
       "siteguide_au": "135-183"
     },
@@ -3773,6 +4030,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 880.0,
     "sources": {
       "siteguide_au": "136-21"
     },
@@ -3794,6 +4052,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 880.0,
     "sources": {
       "siteguide_au": "136-22"
     },
@@ -3815,6 +4074,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 880.0,
     "sources": {
       "siteguide_au": "136-23"
     },
@@ -3827,6 +4087,7 @@
     "lat": -35.3157,
     "lon": 145.1622,
     "wind": {},
+    "altitude": null,
     "sources": {
       "siteguide_au": "137-191"
     },
@@ -3839,6 +4100,7 @@
     "lat": -35.2803,
     "lon": 145.1727,
     "wind": {},
+    "altitude": null,
     "sources": {
       "siteguide_au": "137-192"
     },
@@ -3851,6 +4113,7 @@
     "lat": -35.342,
     "lon": 144.8494,
     "wind": {},
+    "altitude": null,
     "sources": {
       "siteguide_au": "137-193"
     },
@@ -3866,6 +4129,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 1040.0,
     "sources": {
       "siteguide_au": "138-251"
     },
@@ -3880,6 +4144,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "140-253"
     },
@@ -3895,6 +4160,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 35.0,
     "sources": {
       "siteguide_au": "144-38"
     },
@@ -3910,6 +4176,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "146-42"
     },
@@ -3924,6 +4191,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 22.0,
     "sources": {
       "siteguide_au": "15-235"
     },
@@ -3938,6 +4206,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 55.0,
     "sources": {
       "siteguide_au": "150-56"
     },
@@ -3952,6 +4221,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 18.0,
     "sources": {
       "siteguide_au": "151-60"
     },
@@ -3966,6 +4236,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 18.0,
     "sources": {
       "siteguide_au": "153-64"
     },
@@ -3980,6 +4251,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "154-197"
     },
@@ -3995,6 +4267,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 140.0,
     "sources": {
       "siteguide_au": "156-81"
     },
@@ -4010,6 +4283,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-200"
     },
@@ -4024,6 +4298,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-201"
     },
@@ -4039,6 +4314,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-89"
     },
@@ -4053,6 +4329,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-90"
     },
@@ -4067,6 +4344,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-92"
     },
@@ -4081,6 +4359,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-93"
     },
@@ -4095,6 +4374,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-94"
     },
@@ -4110,6 +4390,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 9.0,
     "sources": {
       "siteguide_au": "158-96"
     },
@@ -4124,6 +4405,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 45.0,
     "sources": {
       "siteguide_au": "159-101"
     },
@@ -4138,6 +4420,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 45.0,
     "sources": {
       "siteguide_au": "159-249"
     },
@@ -4153,6 +4436,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "163-44"
     },
@@ -4167,6 +4451,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "166-50"
     },
@@ -4181,6 +4466,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 35.0,
     "sources": {
       "siteguide_au": "167-52"
     },
@@ -4195,6 +4481,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 17.0,
     "sources": {
       "siteguide_au": "173-204"
     },
@@ -4211,6 +4498,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 16.0,
     "sources": {
       "siteguide_au": "174-209"
     },
@@ -4225,6 +4513,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 12.0,
     "sources": {
       "siteguide_au": "175-210"
     },
@@ -4237,6 +4526,7 @@
     "lat": -38.48,
     "lon": 145.24,
     "wind": {},
+    "altitude": null,
     "sources": {
       "siteguide_au": "176-202"
     },
@@ -4251,6 +4541,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 24.0,
     "sources": {
       "siteguide_au": "179-100"
     },
@@ -4265,6 +4556,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 300.0,
     "sources": {
       "siteguide_au": "181-39"
     },
@@ -4286,6 +4578,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 85.0,
     "sources": {
       "siteguide_au": "182-40"
     },
@@ -4301,6 +4594,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 360.0,
     "sources": {
       "siteguide_au": "183-46"
     },
@@ -4316,6 +4610,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 335.0,
     "sources": {
       "siteguide_au": "184-48"
     },
@@ -4333,6 +4628,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 120.0,
     "sources": {
       "siteguide_au": "187-59"
     },
@@ -4348,6 +4644,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 560.0,
     "sources": {
       "siteguide_au": "189-69"
     },
@@ -4362,6 +4659,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 180.0,
     "sources": {
       "siteguide_au": "190-71"
     },
@@ -4378,6 +4676,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "192-195"
     },
@@ -4394,6 +4693,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "192-196"
     },
@@ -4408,6 +4708,7 @@
     "wind": {
       "N": 1
     },
+    "altitude": 380.0,
     "sources": {
       "siteguide_au": "196-83"
     },
@@ -4423,6 +4724,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 150.0,
     "sources": {
       "siteguide_au": "198-109"
     },
@@ -4435,6 +4737,7 @@
     "lat": -28.14568,
     "lon": 153.14898,
     "wind": {},
+    "altitude": null,
     "sources": {
       "siteguide_au": "20-283"
     },
@@ -4449,6 +4752,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 1380.0,
     "sources": {
       "siteguide_au": "202-70"
     },
@@ -4464,6 +4768,7 @@
       "NE": 1,
       "NW": 1
     },
+    "altitude": 600.0,
     "sources": {
       "siteguide_au": "205-198"
     },
@@ -4478,6 +4783,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 1360.0,
     "sources": {
       "siteguide_au": "206-77"
     },
@@ -4493,6 +4799,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 365.0,
     "sources": {
       "siteguide_au": "208-84"
     },
@@ -4514,6 +4821,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 320.0,
     "sources": {
       "siteguide_au": "212-258"
     },
@@ -4535,6 +4843,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 320.0,
     "sources": {
       "siteguide_au": "212-259"
     },
@@ -4556,6 +4865,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 320.0,
     "sources": {
       "siteguide_au": "212-260"
     },
@@ -4577,6 +4887,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 320.0,
     "sources": {
       "siteguide_au": "212-261"
     },
@@ -4598,6 +4909,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 320.0,
     "sources": {
       "siteguide_au": "212-262"
     },
@@ -4619,6 +4931,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 320.0,
     "sources": {
       "siteguide_au": "212-263"
     },
@@ -4635,6 +4948,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 365.0,
     "sources": {
       "siteguide_au": "213-205"
     },
@@ -4649,6 +4963,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 496.0,
     "sources": {
       "siteguide_au": "215-221"
     },
@@ -4667,6 +4982,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 230.0,
     "sources": {
       "siteguide_au": "216-107"
     },
@@ -4681,6 +4997,7 @@
     "wind": {
       "N": 1
     },
+    "altitude": 275.0,
     "sources": {
       "siteguide_au": "218-110"
     },
@@ -4695,6 +5012,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 1297.0,
     "sources": {
       "siteguide_au": "220-188"
     },
@@ -4707,6 +5025,7 @@
     "lat": -36.814,
     "lon": 145.348,
     "wind": {},
+    "altitude": 165.0,
     "sources": {
       "siteguide_au": "221-211"
     },
@@ -4722,6 +5041,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 50.0,
     "sources": {
       "siteguide_au": "239-123"
     },
@@ -4737,6 +5057,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 25.0,
     "sources": {
       "siteguide_au": "24-322"
     },
@@ -4753,6 +5074,7 @@
       "NE": 1,
       "S": 1
     },
+    "altitude": 500.0,
     "sources": {
       "siteguide_au": "241-125"
     },
@@ -4768,6 +5090,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 170.0,
     "sources": {
       "siteguide_au": "246-306"
     },
@@ -4787,6 +5110,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 518.0,
     "sources": {
       "siteguide_au": "247-314"
     },
@@ -4801,6 +5125,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 1230.0,
     "sources": {
       "siteguide_au": "248-315"
     },
@@ -4816,6 +5141,7 @@
       "N": 1,
       "NW": 1
     },
+    "altitude": 24.0,
     "sources": {
       "siteguide_au": "249-312"
     },
@@ -4830,6 +5156,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "250-272"
     },
@@ -4845,6 +5172,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 876.0,
     "sources": {
       "siteguide_au": "252-275"
     },
@@ -4857,6 +5185,7 @@
     "lat": -36.715,
     "lon": 146.822,
     "wind": {},
+    "altitude": 1380.0,
     "sources": {
       "siteguide_au": "253-276"
     },
@@ -4872,6 +5201,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 10.0,
     "sources": {
       "siteguide_au": "256-279"
     },
@@ -4887,6 +5217,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 10.0,
     "sources": {
       "siteguide_au": "256-280"
     },
@@ -4902,6 +5233,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 160.0,
     "sources": {
       "siteguide_au": "257-281"
     },
@@ -4917,6 +5249,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 885.0,
     "sources": {
       "siteguide_au": "26-302"
     },
@@ -4931,6 +5264,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 718.0,
     "sources": {
       "siteguide_au": "260-288"
     },
@@ -4945,6 +5279,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 450.0,
     "sources": {
       "siteguide_au": "262-291"
     },
@@ -4959,6 +5294,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 1100.0,
     "sources": {
       "siteguide_au": "263-292"
     },
@@ -4973,6 +5309,7 @@
     "wind": {
       "E": 1
     },
+    "altitude": 1100.0,
     "sources": {
       "siteguide_au": "263-293"
     },
@@ -4987,6 +5324,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 1100.0,
     "sources": {
       "siteguide_au": "263-294"
     },
@@ -5002,6 +5340,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 1100.0,
     "sources": {
       "siteguide_au": "263-295"
     },
@@ -5017,6 +5356,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 430.0,
     "sources": {
       "siteguide_au": "264-296"
     },
@@ -5031,6 +5371,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 407.0,
     "sources": {
       "siteguide_au": "266-298"
     },
@@ -5047,6 +5388,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 590.0,
     "sources": {
       "siteguide_au": "269-300"
     },
@@ -5062,6 +5404,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": 100.0,
     "sources": {
       "siteguide_au": "270-303"
     },
@@ -5077,6 +5420,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 0.0,
     "sources": {
       "siteguide_au": "271-305"
     },
@@ -5092,6 +5436,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 195.0,
     "sources": {
       "siteguide_au": "272-307"
     },
@@ -5107,6 +5452,7 @@
       "N": 1,
       "NE": 1
     },
+    "altitude": 570.0,
     "sources": {
       "siteguide_au": "273-308"
     },
@@ -5123,6 +5469,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 0.0,
     "sources": {
       "siteguide_au": "274-309"
     },
@@ -5138,6 +5485,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 480.0,
     "sources": {
       "siteguide_au": "275-310"
     },
@@ -5153,6 +5501,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 800.0,
     "sources": {
       "siteguide_au": "276-311"
     },
@@ -5168,6 +5517,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 570.0,
     "sources": {
       "siteguide_au": "277-313"
     },
@@ -5182,6 +5532,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 186.0,
     "sources": {
       "siteguide_au": "278-316"
     },
@@ -5203,6 +5554,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "279-317"
     },
@@ -5219,6 +5571,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 50.0,
     "sources": {
       "siteguide_au": "280-318"
     },
@@ -5239,6 +5592,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 460.0,
     "sources": {
       "siteguide_au": "281-319"
     },
@@ -5253,6 +5607,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 70.0,
     "sources": {
       "siteguide_au": "282-320"
     },
@@ -5268,6 +5623,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 350.0,
     "sources": {
       "siteguide_au": "283-321"
     },
@@ -5283,6 +5639,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 45.0,
     "sources": {
       "siteguide_au": "284-323"
     },
@@ -5298,6 +5655,7 @@
       "NE": 1,
       "E": 1
     },
+    "altitude": 580.0,
     "sources": {
       "siteguide_au": "285-324"
     },
@@ -5316,6 +5674,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 506.0,
     "sources": {
       "siteguide_au": "286-325"
     },
@@ -5332,6 +5691,7 @@
       "NE": 1,
       "NW": 1
     },
+    "altitude": 0.0,
     "sources": {
       "siteguide_au": "287-326"
     },
@@ -5348,6 +5708,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 50.0,
     "sources": {
       "siteguide_au": "3-218"
     },
@@ -5363,6 +5724,7 @@
       "N": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "31-304"
     },
@@ -5375,6 +5737,7 @@
     "lat": -31.68,
     "lon": 128.88,
     "wind": {},
+    "altitude": null,
     "sources": {
       "siteguide_au": "4-219"
     },
@@ -5389,6 +5752,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 200.0,
     "sources": {
       "siteguide_au": "44-126"
     },
@@ -5404,6 +5768,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 60.0,
     "sources": {
       "siteguide_au": "48-130"
     },
@@ -5420,6 +5785,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "50-132"
     },
@@ -5436,6 +5802,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "51-133"
     },
@@ -5452,6 +5819,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "52-134"
     },
@@ -5466,6 +5834,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 180.0,
     "sources": {
       "siteguide_au": "53-135"
     },
@@ -5480,6 +5849,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "57-138"
     },
@@ -5498,6 +5868,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 20.0,
     "sources": {
       "siteguide_au": "59-140"
     },
@@ -5513,6 +5884,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 20.0,
     "sources": {
       "siteguide_au": "60-141"
     },
@@ -5527,6 +5899,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "62-143"
     },
@@ -5541,6 +5914,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 75.0,
     "sources": {
       "siteguide_au": "63-144"
     },
@@ -5556,6 +5930,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "64-145"
     },
@@ -5571,6 +5946,7 @@
       "SE": 1,
       "S": 1
     },
+    "altitude": 6.0,
     "sources": {
       "siteguide_au": "65-146"
     },
@@ -5585,6 +5961,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "67-150"
     },
@@ -5602,6 +5979,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 335.0,
     "sources": {
       "siteguide_au": "7-242"
     },
@@ -5617,6 +5995,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "71-148"
     },
@@ -5631,6 +6010,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "72-149"
     },
@@ -5646,6 +6026,7 @@
       "SW": 1,
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "74-153"
     },
@@ -5660,6 +6041,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "75-154"
     },
@@ -5674,6 +6056,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "76-155"
     },
@@ -5688,6 +6071,7 @@
     "wind": {
       "W": 1
     },
+    "altitude": 15.0,
     "sources": {
       "siteguide_au": "77-156"
     },
@@ -5702,6 +6086,7 @@
     "wind": {
       "SW": 1
     },
+    "altitude": 30.0,
     "sources": {
       "siteguide_au": "78-157"
     },
@@ -5717,6 +6102,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 55.0,
     "sources": {
       "siteguide_au": "8-6"
     },
@@ -5731,6 +6117,7 @@
     "wind": {
       "NW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "81-160"
     },
@@ -5745,6 +6132,7 @@
     "wind": {
       "SE": 1
     },
+    "altitude": 20.0,
     "sources": {
       "siteguide_au": "84-163"
     },
@@ -5759,6 +6147,7 @@
     "wind": {
       "S": 1
     },
+    "altitude": 120.0,
     "sources": {
       "siteguide_au": "87-166"
     },
@@ -5773,6 +6162,7 @@
     "wind": {
       "NE": 1
     },
+    "altitude": 60.0,
     "sources": {
       "siteguide_au": "88-167"
     },
@@ -5794,6 +6184,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "89-168"
     },
@@ -5815,6 +6206,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "89-169"
     },
@@ -5831,6 +6223,7 @@
       "E": 1,
       "SE": 1
     },
+    "altitude": 750.0,
     "sources": {
       "siteguide_au": "9-185"
     },
@@ -5849,6 +6242,7 @@
       "S": 1,
       "SW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "90-171"
     },
@@ -5870,6 +6264,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "91-172"
     },
@@ -5891,6 +6286,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 350.0,
     "sources": {
       "siteguide_au": "92-212"
     },
@@ -5912,6 +6308,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "93-173"
     },
@@ -5933,6 +6330,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "94-174"
     },
@@ -5948,6 +6346,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 90.0,
     "sources": {
       "siteguide_au": "95-175"
     },
@@ -5964,6 +6363,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": 330.0,
     "sources": {
       "siteguide_au": "96-176"
     },
@@ -5980,6 +6380,7 @@
       "NE": 1,
       "NW": 1
     },
+    "altitude": 330.0,
     "sources": {
       "siteguide_au": "96-177"
     },
@@ -5996,6 +6397,7 @@
       "NE": 1,
       "NW": 1
     },
+    "altitude": 250.0,
     "sources": {
       "siteguide_au": "97-178"
     },
@@ -6017,6 +6419,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "98-179"
     },
@@ -6038,6 +6441,7 @@
       "W": 1,
       "NW": 1
     },
+    "altitude": null,
     "sources": {
       "siteguide_au": "99-213"
     },

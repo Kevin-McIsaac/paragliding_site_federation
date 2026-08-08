@@ -7,6 +7,7 @@
     "wind": {
       "NE": 2
     },
+    "altitude": 26.0,
     "sources": {
       "pge": "10897"
     },
@@ -23,6 +24,7 @@
       "E": 2,
       "SE": 1
     },
+    "altitude": 161.0,
     "sources": {
       "pge": "10898"
     },

@@ -52,6 +52,8 @@ jobs:
           add-paths: |
             sites/
             app/
+            MERGED.md
             REVIEW.md
+            REJECTED.md
             rejections.json
             state/

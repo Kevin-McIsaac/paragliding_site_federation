@@ -69,6 +69,12 @@ in `rejections.json` by hand. What it is for is calibration — a run of true
 matches sitting just past the threshold means the threshold is wrong for that
 region's data.
 
+Every run writes three reports, so all three outcomes are visible:
+`MERGED.md` (what was folded together, and how far apart the sources put it),
+`REVIEW.md` (close but not merged), and `REJECTED.md` — the readable view of
+`rejections.json`, with the opaque keys resolved to site names and links, and
+stale entries flagged.
+
 Records from the *same* source are never compared — one guide listing several
 launches at a site is a deliberate distinction, not a duplicate.
 
@@ -117,7 +123,7 @@ redistribution.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 70 tests, no network
+pytest                                        # 77 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)

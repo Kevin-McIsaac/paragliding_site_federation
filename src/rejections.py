@@ -1,10 +1,13 @@
-"""Merges a human has declined, so the pipeline stops re-proposing them.
+"""Pairs a human has declined, so the pipeline stops merging them.
 
-Without this a rejected match is regenerated identically on the next run and
-gets re-reviewed forever. Edit rejections.json by hand to decline a merge:
+Hand-edited, and the only decision file in the project. Add an entry to stop a
+pair being merged:
 
-    {"a": "pge:4632", "b": "siteguide_au:106-28",
-     "reason": "distinct N- and S-facing launches on the same ridge"}
+    [{"a": "pge:4632", "b": "siteguide_au:106-28",
+      "reason": "distinct N- and S-facing launches on the same ridge"}]
+
+The keys are opaque on their own, so each run renders REJECTED.md with the
+site names and links resolved - that is the readable view of this file.
 """
 
 from __future__ import annotations
@@ -15,12 +18,18 @@ from pathlib import Path
 REJECTIONS_PATH = Path("rejections.json")
 
 
-def load(path: Path = REJECTIONS_PATH) -> set[frozenset[str]]:
-    if not path.exists():
-        return set()
-    return {frozenset({entry["a"], entry["b"]}) for entry in json.loads(path.read_text())}
+def load_entries(path: Path | None = None) -> list[dict]:
+    target = path or REJECTIONS_PATH
+    if not target.exists():
+        return []
+    return json.loads(target.read_text())
 
 
-def ensure_exists(path: Path = REJECTIONS_PATH) -> None:
-    if not path.exists():
-        path.write_text("[]\n")
+def load(path: Path | None = None) -> set[frozenset[str]]:
+    return {frozenset({e["a"], e["b"]}) for e in load_entries(path)}
+
+
+def ensure_exists(path: Path | None = None) -> None:
+    target = path or REJECTIONS_PATH
+    if not target.exists():
+        target.write_text("[]\n")

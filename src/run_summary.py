@@ -5,7 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from src.matcher import MERGE_DISTANCE_M, Pair
-from src.review import render
+from src.reports import render_review
 
 _ANOMALY_DROP_FRACTION = 0.20
 
@@ -85,7 +85,7 @@ def build_pr(
         f"- {no_wind} with no wind directions from any source",
         f"- {site_counts['written']} country files changed, {site_counts['unchanged']} unchanged",
         "",
-        render(review, merged_clusters),
+        render_review(review, merged_clusters),
         "",
         "To decline a merge permanently, add the pair to `rejections.json`.",
         "",

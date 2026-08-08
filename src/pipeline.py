@@ -8,7 +8,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src import rejections, review
+from src import rejections, reports
 from src.canonical_store import write_app_csv, write_sites
 from src.clustering import cluster
 from src.ids import IdRegistry
@@ -67,6 +67,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         return 1
 
     records = pge_records + sg_records
+    rejection_entries = rejections.load_entries()
     result = cluster(records, list(build_pairs(records)), rejected=rejections.load())
     merged = sum(1 for c in result.clusters if len(c.members) > 1)
     no_wind = 0
@@ -84,7 +85,9 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
 
     site_counts = write_sites(sites)
     csv_changed = write_app_csv(sites)
-    review_changed = review.write_review(result.review, merged)
+    merged_changed = reports.write_merged(result.clusters)
+    review_changed = reports.write_review(result.review, merged)
+    rejected_changed = reports.write_rejected(rejection_entries, records)
     rejections.ensure_exists()
     registry.save()
 
@@ -98,7 +101,8 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
         no_wind=no_wind,
     )
 
-    has_changes = site_counts["written"] > 0 or csv_changed or review_changed
+    has_changes = any((site_counts["written"] > 0, csv_changed, merged_changed,
+                      review_changed, rejected_changed))
     PR_OUTPUT_DIR.mkdir(exist_ok=True)
     (PR_OUTPUT_DIR / "has_changes.txt").write_text("true" if has_changes else "false")
     (PR_OUTPUT_DIR / "title.txt").write_text(title)

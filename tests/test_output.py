@@ -6,7 +6,7 @@ from src.canonical_store import write_app_csv, write_sites
 from src.clustering import Cluster
 from src.ids import IdRegistry
 from src.matcher import pair_for
-from src.review import name_similarity, render
+from src.reports import name_similarity, render_review as render
 from src.selection import select
 from tests.conftest import metres, record
 

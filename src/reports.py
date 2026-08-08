@@ -26,6 +26,7 @@ exception goes in overrides.json by hand.
 
 from __future__ import annotations
 
+from collections import defaultdict
 from pathlib import Path
 
 from rapidfuzz import fuzz
@@ -33,6 +34,7 @@ from rapidfuzz import fuzz
 from src.clustering import Cluster, ReviewItem
 from src.matcher import MERGE_DISTANCE_M, Pair, haversine_m
 from src.model import SiteRecord
+from src.overrides import ALWAYS, NEVER
 
 REPORTS_DIR = Path("reports")
 MERGED_PATH = REPORTS_DIR / "merged.md"
@@ -74,22 +76,31 @@ def _similarity_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
 
 
 _TEMPLATE = (
-    "Copy a **Keys** cell into `overrides.json` to override the automatic "
-    "decision:\n\n"
-    "```json\n"
-    '[{"a": "<key a>", "b": "<key b>", "verdict": "never", "reason": "why"}]\n'
-    "```\n\n"
-    "`never` keeps them apart, `always` forces them together regardless of "
-    "distance."
+    "To change a decision, copy the whole **Override** cell and paste it "
+    "inside the array in `overrides.json` — no editing needed beyond a "
+    "reason. `never` keeps a pair apart, `always` forces it together "
+    "regardless of distance."
 )
 
 
-def keys_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
-    """Both source keys, copy-pasteable in one selection.
+def override_cell(a: SiteRecord | None, b: SiteRecord | None, verdict: str) -> str:
+    """A complete overrides.json entry, ready to paste with nothing to retype.
 
-    Constructing an override used to mean hunting two identifiers out of two
-    datasets; this makes it a copy and a word.
+    The verdict offered is the one that would *change* the outcome: `always`
+    beside a pair that did not merge, `never` beside one that did. Emitting
+    the keys alone still left the JSON to be assembled by hand, which is
+    where a mistyped identifier would silently override nothing.
     """
+    if a is None or b is None:
+        return "—"
+    return (
+        f'`{{"a": "{a.key}", "b": "{b.key}", '
+        f'"verdict": "{verdict}", "reason": ""}}`'
+    )
+
+
+def keys_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
+    """Both source keys plainly, where an override does not apply."""
     if a is None or b is None:
         return "—"
     return f"`{a.key} {b.key}`"
@@ -135,14 +146,14 @@ def render_merged(clusters: list[Cluster]) -> str:
         "",
         _TEMPLATE,
         "",
-        "| PGE Name | AU Name | Distance | Name match | Keys |",
+        "| PGE Name | AU Name | Distance | Name match | Override (to un-merge) |",
         "|---|---|---:|---:|---|",
     ]
     for distance, cluster in rows:
         pge, au = _member(cluster, _PGE), _member(cluster, _AU)
         lines.append(
             f"| {link_cell(pge)} | {link_cell(au)} | {distance:,.0f} m "
-            f"| {_similarity_cell(pge, au)} | {keys_cell(pge, au)} |"
+            f"| {_similarity_cell(pge, au)} | {override_cell(pge, au, NEVER)} |"
         )
     if not merged:
         lines.append("| _none_ | | | | |")
@@ -170,14 +181,15 @@ def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
         "",
         _TEMPLATE,
         "",
-        "| PGE Name | AU Name | Distance | Name match | Why | Keys |",
+        "| PGE Name | AU Name | Distance | Name match | Why | Override (to merge) |",
         "|---|---|---:|---:|---|---|",
     ]
     for item in sorted(items, key=lambda i: i.distance_m):
         pge, au = item.pair.by_provider(_PGE), item.pair.by_provider(_AU)
         lines.append(
             f"| {link_cell(pge)} | {link_cell(au)} | {item.distance_m:,.0f} m "
-            f"| {_similarity_cell(pge, au)} | {item.reason.value} | {keys_cell(pge, au)} |"
+            f"| {_similarity_cell(pge, au)} | {item.reason.value} "
+            f"| {override_cell(pge, au, ALWAYS)} |"
         )
     if not items:
         lines.append("| _none_ | | | | | |")
@@ -185,37 +197,58 @@ def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
 
 
 def render_duplicates(groups: list[tuple[SiteRecord, SiteRecord, float]]) -> str:
-    """Same-source pairs close enough to be one place entered twice.
+    """Same-source pairs close enough to be one place recorded twice.
 
-    Never merged - matching deliberately ignores same-source pairs, because a
-    guide listing several launches at a site means it. This is a worklist for
-    reporting upstream, and needs a human: Site Guide's "Tasman Flying Site 3"
-    and "4" are 35m apart and genuinely distinct, facing E-NE and W-NW.
-    Disagreeing wind is the clearest sign a close pair is deliberate.
+    Split per source because the two lists mean different things: PGE's are
+    mostly genuine duplicates from open submission, Site Guide's are mostly
+    deliberate neighbouring launches. Reading them as one table invites
+    applying one source's judgement to the other.
     """
+    by_source: dict[str, list[tuple[SiteRecord, SiteRecord, float]]] = defaultdict(list)
+    for a, b, distance in groups:
+        by_source[a.provider].append((a, b, distance))
+
     lines = [
-        "# Possible duplicates within a single source",
+        "# Possible duplicates within one source",
         "",
-        f"- **{len(groups)}** same-source pairs within {MERGE_DISTANCE_M:.0f} m",
+        f"- **{len(groups)}** pairs, from {len(by_source)} source(s)",
         "",
-        "These are never merged — one guide listing several launches at a site",
-        "is a deliberate distinction, not a duplicate. But some are one place",
-        "entered twice, and those are worth reporting upstream to the guide's",
-        "maintainers. Wind directions are shown because a pair facing opposite",
-        "ways is almost certainly deliberate.",
+        "Two entries in the **same** guide sitting within "
+        f"{MERGE_DISTANCE_M:.0f} m of each other.",
         "",
-        "| Source | Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |",
-        "|---|---|---|---:|---:|---|---|---|",
+        "**These are never merged.** Matching only ever compares records from",
+        "*different* sources, because a guide listing several launches at one",
+        "site means it — and only its maintainers can say which of these is a",
+        "mistake. `overrides.json` has no effect here for the same reason.",
+        "",
+        "**What to look for:** wind is the giveaway. A pair facing opposite",
+        "ways is two real launches on one hill. A pair with matching wind and",
+        "near-identical names is likely one place entered twice — worth",
+        "reporting upstream to that guide.",
+        "",
+        "Pairs of launches belonging to the same parent site are excluded, as",
+        "those are distinct by definition.",
     ]
-    for a, b, distance in sorted(groups, key=lambda g: g[2]):
-        lines.append(
-            f"| {a.provider} | {link_cell(a)} | {link_cell(b)} | {distance:,.0f} m "
-            f"| {_similarity_cell(a, b)} "
-            f"| {','.join(sorted(a.wind)) or '—'} | {','.join(sorted(b.wind)) or '—'} "
-            f"| {keys_cell(a, b)} |"
-        )
+
+    for source in sorted(by_source):
+        rows = sorted(by_source[source], key=lambda g: g[2])
+        lines += [
+            "",
+            f"## {source} — {len(rows)} pairs",
+            "",
+            "| Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |",
+            "|---|---|---:|---:|---|---|---|",
+        ]
+        for a, b, distance in rows:
+            lines.append(
+                f"| {link_cell(a)} | {link_cell(b)} | {distance:,.0f} m "
+                f"| {_similarity_cell(a, b)} "
+                f"| {','.join(sorted(a.wind)) or '—'} | {','.join(sorted(b.wind)) or '—'} "
+                f"| {keys_cell(a, b)} |"
+            )
+
     if not groups:
-        lines.append("| _none_ | | | | | | | |")
+        lines += ["", "_None found._"]
     return "\n".join(lines) + "\n"
 
 

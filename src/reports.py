@@ -1,22 +1,24 @@
 """The two human-readable markdown reports.
 
-MERGED.md     - what the pipeline folded together, and how far apart the
-                sources put it. The record of every decision actually taken.
-REVIEW.md     - what it did *not* merge but which sits close enough to be
-                worth a glance, with the reason it was left alone.
-OVERRIDES.md  - the readable view of overrides.json, the one hand-edited file.
-DUPLICATES.md - pairs from a *single* source close enough to be one place
-                entered twice. Never merged; a worklist for upstream.
+reports/review.md     - what was *not* merged but sits close enough to be
+                        worth a glance, and why. The calibration signal: true
+                        matches just past the threshold mean the threshold is
+                        wrong for that region.
+reports/overrides.md  - the readable view of overrides.json, the one
+                        hand-edited file, with stale keys flagged.
+reports/duplicates.md - pairs from a *single* source close enough to be one
+                        place entered twice. Never merged; a worklist for
+                        reporting upstream.
 
-Neither is a worklist. There is deliberately no approve/reject workflow: when
-the merge threshold was 100m the review list held 21 pairs that were all
-obviously the same launch, so a checkbox column would have meant
-hand-confirming the default 21 times. The threshold covers them now, and the
-rare genuine exception goes in rejections.json by hand.
+There is no merged report. Which launches merged is already in
+sites/<cc>.json and the app CSV, and a full list does not scale past a couple
+of sources. Git history covers the audit case.
 
-What the reports are *for* is calibration and audit - a run of true matches
-sitting just past the threshold means the threshold is wrong for that region's
-data, and MERGED.md is how you check that a merge you doubt was reasonable.
+None is a worklist. There is deliberately no approve/reject workflow: when the
+merge threshold was 100m the review list held 21 pairs that were all obviously
+the same launch, so a checkbox column would have meant hand-confirming the
+default 21 times. The threshold covers them now, and the rare genuine
+exception goes in overrides.json by hand.
 """
 
 from __future__ import annotations
@@ -25,14 +27,14 @@ from pathlib import Path
 
 from rapidfuzz import fuzz
 
-from src.clustering import Cluster, ReviewItem
-from src.matcher import MERGE_DISTANCE_M, Pair, haversine_m
+from src.clustering import ReviewItem
+from src.matcher import MERGE_DISTANCE_M, Pair
 from src.model import SiteRecord
 
-MERGED_PATH = Path("MERGED.md")
-REVIEW_PATH = Path("REVIEW.md")
-OVERRIDES_PATH = Path("OVERRIDES.md")
-DUPLICATES_PATH = Path("DUPLICATES.md")
+REPORTS_DIR = Path("reports")
+REVIEW_PATH = REPORTS_DIR / "review.md"
+OVERRIDES_PATH = REPORTS_DIR / "overrides.md"
+DUPLICATES_PATH = REPORTS_DIR / "duplicates.md"
 _PGE = "pge"
 _AU = "siteguide_au"
 
@@ -89,54 +91,10 @@ def keys_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
     return f"`{a.key} {b.key}`"
 
 
-def _member(cluster: Cluster, provider: str) -> SiteRecord | None:
-    return next((m for m in cluster.members if m.provider == provider), None)
-
-
-def _spread_m(cluster: Cluster) -> float:
-    """Furthest apart any two members are - the distance that was bridged."""
-    members = cluster.members
-    return max(
-        (haversine_m(a.lat, a.lon, b.lat, b.lon) for i, a in enumerate(members) for b in members[i + 1 :]),
-        default=0.0,
-    )
-
-
-def render_merged(clusters: list[Cluster]) -> str:
-    merged = [c for c in clusters if len(c.members) > 1]
-    rows = sorted(((_spread_m(c), c) for c in merged), key=lambda t: t[0])
-
-    lines = [
-        "# Merged launches",
-        "",
-        f"- **{len(merged)}** launches backed by more than one source",
-        "",
-        f"Folded together because the sources place them within "
-        f"{MERGE_DISTANCE_M:.0f} m of each other. Distance is how far apart they",
-        "actually were. Names link to their source page; name match is context",
-        "only and played no part in the decision — a low score here is worth a",
-        "look. To stop a pair being merged, add it to `rejections.json`.",
-        "",
-        _TEMPLATE,
-        "",
-        "| PGE Name | AU Name | Distance | Name match | Keys |",
-        "|---|---|---:|---:|---|",
-    ]
-    for distance, cluster in rows:
-        pge, au = _member(cluster, _PGE), _member(cluster, _AU)
-        lines.append(
-            f"| {link_cell(pge)} | {link_cell(au)} | {distance:,.0f} m "
-            f"| {_similarity_cell(pge, au)} | {keys_cell(pge, au)} |"
-        )
-    if not merged:
-        lines.append("| _none_ | | | | |")
-    return "\n".join(lines) + "\n"
-
-
 def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
     lines = ["# Unmerged near-misses", ""]
     if merged is not None:
-        lines += [f"- **{merged}** merged automatically (within {MERGE_DISTANCE_M:.0f} m) — see `MERGED.md`"]
+        lines += [f"- **{merged}** merged automatically (within {MERGE_DISTANCE_M:.0f} m)"]
     lines += [
         f"- **{len(items)}** left unmerged but close, listed below",
         "",
@@ -259,14 +217,11 @@ def render_overrides(
 
 
 def _write_if_changed(path: Path, content: str) -> bool:
+    path.parent.mkdir(parents=True, exist_ok=True)
     if path.exists() and path.read_text() == content:
         return False
     path.write_text(content)
     return True
-
-
-def write_merged(clusters: list[Cluster], path: Path | None = None) -> bool:
-    return _write_if_changed(path or MERGED_PATH, render_merged(clusters))
 
 
 def write_review(items: list[ReviewItem], merged: int | None = None, path: Path | None = None) -> bool:

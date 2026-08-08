@@ -1,40 +1,9 @@
-"""The four markdown reports: merged, near-misses, declined, duplicates."""
+"""The three markdown reports: near-misses, overrides, duplicates."""
 
 import pytest
 
-from src.clustering import Cluster
-from src.reports import render_merged, render_overrides
+from src.reports import render_overrides
 from tests.conftest import metres, record
-
-
-def test_merged_report_lists_both_source_names_and_the_distance():
-    pge = record("pge", "1", name="Rabbit Hill", url="https://www.paraglidingearth.com/?site=1")
-    au = record("siteguide_au", "a", name="Yallingup - Rabbit Hill",
-                lat=-33.7 - metres(120), url="https://siteguide.org.au/sites/details/9")
-
-    table = render_merged([Cluster((pge, au))])
-
-    assert "[Rabbit Hill](https://www.paraglidingearth.com/?site=1)" in table
-    assert "[Yallingup - Rabbit Hill](https://siteguide.org.au/sites/details/9)" in table
-    assert "| 120 m |" in table
-    assert "**1** launches backed by more than one source" in table
-
-
-def test_merged_report_ignores_single_source_clusters():
-    table = render_merged([Cluster((record("pge", "1"),))])
-    assert "**0** launches" in table
-    assert "| _none_ |" in table
-
-
-def test_merged_report_is_sorted_by_distance():
-    close = Cluster((record("pge", "1", name="Close PGE"),
-                     record("siteguide_au", "a", name="Close AU", lat=-33.7 - metres(30))))
-    far = Cluster((record("pge", "2", name="Far PGE", lat=-34.0),
-                   record("siteguide_au", "b", name="Far AU", lat=-34.0 - metres(200))))
-
-    rows = [l for l in render_merged([far, close]).splitlines() if " m |" in l]
-
-    assert "Close PGE" in rows[0] and "Far PGE" in rows[1]
 
 
 def test_overrides_report_resolves_keys_to_names():

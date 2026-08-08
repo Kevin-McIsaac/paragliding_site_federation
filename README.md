@@ -69,11 +69,19 @@ in `overrides.json` by hand. What it is for is calibration — a run of true
 matches sitting just past the threshold means the threshold is wrong for that
 region's data.
 
-Every run writes four reports, so every outcome is visible: `MERGED.md` (what
-was folded together, and how far apart the sources put it), `REVIEW.md` (close
-but not merged, with *why*), `OVERRIDES.md` (the readable view of
-`overrides.json`, keys resolved to names and stale entries flagged), and
-`DUPLICATES.md`.
+Every run writes three reports under `reports/`: `review.md` (close but not
+merged, and why), `overrides.md` (the readable view of `overrides.json`, keys
+resolved to names and stale entries flagged), and `duplicates.md`.
+
+There is no merged report — which launches merged is already in
+`sites/<cc>.json` and the app CSV, and a full list would not scale past a
+couple of sources. Git history covers the audit case.
+
+To override the automatic decision, copy a **Keys** cell from any report into
+`overrides.json` and set a verdict: `never` keeps a pair apart, `always`
+forces it together regardless of distance. Malformed entries fail the run
+rather than being skipped, since an ignored override looks exactly like one
+that was never applied.
 
 That last one covers a gap cross-source matching cannot: PGE carries both
 `Little Europe` and `Lake St Clair` 133 m apart, and Site Guide's single launch

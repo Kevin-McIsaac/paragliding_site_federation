@@ -52,9 +52,6 @@ jobs:
           add-paths: |
             sites/
             app/
-            MERGED.md
-            REVIEW.md
-            OVERRIDES.md
-            DUPLICATES.md
+            reports/
             overrides.json
             state/

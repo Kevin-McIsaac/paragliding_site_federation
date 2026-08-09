@@ -13,7 +13,7 @@ def test_windows_line_endings_are_normalised(tmp_path):
     weekly run would rewrite it - a spurious diff in the pull request forever.
     """
     path = tmp_path / "sites.csv"
-    shut = record("siteguide_au", "a", closed="Closed.\r\n\r\nAwaiting an agreement.")
+    shut = record("ansg", "a", closed="Closed.\r\n\r\nAwaiting an agreement.")
 
     write_app_csv([_select(shut)], path)
 
@@ -23,7 +23,7 @@ def test_windows_line_endings_are_normalised(tmp_path):
 def test_line_breaks_themselves_survive(tmp_path):
     """Normalising endings is not flattening - the paragraphs stay."""
     path = tmp_path / "sites.csv"
-    shut = record("siteguide_au", "a", closed="Closed.\r\n\r\nAwaiting an agreement.")
+    shut = record("ansg", "a", closed="Closed.\r\n\r\nAwaiting an agreement.")
 
     write_app_csv([_select(shut)], path)
 

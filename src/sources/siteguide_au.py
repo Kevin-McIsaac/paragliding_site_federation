@@ -39,7 +39,12 @@ _APPROXIMATE = re.compile(r"available to .*members", re.IGNORECASE)
 
 
 class SiteGuideAuSource:
-    name = "siteguide_au"
+    # The provider prefix carried in every `source` token, and so in every
+    # ref a device stores. `ansg` is what the guide calls itself - the
+    # Australian National Site Guide - and matches the label the app already
+    # shows on its per-guide tab. The module keeps its name: this adapter is
+    # for siteguide.org.au, the website, not the guide's abbreviation.
+    name = "ansg"
 
     def __init__(self, *, client: httpx.Client | None = None) -> None:
         self._client = client or httpx.Client(timeout=_TIMEOUT, base_url=_BASE_URL)
@@ -126,7 +131,7 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
 
         records.append(
             SiteRecord(
-                provider="siteguide_au",
+                provider="ansg",
                 id=f"{site['id']}-{launch['id']}",
                 name=name,
                 role="launch",

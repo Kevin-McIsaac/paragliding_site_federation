@@ -16,7 +16,7 @@ from src.clustering import Cluster
 from src.ids import IdRegistry
 from src.model import CanonicalSite, SiteRecord
 
-NATIONAL_SCOPE: dict[str, set[str]] = {"siteguide_au": {"AU"}}
+NATIONAL_SCOPE: dict[str, set[str]] = {"ansg": {"AU"}}
 _FALLBACK_ORDER = ("pge",)
 
 

@@ -1,7 +1,4 @@
 {
-  "siteguide_au": {
-    "version_id": 870
-  },
   "sources": {
     "pge": {
       "record_count": 11508
@@ -9,5 +6,8 @@
     "siteguide_au": {
       "record_count": 284
     }
+  },
+  "ansg": {
+    "version_id": 870
   }
 }

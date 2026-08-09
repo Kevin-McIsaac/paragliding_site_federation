@@ -22,9 +22,9 @@ def test_new_cluster_gets_a_fresh_id():
 
 def test_same_cluster_keeps_its_id_across_runs(tmp_path):
     registry = IdRegistry()
-    first = registry.assign(frozenset({"pge:1", "siteguide_au:a"}))
+    first = registry.assign(frozenset({"pge:1", "ansg:a"}))
 
-    second = next_run(registry, tmp_path).assign(frozenset({"pge:1", "siteguide_au:a"}))
+    second = next_run(registry, tmp_path).assign(frozenset({"pge:1", "ansg:a"}))
 
     assert first == second
 
@@ -33,7 +33,7 @@ def test_cluster_gaining_a_member_keeps_its_id(tmp_path):
     registry = IdRegistry()
     original = registry.assign(frozenset({"pge:1"}))
 
-    grown = next_run(registry, tmp_path).assign(frozenset({"pge:1", "siteguide_au:a"}))
+    grown = next_run(registry, tmp_path).assign(frozenset({"pge:1", "ansg:a"}))
 
     assert grown == original
 
@@ -41,26 +41,26 @@ def test_cluster_gaining_a_member_keeps_its_id(tmp_path):
 def test_merged_clusters_inherit_the_lowest_id(tmp_path):
     registry = IdRegistry()
     first = registry.assign(frozenset({"pge:1"}))
-    registry.assign(frozenset({"siteguide_au:a"}))
+    registry.assign(frozenset({"ansg:a"}))
 
-    merged = next_run(registry, tmp_path).assign(frozenset({"pge:1", "siteguide_au:a"}))
+    merged = next_run(registry, tmp_path).assign(frozenset({"pge:1", "ansg:a"}))
 
     assert merged == first  # oldest wins, so the outcome is order-independent
 
 
 def test_reassigning_an_identical_cluster_is_idempotent():
     registry = IdRegistry()
-    first = registry.assign(frozenset({"pge:1", "siteguide_au:a"}))
-    assert registry.assign(frozenset({"pge:1", "siteguide_au:a"})) == first
+    first = registry.assign(frozenset({"pge:1", "ansg:a"}))
+    assert registry.assign(frozenset({"pge:1", "ansg:a"})) == first
 
 
 def test_split_cluster_gives_each_half_a_distinct_id():
     """A cluster that splits must not hand the same id to both halves - that
     would put duplicate ids in the dataset and break the app's site lookup."""
-    registry = IdRegistry(keys={"pge:1": "PSF-000001", "siteguide_au:a": "PSF-000001"}, next_id=2)
+    registry = IdRegistry(keys={"pge:1": "PSF-000001", "ansg:a": "PSF-000001"}, next_id=2)
 
     kept = registry.assign(frozenset({"pge:1"}))
-    split_off = registry.assign(frozenset({"siteguide_au:a"}))
+    split_off = registry.assign(frozenset({"ansg:a"}))
 
     assert kept == "PSF-000001"  # first assigned keeps the anchor id
     assert split_off != kept

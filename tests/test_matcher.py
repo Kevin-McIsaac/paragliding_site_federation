@@ -5,7 +5,7 @@ from tests.conftest import metres, record
 
 
 def _at(distance_m, **overrides):
-    return record("siteguide_au", "a", lat=-33.7 - metres(distance_m), **overrides)
+    return record("ansg", "a", lat=-33.7 - metres(distance_m), **overrides)
 
 
 def test_within_250m_merges():
@@ -34,7 +34,7 @@ def test_boundaries():
 def test_same_source_is_never_compared():
     """One guide listing several launches at a site is deliberate, not a
     duplicate - Mt Borah's four launches must all survive."""
-    assert pair_for(record("siteguide_au", "a"), record("siteguide_au", "b")) is None
+    assert pair_for(record("ansg", "a"), record("ansg", "b")) is None
 
 
 def test_landing_never_matches_launch():
@@ -56,12 +56,12 @@ def test_approximate_coordinates_are_reviewed_never_merged():
 
 def test_spatial_index_finds_pairs_across_cell_boundaries():
     a = record("pge", "1", lat=-33.70999)
-    b = record("siteguide_au", "a", lat=-33.71001)  # different cell, ~2m apart
+    b = record("ansg", "a", lat=-33.71001)  # different cell, ~2m apart
     found = list(pairs([a, b]))
     assert len(found) == 1 and found[0].band is Band.MERGE
 
 
 def test_each_pair_is_yielded_once():
-    recs = [record("pge", "1"), record("siteguide_au", "a"), record("siteguide_au", "b", lat=-33.7001)]
+    recs = [record("pge", "1"), record("ansg", "a"), record("ansg", "b", lat=-33.7001)]
     found = list(pairs(recs))
     assert len({p.keys for p in found}) == len(found)

@@ -28,7 +28,7 @@ _UNKNOWN = "xx"
 #
 # No url column: every source page is derivable from `source`
 # (pge:4632 -> paraglidingearth.com/?site=4632,
-#  siteguide_au:106-28 -> siteguide.org.au/sites/details/106).
+#  ansg:106-28 -> siteguide.org.au/sites/details/106).
 CSV_COLUMNS = [
     "id",
     "name",

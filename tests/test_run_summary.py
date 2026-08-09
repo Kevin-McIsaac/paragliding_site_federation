@@ -33,27 +33,27 @@ def test_clean_run_leads_with_no_action_required():
 def test_a_stale_override_promotes_the_warning_to_the_top():
     """A key that no longer resolves silently overrides nothing - the one
     failure a reader could not spot unaided."""
-    overrides = [{"a": "pge:999", "b": "siteguide_au:a", "verdict": "never"}]
+    overrides = [{"a": "pge:999", "b": "ansg:a", "verdict": "never"}]
 
-    body = _body(overrides=overrides, records=[record("siteguide_au", "a")])
+    body = _body(overrides=overrides, records=[record("ansg", "a")])
 
     assert "⚠️ **1 item(s) need attention.**" in body
     assert "key not found" in body
 
 
 def test_a_forced_merge_that_did_not_apply_is_flagged():
-    overrides = [{"a": "pge:1", "b": "siteguide_au:a", "verdict": "always"}]
-    recs = [record("pge", "1"), record("siteguide_au", "a")]
+    overrides = [{"a": "pge:1", "b": "ansg:a", "verdict": "always"}]
+    recs = [record("pge", "1"), record("ansg", "a")]
 
     assert "forced merge did not apply" in _body(overrides=overrides, records=recs)
-    applied = {frozenset({"pge:1", "siteguide_au:a"})}
+    applied = {frozenset({"pge:1", "ansg:a"})}
     assert "did not apply" not in _body(overrides=overrides, records=recs, forced=applied)
 
 
 def test_sections_needing_attention_open_and_the_rest_collapse():
-    overrides = [{"a": "pge:999", "b": "siteguide_au:a", "verdict": "never"}]
+    overrides = [{"a": "pge:999", "b": "ansg:a", "verdict": "never"}]
 
-    body = _body(overrides=overrides, records=[record("siteguide_au", "a")])
+    body = _body(overrides=overrides, records=[record("ansg", "a")])
 
     assert "<details open>" in body           # the overrides section
     assert "<details>" in body                # everything else
@@ -70,7 +70,7 @@ def test_every_section_appears_even_when_empty():
 
 def test_body_does_not_inline_report_tables():
     """The dashboard must not grow with the dataset - that was the point."""
-    pge, au = record("pge", "1"), record("siteguide_au", "a")
+    pge, au = record("pge", "1"), record("ansg", "a")
 
     body = _body(clusters=[Cluster((pge, au))], records=[pge, au])
 
@@ -100,9 +100,9 @@ def test_health_failure_opens_the_sources_section():
 
 
 def test_source_table_still_reports_wind_coverage():
-    body = _body(stats=[SourceStats("pge", 240, 140), SourceStats("siteguide_au", 245, 233)])
+    body = _body(stats=[SourceStats("pge", 240, 140), SourceStats("ansg", 245, 233)])
     assert "| pge | fetched | 240 | 140 (58%) |" in body
-    assert "| siteguide_au | fetched | 245 | 233 (95%) |" in body
+    assert "| ansg | fetched | 245 | 233 (95%) |" in body
 
 
 def test_every_section_ends_with_a_link_to_its_report(monkeypatch):
@@ -118,7 +118,7 @@ def test_every_section_ends_with_a_link_to_its_report(monkeypatch):
 
 
 def test_optional_actions_are_not_labelled_as_nothing_needed():
-    pge, au = record("pge", "1"), record("siteguide_au", "a")
+    pge, au = record("pge", "1"), record("ansg", "a")
     body = _body(clusters=[Cluster((pge, au))], records=[pge, au])
     assert "**Optional:** to undo a merge" in body
 
@@ -129,9 +129,9 @@ def test_a_source_contributing_nothing_aborts_the_run():
     including the 135 in no other source - because health checks exempted
     'skipped' sources. A source that contributed before and contributes
     nothing now must stop the run, whatever the reason."""
-    stats = [SourceStats("pge", 11508, 7390), SourceStats("siteguide_au", 0, 0)]
+    stats = [SourceStats("pge", 11508, 7390), SourceStats("ansg", 0, 0)]
 
-    health = check_health(stats, {"pge": 11508, "siteguide_au": 245})
+    health = check_health(stats, {"pge": 11508, "ansg": 245})
 
     assert not health.ok
-    assert any("siteguide_au" in note for note in health.notes)
+    assert any("ansg" in note for note in health.notes)

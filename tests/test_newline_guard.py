@@ -15,7 +15,7 @@ def test_a_line_break_in_guide_prose_is_preserved(tmp_path):
     path = tmp_path / "sites.csv"
     notice = "Closed DECEMBER 2015\nThe committee is working on it"
 
-    write_app_csv([_select(record("siteguide_au", "a", closed=notice))], path)
+    write_app_csv([_select(record("ansg", "a", closed=notice))], path)
 
     with open(path, newline="") as f:
         rows = list(csv.DictReader(f))

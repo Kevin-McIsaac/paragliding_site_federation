@@ -3,9 +3,9 @@
 Matching decides on distance alone, so this is the single escape hatch for the
 pairs it gets wrong - in both directions:
 
-    [{"a": "pge:21219", "b": "siteguide_au:129-34", "verdict": "never",
+    [{"a": "pge:21219", "b": "ansg:129-34", "verdict": "never",
       "reason": "north-facing launch, distinct from the NE one"},
-     {"a": "pge:18871", "b": "siteguide_au:125-3", "verdict": "always",
+     {"a": "pge:18871", "b": "ansg:125-3", "verdict": "always",
       "reason": "one site; PGE's pin is 387m off the real launch"}]
 
 One entry per pair, because "never" and "always" are opposite answers to the

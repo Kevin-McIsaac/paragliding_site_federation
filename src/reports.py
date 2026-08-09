@@ -42,7 +42,7 @@ REVIEW_PATH = REPORTS_DIR / "review.md"
 OVERRIDES_PATH = REPORTS_DIR / "overrides.md"
 DUPLICATES_PATH = REPORTS_DIR / "duplicates.md"
 _PGE = "pge"
-_AU = "siteguide_au"
+_AU = "ansg"
 
 
 def link_cell(record: SiteRecord | None) -> str:

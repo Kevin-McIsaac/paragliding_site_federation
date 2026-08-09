@@ -21,12 +21,12 @@ def _select(*members):
 
 
 def test_national_guide_supplies_name_and_position_in_its_own_country():
-    au = record("siteguide_au", "a", name="Yallingup - Rabbit Hill", lat=-33.71)
+    au = record("ansg", "a", name="Yallingup - Rabbit Hill", lat=-33.71)
     pge = record("pge", "1", name="Rabbit Hill", lat=-33.70)
 
     site = _select(au, pge)
 
-    assert site.primary == "siteguide_au"
+    assert site.primary == "ansg"
     assert site.name == "Yallingup - Rabbit Hill"
     assert site.lat == -33.71
 
@@ -38,19 +38,19 @@ def test_pge_wins_where_no_national_guide_covers_the_country():
 
 def test_wind_falls_back_when_the_winner_has_none():
     """~26 Site Guide sites have conditions prose that does not parse."""
-    au = record("siteguide_au", "a", wind={})
+    au = record("ansg", "a", wind={})
     pge = record("pge", "1", wind={"N": 1, "NE": 2})
 
     site = _select(au, pge)
 
-    assert site.primary == "siteguide_au"
+    assert site.primary == "ansg"
     assert site.wind == {"N": 1, "NE": 2}
 
 
 def test_site_guide_wind_wins_when_present_losing_pge_gradation():
     """Accepted consequence: parsed prose can only say 'in range', so a Site
     Guide-primary launch never shows 'excellent' even if PGE rated it 2."""
-    au = record("siteguide_au", "a", wind={"S": 1})
+    au = record("ansg", "a", wind={"S": 1})
     pge = record("pge", "1", wind={"N": 2})
 
     site = _select(au, pge)
@@ -59,8 +59,8 @@ def test_site_guide_wind_wins_when_present_losing_pge_gradation():
 
 
 def test_sources_records_every_contributor():
-    site = _select(record("pge", "1"), record("siteguide_au", "a"))
-    assert site.sources == {"pge": "1", "siteguide_au": "a"}
+    site = _select(record("pge", "1"), record("ansg", "a"))
+    assert site.sources == {"pge": "1", "ansg": "a"}
 
 
 def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
@@ -155,8 +155,8 @@ def test_country_json_is_sharded_and_idempotent(tmp_path):
 
 def test_review_table_has_the_requested_columns_and_order():
     pge = record("pge", "1", name="Cape Jervis")
-    near = record("siteguide_au", "a", name="Cape Jervis SG", lat=-33.7 - metres(120))
-    far = record("siteguide_au", "b", name="Shoreham SG", lat=-33.7 - metres(240))
+    near = record("ansg", "a", name="Cape Jervis SG", lat=-33.7 - metres(120))
+    far = record("ansg", "b", name="Shoreham SG", lat=-33.7 - metres(240))
 
     table = render([_item(pair_for(pge, far)), _item(pair_for(pge, near))])
     lines = [l for l in table.splitlines() if l.startswith("|")]
@@ -168,7 +168,7 @@ def test_review_table_has_the_requested_columns_and_order():
 
 def test_identical_names_score_full_similarity():
     pge = record("pge", "1", name="Cape Jervis")
-    au = record("siteguide_au", "a", name="Cape Jervis", lat=-33.7 - metres(120))
+    au = record("ansg", "a", name="Cape Jervis", lat=-33.7 - metres(120))
     assert "| 100% |" in render([_item(pair_for(pge, au))])
 
 
@@ -176,13 +176,13 @@ def test_site_prefixed_name_is_not_penalised():
     """Site Guide qualifies launches with their site, so one name is a
     superset of the other - that must not read as a poor match."""
     pge = record("pge", "1", name="Honeysuckle")
-    au = record("siteguide_au", "a", name="Honeysuckle - Launch 3", lat=-33.7 - metres(120))
+    au = record("ansg", "a", name="Honeysuckle - Launch 3", lat=-33.7 - metres(120))
     assert "| 100% |" in render([_item(pair_for(pge, au))])
 
 
 def test_genuinely_different_names_score_low():
     pge = record("pge", "1", name="Thirteenth Beach")
-    au = record("siteguide_au", "a", name="Barwon Heads - PG beach launch 30W",
+    au = record("ansg", "a", name="Barwon Heads - PG beach launch 30W",
                 lat=-33.7 - metres(120))
 
     similarity = name_similarity(pge, au)
@@ -192,7 +192,7 @@ def test_genuinely_different_names_score_low():
 
 def test_review_names_link_to_their_source_page():
     pge = record("pge", "1", name="Cape Jervis", url="https://www.paraglidingearth.com/?site=1")
-    au = record("siteguide_au", "a", name="Cape Jervis SG",
+    au = record("ansg", "a", name="Cape Jervis SG",
                 lat=-33.7 - metres(120), url="https://siteguide.org.au/sites/9")
 
     table = render([_item(pair_for(pge, au))])
@@ -203,19 +203,19 @@ def test_review_names_link_to_their_source_page():
 
 def test_review_falls_back_to_plain_name_without_a_url():
     pge = record("pge", "1", name="Cape Jervis", url=None)
-    au = record("siteguide_au", "a", lat=-33.7 - metres(120), url=None)
+    au = record("ansg", "a", lat=-33.7 - metres(120), url=None)
     assert "| Cape Jervis |" in render([_item(pair_for(pge, au))])
 
 
 def test_pipe_in_a_name_cannot_break_the_table():
     pge = record("pge", "1", name="Bald | Hill", url=None)
-    au = record("siteguide_au", "a", lat=-33.7 - metres(120), url=None)
+    au = record("ansg", "a", lat=-33.7 - metres(120), url=None)
     assert r"Bald \| Hill" in render([_item(pair_for(pge, au))])
 
 
 def test_report_leads_with_merged_and_unmerged_counts():
     pge = record("pge", "1")
-    au = record("siteguide_au", "a", lat=-33.7 - metres(120))
+    au = record("ansg", "a", lat=-33.7 - metres(120))
 
     table = render([_item(pair_for(pge, au))], merged=61)
 
@@ -232,7 +232,7 @@ def test_a_closed_site_is_kept_and_flagged(tmp_path):
     on the map as ordinary launches, with nothing to say it was shut - making
     the merged dataset less safe than either source alone."""
     path = tmp_path / "sites.csv"
-    shut = record("siteguide_au", "a", closed="Closed awaiting a council agreement")
+    shut = record("ansg", "a", closed="Closed awaiting a council agreement")
 
     write_app_csv([_select(shut)], path)
 
@@ -243,7 +243,7 @@ def test_a_closed_site_is_kept_and_flagged(tmp_path):
 def test_one_guide_calling_a_site_closed_is_enough(tmp_path):
     """The warning must survive even when the guide that raised it lost every
     other field to a higher-ranked source."""
-    au = record("siteguide_au", "a", closed="Closed: council agreement pending")
+    au = record("ansg", "a", closed="Closed: council agreement pending")
     pge = record("pge", "1", name="Still listed as open", closed=None)
 
     site = _select(au, pge)

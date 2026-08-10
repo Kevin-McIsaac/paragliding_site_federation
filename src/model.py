@@ -28,6 +28,20 @@ AUSTRALIA_BBOX = BoundingBox(south=-44.0, west=112.0, north=-10.0, east=154.0)
 
 DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 
+#: Which guide's id keys a launch described by more than one, most durable
+#: first. See `CanonicalSite.ref`.
+#:
+#: `pge` leads because it is present for ~97% of the catalogue, which keeps one
+#: rule working in every country rather than a different key space per national
+#: guide. It is deliberately not the same question as which guide's *content*
+#: wins - see `selection.NATIONAL_SCOPE` for that.
+#:
+#: The app carries an identical list as the fallback for a snapshot with no `ref`
+#: column. The two must not drift: a launch keyed `pge:` here and `ansg:` there
+#: would leave a fresh install and an upgraded one disagreeing about the same
+#: site.
+KEY_PRECEDENCE = ("pge", "ansg")
+
 
 @dataclass(frozen=True)
 class SiteRecord:
@@ -85,6 +99,33 @@ class CanonicalSite:
     closed: str | None = None
 
     @property
+    def ref(self) -> str:
+        """The key the app stores against a flown site, e.g. `pge:4632`.
+
+        A guide's own id, because the canonical id above is ours: it comes from a
+        registry in this repository, and when a consumer keys user data on it the
+        guarantee lives somewhere the consumer cannot see. A guide's id is
+        assigned and maintained upstream, so a catalogue rebuild cannot move it.
+
+        Derived from `sources`, like `numeric_id` is derived from `id`, so it
+        cannot drift from the row it describes. The app used to choose this
+        itself; emitting it means one authority decides, and the app's fallback
+        rule must stay identical to [KEY_PRECEDENCE] until it can be dropped.
+
+        Note this is *not* `primary`. `primary` says whose name and wind won -
+        the local guide, inside its own country. This says which id is the most
+        durable handle, which is a different question and usually a different
+        answer.
+        """
+        for provider in KEY_PRECEDENCE:
+            if provider in self.sources:
+                return f"{provider}:{self.sources[provider]}"
+        # A guide with no ranking yet. Deterministic beats arbitrary: sorted, so
+        # two runs over the same cluster agree.
+        provider, source_id = sorted(self.sources.items())[0]
+        return f"{provider}:{source_id}"
+
+    @property
     def numeric_id(self) -> int:
         """The canonical id as an integer, for the app's INTEGER PRIMARY KEY.
 
@@ -99,6 +140,10 @@ class CanonicalSite:
     def to_dict(self) -> dict:
         return {
             "id": self.id,
+            # Also in the review JSON, because "which id does a device key on"
+            # is exactly the sort of thing a human should be able to see change
+            # in a pull request.
+            "ref": self.ref,
             "name": self.name,
             "lat": round(self.lat, 6),
             "lon": round(self.lon, 6),

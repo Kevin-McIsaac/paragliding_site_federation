@@ -69,7 +69,7 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
 
     rows = list(csv.DictReader(path.read_text().splitlines()))
     assert list(rows[0]) == [
-        "id", "name", "longitude", "latitude", "altitude", "country",
+        "id", "ref", "name", "longitude", "latitude", "altitude", "country",
         "wind_n", "wind_ne", "wind_e", "wind_se",
         "wind_s", "wind_sw", "wind_w", "wind_nw",
         "source", "closed",
@@ -79,16 +79,22 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
 
 
 def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
-    """The app parses this file positionally, so a column inserted anywhere
-    shifts every field after it. Latitude and longitude are adjacent and
-    interchangeable in type, so a swap parses cleanly and puts every site in
-    the wrong hemisphere - no row count or import log would catch it.
+    """Pinned so a column cannot appear or vanish without someone deciding to.
+
+    The old reason given here - that the app parses positionally, so an inserted
+    column shifts every field after it - stopped being true when the app moved to
+    reading by column name; `write_app_csv` says as much. What is still true is
+    that latitude and longitude are adjacent and interchangeable in type, so
+    swapping their *values* parses cleanly and puts every site in the wrong
+    hemisphere, which no row count or import log would catch. That is what
+    test_csv_writes_longitude_before_latitude covers, and this pins the shape it
+    depends on.
     """
     path = tmp_path / "sites.csv"
     write_app_csv([_select(record("pge", "1"))], path)
 
     assert path.read_text().splitlines()[0] == (
-        "id,name,longitude,latitude,altitude,country,"
+        "id,ref,name,longitude,latitude,altitude,country,"
         "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source,closed"
     )
 

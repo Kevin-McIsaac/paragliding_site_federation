@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-005630",
+    "ref": "pge:19253",
     "name": "Goyja",
     "lat": 35.5769,
     "lon": 45.4876,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-005631",
+    "ref": "pge:19254",
     "name": "Azmar",
     "lat": 35.5803,
     "lon": 45.4959,
@@ -31,6 +33,7 @@
   },
   {
     "id": "PSF-006040",
+    "ref": "pge:19817",
     "name": "Dukan - Sarah Mountain",
     "lat": 35.9323,
     "lon": 44.9823,
@@ -49,6 +52,7 @@
   },
   {
     "id": "PSF-006041",
+    "ref": "pge:19818",
     "name": "Amedi - Maten Mountain",
     "lat": 37.1168,
     "lon": 43.4814,
@@ -66,6 +70,7 @@
   },
   {
     "id": "PSF-008292",
+    "ref": "pge:23473",
     "name": "mar matiy",
     "lat": 36.4983,
     "lon": 43.4402,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-006928",
+    "ref": "pge:21929",
     "name": "Ambohimiangara",
     "lat": -19.0036,
     "lon": 46.8636,
@@ -14,6 +15,7 @@
   },
   {
     "id": "PSF-006929",
+    "ref": "pge:21930",
     "name": "Saint Augustin",
     "lat": -23.542,
     "lon": 43.7519,
@@ -27,6 +29,7 @@
   },
   {
     "id": "PSF-006930",
+    "ref": "pge:21931",
     "name": "Ambatondranijay",
     "lat": -18.9779,
     "lon": 46.6985,
@@ -40,6 +43,7 @@
   },
   {
     "id": "PSF-007694",
+    "ref": "pge:22799",
     "name": "Ambohitromby",
     "lat": -18.4527,
     "lon": 47.1619,
@@ -53,6 +57,7 @@
   },
   {
     "id": "PSF-007695",
+    "ref": "pge:22800",
     "name": "Amborokely 1",
     "lat": -17.9503,
     "lon": 47.1209,
@@ -66,6 +71,7 @@
   },
   {
     "id": "PSF-007696",
+    "ref": "pge:22801",
     "name": "Amborokely 2",
     "lat": -17.9256,
     "lon": 47.1094,
@@ -79,6 +85,7 @@
   },
   {
     "id": "PSF-007697",
+    "ref": "pge:22802",
     "name": "Ankazobe Soaring East",
     "lat": -18.2804,
     "lon": 47.1426,
@@ -92,6 +99,7 @@
   },
   {
     "id": "PSF-007698",
+    "ref": "pge:22803",
     "name": "Ambohimanambola",
     "lat": -18.9746,
     "lon": 47.612,
@@ -105,6 +113,7 @@
   },
   {
     "id": "PSF-007699",
+    "ref": "pge:22804",
     "name": "Alasora",
     "lat": -18.9627,
     "lon": 47.5915,
@@ -118,6 +127,7 @@
   },
   {
     "id": "PSF-007700",
+    "ref": "pge:22805",
     "name": "Inflating spot",
     "lat": -18.8796,
     "lon": 47.6168,
@@ -131,6 +141,7 @@
   },
   {
     "id": "PSF-007701",
+    "ref": "pge:22806",
     "name": "Ambohimanambola West",
     "lat": -18.9304,
     "lon": 47.6247,
@@ -144,6 +155,7 @@
   },
   {
     "id": "PSF-007702",
+    "ref": "pge:22807",
     "name": "Ambohimanambola West",
     "lat": -18.9304,
     "lon": 47.6247,
@@ -157,6 +169,7 @@
   },
   {
     "id": "PSF-007703",
+    "ref": "pge:22808",
     "name": "Ambondrona",
     "lat": -13.3687,
     "lon": 48.2112,
@@ -170,6 +183,7 @@
   },
   {
     "id": "PSF-007704",
+    "ref": "pge:22809",
     "name": "Andilana",
     "lat": -13.2886,
     "lon": 48.2077,
@@ -183,6 +197,7 @@
   },
   {
     "id": "PSF-007705",
+    "ref": "pge:22810",
     "name": "Rocher du Farihy",
     "lat": -19.0843,
     "lon": 46.7379,
@@ -196,6 +211,7 @@
   },
   {
     "id": "PSF-007706",
+    "ref": "pge:22811",
     "name": "Route de Faratsio",
     "lat": -19.274,
     "lon": 46.7901,
@@ -209,6 +225,7 @@
   },
   {
     "id": "PSF-007707",
+    "ref": "pge:22812",
     "name": "Topy",
     "lat": -19.0566,
     "lon": 46.7127,
@@ -222,6 +239,7 @@
   },
   {
     "id": "PSF-007708",
+    "ref": "pge:22813",
     "name": "Pente ecole Analavory",
     "lat": -18.9587,
     "lon": 46.6944,
@@ -235,6 +253,7 @@
   },
   {
     "id": "PSF-007709",
+    "ref": "pge:22814",
     "name": "Caméléon",
     "lat": -22.0976,
     "lon": 46.7865,

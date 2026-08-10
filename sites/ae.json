@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000494",
+    "ref": "pge:10574",
     "name": "Wathba Hill",
     "lat": 24.1636,
     "lon": 54.6973,
@@ -23,6 +24,7 @@
   },
   {
     "id": "PSF-001063",
+    "ref": "pge:11256",
     "name": "Jebel Fayah",
     "lat": 25.0679,
     "lon": 55.8137,
@@ -40,6 +42,7 @@
   },
   {
     "id": "PSF-001583",
+    "ref": "pge:12039",
     "name": "Surami Dune",
     "lat": 24.096,
     "lon": 54.5271,
@@ -56,6 +59,7 @@
   },
   {
     "id": "PSF-001844",
+    "ref": "pge:12483",
     "name": "Fossil Rock",
     "lat": 25.1465,
     "lon": 55.8354,

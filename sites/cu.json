@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000463",
+    "ref": "pge:10528",
     "name": "El Fraile - Santa Cruz del Norte",
     "lat": 23.1466,
     "lon": -81.8693,
@@ -17,6 +18,7 @@
   },
   {
     "id": "PSF-000464",
+    "ref": "pge:10529",
     "name": "El Bolo",
     "lat": 20.3083,
     "lon": -76.4576,
@@ -34,6 +36,7 @@
   },
   {
     "id": "PSF-000465",
+    "ref": "pge:10530",
     "name": "Boniato Restaurante",
     "lat": 20.0982,
     "lon": -75.8068,
@@ -51,6 +54,7 @@
   },
   {
     "id": "PSF-000466",
+    "ref": "pge:10531",
     "name": "Tia Nena Rio Once",
     "lat": 20.2488,
     "lon": -76.4218,
@@ -69,6 +73,7 @@
   },
   {
     "id": "PSF-000467",
+    "ref": "pge:10532",
     "name": "Dos Bocas - Pilon",
     "lat": 19.9142,
     "lon": -77.403,
@@ -87,6 +92,7 @@
   },
   {
     "id": "PSF-001666",
+    "ref": "pge:12165",
     "name": "Canasi - Playa Amarilla",
     "lat": 23.1462,
     "lon": -81.8004,
@@ -104,6 +110,7 @@
   },
   {
     "id": "PSF-001989",
+    "ref": "pge:12782",
     "name": "Corralillo Guisa",
     "lat": 20.2451,
     "lon": -76.509,
@@ -121,6 +128,7 @@
   },
   {
     "id": "PSF-003448",
+    "ref": "pge:15107",
     "name": "El Americano - Valle de Vinales",
     "lat": 22.6174,
     "lon": -83.7663,
@@ -138,6 +146,7 @@
   },
   {
     "id": "PSF-003794",
+    "ref": "pge:15662",
     "name": "Chambas",
     "lat": 22.1616,
     "lon": -78.9651,
@@ -157,6 +166,7 @@
   },
   {
     "id": "PSF-005758",
+    "ref": "pge:19437",
     "name": "Puerto Boniato Monte",
     "lat": 20.0985,
     "lon": -75.8044,
@@ -174,6 +184,7 @@
   },
   {
     "id": "PSF-005792",
+    "ref": "pge:19481",
     "name": "San Juan - Punta Alegre",
     "lat": 22.3773,
     "lon": -78.8332,
@@ -190,6 +201,7 @@
   },
   {
     "id": "PSF-005830",
+    "ref": "pge:19535",
     "name": "Ortega",
     "lat": 20.2292,
     "lon": -76.4694,
@@ -207,6 +219,7 @@
   },
   {
     "id": "PSF-006546",
+    "ref": "pge:21502",
     "name": "Quemado de Aguacate",
     "lat": 20.6329,
     "lon": -75.1829,
@@ -224,6 +237,7 @@
   },
   {
     "id": "PSF-006552",
+    "ref": "pge:21508",
     "name": "Marieta",
     "lat": 20.5827,
     "lon": -75.21,
@@ -241,6 +255,7 @@
   },
   {
     "id": "PSF-006553",
+    "ref": "pge:21509",
     "name": "Mucaral",
     "lat": 20.5331,
     "lon": -75.2581,
@@ -258,6 +273,7 @@
   },
   {
     "id": "PSF-006690",
+    "ref": "pge:21672",
     "name": "Las Cajitas",
     "lat": 20.2471,
     "lon": -76.4336,
@@ -275,6 +291,7 @@
   },
   {
     "id": "PSF-006845",
+    "ref": "pge:21843",
     "name": "Alto del Mamey",
     "lat": 19.9145,
     "lon": -77.4043,
@@ -288,6 +305,7 @@
   },
   {
     "id": "PSF-007123",
+    "ref": "pge:22168",
     "name": "Guisa El Mirador Campo Beisbol",
     "lat": 20.2484,
     "lon": -76.5309,
@@ -305,6 +323,7 @@
   },
   {
     "id": "PSF-007124",
+    "ref": "pge:22169",
     "name": "Jiguany El Yarey",
     "lat": 20.3472,
     "lon": -76.3618,
@@ -322,6 +341,7 @@
   },
   {
     "id": "PSF-007125",
+    "ref": "pge:22170",
     "name": "Charco Redondo Minas H.",
     "lat": 20.2649,
     "lon": -76.4238,
@@ -339,6 +359,7 @@
   },
   {
     "id": "PSF-007126",
+    "ref": "pge:22171",
     "name": "Riíto - Vista El Cepillo",
     "lat": 20.2583,
     "lon": -76.4213,
@@ -356,6 +377,7 @@
   },
   {
     "id": "PSF-007127",
+    "ref": "pge:22172",
     "name": "El Cacao",
     "lat": 20.2686,
     "lon": -76.4243,
@@ -373,6 +395,7 @@
   },
   {
     "id": "PSF-007128",
+    "ref": "pge:22173",
     "name": "Tia Nena Cepillo Sur",
     "lat": 20.2468,
     "lon": -76.4232,
@@ -389,6 +412,7 @@
   },
   {
     "id": "PSF-007129",
+    "ref": "pge:22174",
     "name": "Uvero",
     "lat": 19.9579,
     "lon": -76.5894,
@@ -406,6 +430,7 @@
   },
   {
     "id": "PSF-007130",
+    "ref": "pge:22175",
     "name": "Sierra Mar",
     "lat": 19.9844,
     "lon": -76.3261,
@@ -423,6 +448,7 @@
   },
   {
     "id": "PSF-007131",
+    "ref": "pge:22176",
     "name": "Pinga Prieta",
     "lat": 22.7262,
     "lon": -83.1432,
@@ -440,6 +466,7 @@
   },
   {
     "id": "PSF-007132",
+    "ref": "pge:22177",
     "name": "El fraile de Holguín",
     "lat": 20.8939,
     "lon": -76.2832,
@@ -457,6 +484,7 @@
   },
   {
     "id": "PSF-007133",
+    "ref": "pge:22178",
     "name": "Piedra Labrada - San Benito de Mayarí",
     "lat": 20.3823,
     "lon": -75.5719,
@@ -474,6 +502,7 @@
   },
   {
     "id": "PSF-007134",
+    "ref": "pge:22179",
     "name": "Melones Punto Fijo",
     "lat": 20.9067,
     "lon": -76.0469,
@@ -491,6 +520,7 @@
   },
   {
     "id": "PSF-007135",
+    "ref": "pge:22180",
     "name": "Marea del Portillo",
     "lat": 19.9257,
     "lon": -77.2125,
@@ -508,6 +538,7 @@
   },
   {
     "id": "PSF-007136",
+    "ref": "pge:22181",
     "name": "San Antonio del Sur Mariana",
     "lat": 20.1016,
     "lon": -74.807,
@@ -525,6 +556,7 @@
   },
   {
     "id": "PSF-007137",
+    "ref": "pge:22182",
     "name": "San Antonio del Sur Polígono",
     "lat": 20.0478,
     "lon": -74.8249,
@@ -542,6 +574,7 @@
   },
   {
     "id": "PSF-007138",
+    "ref": "pge:22183",
     "name": "La mula",
     "lat": 19.954,
     "lon": -76.7651,
@@ -557,6 +590,7 @@
   },
   {
     "id": "PSF-007139",
+    "ref": "pge:22184",
     "name": "El Cencerro",
     "lat": 20.3012,
     "lon": -76.4557,
@@ -574,6 +608,7 @@
   },
   {
     "id": "PSF-007140",
+    "ref": "pge:22185",
     "name": "Victorino El Gigante",
     "lat": 20.1494,
     "lon": -76.4605,
@@ -590,6 +625,7 @@
   },
   {
     "id": "PSF-007245",
+    "ref": "pge:22306",
     "name": "Loma de Caballos",
     "lat": 21.8805,
     "lon": -82.7785,
@@ -607,6 +643,7 @@
   },
   {
     "id": "PSF-007246",
+    "ref": "pge:22307",
     "name": "Guanabo Viejo",
     "lat": 23.1576,
     "lon": -82.1069,
@@ -624,6 +661,7 @@
   },
   {
     "id": "PSF-007247",
+    "ref": "pge:22308",
     "name": "the road runner vs wiley e. coyote",
     "lat": 19.8961,
     "lon": -77.0434,
@@ -641,6 +679,7 @@
   },
   {
     "id": "PSF-007248",
+    "ref": "pge:22309",
     "name": "La presa",
     "lat": 20.2295,
     "lon": -76.5631,
@@ -658,6 +697,7 @@
   },
   {
     "id": "PSF-007249",
+    "ref": "pge:22310",
     "name": "Santa María del Loreto - Yerba Guinea",
     "lat": 20.0797,
     "lon": -75.5529,
@@ -676,6 +716,7 @@
   },
   {
     "id": "PSF-007250",
+    "ref": "pge:22311",
     "name": "Bijaru",
     "lat": 20.8766,
     "lon": -75.91,
@@ -693,6 +734,7 @@
   },
   {
     "id": "PSF-007317",
+    "ref": "pge:22385",
     "name": "Santa Elena",
     "lat": 22.2114,
     "lon": -79.8746,
@@ -709,6 +751,7 @@
   },
   {
     "id": "PSF-007648",
+    "ref": "pge:22750",
     "name": "Loma de la cruz de Holguín",
     "lat": 20.9003,
     "lon": -76.2674,
@@ -727,6 +770,7 @@
   },
   {
     "id": "PSF-008305",
+    "ref": "pge:23487",
     "name": "El Macho",
     "lat": 20.2199,
     "lon": -76.5495,
@@ -740,6 +784,7 @@
   },
   {
     "id": "PSF-008343",
+    "ref": "pge:23532",
     "name": "Aspiro",
     "lat": 22.7117,
     "lon": -83.1818,
@@ -757,6 +802,7 @@
   },
   {
     "id": "PSF-010053",
+    "ref": "pge:7273",
     "name": "Canasí - Playa Amarilla",
     "lat": 23.1465,
     "lon": -81.8003,
@@ -774,6 +820,7 @@
   },
   {
     "id": "PSF-010054",
+    "ref": "pge:7274",
     "name": "Santa Clara - Primero Enero",
     "lat": 22.2571,
     "lon": -79.8204,

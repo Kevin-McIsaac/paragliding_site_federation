@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-001347",
+    "ref": "pge:11617",
     "name": "Morongulu beach dune",
     "lat": -23.2329,
     "lon": 35.4936,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-003282",
+    "ref": "pge:14840",
     "name": "Bazaruto Dune",
     "lat": -21.7295,
     "lon": 35.4639,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-006797",
+    "ref": "pge:21789",
     "name": "Ponta Malongane East Ridge",
     "lat": -26.8,
     "lon": 32.8904,
@@ -48,6 +51,7 @@
   },
   {
     "id": "PSF-010153",
+    "ref": "pge:7404",
     "name": "Catembe",
     "lat": -26.0181,
     "lon": 32.5732,

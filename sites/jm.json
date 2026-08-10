@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000007",
+    "ref": "pge:10009",
     "name": "Skyline",
     "lat": 18.0302,
     "lon": -76.7408,
@@ -20,6 +21,7 @@
   },
   {
     "id": "PSF-000878",
+    "ref": "pge:11035",
     "name": "John Crow Hill",
     "lat": 17.9688,
     "lon": -77.716,
@@ -39,6 +41,7 @@
   },
   {
     "id": "PSF-000879",
+    "ref": "pge:11036",
     "name": "Freehill",
     "lat": 18.4198,
     "lon": -77.2674,
@@ -56,6 +59,7 @@
   },
   {
     "id": "PSF-004109",
+    "ref": "pge:16134",
     "name": "Pen Hill - Kirkvine",
     "lat": 18.1031,
     "lon": -77.489,
@@ -75,6 +79,7 @@
   },
   {
     "id": "PSF-004627",
+    "ref": "pge:17028",
     "name": "Spur Tree South",
     "lat": 17.9862,
     "lon": -77.5647,
@@ -94,6 +99,7 @@
   },
   {
     "id": "PSF-005000",
+    "ref": "pge:17711",
     "name": "Lovers Leap",
     "lat": 17.869,
     "lon": -77.6612,
@@ -112,6 +118,7 @@
   },
   {
     "id": "PSF-005972",
+    "ref": "pge:19735",
     "name": "Cabbage Hill",
     "lat": 17.9554,
     "lon": -76.5864,

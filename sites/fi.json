@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000505",
+    "ref": "pge:10586",
     "name": "Hyvinkaa",
     "lat": 60.6517,
     "lon": 24.8849,
@@ -21,6 +22,7 @@
   },
   {
     "id": "PSF-000507",
+    "ref": "pge:10588",
     "name": "Kiikala",
     "lat": 60.4616,
     "lon": 23.6491,
@@ -43,6 +45,7 @@
   },
   {
     "id": "PSF-000739",
+    "ref": "pge:10871",
     "name": "Leivonmaki",
     "lat": 61.894,
     "lon": 26.1874,
@@ -59,6 +62,7 @@
   },
   {
     "id": "PSF-000960",
+    "ref": "pge:11125",
     "name": "Menkijärvi EFME",
     "lat": 62.9478,
     "lon": 23.5137,
@@ -75,6 +79,7 @@
   },
   {
     "id": "PSF-000961",
+    "ref": "pge:11126",
     "name": "Halkosaari,Lakeus, peltotie, field road",
     "lat": 62.8548,
     "lon": 22.7753,
@@ -97,6 +102,7 @@
   },
   {
     "id": "PSF-000962",
+    "ref": "pge:11127",
     "name": "EFKJ",
     "lat": 62.4606,
     "lon": 22.3798,
@@ -115,6 +121,7 @@
   },
   {
     "id": "PSF-000963",
+    "ref": "pge:11129",
     "name": "EFKA, Kauhava",
     "lat": 63.1139,
     "lon": 23.0459,
@@ -135,6 +142,7 @@
   },
   {
     "id": "PSF-000964",
+    "ref": "pge:11130",
     "name": "EFKV, Kivijärvi",
     "lat": 63.1279,
     "lon": 25.1184,
@@ -151,6 +159,7 @@
   },
   {
     "id": "PSF-003157",
+    "ref": "pge:14643",
     "name": "Siilinkari",
     "lat": 61.5194,
     "lon": 23.749,
@@ -164,6 +173,7 @@
   },
   {
     "id": "PSF-003166",
+    "ref": "pge:14654",
     "name": "Ailigas",
     "lat": 69.424,
     "lon": 25.9863,
@@ -177,6 +187,7 @@
   },
   {
     "id": "PSF-003317",
+    "ref": "pge:14888",
     "name": "Pallas mountain",
     "lat": 68.0598,
     "lon": 24.0282,
@@ -190,6 +201,7 @@
   },
   {
     "id": "PSF-003370",
+    "ref": "pge:14973",
     "name": "Jämi",
     "lat": 61.7708,
     "lon": 22.7219,
@@ -203,6 +215,7 @@
   },
   {
     "id": "PSF-003514",
+    "ref": "pge:15212",
     "name": "Himos",
     "lat": 61.881,
     "lon": 25.3114,
@@ -216,6 +229,7 @@
   },
   {
     "id": "PSF-004183",
+    "ref": "pge:16276",
     "name": "Mihari",
     "lat": 61.5723,
     "lon": 23.3199,
@@ -238,6 +252,7 @@
   },
   {
     "id": "PSF-004235",
+    "ref": "pge:16348",
     "name": "Pallas",
     "lat": 60.9928,
     "lon": 25.6363,
@@ -251,6 +266,7 @@
   },
   {
     "id": "PSF-004393",
+    "ref": "pge:16608",
     "name": "Vesivehmä airfield",
     "lat": 61.1451,
     "lon": 25.699,
@@ -264,6 +280,7 @@
   },
   {
     "id": "PSF-004509",
+    "ref": "pge:16826",
     "name": "Saana Mountain",
     "lat": 69.0454,
     "lon": 20.8317,
@@ -277,6 +294,7 @@
   },
   {
     "id": "PSF-005807",
+    "ref": "pge:19505",
     "name": "Ã„rjÃ¤nsaari",
     "lat": 64.2683,
     "lon": 27.3479,
@@ -293,6 +311,7 @@
   },
   {
     "id": "PSF-006455",
+    "ref": "pge:21398",
     "name": "Hameenkyro",
     "lat": 61.6902,
     "lon": 23.0806,
@@ -306,6 +325,7 @@
   },
   {
     "id": "PSF-008130",
+    "ref": "pge:23285",
     "name": "Kärkölän varjoliito",
     "lat": 60.8637,
     "lon": 25.1427,
@@ -319,6 +339,7 @@
   },
   {
     "id": "PSF-008400",
+    "ref": "pge:23593",
     "name": "Rajatie",
     "lat": 62.8233,
     "lon": 22.8346,
@@ -335,6 +356,7 @@
   },
   {
     "id": "PSF-008401",
+    "ref": "pge:23594",
     "name": "Horoonsuora",
     "lat": 62.859,
     "lon": 22.8057,
@@ -351,6 +373,7 @@
   },
   {
     "id": "PSF-008402",
+    "ref": "pge:23595",
     "name": "Heroonsuora",
     "lat": 62.7777,
     "lon": 22.6061,
@@ -369,6 +392,7 @@
   },
   {
     "id": "PSF-008403",
+    "ref": "pge:23596",
     "name": "Lapuan suora",
     "lat": 63.0542,
     "lon": 22.9344,
@@ -387,6 +411,7 @@
   },
   {
     "id": "PSF-008404",
+    "ref": "pge:23597",
     "name": "JP:n suora",
     "lat": 62.744,
     "lon": 22.6258,
@@ -400,6 +425,7 @@
   },
   {
     "id": "PSF-008405",
+    "ref": "pge:23599",
     "name": "Jumoonsuora",
     "lat": 62.784,
     "lon": 22.5669,
@@ -413,6 +439,7 @@
   },
   {
     "id": "PSF-008574",
+    "ref": "pge:23800",
     "name": "Isolähde",
     "lat": 60.9001,
     "lon": 26.1267,

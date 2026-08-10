@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000218",
+    "ref": "pge:10257",
     "name": "Hafrafell",
     "lat": 64.1369,
     "lon": -21.6547,
@@ -17,6 +18,7 @@
   },
   {
     "id": "PSF-000648",
+    "ref": "pge:10759",
     "name": "Herdisarvik",
     "lat": 63.8809,
     "lon": -21.6911,
@@ -34,6 +36,7 @@
   },
   {
     "id": "PSF-000681",
+    "ref": "pge:10799",
     "name": "Skalafell",
     "lat": 64.24,
     "lon": -21.468,
@@ -54,6 +57,7 @@
   },
   {
     "id": "PSF-000700",
+    "ref": "pge:10824",
     "name": "Kambar",
     "lat": 64.0043,
     "lon": -21.241,
@@ -71,6 +75,7 @@
   },
   {
     "id": "PSF-001803",
+    "ref": "pge:12417",
     "name": "Blafell",
     "lat": 64.499,
     "lon": -19.8937,
@@ -84,6 +89,7 @@
   },
   {
     "id": "PSF-001888",
+    "ref": "pge:12571",
     "name": "Snaekollur",
     "lat": 64.6425,
     "lon": -19.2491,
@@ -97,6 +103,7 @@
   },
   {
     "id": "PSF-003387",
+    "ref": "pge:15002",
     "name": "Helgafell mountain",
     "lat": 64.1754,
     "lon": -21.6391,
@@ -110,6 +117,7 @@
   },
   {
     "id": "PSF-003509",
+    "ref": "pge:15203",
     "name": "Ingólfsfjall",
     "lat": 63.9615,
     "lon": -21.0711,
@@ -123,6 +131,7 @@
   },
   {
     "id": "PSF-004264",
+    "ref": "pge:16389",
     "name": "Grimnafell",
     "lat": 64.1706,
     "lon": -21.5737,
@@ -136,6 +145,7 @@
   },
   {
     "id": "PSF-004329",
+    "ref": "pge:16506",
     "name": "Rolf's Ridge",
     "lat": 65.3833,
     "lon": -21.9635,
@@ -149,6 +159,7 @@
   },
   {
     "id": "PSF-004330",
+    "ref": "pge:16507",
     "name": "Skard",
     "lat": 65.2531,
     "lon": -22.3521,
@@ -162,6 +173,7 @@
   },
   {
     "id": "PSF-004331",
+    "ref": "pge:16508",
     "name": "Herby's Little Rock",
     "lat": 65.2045,
     "lon": -22.4968,
@@ -175,6 +187,7 @@
   },
   {
     "id": "PSF-004336",
+    "ref": "pge:16517",
     "name": "Husavikurfjall",
     "lat": 66.0449,
     "lon": -17.304,
@@ -188,6 +201,7 @@
   },
   {
     "id": "PSF-004340",
+    "ref": "pge:16525",
     "name": "Burfell",
     "lat": 64.0795,
     "lon": -19.8156,
@@ -201,6 +215,7 @@
   },
   {
     "id": "PSF-004352",
+    "ref": "pge:16542",
     "name": "Kaldakinn",
     "lat": 65.8208,
     "lon": -17.5765,
@@ -214,6 +229,7 @@
   },
   {
     "id": "PSF-004486",
+    "ref": "pge:16768",
     "name": "Esja",
     "lat": 64.2637,
     "lon": -21.8213,
@@ -227,6 +243,7 @@
   },
   {
     "id": "PSF-004626",
+    "ref": "pge:17027",
     "name": "Thornbjorn",
     "lat": 63.8675,
     "lon": -22.4309,
@@ -240,6 +257,7 @@
   },
   {
     "id": "PSF-005700",
+    "ref": "pge:19360",
     "name": "Seljalandvoss",
     "lat": 63.6162,
     "lon": -19.9871,
@@ -257,6 +275,7 @@
   },
   {
     "id": "PSF-005763",
+    "ref": "pge:19443",
     "name": "Hjallafjall",
     "lat": 63.9347,
     "lon": -21.3258,
@@ -272,6 +291,7 @@
   },
   {
     "id": "PSF-006285",
+    "ref": "pge:20994",
     "name": "Víkurklettar",
     "lat": 63.4215,
     "lon": -18.9802,
@@ -285,6 +305,7 @@
   },
   {
     "id": "PSF-006290",
+    "ref": "pge:21087",
     "name": "Skogarfoss",
     "lat": 63.5313,
     "lon": -19.5042,
@@ -298,6 +319,7 @@
   },
   {
     "id": "PSF-006292",
+    "ref": "pge:21159",
     "name": "Hafell",
     "lat": 63.4397,
     "lon": -18.8688,
@@ -311,6 +333,7 @@
   },
   {
     "id": "PSF-006296",
+    "ref": "pge:21199",
     "name": "Reykanakyslöverdoemonytasekof",
     "lat": 63.8787,
     "lon": -21.7979,

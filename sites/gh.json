@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000549",
+    "ref": "pge:10641",
     "name": "Osuduku",
     "lat": 6.0537,
     "lon": 0.1869,
@@ -21,6 +22,7 @@
   },
   {
     "id": "PSF-006462",
+    "ref": "pge:21405",
     "name": "Amedzofe southwest",
     "lat": 6.83047,
     "lon": 0.427555,
@@ -34,6 +36,7 @@
   },
   {
     "id": "PSF-006463",
+    "ref": "pge:21406",
     "name": "Vane landing",
     "lat": 6.82484,
     "lon": 0.420206,
@@ -47,6 +50,7 @@
   },
   {
     "id": "PSF-006464",
+    "ref": "pge:21407",
     "name": "Amedzofe north (east launch)",
     "lat": 6.85546,
     "lon": 0.433391,
@@ -60,6 +64,7 @@
   },
   {
     "id": "PSF-006465",
+    "ref": "pge:21408",
     "name": "end of road from Amedzofe.",
     "lat": 6.86056,
     "lon": 0.472584,
@@ -73,6 +78,7 @@
   },
   {
     "id": "PSF-006466",
+    "ref": "pge:21409",
     "name": "Amedzofe (southeast launch)",
     "lat": 6.84999,
     "lon": 0.467842,
@@ -86,6 +92,7 @@
   },
   {
     "id": "PSF-006467",
+    "ref": "pge:21410",
     "name": "West Hills (west launch)",
     "lat": 5.54039,
     "lon": -0.376727,
@@ -99,6 +106,7 @@
   },
   {
     "id": "PSF-009790",
+    "ref": "pge:6921",
     "name": "Nkawkaw",
     "lat": 6.5776,
     "lon": -0.7603,

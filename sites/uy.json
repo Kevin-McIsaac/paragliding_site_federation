@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000155",
+    "ref": "pge:10187",
     "name": "El Águila",
     "lat": -34.7706,
     "lon": -55.7784,
@@ -16,6 +17,7 @@
   },
   {
     "id": "PSF-000156",
+    "ref": "pge:10189",
     "name": "sierra de los caracoles",
     "lat": -34.5726,
     "lon": -54.93,
@@ -31,6 +33,7 @@
   },
   {
     "id": "PSF-000157",
+    "ref": "pge:10190",
     "name": "pan de azucar",
     "lat": -34.8094,
     "lon": -55.2591,
@@ -53,6 +56,7 @@
   },
   {
     "id": "PSF-000158",
+    "ref": "pge:10191",
     "name": "Punta ballena",
     "lat": -34.9104,
     "lon": -55.0431,
@@ -68,6 +72,7 @@
   },
   {
     "id": "PSF-000318",
+    "ref": "pge:10365",
     "name": "Cerro de la virgen  de los inmaculados salesianos",
     "lat": -34.5178,
     "lon": -55.3498,
@@ -83,6 +88,7 @@
   },
   {
     "id": "PSF-001169",
+    "ref": "pge:11397",
     "name": "Kiyu",
     "lat": -34.6994,
     "lon": -56.7375,
@@ -98,6 +104,7 @@
   },
   {
     "id": "PSF-006153",
+    "ref": "pge:20024",
     "name": "Cerro Largo",
     "lat": -34.1476,
     "lon": -55.2854,
@@ -111,6 +118,7 @@
   },
   {
     "id": "PSF-006154",
+    "ref": "pge:20025",
     "name": "Cerro Negro",
     "lat": -34.6634,
     "lon": -55.0605,
@@ -124,6 +132,7 @@
   },
   {
     "id": "PSF-006229",
+    "ref": "pge:20110",
     "name": "Peralta",
     "lat": -32.5311,
     "lon": -56.2425,
@@ -137,6 +146,7 @@
   },
   {
     "id": "PSF-006260",
+    "ref": "pge:20147",
     "name": "Fazenda Robert",
     "lat": -32.66,
     "lon": -53.6273,

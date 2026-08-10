@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-005274",
+    "ref": "pge:18314",
     "name": "Krutaja Hara (Anoshki)",
     "lat": 54.085,
     "lon": 27.874,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-005275",
+    "ref": "pge:18315",
     "name": "Varonickae Balota (Viezhy)",
     "lat": 53.31,
     "lon": 27.67,
@@ -40,6 +42,7 @@
   },
   {
     "id": "PSF-005507",
+    "ref": "pge:18840",
     "name": "Zaozerje",
     "lat": 54.1759,
     "lon": 27.8719,

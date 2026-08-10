@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000254",
+    "ref": "pge:10295",
     "name": "Black Hills 1",
     "lat": 40.29,
     "lon": 49.632,
@@ -19,6 +20,7 @@
   },
   {
     "id": "PSF-000260",
+    "ref": "pge:10301",
     "name": "Black Hills 2",
     "lat": 40.2435,
     "lon": 49.5251,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-000261",
+    "ref": "pge:10302",
     "name": "Lokbatan Views",
     "lat": 40.3357,
     "lon": 49.7118,
@@ -52,6 +55,7 @@
   },
   {
     "id": "PSF-000304",
+    "ref": "pge:10349",
     "name": "Beshbarmag",
     "lat": 40.9541,
     "lon": 49.2343,
@@ -69,6 +73,7 @@
   },
   {
     "id": "PSF-000635",
+    "ref": "pge:10745",
     "name": "South face",
     "lat": 41.3626,
     "lon": 48.1843,
@@ -88,6 +93,7 @@
   },
   {
     "id": "PSF-000636",
+    "ref": "pge:10746",
     "name": "NNE face",
     "lat": 41.2945,
     "lon": 48.1502,
@@ -108,6 +114,7 @@
   },
   {
     "id": "PSF-000731",
+    "ref": "pge:10860",
     "name": "Masally Views",
     "lat": 39.0112,
     "lon": 48.4973,
@@ -127,6 +134,7 @@
   },
   {
     "id": "PSF-000775",
+    "ref": "pge:10908",
     "name": "Kyiryizdakhna Gates",
     "lat": 41.2636,
     "lon": 48.2903,
@@ -146,6 +154,7 @@
   },
   {
     "id": "PSF-000880",
+    "ref": "pge:11037",
     "name": "Radar",
     "lat": 41.0479,
     "lon": 49.037,
@@ -165,6 +174,7 @@
   },
   {
     "id": "PSF-001229",
+    "ref": "pge:11466",
     "name": "Siezan Slinger",
     "lat": 41.084,
     "lon": 49.0949,
@@ -182,6 +192,7 @@
   },
   {
     "id": "PSF-001246",
+    "ref": "pge:11485",
     "name": "bombakimmi",
     "lat": 40.5992,
     "lon": 48.3743,
@@ -201,6 +212,7 @@
   },
   {
     "id": "PSF-001253",
+    "ref": "pge:11493",
     "name": "Gicki mountains",
     "lat": 40.4178,
     "lon": 49.0088,
@@ -222,6 +234,7 @@
   },
   {
     "id": "PSF-001322",
+    "ref": "pge:11580",
     "name": "Prish hill",
     "lat": 40.4972,
     "lon": 49.2223,
@@ -244,6 +257,7 @@
   },
   {
     "id": "PSF-005082",
+    "ref": "pge:17862",
     "name": "South Point",
     "lat": 40.4902,
     "lon": 49.191,
@@ -260,6 +274,7 @@
   },
   {
     "id": "PSF-005083",
+    "ref": "pge:17863",
     "name": "Prickles Hill 1",
     "lat": 40.5075,
     "lon": 49.3546,
@@ -279,6 +294,7 @@
   },
   {
     "id": "PSF-005084",
+    "ref": "pge:17864",
     "name": "Prickles Hill 2",
     "lat": 40.5055,
     "lon": 49.342,
@@ -296,6 +312,7 @@
   },
   {
     "id": "PSF-005192",
+    "ref": "pge:18099",
     "name": "Paragon",
     "lat": 40.526,
     "lon": 49.2951,
@@ -314,6 +331,7 @@
   },
   {
     "id": "PSF-005504",
+    "ref": "pge:18837",
     "name": "Goyler",
     "lat": 40.4542,
     "lon": 48.667,
@@ -332,6 +350,7 @@
   },
   {
     "id": "PSF-005711",
+    "ref": "pge:19380",
     "name": "Shusha",
     "lat": 39.7494,
     "lon": 46.7516,
@@ -351,6 +370,7 @@
   },
   {
     "id": "PSF-005782",
+    "ref": "pge:19466",
     "name": "CanFly Lokbatan",
     "lat": 40.3276,
     "lon": 49.6844,
@@ -368,6 +388,7 @@
   },
   {
     "id": "PSF-005812",
+    "ref": "pge:19515",
     "name": "Safronova",
     "lat": 40.5049,
     "lon": 49.2833,
@@ -385,6 +406,7 @@
   },
   {
     "id": "PSF-005826",
+    "ref": "pge:19531",
     "name": "Spirit",
     "lat": 40.472,
     "lon": 49.2744,
@@ -401,6 +423,7 @@
   },
   {
     "id": "PSF-005834",
+    "ref": "pge:19539",
     "name": "Zaqatali Forest",
     "lat": 41.6307,
     "lon": 46.7863,
@@ -414,6 +437,7 @@
   },
   {
     "id": "PSF-005835",
+    "ref": "pge:19540",
     "name": "Zaqatali",
     "lat": 41.6421,
     "lon": 46.8058,
@@ -431,6 +455,7 @@
   },
   {
     "id": "PSF-005874",
+    "ref": "pge:19595",
     "name": "Ferz",
     "lat": 40.5247,
     "lon": 48.9996,
@@ -449,6 +474,7 @@
   },
   {
     "id": "PSF-005875",
+    "ref": "pge:19596",
     "name": "Festina Lente",
     "lat": 40.5296,
     "lon": 49.0325,
@@ -466,6 +492,7 @@
   },
   {
     "id": "PSF-006052",
+    "ref": "pge:19834",
     "name": "Bajenov Team Qabala Spot",
     "lat": 41.0245,
     "lon": 47.8824,
@@ -483,6 +510,7 @@
   },
   {
     "id": "PSF-006506",
+    "ref": "pge:21455",
     "name": "Xanyalaq Dağı (MARXAL-SHEKI)",
     "lat": 41.2386,
     "lon": 47.2264,
@@ -503,6 +531,7 @@
   },
   {
     "id": "PSF-007163",
+    "ref": "pge:22214",
     "name": "CavFa (Hungu) Laza Gabala",
     "lat": 41.066,
     "lon": 47.9092,
@@ -516,6 +545,7 @@
   },
   {
     "id": "PSF-008279",
+    "ref": "pge:23460",
     "name": "Shamo-Araz",
     "lat": 40.6811,
     "lon": 48.6759,
@@ -529,6 +559,7 @@
   },
   {
     "id": "PSF-008280",
+    "ref": "pge:23461",
     "name": "Pirishkul @ Emil",
     "lat": 40.4778,
     "lon": 49.5221,
@@ -542,6 +573,7 @@
   },
   {
     "id": "PSF-008281",
+    "ref": "pge:23462",
     "name": "Pirishkul @ Ziya Sensey",
     "lat": 40.4764,
     "lon": 49.5228,
@@ -555,6 +587,7 @@
   },
   {
     "id": "PSF-008282",
+    "ref": "pge:23463",
     "name": "Bayraq Meyd Groundhandling",
     "lat": 40.3364,
     "lon": 49.8401,
@@ -568,6 +601,7 @@
   },
   {
     "id": "PSF-008572",
+    "ref": "pge:23798",
     "name": "Dubandi Soaring",
     "lat": 40.4665,
     "lon": 50.2458,

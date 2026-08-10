@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000008",
+    "ref": "pge:10011",
     "name": "Cabeco da Neve - Caramulo",
     "lat": 40.5527,
     "lon": -8.1798,
@@ -19,6 +20,7 @@
   },
   {
     "id": "PSF-000012",
+    "ref": "pge:10015",
     "name": "Chao da Lagoa",
     "lat": 32.7064,
     "lon": -16.9141,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-000014",
+    "ref": "pge:10017",
     "name": "Barrosa, Lagoa - Sao Miguel",
     "lat": 37.753,
     "lon": -25.4923,
@@ -53,6 +56,7 @@
   },
   {
     "id": "PSF-000017",
+    "ref": "pge:10020",
     "name": "Falesia Stª. Barbara, Ribeira Grande, Sao Miguel",
     "lat": 37.8177,
     "lon": -25.5439,
@@ -70,6 +74,7 @@
   },
   {
     "id": "PSF-000018",
+    "ref": "pge:10021",
     "name": "Monte Verde, Falesia da Ribeira Grande - Sao Miguel",
     "lat": 37.8215,
     "lon": -25.5283,
@@ -87,6 +92,7 @@
   },
   {
     "id": "PSF-000019",
+    "ref": "pge:10022",
     "name": "Pico das Freiras, Ribeira Grande - Sao Miguel",
     "lat": 37.801,
     "lon": -25.6505,
@@ -107,6 +113,7 @@
   },
   {
     "id": "PSF-000020",
+    "ref": "pge:10023",
     "name": "Monte Escuro, Ribeira Grande - Sao Miguel",
     "lat": 37.7913,
     "lon": -25.4275,
@@ -125,6 +132,7 @@
   },
   {
     "id": "PSF-000021",
+    "ref": "pge:10024",
     "name": "Miradouro, Vila Franca do Campo - Sao Miguel",
     "lat": 37.7427,
     "lon": -25.4384,
@@ -143,6 +151,7 @@
   },
   {
     "id": "PSF-000022",
+    "ref": "pge:10025",
     "name": "Sra da Paz, Vila Franca do Campo - Sao Miguel",
     "lat": 37.7282,
     "lon": -25.431,
@@ -161,6 +170,7 @@
   },
   {
     "id": "PSF-000023",
+    "ref": "pge:10026",
     "name": "Faial da Terra, Sao Miguel",
     "lat": 37.7426,
     "lon": -25.2024,
@@ -179,6 +189,7 @@
   },
   {
     "id": "PSF-000024",
+    "ref": "pge:10027",
     "name": "Salto do Cavalo, Furnas- Sao Miguel",
     "lat": 37.7921,
     "lon": -25.3055,
@@ -198,6 +209,7 @@
   },
   {
     "id": "PSF-000025",
+    "ref": "pge:10028",
     "name": "Planalto dos Graminais, Povoacao - Sao Miguel",
     "lat": 37.7979,
     "lon": -25.2754,
@@ -216,6 +228,7 @@
   },
   {
     "id": "PSF-000042",
+    "ref": "pge:10054",
     "name": "Bica da Cana",
     "lat": 32.7652,
     "lon": -17.0654,
@@ -236,6 +249,7 @@
   },
   {
     "id": "PSF-000043",
+    "ref": "pge:10055",
     "name": "Pico da Cruz",
     "lat": 32.6421,
     "lon": -16.9396,
@@ -253,6 +267,7 @@
   },
   {
     "id": "PSF-000044",
+    "ref": "pge:10056",
     "name": "Rabacal (Madeira)",
     "lat": 32.7521,
     "lon": -17.1315,
@@ -273,6 +288,7 @@
   },
   {
     "id": "PSF-000045",
+    "ref": "pge:10057",
     "name": "Fanal",
     "lat": 32.8108,
     "lon": -17.1402,
@@ -290,6 +306,7 @@
   },
   {
     "id": "PSF-000046",
+    "ref": "pge:10058",
     "name": "Canhas",
     "lat": 32.7029,
     "lon": -17.1261,
@@ -307,6 +324,7 @@
   },
   {
     "id": "PSF-000115",
+    "ref": "pge:10138",
     "name": "Arco da Calheta",
     "lat": 32.7082,
     "lon": -17.1415,
@@ -329,6 +347,7 @@
   },
   {
     "id": "PSF-000116",
+    "ref": "pge:10139",
     "name": "Prazeres",
     "lat": 32.7494,
     "lon": -17.2122,
@@ -349,6 +368,7 @@
   },
   {
     "id": "PSF-000117",
+    "ref": "pge:10140",
     "name": "Faja da Ovelha",
     "lat": 32.7708,
     "lon": -17.2342,
@@ -369,6 +389,7 @@
   },
   {
     "id": "PSF-000118",
+    "ref": "pge:10141",
     "name": "Raposeira",
     "lat": 32.7667,
     "lon": -17.2254,
@@ -389,6 +410,7 @@
   },
   {
     "id": "PSF-000119",
+    "ref": "pge:10142",
     "name": "Paul da Serra Cristo Rei",
     "lat": 32.7349,
     "lon": -17.0983,
@@ -411,6 +433,7 @@
   },
   {
     "id": "PSF-000120",
+    "ref": "pge:10143",
     "name": "Paul da Serra Juncal",
     "lat": 32.7424,
     "lon": -17.1004,
@@ -432,6 +455,7 @@
   },
   {
     "id": "PSF-000121",
+    "ref": "pge:10144",
     "name": "Pico Gordo",
     "lat": 32.7654,
     "lon": -17.1493,
@@ -452,6 +476,7 @@
   },
   {
     "id": "PSF-000122",
+    "ref": "pge:10145",
     "name": "Ponta do Pargo Casa de Cha",
     "lat": 32.8082,
     "lon": -17.2558,
@@ -472,6 +497,7 @@
   },
   {
     "id": "PSF-000123",
+    "ref": "pge:10146",
     "name": "Ponta do Pargo Capela",
     "lat": 32.8251,
     "lon": -17.2455,
@@ -489,6 +515,7 @@
   },
   {
     "id": "PSF-000124",
+    "ref": "pge:10147",
     "name": "Paul da Serra",
     "lat": 32.7531,
     "lon": -17.0989,
@@ -511,6 +538,7 @@
   },
   {
     "id": "PSF-000127",
+    "ref": "pge:10151",
     "name": "Porto da Cruz - Lamaceiros (Madeira)",
     "lat": 32.7455,
     "lon": -16.8363,
@@ -528,6 +556,7 @@
   },
   {
     "id": "PSF-000128",
+    "ref": "pge:10152",
     "name": "Ponta da Cruz (Funchal)",
     "lat": 32.6354,
     "lon": -16.9473,
@@ -550,6 +579,7 @@
   },
   {
     "id": "PSF-000213",
+    "ref": "pge:10252",
     "name": "Loule - Cerro de Cabeco de Camara",
     "lat": 37.1131,
     "lon": -8.0618,
@@ -567,6 +597,7 @@
   },
   {
     "id": "PSF-000246",
+    "ref": "pge:10286",
     "name": "Praia da Cordoama",
     "lat": 37.1058,
     "lon": -8.93851,
@@ -583,6 +614,7 @@
   },
   {
     "id": "PSF-000252",
+    "ref": "pge:10293",
     "name": "Foia",
     "lat": 37.3159,
     "lon": -8.5971,
@@ -601,6 +633,7 @@
   },
   {
     "id": "PSF-000253",
+    "ref": "pge:10294",
     "name": "Benafatima",
     "lat": 37.3696,
     "lon": -8.43583,
@@ -618,6 +651,7 @@
   },
   {
     "id": "PSF-000561",
+    "ref": "pge:10657",
     "name": "Alcaria Ruiva",
     "lat": 37.7005,
     "lon": -7.7623,
@@ -638,6 +672,7 @@
   },
   {
     "id": "PSF-000566",
+    "ref": "pge:10662",
     "name": "poco da cruz",
     "lat": 40.4875,
     "lon": -8.7934,
@@ -655,6 +690,7 @@
   },
   {
     "id": "PSF-000613",
+    "ref": "pge:10720",
     "name": "Arco da Calheta - Rochao",
     "lat": 32.7263,
     "lon": -17.1348,
@@ -675,6 +711,7 @@
   },
   {
     "id": "PSF-000623",
+    "ref": "pge:10732",
     "name": "salvador NE",
     "lat": 40.092,
     "lon": -7.0838,
@@ -692,6 +729,7 @@
   },
   {
     "id": "PSF-000852",
+    "ref": "pge:11005",
     "name": "Gomide",
     "lat": 41.7248,
     "lon": -8.3794,
@@ -709,6 +747,7 @@
   },
   {
     "id": "PSF-000875",
+    "ref": "pge:11031",
     "name": "foios",
     "lat": 40.2586,
     "lon": -6.8858,
@@ -727,6 +766,7 @@
   },
   {
     "id": "PSF-000894",
+    "ref": "pge:11055",
     "name": "Baião Teste",
     "lat": 41.17,
     "lon": -8.046,
@@ -744,6 +784,7 @@
   },
   {
     "id": "PSF-000895",
+    "ref": "pge:11056",
     "name": "baião teste",
     "lat": 41.1711,
     "lon": -8.0454,
@@ -762,6 +803,7 @@
   },
   {
     "id": "PSF-000918",
+    "ref": "pge:11079",
     "name": "Nazare",
     "lat": 39.6046,
     "lon": -9.0787,
@@ -779,6 +821,7 @@
   },
   {
     "id": "PSF-001499",
+    "ref": "pge:11876",
     "name": "venda da cruz",
     "lat": 39.96,
     "lon": -8.63345,
@@ -792,6 +835,7 @@
   },
   {
     "id": "PSF-001521",
+    "ref": "pge:11913",
     "name": "GALA FIG FOZ",
     "lat": 40.1162,
     "lon": -8.8664,
@@ -805,6 +849,7 @@
   },
   {
     "id": "PSF-001523",
+    "ref": "pge:11916",
     "name": "Sizandro",
     "lat": 39.081,
     "lon": -9.41685,
@@ -818,6 +863,7 @@
   },
   {
     "id": "PSF-001530",
+    "ref": "pge:11941",
     "name": "Falésia das Feteiras",
     "lat": 37.7859,
     "lon": -25.7683,
@@ -834,6 +880,7 @@
   },
   {
     "id": "PSF-001540",
+    "ref": "pge:11958",
     "name": "Freita",
     "lat": 40.8849,
     "lon": -8.2611,
@@ -852,6 +899,7 @@
   },
   {
     "id": "PSF-001559",
+    "ref": "pge:11985",
     "name": "Cerro Cabeço Camara - Loulé",
     "lat": 37.1001,
     "lon": -7.83302,
@@ -865,6 +913,7 @@
   },
   {
     "id": "PSF-001561",
+    "ref": "pge:11988",
     "name": "alcaria1",
     "lat": 37.7031,
     "lon": -7.80428,
@@ -878,6 +927,7 @@
   },
   {
     "id": "PSF-001566",
+    "ref": "pge:11997",
     "name": "salir",
     "lat": 37.2605,
     "lon": -8.04913,
@@ -891,6 +941,7 @@
   },
   {
     "id": "PSF-001693",
+    "ref": "pge:12215",
     "name": "Serra do Cume",
     "lat": 38.7072,
     "lon": -27.1112,
@@ -904,6 +955,7 @@
   },
   {
     "id": "PSF-001708",
+    "ref": "pge:12241",
     "name": "4 Ribeiras",
     "lat": 38.7654,
     "lon": -27.2205,
@@ -917,6 +969,7 @@
   },
   {
     "id": "PSF-001753",
+    "ref": "pge:12326",
     "name": "Fónzelar",
     "lat": 39.2063,
     "lon": -8.05767,
@@ -930,6 +983,7 @@
   },
   {
     "id": "PSF-001853",
+    "ref": "pge:12503",
     "name": "Serra Gorda",
     "lat": 37.7859,
     "lon": -25.682,
@@ -952,6 +1006,7 @@
   },
   {
     "id": "PSF-001886",
+    "ref": "pge:12566",
     "name": "Aeródromo de Castelo Branco",
     "lat": 39.8526,
     "lon": -7.45207,
@@ -965,6 +1020,7 @@
   },
   {
     "id": "PSF-001905",
+    "ref": "pge:12622",
     "name": "Porto de Abrigo",
     "lat": 33.065,
     "lon": -16.3173,
@@ -982,6 +1038,7 @@
   },
   {
     "id": "PSF-001906",
+    "ref": "pge:12625",
     "name": "Costa de Arnes",
     "lat": 40.1507,
     "lon": -8.67005,
@@ -995,6 +1052,7 @@
   },
   {
     "id": "PSF-001907",
+    "ref": "pge:12626",
     "name": "Cabanas de Tavira",
     "lat": 37.1453,
     "lon": -7.57675,
@@ -1008,6 +1066,7 @@
   },
   {
     "id": "PSF-001909",
+    "ref": "pge:12628",
     "name": "Santa Barbara",
     "lat": 38.7301,
     "lon": -27.3177,
@@ -1021,6 +1080,7 @@
   },
   {
     "id": "PSF-001910",
+    "ref": "pge:12631",
     "name": "Serra sicó junto eolicas",
     "lat": 39.9347,
     "lon": -8.55507,
@@ -1034,6 +1094,7 @@
   },
   {
     "id": "PSF-001911",
+    "ref": "pge:12632",
     "name": "Praia da vieira",
     "lat": 39.8816,
     "lon": -8.96925,
@@ -1047,6 +1108,7 @@
   },
   {
     "id": "PSF-001912",
+    "ref": "pge:12635",
     "name": "golegã",
     "lat": 39.4365,
     "lon": -8.46282,
@@ -1060,6 +1122,7 @@
   },
   {
     "id": "PSF-002017",
+    "ref": "pge:12837",
     "name": "Pico da Ana Ferreira",
     "lat": 33.0483,
     "lon": -16.3651,
@@ -1077,6 +1140,7 @@
   },
   {
     "id": "PSF-002018",
+    "ref": "pge:12839",
     "name": "Lajes do Pico",
     "lat": 38.4152,
     "lon": -28.2445,
@@ -1090,6 +1154,7 @@
   },
   {
     "id": "PSF-002024",
+    "ref": "pge:12847",
     "name": "Salvador - N/NE",
     "lat": 39.7551,
     "lon": -6.94177,
@@ -1103,6 +1168,7 @@
   },
   {
     "id": "PSF-002076",
+    "ref": "pge:12936",
     "name": "ChÃƒ Vermoil Pbl",
     "lat": 39.8617,
     "lon": -8.6616,
@@ -1116,6 +1182,7 @@
   },
   {
     "id": "PSF-002104",
+    "ref": "pge:12987",
     "name": "Ofir",
     "lat": 41.5122,
     "lon": -8.78595,
@@ -1131,6 +1198,7 @@
   },
   {
     "id": "PSF-002112",
+    "ref": "pge:12997",
     "name": "Vale Barosa leiria",
     "lat": 39.7635,
     "lon": -8.83398,
@@ -1144,6 +1212,7 @@
   },
   {
     "id": "PSF-002155",
+    "ref": "pge:13069",
     "name": "Pico Vulcano",
     "lat": 38.4692,
     "lon": -28.3966,
@@ -1166,6 +1235,7 @@
   },
   {
     "id": "PSF-002156",
+    "ref": "pge:13070",
     "name": "Lagoa de Capitao",
     "lat": 38.4975,
     "lon": -28.3337,
@@ -1182,6 +1252,7 @@
   },
   {
     "id": "PSF-002190",
+    "ref": "pge:13128",
     "name": "Porto de",
     "lat": 39.6109,
     "lon": -8.84417,
@@ -1195,6 +1266,7 @@
   },
   {
     "id": "PSF-002196",
+    "ref": "pge:13137",
     "name": "Soito",
     "lat": 40.3444,
     "lon": -6.97988,
@@ -1208,6 +1280,7 @@
   },
   {
     "id": "PSF-002250",
+    "ref": "pge:13210",
     "name": "Achadas da Cruz Cable Car",
     "lat": 32.8529,
     "lon": -17.2105,
@@ -1221,6 +1294,7 @@
   },
   {
     "id": "PSF-002263",
+    "ref": "pge:13227",
     "name": "Porto de Mós- Algarve",
     "lat": 37.0858,
     "lon": -8.69205,
@@ -1237,6 +1311,7 @@
   },
   {
     "id": "PSF-002268",
+    "ref": "pge:13232",
     "name": "Sete Cidades - Desc. W",
     "lat": 37.8639,
     "lon": -25.8178,
@@ -1250,6 +1325,7 @@
   },
   {
     "id": "PSF-002289",
+    "ref": "pge:13274",
     "name": "Pombal Portugal",
     "lat": 40.165,
     "lon": -8.8812,
@@ -1263,6 +1339,7 @@
   },
   {
     "id": "PSF-002331",
+    "ref": "pge:13344",
     "name": "Faró",
     "lat": 38.1802,
     "lon": -8.7799,
@@ -1276,6 +1353,7 @@
   },
   {
     "id": "PSF-002337",
+    "ref": "pge:13365",
     "name": "Outeiro",
     "lat": 39.9639,
     "lon": -8.47128,
@@ -1289,6 +1367,7 @@
   },
   {
     "id": "PSF-002338",
+    "ref": "pge:13368",
     "name": "Poço do Inferno",
     "lat": 40.3606,
     "lon": -7.514,
@@ -1302,6 +1381,7 @@
   },
   {
     "id": "PSF-002339",
+    "ref": "pge:13373",
     "name": "Cabeco Sailvado - Cascalheira, Pico (E)",
     "lat": 38.4158,
     "lon": -28.1016,
@@ -1315,6 +1395,7 @@
   },
   {
     "id": "PSF-002340",
+    "ref": "pge:13374",
     "name": "calheta",
     "lat": 38.6505,
     "lon": -9.1079,
@@ -1328,6 +1409,7 @@
   },
   {
     "id": "PSF-002365",
+    "ref": "pge:13407",
     "name": "Peniche/ Ponte sor",
     "lat": 39.9182,
     "lon": -8.61912,
@@ -1341,6 +1423,7 @@
   },
   {
     "id": "PSF-002366",
+    "ref": "pge:13408",
     "name": "Cabo Girao",
     "lat": 32.6563,
     "lon": -17.0082,
@@ -1354,6 +1437,7 @@
   },
   {
     "id": "PSF-002367",
+    "ref": "pge:13409",
     "name": "evora",
     "lat": 38.541,
     "lon": -7.8888,
@@ -1367,6 +1451,7 @@
   },
   {
     "id": "PSF-002368",
+    "ref": "pge:13410",
     "name": "Melides",
     "lat": 38.1525,
     "lon": -8.78698,
@@ -1380,6 +1465,7 @@
   },
   {
     "id": "PSF-002369",
+    "ref": "pge:13412",
     "name": "Arganil",
     "lat": 40.2254,
     "lon": -7.9744,
@@ -1393,6 +1479,7 @@
   },
   {
     "id": "PSF-002370",
+    "ref": "pge:13413",
     "name": "Monte do Pisco - Tourém",
     "lat": 41.8801,
     "lon": -7.91577,
@@ -1409,6 +1496,7 @@
   },
   {
     "id": "PSF-002371",
+    "ref": "pge:13414",
     "name": "Mação",
     "lat": 39.612,
     "lon": -7.9702,
@@ -1422,6 +1510,7 @@
   },
   {
     "id": "PSF-002372",
+    "ref": "pge:13415",
     "name": "Subserra - S. Jo",
     "lat": 38.9383,
     "lon": -9.04233,
@@ -1440,6 +1529,7 @@
   },
   {
     "id": "PSF-002373",
+    "ref": "pge:13416",
     "name": "Sarzedo",
     "lat": 40.372,
     "lon": -7.41688,
@@ -1453,6 +1543,7 @@
   },
   {
     "id": "PSF-002374",
+    "ref": "pge:13417",
     "name": "Leiranco Mountain",
     "lat": 41.7308,
     "lon": -7.64042,
@@ -1469,6 +1560,7 @@
   },
   {
     "id": "PSF-002375",
+    "ref": "pge:13418",
     "name": "Bucelas",
     "lat": 38.896,
     "lon": -9.09172,
@@ -1482,6 +1574,7 @@
   },
   {
     "id": "PSF-002376",
+    "ref": "pge:13419",
     "name": "Serra da Olga _Chaves",
     "lat": 41.7783,
     "lon": -7.52922,
@@ -1499,6 +1592,7 @@
   },
   {
     "id": "PSF-002377",
+    "ref": "pge:13420",
     "name": "Areias Brancas",
     "lat": 38.0551,
     "lon": -8.8209,
@@ -1512,6 +1606,7 @@
   },
   {
     "id": "PSF-002378",
+    "ref": "pge:13421",
     "name": "Peninha",
     "lat": 38.7671,
     "lon": -9.46153,
@@ -1525,6 +1620,7 @@
   },
   {
     "id": "PSF-002380",
+    "ref": "pge:13423",
     "name": "Caldas das Taipas",
     "lat": 41.4784,
     "lon": -8.3823,
@@ -1542,6 +1638,7 @@
   },
   {
     "id": "PSF-002381",
+    "ref": "pge:13426",
     "name": "Poiares",
     "lat": 40.2225,
     "lon": -8.22035,
@@ -1555,6 +1652,7 @@
   },
   {
     "id": "PSF-002383",
+    "ref": "pge:13429",
     "name": "Monte Vez",
     "lat": 40.0017,
     "lon": -8.40602,
@@ -1568,6 +1666,7 @@
   },
   {
     "id": "PSF-002384",
+    "ref": "pge:13430",
     "name": "Lagoa Sete Cidades",
     "lat": 37.8542,
     "lon": -25.7603,
@@ -1586,6 +1685,7 @@
   },
   {
     "id": "PSF-002385",
+    "ref": "pge:13431",
     "name": "Moncorvo",
     "lat": 42.2455,
     "lon": -7.17518,
@@ -1599,6 +1699,7 @@
   },
   {
     "id": "PSF-002386",
+    "ref": "pge:13433",
     "name": "Lousa",
     "lat": 40.0203,
     "lon": -8.34733,
@@ -1612,6 +1713,7 @@
   },
   {
     "id": "PSF-002387",
+    "ref": "pge:13434",
     "name": "Goncalo",
     "lat": 40.4248,
     "lon": -7.35858,
@@ -1625,6 +1727,7 @@
   },
   {
     "id": "PSF-002388",
+    "ref": "pge:13435",
     "name": "Castanheira de Pêra",
     "lat": 40.0066,
     "lon": -8.23207,
@@ -1638,6 +1741,7 @@
   },
   {
     "id": "PSF-002389",
+    "ref": "pge:13436",
     "name": "Magoito Aerodromo",
     "lat": 38.8769,
     "lon": -9.4245,
@@ -1651,6 +1755,7 @@
   },
   {
     "id": "PSF-002393",
+    "ref": "pge:13447",
     "name": "Senhora do Minho",
     "lat": 41.7989,
     "lon": -8.68828,
@@ -1671,6 +1776,7 @@
   },
   {
     "id": "PSF-002408",
+    "ref": "pge:13467",
     "name": "Castanheira",
     "lat": 41.7948,
     "lon": -7.8185,
@@ -1684,6 +1790,7 @@
   },
   {
     "id": "PSF-002416",
+    "ref": "pge:13487",
     "name": "Soida, Aldeia Viçosa",
     "lat": 40.5765,
     "lon": -7.33262,
@@ -1697,6 +1804,7 @@
   },
   {
     "id": "PSF-002427",
+    "ref": "pge:13504",
     "name": "Pia",
     "lat": 41.1477,
     "lon": -8.47167,
@@ -1715,6 +1823,7 @@
   },
   {
     "id": "PSF-002434",
+    "ref": "pge:13515",
     "name": "LPCV",
     "lat": 40.2665,
     "lon": -7.47743,
@@ -1728,6 +1837,7 @@
   },
   {
     "id": "PSF-002439",
+    "ref": "pge:13520",
     "name": "Manta Rota",
     "lat": 37.9215,
     "lon": -8.80578,
@@ -1741,6 +1851,7 @@
   },
   {
     "id": "PSF-002440",
+    "ref": "pge:13521",
     "name": "Manta Rota",
     "lat": 37.1622,
     "lon": -7.52055,
@@ -1754,6 +1865,7 @@
   },
   {
     "id": "PSF-002441",
+    "ref": "pge:13522",
     "name": "Trafaria - Silos",
     "lat": 38.6723,
     "lon": -9.24105,
@@ -1767,6 +1879,7 @@
   },
   {
     "id": "PSF-002442",
+    "ref": "pge:13523",
     "name": "Montemor",
     "lat": 38.7138,
     "lon": -8.27507,
@@ -1780,6 +1893,7 @@
   },
   {
     "id": "PSF-002443",
+    "ref": "pge:13525",
     "name": "Campinho",
     "lat": 38.3597,
     "lon": -7.4657,
@@ -1793,6 +1907,7 @@
   },
   {
     "id": "PSF-002444",
+    "ref": "pge:13526",
     "name": "V.N.Milfontes - Furnas",
     "lat": 37.715,
     "lon": -8.78705,
@@ -1806,6 +1921,7 @@
   },
   {
     "id": "PSF-002452",
+    "ref": "pge:13542",
     "name": "Praia da Leirosa",
     "lat": 40.0499,
     "lon": -8.89273,
@@ -1819,6 +1935,7 @@
   },
   {
     "id": "PSF-002474",
+    "ref": "pge:13585",
     "name": "Osso da Baleia",
     "lat": 39.9995,
     "lon": -8.91515,
@@ -1832,6 +1949,7 @@
   },
   {
     "id": "PSF-002482",
+    "ref": "pge:13600",
     "name": "Ponta Delgada",
     "lat": 32.8242,
     "lon": -16.9847,
@@ -1845,6 +1963,7 @@
   },
   {
     "id": "PSF-002486",
+    "ref": "pge:13604",
     "name": "Ribeira da Janela-Madeira island",
     "lat": 32.848,
     "lon": -17.1519,
@@ -1858,6 +1977,7 @@
   },
   {
     "id": "PSF-002489",
+    "ref": "pge:13608",
     "name": "Sao Jorge Madeira island",
     "lat": 32.8285,
     "lon": -16.9257,
@@ -1871,6 +1991,7 @@
   },
   {
     "id": "PSF-002506",
+    "ref": "pge:13644",
     "name": "serra do socorro",
     "lat": 39.018,
     "lon": -9.22672,
@@ -1884,6 +2005,7 @@
   },
   {
     "id": "PSF-002509",
+    "ref": "pge:13649",
     "name": "Praia de Mira-Sul",
     "lat": 40.4301,
     "lon": -8.8123,
@@ -1897,6 +2019,7 @@
   },
   {
     "id": "PSF-002512",
+    "ref": "pge:13652",
     "name": "Aerodromo das Moitas",
     "lat": 39.7342,
     "lon": -7.8749,
@@ -1910,6 +2033,7 @@
   },
   {
     "id": "PSF-002514",
+    "ref": "pge:13654",
     "name": "Pico do Areeiro",
     "lat": 32.7348,
     "lon": -16.9308,
@@ -1923,6 +2047,7 @@
   },
   {
     "id": "PSF-002515",
+    "ref": "pge:13655",
     "name": "Lagoa de Melides",
     "lat": 38.2749,
     "lon": -8.77647,
@@ -1936,6 +2061,7 @@
   },
   {
     "id": "PSF-002516",
+    "ref": "pge:13656",
     "name": "Serra de S. Mamede",
     "lat": 39.316,
     "lon": -7.36435,
@@ -1949,6 +2075,7 @@
   },
   {
     "id": "PSF-002517",
+    "ref": "pge:13657",
     "name": "Miranda do corvo",
     "lat": 40.0502,
     "lon": -8.28035,
@@ -1962,6 +2089,7 @@
   },
   {
     "id": "PSF-002532",
+    "ref": "pge:13678",
     "name": "pocariça",
     "lat": 39.698,
     "lon": -8.89252,
@@ -1975,6 +2103,7 @@
   },
   {
     "id": "PSF-002729",
+    "ref": "pge:13999",
     "name": "Maia - S.Miguel - Açores",
     "lat": 37.8268,
     "lon": -25.3903,
@@ -1988,6 +2117,7 @@
   },
   {
     "id": "PSF-002731",
+    "ref": "pge:14001",
     "name": "Varanda dos Pastores",
     "lat": 40.2992,
     "lon": -7.58245,
@@ -2001,6 +2131,7 @@
   },
   {
     "id": "PSF-002768",
+    "ref": "pge:14062",
     "name": "barracão",
     "lat": 39.8309,
     "lon": -8.7216,
@@ -2014,6 +2145,7 @@
   },
   {
     "id": "PSF-002783",
+    "ref": "pge:14088",
     "name": "Casa velha  (Cercal)",
     "lat": 37.8459,
     "lon": -8.70153,
@@ -2027,6 +2159,7 @@
   },
   {
     "id": "PSF-002810",
+    "ref": "pge:14132",
     "name": "casalinho pombal",
     "lat": 39.887,
     "lon": -8.647,
@@ -2040,6 +2173,7 @@
   },
   {
     "id": "PSF-002826",
+    "ref": "pge:14160",
     "name": "Sta. Cruz - Max",
     "lat": 39.1362,
     "lon": -9.38168,
@@ -2053,6 +2187,7 @@
   },
   {
     "id": "PSF-002839",
+    "ref": "pge:14188",
     "name": "Cabeça Alta - Valhelhas",
     "lat": 40.4308,
     "lon": -7.41692,
@@ -2066,6 +2201,7 @@
   },
   {
     "id": "PSF-002897",
+    "ref": "pge:14273",
     "name": "CVLC-ALVÃ”CO",
     "lat": 40.2831,
     "lon": -7.8197,
@@ -2079,6 +2215,7 @@
   },
   {
     "id": "PSF-003043",
+    "ref": "pge:14462",
     "name": "Almograve - PT",
     "lat": 37.6491,
     "lon": -8.80365,
@@ -2092,6 +2229,7 @@
   },
   {
     "id": "PSF-003101",
+    "ref": "pge:14553",
     "name": "Capela de Santo Antao",
     "lat": 41.8488,
     "lon": -8.83531,
@@ -2109,6 +2247,7 @@
   },
   {
     "id": "PSF-003111",
+    "ref": "pge:14568",
     "name": "Pico das Flores",
     "lat": 33.0326,
     "lon": -16.3843,
@@ -2126,6 +2265,7 @@
   },
   {
     "id": "PSF-003196",
+    "ref": "pge:14714",
     "name": "Chãs de tavares",
     "lat": 40.6343,
     "lon": -7.60452,
@@ -2139,6 +2279,7 @@
   },
   {
     "id": "PSF-003197",
+    "ref": "pge:14716",
     "name": "São Pedro Moel Norte",
     "lat": 39.7801,
     "lon": -9.02202,
@@ -2152,6 +2293,7 @@
   },
   {
     "id": "PSF-003451",
+    "ref": "pge:15120",
     "name": "Praia Areão",
     "lat": 40.3378,
     "lon": -8.84193,
@@ -2165,6 +2307,7 @@
   },
   {
     "id": "PSF-003452",
+    "ref": "pge:15121",
     "name": "Praia Quiaios",
     "lat": 40.2416,
     "lon": -8.88195,
@@ -2178,6 +2321,7 @@
   },
   {
     "id": "PSF-003453",
+    "ref": "pge:15122",
     "name": "fronteira",
     "lat": 39.054,
     "lon": -7.63985,
@@ -2191,6 +2335,7 @@
   },
   {
     "id": "PSF-003527",
+    "ref": "pge:15234",
     "name": "Santo Amaro Lagoas",
     "lat": 38.4396,
     "lon": -28.1811,
@@ -2204,6 +2349,7 @@
   },
   {
     "id": "PSF-003533",
+    "ref": "pge:15244",
     "name": "Ribeiras",
     "lat": 38.4029,
     "lon": -28.2129,
@@ -2217,6 +2363,7 @@
   },
   {
     "id": "PSF-003534",
+    "ref": "pge:15245",
     "name": "Espalamanca",
     "lat": 38.5497,
     "lon": -28.6068,
@@ -2230,6 +2377,7 @@
   },
   {
     "id": "PSF-003558",
+    "ref": "pge:15291",
     "name": "Melgaço-Côto do Pomedelo- Roussas",
     "lat": 42.0819,
     "lon": -8.21225,
@@ -2243,6 +2391,7 @@
   },
   {
     "id": "PSF-003559",
+    "ref": "pge:15292",
     "name": "Melgaço-Saínde-Paderne",
     "lat": 42.07,
     "lon": -8.29157,
@@ -2256,6 +2405,7 @@
   },
   {
     "id": "PSF-003620",
+    "ref": "pge:15388",
     "name": "Columbeira",
     "lat": 39.3007,
     "lon": -9.19722,
@@ -2269,6 +2419,7 @@
   },
   {
     "id": "PSF-003636",
+    "ref": "pge:15423",
     "name": "pista da comporta",
     "lat": 38.395,
     "lon": -8.79678,
@@ -2282,6 +2433,7 @@
   },
   {
     "id": "PSF-003637",
+    "ref": "pge:15424",
     "name": "ALV�?CO - Colcurinho Oeste 1000m",
     "lat": 40.2487,
     "lon": -7.83458,
@@ -2295,6 +2447,7 @@
   },
   {
     "id": "PSF-003687",
+    "ref": "pge:15505",
     "name": "Traz de Figueiró",
     "lat": 39.9787,
     "lon": -8.44047,
@@ -2308,6 +2461,7 @@
   },
   {
     "id": "PSF-003866",
+    "ref": "pge:15830",
     "name": "pegões",
     "lat": 38.7445,
     "lon": -8.65058,
@@ -2321,6 +2475,7 @@
   },
   {
     "id": "PSF-003867",
+    "ref": "pge:15833",
     "name": "centro geodésico de portugal",
     "lat": 39.6934,
     "lon": -8.13173,
@@ -2334,6 +2489,7 @@
   },
   {
     "id": "PSF-003868",
+    "ref": "pge:15834",
     "name": "praia pequena",
     "lat": 38.6916,
     "lon": -9.3652,
@@ -2347,6 +2503,7 @@
   },
   {
     "id": "PSF-003869",
+    "ref": "pge:15835",
     "name": "S. António Valpoldres",
     "lat": 42.0205,
     "lon": -8.28863,
@@ -2360,6 +2517,7 @@
   },
   {
     "id": "PSF-004193",
+    "ref": "pge:16289",
     "name": "Polvoeira",
     "lat": 39.7177,
     "lon": -8.0493,
@@ -2373,6 +2531,7 @@
   },
   {
     "id": "PSF-004194",
+    "ref": "pge:16290",
     "name": "Nerra da Nogueira",
     "lat": 41.7168,
     "lon": -6.84017,
@@ -2386,6 +2545,7 @@
   },
   {
     "id": "PSF-004405",
+    "ref": "pge:16634",
     "name": "Figo",
     "lat": 39.0503,
     "lon": -9.2349,
@@ -2399,6 +2559,7 @@
   },
   {
     "id": "PSF-004407",
+    "ref": "pge:16636",
     "name": "Atenor",
     "lat": 41.4133,
     "lon": -6.46578,
@@ -2412,6 +2573,7 @@
   },
   {
     "id": "PSF-004409",
+    "ref": "pge:16638",
     "name": "Tarouca",
     "lat": 41.0111,
     "lon": -7.80755,
@@ -2428,6 +2590,7 @@
   },
   {
     "id": "PSF-004544",
+    "ref": "pge:16887",
     "name": "Santarém Aerodrome",
     "lat": 39.2119,
     "lon": -8.68478,
@@ -2441,6 +2604,7 @@
   },
   {
     "id": "PSF-004556",
+    "ref": "pge:16908",
     "name": "Guincho",
     "lat": 38.7235,
     "lon": -9.47767,
@@ -2454,6 +2618,7 @@
   },
   {
     "id": "PSF-004602",
+    "ref": "pge:16978",
     "name": "MONTE FARINHA",
     "lat": 38.8951,
     "lon": -9.2393,
@@ -2467,6 +2632,7 @@
   },
   {
     "id": "PSF-004719",
+    "ref": "pge:17214",
     "name": "Montemor-o-Velho",
     "lat": 40.1764,
     "lon": -8.6533,
@@ -2480,6 +2646,7 @@
   },
   {
     "id": "PSF-004860",
+    "ref": "pge:17472",
     "name": "Mirandela - S/SE",
     "lat": 41.4623,
     "lon": -7.29061,
@@ -2497,6 +2664,7 @@
   },
   {
     "id": "PSF-004888",
+    "ref": "pge:17506",
     "name": "Gardunha - Norte",
     "lat": 40.1059,
     "lon": -7.5015,
@@ -2516,6 +2684,7 @@
   },
   {
     "id": "PSF-004908",
+    "ref": "pge:17532",
     "name": "Monte Perdigão",
     "lat": 39.7062,
     "lon": -7.74642,
@@ -2529,6 +2698,7 @@
   },
   {
     "id": "PSF-004920",
+    "ref": "pge:17553",
     "name": "cabeço montachique",
     "lat": 38.8972,
     "lon": -9.17423,
@@ -2542,6 +2712,7 @@
   },
   {
     "id": "PSF-005034",
+    "ref": "pge:17763",
     "name": "Pico da Torre",
     "lat": 32.6516,
     "lon": -16.9749,
@@ -2555,6 +2726,7 @@
   },
   {
     "id": "PSF-005046",
+    "ref": "pge:17788",
     "name": "Fundão - Sul",
     "lat": 40.1214,
     "lon": -7.41562,
@@ -2568,6 +2740,7 @@
   },
   {
     "id": "PSF-005059",
+    "ref": "pge:17827",
     "name": "Salgado II",
     "lat": 39.5463,
     "lon": -9.102,
@@ -2585,6 +2758,7 @@
   },
   {
     "id": "PSF-005070",
+    "ref": "pge:17848",
     "name": "Gonça (Aterro)",
     "lat": 41.5118,
     "lon": -8.27174,
@@ -2604,6 +2778,7 @@
   },
   {
     "id": "PSF-005102",
+    "ref": "pge:17906",
     "name": "Baleal",
     "lat": 39.3602,
     "lon": -9.35533,
@@ -2617,6 +2792,7 @@
   },
   {
     "id": "PSF-005570",
+    "ref": "pge:19063",
     "name": "Toledo San Jorge",
     "lat": 38.6942,
     "lon": -28.1579,
@@ -2630,6 +2806,7 @@
   },
   {
     "id": "PSF-006162",
+    "ref": "pge:20034",
     "name": "Cernache CBR",
     "lat": 40.1585,
     "lon": -8.4704,
@@ -2643,6 +2820,7 @@
   },
   {
     "id": "PSF-006183",
+    "ref": "pge:20056",
     "name": "Marialva NE",
     "lat": 40.9197,
     "lon": -7.22968,
@@ -2656,6 +2834,7 @@
   },
   {
     "id": "PSF-007091",
+    "ref": "pge:22124",
     "name": "Ribeira de Nisa e Carreiras",
     "lat": 39.3884,
     "lon": -7.43367,
@@ -2674,6 +2853,7 @@
   },
   {
     "id": "PSF-007589",
+    "ref": "pge:22688",
     "name": "Praïa Azul Nord",
     "lat": 39.1016,
     "lon": -9.40138,
@@ -2690,6 +2870,7 @@
   },
   {
     "id": "PSF-007710",
+    "ref": "pge:22815",
     "name": "Pena Furada",
     "lat": 37.1112,
     "lon": -8.90339,
@@ -2710,6 +2891,7 @@
   },
   {
     "id": "PSF-007711",
+    "ref": "pge:22817",
     "name": "WinchSpot",
     "lat": 37.6574,
     "lon": -7.54194,
@@ -2730,6 +2912,7 @@
   },
   {
     "id": "PSF-007893",
+    "ref": "pge:23030",
     "name": "Porto da Cruz Maiata",
     "lat": 32.767,
     "lon": -16.8223,
@@ -2743,6 +2926,7 @@
   },
   {
     "id": "PSF-008480",
+    "ref": "pge:23688",
     "name": "Marvão",
     "lat": 39.3928,
     "lon": -7.37661,
@@ -2760,6 +2944,7 @@
   },
   {
     "id": "PSF-008481",
+    "ref": "pge:23689",
     "name": "Arrabida HG ramp",
     "lat": 38.4814,
     "lon": -8.98921,
@@ -2776,6 +2961,7 @@
   },
   {
     "id": "PSF-008541",
+    "ref": "pge:23759",
     "name": "Vila do Carvalho",
     "lat": 40.3242,
     "lon": -7.49489,
@@ -2789,6 +2975,7 @@
   },
   {
     "id": "PSF-009550",
+    "ref": "pge:6618",
     "name": "Serro Ventoso",
     "lat": 39.5374,
     "lon": -8.84428,
@@ -2804,6 +2991,7 @@
   },
   {
     "id": "PSF-009551",
+    "ref": "pge:6623",
     "name": "Mertola",
     "lat": 37.691,
     "lon": -7.74462,
@@ -2817,6 +3005,7 @@
   },
   {
     "id": "PSF-009552",
+    "ref": "pge:6624",
     "name": "Seia",
     "lat": 40.4215,
     "lon": -7.6369,
@@ -2830,6 +3019,7 @@
   },
   {
     "id": "PSF-009553",
+    "ref": "pge:6625",
     "name": "Bornes",
     "lat": 41.4637,
     "lon": -6.96567,
@@ -2847,6 +3037,7 @@
   },
   {
     "id": "PSF-009554",
+    "ref": "pge:6626",
     "name": "Penedo Durao",
     "lat": 41.0427,
     "lon": -6.86047,
@@ -2867,6 +3058,7 @@
   },
   {
     "id": "PSF-009559",
+    "ref": "pge:6632",
     "name": "Polvoeira N",
     "lat": 39.72,
     "lon": -9.049,
@@ -2883,6 +3075,7 @@
   },
   {
     "id": "PSF-009591",
+    "ref": "pge:6666",
     "name": "Torre de Moncorvo - Serra do Reboredo",
     "lat": 41.1653,
     "lon": -7.03728,
@@ -2902,6 +3095,7 @@
   },
   {
     "id": "PSF-009601",
+    "ref": "pge:6678",
     "name": "Porto da Espada",
     "lat": 39.3471,
     "lon": -7.32867,
@@ -2919,6 +3113,7 @@
   },
   {
     "id": "PSF-009603",
+    "ref": "pge:6680",
     "name": "Mirandela - E",
     "lat": 41.4505,
     "lon": -7.31102,
@@ -2935,6 +3130,7 @@
   },
   {
     "id": "PSF-009614",
+    "ref": "pge:6692",
     "name": "Vale Amoreira (Manteigas)",
     "lat": 40.4035,
     "lon": -7.45425,
@@ -2948,6 +3144,7 @@
   },
   {
     "id": "PSF-009625",
+    "ref": "pge:6704",
     "name": "Sesimbra",
     "lat": 38.4455,
     "lon": -9.09171,
@@ -2965,6 +3162,7 @@
   },
   {
     "id": "PSF-009626",
+    "ref": "pge:6705",
     "name": "Chaves",
     "lat": 41.6979,
     "lon": -7.43773,
@@ -2978,6 +3176,7 @@
   },
   {
     "id": "PSF-009627",
+    "ref": "pge:6706",
     "name": "Lousa",
     "lat": 40.1049,
     "lon": -8.20912,
@@ -2996,6 +3195,7 @@
   },
   {
     "id": "PSF-009657",
+    "ref": "pge:6744",
     "name": "Redinha - Sico",
     "lat": 39.9754,
     "lon": -8.55388,
@@ -3009,6 +3209,7 @@
   },
   {
     "id": "PSF-009679",
+    "ref": "pge:6778",
     "name": "Serra do Louro - Palmela",
     "lat": 38.564,
     "lon": -8.91813,
@@ -3025,6 +3226,7 @@
   },
   {
     "id": "PSF-009683",
+    "ref": "pge:6783",
     "name": "Vale de Azares - Linhares",
     "lat": 40.5939,
     "lon": -7.38973,
@@ -3038,6 +3240,7 @@
   },
   {
     "id": "PSF-011313",
+    "ref": "pge:9745",
     "name": "Bicas",
     "lat": 38.4623,
     "lon": -9.1928,
@@ -3055,6 +3258,7 @@
   },
   {
     "id": "PSF-011314",
+    "ref": "pge:9746",
     "name": "Meco",
     "lat": 38.4866,
     "lon": -9.1835,
@@ -3071,6 +3275,7 @@
   },
   {
     "id": "PSF-011315",
+    "ref": "pge:9747",
     "name": "Fonte da Telha",
     "lat": 38.5611,
     "lon": -9.1889,
@@ -3088,6 +3293,7 @@
   },
   {
     "id": "PSF-011339",
+    "ref": "pge:9779",
     "name": "Aguda",
     "lat": 38.8501,
     "lon": -9.45488,
@@ -3104,6 +3310,7 @@
   },
   {
     "id": "PSF-011340",
+    "ref": "pge:9780",
     "name": "Alcobertas",
     "lat": 39.4313,
     "lon": -8.91763,
@@ -3126,6 +3333,7 @@
   },
   {
     "id": "PSF-011341",
+    "ref": "pge:9781",
     "name": "Almargem do Bispo",
     "lat": 38.8452,
     "lon": -9.28321,
@@ -3139,6 +3347,7 @@
   },
   {
     "id": "PSF-011342",
+    "ref": "pge:9782",
     "name": "AlqueidaÂ£o",
     "lat": 39.6441,
     "lon": -8.49708,
@@ -3152,6 +3361,7 @@
   },
   {
     "id": "PSF-011343",
+    "ref": "pge:9783",
     "name": "Alvados",
     "lat": 39.5435,
     "lon": -8.78724,
@@ -3168,6 +3378,7 @@
   },
   {
     "id": "PSF-011344",
+    "ref": "pge:9784",
     "name": "Alvaiazere",
     "lat": 39.8221,
     "lon": -8.41407,
@@ -3181,6 +3392,7 @@
   },
   {
     "id": "PSF-011345",
+    "ref": "pge:9786",
     "name": "Areão",
     "lat": 40.5236,
     "lon": -8.77194,
@@ -3194,6 +3406,7 @@
   },
   {
     "id": "PSF-011346",
+    "ref": "pge:9789",
     "name": "Arrabida",
     "lat": 38.4897,
     "lon": -8.9759,
@@ -3211,6 +3424,7 @@
   },
   {
     "id": "PSF-011347",
+    "ref": "pge:9791",
     "name": "Arrimal",
     "lat": 39.4781,
     "lon": -8.87778,
@@ -3224,6 +3438,7 @@
   },
   {
     "id": "PSF-011348",
+    "ref": "pge:9792",
     "name": "Arruda Leste",
     "lat": 38.9911,
     "lon": -9.09657,
@@ -3240,6 +3455,7 @@
   },
   {
     "id": "PSF-011349",
+    "ref": "pge:9793",
     "name": "Arruda Moinho",
     "lat": 38.9796,
     "lon": -9.10059,
@@ -3253,6 +3469,7 @@
   },
   {
     "id": "PSF-011350",
+    "ref": "pge:9794",
     "name": "Arruda Nordeste",
     "lat": 38.9923,
     "lon": -9.09803,
@@ -3270,6 +3487,7 @@
   },
   {
     "id": "PSF-011351",
+    "ref": "pge:9795",
     "name": "Azinha",
     "lat": 40.4307,
     "lon": -7.4554,
@@ -3288,6 +3506,7 @@
   },
   {
     "id": "PSF-011352",
+    "ref": "pge:9796",
     "name": "Caldelas",
     "lat": 41.6586,
     "lon": -8.35923,
@@ -3306,6 +3525,7 @@
   },
   {
     "id": "PSF-011353",
+    "ref": "pge:9797",
     "name": "Cardos",
     "lat": 38.8153,
     "lon": -9.30938,
@@ -3319,6 +3539,7 @@
   },
   {
     "id": "PSF-011354",
+    "ref": "pge:9798",
     "name": "Castelo de Vide",
     "lat": 39.4008,
     "lon": -7.45904,
@@ -3336,6 +3557,7 @@
   },
   {
     "id": "PSF-011355",
+    "ref": "pge:9799",
     "name": "Cerdal PPD",
     "lat": 41.9729,
     "lon": -8.57821,
@@ -3354,6 +3576,7 @@
   },
   {
     "id": "PSF-011356",
+    "ref": "pge:9800",
     "name": "Covilhã PPD",
     "lat": 40.2886,
     "lon": -7.53891,
@@ -3367,6 +3590,7 @@
   },
   {
     "id": "PSF-011357",
+    "ref": "pge:9801",
     "name": "Fonte Coberta",
     "lat": 40.0781,
     "lon": -8.46325,
@@ -3385,6 +3609,7 @@
   },
   {
     "id": "PSF-011358",
+    "ref": "pge:9802",
     "name": "Foz do Lizandro",
     "lat": 38.9455,
     "lon": -9.41453,
@@ -3398,6 +3623,7 @@
   },
   {
     "id": "PSF-011359",
+    "ref": "pge:9803",
     "name": "Góis",
     "lat": 40.1811,
     "lon": -8.00155,
@@ -3416,6 +3642,7 @@
   },
   {
     "id": "PSF-011360",
+    "ref": "pge:9804",
     "name": "Gralha",
     "lat": 39.5226,
     "lon": -9.13163,
@@ -3432,6 +3659,7 @@
   },
   {
     "id": "PSF-011361",
+    "ref": "pge:9805",
     "name": "Larouco Sul",
     "lat": 41.8798,
     "lon": -7.72098,
@@ -3449,6 +3677,7 @@
   },
   {
     "id": "PSF-011362",
+    "ref": "pge:9806",
     "name": "Larouco Norte",
     "lat": 41.9163,
     "lon": -7.71461,
@@ -3466,6 +3695,7 @@
   },
   {
     "id": "PSF-011363",
+    "ref": "pge:9807",
     "name": "Linhares 1",
     "lat": 40.5327,
     "lon": -7.44556,
@@ -3484,6 +3714,7 @@
   },
   {
     "id": "PSF-011364",
+    "ref": "pge:9808",
     "name": "Linhares 2",
     "lat": 40.5365,
     "lon": -7.44352,
@@ -3497,6 +3728,7 @@
   },
   {
     "id": "PSF-011365",
+    "ref": "pge:9809",
     "name": "Linhares 3",
     "lat": 40.5398,
     "lon": -7.44378,
@@ -3510,6 +3742,7 @@
   },
   {
     "id": "PSF-011366",
+    "ref": "pge:9810",
     "name": "Lousã - Pico da Ortiga",
     "lat": 40.1045,
     "lon": -8.20921,
@@ -3523,6 +3756,7 @@
   },
   {
     "id": "PSF-011367",
+    "ref": "pge:9811",
     "name": "Mangualde",
     "lat": 40.4716,
     "lon": -7.54139,
@@ -3536,6 +3770,7 @@
   },
   {
     "id": "PSF-011368",
+    "ref": "pge:9812",
     "name": "Minde",
     "lat": 39.5079,
     "lon": -8.69513,
@@ -3553,6 +3788,7 @@
   },
   {
     "id": "PSF-011369",
+    "ref": "pge:9813",
     "name": "Mirandela - S/SW",
     "lat": 41.4584,
     "lon": -7.29803,
@@ -3570,6 +3806,7 @@
   },
   {
     "id": "PSF-011370",
+    "ref": "pge:9814",
     "name": "Mirandela W",
     "lat": 41.4653,
     "lon": -7.33358,
@@ -3587,6 +3824,7 @@
   },
   {
     "id": "PSF-011371",
+    "ref": "pge:9815",
     "name": "Montejunto NE",
     "lat": 39.179,
     "lon": -9.04153,
@@ -3600,6 +3838,7 @@
   },
   {
     "id": "PSF-011372",
+    "ref": "pge:9816",
     "name": "Obidos",
     "lat": 39.4251,
     "lon": -9.23837,
@@ -3618,6 +3857,7 @@
   },
   {
     "id": "PSF-011373",
+    "ref": "pge:9817",
     "name": "Pedrulha",
     "lat": 40.2387,
     "lon": -8.4462,
@@ -3631,6 +3871,7 @@
   },
   {
     "id": "PSF-011374",
+    "ref": "pge:9818",
     "name": "Pinheiro da Cruz",
     "lat": 38.2352,
     "lon": -8.77174,
@@ -3648,6 +3889,7 @@
   },
   {
     "id": "PSF-011375",
+    "ref": "pge:9819",
     "name": "Polvoeira",
     "lat": 39.7065,
     "lon": -9.04945,
@@ -3664,6 +3906,7 @@
   },
   {
     "id": "PSF-011376",
+    "ref": "pge:9820",
     "name": "Pombinho",
     "lat": 37.7307,
     "lon": -8.70506,
@@ -3677,6 +3920,7 @@
   },
   {
     "id": "PSF-011377",
+    "ref": "pge:9821",
     "name": "Pombinho - alunos",
     "lat": 37.7303,
     "lon": -8.71029,
@@ -3690,6 +3934,7 @@
   },
   {
     "id": "PSF-011378",
+    "ref": "pge:9822",
     "name": "Pombinho 2",
     "lat": 37.7312,
     "lon": -8.70851,
@@ -3703,6 +3948,7 @@
   },
   {
     "id": "PSF-011379",
+    "ref": "pge:9823",
     "name": "Porto da Espada",
     "lat": 39.3483,
     "lon": -7.33509,
@@ -3716,6 +3962,7 @@
   },
   {
     "id": "PSF-011380",
+    "ref": "pge:9826",
     "name": "Redinha",
     "lat": 39.9741,
     "lon": -8.55267,
@@ -3734,6 +3981,7 @@
   },
   {
     "id": "PSF-011381",
+    "ref": "pge:9827",
     "name": "Salgado",
     "lat": 39.5436,
     "lon": -9.1076,
@@ -3752,6 +4000,7 @@
   },
   {
     "id": "PSF-011382",
+    "ref": "pge:9828",
     "name": "Santa Cruz-Santa Rita",
     "lat": 39.1643,
     "lon": -9.36247,
@@ -3767,6 +4016,7 @@
   },
   {
     "id": "PSF-011383",
+    "ref": "pge:9829",
     "name": "Serra Boa Viagem",
     "lat": 40.2088,
     "lon": -8.88254,
@@ -3785,6 +4035,7 @@
   },
   {
     "id": "PSF-011384",
+    "ref": "pge:9830",
     "name": "Serro Ventoso",
     "lat": 39.5496,
     "lon": -8.86762,
@@ -3798,6 +4049,7 @@
   },
   {
     "id": "PSF-011385",
+    "ref": "pge:9831",
     "name": "Serro Ventoso - Moinhos",
     "lat": 39.5285,
     "lon": -8.85695,
@@ -3811,6 +4063,7 @@
   },
   {
     "id": "PSF-011386",
+    "ref": "pge:9833",
     "name": "Sra da Graça",
     "lat": 41.4164,
     "lon": -7.9168,
@@ -3830,6 +4083,7 @@
   },
   {
     "id": "PSF-011492",
+    "ref": "pge:9982",
     "name": "Lapinha",
     "lat": 41.1516,
     "lon": -7.0506,
@@ -3850,6 +4104,7 @@
   },
   {
     "id": "PSF-011493",
+    "ref": "pge:9983",
     "name": "Macores",
     "lat": 41.1411,
     "lon": -7.0153,
@@ -3868,6 +4123,7 @@
   },
   {
     "id": "PSF-011494",
+    "ref": "pge:9984",
     "name": "Carvalhal",
     "lat": 41.171,
     "lon": -6.9864,
@@ -3886,6 +4142,7 @@
   },
   {
     "id": "PSF-011495",
+    "ref": "pge:9985",
     "name": "Freixo de Espada-a-Cinta",
     "lat": 41.1383,
     "lon": -6.8019,
@@ -3904,6 +4161,7 @@
   },
   {
     "id": "PSF-011500",
+    "ref": "pge:9991",
     "name": "Rio Sabor - Estevais",
     "lat": 41.2239,
     "lon": -7.0807,
@@ -3923,6 +4181,7 @@
   },
   {
     "id": "PSF-011501",
+    "ref": "pge:9992",
     "name": "Quinta Branca - Serra do Reboredo",
     "lat": 41.1723,
     "lon": -7.0011,
@@ -3941,6 +4200,7 @@
   },
   {
     "id": "PSF-011502",
+    "ref": "pge:9993",
     "name": "Castanheira, Mogadouro",
     "lat": 41.391,
     "lon": -6.6073,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-002129",
+    "ref": "pge:13025",
     "name": "ÃŒkatÃ¨q",
     "lat": 65.6384,
     "lon": -37.9397,
@@ -14,6 +15,7 @@
   },
   {
     "id": "PSF-004350",
+    "ref": "pge:16539",
     "name": "Isortoq",
     "lat": 60.9837,
     "lon": -47.5242,
@@ -27,6 +29,7 @@
   },
   {
     "id": "PSF-004392",
+    "ref": "pge:16607",
     "name": "Nunarsuit- paramotor bay",
     "lat": 60.8233,
     "lon": -47.9901,
@@ -40,6 +43,7 @@
   },
   {
     "id": "PSF-004599",
+    "ref": "pge:16972",
     "name": "Qinngorput. Nuuk",
     "lat": 64.1909,
     "lon": -51.6554,
@@ -56,6 +60,7 @@
   },
   {
     "id": "PSF-006320",
+    "ref": "pge:21231",
     "name": "Maligiaq",
     "lat": 66.9696,
     "lon": -52.6319,
@@ -74,6 +79,7 @@
   },
   {
     "id": "PSF-008440",
+    "ref": "pge:23640",
     "name": "Nuuk city",
     "lat": 64.1722,
     "lon": -51.7489,
@@ -87,6 +93,7 @@
   },
   {
     "id": "PSF-008441",
+    "ref": "pge:23641",
     "name": "Narsaq",
     "lat": 60.9151,
     "lon": -46.013,
@@ -100,6 +107,7 @@
   },
   {
     "id": "PSF-008442",
+    "ref": "pge:23642",
     "name": "Nasassaq seddle",
     "lat": 66.9279,
     "lon": -53.5868,
@@ -113,6 +121,7 @@
   },
   {
     "id": "PSF-008443",
+    "ref": "pge:23643",
     "name": "Canoe center",
     "lat": 66.906,
     "lon": -51.7806,
@@ -126,6 +135,7 @@
   },
   {
     "id": "PSF-011059",
+    "ref": "pge:9275",
     "name": "Nuuk Area",
     "lat": 64.19,
     "lon": -51.65,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-003749",
+    "ref": "pge:15605",
     "name": "Le Pouce",
     "lat": -20.1994,
     "lon": 57.5299,
@@ -17,6 +18,7 @@
   },
   {
     "id": "PSF-005643",
+    "ref": "pge:19274",
     "name": "Pyramid",
     "lat": -20.4252,
     "lon": 57.3838,
@@ -34,6 +36,7 @@
   },
   {
     "id": "PSF-008535",
+    "ref": "pge:23753",
     "name": "Quatre Soeurs VCA",
     "lat": -20.3083,
     "lon": 57.7747,
@@ -47,6 +50,7 @@
   },
   {
     "id": "PSF-008536",
+    "ref": "pge:23754",
     "name": "Le Morne VCA",
     "lat": -20.4538,
     "lon": 57.3304,
@@ -60,6 +64,7 @@
   },
   {
     "id": "PSF-008537",
+    "ref": "pge:23755",
     "name": "Souillac VCA",
     "lat": -20.5246,
     "lon": 57.5306,
@@ -73,6 +78,7 @@
   },
   {
     "id": "PSF-008538",
+    "ref": "pge:23756",
     "name": "Le Chat",
     "lat": -20.3129,
     "lon": 57.775,
@@ -86,6 +92,7 @@
   },
   {
     "id": "PSF-008719",
+    "ref": "pge:23962",
     "name": "Corps de Garde",
     "lat": -20.251,
     "lon": 57.4496,
@@ -99,6 +106,7 @@
   },
   {
     "id": "PSF-008720",
+    "ref": "pge:23963",
     "name": "Mt Saint Piere",
     "lat": -20.2659,
     "lon": 57.4295,
@@ -112,6 +120,7 @@
   },
   {
     "id": "PSF-008721",
+    "ref": "pge:23964",
     "name": "La tourelle Tamarin",
     "lat": -20.3473,
     "lon": 57.3763,
@@ -125,6 +134,7 @@
   },
   {
     "id": "PSF-010064",
+    "ref": "pge:7293",
     "name": "Montagne Longue",
     "lat": -20.1514,
     "lon": 57.5525,

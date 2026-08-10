@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-001349",
+    "ref": "pge:11619",
     "name": "Spreets Hoogte",
     "lat": -23.6337,
     "lon": 16.184,
@@ -14,6 +15,7 @@
   },
   {
     "id": "PSF-002294",
+    "ref": "pge:13283",
     "name": "Take off Pad Burgsdorf",
     "lat": -25.0015,
     "lon": 16.903,
@@ -27,6 +29,7 @@
   },
   {
     "id": "PSF-002325",
+    "ref": "pge:13332",
     "name": "Hohingeslost",
     "lat": -29.2884,
     "lon": 21.1555,
@@ -40,6 +43,7 @@
   },
   {
     "id": "PSF-002619",
+    "ref": "pge:13838",
     "name": "Pokweni",
     "lat": -23.6401,
     "lon": 17.7223,
@@ -53,6 +57,7 @@
   },
   {
     "id": "PSF-002624",
+    "ref": "pge:13843",
     "name": "Farm Moreson Maltahoehe District",
     "lat": -25.0961,
     "lon": 16.9023,
@@ -66,6 +71,7 @@
   },
   {
     "id": "PSF-004112",
+    "ref": "pge:16139",
     "name": "Sandwich Harbour",
     "lat": -23.3086,
     "lon": 14.4999,
@@ -79,6 +85,7 @@
   },
   {
     "id": "PSF-004137",
+    "ref": "pge:16177",
     "name": "Henties Bay",
     "lat": -22.0813,
     "lon": 14.2438,
@@ -92,6 +99,7 @@
   },
   {
     "id": "PSF-004414",
+    "ref": "pge:16647",
     "name": "Torra Bay",
     "lat": -20.3271,
     "lon": 13.2886,
@@ -105,6 +113,7 @@
   },
   {
     "id": "PSF-004418",
+    "ref": "pge:16653",
     "name": "Büllsport 1",
     "lat": -24.1504,
     "lon": 16.3462,
@@ -118,6 +127,7 @@
   },
   {
     "id": "PSF-004769",
+    "ref": "pge:17307",
     "name": "Langstrand Dunes",
     "lat": -22.7685,
     "lon": 14.5434,
@@ -131,6 +141,7 @@
   },
   {
     "id": "PSF-005699",
+    "ref": "pge:19359",
     "name": "Vogelberg",
     "lat": -23.057,
     "lon": 14.986,

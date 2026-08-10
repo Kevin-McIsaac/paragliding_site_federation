@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000102",
+    "ref": "pge:10125",
     "name": "Mung",
     "lat": 33.9043,
     "lon": 72.896,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000103",
+    "ref": "pge:10126",
     "name": "Express Way Site",
     "lat": 33.9031,
     "lon": 73.4038,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-000629",
+    "ref": "pge:10739",
     "name": "Shigar",
     "lat": 35.4398,
     "lon": 75.7419,
@@ -57,6 +60,7 @@
   },
   {
     "id": "PSF-000630",
+    "ref": "pge:10740",
     "name": "Chunda",
     "lat": 35.3367,
     "lon": 75.5008,
@@ -72,6 +76,7 @@
   },
   {
     "id": "PSF-000976",
+    "ref": "pge:11151",
     "name": "Choa Saidan Shah",
     "lat": 32.7339,
     "lon": 73.0042,
@@ -89,6 +94,7 @@
   },
   {
     "id": "PSF-001101",
+    "ref": "pge:11314",
     "name": "Pir Chinasi",
     "lat": 34.384,
     "lon": 73.5446,
@@ -110,6 +116,7 @@
   },
   {
     "id": "PSF-001730",
+    "ref": "pge:12282",
     "name": "Yasin village soccer field",
     "lat": 36.3958,
     "lon": 73.3222,
@@ -123,6 +130,7 @@
   },
   {
     "id": "PSF-002198",
+    "ref": "pge:13140",
     "name": "end of Shigar Valley",
     "lat": 35.8901,
     "lon": 75.3424,
@@ -136,6 +144,7 @@
   },
   {
     "id": "PSF-002199",
+    "ref": "pge:13141",
     "name": "Shigar",
     "lat": 35.8862,
     "lon": 75.3769,
@@ -149,6 +158,7 @@
   },
   {
     "id": "PSF-002200",
+    "ref": "pge:13142",
     "name": "Lasht",
     "lat": 36.8298,
     "lon": 73.1443,
@@ -162,6 +172,7 @@
   },
   {
     "id": "PSF-002201",
+    "ref": "pge:13143",
     "name": "Booni",
     "lat": 36.286,
     "lon": 72.316,
@@ -175,6 +186,7 @@
   },
   {
     "id": "PSF-002202",
+    "ref": "pge:13144",
     "name": "Chitral",
     "lat": 35.9625,
     "lon": 71.7595,
@@ -188,6 +200,7 @@
   },
   {
     "id": "PSF-002203",
+    "ref": "pge:13145",
     "name": "Chitral",
     "lat": 35.8408,
     "lon": 71.7156,
@@ -201,6 +214,7 @@
   },
   {
     "id": "PSF-002204",
+    "ref": "pge:13146",
     "name": "Lake 4700m",
     "lat": 36.1705,
     "lon": 74.871,
@@ -214,6 +228,7 @@
   },
   {
     "id": "PSF-002205",
+    "ref": "pge:13147",
     "name": "Chalt",
     "lat": 36.3622,
     "lon": 74.2505,
@@ -227,6 +242,7 @@
   },
   {
     "id": "PSF-002503",
+    "ref": "pge:13639",
     "name": "Teru",
     "lat": 36.1976,
     "lon": 72.8213,
@@ -240,6 +256,7 @@
   },
   {
     "id": "PSF-002504",
+    "ref": "pge:13642",
     "name": "Tarashing",
     "lat": 35.2455,
     "lon": 74.7441,
@@ -253,6 +270,7 @@
   },
   {
     "id": "PSF-003595",
+    "ref": "pge:15337",
     "name": "Rawaal",
     "lat": 32.7236,
     "lon": 73.1919,
@@ -271,6 +289,7 @@
   },
   {
     "id": "PSF-004240",
+    "ref": "pge:16354",
     "name": "Baba Gundi",
     "lat": 36.8171,
     "lon": 74.2999,
@@ -284,6 +303,7 @@
   },
   {
     "id": "PSF-004241",
+    "ref": "pge:16355",
     "name": "Behind Tupopdan",
     "lat": 36.5433,
     "lon": 74.9808,
@@ -297,6 +317,7 @@
   },
   {
     "id": "PSF-004242",
+    "ref": "pge:16356",
     "name": "Above Faizabad",
     "lat": 36.3309,
     "lon": 74.7251,
@@ -310,6 +331,7 @@
   },
   {
     "id": "PSF-004323",
+    "ref": "pge:16499",
     "name": "Eagle's Nest - West",
     "lat": 36.3314,
     "lon": 74.6047,
@@ -323,6 +345,7 @@
   },
   {
     "id": "PSF-004338",
+    "ref": "pge:16523",
     "name": "Damalgan",
     "lat": 36.2766,
     "lon": 73.3718,
@@ -336,6 +359,7 @@
   },
   {
     "id": "PSF-004339",
+    "ref": "pge:16524",
     "name": "Ishkomen East",
     "lat": 36.3615,
     "lon": 73.8845,
@@ -349,6 +373,7 @@
   },
   {
     "id": "PSF-004375",
+    "ref": "pge:16581",
     "name": "Ishkomen West",
     "lat": 36.3271,
     "lon": 73.7847,
@@ -362,6 +387,7 @@
   },
   {
     "id": "PSF-004376",
+    "ref": "pge:16582",
     "name": "Shandur Pass",
     "lat": 36.1016,
     "lon": 72.5459,
@@ -375,6 +401,7 @@
   },
   {
     "id": "PSF-004381",
+    "ref": "pge:16591",
     "name": "Chalt",
     "lat": 36.2983,
     "lon": 74.266,
@@ -388,6 +415,7 @@
   },
   {
     "id": "PSF-004384",
+    "ref": "pge:16594",
     "name": "Bunji summer village",
     "lat": 35.6775,
     "lon": 74.7189,
@@ -401,6 +429,7 @@
   },
   {
     "id": "PSF-004396",
+    "ref": "pge:16614",
     "name": "Phandur Lake South",
     "lat": 36.1569,
     "lon": 72.9551,
@@ -414,6 +443,7 @@
   },
   {
     "id": "PSF-004501",
+    "ref": "pge:16810",
     "name": "spur above Bunji Jah",
     "lat": 35.6559,
     "lon": 74.6903,
@@ -427,6 +457,7 @@
   },
   {
     "id": "PSF-004575",
+    "ref": "pge:16946",
     "name": "Tarbela Dam Darwaza",
     "lat": 34.0852,
     "lon": 72.9486,
@@ -446,6 +477,7 @@
   },
   {
     "id": "PSF-005012",
+    "ref": "pge:17728",
     "name": "Mubarak Village",
     "lat": 24.8578,
     "lon": 66.6782,
@@ -463,6 +495,7 @@
   },
   {
     "id": "PSF-005117",
+    "ref": "pge:17967",
     "name": "Mubarak Village II",
     "lat": 24.8533,
     "lon": 66.6726,
@@ -480,6 +513,7 @@
   },
   {
     "id": "PSF-005474",
+    "ref": "pge:18801",
     "name": "NFC-2 Winch Site",
     "lat": 31.3549,
     "lon": 74.1496,
@@ -502,6 +536,7 @@
   },
   {
     "id": "PSF-005607",
+    "ref": "pge:19228",
     "name": "Lalazar Naran",
     "lat": 34.9155,
     "lon": 73.758,
@@ -515,6 +550,7 @@
   },
   {
     "id": "PSF-005827",
+    "ref": "pge:19532",
     "name": "Ganj Ali Shah",
     "lat": 32.8131,
     "lon": 73.1081,
@@ -532,6 +568,7 @@
   },
   {
     "id": "PSF-005916",
+    "ref": "pge:19660",
     "name": "Chinarkot",
     "lat": 34.0218,
     "lon": 72.7763,
@@ -549,6 +586,7 @@
   },
   {
     "id": "PSF-007095",
+    "ref": "pge:22128",
     "name": "Ghunda Shamshaki",
     "lat": 33.1438,
     "lon": 71.3711,
@@ -562,6 +600,7 @@
   },
   {
     "id": "PSF-008094",
+    "ref": "pge:23244",
     "name": "Laram",
     "lat": 34.7902,
     "lon": 71.9601,
@@ -579,6 +618,7 @@
   },
   {
     "id": "PSF-008328",
+    "ref": "pge:23514",
     "name": "Saran",
     "lat": 34.3816,
     "lon": 73.5276,
@@ -592,6 +632,7 @@
   },
   {
     "id": "PSF-009583",
+    "ref": "pge:6658",
     "name": "Fairy Meadows",
     "lat": 35.4053,
     "lon": 74.5854,
@@ -605,6 +646,7 @@
   },
   {
     "id": "PSF-010240",
+    "ref": "pge:7558",
     "name": "Rajdhani",
     "lat": 33.7771,
     "lon": 72.9647,
@@ -624,6 +666,7 @@
   },
   {
     "id": "PSF-010248",
+    "ref": "pge:7587",
     "name": "Birmoghlasht (Summer Palace)",
     "lat": 35.8854,
     "lon": 71.7666,
@@ -640,6 +683,7 @@
   },
   {
     "id": "PSF-010263",
+    "ref": "pge:7605",
     "name": "Eagle's Nest",
     "lat": 36.3284,
     "lon": 74.6801,
@@ -659,6 +703,7 @@
   },
   {
     "id": "PSF-010684",
+    "ref": "pge:8267",
     "name": "Uttul",
     "lat": 36.3182,
     "lon": 72.1626,
@@ -676,6 +721,7 @@
   },
   {
     "id": "PSF-011073",
+    "ref": "pge:9293",
     "name": "Kohala",
     "lat": 33.8419,
     "lon": 72.953,

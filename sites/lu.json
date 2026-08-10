@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000661",
+    "ref": "pge:10774",
     "name": "Gringlay",
     "lat": 49.9158,
     "lon": 6.0917,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-001827",
+    "ref": "pge:12454",
     "name": "Kautenbach",
     "lat": 49.9522,
     "lon": 6.03158,
@@ -34,6 +36,7 @@
   },
   {
     "id": "PSF-004615",
+    "ref": "pge:17009",
     "name": "Eppeldorf",
     "lat": 49.837,
     "lon": 6.24422,
@@ -47,6 +50,7 @@
   },
   {
     "id": "PSF-007192",
+    "ref": "pge:22250",
     "name": "Michelau",
     "lat": 49.8991,
     "lon": 6.0811,
@@ -60,6 +64,7 @@
   },
   {
     "id": "PSF-007193",
+    "ref": "pge:22251",
     "name": "Michelau-LP",
     "lat": 49.8977,
     "lon": 6.08924,
@@ -73,6 +78,7 @@
   },
   {
     "id": "PSF-007194",
+    "ref": "pge:22252",
     "name": "Kautenbach LP",
     "lat": 49.9541,
     "lon": 6.02743,

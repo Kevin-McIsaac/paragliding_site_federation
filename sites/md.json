@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000114",
+    "ref": "pge:10137",
     "name": "Roghi",
     "lat": 46.7758,
     "lon": 28.2138,
@@ -20,6 +21,7 @@
   },
   {
     "id": "PSF-000438",
+    "ref": "pge:10501",
     "name": "Rogi - Dachi",
     "lat": 47.3352,
     "lon": 29.1665,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-003717",
+    "ref": "pge:15547",
     "name": "Imasu Negureni",
     "lat": 47.5687,
     "lon": 28.5132,
@@ -49,6 +52,7 @@
   },
   {
     "id": "PSF-008156",
+    "ref": "pge:23314",
     "name": "Firladeni",
     "lat": 46.7851,
     "lon": 29.287,
@@ -62,6 +66,7 @@
   },
   {
     "id": "PSF-008700",
+    "ref": "pge:23943",
     "name": "Molovata",
     "lat": 47.3638,
     "lon": 29.0769,
@@ -75,6 +80,7 @@
   },
   {
     "id": "PSF-008701",
+    "ref": "pge:23944",
     "name": "Trebujeni south",
     "lat": 47.3099,
     "lon": 28.9615,
@@ -88,6 +94,7 @@
   },
   {
     "id": "PSF-008702",
+    "ref": "pge:23945",
     "name": "Trebujeni west",
     "lat": 47.3087,
     "lon": 28.9922,

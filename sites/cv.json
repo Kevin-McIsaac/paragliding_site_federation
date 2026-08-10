@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-002276",
+    "ref": "pge:13244",
     "name": "Praia Cabo Verde",
     "lat": 14.9266,
     "lon": -23.4933,
@@ -14,6 +15,7 @@
   },
   {
     "id": "PSF-007839",
+    "ref": "pge:22974",
     "name": "Morro d Areia",
     "lat": 16.0966,
     "lon": -22.9376,
@@ -27,6 +29,7 @@
   },
   {
     "id": "PSF-007840",
+    "ref": "pge:22975",
     "name": "Chaves",
     "lat": 16.113,
     "lon": -22.9113,
@@ -40,6 +43,7 @@
   },
   {
     "id": "PSF-007841",
+    "ref": "pge:22976",
     "name": "Praia Carlotta",
     "lat": 16.166,
     "lon": -22.9126,
@@ -53,6 +57,7 @@
   },
   {
     "id": "PSF-007842",
+    "ref": "pge:22977",
     "name": "Cabo Santa Maria",
     "lat": 16.2103,
     "lon": -22.8941,
@@ -66,6 +71,7 @@
   },
   {
     "id": "PSF-007843",
+    "ref": "pge:22978",
     "name": "Uli´s Spot",
     "lat": 16.2062,
     "lon": -22.7483,
@@ -79,6 +85,7 @@
   },
   {
     "id": "PSF-007844",
+    "ref": "pge:22979",
     "name": "Ervatao",
     "lat": 16.0461,
     "lon": -22.6918,
@@ -92,6 +99,7 @@
   },
   {
     "id": "PSF-010033",
+    "ref": "pge:7247",
     "name": "Faja de Agua",
     "lat": 14.8675,
     "lon": -24.7397,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000006",
+    "ref": "pge:10008",
     "name": "Sterksel",
     "lat": 51.3444,
     "lon": 5.63494,
@@ -23,6 +24,7 @@
   },
   {
     "id": "PSF-000098",
+    "ref": "pge:10116",
     "name": "Op Het Eiland",
     "lat": 52.1583,
     "lon": 6.4833,
@@ -43,6 +45,7 @@
   },
   {
     "id": "PSF-000413",
+    "ref": "pge:10472",
     "name": "Wijk aan Zee",
     "lat": 52.4984,
     "lon": 4.5872,
@@ -59,6 +62,7 @@
   },
   {
     "id": "PSF-000414",
+    "ref": "pge:10473",
     "name": "Zoutelande",
     "lat": 51.4953,
     "lon": 3.4973,
@@ -74,6 +78,7 @@
   },
   {
     "id": "PSF-000433",
+    "ref": "pge:10495",
     "name": "Plus4",
     "lat": 52.2418,
     "lon": 6.7035,
@@ -96,6 +101,7 @@
   },
   {
     "id": "PSF-000504",
+    "ref": "pge:10585",
     "name": "Bruinehaar",
     "lat": 52.4681,
     "lon": 6.6966,
@@ -118,6 +124,7 @@
   },
   {
     "id": "PSF-000921",
+    "ref": "pge:11082",
     "name": "Giethoorn",
     "lat": 52.7545,
     "lon": 6.0771,
@@ -138,6 +145,7 @@
   },
   {
     "id": "PSF-001370",
+    "ref": "pge:11641",
     "name": "Petten",
     "lat": 52.7777,
     "lon": 4.6642,
@@ -154,6 +162,7 @@
   },
   {
     "id": "PSF-002117",
+    "ref": "pge:13006",
     "name": "Ouddorp",
     "lat": 51.7987,
     "lon": 3.85818,
@@ -167,6 +176,7 @@
   },
   {
     "id": "PSF-002332",
+    "ref": "pge:13345",
     "name": "Renesse",
     "lat": 51.7398,
     "lon": 3.81328,
@@ -182,6 +192,7 @@
   },
   {
     "id": "PSF-002834",
+    "ref": "pge:14181",
     "name": "Egmond aan Zee",
     "lat": 52.6117,
     "lon": 4.6192,
@@ -199,6 +210,7 @@
   },
   {
     "id": "PSF-003106",
+    "ref": "pge:14558",
     "name": "Cadzand-bad",
     "lat": 51.3711,
     "lon": 3.3697,
@@ -215,6 +227,7 @@
   },
   {
     "id": "PSF-003187",
+    "ref": "pge:14683",
     "name": "Bentelo",
     "lat": 52.2279,
     "lon": 6.79827,
@@ -228,6 +241,7 @@
   },
   {
     "id": "PSF-004059",
+    "ref": "pge:16079",
     "name": "Nedereindseplas",
     "lat": 52.0337,
     "lon": 5.0611,
@@ -244,6 +258,7 @@
   },
   {
     "id": "PSF-004554",
+    "ref": "pge:16904",
     "name": "Hoek",
     "lat": 51.329,
     "lon": 3.76448,
@@ -266,6 +281,7 @@
   },
   {
     "id": "PSF-004968",
+    "ref": "pge:17656",
     "name": "Aarlanderveen ZN",
     "lat": 52.1413,
     "lon": 4.75785,
@@ -288,6 +304,7 @@
   },
   {
     "id": "PSF-004969",
+    "ref": "pge:17657",
     "name": "Aarlanderveen OW",
     "lat": 52.1409,
     "lon": 4.73882,
@@ -310,6 +327,7 @@
   },
   {
     "id": "PSF-005948",
+    "ref": "pge:19707",
     "name": "Eurofly Stegeren",
     "lat": 52.5689,
     "lon": 6.4885,
@@ -332,6 +350,7 @@
   },
   {
     "id": "PSF-006080",
+    "ref": "pge:19926",
     "name": "Camperdune",
     "lat": 52.7189,
     "lon": 4.64015,
@@ -345,6 +364,7 @@
   },
   {
     "id": "PSF-006345",
+    "ref": "pge:21282",
     "name": "Mander",
     "lat": 52.4575,
     "lon": 6.8165,
@@ -358,6 +378,7 @@
   },
   {
     "id": "PSF-006777",
+    "ref": "pge:21768",
     "name": "Langevelderslag",
     "lat": 52.3061,
     "lon": 4.47856,
@@ -374,6 +395,7 @@
   },
   {
     "id": "PSF-006782",
+    "ref": "pge:21773",
     "name": "Houten",
     "lat": 51.979,
     "lon": 5.17984,
@@ -394,6 +416,7 @@
   },
   {
     "id": "PSF-006783",
+    "ref": "pge:21774",
     "name": "Numansdorp",
     "lat": 51.7547,
     "lon": 4.45575,
@@ -412,6 +435,7 @@
   },
   {
     "id": "PSF-007270",
+    "ref": "pge:22334",
     "name": "Skyline Twente",
     "lat": 52.4677,
     "lon": 6.69668,
@@ -425,6 +449,7 @@
   },
   {
     "id": "PSF-007392",
+    "ref": "pge:22467",
     "name": "Eurofly",
     "lat": 52.5698,
     "lon": 6.49058,
@@ -438,6 +463,7 @@
   },
   {
     "id": "PSF-009984",
+    "ref": "pge:7185",
     "name": "Eiland van Maurik",
     "lat": 51.971,
     "lon": 5.4315,
@@ -451,6 +477,7 @@
   },
   {
     "id": "PSF-010125",
+    "ref": "pge:7372",
     "name": "BVG Halle",
     "lat": 51.983,
     "lon": 6.433,
@@ -473,6 +500,7 @@
   },
   {
     "id": "PSF-010245",
+    "ref": "pge:7584",
     "name": "BVG Halle Noord",
     "lat": 51.997,
     "lon": 6.428,

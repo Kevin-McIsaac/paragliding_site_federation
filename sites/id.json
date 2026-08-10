@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000055",
+    "ref": "pge:10067",
     "name": "Mount Puncak (Gunung Mas Puncak)",
     "lat": -6.70167,
     "lon": 106.984,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000095",
+    "ref": "pge:10112",
     "name": "Bukit Langkisau",
     "lat": -1.3424,
     "lon": 100.573,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-000581",
+    "ref": "pge:10682",
     "name": "Kemuning",
     "lat": -7.5952,
     "lon": 111.141,
@@ -48,6 +51,7 @@
   },
   {
     "id": "PSF-000746",
+    "ref": "pge:10878",
     "name": "Mount Banyak (Gunung Banyak)",
     "lat": -7.8556,
     "lon": 112.496,
@@ -65,6 +69,7 @@
   },
   {
     "id": "PSF-001871",
+    "ref": "pge:12529",
     "name": "Singkarak",
     "lat": -0.543067,
     "lon": 100.477,
@@ -78,6 +83,7 @@
   },
   {
     "id": "PSF-002480",
+    "ref": "pge:13597",
     "name": "Maninjau",
     "lat": -0.262483,
     "lon": 100.242,
@@ -96,6 +102,7 @@
   },
   {
     "id": "PSF-002760",
+    "ref": "pge:14053",
     "name": "Wonogiri",
     "lat": -7.845,
     "lon": 110.896,
@@ -114,6 +121,7 @@
   },
   {
     "id": "PSF-002761",
+    "ref": "pge:14054",
     "name": "Mount Guntur",
     "lat": -7.15777,
     "lon": 107.86,
@@ -127,6 +135,7 @@
   },
   {
     "id": "PSF-002762",
+    "ref": "pge:14055",
     "name": "Mount Haruman",
     "lat": -7.07012,
     "lon": 107.946,
@@ -140,6 +149,7 @@
   },
   {
     "id": "PSF-002778",
+    "ref": "pge:14082",
     "name": "Mt Batur",
     "lat": -8.23757,
     "lon": 115.381,
@@ -153,6 +163,7 @@
   },
   {
     "id": "PSF-003205",
+    "ref": "pge:14742",
     "name": "Parangtritis",
     "lat": -8.02889,
     "lon": 110.346,
@@ -171,6 +182,7 @@
   },
   {
     "id": "PSF-004571",
+    "ref": "pge:16940",
     "name": "Gedongsongo",
     "lat": -7.1924,
     "lon": 110.347,
@@ -188,6 +200,7 @@
   },
   {
     "id": "PSF-004573",
+    "ref": "pge:16942",
     "name": "Meteseh",
     "lat": -7.0835,
     "lon": 110.48,
@@ -201,6 +214,7 @@
   },
   {
     "id": "PSF-005499",
+    "ref": "pge:18831",
     "name": "Candi Dasa (Bali)",
     "lat": -8.5137,
     "lon": 115.584,
@@ -217,6 +231,7 @@
   },
   {
     "id": "PSF-005676",
+    "ref": "pge:19326",
     "name": "Taeh Bukit",
     "lat": -0.13194,
     "lon": 100.614,
@@ -236,6 +251,7 @@
   },
   {
     "id": "PSF-005795",
+    "ref": "pge:19485",
     "name": "Matantimali",
     "lat": -0.948883,
     "lon": 119.816,
@@ -253,6 +269,7 @@
   },
   {
     "id": "PSF-005918",
+    "ref": "pge:19666",
     "name": "Lapale",
     "lat": -9.6781,
     "lon": 119.422,
@@ -269,6 +286,7 @@
   },
   {
     "id": "PSF-006459",
+    "ref": "pge:21402",
     "name": "Kekeb Hill (Bukit Kekeb)",
     "lat": -7.31173,
     "lon": 109.961,
@@ -285,6 +303,7 @@
   },
   {
     "id": "PSF-006481",
+    "ref": "pge:21428",
     "name": "Bali Paragliding Tandem GP",
     "lat": -8.83668,
     "lon": 115.205,
@@ -298,6 +317,7 @@
   },
   {
     "id": "PSF-006824",
+    "ref": "pge:21818",
     "name": "Modangan Beach",
     "lat": -8.34636,
     "lon": 112.367,
@@ -311,6 +331,7 @@
   },
   {
     "id": "PSF-007234",
+    "ref": "pge:22293",
     "name": "Bali Paragliding Tandem Uluwatu",
     "lat": -8.83866,
     "lon": 115.097,
@@ -324,6 +345,7 @@
   },
   {
     "id": "PSF-007235",
+    "ref": "pge:22294",
     "name": "Riug Paragliding",
     "lat": -8.83516,
     "lon": 115.209,
@@ -337,6 +359,7 @@
   },
   {
     "id": "PSF-008093",
+    "ref": "pge:23243",
     "name": "Mount Bromo",
     "lat": -7.93463,
     "lon": 112.948,
@@ -350,6 +373,7 @@
   },
   {
     "id": "PSF-008166",
+    "ref": "pge:23324",
     "name": "Skylancing",
     "lat": -8.89513,
     "lon": 116.192,
@@ -363,6 +387,7 @@
   },
   {
     "id": "PSF-008167",
+    "ref": "pge:23325",
     "name": "Areguling",
     "lat": -8.89853,
     "lon": 116.243,
@@ -376,6 +401,7 @@
   },
   {
     "id": "PSF-008168",
+    "ref": "pge:23326",
     "name": "Prabu hill",
     "lat": -8.90187,
     "lon": 116.27,

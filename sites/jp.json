@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000355",
+    "ref": "pge:10404",
     "name": "Hakuba -Happo One",
     "lat": 36.6974,
     "lon": 137.816,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-001085",
+    "ref": "pge:11291",
     "name": "Tsukuba -NiihariKomachi",
     "lat": 36.1717,
     "lon": 140.166,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-001542",
+    "ref": "pge:11960",
     "name": "Mt Itajiki Hangglider Area",
     "lat": 36.3178,
     "lon": 140.188,
@@ -55,6 +58,7 @@
   },
   {
     "id": "PSF-001634",
+    "ref": "pge:12122",
     "name": "Misunomaru",
     "lat": 33.992,
     "lon": 133.964,
@@ -77,6 +81,7 @@
   },
   {
     "id": "PSF-001788",
+    "ref": "pge:12388",
     "name": "Iwayasan Flight Area",
     "lat": 35.2398,
     "lon": 134.979,
@@ -96,6 +101,7 @@
   },
   {
     "id": "PSF-002241",
+    "ref": "pge:13195",
     "name": "Asagiri Inogashira (Wingkiss)",
     "lat": 35.3728,
     "lon": 138.547,
@@ -117,6 +123,7 @@
   },
   {
     "id": "PSF-003665",
+    "ref": "pge:15463",
     "name": "Uono",
     "lat": 32.0338,
     "lon": 130.722,
@@ -134,6 +141,7 @@
   },
   {
     "id": "PSF-003666",
+    "ref": "pge:15464",
     "name": "Yatake",
     "lat": 32.0844,
     "lon": 130.771,
@@ -151,6 +159,7 @@
   },
   {
     "id": "PSF-003721",
+    "ref": "pge:15560",
     "name": "Oogoshi (Sakaide)",
     "lat": 34.3616,
     "lon": 133.903,
@@ -164,6 +173,7 @@
   },
   {
     "id": "PSF-003812",
+    "ref": "pge:15688",
     "name": "Koshojiyama",
     "lat": 34.077,
     "lon": 132.149,
@@ -181,6 +191,7 @@
   },
   {
     "id": "PSF-003824",
+    "ref": "pge:15710",
     "name": "Ohsayama Flight Area (Mt.Osa)",
     "lat": 35.0833,
     "lon": 133.543,
@@ -198,6 +209,7 @@
   },
   {
     "id": "PSF-003881",
+    "ref": "pge:15853",
     "name": "Keihoku",
     "lat": 35.1684,
     "lon": 135.668,
@@ -214,6 +226,7 @@
   },
   {
     "id": "PSF-003897",
+    "ref": "pge:15873",
     "name": "Nanyo Skypark",
     "lat": 38.0639,
     "lon": 140.193,
@@ -233,6 +246,7 @@
   },
   {
     "id": "PSF-003915",
+    "ref": "pge:15894",
     "name": "Kuratake",
     "lat": 32.4239,
     "lon": 130.331,
@@ -251,6 +265,7 @@
   },
   {
     "id": "PSF-003916",
+    "ref": "pge:15895",
     "name": "Kirikabu-yama",
     "lat": 33.2663,
     "lon": 131.138,
@@ -270,6 +285,7 @@
   },
   {
     "id": "PSF-003955",
+    "ref": "pge:15947",
     "name": "Kannami (eX Paragliding)",
     "lat": 35.1046,
     "lon": 139.035,
@@ -287,6 +303,7 @@
   },
   {
     "id": "PSF-004267",
+    "ref": "pge:16394",
     "name": "Ojigatake/ Ojigadake",
     "lat": 34.4614,
     "lon": 133.881,
@@ -303,6 +320,7 @@
   },
   {
     "id": "PSF-004387",
+    "ref": "pge:16599",
     "name": "Kinugasa",
     "lat": 34.6804,
     "lon": 137.239,
@@ -316,6 +334,7 @@
   },
   {
     "id": "PSF-004476",
+    "ref": "pge:16756",
     "name": "Iriki",
     "lat": 31.8128,
     "lon": 130.449,
@@ -333,6 +352,7 @@
   },
   {
     "id": "PSF-004494",
+    "ref": "pge:16787",
     "name": "Sky Shishiku",
     "lat": 36.4463,
     "lon": 136.647,
@@ -348,6 +368,7 @@
   },
   {
     "id": "PSF-004603",
+    "ref": "pge:16986",
     "name": "Ikusaka",
     "lat": 36.4217,
     "lon": 137.916,
@@ -363,6 +384,7 @@
   },
   {
     "id": "PSF-004809",
+    "ref": "pge:17400",
     "name": "Mt. Katsuragi",
     "lat": 34.4549,
     "lon": 135.682,
@@ -383,6 +405,7 @@
   },
   {
     "id": "PSF-004862",
+    "ref": "pge:17474",
     "name": "Daikanbo",
     "lat": 32.9965,
     "lon": 131.067,
@@ -402,6 +425,7 @@
   },
   {
     "id": "PSF-004965",
+    "ref": "pge:17652",
     "name": "Zojiro",
     "lat": 32.4837,
     "lon": 131.409,
@@ -420,6 +444,7 @@
   },
   {
     "id": "PSF-004993",
+    "ref": "pge:17696",
     "name": "imaihama flying school",
     "lat": 34.7944,
     "lon": 138.994,
@@ -439,6 +464,7 @@
   },
   {
     "id": "PSF-005293",
+    "ref": "pge:18351",
     "name": "Takayama East",
     "lat": 34.0595,
     "lon": 133.929,
@@ -456,6 +482,7 @@
   },
   {
     "id": "PSF-005367",
+    "ref": "pge:18617",
     "name": "Kanemi-dake",
     "lat": 31.6629,
     "lon": 131.079,
@@ -473,6 +500,7 @@
   },
   {
     "id": "PSF-005368",
+    "ref": "pge:18618",
     "name": "Aoshima",
     "lat": 31.7846,
     "lon": 131.487,
@@ -490,6 +518,7 @@
   },
   {
     "id": "PSF-005482",
+    "ref": "pge:18813",
     "name": "hiketa",
     "lat": 34.2025,
     "lon": 134.439,
@@ -507,6 +536,7 @@
   },
   {
     "id": "PSF-005483",
+    "ref": "pge:18814",
     "name": "nio",
     "lat": 34.1787,
     "lon": 133.666,
@@ -524,6 +554,7 @@
   },
   {
     "id": "PSF-005486",
+    "ref": "pge:18817",
     "name": "sora_park",
     "lat": 34.6683,
     "lon": 137.186,
@@ -541,6 +572,7 @@
   },
   {
     "id": "PSF-005518",
+    "ref": "pge:18852",
     "name": "katsuura",
     "lat": 33.9576,
     "lon": 134.504,
@@ -560,6 +592,7 @@
   },
   {
     "id": "PSF-005551",
+    "ref": "pge:18890",
     "name": "misuji",
     "lat": 34.8047,
     "lon": 138.996,
@@ -580,6 +613,7 @@
   },
   {
     "id": "PSF-005628",
+    "ref": "pge:19249",
     "name": "Bisan-Seto",
     "lat": 34.3736,
     "lon": 133.823,
@@ -593,6 +627,7 @@
   },
   {
     "id": "PSF-005735",
+    "ref": "pge:19409",
     "name": "Okamidake (Ogami)",
     "lat": 37.2178,
     "lon": 138.497,
@@ -612,6 +647,7 @@
   },
   {
     "id": "PSF-005884",
+    "ref": "pge:19612",
     "name": "Soratopia (aka Ashio / Ashio-san)",
     "lat": 36.2753,
     "lon": 140.146,
@@ -632,6 +668,7 @@
   },
   {
     "id": "PSF-005897",
+    "ref": "pge:19628",
     "name": "Paratopia (Goryu)",
     "lat": 36.6614,
     "lon": 137.816,
@@ -651,6 +688,7 @@
   },
   {
     "id": "PSF-006116",
+    "ref": "pge:19984",
     "name": "Komenoyama",
     "lat": 33.606,
     "lon": 130.54,
@@ -668,6 +706,7 @@
   },
   {
     "id": "PSF-006278",
+    "ref": "pge:20829",
     "name": "Matsuda_Yamazaki",
     "lat": 35.3615,
     "lon": 139.134,
@@ -684,6 +723,7 @@
   },
   {
     "id": "PSF-006294",
+    "ref": "pge:21171",
     "name": "JMB Tateyama",
     "lat": 36.5617,
     "lon": 137.426,
@@ -699,6 +739,7 @@
   },
   {
     "id": "PSF-006306",
+    "ref": "pge:21214",
     "name": "Hiyama",
     "lat": 33.5982,
     "lon": 130.161,
@@ -718,6 +759,7 @@
   },
   {
     "id": "PSF-006307",
+    "ref": "pge:21215",
     "name": "Ikedayama (Mt.Ikeda)",
     "lat": 35.4387,
     "lon": 136.528,
@@ -735,6 +777,7 @@
   },
   {
     "id": "PSF-006308",
+    "ref": "pge:21217",
     "name": "Tottori -Sakyu (Sanddunes)",
     "lat": 35.5453,
     "lon": 134.231,
@@ -750,6 +793,7 @@
   },
   {
     "id": "PSF-006328",
+    "ref": "pge:21258",
     "name": "Kinokawa Flight Park",
     "lat": 34.2418,
     "lon": 135.382,
@@ -768,6 +812,7 @@
   },
   {
     "id": "PSF-006384",
+    "ref": "pge:21324",
     "name": "Chunichi-Paraglider",
     "lat": 35.2842,
     "lon": 137.57,
@@ -781,6 +826,7 @@
   },
   {
     "id": "PSF-006385",
+    "ref": "pge:21325",
     "name": "Ikenodaira",
     "lat": 35.2824,
     "lon": 137.56,
@@ -794,6 +840,7 @@
   },
   {
     "id": "PSF-006386",
+    "ref": "pge:21326",
     "name": "Meihan motor-para site",
     "lat": 34.8704,
     "lon": 136.869,
@@ -807,6 +854,7 @@
   },
   {
     "id": "PSF-006387",
+    "ref": "pge:21327",
     "name": "Matsunaze motor-para site",
     "lat": 34.6032,
     "lon": 136.584,
@@ -820,6 +868,7 @@
   },
   {
     "id": "PSF-006388",
+    "ref": "pge:21328",
     "name": "Embetsu",
     "lat": 44.7105,
     "lon": 141.787,
@@ -833,6 +882,7 @@
   },
   {
     "id": "PSF-006390",
+    "ref": "pge:21330",
     "name": "Ōshika-mura",
     "lat": 35.5537,
     "lon": 138.079,
@@ -846,6 +896,7 @@
   },
   {
     "id": "PSF-006394",
+    "ref": "pge:21334",
     "name": "Tsukechi",
     "lat": 35.6798,
     "lon": 137.435,
@@ -859,6 +910,7 @@
   },
   {
     "id": "PSF-006398",
+    "ref": "pge:21338",
     "name": "Rusutsu",
     "lat": 42.7515,
     "lon": 140.887,
@@ -874,6 +926,7 @@
   },
   {
     "id": "PSF-006399",
+    "ref": "pge:21339",
     "name": "Bihoro Tōge",
     "lat": 43.6497,
     "lon": 144.252,
@@ -887,6 +940,7 @@
   },
   {
     "id": "PSF-006400",
+    "ref": "pge:21340",
     "name": "Obira",
     "lat": 44.0647,
     "lon": 141.665,
@@ -900,6 +954,7 @@
   },
   {
     "id": "PSF-006402",
+    "ref": "pge:21342",
     "name": "ISE-SHIMA Skyline",
     "lat": 34.4625,
     "lon": 136.792,
@@ -913,6 +968,7 @@
   },
   {
     "id": "PSF-006404",
+    "ref": "pge:21344",
     "name": "Mt.Nukkibetsu",
     "lat": 42.7096,
     "lon": 140.924,
@@ -931,6 +987,7 @@
   },
   {
     "id": "PSF-006405",
+    "ref": "pge:21345",
     "name": "Niseko",
     "lat": 42.8638,
     "lon": 140.66,
@@ -947,6 +1004,7 @@
   },
   {
     "id": "PSF-006410",
+    "ref": "pge:21350",
     "name": "Hiraodai",
     "lat": 33.756,
     "lon": 130.914,
@@ -964,6 +1022,7 @@
   },
   {
     "id": "PSF-006619",
+    "ref": "pge:21583",
     "name": "Harayama",
     "lat": 36.1274,
     "lon": 137.223,
@@ -977,6 +1036,7 @@
   },
   {
     "id": "PSF-006675",
+    "ref": "pge:21657",
     "name": "Yūbetsu",
     "lat": 44.2389,
     "lon": 143.596,
@@ -990,6 +1050,7 @@
   },
   {
     "id": "PSF-006676",
+    "ref": "pge:21658",
     "name": "Horonobe",
     "lat": 45.0196,
     "lon": 141.854,
@@ -1003,6 +1064,7 @@
   },
   {
     "id": "PSF-006680",
+    "ref": "pge:21662",
     "name": "HAMANAKO FLIGHT PARK",
     "lat": 34.8202,
     "lon": 137.598,
@@ -1020,6 +1082,7 @@
   },
   {
     "id": "PSF-006695",
+    "ref": "pge:21677",
     "name": "Kamui",
     "lat": 43.6951,
     "lon": 142.203,
@@ -1033,6 +1096,7 @@
   },
   {
     "id": "PSF-006709",
+    "ref": "pge:21691",
     "name": "Pippu",
     "lat": 43.9364,
     "lon": 142.507,
@@ -1046,6 +1110,7 @@
   },
   {
     "id": "PSF-006774",
+    "ref": "pge:21764",
     "name": "Gorinsawa",
     "lat": 41.9428,
     "lon": 140.138,
@@ -1059,6 +1124,7 @@
   },
   {
     "id": "PSF-006775",
+    "ref": "pge:21765",
     "name": "Niyama Kōgen Ski Jō",
     "lat": 41.9379,
     "lon": 140.626,
@@ -1072,6 +1138,7 @@
   },
   {
     "id": "PSF-006801",
+    "ref": "pge:21793",
     "name": "Shiraoi",
     "lat": 42.5294,
     "lon": 141.324,
@@ -1085,6 +1152,7 @@
   },
   {
     "id": "PSF-006802",
+    "ref": "pge:21794",
     "name": "Akaigawa",
     "lat": 43.1036,
     "lon": 140.845,
@@ -1098,6 +1166,7 @@
   },
   {
     "id": "PSF-006856",
+    "ref": "pge:21854",
     "name": "Minou-Kankake  (Mino-Kankake)",
     "lat": 33.3061,
     "lon": 130.69,
@@ -1115,6 +1184,7 @@
   },
   {
     "id": "PSF-006857",
+    "ref": "pge:21855",
     "name": "Kagami-yama",
     "lat": 32.698,
     "lon": 131.759,
@@ -1133,6 +1203,7 @@
   },
   {
     "id": "PSF-006933",
+    "ref": "pge:21935",
     "name": "Shirataka",
     "lat": 38.2265,
     "lon": 140.165,
@@ -1153,6 +1224,7 @@
   },
   {
     "id": "PSF-007020",
+    "ref": "pge:22036",
     "name": "Dodaira S",
     "lat": 35.9977,
     "lon": 139.187,
@@ -1168,6 +1240,7 @@
   },
   {
     "id": "PSF-007021",
+    "ref": "pge:22037",
     "name": "Dodaira W",
     "lat": 36.0066,
     "lon": 139.19,
@@ -1183,6 +1256,7 @@
   },
   {
     "id": "PSF-007034",
+    "ref": "pge:22050",
     "name": "nanamagari skypark",
     "lat": 34.9953,
     "lon": 138.051,
@@ -1202,6 +1276,7 @@
   },
   {
     "id": "PSF-007035",
+    "ref": "pge:22051",
     "name": "kawane skypark",
     "lat": 34.9558,
     "lon": 138.104,
@@ -1219,6 +1294,7 @@
   },
   {
     "id": "PSF-007040",
+    "ref": "pge:22059",
     "name": "Glideryama",
     "lat": 33.299,
     "lon": 130.637,
@@ -1235,6 +1311,7 @@
   },
   {
     "id": "PSF-007073",
+    "ref": "pge:22105",
     "name": "Furano",
     "lat": 43.3259,
     "lon": 142.331,
@@ -1248,6 +1325,7 @@
   },
   {
     "id": "PSF-007105",
+    "ref": "pge:22144",
     "name": "Kabuto-Iwa",
     "lat": 32.9723,
     "lon": 131.017,
@@ -1265,6 +1343,7 @@
   },
   {
     "id": "PSF-007350",
+    "ref": "pge:22424",
     "name": "Jam sport",
     "lat": 36.0744,
     "lon": 136.574,
@@ -1282,6 +1361,7 @@
   },
   {
     "id": "PSF-007351",
+    "ref": "pge:22425",
     "name": "Sky park Utsunomiya",
     "lat": 36.6181,
     "lon": 139.761,
@@ -1299,6 +1379,7 @@
   },
   {
     "id": "PSF-007352",
+    "ref": "pge:22426",
     "name": "Biwako sky park",
     "lat": 35.2088,
     "lon": 135.886,
@@ -1317,6 +1398,7 @@
   },
   {
     "id": "PSF-007353",
+    "ref": "pge:22427",
     "name": "Futami",
     "lat": 33.6551,
     "lon": 132.638,
@@ -1333,6 +1415,7 @@
   },
   {
     "id": "PSF-007354",
+    "ref": "pge:22428",
     "name": "Takane(JMB chubu)",
     "lat": 35.347,
     "lon": 137.628,
@@ -1350,6 +1433,7 @@
   },
   {
     "id": "PSF-007355",
+    "ref": "pge:22429",
     "name": "Katsuragi(Ohito)",
     "lat": 35.0099,
     "lon": 138.919,
@@ -1367,6 +1451,7 @@
   },
   {
     "id": "PSF-007364",
+    "ref": "pge:22438",
     "name": "Ohira Sky Club",
     "lat": 36.3607,
     "lon": 139.677,
@@ -1384,6 +1469,7 @@
   },
   {
     "id": "PSF-007390",
+    "ref": "pge:22465",
     "name": "Naganuma",
     "lat": 43.0607,
     "lon": 141.764,
@@ -1397,6 +1483,7 @@
   },
   {
     "id": "PSF-007391",
+    "ref": "pge:22466",
     "name": "Sakuraoka",
     "lat": 43.7885,
     "lon": 142.489,
@@ -1410,6 +1497,7 @@
   },
   {
     "id": "PSF-007415",
+    "ref": "pge:22490",
     "name": "Hatobukiyama",
     "lat": 35.8403,
     "lon": 137.881,
@@ -1426,6 +1514,7 @@
   },
   {
     "id": "PSF-007484",
+    "ref": "pge:22569",
     "name": "Mourai",
     "lat": 43.3022,
     "lon": 141.403,
@@ -1439,6 +1528,7 @@
   },
   {
     "id": "PSF-007832",
+    "ref": "pge:22967",
     "name": "Lake Kisaki / Kizaki / 木崎湖フライトパーク/",
     "lat": 36.5713,
     "lon": 137.823,
@@ -1452,6 +1542,7 @@
   },
   {
     "id": "PSF-007973",
+    "ref": "pge:23117",
     "name": "Area Tanzawa",
     "lat": 35.4269,
     "lon": 139.205,
@@ -1465,6 +1556,7 @@
   },
   {
     "id": "PSF-007974",
+    "ref": "pge:23118",
     "name": "Area Tanzawa",
     "lat": 35.4277,
     "lon": 139.198,
@@ -1478,6 +1570,7 @@
   },
   {
     "id": "PSF-008039",
+    "ref": "pge:23187",
     "name": "Fujimi",
     "lat": 35.9089,
     "lon": 138.185,
@@ -1491,6 +1584,7 @@
   },
   {
     "id": "PSF-008066",
+    "ref": "pge:23214",
     "name": "Kamae",
     "lat": 32.8101,
     "lon": 131.967,
@@ -1508,6 +1602,7 @@
   },
   {
     "id": "PSF-008079",
+    "ref": "pge:23227",
     "name": "Nishiharadai",
     "lat": 31.1786,
     "lon": 130.776,
@@ -1525,6 +1620,7 @@
   },
   {
     "id": "PSF-008127",
+    "ref": "pge:23282",
     "name": "Kawagutiko",
     "lat": 35.5355,
     "lon": 138.733,
@@ -1542,6 +1638,7 @@
   },
   {
     "id": "PSF-008618",
+    "ref": "pge:23849",
     "name": "Raizan",
     "lat": 33.4803,
     "lon": 130.218,
@@ -1555,6 +1652,7 @@
   },
   {
     "id": "PSF-008632",
+    "ref": "pge:23868",
     "name": "Miyatayama",
     "lat": 31.5857,
     "lon": 131.079,
@@ -1573,6 +1671,7 @@
   },
   {
     "id": "PSF-008633",
+    "ref": "pge:23869",
     "name": "Kamegaoka",
     "lat": 31.3585,
     "lon": 130.212,
@@ -1591,6 +1690,7 @@
   },
   {
     "id": "PSF-008634",
+    "ref": "pge:23870",
     "name": "Uomidake",
     "lat": 31.269,
     "lon": 130.657,
@@ -1608,6 +1708,7 @@
   },
   {
     "id": "PSF-008635",
+    "ref": "pge:23871",
     "name": "Komenoyama",
     "lat": 32.42,
     "lon": 131.664,
@@ -1625,6 +1726,7 @@
   },
   {
     "id": "PSF-008636",
+    "ref": "pge:23872",
     "name": "Tsuno-winery",
     "lat": 32.2743,
     "lon": 131.552,
@@ -1642,6 +1744,7 @@
   },
   {
     "id": "PSF-008637",
+    "ref": "pge:23873",
     "name": "Kamegaoka-ura",
     "lat": 31.355,
     "lon": 130.212,
@@ -1659,6 +1762,7 @@
   },
   {
     "id": "PSF-008638",
+    "ref": "pge:23874",
     "name": "Taemon",
     "lat": 31.545,
     "lon": 131.333,
@@ -1676,6 +1780,7 @@
   },
   {
     "id": "PSF-008639",
+    "ref": "pge:23875",
     "name": "Ranguino",
     "lat": 31.6641,
     "lon": 131.341,
@@ -1693,6 +1798,7 @@
   },
   {
     "id": "PSF-008640",
+    "ref": "pge:23876",
     "name": "Batou",
     "lat": 32.0165,
     "lon": 130.75,
@@ -1710,6 +1816,7 @@
   },
   {
     "id": "PSF-008641",
+    "ref": "pge:23877",
     "name": "Hyakunodai",
     "lat": 28.2998,
     "lon": 129.974,
@@ -1727,6 +1834,7 @@
   },
   {
     "id": "PSF-008642",
+    "ref": "pge:23881",
     "name": "You",
     "lat": 28.5199,
     "lon": 129.691,
@@ -1740,6 +1848,7 @@
   },
   {
     "id": "PSF-008643",
+    "ref": "pge:23882",
     "name": "Bira",
     "lat": 28.4072,
     "lon": 129.632,
@@ -1753,6 +1862,7 @@
   },
   {
     "id": "PSF-008644",
+    "ref": "pge:23883",
     "name": "Ankyaba",
     "lat": 28.4758,
     "lon": 129.62,
@@ -1766,6 +1876,7 @@
   },
   {
     "id": "PSF-008645",
+    "ref": "pge:23884",
     "name": "Rantya",
     "lat": 28.4048,
     "lon": 129.613,
@@ -1779,6 +1890,7 @@
   },
   {
     "id": "PSF-008646",
+    "ref": "pge:23887",
     "name": "Sani",
     "lat": 28.5296,
     "lon": 129.688,
@@ -1792,6 +1904,7 @@
   },
   {
     "id": "PSF-008647",
+    "ref": "pge:23888",
     "name": "Taragi",
     "lat": 32.2338,
     "lon": 130.969,
@@ -1805,6 +1918,7 @@
   },
   {
     "id": "PSF-008648",
+    "ref": "pge:23889",
     "name": "Jingaku",
     "lat": 31.484,
     "lon": 131.136,
@@ -1818,6 +1932,7 @@
   },
   {
     "id": "PSF-008679",
+    "ref": "pge:23920",
     "name": "KotohiraSkyPark",
     "lat": 32.9463,
     "lon": 129.991,
@@ -1831,6 +1946,7 @@
   },
   {
     "id": "PSF-010087",
+    "ref": "pge:7321",
     "name": "Nakijin",
     "lat": 26.6956,
     "lon": 127.978,
@@ -1848,6 +1964,7 @@
   },
   {
     "id": "PSF-010091",
+    "ref": "pge:7327",
     "name": "Kayo",
     "lat": 26.5526,
     "lon": 128.115,
@@ -1864,6 +1981,7 @@
   },
   {
     "id": "PSF-010119",
+    "ref": "pge:7365",
     "name": "Ibaraki (Air Park COO)",
     "lat": 36.2696,
     "lon": 140.141,
@@ -1880,6 +1998,7 @@
   },
   {
     "id": "PSF-010131",
+    "ref": "pge:7380",
     "name": "Teniya",
     "lat": 26.5783,
     "lon": 128.139,
@@ -1897,6 +2016,7 @@
   },
   {
     "id": "PSF-011316",
+    "ref": "pge:9749",
     "name": "Paraglider Park Aoki",
     "lat": 36.3763,
     "lon": 138.096,
@@ -1915,6 +2035,7 @@
   },
   {
     "id": "PSF-011317",
+    "ref": "pge:9750",
     "name": "Kameoka -Birds -Air Park Kyoto",
     "lat": 35.0737,
     "lon": 135.582,
@@ -1932,6 +2053,7 @@
   },
   {
     "id": "PSF-011318",
+    "ref": "pge:9751",
     "name": "Asagiri -DK Skygym",
     "lat": 35.4129,
     "lon": 138.57,
@@ -1950,6 +2072,7 @@
   },
   {
     "id": "PSF-011399",
+    "ref": "pge:9849",
     "name": "Minakami ('Grand-Volee')",
     "lat": 36.6832,
     "lon": 139.018,
@@ -1967,6 +2090,7 @@
   },
   {
     "id": "PSF-011416",
+    "ref": "pge:9872",
     "name": "Parafield",
     "lat": 35.0545,
     "lon": 139.033,

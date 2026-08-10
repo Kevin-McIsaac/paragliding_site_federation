@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000764",
+    "ref": "pge:10897",
     "name": "College Savannah",
     "lat": 13.1824,
     "lon": -59.458,
@@ -16,6 +17,7 @@
   },
   {
     "id": "PSF-000765",
+    "ref": "pge:10898",
     "name": "Mount Pleasant",
     "lat": 13.16,
     "lon": -59.4707,

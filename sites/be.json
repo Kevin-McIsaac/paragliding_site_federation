@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000040",
+    "ref": "pge:10050",
     "name": "Terril de Hornu",
     "lat": 50.4244,
     "lon": 3.8186,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000589",
+    "ref": "pge:10691",
     "name": "Prayon",
     "lat": 50.576,
     "lon": 5.656,
@@ -32,22 +34,8 @@
     "url": "https://www.paraglidingearth.com/?site=10691"
   },
   {
-    "id": "PSF-000590",
-    "name": "Olne",
-    "lat": 50.5774,
-    "lon": 5.7587,
-    "wind": {
-      "S": 2
-    },
-    "altitude": 228.0,
-    "sources": {
-      "pge": "10692"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=10692"
-  },
-  {
     "id": "PSF-000591",
+    "ref": "pge:10693",
     "name": "La Roche - Corimont",
     "lat": 50.179,
     "lon": 5.5687,
@@ -64,6 +52,7 @@
   },
   {
     "id": "PSF-000592",
+    "ref": "pge:10694",
     "name": "Marcourt",
     "lat": 50.2159,
     "lon": 5.51634,
@@ -80,6 +69,7 @@
   },
   {
     "id": "PSF-000593",
+    "ref": "pge:10695",
     "name": "Maboge - Les Crestelles",
     "lat": 50.1743,
     "lon": 5.6408,
@@ -95,6 +85,7 @@
   },
   {
     "id": "PSF-000594",
+    "ref": "pge:10697",
     "name": "Terril du Levant",
     "lat": 50.4361,
     "lon": 3.9023,
@@ -111,6 +102,7 @@
   },
   {
     "id": "PSF-000595",
+    "ref": "pge:10698",
     "name": "Terril du Roton (Farciennes)",
     "lat": 50.4417,
     "lon": 4.541,
@@ -127,6 +119,7 @@
   },
   {
     "id": "PSF-000596",
+    "ref": "pge:10699",
     "name": "Beauraing",
     "lat": 50.1131,
     "lon": 5.0096,
@@ -144,6 +137,7 @@
   },
   {
     "id": "PSF-000598",
+    "ref": "pge:10700",
     "name": "Avister",
     "lat": 50.5473,
     "lon": 5.5715,
@@ -160,6 +154,7 @@
   },
   {
     "id": "PSF-001570",
+    "ref": "pge:12004",
     "name": "Bredene",
     "lat": 51.2476,
     "lon": 2.95415,
@@ -175,23 +170,8 @@
     "url": "https://www.paraglidingearth.com/?site=12004"
   },
   {
-    "id": "PSF-001729",
-    "name": "Terril de Strépy-Bracquegnies",
-    "lat": 50.4568,
-    "lon": 4.1334,
-    "wind": {
-      "N": 1,
-      "SW": 2
-    },
-    "altitude": 133.0,
-    "sources": {
-      "pge": "12278"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=12278"
-  },
-  {
     "id": "PSF-001862",
+    "ref": "pge:12518",
     "name": "Beauvechain",
     "lat": 50.7534,
     "lon": 4.78363,
@@ -210,6 +190,7 @@
   },
   {
     "id": "PSF-002782",
+    "ref": "pge:14086",
     "name": "Boom - De Schorre",
     "lat": 51.0927,
     "lon": 4.38535,
@@ -227,58 +208,8 @@
     "url": "https://www.paraglidingearth.com/?site=14086"
   },
   {
-    "id": "PSF-003088",
-    "name": "Oostduinkerke",
-    "lat": 51.1279,
-    "lon": 2.6515,
-    "wind": {
-      "N": 1,
-      "W": 1,
-      "NW": 2
-    },
-    "altitude": 8.0,
-    "sources": {
-      "pge": "14533"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=14533"
-  },
-  {
-    "id": "PSF-003102",
-    "name": "Terril d'Anderlues",
-    "lat": 50.4095,
-    "lon": 4.296,
-    "wind": {
-      "NE": 2,
-      "SE": 1,
-      "S": 2,
-      "NW": 2
-    },
-    "altitude": 240.0,
-    "sources": {
-      "pge": "14554"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=14554"
-  },
-  {
-    "id": "PSF-003105",
-    "name": "Knokke - Het Zoute",
-    "lat": 51.3638,
-    "lon": 3.338,
-    "wind": {
-      "N": 2,
-      "NW": 2
-    },
-    "altitude": 3.0,
-    "sources": {
-      "pge": "14557"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=14557"
-  },
-  {
     "id": "PSF-003109",
+    "ref": "pge:14565",
     "name": "Waremme",
     "lat": 50.677,
     "lon": 5.2575,
@@ -293,50 +224,8 @@
     "url": "https://www.paraglidingearth.com/?site=14565"
   },
   {
-    "id": "PSF-004043",
-    "name": "Sommethonne",
-    "lat": 49.5709,
-    "lon": 5.4588,
-    "wind": {
-      "N": 1,
-      "W": 1,
-      "NW": 2
-    },
-    "altitude": 319.0,
-    "sources": {
-      "pge": "16061"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=16061"
-  },
-  {
-    "id": "PSF-004537",
-    "name": "Büllingen",
-    "lat": 50.4165,
-    "lon": 6.27328,
-    "wind": {},
-    "altitude": 622.0,
-    "sources": {
-      "pge": "16874"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=16874"
-  },
-  {
-    "id": "PSF-004617",
-    "name": "Menil",
-    "lat": 50.2859,
-    "lon": 5.84078,
-    "wind": {},
-    "altitude": 472.0,
-    "sources": {
-      "pge": "17011"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=17011"
-  },
-  {
     "id": "PSF-004683",
+    "ref": "pge:17124",
     "name": "Maillen",
     "lat": 50.3752,
     "lon": 4.9265,
@@ -358,6 +247,7 @@
   },
   {
     "id": "PSF-005950",
+    "ref": "pge:19709",
     "name": "Ouren",
     "lat": 50.142,
     "lon": 6.12637,
@@ -375,6 +265,7 @@
   },
   {
     "id": "PSF-008728",
+    "ref": "pge:23971",
     "name": "Coo S",
     "lat": 50.396,
     "lon": 5.88809,
@@ -391,6 +282,7 @@
   },
   {
     "id": "PSF-009858",
+    "ref": "pge:7020",
     "name": "Coo E",
     "lat": 50.399,
     "lon": 5.88747,
@@ -408,6 +300,7 @@
   },
   {
     "id": "PSF-010037",
+    "ref": "pge:7253",
     "name": "Les 7 Meuses",
     "lat": 50.3539,
     "lon": 4.8622,
@@ -425,6 +318,7 @@
   },
   {
     "id": "PSF-010066",
+    "ref": "pge:7297",
     "name": "Rochefort - Rond du Roi",
     "lat": 50.1497,
     "lon": 5.2061,

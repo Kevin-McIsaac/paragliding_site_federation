@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000513",
+    "ref": "pge:10597",
     "name": "Kanine",
     "lat": 40.4103,
     "lon": 19.5073,
@@ -19,6 +20,7 @@
   },
   {
     "id": "PSF-001208",
+    "ref": "pge:11442",
     "name": "Eagles-Sky",
     "lat": 40.3732,
     "lon": 19.5331,
@@ -38,6 +40,7 @@
   },
   {
     "id": "PSF-002089",
+    "ref": "pge:12960",
     "name": "Drymades beach",
     "lat": 40.1598,
     "lon": 19.6034,
@@ -51,6 +54,7 @@
   },
   {
     "id": "PSF-002170",
+    "ref": "pge:13095",
     "name": "Dajti",
     "lat": 41.3692,
     "lon": 19.9039,
@@ -68,6 +72,7 @@
   },
   {
     "id": "PSF-002171",
+    "ref": "pge:13097",
     "name": "Dhermi",
     "lat": 40.1884,
     "lon": 19.5993,
@@ -85,6 +90,7 @@
   },
   {
     "id": "PSF-002172",
+    "ref": "pge:13098",
     "name": "Llogara Antenna",
     "lat": 40.1988,
     "lon": 19.5727,
@@ -103,6 +109,7 @@
   },
   {
     "id": "PSF-002699",
+    "ref": "pge:13962",
     "name": "Pusi Thate",
     "lat": 42.116,
     "lon": 20.3927,
@@ -116,6 +123,7 @@
   },
   {
     "id": "PSF-003651",
+    "ref": "pge:15448",
     "name": "korca take off",
     "lat": 40.6106,
     "lon": 20.8138,
@@ -132,6 +140,7 @@
   },
   {
     "id": "PSF-007801",
+    "ref": "pge:22932",
     "name": "Gjirokastra",
     "lat": 40.1726,
     "lon": 20.1696,
@@ -145,6 +154,7 @@
   },
   {
     "id": "PSF-007802",
+    "ref": "pge:22933",
     "name": "Gjirokastra",
     "lat": 40.1687,
     "lon": 20.1706,
@@ -158,6 +168,7 @@
   },
   {
     "id": "PSF-008584",
+    "ref": "pge:23811",
     "name": "Landeplatz",
     "lat": 40.1713,
     "lon": 19.5817,
@@ -171,6 +182,7 @@
   },
   {
     "id": "PSF-008585",
+    "ref": "pge:23812",
     "name": "Morgen Tomorr 2400m",
     "lat": 40.637,
     "lon": 20.1596,

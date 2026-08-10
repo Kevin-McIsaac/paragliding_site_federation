@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000003",
+    "ref": "pge:10003",
     "name": "Lirquen",
     "lat": -36.7039,
     "lon": -72.9756,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000004",
+    "ref": "pge:10004",
     "name": "Cerro Mariposa (Ma. Luisa)",
     "lat": -38.7165,
     "lon": -72.5929,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-000005",
+    "ref": "pge:10005",
     "name": "San Ignacio",
     "lat": -39.8387,
     "lon": -73.3991,
@@ -52,6 +55,7 @@
   },
   {
     "id": "PSF-000855",
+    "ref": "pge:11008",
     "name": "Cerro Challupen",
     "lat": -39.4777,
     "lon": -72.121,
@@ -68,6 +72,7 @@
   },
   {
     "id": "PSF-000856",
+    "ref": "pge:11009",
     "name": "Panguipulli",
     "lat": -39.6534,
     "lon": -72.1955,
@@ -85,6 +90,7 @@
   },
   {
     "id": "PSF-001036",
+    "ref": "pge:11219",
     "name": "Black Park",
     "lat": -33.3317,
     "lon": -70.6675,
@@ -100,6 +106,7 @@
   },
   {
     "id": "PSF-001254",
+    "ref": "pge:11494",
     "name": "Algarrobo Mirasol",
     "lat": -33.3286,
     "lon": -71.6483,
@@ -115,6 +122,7 @@
   },
   {
     "id": "PSF-001409",
+    "ref": "pge:11716",
     "name": "San Marcos",
     "lat": -21.0745,
     "lon": -70.1107,
@@ -131,6 +139,7 @@
   },
   {
     "id": "PSF-001450",
+    "ref": "pge:11786",
     "name": "Machalí",
     "lat": -34.1701,
     "lon": -70.6316,
@@ -144,6 +153,7 @@
   },
   {
     "id": "PSF-001527",
+    "ref": "pge:11937",
     "name": "Pavillon de Pica",
     "lat": -20.9133,
     "lon": -70.1329,
@@ -157,6 +167,7 @@
   },
   {
     "id": "PSF-002019",
+    "ref": "pge:12841",
     "name": "Tambillos",
     "lat": -30.2242,
     "lon": -71.1887,
@@ -170,6 +181,7 @@
   },
   {
     "id": "PSF-002020",
+    "ref": "pge:12842",
     "name": "Lomas del Rincon",
     "lat": -32.7341,
     "lon": -71.3573,
@@ -183,6 +195,7 @@
   },
   {
     "id": "PSF-002021",
+    "ref": "pge:12843",
     "name": "Cerro Grande",
     "lat": -29.9573,
     "lon": -71.2113,
@@ -196,6 +209,7 @@
   },
   {
     "id": "PSF-002022",
+    "ref": "pge:12844",
     "name": "Brillador",
     "lat": -29.829,
     "lon": -71.2146,
@@ -209,6 +223,7 @@
   },
   {
     "id": "PSF-002148",
+    "ref": "pge:13058",
     "name": "Pochoco Flypark",
     "lat": -33.358,
     "lon": -70.4528,
@@ -222,6 +237,7 @@
   },
   {
     "id": "PSF-002297",
+    "ref": "pge:13286",
     "name": "Maitencillo",
     "lat": -32.6782,
     "lon": -71.4422,
@@ -239,6 +255,7 @@
   },
   {
     "id": "PSF-002617",
+    "ref": "pge:13835",
     "name": "Machali",
     "lat": -34.0634,
     "lon": -70.5378,
@@ -252,6 +269,7 @@
   },
   {
     "id": "PSF-002623",
+    "ref": "pge:13842",
     "name": "Machali",
     "lat": -33.9859,
     "lon": -70.5547,
@@ -265,6 +283,7 @@
   },
   {
     "id": "PSF-002835",
+    "ref": "pge:14183",
     "name": "The 1200 - Antofagasta",
     "lat": -22.9622,
     "lon": -70.2679,
@@ -278,6 +297,7 @@
   },
   {
     "id": "PSF-003062",
+    "ref": "pge:14490",
     "name": "Parapente Tirua",
     "lat": -38.3626,
     "lon": -73.5018,
@@ -295,6 +315,7 @@
   },
   {
     "id": "PSF-003063",
+    "ref": "pge:14491",
     "name": "Cerro Maule",
     "lat": -38.8152,
     "lon": -73.4011,
@@ -311,6 +332,7 @@
   },
   {
     "id": "PSF-003161",
+    "ref": "pge:14649",
     "name": "Batuco",
     "lat": -33.1866,
     "lon": -70.8269,
@@ -327,6 +349,7 @@
   },
   {
     "id": "PSF-003202",
+    "ref": "pge:14737",
     "name": "San Antonio",
     "lat": -32.6978,
     "lon": -71.3541,
@@ -340,6 +363,7 @@
   },
   {
     "id": "PSF-003689",
+    "ref": "pge:15512",
     "name": "Los Pelados",
     "lat": -33.2786,
     "lon": -70.4803,
@@ -353,6 +377,7 @@
   },
   {
     "id": "PSF-003690",
+    "ref": "pge:15513",
     "name": "Colina",
     "lat": -33.1727,
     "lon": -70.6819,
@@ -372,6 +397,7 @@
   },
   {
     "id": "PSF-003691",
+    "ref": "pge:15514",
     "name": "Tunquen",
     "lat": -33.2953,
     "lon": -71.6514,
@@ -385,6 +411,7 @@
   },
   {
     "id": "PSF-003708",
+    "ref": "pge:15537",
     "name": "Cerro Del Padre",
     "lat": -38.4756,
     "lon": -71.3541,
@@ -402,6 +429,7 @@
   },
   {
     "id": "PSF-004116",
+    "ref": "pge:16145",
     "name": "Paposo",
     "lat": -25.0214,
     "lon": -70.4573,
@@ -415,6 +443,7 @@
   },
   {
     "id": "PSF-004140",
+    "ref": "pge:16185",
     "name": "1200",
     "lat": -22.8888,
     "lon": -70.2476,
@@ -428,6 +457,7 @@
   },
   {
     "id": "PSF-004156",
+    "ref": "pge:16228",
     "name": "El Manzano",
     "lat": -33.5816,
     "lon": -70.379,
@@ -441,6 +471,7 @@
   },
   {
     "id": "PSF-004172",
+    "ref": "pge:16258",
     "name": "Volcan Villarrica",
     "lat": -39.4184,
     "lon": -71.9403,
@@ -454,6 +485,7 @@
   },
   {
     "id": "PSF-004320",
+    "ref": "pge:16494",
     "name": "Termas de Puritama",
     "lat": -22.6859,
     "lon": -67.9877,
@@ -467,6 +499,7 @@
   },
   {
     "id": "PSF-004452",
+    "ref": "pge:16716",
     "name": "Medanoso Dune",
     "lat": -27.1311,
     "lon": -70.1525,
@@ -482,6 +515,7 @@
   },
   {
     "id": "PSF-004577",
+    "ref": "pge:16948",
     "name": "Casa Piedra",
     "lat": -38.4792,
     "lon": -73.5147,
@@ -499,6 +533,7 @@
   },
   {
     "id": "PSF-004647",
+    "ref": "pge:17073",
     "name": "Teno - San Isidro",
     "lat": -34.8314,
     "lon": -71.2275,
@@ -516,6 +551,7 @@
   },
   {
     "id": "PSF-004700",
+    "ref": "pge:17143",
     "name": "Calfuco",
     "lat": -39.7871,
     "lon": -73.3905,
@@ -533,6 +569,7 @@
   },
   {
     "id": "PSF-004708",
+    "ref": "pge:17196",
     "name": "Pimpineles",
     "lat": -23.5036,
     "lon": -70.3824,
@@ -546,6 +583,7 @@
   },
   {
     "id": "PSF-004710",
+    "ref": "pge:17200",
     "name": "Masito",
     "lat": -20.829,
     "lon": -70.1422,
@@ -559,6 +597,7 @@
   },
   {
     "id": "PSF-004745",
+    "ref": "pge:17263",
     "name": "Lagunillas",
     "lat": -33.607,
     "lon": -70.2823,
@@ -572,6 +611,7 @@
   },
   {
     "id": "PSF-004756",
+    "ref": "pge:17286",
     "name": "Cleta Hornos",
     "lat": -29.6082,
     "lon": -71.2874,
@@ -585,6 +625,7 @@
   },
   {
     "id": "PSF-004757",
+    "ref": "pge:17287",
     "name": "Duna Escuela frente brillador",
     "lat": -29.8388,
     "lon": -71.244,
@@ -598,6 +639,7 @@
   },
   {
     "id": "PSF-005073",
+    "ref": "pge:17852",
     "name": "Corralco",
     "lat": -38.3862,
     "lon": -71.5692,
@@ -615,6 +657,7 @@
   },
   {
     "id": "PSF-005497",
+    "ref": "pge:18829",
     "name": "Llico Bajo",
     "lat": -41.3036,
     "lon": -73.8428,
@@ -632,6 +675,7 @@
   },
   {
     "id": "PSF-005601",
+    "ref": "pge:19212",
     "name": "Los Verdes",
     "lat": -20.4268,
     "lon": -70.1276,
@@ -650,6 +694,7 @@
   },
   {
     "id": "PSF-005605",
+    "ref": "pge:19223",
     "name": "Cobija Beach",
     "lat": -22.5874,
     "lon": -70.2478,
@@ -663,6 +708,7 @@
   },
   {
     "id": "PSF-005606",
+    "ref": "pge:19224",
     "name": "Alto Caleta Buena North",
     "lat": -19.8688,
     "lon": -70.118,
@@ -676,6 +722,7 @@
   },
   {
     "id": "PSF-005712",
+    "ref": "pge:19382",
     "name": "Talca-Pencahue",
     "lat": -35.3625,
     "lon": -71.7273,
@@ -698,6 +745,7 @@
   },
   {
     "id": "PSF-005848",
+    "ref": "pge:19559",
     "name": "Conaripe",
     "lat": -39.5188,
     "lon": -72.0342,
@@ -716,6 +764,7 @@
   },
   {
     "id": "PSF-005926",
+    "ref": "pge:19679",
     "name": "Domos",
     "lat": -33.3006,
     "lon": -70.5134,
@@ -732,6 +781,7 @@
   },
   {
     "id": "PSF-005946",
+    "ref": "pge:19704",
     "name": "La Piramide",
     "lat": -33.3814,
     "lon": -70.6081,
@@ -749,6 +799,7 @@
   },
   {
     "id": "PSF-006009",
+    "ref": "pge:19782",
     "name": "Truful",
     "lat": -38.8757,
     "lon": -71.6485,
@@ -767,6 +818,7 @@
   },
   {
     "id": "PSF-006047",
+    "ref": "pge:19825",
     "name": "Playa Blanca",
     "lat": -37.0585,
     "lon": -73.141,
@@ -785,6 +837,7 @@
   },
   {
     "id": "PSF-006069",
+    "ref": "pge:19853",
     "name": "Cerro Cochento",
     "lat": -37.704,
     "lon": -72.3011,
@@ -802,6 +855,7 @@
   },
   {
     "id": "PSF-006083",
+    "ref": "pge:19929",
     "name": "Club de Planeadores Vitacura",
     "lat": -32.8029,
     "lon": -70.5192,
@@ -815,6 +869,7 @@
   },
   {
     "id": "PSF-006176",
+    "ref": "pge:20049",
     "name": "Cerro Provincia",
     "lat": -33.4252,
     "lon": -70.4393,
@@ -828,6 +883,7 @@
   },
   {
     "id": "PSF-006201",
+    "ref": "pge:20077",
     "name": "Franciscano",
     "lat": -33.3199,
     "lon": -70.2626,
@@ -841,6 +897,7 @@
   },
   {
     "id": "PSF-006295",
+    "ref": "pge:21175",
     "name": "El Loa Ridge 550",
     "lat": -21.3704,
     "lon": -70.0604,
@@ -854,6 +911,7 @@
   },
   {
     "id": "PSF-006447",
+    "ref": "pge:21389",
     "name": "Cerro el Carmen al Almanecer -'el Alamain'",
     "lat": -33.3701,
     "lon": -70.6185,
@@ -870,6 +928,7 @@
   },
   {
     "id": "PSF-006647",
+    "ref": "pge:21623",
     "name": "Cerro El Almendro",
     "lat": -32.6707,
     "lon": -70.5711,
@@ -883,6 +942,7 @@
   },
   {
     "id": "PSF-006722",
+    "ref": "pge:21706",
     "name": "Parapente Pucon",
     "lat": -39.2668,
     "lon": -71.9749,
@@ -900,6 +960,7 @@
   },
   {
     "id": "PSF-006762",
+    "ref": "pge:21752",
     "name": "Los Mantos",
     "lat": -32.6736,
     "lon": -70.9012,
@@ -913,6 +974,7 @@
   },
   {
     "id": "PSF-006763",
+    "ref": "pge:21753",
     "name": "Almendral",
     "lat": -32.7404,
     "lon": -70.682,
@@ -926,6 +988,7 @@
   },
   {
     "id": "PSF-006764",
+    "ref": "pge:21754",
     "name": "Morro Saavedra",
     "lat": -32.9577,
     "lon": -70.6987,
@@ -939,6 +1002,7 @@
   },
   {
     "id": "PSF-007261",
+    "ref": "pge:22324",
     "name": "Alto Hospicio",
     "lat": -20.2736,
     "lon": -70.1103,
@@ -956,6 +1020,7 @@
   },
   {
     "id": "PSF-007292",
+    "ref": "pge:22359",
     "name": "Natales",
     "lat": -52.0953,
     "lon": -72.3604,
@@ -969,6 +1034,7 @@
   },
   {
     "id": "PSF-007463",
+    "ref": "pge:22544",
     "name": "Cerro de entrenamiento",
     "lat": -32.6745,
     "lon": -70.6849,
@@ -982,6 +1048,7 @@
   },
   {
     "id": "PSF-007573",
+    "ref": "pge:22668",
     "name": "Lonquén",
     "lat": -33.7097,
     "lon": -70.8421,
@@ -998,6 +1065,7 @@
   },
   {
     "id": "PSF-008110",
+    "ref": "pge:23262",
     "name": "Laguna Seca",
     "lat": -32.9045,
     "lon": -71.2018,
@@ -1011,6 +1079,7 @@
   },
   {
     "id": "PSF-008111",
+    "ref": "pge:23263",
     "name": "Despegue 1 Pataguas",
     "lat": -32.9016,
     "lon": -71.1872,
@@ -1024,6 +1093,7 @@
   },
   {
     "id": "PSF-008558",
+    "ref": "pge:23782",
     "name": "Jahuel",
     "lat": -32.6758,
     "lon": -70.593,
@@ -1037,6 +1107,7 @@
   },
   {
     "id": "PSF-008559",
+    "ref": "pge:23783",
     "name": "pata de Guanaco",
     "lat": -32.704,
     "lon": -70.5948,
@@ -1050,6 +1121,7 @@
   },
   {
     "id": "PSF-009576",
+    "ref": "pge:6650",
     "name": "Cuesta Barriga",
     "lat": -33.5259,
     "lon": -70.9239,
@@ -1063,6 +1135,7 @@
   },
   {
     "id": "PSF-009578",
+    "ref": "pge:6652",
     "name": "Pisagua",
     "lat": -19.5932,
     "lon": -70.2005,
@@ -1076,6 +1149,7 @@
   },
   {
     "id": "PSF-009579",
+    "ref": "pge:6654",
     "name": "Iquique - Clavijo",
     "lat": -20.2427,
     "lon": -70.1184,
@@ -1089,6 +1163,7 @@
   },
   {
     "id": "PSF-009612",
+    "ref": "pge:6690",
     "name": "Iquique - Alto Hospicio",
     "lat": -20.2819,
     "lon": -70.1076,
@@ -1106,6 +1181,7 @@
   },
   {
     "id": "PSF-009634",
+    "ref": "pge:6714",
     "name": "Patillos",
     "lat": -20.7391,
     "lon": -70.1559,
@@ -1121,6 +1197,7 @@
   },
   {
     "id": "PSF-009637",
+    "ref": "pge:6717",
     "name": "Farellones",
     "lat": -33.3493,
     "lon": -70.3058,
@@ -1137,6 +1214,7 @@
   },
   {
     "id": "PSF-009638",
+    "ref": "pge:6718",
     "name": "Santuario de la Naturaleza",
     "lat": -33.3139,
     "lon": -70.4754,
@@ -1150,6 +1228,7 @@
   },
   {
     "id": "PSF-009639",
+    "ref": "pge:6719",
     "name": "Vizcachas",
     "lat": -33.5906,
     "lon": -70.4971,
@@ -1167,6 +1246,7 @@
   },
   {
     "id": "PSF-009701",
+    "ref": "pge:6806",
     "name": "Rancagua",
     "lat": -34.2199,
     "lon": -70.6223,
@@ -1180,6 +1260,7 @@
   },
   {
     "id": "PSF-009796",
+    "ref": "pge:6934",
     "name": "Iquique - Palo Buque",
     "lat": -20.3833,
     "lon": -70.1536,
@@ -1198,6 +1279,7 @@
   },
   {
     "id": "PSF-011506",
+    "ref": "pge:9997",
     "name": "Tome",
     "lat": -36.6402,
     "lon": -72.9584,
@@ -1215,6 +1297,7 @@
   },
   {
     "id": "PSF-011507",
+    "ref": "pge:9998",
     "name": "Coliumo",
     "lat": -36.5479,
     "lon": -72.9744,

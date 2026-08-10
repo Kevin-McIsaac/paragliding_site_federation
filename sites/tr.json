@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000085",
+    "ref": "pge:10102",
     "name": "Gurle",
     "lat": 40.3855,
     "lon": 29.3208,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000100",
+    "ref": "pge:10120",
     "name": "cengiz arsu kalkýs pisti",
     "lat": 40.0,
     "lon": 35.0,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-000367",
+    "ref": "pge:10419",
     "name": "Bayramoren south",
     "lat": 40.9316,
     "lon": 33.2755,
@@ -55,6 +58,7 @@
   },
   {
     "id": "PSF-000449",
+    "ref": "pge:10514",
     "name": "Karagedik",
     "lat": 36.7078,
     "lon": 29.1521,
@@ -70,6 +74,7 @@
   },
   {
     "id": "PSF-000484",
+    "ref": "pge:10559",
     "name": "Olympos-Tahtali",
     "lat": 36.5368,
     "lon": 30.442,
@@ -90,6 +95,7 @@
   },
   {
     "id": "PSF-000485",
+    "ref": "pge:10560",
     "name": "Falez",
     "lat": 36.8841,
     "lon": 30.6803,
@@ -105,6 +111,7 @@
   },
   {
     "id": "PSF-000486",
+    "ref": "pge:10561",
     "name": "Begis",
     "lat": 36.8955,
     "lon": 30.0826,
@@ -122,6 +129,7 @@
   },
   {
     "id": "PSF-000487",
+    "ref": "pge:10562",
     "name": "Alanya",
     "lat": 36.5673,
     "lon": 31.9783,
@@ -138,6 +146,7 @@
   },
   {
     "id": "PSF-000488",
+    "ref": "pge:10563",
     "name": "Tunek tepe",
     "lat": 36.8225,
     "lon": 30.5819,
@@ -154,6 +163,7 @@
   },
   {
     "id": "PSF-000489",
+    "ref": "pge:10564",
     "name": "Adrasan",
     "lat": 36.2812,
     "lon": 30.4349,
@@ -170,6 +180,7 @@
   },
   {
     "id": "PSF-000508",
+    "ref": "pge:10590",
     "name": "Catlakkaya",
     "lat": 40.1393,
     "lon": 29.1145,
@@ -187,6 +198,7 @@
   },
   {
     "id": "PSF-000698",
+    "ref": "pge:10822",
     "name": "INONU ESKISEHIR",
     "lat": 39.811,
     "lon": 30.1141,
@@ -204,6 +216,7 @@
   },
   {
     "id": "PSF-000720",
+    "ref": "pge:10848",
     "name": "Goveclik",
     "lat": 37.769,
     "lon": 28.9515,
@@ -224,6 +237,7 @@
   },
   {
     "id": "PSF-000753",
+    "ref": "pge:10885",
     "name": "Dikmen",
     "lat": 40.6657,
     "lon": 30.8986,
@@ -237,6 +251,7 @@
   },
   {
     "id": "PSF-000886",
+    "ref": "pge:11046",
     "name": "Badem Agaci",
     "lat": 37.2219,
     "lon": 30.4736,
@@ -255,6 +270,7 @@
   },
   {
     "id": "PSF-000924",
+    "ref": "pge:11085",
     "name": "Kirtik 300",
     "lat": 38.6021,
     "lon": 27.4608,
@@ -272,6 +288,7 @@
   },
   {
     "id": "PSF-000926",
+    "ref": "pge:11087",
     "name": "Karahuyuk Dagi-Akhisar",
     "lat": 38.881,
     "lon": 27.8134,
@@ -288,6 +305,7 @@
   },
   {
     "id": "PSF-000927",
+    "ref": "pge:11088",
     "name": "Kale-Derekoy",
     "lat": 38.9224,
     "lon": 27.6738,
@@ -305,6 +323,7 @@
   },
   {
     "id": "PSF-001049",
+    "ref": "pge:11236",
     "name": "Alanya Sunway air sports",
     "lat": 36.5765,
     "lon": 31.9706,
@@ -320,6 +339,7 @@
   },
   {
     "id": "PSF-001110",
+    "ref": "pge:11324",
     "name": "Karaburun",
     "lat": 41.3413,
     "lon": 28.6735,
@@ -337,6 +357,7 @@
   },
   {
     "id": "PSF-001174",
+    "ref": "pge:11402",
     "name": "Ayas",
     "lat": 40.0311,
     "lon": 32.3288,
@@ -356,6 +377,7 @@
   },
   {
     "id": "PSF-001386",
+    "ref": "pge:11662",
     "name": "Iskenderun",
     "lat": 36.5645,
     "lon": 36.2391,
@@ -375,6 +397,7 @@
   },
   {
     "id": "PSF-001392",
+    "ref": "pge:11694",
     "name": "Ahir Mountain",
     "lat": 37.627,
     "lon": 36.8712,
@@ -388,6 +411,7 @@
   },
   {
     "id": "PSF-001410",
+    "ref": "pge:11718",
     "name": "Adana Kabasakal - Ruzgarli Tepe",
     "lat": 37.079,
     "lon": 35.2143,
@@ -407,6 +431,7 @@
   },
   {
     "id": "PSF-001425",
+    "ref": "pge:11737",
     "name": "Merkesler Hill",
     "lat": 40.8901,
     "lon": 31.7819,
@@ -420,6 +445,7 @@
   },
   {
     "id": "PSF-001432",
+    "ref": "pge:11750",
     "name": "Cele Tepe",
     "lat": 40.86,
     "lon": 31.7033,
@@ -433,6 +459,7 @@
   },
   {
     "id": "PSF-001435",
+    "ref": "pge:11754",
     "name": "Tohumlar",
     "lat": 39.7516,
     "lon": 32.9402,
@@ -450,6 +477,7 @@
   },
   {
     "id": "PSF-001489",
+    "ref": "pge:11860",
     "name": "Elmadag Peak-East",
     "lat": 39.7787,
     "lon": 32.9972,
@@ -463,6 +491,7 @@
   },
   {
     "id": "PSF-001553",
+    "ref": "pge:11977",
     "name": "Gokheg, Ankara",
     "lat": 39.9788,
     "lon": 32.4849,
@@ -476,6 +505,7 @@
   },
   {
     "id": "PSF-001562",
+    "ref": "pge:11990",
     "name": "Ã‡atalca - Tepekent",
     "lat": 41.061,
     "lon": 28.5156,
@@ -489,6 +519,7 @@
   },
   {
     "id": "PSF-001591",
+    "ref": "pge:12054",
     "name": "Karaelmas Universitesi",
     "lat": 41.4549,
     "lon": 31.7613,
@@ -502,6 +533,7 @@
   },
   {
     "id": "PSF-001611",
+    "ref": "pge:12086",
     "name": "Dadalli Hill, Tarsus",
     "lat": 36.9732,
     "lon": 34.8969,
@@ -515,6 +547,7 @@
   },
   {
     "id": "PSF-001619",
+    "ref": "pge:12101",
     "name": "Eskipazar",
     "lat": 40.8615,
     "lon": 32.6742,
@@ -528,6 +561,7 @@
   },
   {
     "id": "PSF-001624",
+    "ref": "pge:12108",
     "name": "Beysehir",
     "lat": 37.6138,
     "lon": 31.6921,
@@ -541,6 +575,7 @@
   },
   {
     "id": "PSF-001626",
+    "ref": "pge:12110",
     "name": "Karadag, Karaman",
     "lat": 37.3888,
     "lon": 33.1383,
@@ -558,6 +593,7 @@
   },
   {
     "id": "PSF-001627",
+    "ref": "pge:12114",
     "name": "kirkkiz",
     "lat": 39.5239,
     "lon": 30.8463,
@@ -575,6 +611,7 @@
   },
   {
     "id": "PSF-001691",
+    "ref": "pge:12213",
     "name": "Recai Tepe",
     "lat": 39.6073,
     "lon": 32.807,
@@ -590,6 +627,7 @@
   },
   {
     "id": "PSF-001696",
+    "ref": "pge:12218",
     "name": "pecenek",
     "lat": 39.885,
     "lon": 32.5447,
@@ -603,6 +641,7 @@
   },
   {
     "id": "PSF-001718",
+    "ref": "pge:12258",
     "name": "Uzungöl (Trabzon)",
     "lat": 40.6023,
     "lon": 40.2999,
@@ -616,6 +655,7 @@
   },
   {
     "id": "PSF-001747",
+    "ref": "pge:12319",
     "name": "ELVANKÃ–Y - ETÄ°MESGUT",
     "lat": 39.9188,
     "lon": 32.6211,
@@ -629,6 +669,7 @@
   },
   {
     "id": "PSF-001781",
+    "ref": "pge:12372",
     "name": "Mahmatli, Aksaray",
     "lat": 38.2316,
     "lon": 34.149,
@@ -642,6 +683,7 @@
   },
   {
     "id": "PSF-001785",
+    "ref": "pge:12377",
     "name": "Hüseyin Gazi (Zile)",
     "lat": 40.2784,
     "lon": 35.8974,
@@ -655,6 +697,7 @@
   },
   {
     "id": "PSF-001816",
+    "ref": "pge:12435",
     "name": "Nikfer Bozdag",
     "lat": 37.3585,
     "lon": 29.1674,
@@ -671,6 +714,7 @@
   },
   {
     "id": "PSF-001896",
+    "ref": "pge:12588",
     "name": "Kackarag",
     "lat": 37.4382,
     "lon": 33.1883,
@@ -684,6 +728,7 @@
   },
   {
     "id": "PSF-001939",
+    "ref": "pge:12668",
     "name": "Bayramoren north",
     "lat": 40.9712,
     "lon": 33.209,
@@ -701,6 +746,7 @@
   },
   {
     "id": "PSF-001944",
+    "ref": "pge:12674",
     "name": "Muratli Kafasý Kesik Horoz Tepesi",
     "lat": 37.0436,
     "lon": 35.0034,
@@ -714,6 +760,7 @@
   },
   {
     "id": "PSF-001945",
+    "ref": "pge:12677",
     "name": "Ityelmez, Zile, Tokat",
     "lat": 40.2239,
     "lon": 35.8789,
@@ -727,6 +774,7 @@
   },
   {
     "id": "PSF-001946",
+    "ref": "pge:12678",
     "name": "Oksuruktepe, Sebinkarahisar",
     "lat": 40.3075,
     "lon": 38.4008,
@@ -740,6 +788,7 @@
   },
   {
     "id": "PSF-002008",
+    "ref": "pge:12823",
     "name": "Supugelik",
     "lat": 40.5476,
     "lon": 29.3026,
@@ -753,6 +802,7 @@
   },
   {
     "id": "PSF-002016",
+    "ref": "pge:12836",
     "name": "Yalikoy",
     "lat": 41.4526,
     "lon": 28.3778,
@@ -766,6 +816,7 @@
   },
   {
     "id": "PSF-002028",
+    "ref": "pge:12854",
     "name": "Dagyenice, Bursa",
     "lat": 40.1544,
     "lon": 28.9372,
@@ -779,6 +830,7 @@
   },
   {
     "id": "PSF-002037",
+    "ref": "pge:12875",
     "name": "Zeyniler",
     "lat": 40.1669,
     "lon": 29.1086,
@@ -792,6 +844,7 @@
   },
   {
     "id": "PSF-002041",
+    "ref": "pge:12884",
     "name": "Cakirli Beldesi- Orhangazi",
     "lat": 40.5238,
     "lon": 29.4449,
@@ -805,6 +858,7 @@
   },
   {
     "id": "PSF-002067",
+    "ref": "pge:12926",
     "name": "Abant Kuzey Yayla, Bolu",
     "lat": 40.591,
     "lon": 31.249,
@@ -818,6 +872,7 @@
   },
   {
     "id": "PSF-002075",
+    "ref": "pge:12935",
     "name": "Isikli",
     "lat": 36.2406,
     "lon": 33.6558,
@@ -831,6 +886,7 @@
   },
   {
     "id": "PSF-002168",
+    "ref": "pge:13092",
     "name": "Sobu Tepesi, Isparta",
     "lat": 37.8408,
     "lon": 30.5237,
@@ -844,6 +900,7 @@
   },
   {
     "id": "PSF-002169",
+    "ref": "pge:13094",
     "name": "Dikmen Hill, Bolu",
     "lat": 40.8457,
     "lon": 32.6222,
@@ -857,6 +914,7 @@
   },
   {
     "id": "PSF-002174",
+    "ref": "pge:13101",
     "name": "Yenice, Inegol",
     "lat": 40.0643,
     "lon": 29.4288,
@@ -870,6 +928,7 @@
   },
   {
     "id": "PSF-002176",
+    "ref": "pge:13103",
     "name": "ARHAVİ (isina )Takeoff",
     "lat": 41.3403,
     "lon": 41.3353,
@@ -883,6 +942,7 @@
   },
   {
     "id": "PSF-002177",
+    "ref": "pge:13104",
     "name": "AZI TEPESİ",
     "lat": 36.1164,
     "lon": 32.9007,
@@ -896,6 +956,7 @@
   },
   {
     "id": "PSF-002184",
+    "ref": "pge:13116",
     "name": "Karacaoren Sivrihisar",
     "lat": 39.3041,
     "lon": 31.689,
@@ -909,6 +970,7 @@
   },
   {
     "id": "PSF-002185",
+    "ref": "pge:13118",
     "name": "Dumrek - Sivrihisar",
     "lat": 39.6007,
     "lon": 31.5187,
@@ -922,6 +984,7 @@
   },
   {
     "id": "PSF-002191",
+    "ref": "pge:13130",
     "name": "Catalagzi",
     "lat": 41.5022,
     "lon": 31.8606,
@@ -935,6 +998,7 @@
   },
   {
     "id": "PSF-002192",
+    "ref": "pge:13133",
     "name": "Harmanrock, Bilecik",
     "lat": 40.1522,
     "lon": 30.4001,
@@ -948,6 +1012,7 @@
   },
   {
     "id": "PSF-002197",
+    "ref": "pge:13138",
     "name": "goktepe",
     "lat": 36.8544,
     "lon": 34.0247,
@@ -961,6 +1026,7 @@
   },
   {
     "id": "PSF-002211",
+    "ref": "pge:13154",
     "name": "Radar (Tavsan dagi) Merzifon",
     "lat": 40.9372,
     "lon": 35.4169,
@@ -974,6 +1040,7 @@
   },
   {
     "id": "PSF-002217",
+    "ref": "pge:13160",
     "name": "Gökpınar",
     "lat": 39.943,
     "lon": 32.3777,
@@ -987,6 +1054,7 @@
   },
   {
     "id": "PSF-002234",
+    "ref": "pge:13183",
     "name": "MustafaKemalPaşa",
     "lat": 40.0221,
     "lon": 28.4839,
@@ -1000,6 +1068,7 @@
   },
   {
     "id": "PSF-002239",
+    "ref": "pge:13191",
     "name": "Pamuktepe",
     "lat": 40.5379,
     "lon": 30.1302,
@@ -1017,6 +1086,7 @@
   },
   {
     "id": "PSF-002240",
+    "ref": "pge:13193",
     "name": "ÃœrgÃ¼p",
     "lat": 38.6442,
     "lon": 34.9734,
@@ -1030,6 +1100,7 @@
   },
   {
     "id": "PSF-002242",
+    "ref": "pge:13196",
     "name": "Mutlu",
     "lat": 37.957,
     "lon": 31.6464,
@@ -1043,6 +1114,7 @@
   },
   {
     "id": "PSF-002292",
+    "ref": "pge:13281",
     "name": "Karahamzali",
     "lat": 36.7391,
     "lon": 34.2707,
@@ -1056,6 +1128,7 @@
   },
   {
     "id": "PSF-002347",
+    "ref": "pge:13387",
     "name": "Gultepe, Samsun",
     "lat": 41.229,
     "lon": 36.2829,
@@ -1069,6 +1142,7 @@
   },
   {
     "id": "PSF-002398",
+    "ref": "pge:13452",
     "name": "Sugoren Hoyuk Hill, Yalova",
     "lat": 40.5636,
     "lon": 29.3384,
@@ -1082,6 +1156,7 @@
   },
   {
     "id": "PSF-002399",
+    "ref": "pge:13453",
     "name": "Giresun",
     "lat": 40.9186,
     "lon": 38.38,
@@ -1095,6 +1170,7 @@
   },
   {
     "id": "PSF-002402",
+    "ref": "pge:13456",
     "name": "Akkoy South, Yalova",
     "lat": 40.6313,
     "lon": 29.1982,
@@ -1108,6 +1184,7 @@
   },
   {
     "id": "PSF-002454",
+    "ref": "pge:13545",
     "name": "Yaniktepe / Amasya",
     "lat": 40.6387,
     "lon": 35.7887,
@@ -1121,6 +1198,7 @@
   },
   {
     "id": "PSF-002467",
+    "ref": "pge:13575",
     "name": "Engiz Havaalanı",
     "lat": 41.5039,
     "lon": 36.1191,
@@ -1134,6 +1212,7 @@
   },
   {
     "id": "PSF-002468",
+    "ref": "pge:13576",
     "name": "Toptancilar Arkasi, Corum",
     "lat": 40.5361,
     "lon": 34.9114,
@@ -1147,6 +1226,7 @@
   },
   {
     "id": "PSF-002469",
+    "ref": "pge:13577",
     "name": "Gümüştepe",
     "lat": 40.8204,
     "lon": 35.1985,
@@ -1160,6 +1240,7 @@
   },
   {
     "id": "PSF-002483",
+    "ref": "pge:13601",
     "name": "Yenisehir North, Bursa",
     "lat": 40.2333,
     "lon": 29.6617,
@@ -1173,6 +1254,7 @@
   },
   {
     "id": "PSF-002485",
+    "ref": "pge:13603",
     "name": "AGACLI",
     "lat": 41.274,
     "lon": 28.8883,
@@ -1186,6 +1268,7 @@
   },
   {
     "id": "PSF-002501",
+    "ref": "pge:13637",
     "name": "Elmalik Istihkam, Yalova",
     "lat": 40.6002,
     "lon": 29.3128,
@@ -1199,6 +1282,7 @@
   },
   {
     "id": "PSF-002696",
+    "ref": "pge:13958",
     "name": "Karbogazi Medetsiz, Mersin",
     "lat": 37.3453,
     "lon": 34.6784,
@@ -1212,6 +1296,7 @@
   },
   {
     "id": "PSF-002697",
+    "ref": "pge:13959",
     "name": "Yuvacik, Kocaeli",
     "lat": 40.6788,
     "lon": 29.9963,
@@ -1225,6 +1310,7 @@
   },
   {
     "id": "PSF-002698",
+    "ref": "pge:13960",
     "name": "Saygili, Amasya",
     "lat": 40.7138,
     "lon": 35.6773,
@@ -1238,6 +1324,7 @@
   },
   {
     "id": "PSF-002708",
+    "ref": "pge:13972",
     "name": "dumanlı tepe",
     "lat": 40.6161,
     "lon": 29.423,
@@ -1251,6 +1338,7 @@
   },
   {
     "id": "PSF-002724",
+    "ref": "pge:13992",
     "name": "Yellibayır, İnönü",
     "lat": 39.8118,
     "lon": 30.1621,
@@ -1268,6 +1356,7 @@
   },
   {
     "id": "PSF-002751",
+    "ref": "pge:14031",
     "name": "Hasan Mountain",
     "lat": 40.1851,
     "lon": 30.305,
@@ -1285,6 +1374,7 @@
   },
   {
     "id": "PSF-002788",
+    "ref": "pge:14100",
     "name": "Laztepe, Yalova",
     "lat": 40.6034,
     "lon": 29.252,
@@ -1298,6 +1388,7 @@
   },
   {
     "id": "PSF-002805",
+    "ref": "pge:14126",
     "name": "TaÅŸ Masa",
     "lat": 36.1501,
     "lon": 33.3154,
@@ -1311,6 +1402,7 @@
   },
   {
     "id": "PSF-002811",
+    "ref": "pge:14134",
     "name": "Uludag 2000, Bursa",
     "lat": 40.1342,
     "lon": 29.1744,
@@ -1324,6 +1416,7 @@
   },
   {
     "id": "PSF-002817",
+    "ref": "pge:14146",
     "name": "ULUDAG KIRANTEPE EAST 2100",
     "lat": 40.0711,
     "lon": 29.3309,
@@ -1337,6 +1430,7 @@
   },
   {
     "id": "PSF-002829",
+    "ref": "pge:14164",
     "name": "Vize",
     "lat": 41.5834,
     "lon": 27.7828,
@@ -1350,6 +1444,7 @@
   },
   {
     "id": "PSF-002852",
+    "ref": "pge:14212",
     "name": "Saphane Mnt.",
     "lat": 39.0375,
     "lon": 29.2839,
@@ -1363,6 +1458,7 @@
   },
   {
     "id": "PSF-002894",
+    "ref": "pge:14263",
     "name": "Boştepe",
     "lat": 40.9453,
     "lon": 38.1503,
@@ -1376,6 +1472,7 @@
   },
   {
     "id": "PSF-002899",
+    "ref": "pge:14275",
     "name": "Isik Mnt, Kizilcahamam, Ankara",
     "lat": 40.6658,
     "lon": 32.7642,
@@ -1389,6 +1486,7 @@
   },
   {
     "id": "PSF-002919",
+    "ref": "pge:14309",
     "name": "Yukariseyhler",
     "lat": 38.2568,
     "lon": 39.4701,
@@ -1402,6 +1500,7 @@
   },
   {
     "id": "PSF-002929",
+    "ref": "pge:14329",
     "name": "sundance kingfishers",
     "lat": 36.516,
     "lon": 30.5413,
@@ -1415,6 +1514,7 @@
   },
   {
     "id": "PSF-003041",
+    "ref": "pge:14458",
     "name": "Camlidere otoban",
     "lat": 40.3801,
     "lon": 32.4452,
@@ -1428,6 +1528,7 @@
   },
   {
     "id": "PSF-003115",
+    "ref": "pge:14573",
     "name": "Yelli",
     "lat": 40.2886,
     "lon": 32.2601,
@@ -1441,6 +1542,7 @@
   },
   {
     "id": "PSF-003153",
+    "ref": "pge:14637",
     "name": "Cungus,  Diyarbakir",
     "lat": 38.2257,
     "lon": 39.2769,
@@ -1454,6 +1556,7 @@
   },
   {
     "id": "PSF-003156",
+    "ref": "pge:14641",
     "name": "Cermik, Diyarbakir",
     "lat": 38.1438,
     "lon": 39.4631,
@@ -1467,6 +1570,7 @@
   },
   {
     "id": "PSF-003162",
+    "ref": "pge:14650",
     "name": "Güdül Sivrisi",
     "lat": 40.1705,
     "lon": 32.216,
@@ -1480,6 +1584,7 @@
   },
   {
     "id": "PSF-003173",
+    "ref": "pge:14663",
     "name": "Gebeli Koyu, Adiyaman",
     "lat": 37.8191,
     "lon": 38.2827,
@@ -1493,6 +1598,7 @@
   },
   {
     "id": "PSF-003174",
+    "ref": "pge:14664",
     "name": "Düzici",
     "lat": 37.2775,
     "lon": 36.5214,
@@ -1506,6 +1612,7 @@
   },
   {
     "id": "PSF-003180",
+    "ref": "pge:14672",
     "name": "hoc tepesi",
     "lat": 36.9536,
     "lon": 34.6695,
@@ -1519,6 +1626,7 @@
   },
   {
     "id": "PSF-003263",
+    "ref": "pge:14813",
     "name": "Kocatepe / Keramos �?ren/Bodrum/Mu�?la",
     "lat": 37.0388,
     "lon": 27.9876,
@@ -1537,6 +1645,7 @@
   },
   {
     "id": "PSF-003315",
+    "ref": "pge:14884",
     "name": "Ucan_Sef Sinop Adaburnu Takeoff",
     "lat": 42.0343,
     "lon": 35.1664,
@@ -1550,6 +1659,7 @@
   },
   {
     "id": "PSF-003339",
+    "ref": "pge:14925",
     "name": "Mut Guney",
     "lat": 36.7217,
     "lon": 33.5298,
@@ -1563,6 +1673,7 @@
   },
   {
     "id": "PSF-003391",
+    "ref": "pge:15009",
     "name": "murat sobacı nallıhan.rasim",
     "lat": 40.193,
     "lon": 31.3307,
@@ -1576,6 +1687,7 @@
   },
   {
     "id": "PSF-003406",
+    "ref": "pge:15036",
     "name": "Hasan Mount",
     "lat": 38.1607,
     "lon": 34.1601,
@@ -1589,6 +1701,7 @@
   },
   {
     "id": "PSF-003412",
+    "ref": "pge:15049",
     "name": "Hacka Yaylasi",
     "lat": 40.7986,
     "lon": 39.404,
@@ -1602,6 +1715,7 @@
   },
   {
     "id": "PSF-003413",
+    "ref": "pge:15050",
     "name": "Duzkoy",
     "lat": 40.8611,
     "lon": 39.434,
@@ -1615,6 +1729,7 @@
   },
   {
     "id": "PSF-003418",
+    "ref": "pge:15064",
     "name": "Ardıç-Senirkent Isparta",
     "lat": 38.0938,
     "lon": 30.562,
@@ -1628,6 +1743,7 @@
   },
   {
     "id": "PSF-003426",
+    "ref": "pge:15074",
     "name": "Suphan",
     "lat": 38.9184,
     "lon": 42.8224,
@@ -1641,6 +1757,7 @@
   },
   {
     "id": "PSF-003463",
+    "ref": "pge:15136",
     "name": "ULUABAT-Ayvaköy",
     "lat": 40.1325,
     "lon": 28.6865,
@@ -1654,6 +1771,7 @@
   },
   {
     "id": "PSF-003464",
+    "ref": "pge:15137",
     "name": "Nilüfer Belediyesi Havacılık Tesisleri",
     "lat": 40.1449,
     "lon": 28.7237,
@@ -1670,6 +1788,7 @@
   },
   {
     "id": "PSF-003465",
+    "ref": "pge:15139",
     "name": "sinop gerze",
     "lat": 41.6922,
     "lon": 35.3331,
@@ -1683,6 +1802,7 @@
   },
   {
     "id": "PSF-003466",
+    "ref": "pge:15140",
     "name": "KIRANIÃžIKLAR KÃ–YÃœ",
     "lat": 39.8467,
     "lon": 29.2429,
@@ -1696,6 +1816,7 @@
   },
   {
     "id": "PSF-003538",
+    "ref": "pge:15251",
     "name": "Menekse Zirve",
     "lat": 37.0718,
     "lon": 35.3461,
@@ -1715,6 +1836,7 @@
   },
   {
     "id": "PSF-003551",
+    "ref": "pge:15274",
     "name": "çamtepesi",
     "lat": 40.3214,
     "lon": 38.7484,
@@ -1728,6 +1850,7 @@
   },
   {
     "id": "PSF-003565",
+    "ref": "pge:15300",
     "name": "Bingöl",
     "lat": 38.8044,
     "lon": 40.5745,
@@ -1741,6 +1864,7 @@
   },
   {
     "id": "PSF-003594",
+    "ref": "pge:15336",
     "name": "alucra",
     "lat": 40.3357,
     "lon": 38.798,
@@ -1754,6 +1878,7 @@
   },
   {
     "id": "PSF-003599",
+    "ref": "pge:15348",
     "name": "kizildag",
     "lat": 38.0261,
     "lon": 31.3689,
@@ -1767,6 +1892,7 @@
   },
   {
     "id": "PSF-003625",
+    "ref": "pge:15399",
     "name": "BOTANTEPE",
     "lat": 37.8849,
     "lon": 41.8995,
@@ -1784,6 +1910,7 @@
   },
   {
     "id": "PSF-003643",
+    "ref": "pge:15431",
     "name": "ALSANCAK TEPE",
     "lat": 37.0365,
     "lon": 30.552,
@@ -1797,6 +1924,7 @@
   },
   {
     "id": "PSF-003644",
+    "ref": "pge:15432",
     "name": "FÝSKÝN BATI-SÝÝRT",
     "lat": 37.9861,
     "lon": 41.9058,
@@ -1810,6 +1938,7 @@
   },
   {
     "id": "PSF-003645",
+    "ref": "pge:15433",
     "name": "Seçme",
     "lat": 37.5526,
     "lon": 32.5243,
@@ -1823,6 +1952,7 @@
   },
   {
     "id": "PSF-003671",
+    "ref": "pge:15472",
     "name": "Takkeli",
     "lat": 37.9013,
     "lon": 32.3899,
@@ -1836,6 +1966,7 @@
   },
   {
     "id": "PSF-003695",
+    "ref": "pge:15518",
     "name": "YÄ±ldÄ±zeli Ã‡al Tepesi",
     "lat": 39.8478,
     "lon": 36.5773,
@@ -1852,6 +1983,7 @@
   },
   {
     "id": "PSF-003696",
+    "ref": "pge:15519",
     "name": "Tatlısu yamaç",
     "lat": 39.7142,
     "lon": 37.0892,
@@ -1867,6 +1999,7 @@
   },
   {
     "id": "PSF-003709",
+    "ref": "pge:15538",
     "name": "Narli/Kardelen Tepesi",
     "lat": 37.328,
     "lon": 37.1805,
@@ -1884,6 +2017,7 @@
   },
   {
     "id": "PSF-003761",
+    "ref": "pge:15620",
     "name": "nato tepesi",
     "lat": 40.5975,
     "lon": 27.5664,
@@ -1904,6 +2038,7 @@
   },
   {
     "id": "PSF-003762",
+    "ref": "pge:15621",
     "name": "intepe soar",
     "lat": 40.028,
     "lon": 26.3569,
@@ -1921,6 +2056,7 @@
   },
   {
     "id": "PSF-003766",
+    "ref": "pge:15629",
     "name": "Turkmen Akcakoy",
     "lat": 39.4418,
     "lon": 27.9636,
@@ -1938,6 +2074,7 @@
   },
   {
     "id": "PSF-003809",
+    "ref": "pge:15684",
     "name": "Mire Dagi, Ankara",
     "lat": 40.2123,
     "lon": 32.8778,
@@ -1951,6 +2088,7 @@
   },
   {
     "id": "PSF-003875",
+    "ref": "pge:15844",
     "name": "Ã‡Ä±ÄŸlÄ±k / Katran Mountain",
     "lat": 37.1,
     "lon": 30.648,
@@ -1973,6 +2111,7 @@
   },
   {
     "id": "PSF-004025",
+    "ref": "pge:16040",
     "name": "Karain",
     "lat": 37.0812,
     "lon": 30.5298,
@@ -1993,6 +2132,7 @@
   },
   {
     "id": "PSF-004151",
+    "ref": "pge:16212",
     "name": "geyran tepe",
     "lat": 40.4343,
     "lon": 36.0512,
@@ -2006,6 +2146,7 @@
   },
   {
     "id": "PSF-004167",
+    "ref": "pge:16250",
     "name": "Tashlik tepe",
     "lat": 39.3644,
     "lon": 28.2,
@@ -2023,6 +2164,7 @@
   },
   {
     "id": "PSF-004169",
+    "ref": "pge:16252",
     "name": "uzunburun",
     "lat": 40.328,
     "lon": 36.5948,
@@ -2036,6 +2178,7 @@
   },
   {
     "id": "PSF-004179",
+    "ref": "pge:16266",
     "name": "Tokat -- kampüs",
     "lat": 40.3133,
     "lon": 36.4528,
@@ -2049,6 +2192,7 @@
   },
   {
     "id": "PSF-004260",
+    "ref": "pge:16380",
     "name": "KARLIK TEPESi",
     "lat": 40.9599,
     "lon": 39.6777,
@@ -2062,6 +2206,7 @@
   },
   {
     "id": "PSF-004268",
+    "ref": "pge:16396",
     "name": "Niksar-Dönekse",
     "lat": 40.5344,
     "lon": 36.8696,
@@ -2075,6 +2220,7 @@
   },
   {
     "id": "PSF-004274",
+    "ref": "pge:16407",
     "name": "KapÄ±cak, Atabey, Isparta",
     "lat": 37.9604,
     "lon": 30.6792,
@@ -2088,6 +2234,7 @@
   },
   {
     "id": "PSF-004275",
+    "ref": "pge:16409",
     "name": "Termiksi",
     "lat": 39.9809,
     "lon": 29.1672,
@@ -2101,6 +2248,7 @@
   },
   {
     "id": "PSF-004282",
+    "ref": "pge:16420",
     "name": "Tokat - Dereyaka tepesi",
     "lat": 40.2784,
     "lon": 36.4976,
@@ -2114,6 +2262,7 @@
   },
   {
     "id": "PSF-004291",
+    "ref": "pge:16434",
     "name": "Ä°skenderun BitiÅŸik YaylasÄ±",
     "lat": 36.6233,
     "lon": 36.2838,
@@ -2127,6 +2276,7 @@
   },
   {
     "id": "PSF-004297",
+    "ref": "pge:16445",
     "name": "Yoroz",
     "lat": 41.0951,
     "lon": 39.4352,
@@ -2140,6 +2290,7 @@
   },
   {
     "id": "PSF-004303",
+    "ref": "pge:16457",
     "name": "Oguzlar",
     "lat": 40.7683,
     "lon": 34.7115,
@@ -2153,6 +2304,7 @@
   },
   {
     "id": "PSF-004307",
+    "ref": "pge:16463",
     "name": "Bandırma",
     "lat": 40.3586,
     "lon": 27.9454,
@@ -2166,6 +2318,7 @@
   },
   {
     "id": "PSF-004319",
+    "ref": "pge:16493",
     "name": "kılıç tepe",
     "lat": 39.6995,
     "lon": 30.8794,
@@ -2179,6 +2332,7 @@
   },
   {
     "id": "PSF-004341",
+    "ref": "pge:16526",
     "name": "Karaca DaÄŸ",
     "lat": 37.7664,
     "lon": 33.7595,
@@ -2192,6 +2346,7 @@
   },
   {
     "id": "PSF-004357",
+    "ref": "pge:16549",
     "name": "Kartepe",
     "lat": 40.661,
     "lon": 30.0826,
@@ -2205,6 +2360,7 @@
   },
   {
     "id": "PSF-004359",
+    "ref": "pge:16554",
     "name": "Ucan_Sef Sinop Kumkapı Takeoff",
     "lat": 42.0237,
     "lon": 35.129,
@@ -2218,6 +2374,7 @@
   },
   {
     "id": "PSF-004366",
+    "ref": "pge:16562",
     "name": "Ã‡al",
     "lat": 40.4991,
     "lon": 37.307,
@@ -2231,6 +2388,7 @@
   },
   {
     "id": "PSF-004400",
+    "ref": "pge:16618",
     "name": "Paradise Hill, Cankiri",
     "lat": 40.957,
     "lon": 33.3865,
@@ -2244,6 +2402,7 @@
   },
   {
     "id": "PSF-004487",
+    "ref": "pge:16769",
     "name": "Ümit Tepesi",
     "lat": 37.4851,
     "lon": 36.8672,
@@ -2257,6 +2416,7 @@
   },
   {
     "id": "PSF-004492",
+    "ref": "pge:16782",
     "name": "Sile kumbaba",
     "lat": 41.1765,
     "lon": 29.5463,
@@ -2275,6 +2435,7 @@
   },
   {
     "id": "PSF-004514",
+    "ref": "pge:16832",
     "name": "Denizli �?ameli Yaylacik Mountain",
     "lat": 36.983,
     "lon": 29.3163,
@@ -2294,6 +2455,7 @@
   },
   {
     "id": "PSF-004520",
+    "ref": "pge:16839",
     "name": "Balatli",
     "lat": 39.3573,
     "lon": 28.1007,
@@ -2311,6 +2473,7 @@
   },
   {
     "id": "PSF-004523",
+    "ref": "pge:16850",
     "name": "Kurumcu Dagi, Camlidere Ankara",
     "lat": 40.3458,
     "lon": 32.3857,
@@ -2324,6 +2487,7 @@
   },
   {
     "id": "PSF-004555",
+    "ref": "pge:16907",
     "name": "Issızca",
     "lat": 37.1292,
     "lon": 36.3618,
@@ -2341,6 +2505,7 @@
   },
   {
     "id": "PSF-004559",
+    "ref": "pge:16912",
     "name": "ergan daÄŸÄ± zirve",
     "lat": 39.5872,
     "lon": 39.4977,
@@ -2354,6 +2519,7 @@
   },
   {
     "id": "PSF-004600",
+    "ref": "pge:16975",
     "name": "Kerpe",
     "lat": 41.1183,
     "lon": 30.2288,
@@ -2367,6 +2533,7 @@
   },
   {
     "id": "PSF-004618",
+    "ref": "pge:17017",
     "name": "GÃ¶bÃ¼ DoÄŸu",
     "lat": 41.5414,
     "lon": 31.9704,
@@ -2380,6 +2547,7 @@
   },
   {
     "id": "PSF-004619",
+    "ref": "pge:17018",
     "name": "Ã‡aycuma KayabaÅŸi",
     "lat": 41.3443,
     "lon": 32.0662,
@@ -2393,6 +2561,7 @@
   },
   {
     "id": "PSF-004621",
+    "ref": "pge:17020",
     "name": "AKINCI ÃœSSÃœ YANI",
     "lat": 40.0722,
     "lon": 32.5244,
@@ -2406,6 +2575,7 @@
   },
   {
     "id": "PSF-004625",
+    "ref": "pge:17025",
     "name": "çaycuma balat mounth",
     "lat": 41.4593,
     "lon": 32.0685,
@@ -2419,6 +2589,7 @@
   },
   {
     "id": "PSF-004628",
+    "ref": "pge:17029",
     "name": "Keltepe Beypazarı Ankara",
     "lat": 40.2542,
     "lon": 31.8256,
@@ -2432,6 +2603,7 @@
   },
   {
     "id": "PSF-004631",
+    "ref": "pge:17036",
     "name": "SuRuCu",
     "lat": 40.1752,
     "lon": 29.0053,
@@ -2445,6 +2617,7 @@
   },
   {
     "id": "PSF-004680",
+    "ref": "pge:17120",
     "name": "Eshab-i Kehf",
     "lat": 36.961,
     "lon": 34.7996,
@@ -2465,6 +2638,7 @@
   },
   {
     "id": "PSF-004703",
+    "ref": "pge:17171",
     "name": "Buyukyenice Asar",
     "lat": 39.4314,
     "lon": 27.3522,
@@ -2482,6 +2656,7 @@
   },
   {
     "id": "PSF-004707",
+    "ref": "pge:17191",
     "name": "Akçalar",
     "lat": 40.3748,
     "lon": 28.7117,
@@ -2495,6 +2670,7 @@
   },
   {
     "id": "PSF-004709",
+    "ref": "pge:17198",
     "name": "Baglum Keçiören",
     "lat": 40.0383,
     "lon": 32.8378,
@@ -2508,6 +2684,7 @@
   },
   {
     "id": "PSF-004721",
+    "ref": "pge:17226",
     "name": "Keçi Kalesi",
     "lat": 40.8118,
     "lon": 32.1989,
@@ -2521,6 +2698,7 @@
   },
   {
     "id": "PSF-004731",
+    "ref": "pge:17239",
     "name": "Kestel ugurlu takeoff",
     "lat": 40.2034,
     "lon": 29.2652,
@@ -2534,6 +2712,7 @@
   },
   {
     "id": "PSF-004741",
+    "ref": "pge:17256",
     "name": "Sazlıdere",
     "lat": 41.1302,
     "lon": 28.706,
@@ -2547,6 +2726,7 @@
   },
   {
     "id": "PSF-004748",
+    "ref": "pge:17271",
     "name": "Sarisu",
     "lat": 41.1399,
     "lon": 30.1448,
@@ -2560,6 +2740,7 @@
   },
   {
     "id": "PSF-004761",
+    "ref": "pge:17293",
     "name": "AKSARAY-AKHÄ°SAR KÃ–YÃœ",
     "lat": 38.3123,
     "lon": 34.0989,
@@ -2573,6 +2754,7 @@
   },
   {
     "id": "PSF-004764",
+    "ref": "pge:17300",
     "name": "Yayladalı",
     "lat": 40.3924,
     "lon": 36.5206,
@@ -2586,6 +2768,7 @@
   },
   {
     "id": "PSF-004784",
+    "ref": "pge:17336",
     "name": "Avcilar Kampus",
     "lat": 40.9994,
     "lon": 28.7276,
@@ -2599,6 +2782,7 @@
   },
   {
     "id": "PSF-004821",
+    "ref": "pge:17414",
     "name": "Fakiusagi",
     "lat": 37.0239,
     "lon": 36.2364,
@@ -2612,6 +2796,7 @@
   },
   {
     "id": "PSF-004852",
+    "ref": "pge:17455",
     "name": "Payas",
     "lat": 36.7641,
     "lon": 36.2884,
@@ -2629,6 +2814,7 @@
   },
   {
     "id": "PSF-004853",
+    "ref": "pge:17456",
     "name": "Kapıdag",
     "lat": 40.4124,
     "lon": 27.9283,
@@ -2642,6 +2828,7 @@
   },
   {
     "id": "PSF-004858",
+    "ref": "pge:17469",
     "name": "Düziçi",
     "lat": 37.2787,
     "lon": 36.5225,
@@ -2659,6 +2846,7 @@
   },
   {
     "id": "PSF-004865",
+    "ref": "pge:17477",
     "name": "Yedi Kuyular",
     "lat": 37.6282,
     "lon": 37.0186,
@@ -2672,6 +2860,7 @@
   },
   {
     "id": "PSF-004902",
+    "ref": "pge:17524",
     "name": "PAÅžA YAYLASI",
     "lat": 36.7607,
     "lon": 36.2025,
@@ -2685,6 +2874,7 @@
   },
   {
     "id": "PSF-004903",
+    "ref": "pge:17525",
     "name": "UMÄ°T TEPE",
     "lat": 36.5898,
     "lon": 36.1703,
@@ -2698,6 +2888,7 @@
   },
   {
     "id": "PSF-004911",
+    "ref": "pge:17536",
     "name": "Kızılfırla Hill",
     "lat": 39.3966,
     "lon": 28.158,
@@ -2711,6 +2902,7 @@
   },
   {
     "id": "PSF-004912",
+    "ref": "pge:17539",
     "name": "rize tea takeoff",
     "lat": 41.0241,
     "lon": 40.5608,
@@ -2724,6 +2916,7 @@
   },
   {
     "id": "PSF-004913",
+    "ref": "pge:17540",
     "name": "atatürk tepe takeoff",
     "lat": 39.7988,
     "lon": 39.5088,
@@ -2737,6 +2930,7 @@
   },
   {
     "id": "PSF-004923",
+    "ref": "pge:17557",
     "name": "Turkish a",
     "lat": 40.9696,
     "lon": 28.8447,
@@ -2750,6 +2944,7 @@
   },
   {
     "id": "PSF-004939",
+    "ref": "pge:17587",
     "name": "Amasra",
     "lat": 41.7341,
     "lon": 32.4006,
@@ -2763,6 +2958,7 @@
   },
   {
     "id": "PSF-004940",
+    "ref": "pge:17589",
     "name": "Uludag Orhaniye Peak",
     "lat": 40.1009,
     "lon": 29.2467,
@@ -2776,6 +2972,7 @@
   },
   {
     "id": "PSF-004941",
+    "ref": "pge:17590",
     "name": "Ilgaz Mountain Tower, Cankiri",
     "lat": 41.0422,
     "lon": 33.7047,
@@ -2789,6 +2986,7 @@
   },
   {
     "id": "PSF-004942",
+    "ref": "pge:17591",
     "name": "Aksu Isparta",
     "lat": 37.8415,
     "lon": 31.0523,
@@ -2802,6 +3000,7 @@
   },
   {
     "id": "PSF-004943",
+    "ref": "pge:17592",
     "name": "abalı",
     "lat": 38.256,
     "lon": 43.2113,
@@ -2815,6 +3014,7 @@
   },
   {
     "id": "PSF-004945",
+    "ref": "pge:17594",
     "name": "ÃœÃ‡ HÄ°LAL",
     "lat": 39.7264,
     "lon": 39.7065,
@@ -2828,6 +3028,7 @@
   },
   {
     "id": "PSF-004979",
+    "ref": "pge:17670",
     "name": "ÅŸimÅŸit kÃ¶yÃ¼",
     "lat": 39.932,
     "lon": 32.5882,
@@ -2841,6 +3042,7 @@
   },
   {
     "id": "PSF-004982",
+    "ref": "pge:17675",
     "name": "Yahyali",
     "lat": 38.1562,
     "lon": 35.4014,
@@ -2854,6 +3056,7 @@
   },
   {
     "id": "PSF-005013",
+    "ref": "pge:17732",
     "name": "Kartepe Kayacık Manisa",
     "lat": 38.9159,
     "lon": 28.1625,
@@ -2867,6 +3070,7 @@
   },
   {
     "id": "PSF-005014",
+    "ref": "pge:17733",
     "name": "Sahinkaya Kayacik Manisa",
     "lat": 38.8969,
     "lon": 28.1171,
@@ -2880,6 +3084,7 @@
   },
   {
     "id": "PSF-005015",
+    "ref": "pge:17735",
     "name": "Batı Park",
     "lat": 41.3229,
     "lon": 36.3253,
@@ -2893,6 +3098,7 @@
   },
   {
     "id": "PSF-005016",
+    "ref": "pge:17736",
     "name": "Yamaçlar Takeoff",
     "lat": 38.199,
     "lon": 39.6753,
@@ -2906,6 +3112,7 @@
   },
   {
     "id": "PSF-005017",
+    "ref": "pge:17737",
     "name": "The monastery of Virgin Mary",
     "lat": 40.2743,
     "lon": 38.511,
@@ -2919,6 +3126,7 @@
   },
   {
     "id": "PSF-005019",
+    "ref": "pge:17739",
     "name": "Kodobay",
     "lat": 38.4786,
     "lon": 42.2953,
@@ -2932,6 +3140,7 @@
   },
   {
     "id": "PSF-005020",
+    "ref": "pge:17740",
     "name": "Nemrut Mt, Bitlis",
     "lat": 38.594,
     "lon": 42.279,
@@ -2945,6 +3154,7 @@
   },
   {
     "id": "PSF-005022",
+    "ref": "pge:17742",
     "name": "Kumludoruk",
     "lat": 40.0179,
     "lon": 32.364,
@@ -2958,6 +3168,7 @@
   },
   {
     "id": "PSF-005023",
+    "ref": "pge:17743",
     "name": "Dua Tepe",
     "lat": 39.6131,
     "lon": 32.0637,
@@ -2971,6 +3182,7 @@
   },
   {
     "id": "PSF-005024",
+    "ref": "pge:17744",
     "name": "Hazarbaba",
     "lat": 38.4205,
     "lon": 39.3148,
@@ -2984,6 +3196,7 @@
   },
   {
     "id": "PSF-005030",
+    "ref": "pge:17755",
     "name": "Silyon",
     "lat": 36.9907,
     "lon": 30.9907,
@@ -2997,6 +3210,7 @@
   },
   {
     "id": "PSF-005031",
+    "ref": "pge:17756",
     "name": "Deniztepesi",
     "lat": 36.9816,
     "lon": 31.1212,
@@ -3010,6 +3224,7 @@
   },
   {
     "id": "PSF-005039",
+    "ref": "pge:17772",
     "name": "Ayazmana",
     "lat": 37.741,
     "lon": 30.5826,
@@ -3023,6 +3238,7 @@
   },
   {
     "id": "PSF-005048",
+    "ref": "pge:17791",
     "name": "Tut, Adiyaman",
     "lat": 37.8162,
     "lon": 37.9128,
@@ -3036,6 +3252,7 @@
   },
   {
     "id": "PSF-005050",
+    "ref": "pge:17793",
     "name": "Kepirli",
     "lat": 36.9486,
     "lon": 34.5603,
@@ -3049,6 +3266,7 @@
   },
   {
     "id": "PSF-005053",
+    "ref": "pge:17799",
     "name": "Dedeboynu Ã‡ukurbaÄŸ",
     "lat": 36.5857,
     "lon": 32.5919,
@@ -3062,6 +3280,7 @@
   },
   {
     "id": "PSF-005104",
+    "ref": "pge:17910",
     "name": "Mahya DaÄŸ Kel Tepe",
     "lat": 41.766,
     "lon": 27.6306,
@@ -3075,6 +3294,7 @@
   },
   {
     "id": "PSF-005107",
+    "ref": "pge:17915",
     "name": "ÅžanlÄ±urfa Karababa",
     "lat": 37.3341,
     "lon": 38.6917,
@@ -3088,6 +3308,7 @@
   },
   {
     "id": "PSF-005169",
+    "ref": "pge:18044",
     "name": "Bagli Village Red Hill, Aksaray",
     "lat": 38.2468,
     "lon": 34.0622,
@@ -3101,6 +3322,7 @@
   },
   {
     "id": "PSF-005170",
+    "ref": "pge:18046",
     "name": "kengerli",
     "lat": 37.0459,
     "lon": 36.358,
@@ -3114,6 +3336,7 @@
   },
   {
     "id": "PSF-005178",
+    "ref": "pge:18066",
     "name": "Kilyos",
     "lat": 41.2458,
     "lon": 29.0128,
@@ -3127,6 +3350,7 @@
   },
   {
     "id": "PSF-005179",
+    "ref": "pge:18067",
     "name": "uludaÄŸ gÃ¼neye kalkÄ±ÅŸ 2030m",
     "lat": 40.0872,
     "lon": 29.133,
@@ -3140,6 +3364,7 @@
   },
   {
     "id": "PSF-005180",
+    "ref": "pge:18068",
     "name": "ser-dal mountain 2",
     "lat": 39.3754,
     "lon": 29.9661,
@@ -3153,6 +3378,7 @@
   },
   {
     "id": "PSF-005189",
+    "ref": "pge:18095",
     "name": "Uçmakdere 250",
     "lat": 40.8108,
     "lon": 27.3926,
@@ -3171,6 +3397,7 @@
   },
   {
     "id": "PSF-005190",
+    "ref": "pge:18096",
     "name": "Uçmakdere 550",
     "lat": 40.8145,
     "lon": 27.3833,
@@ -3186,6 +3413,7 @@
   },
   {
     "id": "PSF-005213",
+    "ref": "pge:18131",
     "name": "Boztepe, Erzincan",
     "lat": 39.6485,
     "lon": 39.5219,
@@ -3199,6 +3427,7 @@
   },
   {
     "id": "PSF-005217",
+    "ref": "pge:18143",
     "name": "Suadiye Istanbul paramotor take off",
     "lat": 40.9554,
     "lon": 29.0816,
@@ -3212,6 +3441,7 @@
   },
   {
     "id": "PSF-005257",
+    "ref": "pge:18265",
     "name": "Karaisali, Adana",
     "lat": 37.2511,
     "lon": 35.0457,
@@ -3225,6 +3455,7 @@
   },
   {
     "id": "PSF-005260",
+    "ref": "pge:18268",
     "name": "alayunt",
     "lat": 39.3944,
     "lon": 30.1087,
@@ -3238,6 +3469,7 @@
   },
   {
     "id": "PSF-005262",
+    "ref": "pge:18270",
     "name": "Fethiye",
     "lat": 39.7604,
     "lon": 27.9129,
@@ -3255,6 +3487,7 @@
   },
   {
     "id": "PSF-005264",
+    "ref": "pge:18275",
     "name": "Dagbeli North, Antalya",
     "lat": 37.188,
     "lon": 30.53,
@@ -3268,6 +3501,7 @@
   },
   {
     "id": "PSF-005265",
+    "ref": "pge:18276",
     "name": "Güzelce",
     "lat": 41.0067,
     "lon": 28.512,
@@ -3281,6 +3515,7 @@
   },
   {
     "id": "PSF-005268",
+    "ref": "pge:18283",
     "name": "Gali Tepesi, Ã‡aycuma",
     "lat": 41.515,
     "lon": 32.0485,
@@ -3294,6 +3529,7 @@
   },
   {
     "id": "PSF-005272",
+    "ref": "pge:18287",
     "name": "EÄŸerce SÃ¼rÃ¼cÃ¼ Tepe",
     "lat": 40.3662,
     "lon": 28.609,
@@ -3307,6 +3543,7 @@
   },
   {
     "id": "PSF-005299",
+    "ref": "pge:18383",
     "name": "KILIÃ‡KAYA",
     "lat": 40.4876,
     "lon": 30.4362,
@@ -3326,6 +3563,7 @@
   },
   {
     "id": "PSF-005311",
+    "ref": "pge:18415",
     "name": "Davraz",
     "lat": 37.7738,
     "lon": 30.753,
@@ -3339,6 +3577,7 @@
   },
   {
     "id": "PSF-005337",
+    "ref": "pge:18511",
     "name": "Kizilkum",
     "lat": 41.5973,
     "lon": 32.1267,
@@ -3352,6 +3591,7 @@
   },
   {
     "id": "PSF-005338",
+    "ref": "pge:18512",
     "name": "Suadiye Istanbul paramotor take off",
     "lat": 40.9237,
     "lon": 29.1218,
@@ -3365,6 +3605,7 @@
   },
   {
     "id": "PSF-005341",
+    "ref": "pge:18517",
     "name": "Kadibuku",
     "lat": 41.1885,
     "lon": 32.8863,
@@ -3378,6 +3619,7 @@
   },
   {
     "id": "PSF-005373",
+    "ref": "pge:18626",
     "name": "Meyrik",
     "lat": 37.3016,
     "lon": 37.1689,
@@ -3391,6 +3633,7 @@
   },
   {
     "id": "PSF-005381",
+    "ref": "pge:18636",
     "name": "Giresun Karagol",
     "lat": 40.5537,
     "lon": 38.1441,
@@ -3404,6 +3647,7 @@
   },
   {
     "id": "PSF-005383",
+    "ref": "pge:18642",
     "name": "Karatepe",
     "lat": 41.1217,
     "lon": 27.7397,
@@ -3422,6 +3666,7 @@
   },
   {
     "id": "PSF-005386",
+    "ref": "pge:18645",
     "name": "Keltepe",
     "lat": 40.1775,
     "lon": 32.9211,
@@ -3435,6 +3680,7 @@
   },
   {
     "id": "PSF-005397",
+    "ref": "pge:18662",
     "name": "Gokcebag, Ayas, Ankara",
     "lat": 40.0858,
     "lon": 32.3459,
@@ -3448,6 +3694,7 @@
   },
   {
     "id": "PSF-005400",
+    "ref": "pge:18666",
     "name": "Silivri Falezler",
     "lat": 41.0681,
     "lon": 28.2511,
@@ -3465,6 +3712,7 @@
   },
   {
     "id": "PSF-005429",
+    "ref": "pge:18708",
     "name": "Ã‡atalca-Elbasan",
     "lat": 41.1546,
     "lon": 28.4412,
@@ -3482,6 +3730,7 @@
   },
   {
     "id": "PSF-005435",
+    "ref": "pge:18718",
     "name": "Turnalık Yaylası",
     "lat": 40.6599,
     "lon": 37.9327,
@@ -3495,6 +3744,7 @@
   },
   {
     "id": "PSF-005436",
+    "ref": "pge:18719",
     "name": "Bilal hill",
     "lat": 40.1283,
     "lon": 35.2621,
@@ -3508,6 +3758,7 @@
   },
   {
     "id": "PSF-005437",
+    "ref": "pge:18721",
     "name": "Oyuktepe",
     "lat": 39.4057,
     "lon": 38.124,
@@ -3521,6 +3772,7 @@
   },
   {
     "id": "PSF-005439",
+    "ref": "pge:18725",
     "name": "Kılıçkaya, Yangın Kulesi",
     "lat": 40.4981,
     "lon": 30.473,
@@ -3534,6 +3786,7 @@
   },
   {
     "id": "PSF-005567",
+    "ref": "pge:19044",
     "name": "Emler zirve - AladaÄŸlar - NiÄŸde",
     "lat": 37.8054,
     "lon": 35.1494,
@@ -3547,6 +3800,7 @@
   },
   {
     "id": "PSF-005600",
+    "ref": "pge:19210",
     "name": "Edeler",
     "lat": 37.4186,
     "lon": 37.2218,
@@ -3560,6 +3814,7 @@
   },
   {
     "id": "PSF-005624",
+    "ref": "pge:19245",
     "name": "Südalan",
     "lat": 40.4808,
     "lon": 30.4053,
@@ -3577,6 +3832,7 @@
   },
   {
     "id": "PSF-005696",
+    "ref": "pge:19356",
     "name": "Silivri Dogu Kumsali",
     "lat": 41.0641,
     "lon": 28.2806,
@@ -3594,6 +3850,7 @@
   },
   {
     "id": "PSF-005713",
+    "ref": "pge:19383",
     "name": "Aydos Tepe",
     "lat": 40.9442,
     "lon": 29.2502,
@@ -3611,6 +3868,7 @@
   },
   {
     "id": "PSF-005823",
+    "ref": "pge:19528",
     "name": "Matts Bowl",
     "lat": 37.5584,
     "lon": 27.3819,
@@ -3626,6 +3884,7 @@
   },
   {
     "id": "PSF-005928",
+    "ref": "pge:19682",
     "name": "Dinamit Tepe - Pamukkale - Denizli",
     "lat": 37.9421,
     "lon": 29.1357,
@@ -3646,6 +3905,7 @@
   },
   {
     "id": "PSF-006111",
+    "ref": "pge:19979",
     "name": "Karaman Toki",
     "lat": 37.1466,
     "lon": 33.2525,
@@ -3659,6 +3919,7 @@
   },
   {
     "id": "PSF-006214",
+    "ref": "pge:20094",
     "name": "Perli Village, Kutahya",
     "lat": 39.4504,
     "lon": 30.0369,
@@ -3672,6 +3933,7 @@
   },
   {
     "id": "PSF-006226",
+    "ref": "pge:20107",
     "name": "baÅŸÃ§iftlik",
     "lat": 40.4963,
     "lon": 37.1234,
@@ -3685,6 +3947,7 @@
   },
   {
     "id": "PSF-006235",
+    "ref": "pge:20118",
     "name": "Sayır Çıkmazı",
     "lat": 40.6376,
     "lon": 36.3507,
@@ -3698,6 +3961,7 @@
   },
   {
     "id": "PSF-006237",
+    "ref": "pge:20120",
     "name": "Narven",
     "lat": 40.6967,
     "lon": 31.6675,
@@ -3711,6 +3975,7 @@
   },
   {
     "id": "PSF-006291",
+    "ref": "pge:21121",
     "name": "Tunc Mountain",
     "lat": 36.8007,
     "lon": 30.3771,
@@ -3724,6 +3989,7 @@
   },
   {
     "id": "PSF-006607",
+    "ref": "pge:21565",
     "name": "Delibaş Kuşadası",
     "lat": 37.6862,
     "lon": 27.2842,
@@ -3737,6 +4003,7 @@
   },
   {
     "id": "PSF-006683",
+    "ref": "pge:21665",
     "name": "Bekirdede Tepe",
     "lat": 40.7848,
     "lon": 27.2969,
@@ -3750,6 +4017,7 @@
   },
   {
     "id": "PSF-006949",
+    "ref": "pge:21955",
     "name": "Soğanbükü",
     "lat": 39.6327,
     "lon": 27.6048,
@@ -3763,6 +4031,7 @@
   },
   {
     "id": "PSF-006950",
+    "ref": "pge:21956",
     "name": "Kirazköy",
     "lat": 39.6235,
     "lon": 27.6195,
@@ -3776,6 +4045,7 @@
   },
   {
     "id": "PSF-006971",
+    "ref": "pge:21984",
     "name": "Namazgah",
     "lat": 39.906,
     "lon": 27.2727,
@@ -3793,6 +4063,7 @@
   },
   {
     "id": "PSF-006972",
+    "ref": "pge:21985",
     "name": "Seyvan",
     "lat": 39.9291,
     "lon": 27.2691,
@@ -3806,6 +4077,7 @@
   },
   {
     "id": "PSF-007057",
+    "ref": "pge:22086",
     "name": "Yaren",
     "lat": 39.6824,
     "lon": 27.635,
@@ -3823,6 +4095,7 @@
   },
   {
     "id": "PSF-007058",
+    "ref": "pge:22088",
     "name": "Çınaroba",
     "lat": 38.6735,
     "lon": 27.6817,
@@ -3836,6 +4109,7 @@
   },
   {
     "id": "PSF-007059",
+    "ref": "pge:22089",
     "name": "Yaylacık",
     "lat": 39.2183,
     "lon": 28.1677,
@@ -3853,6 +4127,7 @@
   },
   {
     "id": "PSF-007060",
+    "ref": "pge:22090",
     "name": "Mecidiye Karyagdi",
     "lat": 39.464,
     "lon": 28.0461,
@@ -3870,6 +4145,7 @@
   },
   {
     "id": "PSF-007061",
+    "ref": "pge:22091",
     "name": "Dorak",
     "lat": 40.1024,
     "lon": 28.5854,
@@ -3883,6 +4159,7 @@
   },
   {
     "id": "PSF-007106",
+    "ref": "pge:22145",
     "name": "Deregündüzlü",
     "lat": 41.122,
     "lon": 27.6611,
@@ -3900,6 +4177,7 @@
   },
   {
     "id": "PSF-007236",
+    "ref": "pge:22295",
     "name": "Zeytin Barajı",
     "lat": 41.1376,
     "lon": 34.8369,
@@ -3922,6 +4200,7 @@
   },
   {
     "id": "PSF-007238",
+    "ref": "pge:22299",
     "name": "Kargı Yaylası",
     "lat": 41.1877,
     "lon": 34.5177,
@@ -3942,6 +4221,7 @@
   },
   {
     "id": "PSF-007262",
+    "ref": "pge:22325",
     "name": "Trabzon Havacılık Akyazı Takeoff",
     "lat": 41.0,
     "lon": 39.6344,
@@ -3955,6 +4235,7 @@
   },
   {
     "id": "PSF-007480",
+    "ref": "pge:22565",
     "name": "Oguzlar Obruk Barajı",
     "lat": 40.7216,
     "lon": 34.6783,
@@ -3974,6 +4255,7 @@
   },
   {
     "id": "PSF-007481",
+    "ref": "pge:22566",
     "name": "Ağaççamı",
     "lat": 40.786,
     "lon": 34.6681,
@@ -3992,6 +4274,7 @@
   },
   {
     "id": "PSF-007482",
+    "ref": "pge:22567",
     "name": "Ağaççamı (Güney)",
     "lat": 40.7742,
     "lon": 34.665,
@@ -4012,6 +4295,7 @@
   },
   {
     "id": "PSF-007483",
+    "ref": "pge:22568",
     "name": "Baspinar Yaylasi",
     "lat": 40.9148,
     "lon": 35.0596,
@@ -4034,6 +4318,7 @@
   },
   {
     "id": "PSF-007522",
+    "ref": "pge:22608",
     "name": "Asmatepe Bayat",
     "lat": 40.6165,
     "lon": 34.2462,
@@ -4053,6 +4338,7 @@
   },
   {
     "id": "PSF-007538",
+    "ref": "pge:22631",
     "name": "Dedeköy",
     "lat": 37.7501,
     "lon": 27.6667,
@@ -4070,6 +4356,7 @@
   },
   {
     "id": "PSF-007677",
+    "ref": "pge:22781",
     "name": "Cal Dagi Yaylasi",
     "lat": 41.0802,
     "lon": 34.8498,
@@ -4083,6 +4370,7 @@
   },
   {
     "id": "PSF-007859",
+    "ref": "pge:22994",
     "name": "Kup tepe 720",
     "lat": 39.5987,
     "lon": 26.7209,
@@ -4100,6 +4388,7 @@
   },
   {
     "id": "PSF-007860",
+    "ref": "pge:22995",
     "name": "Doyran stat",
     "lat": 39.5685,
     "lon": 26.712,
@@ -4113,6 +4402,7 @@
   },
   {
     "id": "PSF-007872",
+    "ref": "pge:23007",
     "name": "Yaylacık Burhaniye",
     "lat": 39.4288,
     "lon": 27.045,
@@ -4131,6 +4421,7 @@
   },
   {
     "id": "PSF-007873",
+    "ref": "pge:23008",
     "name": "Bahadinli Landing",
     "lat": 39.4459,
     "lon": 27.0198,
@@ -4144,6 +4435,7 @@
   },
   {
     "id": "PSF-007998",
+    "ref": "pge:23143",
     "name": "Hisarcik Kule",
     "lat": 40.4656,
     "lon": 29.9297,
@@ -4157,6 +4449,7 @@
   },
   {
     "id": "PSF-008145",
+    "ref": "pge:23300",
     "name": "Ucan_Sef Durağan Olukbaşı Takeoff",
     "lat": 41.3874,
     "lon": 35.0153,
@@ -4170,6 +4463,7 @@
   },
   {
     "id": "PSF-008146",
+    "ref": "pge:23301",
     "name": "Durağan Buzluk Umuttepe Takeoff",
     "lat": 41.4919,
     "lon": 35.13,
@@ -4183,6 +4477,7 @@
   },
   {
     "id": "PSF-008158",
+    "ref": "pge:23316",
     "name": "Burhaniye Taylieli",
     "lat": 39.4608,
     "lon": 26.9224,
@@ -4200,6 +4495,7 @@
   },
   {
     "id": "PSF-008159",
+    "ref": "pge:23317",
     "name": "Taylieli Burhaniye",
     "lat": 39.4617,
     "lon": 26.9264,
@@ -4217,6 +4513,7 @@
   },
   {
     "id": "PSF-008255",
+    "ref": "pge:23432",
     "name": "Paramotorturkey Take off",
     "lat": 41.2438,
     "lon": 28.9685,
@@ -4230,6 +4527,7 @@
   },
   {
     "id": "PSF-008256",
+    "ref": "pge:23433",
     "name": "Paramotorturkey Take off",
     "lat": 40.8759,
     "lon": 29.222,
@@ -4243,6 +4541,7 @@
   },
   {
     "id": "PSF-008257",
+    "ref": "pge:23434",
     "name": "Şırnak Namaz Dagi",
     "lat": 37.5284,
     "lon": 42.4917,
@@ -4256,6 +4555,7 @@
   },
   {
     "id": "PSF-008259",
+    "ref": "pge:23438",
     "name": "Avunduk Burhaniye",
     "lat": 39.4116,
     "lon": 27.041,
@@ -4273,6 +4573,7 @@
   },
   {
     "id": "PSF-008276",
+    "ref": "pge:23456",
     "name": "Dikili karadag",
     "lat": 38.9831,
     "lon": 26.8567,
@@ -4293,6 +4594,7 @@
   },
   {
     "id": "PSF-008277",
+    "ref": "pge:23458",
     "name": "Dikili bimeyko",
     "lat": 38.9412,
     "lon": 26.851,
@@ -4310,6 +4612,7 @@
   },
   {
     "id": "PSF-008283",
+    "ref": "pge:23464",
     "name": "Erdek",
     "lat": 40.4859,
     "lon": 27.7253,
@@ -4330,6 +4633,7 @@
   },
   {
     "id": "PSF-008294",
+    "ref": "pge:23475",
     "name": "Ladik Akdağ",
     "lat": 40.8771,
     "lon": 35.91,
@@ -4343,6 +4647,7 @@
   },
   {
     "id": "PSF-008295",
+    "ref": "pge:23476",
     "name": "Bafra Kapıkaya",
     "lat": 41.3655,
     "lon": 35.78,
@@ -4356,6 +4661,7 @@
   },
   {
     "id": "PSF-008296",
+    "ref": "pge:23477",
     "name": "Hezarfen",
     "lat": 37.9419,
     "lon": 29.1364,
@@ -4369,6 +4675,7 @@
   },
   {
     "id": "PSF-008309",
+    "ref": "pge:23491",
     "name": "Cintepe Takeoff",
     "lat": 38.4281,
     "lon": 28.5999,
@@ -4382,6 +4689,7 @@
   },
   {
     "id": "PSF-008312",
+    "ref": "pge:23494",
     "name": "üçkardeşler takeoff",
     "lat": 41.5057,
     "lon": 41.5606,
@@ -4395,6 +4703,7 @@
   },
   {
     "id": "PSF-008313",
+    "ref": "pge:23495",
     "name": "Cefuka Takeoof",
     "lat": 41.4716,
     "lon": 41.5754,
@@ -4408,6 +4717,7 @@
   },
   {
     "id": "PSF-008360",
+    "ref": "pge:23551",
     "name": "Tokça",
     "lat": 38.1639,
     "lon": 29.783,
@@ -4425,6 +4735,7 @@
   },
   {
     "id": "PSF-008423",
+    "ref": "pge:23620",
     "name": "Meryem Dagi",
     "lat": 40.2151,
     "lon": 30.089,
@@ -4442,6 +4753,7 @@
   },
   {
     "id": "PSF-008424",
+    "ref": "pge:23621",
     "name": "Kayis Dagi",
     "lat": 40.9695,
     "lon": 29.173,
@@ -4458,6 +4770,7 @@
   },
   {
     "id": "PSF-008433",
+    "ref": "pge:23633",
     "name": "Gölbaşı Takeoff",
     "lat": 37.8122,
     "lon": 37.6463,
@@ -4471,6 +4784,7 @@
   },
   {
     "id": "PSF-008434",
+    "ref": "pge:23634",
     "name": "Sakcagozu Takeoff",
     "lat": 37.1915,
     "lon": 36.9726,
@@ -4484,6 +4798,7 @@
   },
   {
     "id": "PSF-008451",
+    "ref": "pge:23654",
     "name": "Beydağ",
     "lat": 38.0403,
     "lon": 28.2359,
@@ -4502,6 +4817,7 @@
   },
   {
     "id": "PSF-008452",
+    "ref": "pge:23655",
     "name": "Karadag Zirvesi 1950",
     "lat": 36.8506,
     "lon": 30.4263,
@@ -4515,6 +4831,7 @@
   },
   {
     "id": "PSF-008466",
+    "ref": "pge:23674",
     "name": "Ağva",
     "lat": 41.1255,
     "lon": 29.8629,
@@ -4531,6 +4848,7 @@
   },
   {
     "id": "PSF-008467",
+    "ref": "pge:23675",
     "name": "ATAY TEPE",
     "lat": 41.0382,
     "lon": 29.2963,
@@ -4547,6 +4865,7 @@
   },
   {
     "id": "PSF-008483",
+    "ref": "pge:23691",
     "name": "RİVA",
     "lat": 41.2126,
     "lon": 29.2312,
@@ -4560,6 +4879,7 @@
   },
   {
     "id": "PSF-008718",
+    "ref": "pge:23961",
     "name": "KARATAŞ HARBİŞ TAKE OFF",
     "lat": 36.5439,
     "lon": 35.3391,
@@ -4573,6 +4893,7 @@
   },
   {
     "id": "PSF-008725",
+    "ref": "pge:23968",
     "name": "MAGARSUS TAKEOFF",
     "lat": 36.5451,
     "lon": 35.3539,
@@ -4586,6 +4907,7 @@
   },
   {
     "id": "PSF-009613",
+    "ref": "pge:6691",
     "name": "Aksehir",
     "lat": 38.3293,
     "lon": 31.4219,
@@ -4604,6 +4926,7 @@
   },
   {
     "id": "PSF-009615",
+    "ref": "pge:6693",
     "name": "Cokelez",
     "lat": 37.9641,
     "lon": 29.2549,
@@ -4621,6 +4944,7 @@
   },
   {
     "id": "PSF-009621",
+    "ref": "pge:6699",
     "name": "Ali Dag - Kayseri",
     "lat": 38.668,
     "lon": 35.5462,
@@ -4638,6 +4962,7 @@
   },
   {
     "id": "PSF-009690",
+    "ref": "pge:6792",
     "name": "Erzincan",
     "lat": 39.7613,
     "lon": 39.6034,
@@ -4651,6 +4976,7 @@
   },
   {
     "id": "PSF-009691",
+    "ref": "pge:6795",
     "name": "Ormanli",
     "lat": 41.4076,
     "lon": 28.4894,
@@ -4668,6 +4994,7 @@
   },
   {
     "id": "PSF-009724",
+    "ref": "pge:6835",
     "name": "Abant",
     "lat": 40.6008,
     "lon": 31.3191,
@@ -4690,6 +5017,7 @@
   },
   {
     "id": "PSF-009725",
+    "ref": "pge:6837",
     "name": "Bozdag (Summit)",
     "lat": 38.325,
     "lon": 28.101,
@@ -4710,6 +5038,7 @@
   },
   {
     "id": "PSF-009726",
+    "ref": "pge:6838",
     "name": "Imecik",
     "lat": 36.8628,
     "lon": 30.254,
@@ -4727,6 +5056,7 @@
   },
   {
     "id": "PSF-009782",
+    "ref": "pge:6911",
     "name": "Uzumlu",
     "lat": 36.7558,
     "lon": 29.2586,
@@ -4745,6 +5075,7 @@
   },
   {
     "id": "PSF-009783",
+    "ref": "pge:6912",
     "name": "Kas",
     "lat": 36.219,
     "lon": 29.627,
@@ -4764,6 +5095,7 @@
   },
   {
     "id": "PSF-009784",
+    "ref": "pge:6913",
     "name": "Egirdir",
     "lat": 37.8971,
     "lon": 30.7885,
@@ -4783,6 +5115,7 @@
   },
   {
     "id": "PSF-009785",
+    "ref": "pge:6914",
     "name": "Golbasi",
     "lat": 39.6478,
     "lon": 32.8493,
@@ -4805,6 +5138,7 @@
   },
   {
     "id": "PSF-010006",
+    "ref": "pge:7216",
     "name": "Babadag (Oludeniz)",
     "lat": 36.539,
     "lon": 29.1696,
@@ -4827,6 +5161,7 @@
   },
   {
     "id": "PSF-010243",
+    "ref": "pge:7581",
     "name": "Gursu",
     "lat": 40.268,
     "lon": 29.2332,
@@ -4846,6 +5181,7 @@
   },
   {
     "id": "PSF-011393",
+    "ref": "pge:9843",
     "name": "Spil Karlik",
     "lat": 38.5667,
     "lon": 27.4126,
@@ -4865,6 +5201,7 @@
   },
   {
     "id": "PSF-011444",
+    "ref": "pge:9924",
     "name": "Castro",
     "lat": 41.5791,
     "lon": 28.1516,
@@ -4882,6 +5219,7 @@
   },
   {
     "id": "PSF-011445",
+    "ref": "pge:9925",
     "name": "Kiyikoy",
     "lat": 41.6375,
     "lon": 28.096,
@@ -4898,6 +5236,7 @@
   },
   {
     "id": "PSF-011446",
+    "ref": "pge:9926",
     "name": "Sile",
     "lat": 41.1694,
     "lon": 29.6375,
@@ -4916,6 +5255,7 @@
   },
   {
     "id": "PSF-011447",
+    "ref": "pge:9927",
     "name": "Uçmakdere",
     "lat": 40.8128,
     "lon": 27.3719,
@@ -4935,6 +5275,7 @@
   },
   {
     "id": "PSF-011448",
+    "ref": "pge:9928",
     "name": "Gebze",
     "lat": 40.777,
     "lon": 29.5103,
@@ -4951,6 +5292,7 @@
   },
   {
     "id": "PSF-011449",
+    "ref": "pge:9929",
     "name": "Bozdag",
     "lat": 38.303,
     "lon": 28.0448,
@@ -4967,6 +5309,7 @@
   },
   {
     "id": "PSF-011451",
+    "ref": "pge:9931",
     "name": "Esenli",
     "lat": 38.1707,
     "lon": 28.141,
@@ -4984,6 +5327,7 @@
   },
   {
     "id": "PSF-011496",
+    "ref": "pge:9986",
     "name": "Serdivan Kirantepe",
     "lat": 40.7734,
     "lon": 30.3331,
@@ -5003,6 +5347,7 @@
   },
   {
     "id": "PSF-011497",
+    "ref": "pge:9987",
     "name": "Boztepe (Ordu)",
     "lat": 40.9919,
     "lon": 37.8596,
@@ -5020,6 +5365,7 @@
   },
   {
     "id": "PSF-011498",
+    "ref": "pge:9988",
     "name": "Senyurt Mercimek Tepesi",
     "lat": 40.3489,
     "lon": 36.1657,
@@ -5036,6 +5382,7 @@
   },
   {
     "id": "PSF-011499",
+    "ref": "pge:9990",
     "name": "Gelincik Tepesi",
     "lat": 36.8279,
     "lon": 34.5157,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-005686",
+    "ref": "pge:19339",
     "name": "Corso",
     "lat": 36.7682,
     "lon": 3.4391,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-005687",
+    "ref": "pge:19341",
     "name": "Aiit Ziki",
     "lat": 36.5621,
     "lon": 4.476,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-005688",
+    "ref": "pge:19342",
     "name": "Aokas",
     "lat": 36.6206,
     "lon": 5.2477,
@@ -52,6 +55,7 @@
   },
   {
     "id": "PSF-005804",
+    "ref": "pge:19496",
     "name": "seddouk",
     "lat": 36.5114,
     "lon": 4.7439,
@@ -68,6 +72,7 @@
   },
   {
     "id": "PSF-006985",
+    "ref": "pge:21998",
     "name": "Decollage Bona (capfun seraidi)",
     "lat": 36.9348,
     "lon": 7.71994,
@@ -85,6 +90,7 @@
   },
   {
     "id": "PSF-006986",
+    "ref": "pge:21999",
     "name": "Zriba",
     "lat": 36.9441,
     "lon": 7.6779,
@@ -102,6 +108,7 @@
   },
   {
     "id": "PSF-010016",
+    "ref": "pge:7227",
     "name": "Bouzeguene",
     "lat": 28.0,
     "lon": 3.39551,

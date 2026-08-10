@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-003022",
+    "ref": "pge:14425",
     "name": "Carmona",
     "lat": 14.2847,
     "lon": 121.039,
@@ -17,6 +18,7 @@
   },
   {
     "id": "PSF-003065",
+    "ref": "pge:14493",
     "name": "Punod",
     "lat": 10.5203,
     "lon": 123.324,
@@ -33,6 +35,7 @@
   },
   {
     "id": "PSF-003295",
+    "ref": "pge:14855",
     "name": "Nataban Peak",
     "lat": 10.5047,
     "lon": 123.315,
@@ -49,6 +52,7 @@
   },
   {
     "id": "PSF-003878",
+    "ref": "pge:15848",
     "name": "safi ranch",
     "lat": 5.9533,
     "lon": 125.079,
@@ -68,6 +72,7 @@
   },
   {
     "id": "PSF-005655",
+    "ref": "pge:19300",
     "name": "Marcillia",
     "lat": 12.0045,
     "lon": 120.326,
@@ -85,6 +90,7 @@
   },
   {
     "id": "PSF-005660",
+    "ref": "pge:19306",
     "name": "St Nicholas valley",
     "lat": 12.0771,
     "lon": 120.182,
@@ -104,6 +110,7 @@
   },
   {
     "id": "PSF-005847",
+    "ref": "pge:19558",
     "name": "Puro island, Tablas,",
     "lat": 12.1446,
     "lon": 122.041,
@@ -121,6 +128,7 @@
   },
   {
     "id": "PSF-005861",
+    "ref": "pge:19574",
     "name": "NOAH flysite",
     "lat": 17.4332,
     "lon": 120.455,
@@ -134,6 +142,7 @@
   },
   {
     "id": "PSF-005886",
+    "ref": "pge:19617",
     "name": "Omaya mountain",
     "lat": 15.027,
     "lon": 120.197,
@@ -156,6 +165,7 @@
   },
   {
     "id": "PSF-005887",
+    "ref": "pge:19618",
     "name": "Labney Grassy mountain",
     "lat": 15.5756,
     "lon": 120.275,
@@ -174,6 +184,7 @@
   },
   {
     "id": "PSF-005888",
+    "ref": "pge:19619",
     "name": "Labney jungle start",
     "lat": 15.5652,
     "lon": 120.313,
@@ -191,6 +202,7 @@
   },
   {
     "id": "PSF-005906",
+    "ref": "pge:19646",
     "name": "Mambajao",
     "lat": 9.2262,
     "lon": 124.707,
@@ -206,6 +218,7 @@
   },
   {
     "id": "PSF-005945",
+    "ref": "pge:19703",
     "name": "Mike V FlySite",
     "lat": 14.0522,
     "lon": 120.495,
@@ -222,6 +235,7 @@
   },
   {
     "id": "PSF-006497",
+    "ref": "pge:21445",
     "name": "Pitogo Point, Tabugon, Tablas Island.",
     "lat": 12.1428,
     "lon": 122.012,
@@ -239,6 +253,7 @@
   },
   {
     "id": "PSF-006685",
+    "ref": "pge:21667",
     "name": "Oslob, Cebu",
     "lat": 9.52688,
     "lon": 123.409,
@@ -252,6 +267,7 @@
   },
   {
     "id": "PSF-006894",
+    "ref": "pge:21894",
     "name": "Mount Caniaw",
     "lat": 17.6029,
     "lon": 120.486,
@@ -265,6 +281,7 @@
   },
   {
     "id": "PSF-006895",
+    "ref": "pge:21895",
     "name": "Tubalina Pass",
     "lat": 17.1857,
     "lon": 120.653,
@@ -278,6 +295,7 @@
   },
   {
     "id": "PSF-007396",
+    "ref": "pge:22471",
     "name": "NMPC PG club",
     "lat": 8.42691,
     "lon": 124.664,
@@ -291,6 +309,7 @@
   },
   {
     "id": "PSF-007870",
+    "ref": "pge:23005",
     "name": "Mount Malindang Gardens of the World",
     "lat": 8.16111,
     "lon": 123.688,
@@ -304,6 +323,7 @@
   },
   {
     "id": "PSF-007871",
+    "ref": "pge:23006",
     "name": "Mount Malindang East Landing",
     "lat": 8.16155,
     "lon": 123.713,
@@ -317,6 +337,7 @@
   },
   {
     "id": "PSF-007878",
+    "ref": "pge:23014",
     "name": "Canangay",
     "lat": 10.9758,
     "lon": 123.979,
@@ -330,6 +351,7 @@
   },
   {
     "id": "PSF-007879",
+    "ref": "pge:23015",
     "name": "Cebu City",
     "lat": 10.3996,
     "lon": 123.872,
@@ -343,6 +365,7 @@
   },
   {
     "id": "PSF-008314",
+    "ref": "pge:23497",
     "name": "Chocolate Hill",
     "lat": 9.78848,
     "lon": 124.168,
@@ -360,6 +383,7 @@
   },
   {
     "id": "PSF-008315",
+    "ref": "pge:23498",
     "name": "Mahinog",
     "lat": 9.17731,
     "lon": 124.755,
@@ -377,6 +401,7 @@
   },
   {
     "id": "PSF-011452",
+    "ref": "pge:9932",
     "name": "Kasay beach flight park",
     "lat": 13.4674,
     "lon": 120.719,
@@ -394,6 +419,7 @@
   },
   {
     "id": "PSF-011453",
+    "ref": "pge:9933",
     "name": "Dingalan",
     "lat": 15.3838,
     "lon": 121.409,
@@ -410,6 +436,7 @@
   },
   {
     "id": "PSF-011454",
+    "ref": "pge:9934",
     "name": "Montalban",
     "lat": 14.7251,
     "lon": 121.167,
@@ -426,6 +453,7 @@
   },
   {
     "id": "PSF-011455",
+    "ref": "pge:9935",
     "name": "Nabas",
     "lat": 11.8159,
     "lon": 122.095,

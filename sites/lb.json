@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000141",
+    "ref": "pge:10166",
     "name": "Faraya - Mzar",
     "lat": 33.9654,
     "lon": 35.8392,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000722",
+    "ref": "pge:10851",
     "name": "Jbeil",
     "lat": 34.1288,
     "lon": 35.6426,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-000730",
+    "ref": "pge:10859",
     "name": "Dedeh",
     "lat": 34.3866,
     "lon": 35.7989,
@@ -52,6 +55,7 @@
   },
   {
     "id": "PSF-001209",
+    "ref": "pge:11443",
     "name": "The Cedars - Soaring ridge",
     "lat": 34.245,
     "lon": 36.0376,
@@ -69,6 +73,7 @@
   },
   {
     "id": "PSF-003286",
+    "ref": "pge:14845",
     "name": "Annaya",
     "lat": 34.1152,
     "lon": 35.758,
@@ -85,6 +90,7 @@
   },
   {
     "id": "PSF-004129",
+    "ref": "pge:16164",
     "name": "EHDEN",
     "lat": 34.2918,
     "lon": 35.9857,
@@ -98,6 +104,7 @@
   },
   {
     "id": "PSF-008542",
+    "ref": "pge:23760",
     "name": "Al Minieh",
     "lat": 34.4648,
     "lon": 35.9037,
@@ -111,6 +118,7 @@
   },
   {
     "id": "PSF-011070",
+    "ref": "pge:9290",
     "name": "Hammana",
     "lat": 33.8073,
     "lon": 35.7425,
@@ -128,6 +136,7 @@
   },
   {
     "id": "PSF-011075",
+    "ref": "pge:9295",
     "name": "The Cedars - Top takeoff",
     "lat": 34.2339,
     "lon": 36.0797,
@@ -144,6 +153,7 @@
   },
   {
     "id": "PSF-011076",
+    "ref": "pge:9296",
     "name": "The Cedars - Bekaa side",
     "lat": 34.2043,
     "lon": 36.0593,
@@ -161,6 +171,7 @@
   },
   {
     "id": "PSF-011077",
+    "ref": "pge:9297",
     "name": "The Cedars - Intermediate takeoff",
     "lat": 34.2323,
     "lon": 36.0654,
@@ -177,6 +188,7 @@
   },
   {
     "id": "PSF-011308",
+    "ref": "pge:9739",
     "name": "Ghosta",
     "lat": 33.9946,
     "lon": 35.669,
@@ -195,6 +207,7 @@
   },
   {
     "id": "PSF-011320",
+    "ref": "pge:9753",
     "name": "Miziara",
     "lat": 34.3427,
     "lon": 35.9264,
@@ -211,6 +224,7 @@
   },
   {
     "id": "PSF-011411",
+    "ref": "pge:9864",
     "name": "Faraya - Wardeh",
     "lat": 33.9912,
     "lon": 35.8748,

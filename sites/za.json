@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000558",
+    "ref": "pge:10653",
     "name": "soutpansberg",
     "lat": -22.9951,
     "lon": 29.9011,
@@ -17,6 +18,7 @@
   },
   {
     "id": "PSF-000781",
+    "ref": "pge:10915",
     "name": "Circus Airfield",
     "lat": -26.4887,
     "lon": 28.0587,
@@ -39,6 +41,7 @@
   },
   {
     "id": "PSF-000783",
+    "ref": "pge:10917",
     "name": "Ceres Mountain",
     "lat": -33.25,
     "lon": 19.4667,
@@ -56,6 +59,7 @@
   },
   {
     "id": "PSF-000849",
+    "ref": "pge:11001",
     "name": "Amatava",
     "lat": -24.1352,
     "lon": 29.0852,
@@ -76,6 +80,7 @@
   },
   {
     "id": "PSF-000990",
+    "ref": "pge:11166",
     "name": "Mt Anderson",
     "lat": -25.0853,
     "lon": 30.6707,
@@ -93,6 +98,7 @@
   },
   {
     "id": "PSF-000991",
+    "ref": "pge:11167",
     "name": "Mauchberg(MacMac)",
     "lat": -24.9988,
     "lon": 30.761,
@@ -111,6 +117,7 @@
   },
   {
     "id": "PSF-000992",
+    "ref": "pge:11168",
     "name": "Mauchberg(Sabie Ridge)",
     "lat": -25.0307,
     "lon": 30.7562,
@@ -128,6 +135,7 @@
   },
   {
     "id": "PSF-001052",
+    "ref": "pge:11239",
     "name": "Oubos",
     "lat": -33.9906,
     "lon": 24.2132,
@@ -145,6 +153,7 @@
   },
   {
     "id": "PSF-001066",
+    "ref": "pge:11259",
     "name": "Haystacks",
     "lat": -33.7663,
     "lon": 18.6659,
@@ -165,6 +174,7 @@
   },
   {
     "id": "PSF-001143",
+    "ref": "pge:11365",
     "name": "Amatava_NW",
     "lat": -24.1386,
     "lon": 29.09,
@@ -184,6 +194,7 @@
   },
   {
     "id": "PSF-001153",
+    "ref": "pge:11377",
     "name": "Hoeksfontein",
     "lat": -32.3998,
     "lon": 25.1647,
@@ -204,6 +215,7 @@
   },
   {
     "id": "PSF-001301",
+    "ref": "pge:11551",
     "name": "Pampoenfontein",
     "lat": -32.9266,
     "lon": 19.0374,
@@ -222,6 +234,7 @@
   },
   {
     "id": "PSF-001369",
+    "ref": "pge:11640",
     "name": "Amatava_SW",
     "lat": -24.1141,
     "lon": 29.0853,
@@ -239,6 +252,7 @@
   },
   {
     "id": "PSF-001391",
+    "ref": "pge:11693",
     "name": "Putzonderwater",
     "lat": -29.2786,
     "lon": 21.8941,
@@ -252,6 +266,7 @@
   },
   {
     "id": "PSF-001411",
+    "ref": "pge:11719",
     "name": "Steynsburg SW Bowl",
     "lat": -31.2606,
     "lon": 25.804,
@@ -265,6 +280,7 @@
   },
   {
     "id": "PSF-001418",
+    "ref": "pge:11729",
     "name": "Du Toits Kloof Pass",
     "lat": -33.6959,
     "lon": 19.0688,
@@ -281,6 +297,7 @@
   },
   {
     "id": "PSF-001468",
+    "ref": "pge:11829",
     "name": "Durban Bluff",
     "lat": -29.9619,
     "lon": 30.9835,
@@ -298,6 +315,7 @@
   },
   {
     "id": "PSF-001481",
+    "ref": "pge:11847",
     "name": "Monk's Cowl",
     "lat": -29.0594,
     "lon": 29.3956,
@@ -311,6 +329,7 @@
   },
   {
     "id": "PSF-001504",
+    "ref": "pge:11889",
     "name": "Winston Park",
     "lat": -29.8177,
     "lon": 30.7995,
@@ -324,6 +343,7 @@
   },
   {
     "id": "PSF-001539",
+    "ref": "pge:11956",
     "name": "Orkney Airfield",
     "lat": -26.9553,
     "lon": 26.7553,
@@ -337,6 +357,7 @@
   },
   {
     "id": "PSF-001574",
+    "ref": "pge:12017",
     "name": "Spritkopf",
     "lat": -32.5978,
     "lon": 18.9252,
@@ -350,6 +371,7 @@
   },
   {
     "id": "PSF-001659",
+    "ref": "pge:12153",
     "name": "The Peninsula",
     "lat": -26.9562,
     "lon": 28.1454,
@@ -363,6 +385,7 @@
   },
   {
     "id": "PSF-001660",
+    "ref": "pge:12154",
     "name": "Parys Glider Airfield",
     "lat": -26.896,
     "lon": 27.4979,
@@ -376,6 +399,7 @@
   },
   {
     "id": "PSF-001667",
+    "ref": "pge:12166",
     "name": "Normandien",
     "lat": -27.9796,
     "lon": 29.706,
@@ -389,6 +413,7 @@
   },
   {
     "id": "PSF-001687",
+    "ref": "pge:12206",
     "name": "Cradock tower",
     "lat": -32.1245,
     "lon": 25.642,
@@ -402,6 +427,7 @@
   },
   {
     "id": "PSF-001770",
+    "ref": "pge:12357",
     "name": "Voorberg",
     "lat": -34.3493,
     "lon": 18.8882,
@@ -415,6 +441,7 @@
   },
   {
     "id": "PSF-001976",
+    "ref": "pge:12760",
     "name": "boca do inferno",
     "lat": -30.0535,
     "lon": 22.2475,
@@ -428,6 +455,7 @@
   },
   {
     "id": "PSF-001978",
+    "ref": "pge:12763",
     "name": "Kamala Somerset East EC",
     "lat": -32.6764,
     "lon": 25.4697,
@@ -441,6 +469,7 @@
   },
   {
     "id": "PSF-001981",
+    "ref": "pge:12771",
     "name": "Renosterkop",
     "lat": -25.5906,
     "lon": 28.9517,
@@ -454,6 +483,7 @@
   },
   {
     "id": "PSF-001982",
+    "ref": "pge:12772",
     "name": "Aviators Paradise",
     "lat": -25.6917,
     "lon": 27.7829,
@@ -467,6 +497,7 @@
   },
   {
     "id": "PSF-002243",
+    "ref": "pge:13198",
     "name": "Middelburg Carlton Heights",
     "lat": -31.3026,
     "lon": 24.9294,
@@ -480,6 +511,7 @@
   },
   {
     "id": "PSF-002262",
+    "ref": "pge:13224",
     "name": "Pedrocella",
     "lat": -30.3766,
     "lon": 20.7756,
@@ -493,6 +525,7 @@
   },
   {
     "id": "PSF-002273",
+    "ref": "pge:13240",
     "name": "Douglas",
     "lat": -29.0904,
     "lon": 23.7236,
@@ -506,6 +539,7 @@
   },
   {
     "id": "PSF-002278",
+    "ref": "pge:13246",
     "name": "borderline",
     "lat": -30.4987,
     "lon": 22.6681,
@@ -519,6 +553,7 @@
   },
   {
     "id": "PSF-002290",
+    "ref": "pge:13279",
     "name": "Wolfgat (AKA Macassar)",
     "lat": -34.0725,
     "lon": 18.6578,
@@ -536,6 +571,7 @@
   },
   {
     "id": "PSF-002317",
+    "ref": "pge:13320",
     "name": "Marcomeniasita",
     "lat": -29.8772,
     "lon": 29.7118,
@@ -549,6 +585,7 @@
   },
   {
     "id": "PSF-002318",
+    "ref": "pge:13321",
     "name": "Hamburger Hill",
     "lat": -33.7848,
     "lon": 18.6229,
@@ -565,6 +602,7 @@
   },
   {
     "id": "PSF-002319",
+    "ref": "pge:13322",
     "name": "Mr. Methan Hill",
     "lat": -29.6334,
     "lon": 23.2068,
@@ -578,6 +616,7 @@
   },
   {
     "id": "PSF-002320",
+    "ref": "pge:13323",
     "name": "Nairobi",
     "lat": -30.5949,
     "lon": 22.8519,
@@ -591,6 +630,7 @@
   },
   {
     "id": "PSF-002324",
+    "ref": "pge:13331",
     "name": "Zaire",
     "lat": -30.9417,
     "lon": 22.2456,
@@ -604,6 +644,7 @@
   },
   {
     "id": "PSF-002362",
+    "ref": "pge:13403",
     "name": "Vanwyksvlei",
     "lat": -30.3503,
     "lon": 21.8587,
@@ -617,6 +658,7 @@
   },
   {
     "id": "PSF-002390",
+    "ref": "pge:13438",
     "name": "De Aar Airfield",
     "lat": -30.7498,
     "lon": 24.0679,
@@ -630,6 +672,7 @@
   },
   {
     "id": "PSF-002396",
+    "ref": "pge:13450",
     "name": "BoPlaas",
     "lat": -33.9892,
     "lon": 24.6551,
@@ -643,6 +686,7 @@
   },
   {
     "id": "PSF-002400",
+    "ref": "pge:13454",
     "name": "Bedford Mountain",
     "lat": -32.624,
     "lon": 26.029,
@@ -656,6 +700,7 @@
   },
   {
     "id": "PSF-002609",
+    "ref": "pge:13827",
     "name": "Marydale East",
     "lat": -29.4028,
     "lon": 22.2424,
@@ -669,6 +714,7 @@
   },
   {
     "id": "PSF-002610",
+    "ref": "pge:13828",
     "name": "Prieska",
     "lat": -29.6807,
     "lon": 22.7743,
@@ -682,6 +728,7 @@
   },
   {
     "id": "PSF-002611",
+    "ref": "pge:13829",
     "name": "North of Copperton",
     "lat": -29.8071,
     "lon": 22.1929,
@@ -695,6 +742,7 @@
   },
   {
     "id": "PSF-002612",
+    "ref": "pge:13830",
     "name": "North of  Vanwyksvlei",
     "lat": -30.0562,
     "lon": 21.6947,
@@ -708,6 +756,7 @@
   },
   {
     "id": "PSF-002797",
+    "ref": "pge:14111",
     "name": "Stillbaai",
     "lat": -26.8208,
     "lon": 28.1835,
@@ -721,6 +770,7 @@
   },
   {
     "id": "PSF-002816",
+    "ref": "pge:14143",
     "name": "Suurberg Steynsburg EC",
     "lat": -31.1902,
     "lon": 25.6125,
@@ -734,6 +784,7 @@
   },
   {
     "id": "PSF-002827",
+    "ref": "pge:14161",
     "name": "De Aar",
     "lat": -30.7926,
     "lon": 24.0291,
@@ -747,6 +798,7 @@
   },
   {
     "id": "PSF-002833",
+    "ref": "pge:14180",
     "name": "Postmasburg",
     "lat": -28.338,
     "lon": 23.0731,
@@ -760,6 +812,7 @@
   },
   {
     "id": "PSF-002840",
+    "ref": "pge:14189",
     "name": "Sand Road to Sodium off N12",
     "lat": -30.2713,
     "lon": 23.5421,
@@ -773,6 +826,7 @@
   },
   {
     "id": "PSF-002888",
+    "ref": "pge:14256",
     "name": "Vanzylsrus",
     "lat": -26.8815,
     "lon": 22.0556,
@@ -786,6 +840,7 @@
   },
   {
     "id": "PSF-003079",
+    "ref": "pge:14514",
     "name": "Mokopane Potgietersrus Airfield",
     "lat": -24.2291,
     "lon": 28.9852,
@@ -808,6 +863,7 @@
   },
   {
     "id": "PSF-003150",
+    "ref": "pge:14633",
     "name": "Cape Agulhas",
     "lat": -34.8191,
     "lon": 20.0177,
@@ -825,6 +881,7 @@
   },
   {
     "id": "PSF-003195",
+    "ref": "pge:14701",
     "name": "Wigwam",
     "lat": -25.7923,
     "lon": 27.289,
@@ -838,6 +895,7 @@
   },
   {
     "id": "PSF-003415",
+    "ref": "pge:15056",
     "name": "St Faiths",
     "lat": -30.5809,
     "lon": 30.353,
@@ -851,6 +909,7 @@
   },
   {
     "id": "PSF-003512",
+    "ref": "pge:15210",
     "name": "Tamatieberg - Volksrust",
     "lat": -27.3082,
     "lon": 29.8815,
@@ -871,6 +930,7 @@
   },
   {
     "id": "PSF-003586",
+    "ref": "pge:15327",
     "name": "JantjiesHoek-Njoni",
     "lat": -27.2912,
     "lon": 30.2505,
@@ -888,6 +948,7 @@
   },
   {
     "id": "PSF-003616",
+    "ref": "pge:15381",
     "name": "The Spot",
     "lat": -30.1037,
     "lon": 30.3661,
@@ -901,6 +962,7 @@
   },
   {
     "id": "PSF-003619",
+    "ref": "pge:15387",
     "name": "Slipper Back",
     "lat": -33.8862,
     "lon": 25.2644,
@@ -914,6 +976,7 @@
   },
   {
     "id": "PSF-003628",
+    "ref": "pge:15406",
     "name": "Beacon Hill",
     "lat": -30.4188,
     "lon": 30.5104,
@@ -927,6 +990,7 @@
   },
   {
     "id": "PSF-003699",
+    "ref": "pge:15524",
     "name": "Swartkops",
     "lat": -29.5926,
     "lon": 30.2567,
@@ -943,6 +1007,7 @@
   },
   {
     "id": "PSF-003724",
+    "ref": "pge:15567",
     "name": "Copperton",
     "lat": -29.9083,
     "lon": 22.2878,
@@ -956,6 +1021,7 @@
   },
   {
     "id": "PSF-003808",
+    "ref": "pge:15681",
     "name": "Howick Airfield",
     "lat": -29.5552,
     "lon": 30.2122,
@@ -969,6 +1035,7 @@
   },
   {
     "id": "PSF-003852",
+    "ref": "pge:15806",
     "name": "Rhino Ridge",
     "lat": -33.5761,
     "lon": 19.4594,
@@ -982,6 +1049,7 @@
   },
   {
     "id": "PSF-003855",
+    "ref": "pge:15814",
     "name": "Sun City",
     "lat": -29.8002,
     "lon": 29.8259,
@@ -995,6 +1063,7 @@
   },
   {
     "id": "PSF-004113",
+    "ref": "pge:16142",
     "name": "One Gum",
     "lat": -29.7645,
     "lon": 30.8896,
@@ -1008,6 +1077,7 @@
   },
   {
     "id": "PSF-004145",
+    "ref": "pge:16201",
     "name": "Cerro Argentino",
     "lat": -33.3574,
     "lon": 22.0553,
@@ -1021,6 +1091,7 @@
   },
   {
     "id": "PSF-004148",
+    "ref": "pge:16207",
     "name": "Greenlandmountain",
     "lat": -34.1299,
     "lon": 19.0993,
@@ -1034,6 +1105,7 @@
   },
   {
     "id": "PSF-004157",
+    "ref": "pge:16231",
     "name": "Oubergpas Sutherland",
     "lat": -32.4133,
     "lon": 20.3537,
@@ -1047,6 +1119,7 @@
   },
   {
     "id": "PSF-004175",
+    "ref": "pge:16262",
     "name": "Founds Hollow",
     "lat": -29.2984,
     "lon": 30.2156,
@@ -1060,6 +1133,7 @@
   },
   {
     "id": "PSF-004182",
+    "ref": "pge:16275",
     "name": "De Aar Renosterberg",
     "lat": -30.4761,
     "lon": 23.9913,
@@ -1073,6 +1147,7 @@
   },
   {
     "id": "PSF-004187",
+    "ref": "pge:16280",
     "name": "Shongweni",
     "lat": -29.8166,
     "lon": 30.7601,
@@ -1086,6 +1161,7 @@
   },
   {
     "id": "PSF-004198",
+    "ref": "pge:16296",
     "name": "Proud Foot",
     "lat": -29.1635,
     "lon": 30.2449,
@@ -1099,6 +1175,7 @@
   },
   {
     "id": "PSF-004243",
+    "ref": "pge:16357",
     "name": "Mount Gilboa",
     "lat": -29.2948,
     "lon": 30.2972,
@@ -1112,6 +1189,7 @@
   },
   {
     "id": "PSF-004345",
+    "ref": "pge:16530",
     "name": "Pressure Point",
     "lat": -30.249,
     "lon": 30.6712,
@@ -1125,6 +1203,7 @@
   },
   {
     "id": "PSF-004354",
+    "ref": "pge:16545",
     "name": "Grotto Bay",
     "lat": -33.5079,
     "lon": 18.3138,
@@ -1138,6 +1217,7 @@
   },
   {
     "id": "PSF-004355",
+    "ref": "pge:16547",
     "name": "Dennegeur Farm",
     "lat": -30.987,
     "lon": 25.6341,
@@ -1151,6 +1231,7 @@
   },
   {
     "id": "PSF-004356",
+    "ref": "pge:16548",
     "name": "Yzerfontein",
     "lat": -33.3385,
     "lon": 18.1596,
@@ -1164,6 +1245,7 @@
   },
   {
     "id": "PSF-004370",
+    "ref": "pge:16574",
     "name": "Riemvasmaak",
     "lat": -28.4979,
     "lon": 20.223,
@@ -1177,6 +1259,7 @@
   },
   {
     "id": "PSF-004382",
+    "ref": "pge:16592",
     "name": "RBHS School",
     "lat": -25.9344,
     "lon": 27.9303,
@@ -1190,6 +1273,7 @@
   },
   {
     "id": "PSF-004545",
+    "ref": "pge:16889",
     "name": "Battlefields Country Lodge",
     "lat": -28.1324,
     "lon": 30.2857,
@@ -1203,6 +1287,7 @@
   },
   {
     "id": "PSF-004551",
+    "ref": "pge:16898",
     "name": "Witteberg Private Nature Reserve",
     "lat": -33.3585,
     "lon": 20.4992,
@@ -1216,6 +1301,7 @@
   },
   {
     "id": "PSF-004610",
+    "ref": "pge:17000",
     "name": "Carnarvon",
     "lat": -30.9881,
     "lon": 22.1314,
@@ -1229,6 +1315,7 @@
   },
   {
     "id": "PSF-004705",
+    "ref": "pge:17183",
     "name": "Vryburg",
     "lat": -26.9202,
     "lon": 24.7044,
@@ -1242,6 +1329,7 @@
   },
   {
     "id": "PSF-004718",
+    "ref": "pge:17213",
     "name": "Groblershoop Airfield",
     "lat": -28.9122,
     "lon": 21.9929,
@@ -1255,6 +1343,7 @@
   },
   {
     "id": "PSF-004727",
+    "ref": "pge:17234",
     "name": "Sannieshof",
     "lat": -26.4524,
     "lon": 25.9206,
@@ -1268,6 +1357,7 @@
   },
   {
     "id": "PSF-004728",
+    "ref": "pge:17235",
     "name": "Saldanha",
     "lat": -33.012,
     "lon": 18.0196,
@@ -1283,6 +1373,7 @@
   },
   {
     "id": "PSF-004775",
+    "ref": "pge:17321",
     "name": "Groenberg 1",
     "lat": -33.587,
     "lon": 19.0456,
@@ -1296,6 +1387,7 @@
   },
   {
     "id": "PSF-004854",
+    "ref": "pge:17457",
     "name": "Boschpoort",
     "lat": -26.6028,
     "lon": 26.1585,
@@ -1309,6 +1401,7 @@
   },
   {
     "id": "PSF-004855",
+    "ref": "pge:17461",
     "name": "Piekernierskloof Pass",
     "lat": -32.6346,
     "lon": 18.9463,
@@ -1324,6 +1417,7 @@
   },
   {
     "id": "PSF-004915",
+    "ref": "pge:17542",
     "name": "Gerdau",
     "lat": -26.469,
     "lon": 26.0658,
@@ -1337,6 +1431,7 @@
   },
   {
     "id": "PSF-004924",
+    "ref": "pge:17559",
     "name": "Greyton",
     "lat": -34.0625,
     "lon": 19.6034,
@@ -1350,6 +1445,7 @@
   },
   {
     "id": "PSF-004931",
+    "ref": "pge:17568",
     "name": "Bolela",
     "lat": -29.9132,
     "lon": 29.7325,
@@ -1363,6 +1459,7 @@
   },
   {
     "id": "PSF-004937",
+    "ref": "pge:17581",
     "name": "OssewaKop-wakkerstroom",
     "lat": -27.3911,
     "lon": 30.1488,
@@ -1384,6 +1481,7 @@
   },
   {
     "id": "PSF-004938",
+    "ref": "pge:17582",
     "name": "Maanhaarrand",
     "lat": -25.8705,
     "lon": 27.4367,
@@ -1397,6 +1495,7 @@
   },
   {
     "id": "PSF-004973",
+    "ref": "pge:17664",
     "name": "Elandskloof",
     "lat": -32.6327,
     "lon": 19.1485,
@@ -1410,6 +1509,7 @@
   },
   {
     "id": "PSF-005090",
+    "ref": "pge:17884",
     "name": "The Ranges",
     "lat": -32.3949,
     "lon": 23.8414,
@@ -1423,6 +1523,7 @@
   },
   {
     "id": "PSF-005095",
+    "ref": "pge:17892",
     "name": "Landies",
     "lat": -29.7462,
     "lon": 29.9555,
@@ -1436,6 +1537,7 @@
   },
   {
     "id": "PSF-005100",
+    "ref": "pge:17899",
     "name": "Warmbaths airfield",
     "lat": -24.9097,
     "lon": 28.3092,
@@ -1449,6 +1551,7 @@
   },
   {
     "id": "PSF-005113",
+    "ref": "pge:17925",
     "name": "Rusty Gate",
     "lat": -34.0322,
     "lon": 19.3696,
@@ -1462,6 +1565,7 @@
   },
   {
     "id": "PSF-005176",
+    "ref": "pge:18062",
     "name": "Leuwkop airstrip",
     "lat": -26.867,
     "lon": 28.0732,
@@ -1475,6 +1579,7 @@
   },
   {
     "id": "PSF-005212",
+    "ref": "pge:18127",
     "name": "Strandfontein",
     "lat": -31.7437,
     "lon": 18.223,
@@ -1488,6 +1593,7 @@
   },
   {
     "id": "PSF-005271",
+    "ref": "pge:18286",
     "name": "Glacis",
     "lat": -32.2212,
     "lon": 27.3767,
@@ -1501,6 +1607,7 @@
   },
   {
     "id": "PSF-005284",
+    "ref": "pge:18333",
     "name": "Bambi",
     "lat": -25.4938,
     "lon": 30.2993,
@@ -1519,6 +1626,7 @@
   },
   {
     "id": "PSF-005319",
+    "ref": "pge:18447",
     "name": "Antbear Lodge North-West",
     "lat": -29.1519,
     "lon": 29.8228,
@@ -1532,6 +1640,7 @@
   },
   {
     "id": "PSF-005401",
+    "ref": "pge:18668",
     "name": "Scnellskop",
     "lat": -23.7946,
     "lon": 29.9556,
@@ -1545,6 +1654,7 @@
   },
   {
     "id": "PSF-005434",
+    "ref": "pge:18716",
     "name": "Igoda",
     "lat": -33.101,
     "lon": 27.7769,
@@ -1558,6 +1668,7 @@
   },
   {
     "id": "PSF-005453",
+    "ref": "pge:18774",
     "name": "Bonamanzi Lodge",
     "lat": -25.1584,
     "lon": 29.8281,
@@ -1575,6 +1686,7 @@
   },
   {
     "id": "PSF-005558",
+    "ref": "pge:18920",
     "name": "Langeni Pass",
     "lat": -31.4722,
     "lon": 28.4475,
@@ -1588,6 +1700,7 @@
   },
   {
     "id": "PSF-005704",
+    "ref": "pge:19368",
     "name": "Doornkloof",
     "lat": -26.3965,
     "lon": 27.5809,
@@ -1605,6 +1718,7 @@
   },
   {
     "id": "PSF-005964",
+    "ref": "pge:19725",
     "name": "Bulwer 1000",
     "lat": -29.812,
     "lon": 29.7514,
@@ -1621,6 +1735,7 @@
   },
   {
     "id": "PSF-006087",
+    "ref": "pge:19950",
     "name": "Marisca",
     "lat": -33.2555,
     "lon": 24.8799,
@@ -1634,6 +1749,7 @@
   },
   {
     "id": "PSF-006099",
+    "ref": "pge:19966",
     "name": "Vosburg Towing",
     "lat": -30.5783,
     "lon": 22.8009,
@@ -1647,6 +1763,7 @@
   },
   {
     "id": "PSF-006135",
+    "ref": "pge:20005",
     "name": "Koppies Dam",
     "lat": -27.2445,
     "lon": 27.6743,
@@ -1660,6 +1777,7 @@
   },
   {
     "id": "PSF-006147",
+    "ref": "pge:20017",
     "name": "Krans Kop",
     "lat": -28.9137,
     "lon": 30.9543,
@@ -1673,6 +1791,7 @@
   },
   {
     "id": "PSF-006161",
+    "ref": "pge:20033",
     "name": "Mary Dale",
     "lat": -28.3574,
     "lon": 28.9969,
@@ -1686,6 +1805,7 @@
   },
   {
     "id": "PSF-006182",
+    "ref": "pge:20055",
     "name": "Cloud Base",
     "lat": -29.643,
     "lon": 30.854,
@@ -1699,6 +1819,7 @@
   },
   {
     "id": "PSF-006241",
+    "ref": "pge:20125",
     "name": "Rheeboksvlei",
     "lat": -24.0465,
     "lon": 29.8611,
@@ -1712,6 +1833,7 @@
   },
   {
     "id": "PSF-006255",
+    "ref": "pge:20142",
     "name": "Eagles Nest",
     "lat": -25.6469,
     "lon": 27.1874,
@@ -1732,6 +1854,7 @@
   },
   {
     "id": "PSF-006256",
+    "ref": "pge:20143",
     "name": "Stellenbosch Mountain",
     "lat": -33.9514,
     "lon": 18.8854,
@@ -1745,6 +1868,7 @@
   },
   {
     "id": "PSF-006309",
+    "ref": "pge:21218",
     "name": "Buffels Bay / Buffalo Bay / Buffels Baai",
     "lat": -34.0811,
     "lon": 22.9751,
@@ -1761,6 +1885,7 @@
   },
   {
     "id": "PSF-006315",
+    "ref": "pge:21226",
     "name": "Leeukop flying hill",
     "lat": -27.49,
     "lon": 28.8573,
@@ -1779,6 +1904,7 @@
   },
   {
     "id": "PSF-006316",
+    "ref": "pge:21227",
     "name": "Skurwerberg",
     "lat": -25.8218,
     "lon": 30.3969,
@@ -1797,6 +1923,7 @@
   },
   {
     "id": "PSF-006317",
+    "ref": "pge:21228",
     "name": "Kleinkrantz car park",
     "lat": -34.003,
     "lon": 22.6457,
@@ -1815,6 +1942,7 @@
   },
   {
     "id": "PSF-006502",
+    "ref": "pge:21450",
     "name": "Vrede North",
     "lat": -27.4864,
     "lon": 29.0792,
@@ -1831,6 +1959,7 @@
   },
   {
     "id": "PSF-007412",
+    "ref": "pge:22487",
     "name": "Richmond Local Municipality",
     "lat": -29.8032,
     "lon": 30.1607,
@@ -1844,6 +1973,7 @@
   },
   {
     "id": "PSF-007413",
+    "ref": "pge:22488",
     "name": "Richmond Local Municipality",
     "lat": -29.8037,
     "lon": 30.1621,
@@ -1857,6 +1987,7 @@
   },
   {
     "id": "PSF-008178",
+    "ref": "pge:23336",
     "name": "Kleinmond",
     "lat": -34.3282,
     "lon": 19.0281,
@@ -1873,6 +2004,7 @@
   },
   {
     "id": "PSF-008179",
+    "ref": "pge:23337",
     "name": "Kardoesie SW",
     "lat": -32.6432,
     "lon": 18.9531,
@@ -1889,6 +2021,7 @@
   },
   {
     "id": "PSF-008180",
+    "ref": "pge:23338",
     "name": "Kardoesie NW",
     "lat": -32.6317,
     "lon": 18.946,
@@ -1905,6 +2038,7 @@
   },
   {
     "id": "PSF-009276",
+    "ref": "pge:6004",
     "name": "Burgerspass, Robertson",
     "lat": -33.75,
     "lon": 19.8333,
@@ -1921,6 +2055,7 @@
   },
   {
     "id": "PSF-009277",
+    "ref": "pge:6005",
     "name": "Lions Head (Cape Town)",
     "lat": -33.9381,
     "lon": 18.3882,
@@ -1937,6 +2072,7 @@
   },
   {
     "id": "PSF-009278",
+    "ref": "pge:6007",
     "name": "Dasklip Pass, Porterville",
     "lat": -32.9062,
     "lon": 19.0375,
@@ -1954,6 +2090,7 @@
   },
   {
     "id": "PSF-009279",
+    "ref": "pge:6008",
     "name": "SedgeField, Cloud Nine",
     "lat": -34.006,
     "lon": 22.7939,
@@ -1971,6 +2108,7 @@
   },
   {
     "id": "PSF-009280",
+    "ref": "pge:6010",
     "name": "Wilderness, Serpentine",
     "lat": -33.9825,
     "lon": 22.6153,
@@ -1988,6 +2126,7 @@
   },
   {
     "id": "PSF-009281",
+    "ref": "pge:6012",
     "name": "Bachelors Hill",
     "lat": -31.24,
     "lon": 28.08,
@@ -2001,6 +2140,7 @@
   },
   {
     "id": "PSF-009282",
+    "ref": "pge:6013",
     "name": "Bedford",
     "lat": -32.64,
     "lon": 26.08,
@@ -2014,6 +2154,7 @@
   },
   {
     "id": "PSF-009283",
+    "ref": "pge:6014",
     "name": "Bushmans",
     "lat": -33.88,
     "lon": 25.08,
@@ -2029,6 +2170,7 @@
   },
   {
     "id": "PSF-009284",
+    "ref": "pge:6015",
     "name": "Dunes",
     "lat": -32.88,
     "lon": 27.88,
@@ -2042,6 +2184,7 @@
   },
   {
     "id": "PSF-009285",
+    "ref": "pge:6016",
     "name": "Eagle Rock",
     "lat": -31.08,
     "lon": 28.16,
@@ -2055,6 +2198,7 @@
   },
   {
     "id": "PSF-009286",
+    "ref": "pge:6017",
     "name": "Glen Cullen Fire Tower",
     "lat": -31.08,
     "lon": 28.24,
@@ -2068,6 +2212,7 @@
   },
   {
     "id": "PSF-009287",
+    "ref": "pge:6018",
     "name": "Harnett\\'s Farm",
     "lat": -33.24,
     "lon": 26.46,
@@ -2085,6 +2230,7 @@
   },
   {
     "id": "PSF-009288",
+    "ref": "pge:6019",
     "name": "High Dunes",
     "lat": -33.16,
     "lon": 27.8,
@@ -2098,6 +2244,7 @@
   },
   {
     "id": "PSF-009289",
+    "ref": "pge:6020",
     "name": "Highlands Farm",
     "lat": -33.3,
     "lon": 26.4,
@@ -2115,6 +2262,7 @@
   },
   {
     "id": "PSF-009290",
+    "ref": "pge:6021",
     "name": "Hoggsback",
     "lat": -32.54,
     "lon": 26.81,
@@ -2128,6 +2276,7 @@
   },
   {
     "id": "PSF-009291",
+    "ref": "pge:6022",
     "name": "Lady Slipper",
     "lat": -33.8915,
     "lon": 25.265,
@@ -2144,6 +2293,7 @@
   },
   {
     "id": "PSF-009292",
+    "ref": "pge:6023",
     "name": "Maitlands Bottom",
     "lat": -33.9891,
     "lon": 25.297,
@@ -2160,6 +2310,7 @@
   },
   {
     "id": "PSF-009293",
+    "ref": "pge:6024",
     "name": "Maitlands",
     "lat": -33.9871,
     "lon": 25.3003,
@@ -2176,6 +2327,7 @@
   },
   {
     "id": "PSF-009294",
+    "ref": "pge:6025",
     "name": "Mountain Drive",
     "lat": -33.32,
     "lon": 26.24,
@@ -2191,6 +2343,7 @@
   },
   {
     "id": "PSF-009295",
+    "ref": "pge:6026",
     "name": "Mullersberg",
     "lat": -33.35,
     "lon": 25.4,
@@ -2208,6 +2361,7 @@
   },
   {
     "id": "PSF-009296",
+    "ref": "pge:6027",
     "name": "Ntywenka",
     "lat": -31.08,
     "lon": 27.88,
@@ -2221,6 +2375,7 @@
   },
   {
     "id": "PSF-009297",
+    "ref": "pge:6029",
     "name": "Prentjiesberg",
     "lat": -31.16,
     "lon": 28.16,
@@ -2234,6 +2389,7 @@
   },
   {
     "id": "PSF-009298",
+    "ref": "pge:6030",
     "name": "Valley of Desolation - Graaff-Reinet",
     "lat": -32.2629,
     "lon": 24.5047,
@@ -2251,6 +2407,7 @@
   },
   {
     "id": "PSF-009299",
+    "ref": "pge:6031",
     "name": "Westo",
     "lat": -33.24,
     "lon": 26.32,
@@ -2268,6 +2425,7 @@
   },
   {
     "id": "PSF-009300",
+    "ref": "pge:6032",
     "name": "Bloemhofdam",
     "lat": -27.64,
     "lon": 25.64,
@@ -2290,6 +2448,7 @@
   },
   {
     "id": "PSF-009301",
+    "ref": "pge:6033",
     "name": "Botshabelo",
     "lat": -29.24,
     "lon": 26.72,
@@ -2303,6 +2462,7 @@
   },
   {
     "id": "PSF-009302",
+    "ref": "pge:6034",
     "name": "Dealsville",
     "lat": -28.64,
     "lon": 25.72,
@@ -2316,6 +2476,7 @@
   },
   {
     "id": "PSF-009303",
+    "ref": "pge:6035",
     "name": "Parys Winch Park",
     "lat": -26.94,
     "lon": 27.57,
@@ -2338,6 +2499,7 @@
   },
   {
     "id": "PSF-009304",
+    "ref": "pge:6036",
     "name": "Platberg",
     "lat": -28.24,
     "lon": 29.16,
@@ -2351,6 +2513,7 @@
   },
   {
     "id": "PSF-009305",
+    "ref": "pge:6037",
     "name": "Rooikranz",
     "lat": -28.56,
     "lon": 27.88,
@@ -2364,6 +2527,7 @@
   },
   {
     "id": "PSF-009306",
+    "ref": "pge:6038",
     "name": "Thaba Nchu",
     "lat": -29.16,
     "lon": 26.72,
@@ -2377,6 +2541,7 @@
   },
   {
     "id": "PSF-009307",
+    "ref": "pge:6039",
     "name": "Welkom",
     "lat": -28.0,
     "lon": 26.64,
@@ -2399,6 +2564,7 @@
   },
   {
     "id": "PSF-009308",
+    "ref": "pge:6040",
     "name": "Bronkhostspruit",
     "lat": -25.64,
     "lon": 28.64,
@@ -2412,6 +2578,7 @@
   },
   {
     "id": "PSF-009309",
+    "ref": "pge:6041",
     "name": "Dunnottar",
     "lat": -26.3539,
     "lon": 28.4699,
@@ -2434,6 +2601,7 @@
   },
   {
     "id": "PSF-009310",
+    "ref": "pge:6042",
     "name": "Heidelberg Airfield",
     "lat": -26.49,
     "lon": 28.36,
@@ -2447,6 +2615,7 @@
   },
   {
     "id": "PSF-009311",
+    "ref": "pge:6043",
     "name": "Krugersdorp",
     "lat": -26.0658,
     "lon": 27.8124,
@@ -2463,6 +2632,7 @@
   },
   {
     "id": "PSF-009312",
+    "ref": "pge:6044",
     "name": "Laudium",
     "lat": -25.75,
     "lon": 28.08,
@@ -2479,6 +2649,7 @@
   },
   {
     "id": "PSF-009313",
+    "ref": "pge:6046",
     "name": "Skeerpoort",
     "lat": -25.76,
     "lon": 27.72,
@@ -2492,6 +2663,7 @@
   },
   {
     "id": "PSF-009314",
+    "ref": "pge:6047",
     "name": "South Side",
     "lat": -25.64,
     "lon": 28.16,
@@ -2505,6 +2677,7 @@
   },
   {
     "id": "PSF-009315",
+    "ref": "pge:6049",
     "name": "Vaal Dam",
     "lat": -26.8,
     "lon": 28.24,
@@ -2527,6 +2700,7 @@
   },
   {
     "id": "PSF-009316",
+    "ref": "pge:6050",
     "name": "Walkerville",
     "lat": -26.32,
     "lon": 28.0,
@@ -2540,6 +2714,7 @@
   },
   {
     "id": "PSF-009317",
+    "ref": "pge:6051",
     "name": "Arthurs Seat",
     "lat": -28.8,
     "lon": 29.32,
@@ -2553,6 +2728,7 @@
   },
   {
     "id": "PSF-009318",
+    "ref": "pge:6052",
     "name": "Black Ridge",
     "lat": -29.56,
     "lon": 30.32,
@@ -2566,6 +2742,7 @@
   },
   {
     "id": "PSF-009319",
+    "ref": "pge:6054",
     "name": "Bokkiesberg",
     "lat": -30.32,
     "lon": 29.32,
@@ -2579,6 +2756,7 @@
   },
   {
     "id": "PSF-009320",
+    "ref": "pge:6055",
     "name": "Bulwer 600",
     "lat": -29.8099,
     "lon": 29.7363,
@@ -2597,6 +2775,7 @@
   },
   {
     "id": "PSF-009321",
+    "ref": "pge:6056",
     "name": "Dumbe",
     "lat": -27.4,
     "lon": 30.8,
@@ -2610,6 +2789,7 @@
   },
   {
     "id": "PSF-009322",
+    "ref": "pge:6057",
     "name": "Eshowe",
     "lat": -28.8,
     "lon": 31.32,
@@ -2623,6 +2803,7 @@
   },
   {
     "id": "PSF-009323",
+    "ref": "pge:6058",
     "name": "Fort Mistake",
     "lat": -28.1421,
     "lon": 29.9526,
@@ -2640,6 +2821,7 @@
   },
   {
     "id": "PSF-009324",
+    "ref": "pge:6059",
     "name": "Glueckstadt",
     "lat": -27.91,
     "lon": 31.01,
@@ -2653,6 +2835,7 @@
   },
   {
     "id": "PSF-009325",
+    "ref": "pge:6060",
     "name": "Hella Hella",
     "lat": -29.8,
     "lon": 30.16,
@@ -2666,6 +2849,7 @@
   },
   {
     "id": "PSF-009326",
+    "ref": "pge:6061",
     "name": "Ifafa",
     "lat": -30.32,
     "lon": 30.64,
@@ -2679,6 +2863,7 @@
   },
   {
     "id": "PSF-009327",
+    "ref": "pge:6062",
     "name": "Loskop",
     "lat": -29.32,
     "lon": 30.24,
@@ -2692,6 +2877,7 @@
   },
   {
     "id": "PSF-009328",
+    "ref": "pge:6063",
     "name": "Majuba Mountain",
     "lat": -27.4774,
     "lon": 29.8504,
@@ -2710,6 +2896,7 @@
   },
   {
     "id": "PSF-009329",
+    "ref": "pge:6064",
     "name": "Mt. Temple",
     "lat": -28.16,
     "lon": 22.64,
@@ -2723,6 +2910,7 @@
   },
   {
     "id": "PSF-009330",
+    "ref": "pge:6065",
     "name": "Olivershook",
     "lat": -28.56,
     "lon": 29.08,
@@ -2736,6 +2924,7 @@
   },
   {
     "id": "PSF-009331",
+    "ref": "pge:6068",
     "name": "Ossewa",
     "lat": -27.4,
     "lon": 30.24,
@@ -2749,6 +2938,7 @@
   },
   {
     "id": "PSF-009332",
+    "ref": "pge:6069",
     "name": "Ottos Bluff",
     "lat": -29.48,
     "lon": 30.4,
@@ -2762,6 +2952,7 @@
   },
   {
     "id": "PSF-009333",
+    "ref": "pge:6070",
     "name": "Pevensey",
     "lat": -28.72,
     "lon": 30.32,
@@ -2775,6 +2966,7 @@
   },
   {
     "id": "PSF-009334",
+    "ref": "pge:6071",
     "name": "Springfield",
     "lat": -29.8,
     "lon": 31.0,
@@ -2788,6 +2980,7 @@
   },
   {
     "id": "PSF-009335",
+    "ref": "pge:6072",
     "name": "Umvoti Gorge",
     "lat": -29.16,
     "lon": 30.64,
@@ -2801,6 +2994,7 @@
   },
   {
     "id": "PSF-009336",
+    "ref": "pge:6073",
     "name": "Windy Corner",
     "lat": -28.32,
     "lon": 29.32,
@@ -2814,6 +3008,7 @@
   },
   {
     "id": "PSF-009337",
+    "ref": "pge:6074",
     "name": "Winston Park",
     "lat": -28.72,
     "lon": 30.72,
@@ -2827,6 +3022,7 @@
   },
   {
     "id": "PSF-009338",
+    "ref": "pge:6076",
     "name": "Bulembu Road",
     "lat": -25.72,
     "lon": 31.08,
@@ -2840,6 +3036,7 @@
   },
   {
     "id": "PSF-009339",
+    "ref": "pge:6077",
     "name": "Paradise Falls",
     "lat": -25.3397,
     "lon": 30.8019,
@@ -2857,6 +3054,7 @@
   },
   {
     "id": "PSF-009340",
+    "ref": "pge:6078",
     "name": "Doringkop",
     "lat": -25.48,
     "lon": 29.8,
@@ -2879,6 +3077,7 @@
   },
   {
     "id": "PSF-009341",
+    "ref": "pge:6079",
     "name": "Gods Window",
     "lat": -24.9069,
     "lon": 30.8657,
@@ -2896,6 +3095,7 @@
   },
   {
     "id": "PSF-009342",
+    "ref": "pge:6080",
     "name": "Kaapse Hoop",
     "lat": -25.64,
     "lon": 30.72,
@@ -2909,6 +3109,7 @@
   },
   {
     "id": "PSF-009343",
+    "ref": "pge:6081",
     "name": "Kriel",
     "lat": -26.24,
     "lon": 29.24,
@@ -2931,6 +3132,7 @@
   },
   {
     "id": "PSF-009344",
+    "ref": "pge:6083",
     "name": "Long Tom Pass",
     "lat": -25.1477,
     "lon": 30.6204,
@@ -2948,6 +3150,7 @@
   },
   {
     "id": "PSF-009345",
+    "ref": "pge:6084",
     "name": "Mount Carmel",
     "lat": -25.4062,
     "lon": 30.7582,
@@ -2967,6 +3170,7 @@
   },
   {
     "id": "PSF-009346",
+    "ref": "pge:6085",
     "name": "Ngodwana",
     "lat": -25.6267,
     "lon": 30.6254,
@@ -2985,6 +3189,7 @@
   },
   {
     "id": "PSF-009347",
+    "ref": "pge:6086",
     "name": "The Farm",
     "lat": -25.64,
     "lon": 30.56,
@@ -2998,6 +3203,7 @@
   },
   {
     "id": "PSF-009348",
+    "ref": "pge:6087",
     "name": "Vaal Kop",
     "lat": -25.8016,
     "lon": 30.6266,
@@ -3017,6 +3223,7 @@
   },
   {
     "id": "PSF-009349",
+    "ref": "pge:6088",
     "name": "Wakkerstrom",
     "lat": -27.32,
     "lon": 30.24,
@@ -3030,6 +3237,7 @@
   },
   {
     "id": "PSF-009350",
+    "ref": "pge:6089",
     "name": "Witbank Dam",
     "lat": -25.8,
     "lon": 29.32,
@@ -3052,6 +3260,7 @@
   },
   {
     "id": "PSF-009351",
+    "ref": "pge:6090",
     "name": "Edgehill",
     "lat": -27.56,
     "lon": 23.48,
@@ -3065,6 +3274,7 @@
   },
   {
     "id": "PSF-009352",
+    "ref": "pge:6091",
     "name": "Hotazel Airstrip",
     "lat": -27.16,
     "lon": 22.88,
@@ -3078,6 +3288,7 @@
   },
   {
     "id": "PSF-009353",
+    "ref": "pge:6092",
     "name": "Kuruman Airfield",
     "lat": -27.4,
     "lon": 23.4,
@@ -3100,6 +3311,7 @@
   },
   {
     "id": "PSF-009354",
+    "ref": "pge:6093",
     "name": "Kombegana",
     "lat": -25.79,
     "lon": 27.4,
@@ -3113,6 +3325,7 @@
   },
   {
     "id": "PSF-009355",
+    "ref": "pge:6094",
     "name": "Suurplaat",
     "lat": -25.72,
     "lon": 27.4,
@@ -3129,6 +3342,7 @@
   },
   {
     "id": "PSF-009356",
+    "ref": "pge:6095",
     "name": "Eagles Nest",
     "lat": -25.6488,
     "lon": 27.1868,
@@ -3148,6 +3362,7 @@
   },
   {
     "id": "PSF-009357",
+    "ref": "pge:6096",
     "name": "Vryburg Airfield",
     "lat": -26.88,
     "lon": 24.64,
@@ -3170,6 +3385,7 @@
   },
   {
     "id": "PSF-009358",
+    "ref": "pge:6097",
     "name": "Agatha",
     "lat": -24.0,
     "lon": 30.0,
@@ -3183,6 +3399,7 @@
   },
   {
     "id": "PSF-009359",
+    "ref": "pge:6098",
     "name": "Hanglip",
     "lat": -23.0,
     "lon": 29.8,
@@ -3196,6 +3413,7 @@
   },
   {
     "id": "PSF-009360",
+    "ref": "pge:6099",
     "name": "Holiday Inn / Wilderness Beach Hotel",
     "lat": -33.9992,
     "lon": 22.6134,
@@ -3212,6 +3430,7 @@
   },
   {
     "id": "PSF-009362",
+    "ref": "pge:6100",
     "name": "Kushke",
     "lat": -24.0275,
     "lon": 29.324,
@@ -3229,6 +3448,7 @@
   },
   {
     "id": "PSF-009363",
+    "ref": "pge:6101",
     "name": "Langberg",
     "lat": -25.56,
     "lon": 27.72,
@@ -3242,6 +3462,7 @@
   },
   {
     "id": "PSF-009364",
+    "ref": "pge:6102",
     "name": "Montgomery",
     "lat": -24.13,
     "lon": 29.11,
@@ -3255,6 +3476,7 @@
   },
   {
     "id": "PSF-009365",
+    "ref": "pge:6103",
     "name": "Paradise Ridge",
     "lat": -34.0125,
     "lon": 22.6894,
@@ -3272,6 +3494,7 @@
   },
   {
     "id": "PSF-009366",
+    "ref": "pge:6104",
     "name": "Swartkrans - Ysterberg",
     "lat": -24.14,
     "lon": 29.22,
@@ -3285,6 +3508,7 @@
   },
   {
     "id": "PSF-009367",
+    "ref": "pge:6105",
     "name": "Thabazimbi",
     "lat": -24.6054,
     "lon": 27.4175,
@@ -3306,6 +3530,7 @@
   },
   {
     "id": "PSF-009368",
+    "ref": "pge:6106",
     "name": "Hartbeespoortdam (Pretoria- Johannesburg)",
     "lat": -25.7111,
     "lon": 27.885,
@@ -3326,6 +3551,7 @@
   },
   {
     "id": "PSF-009369",
+    "ref": "pge:6107",
     "name": "Tomason",
     "lat": -23.8582,
     "lon": 29.8855,
@@ -3339,6 +3565,7 @@
   },
   {
     "id": "PSF-009370",
+    "ref": "pge:6108",
     "name": "Ysterberg aka Highlands",
     "lat": -24.1539,
     "lon": 29.2376,
@@ -3356,6 +3583,7 @@
   },
   {
     "id": "PSF-009371",
+    "ref": "pge:6109",
     "name": "Arch Rock",
     "lat": -34.0,
     "lon": 23.45,
@@ -3369,6 +3597,7 @@
   },
   {
     "id": "PSF-009372",
+    "ref": "pge:6110",
     "name": "Barrydale",
     "lat": -33.88,
     "lon": 20.72,
@@ -3382,6 +3611,7 @@
   },
   {
     "id": "PSF-009373",
+    "ref": "pge:6111",
     "name": "Bonnievale",
     "lat": -33.83,
     "lon": 21.82,
@@ -3395,6 +3625,7 @@
   },
   {
     "id": "PSF-009374",
+    "ref": "pge:6112",
     "name": "Bredasdorp Airfield",
     "lat": -34.63,
     "lon": 20.05,
@@ -3417,6 +3648,7 @@
   },
   {
     "id": "PSF-009375",
+    "ref": "pge:6113",
     "name": "Brenton on sea",
     "lat": -34.06,
     "lon": 23.01,
@@ -3433,6 +3665,7 @@
   },
   {
     "id": "PSF-009376",
+    "ref": "pge:6115",
     "name": "Castleton",
     "lat": -34.05,
     "lon": 23.34,
@@ -3446,6 +3679,7 @@
   },
   {
     "id": "PSF-009377",
+    "ref": "pge:6118",
     "name": "Du Toits - LangKloof",
     "lat": -33.7984,
     "lon": 22.4831,
@@ -3462,6 +3696,7 @@
   },
   {
     "id": "PSF-009378",
+    "ref": "pge:6120",
     "name": "Gansbaai",
     "lat": -34.54,
     "lon": 19.41,
@@ -3475,6 +3710,7 @@
   },
   {
     "id": "PSF-009379",
+    "ref": "pge:6121",
     "name": "Gerricke's Point",
     "lat": -34.0309,
     "lon": 22.7637,
@@ -3491,6 +3727,7 @@
   },
   {
     "id": "PSF-009380",
+    "ref": "pge:6124",
     "name": "Jongens Fontein",
     "lat": -34.4,
     "lon": 21.32,
@@ -3504,6 +3741,7 @@
   },
   {
     "id": "PSF-009381",
+    "ref": "pge:6125",
     "name": "Kelershoogte",
     "lat": -33.67,
     "lon": 22.12,
@@ -3517,6 +3755,7 @@
   },
   {
     "id": "PSF-009382",
+    "ref": "pge:6126",
     "name": "Kleinkrantz",
     "lat": -34.0061,
     "lon": 22.6594,
@@ -3534,6 +3773,7 @@
   },
   {
     "id": "PSF-009383",
+    "ref": "pge:6128",
     "name": "Map of Africa",
     "lat": -33.9935,
     "lon": 22.56,
@@ -3550,6 +3790,7 @@
   },
   {
     "id": "PSF-009384",
+    "ref": "pge:6129",
     "name": "Noordhoek Peak",
     "lat": -34.0773,
     "lon": 18.3849,
@@ -3567,6 +3808,7 @@
   },
   {
     "id": "PSF-009385",
+    "ref": "pge:6130",
     "name": "Oudtshoorn Air Field",
     "lat": -33.57,
     "lon": 22.17,
@@ -3589,6 +3831,7 @@
   },
   {
     "id": "PSF-009386",
+    "ref": "pge:6133",
     "name": "Rondebossie",
     "lat": -33.72,
     "lon": 18.64,
@@ -3602,6 +3845,7 @@
   },
   {
     "id": "PSF-009387",
+    "ref": "pge:6135",
     "name": "Swartberg Pass",
     "lat": -33.32,
     "lon": 22.0,
@@ -3615,6 +3859,7 @@
   },
   {
     "id": "PSF-009388",
+    "ref": "pge:6140",
     "name": "Hermanus",
     "lat": -34.4021,
     "lon": 19.2429,
@@ -3631,6 +3876,7 @@
   },
   {
     "id": "PSF-009390",
+    "ref": "pge:6142",
     "name": "Bettys Bay",
     "lat": -34.3662,
     "lon": 18.8586,
@@ -3644,6 +3890,7 @@
   },
   {
     "id": "PSF-009391",
+    "ref": "pge:6143",
     "name": "Burgerspass",
     "lat": -33.72,
     "lon": 19.8,
@@ -3657,6 +3904,7 @@
   },
   {
     "id": "PSF-009392",
+    "ref": "pge:6144",
     "name": "Gydo Pass",
     "lat": -33.2367,
     "lon": 19.3244,
@@ -3673,6 +3921,7 @@
   },
   {
     "id": "PSF-009393",
+    "ref": "pge:6145",
     "name": "Constantiaberg",
     "lat": -34.0544,
     "lon": 18.3878,
@@ -3686,6 +3935,7 @@
   },
   {
     "id": "PSF-009394",
+    "ref": "pge:6148",
     "name": "Eselsfontein",
     "lat": -32.83,
     "lon": 19.09,
@@ -3699,6 +3949,7 @@
   },
   {
     "id": "PSF-009395",
+    "ref": "pge:6150",
     "name": "Franschoek",
     "lat": -33.9033,
     "lon": 19.1572,
@@ -3716,6 +3967,7 @@
   },
   {
     "id": "PSF-009396",
+    "ref": "pge:6152",
     "name": "Kalkbay",
     "lat": -34.16,
     "lon": 18.44,
@@ -3729,6 +3981,7 @@
   },
   {
     "id": "PSF-009397",
+    "ref": "pge:6153",
     "name": "Kanonkop",
     "lat": -33.8,
     "lon": 18.88,
@@ -3742,6 +3995,7 @@
   },
   {
     "id": "PSF-009398",
+    "ref": "pge:6154",
     "name": "Klein Kanonkop",
     "lat": -33.81,
     "lon": 18.86,
@@ -3755,6 +4009,7 @@
   },
   {
     "id": "PSF-009399",
+    "ref": "pge:6155",
     "name": "Kommetjie",
     "lat": -34.147,
     "lon": 18.3247,
@@ -3771,6 +4026,7 @@
   },
   {
     "id": "PSF-009400",
+    "ref": "pge:6157",
     "name": "Llandudno",
     "lat": -34.0135,
     "lon": 18.3444,
@@ -3786,6 +4042,7 @@
   },
   {
     "id": "PSF-009401",
+    "ref": "pge:6158",
     "name": "Maniacs",
     "lat": -33.16,
     "lon": 18.32,
@@ -3799,6 +4056,7 @@
   },
   {
     "id": "PSF-009402",
+    "ref": "pge:6161",
     "name": "Paarl Rock",
     "lat": -33.7401,
     "lon": 18.95,
@@ -3817,6 +4075,7 @@
   },
   {
     "id": "PSF-009403",
+    "ref": "pge:6162",
     "name": "Piketberg",
     "lat": -32.855,
     "lon": 18.7367,
@@ -3833,6 +4092,7 @@
   },
   {
     "id": "PSF-009404",
+    "ref": "pge:6167",
     "name": "Sir Lowry s Pass",
     "lat": -34.149,
     "lon": 18.9276,
@@ -3850,6 +4110,7 @@
   },
   {
     "id": "PSF-009405",
+    "ref": "pge:6168",
     "name": "Table Mountain",
     "lat": -33.9631,
     "lon": 18.4112,
@@ -3867,6 +4128,7 @@
   },
   {
     "id": "PSF-009406",
+    "ref": "pge:6169",
     "name": "Van Rhyn's Pass",
     "lat": -31.32,
     "lon": 19.08,
@@ -3883,6 +4145,7 @@
   },
   {
     "id": "PSF-009700",
+    "ref": "pge:6805",
     "name": "De Aar",
     "lat": -30.6965,
     "lon": 24.0303,
@@ -3896,6 +4159,7 @@
   },
   {
     "id": "PSF-010027",
+    "ref": "pge:7241",
     "name": "Barberton -Lone Tree  Hill",
     "lat": -25.8017,
     "lon": 31.056,
@@ -3913,6 +4177,7 @@
   },
   {
     "id": "PSF-011071",
+    "ref": "pge:9291",
     "name": "Signal Hill Bench",
     "lat": -33.9214,
     "lon": 18.3976,
@@ -3930,6 +4195,7 @@
   },
   {
     "id": "PSF-011091",
+    "ref": "pge:9313",
     "name": "Koringberg",
     "lat": -33.0561,
     "lon": 18.6789,
@@ -3949,6 +4215,7 @@
   },
   {
     "id": "PSF-011409",
+    "ref": "pge:9861",
     "name": "Alain's Krantz",
     "lat": -33.15,
     "lon": 26.29,
@@ -3966,6 +4233,7 @@
   },
   {
     "id": "PSF-011410",
+    "ref": "pge:9863",
     "name": "Kamala",
     "lat": -32.4,
     "lon": 25.28,
@@ -3979,6 +4247,7 @@
   },
   {
     "id": "PSF-011436",
+    "ref": "pge:9912",
     "name": "Rondebosh",
     "lat": -33.9611,
     "lon": 24.7879,

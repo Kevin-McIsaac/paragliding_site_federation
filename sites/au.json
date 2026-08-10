@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000048",
+    "ref": "pge:10060",
     "name": "Lanyon",
     "lat": -35.48388,
     "lon": 149.10754,
@@ -9,14 +10,15 @@
     },
     "altitude": 900.0,
     "sources": {
-      "pge": "10060",
-      "siteguide_au": "106-28"
+      "ansg": "106-28",
+      "pge": "10060"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/106"
   },
   {
     "id": "PSF-000080",
+    "ref": "pge:10096",
     "name": "Shelley Beach - Shelley Beach Launch",
     "lat": -35.10571,
     "lon": 117.63101,
@@ -25,14 +27,15 @@
     },
     "altitude": 85.0,
     "sources": {
-      "pge": "10096",
-      "siteguide_au": "237-271"
+      "ansg": "237-271",
+      "pge": "10096"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/237"
   },
   {
     "id": "PSF-000106",
+    "ref": "pge:10129",
     "name": "Kilcoy",
     "lat": -26.8097,
     "lon": 152.602,
@@ -46,6 +49,7 @@
   },
   {
     "id": "PSF-000144",
+    "ref": "pge:10171",
     "name": "Point Cartwright 'Carties'",
     "lat": -26.6745,
     "lon": 153.137,
@@ -63,6 +67,7 @@
   },
   {
     "id": "PSF-000436",
+    "ref": "pge:10498",
     "name": "Wagga (80m dunes)",
     "lat": -33.8624,
     "lon": 121.674,
@@ -71,14 +76,15 @@
     },
     "altitude": 200.0,
     "sources": {
-      "pge": "10498",
-      "siteguide_au": "251-274"
+      "ansg": "251-274",
+      "pge": "10498"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/251"
   },
   {
     "id": "PSF-000536",
+    "ref": "pge:10625",
     "name": "Tunkalilla",
     "lat": -35.6342,
     "lon": 138.3155,
@@ -88,14 +94,15 @@
     },
     "altitude": 85.0,
     "sources": {
-      "pge": "10625",
-      "siteguide_au": "1-111"
+      "ansg": "1-111",
+      "pge": "10625"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/1"
   },
   {
     "id": "PSF-000609",
+    "ref": "pge:10714",
     "name": "Lake St Clair",
     "lat": -32.3535,
     "lon": 151.312,
@@ -113,6 +120,7 @@
   },
   {
     "id": "PSF-000610",
+    "ref": "pge:10715",
     "name": "Hooly Dooly",
     "lat": -32.5209,
     "lon": 151.496,
@@ -129,6 +137,7 @@
   },
   {
     "id": "PSF-000687",
+    "ref": "pge:10809",
     "name": "Long Reef NE",
     "lat": -33.74134,
     "lon": 151.31485,
@@ -137,14 +146,15 @@
     },
     "altitude": 30.0,
     "sources": {
-      "pge": "10809",
-      "siteguide_au": "129-34"
+      "ansg": "129-34",
+      "pge": "10809"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/129"
   },
   {
     "id": "PSF-000692",
+    "ref": "pge:10814",
     "name": "Cooks Terrace",
     "lat": -33.68745,
     "lon": 151.30904,
@@ -154,14 +164,15 @@
     },
     "altitude": 25.0,
     "sources": {
-      "pge": "10814",
-      "siteguide_au": "126-31"
+      "ansg": "126-31",
+      "pge": "10814"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/126"
   },
   {
     "id": "PSF-000745",
+    "ref": "pge:10877",
     "name": "Pine Gap",
     "lat": -23.7925,
     "lon": 133.54,
@@ -178,6 +189,7 @@
   },
   {
     "id": "PSF-000827",
+    "ref": "pge:10969",
     "name": "Lorens",
     "lat": -31.7741,
     "lon": 151.556,
@@ -198,6 +210,7 @@
   },
   {
     "id": "PSF-000916",
+    "ref": "pge:11077",
     "name": "Forbes airfield",
     "lat": -33.3612,
     "lon": 147.933,
@@ -220,6 +233,7 @@
   },
   {
     "id": "PSF-000999",
+    "ref": "pge:11177",
     "name": "Tunbridge Tiers",
     "lat": -42.129,
     "lon": 147.275,
@@ -236,6 +250,7 @@
   },
   {
     "id": "PSF-001149",
+    "ref": "pge:11371",
     "name": "Cape Jervis",
     "lat": -35.5961,
     "lon": 138.1065,
@@ -244,14 +259,15 @@
     },
     "altitude": 60.0,
     "sources": {
-      "pge": "11371",
-      "siteguide_au": "2-217"
+      "ansg": "2-217",
+      "pge": "11371"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/2"
   },
   {
     "id": "PSF-001242",
+    "ref": "pge:11480",
     "name": "Middle brother - SE",
     "lat": -31.701944,
     "lon": 152.678611,
@@ -261,14 +277,15 @@
     },
     "altitude": 548.0,
     "sources": {
-      "pge": "11480",
-      "siteguide_au": "122-229"
+      "ansg": "122-229",
+      "pge": "11480"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/122"
   },
   {
     "id": "PSF-001243",
+    "ref": "pge:11482",
     "name": "Middle brother - SW",
     "lat": -31.70729,
     "lon": 152.67227,
@@ -278,14 +295,15 @@
     },
     "altitude": 548.0,
     "sources": {
-      "pge": "11482",
-      "siteguide_au": "122-230"
+      "ansg": "122-230",
+      "pge": "11482"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/122"
   },
   {
     "id": "PSF-001247",
+    "ref": "pge:11487",
     "name": "Mt Blackheath - Main launch",
     "lat": -33.64373,
     "lon": 150.24487,
@@ -294,14 +312,15 @@
     },
     "altitude": 1040.0,
     "sources": {
-      "pge": "11487",
-      "siteguide_au": "138-250"
+      "ansg": "138-250",
+      "pge": "11487"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/138"
   },
   {
     "id": "PSF-001267",
+    "ref": "pge:11512",
     "name": "Strzelecki lookout",
     "lat": -32.9368,
     "lon": 151.777,
@@ -311,14 +330,15 @@
     },
     "altitude": 75.0,
     "sources": {
-      "pge": "11512",
-      "siteguide_au": "107-239"
+      "ansg": "107-239",
+      "pge": "11512"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/107"
   },
   {
     "id": "PSF-001268",
+    "ref": "pge:11513",
     "name": "Merewether - Hickson Street Lookout",
     "lat": -32.95328,
     "lon": 151.74642,
@@ -327,14 +347,15 @@
     },
     "altitude": 82.0,
     "sources": {
-      "pge": "11513",
-      "siteguide_au": "261-290"
+      "ansg": "261-290",
+      "pge": "11513"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/261"
   },
   {
     "id": "PSF-001269",
+    "ref": "pge:11514",
     "name": "Dickson Park",
     "lat": -32.9444,
     "lon": 151.762,
@@ -350,6 +371,7 @@
   },
   {
     "id": "PSF-001270",
+    "ref": "pge:11516",
     "name": "Bombala St",
     "lat": -32.9841,
     "lon": 151.727,
@@ -367,6 +389,7 @@
   },
   {
     "id": "PSF-001314",
+    "ref": "pge:11571",
     "name": "Indian Head",
     "lat": -31.7316,
     "lon": 152.7978,
@@ -375,14 +398,15 @@
     },
     "altitude": 35.0,
     "sources": {
-      "pge": "11571",
-      "siteguide_au": "119-227"
+      "ansg": "119-227",
+      "pge": "11571"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/119"
   },
   {
     "id": "PSF-001385",
+    "ref": "pge:11661",
     "name": "don heads",
     "lat": -41.1575,
     "lon": 146.314,
@@ -400,6 +424,7 @@
   },
   {
     "id": "PSF-001389",
+    "ref": "pge:11665",
     "name": "Seaford",
     "lat": -35.1927,
     "lon": 138.47,
@@ -416,6 +441,7 @@
   },
   {
     "id": "PSF-001406",
+    "ref": "pge:11710",
     "name": "Jeff Hoffman's",
     "lat": -35.2603,
     "lon": 146.819,
@@ -438,6 +464,7 @@
   },
   {
     "id": "PSF-001437",
+    "ref": "pge:11756",
     "name": "Johanna",
     "lat": -38.758,
     "lon": 143.3675,
@@ -446,14 +473,15 @@
     },
     "altitude": 60.0,
     "sources": {
-      "pge": "11756",
-      "siteguide_au": "152-61"
+      "ansg": "152-61",
+      "pge": "11756"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/152"
   },
   {
     "id": "PSF-001506",
+    "ref": "pge:11893",
     "name": "Argalong",
     "lat": -35.3088,
     "lon": 148.364,
@@ -472,6 +500,7 @@
   },
   {
     "id": "PSF-001510",
+    "ref": "pge:11897",
     "name": "Elizabeth Beach,  Booti Booti",
     "lat": -32.3212,
     "lon": 152.532,
@@ -488,6 +517,7 @@
   },
   {
     "id": "PSF-001518",
+    "ref": "pge:11906",
     "name": "Sand Patch",
     "lat": -35.0658,
     "lon": 117.792,
@@ -505,6 +535,7 @@
   },
   {
     "id": "PSF-001525",
+    "ref": "pge:11922",
     "name": "Boobs Airfield",
     "lat": -30.4855,
     "lon": 150.53,
@@ -518,6 +549,7 @@
   },
   {
     "id": "PSF-001532",
+    "ref": "pge:11944",
     "name": "Possum Shoot",
     "lat": -28.6319,
     "lon": 153.509,
@@ -531,6 +563,7 @@
   },
   {
     "id": "PSF-001547",
+    "ref": "pge:11970",
     "name": "Mt Stringybark",
     "lat": -27.5949,
     "lon": 152.079,
@@ -548,6 +581,7 @@
   },
   {
     "id": "PSF-001548",
+    "ref": "pge:11971",
     "name": "Mt. Widgee",
     "lat": -26.2476,
     "lon": 152.361,
@@ -557,14 +591,15 @@
     },
     "altitude": 620.0,
     "sources": {
-      "pge": "11971",
-      "siteguide_au": "17-243"
+      "ansg": "17-243",
+      "pge": "11971"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/17"
   },
   {
     "id": "PSF-001549",
+    "ref": "pge:11972",
     "name": "Mt Storey",
     "lat": -27.4587,
     "lon": 151.848,
@@ -581,6 +616,7 @@
   },
   {
     "id": "PSF-001560",
+    "ref": "pge:11987",
     "name": "Hill 60",
     "lat": -34.4915,
     "lon": 150.9173,
@@ -589,14 +625,15 @@
     },
     "altitude": 60.0,
     "sources": {
-      "pge": "11987",
-      "siteguide_au": "133-181"
+      "ansg": "133-181",
+      "pge": "11987"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/133"
   },
   {
     "id": "PSF-001646",
+    "ref": "pge:12136",
     "name": "Mount Wellington",
     "lat": -42.8932,
     "lon": 147.235,
@@ -610,6 +647,7 @@
   },
   {
     "id": "PSF-001647",
+    "ref": "pge:12137",
     "name": "Mt Belbora",
     "lat": -31.9927,
     "lon": 152.173,
@@ -623,6 +661,7 @@
   },
   {
     "id": "PSF-001648",
+    "ref": "pge:12138",
     "name": "Fitzy's Launch",
     "lat": -34.8858,
     "lon": 147.574,
@@ -641,6 +680,7 @@
   },
   {
     "id": "PSF-001661",
+    "ref": "pge:12158",
     "name": "Mt Cambewarra",
     "lat": -34.8015,
     "lon": 150.58,
@@ -654,6 +694,7 @@
   },
   {
     "id": "PSF-001851",
+    "ref": "pge:12501",
     "name": "High Hells",
     "lat": -30.7459,
     "lon": 150.727,
@@ -667,6 +708,7 @@
   },
   {
     "id": "PSF-001852",
+    "ref": "pge:12502",
     "name": "Valley-Street",
     "lat": -30.3304,
     "lon": 150.335,
@@ -680,6 +722,7 @@
   },
   {
     "id": "PSF-001974",
+    "ref": "pge:12753",
     "name": "Khatabundah",
     "lat": -31.8301,
     "lon": 152.356,
@@ -697,6 +740,7 @@
   },
   {
     "id": "PSF-001990",
+    "ref": "pge:12789",
     "name": "Mount Wedge",
     "lat": -42.8429,
     "lon": 146.293,
@@ -710,20 +754,22 @@
   },
   {
     "id": "PSF-001997",
+    "ref": "pge:12803",
     "name": "Dalby Aerodrome",
     "lat": -27.162474,
     "lon": 151.264515,
     "wind": {},
     "altitude": 345.0,
     "sources": {
-      "pge": "12803",
-      "siteguide_au": "22-1"
+      "ansg": "22-1",
+      "pge": "12803"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/22"
   },
   {
     "id": "PSF-002029",
+    "ref": "pge:12857",
     "name": "Mount Roland",
     "lat": -41.4586,
     "lon": 146.279,
@@ -737,6 +783,7 @@
   },
   {
     "id": "PSF-002146",
+    "ref": "pge:13050",
     "name": "Munjal",
     "lat": -33.7918,
     "lon": 148.224,
@@ -750,6 +797,7 @@
   },
   {
     "id": "PSF-002266",
+    "ref": "pge:13230",
     "name": "S.E Khatabunda",
     "lat": -31.4411,
     "lon": 152.412,
@@ -763,6 +811,7 @@
   },
   {
     "id": "PSF-002267",
+    "ref": "pge:13231",
     "name": "Long Flat",
     "lat": -31.435,
     "lon": 152.475,
@@ -780,6 +829,7 @@
   },
   {
     "id": "PSF-002270",
+    "ref": "pge:13237",
     "name": "Crookes Airstrip",
     "lat": -34.9558,
     "lon": 147.54,
@@ -802,6 +852,7 @@
   },
   {
     "id": "PSF-002271",
+    "ref": "pge:13238",
     "name": "Tri Reserve",
     "lat": -34.7887,
     "lon": 147.665,
@@ -821,6 +872,7 @@
   },
   {
     "id": "PSF-002272",
+    "ref": "pge:13239",
     "name": "Honeysuckle - Launch 3",
     "lat": -35.134931,
     "lon": 148.322124,
@@ -830,14 +882,15 @@
     },
     "altitude": 685.0,
     "sources": {
-      "pge": "13239",
-      "siteguide_au": "103-207"
+      "ansg": "103-207",
+      "pge": "13239"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/103"
   },
   {
     "id": "PSF-002345",
+    "ref": "pge:13383",
     "name": "Hinchcliffe's (Hart's, Flattop)",
     "lat": -28.07125,
     "lon": 153.14554,
@@ -848,14 +901,15 @@
     },
     "altitude": 527.0,
     "sources": {
-      "pge": "13383",
-      "siteguide_au": "21-285"
+      "ansg": "21-285",
+      "pge": "13383"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/21"
   },
   {
     "id": "PSF-002346",
+    "ref": "pge:13384",
     "name": "Playgrounds",
     "lat": -26.7595,
     "lon": 152.893,
@@ -869,6 +923,7 @@
   },
   {
     "id": "PSF-002363",
+    "ref": "pge:13404",
     "name": "NNE Heaton Lookout",
     "lat": -32.95299,
     "lon": 151.45953,
@@ -878,14 +933,15 @@
     },
     "altitude": 409.0,
     "sources": {
-      "pge": "13404",
-      "siteguide_au": "265-297"
+      "ansg": "265-297",
+      "pge": "13404"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/265"
   },
   {
     "id": "PSF-002411",
+    "ref": "pge:13475",
     "name": "Coolawang",
     "lat": -35.6381,
     "lon": 138.414,
@@ -902,6 +958,7 @@
   },
   {
     "id": "PSF-002412",
+    "ref": "pge:13476",
     "name": "Killarney - Queensland",
     "lat": -28.3402,
     "lon": 152.295,
@@ -915,20 +972,22 @@
   },
   {
     "id": "PSF-002419",
+    "ref": "pge:13491",
     "name": "Table Rock",
     "lat": -33.700049,
     "lon": 150.12729,
     "wind": {},
     "altitude": 836.0,
     "sources": {
-      "pge": "13491",
-      "siteguide_au": "142-255"
+      "ansg": "142-255",
+      "pge": "13491"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/142"
   },
   {
     "id": "PSF-002526",
+    "ref": "pge:13667",
     "name": "The lighthouse",
     "lat": -28.641,
     "lon": 153.634,
@@ -942,6 +1001,7 @@
   },
   {
     "id": "PSF-002529",
+    "ref": "pge:13673",
     "name": "Rylstone air port",
     "lat": -32.7715,
     "lon": 149.998,
@@ -955,6 +1015,7 @@
   },
   {
     "id": "PSF-002537",
+    "ref": "pge:13687",
     "name": "Manilla SkyRanch",
     "lat": -30.8724,
     "lon": 150.542,
@@ -968,6 +1029,7 @@
   },
   {
     "id": "PSF-002541",
+    "ref": "pge:13701",
     "name": "Dynamic Flight Park",
     "lat": -37.45,
     "lon": 143.457,
@@ -990,6 +1052,7 @@
   },
   {
     "id": "PSF-002542",
+    "ref": "pge:13702",
     "name": "Mt Lonarch",
     "lat": -37.25859,
     "lon": 143.33936,
@@ -999,14 +1062,15 @@
     },
     "altitude": 410.0,
     "sources": {
-      "pge": "13702",
-      "siteguide_au": "195-80"
+      "ansg": "195-80",
+      "pge": "13702"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/195"
   },
   {
     "id": "PSF-002543",
+    "ref": "pge:13703",
     "name": "Birchip Tow Paddock",
     "lat": -35.8156,
     "lon": 143.01,
@@ -1029,6 +1093,7 @@
   },
   {
     "id": "PSF-002544",
+    "ref": "pge:13704",
     "name": "Bells Beach - Winkipop",
     "lat": -38.36535,
     "lon": 144.28604,
@@ -1038,14 +1103,15 @@
     },
     "altitude": 30.0,
     "sources": {
-      "pge": "13704",
-      "siteguide_au": "145-241"
+      "ansg": "145-241",
+      "pge": "13704"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/145"
   },
   {
     "id": "PSF-002548",
+    "ref": "pge:13715",
     "name": "Sunnyside",
     "lat": -38.2021,
     "lon": 145.06096,
@@ -1054,14 +1120,15 @@
     },
     "altitude": 27.0,
     "sources": {
-      "pge": "13715",
-      "siteguide_au": "180-102"
+      "ansg": "180-102",
+      "pge": "13715"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/180"
   },
   {
     "id": "PSF-002606",
+    "ref": "pge:13824",
     "name": "Spion Kop / Fairhaven",
     "lat": -38.4674,
     "lon": 144.075,
@@ -1079,6 +1146,7 @@
   },
   {
     "id": "PSF-002644",
+    "ref": "pge:13870",
     "name": "Ben Nevis",
     "lat": -37.22987,
     "lon": 143.19479,
@@ -1088,14 +1156,15 @@
     },
     "altitude": 410.0,
     "sources": {
-      "pge": "13870",
-      "siteguide_au": "188-67"
+      "ansg": "188-67",
+      "pge": "13870"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/188"
   },
   {
     "id": "PSF-002704",
+    "ref": "pge:13967",
     "name": "Flaxton",
     "lat": -26.6577,
     "lon": 152.88,
@@ -1113,6 +1182,7 @@
   },
   {
     "id": "PSF-002741",
+    "ref": "pge:14014",
     "name": "Oil Refinery Cliffs (Hallett Cove)",
     "lat": -35.0899,
     "lon": 138.488,
@@ -1129,6 +1199,7 @@
   },
   {
     "id": "PSF-002844",
+    "ref": "pge:14193",
     "name": "MURRELLS BEACH",
     "lat": -38.3992,
     "lon": 141.528,
@@ -1144,6 +1215,7 @@
   },
   {
     "id": "PSF-002846",
+    "ref": "pge:14196",
     "name": "Portland - Discovery Bay",
     "lat": -38.3323,
     "lon": 141.398,
@@ -1152,14 +1224,15 @@
     },
     "altitude": 9.0,
     "sources": {
-      "pge": "14196",
-      "siteguide_au": "158-91"
+      "ansg": "158-91",
+      "pge": "14196"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-002862",
+    "ref": "pge:14223",
     "name": "Warriewood",
     "lat": -33.69355,
     "lon": 151.3105,
@@ -1168,14 +1241,15 @@
     },
     "altitude": 40.0,
     "sources": {
-      "pge": "14223",
-      "siteguide_au": "127-32"
+      "ansg": "127-32",
+      "pge": "14223"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/127"
   },
   {
     "id": "PSF-002898",
+    "ref": "pge:14274",
     "name": "Portsea",
     "lat": -38.32981,
     "lon": 144.6956,
@@ -1185,14 +1259,15 @@
     },
     "altitude": 20.0,
     "sources": {
-      "pge": "14274",
-      "siteguide_au": "177-98"
+      "ansg": "177-98",
+      "pge": "14274"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/177"
   },
   {
     "id": "PSF-003120",
+    "ref": "pge:14586",
     "name": "Montes - Private Property - All pilots must be inducted and 'check-in' prior to entry.",
     "lat": -28.59113,
     "lon": 153.46441,
@@ -1202,14 +1277,15 @@
     },
     "altitude": 250.0,
     "sources": {
-      "pge": "14586",
-      "siteguide_au": "258-282"
+      "ansg": "258-282",
+      "pge": "14586"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/258"
   },
   {
     "id": "PSF-003129",
+    "ref": "pge:14602",
     "name": "Duck Pond (LIttle Bay)",
     "lat": -30.8891,
     "lon": 153.076,
@@ -1223,6 +1299,7 @@
   },
   {
     "id": "PSF-003132",
+    "ref": "pge:14608",
     "name": "Marriners Lookout",
     "lat": -38.73696,
     "lon": 143.66743,
@@ -1231,14 +1308,15 @@
     },
     "altitude": 230.0,
     "sources": {
-      "pge": "14608",
-      "siteguide_au": "155-65"
+      "ansg": "155-65",
+      "pge": "14608"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/155"
   },
   {
     "id": "PSF-003149",
+    "ref": "pge:14629",
     "name": "Flinders Golf Club",
     "lat": -38.479,
     "lon": 145.0127,
@@ -1247,14 +1325,15 @@
     },
     "altitude": 35.0,
     "sources": {
-      "pge": "14629",
-      "siteguide_au": "168-57"
+      "ansg": "168-57",
+      "pge": "14629"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/168"
   },
   {
     "id": "PSF-003163",
+    "ref": "pge:14651",
     "name": "Blueys Beach",
     "lat": -32.3554,
     "lon": 152.534,
@@ -1268,6 +1347,7 @@
   },
   {
     "id": "PSF-003165",
+    "ref": "pge:14653",
     "name": "Cairns Bay",
     "lat": -38.4869,
     "lon": 144.971,
@@ -1284,6 +1364,7 @@
   },
   {
     "id": "PSF-003168",
+    "ref": "pge:14656",
     "name": "Kilcunda",
     "lat": -38.5622,
     "lon": 145.4921,
@@ -1293,14 +1374,15 @@
     },
     "altitude": 15.0,
     "sources": {
-      "pge": "14656",
-      "siteguide_au": "170-62"
+      "ansg": "170-62",
+      "pge": "14656"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/170"
   },
   {
     "id": "PSF-003253",
+    "ref": "pge:14799",
     "name": "Middletons",
     "lat": -27.4789,
     "lon": 151.839,
@@ -1318,6 +1400,7 @@
   },
   {
     "id": "PSF-003254",
+    "ref": "pge:14800",
     "name": "Ma Ma Creek",
     "lat": -27.63696,
     "lon": 152.14366,
@@ -1327,14 +1410,15 @@
     },
     "altitude": 372.0,
     "sources": {
-      "pge": "14800",
-      "siteguide_au": "259-287"
+      "ansg": "259-287",
+      "pge": "14800"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/259"
   },
   {
     "id": "PSF-003408",
+    "ref": "pge:15042",
     "name": "Bells Beach - Southside",
     "lat": -38.37228,
     "lon": 144.27841,
@@ -1344,14 +1428,15 @@
     },
     "altitude": 35.0,
     "sources": {
-      "pge": "15042",
-      "siteguide_au": "144-37"
+      "ansg": "144-37",
+      "pge": "15042"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/144"
   },
   {
     "id": "PSF-003520",
+    "ref": "pge:15223",
     "name": "Stradbroke Hill",
     "lat": -27.5132,
     "lon": 152.585,
@@ -1365,6 +1450,7 @@
   },
   {
     "id": "PSF-003579",
+    "ref": "pge:15320",
     "name": "Teewah Beach",
     "lat": -26.26887,
     "lon": 153.06666,
@@ -1373,14 +1459,15 @@
     },
     "altitude": 30.0,
     "sources": {
-      "pge": "15320",
-      "siteguide_au": "16-236"
+      "ansg": "16-236",
+      "pge": "15320"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/16"
   },
   {
     "id": "PSF-003609",
+    "ref": "pge:15368",
     "name": "Towers",
     "lat": -26.7775,
     "lon": 152.918,
@@ -1394,6 +1481,7 @@
   },
   {
     "id": "PSF-003627",
+    "ref": "pge:15405",
     "name": "Shoreham",
     "lat": -38.442,
     "lon": 145.042,
@@ -1410,6 +1498,7 @@
   },
   {
     "id": "PSF-003663",
+    "ref": "pge:15461",
     "name": "Flinders Monument",
     "lat": -38.47486,
     "lon": 145.02413,
@@ -1418,14 +1507,15 @@
     },
     "altitude": 40.0,
     "sources": {
-      "pge": "15461",
-      "siteguide_au": "169-58"
+      "ansg": "169-58",
+      "pge": "15461"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/169"
   },
   {
     "id": "PSF-003713",
+    "ref": "pge:15542",
     "name": "Cars Lookout",
     "lat": -28.2941,
     "lon": 152.418,
@@ -1439,6 +1529,7 @@
   },
   {
     "id": "PSF-003727",
+    "ref": "pge:15574",
     "name": "Twelve Trees Ridge",
     "lat": -42.7758,
     "lon": 146.068,
@@ -1452,6 +1543,7 @@
   },
   {
     "id": "PSF-003746",
+    "ref": "pge:15602",
     "name": "Lady Bay",
     "lat": -35.4756,
     "lon": 138.293,
@@ -1467,6 +1559,7 @@
   },
   {
     "id": "PSF-003773",
+    "ref": "pge:15639",
     "name": "The Bluff",
     "lat": -35.5921,
     "lon": 138.602,
@@ -1483,6 +1576,7 @@
   },
   {
     "id": "PSF-003774",
+    "ref": "pge:15640",
     "name": "Tappanapa",
     "lat": -35.6432,
     "lon": 138.253,
@@ -1498,6 +1592,7 @@
   },
   {
     "id": "PSF-003775",
+    "ref": "pge:15641",
     "name": "Blowhole Beach",
     "lat": -35.6475,
     "lon": 138.154,
@@ -1514,6 +1609,7 @@
   },
   {
     "id": "PSF-003776",
+    "ref": "pge:15642",
     "name": "Sellicks Beach",
     "lat": -35.3382,
     "lon": 138.4469,
@@ -1523,14 +1619,15 @@
     },
     "altitude": 60.0,
     "sources": {
-      "pge": "15642",
-      "siteguide_au": "6-237"
+      "ansg": "6-237",
+      "pge": "15642"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/6"
   },
   {
     "id": "PSF-003777",
+    "ref": "pge:15643",
     "name": "Snapper Rocks",
     "lat": -35.2698,
     "lon": 138.448,
@@ -1547,6 +1644,7 @@
   },
   {
     "id": "PSF-003778",
+    "ref": "pge:15644",
     "name": "Fryer St",
     "lat": -35.0655,
     "lon": 138.501,
@@ -1563,6 +1661,7 @@
   },
   {
     "id": "PSF-003779",
+    "ref": "pge:15645",
     "name": "Mount Terrible",
     "lat": -35.3111,
     "lon": 138.523,
@@ -1579,6 +1678,7 @@
   },
   {
     "id": "PSF-003780",
+    "ref": "pge:15646",
     "name": "Boomer beach",
     "lat": -35.5359,
     "lon": 138.673,
@@ -1594,6 +1694,7 @@
   },
   {
     "id": "PSF-003781",
+    "ref": "pge:15647",
     "name": "Middleton Beach",
     "lat": -35.5128,
     "lon": 138.714,
@@ -1607,6 +1708,7 @@
   },
   {
     "id": "PSF-003783",
+    "ref": "pge:15649",
     "name": "Grants Headland - SE Bonnys",
     "lat": -31.6077,
     "lon": 152.8394,
@@ -1616,14 +1718,15 @@
     },
     "altitude": 35.0,
     "sources": {
-      "pge": "15649",
-      "siteguide_au": "117-224"
+      "ansg": "117-224",
+      "pge": "15649"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/117"
   },
   {
     "id": "PSF-003784",
+    "ref": "pge:15650",
     "name": "Bartletts Reserve - NE Bonnys",
     "lat": -31.5948,
     "lon": 152.8423,
@@ -1633,14 +1736,15 @@
     },
     "altitude": 18.0,
     "sources": {
-      "pge": "15650",
-      "siteguide_au": "118-225"
+      "ansg": "118-225",
+      "pge": "15650"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/118"
   },
   {
     "id": "PSF-003828",
+    "ref": "pge:15714",
     "name": "Mc Knob",
     "lat": -32.7809,
     "lon": 151.25,
@@ -1654,6 +1758,7 @@
   },
   {
     "id": "PSF-003839",
+    "ref": "pge:15738",
     "name": "Camden Haven Airfield",
     "lat": -31.6657,
     "lon": 152.742,
@@ -1667,6 +1772,7 @@
   },
   {
     "id": "PSF-003848",
+    "ref": "pge:15802",
     "name": "Goulburn airport",
     "lat": -34.81,
     "lon": 149.729,
@@ -1680,6 +1786,7 @@
   },
   {
     "id": "PSF-003856",
+    "ref": "pge:15815",
     "name": "North Entrance",
     "lat": -33.3223,
     "lon": 151.517,
@@ -1693,6 +1800,7 @@
   },
   {
     "id": "PSF-003857",
+    "ref": "pge:15816",
     "name": "Tigrah",
     "lat": -31.8065,
     "lon": 151.941,
@@ -1706,6 +1814,7 @@
   },
   {
     "id": "PSF-003865",
+    "ref": "pge:15829",
     "name": "Gulgong Airstrip",
     "lat": -32.2996,
     "lon": 149.559,
@@ -1719,6 +1828,7 @@
   },
   {
     "id": "PSF-003944",
+    "ref": "pge:15933",
     "name": "Point Pass",
     "lat": -34.0345,
     "lon": 139.022,
@@ -1735,6 +1845,7 @@
   },
   {
     "id": "PSF-003958",
+    "ref": "pge:15952",
     "name": "Cape Liptrap",
     "lat": -38.90361,
     "lon": 145.92032,
@@ -1744,14 +1855,15 @@
     },
     "altitude": 90.0,
     "sources": {
-      "pge": "15952",
-      "siteguide_au": "164-45"
+      "ansg": "164-45",
+      "pge": "15952"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/164"
   },
   {
     "id": "PSF-003970",
+    "ref": "pge:15966",
     "name": "Great Missenden (Previously known as Landscape)",
     "lat": -37.0973,
     "lon": 145.17165,
@@ -1761,14 +1873,15 @@
     },
     "altitude": 425.0,
     "sources": {
-      "pge": "15966",
-      "siteguide_au": "200-63"
+      "ansg": "200-63",
+      "pge": "15966"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/200"
   },
   {
     "id": "PSF-003971",
+    "ref": "pge:15967",
     "name": "Mt Dandenong",
     "lat": -37.83493,
     "lon": 145.34683,
@@ -1778,14 +1891,15 @@
     },
     "altitude": 445.0,
     "sources": {
-      "pge": "15967",
-      "siteguide_au": "203-72"
+      "ansg": "203-72",
+      "pge": "15967"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/203"
   },
   {
     "id": "PSF-003972",
+    "ref": "pge:15968",
     "name": "Mt Donna Buang",
     "lat": -37.71028,
     "lon": 145.65793,
@@ -1798,14 +1912,15 @@
     },
     "altitude": 945.0,
     "sources": {
-      "pge": "15968",
-      "siteguide_au": "204-73"
+      "ansg": "204-73",
+      "pge": "15968"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/204"
   },
   {
     "id": "PSF-004029",
+    "ref": "pge:16045",
     "name": "Hallett Cove Lawns",
     "lat": -35.0805,
     "lon": 138.496,
@@ -1823,6 +1938,7 @@
   },
   {
     "id": "PSF-004065",
+    "ref": "pge:16087",
     "name": "Flight area",
     "lat": -27.2961,
     "lon": 152.712,
@@ -1836,6 +1952,7 @@
   },
   {
     "id": "PSF-004115",
+    "ref": "pge:16144",
     "name": "Killcare",
     "lat": -33.5291,
     "lon": 151.359,
@@ -1849,6 +1966,7 @@
   },
   {
     "id": "PSF-004230",
+    "ref": "pge:16342",
     "name": "Tooperang",
     "lat": -35.3776,
     "lon": 138.705,
@@ -1862,6 +1980,7 @@
   },
   {
     "id": "PSF-004284",
+    "ref": "pge:16422",
     "name": "Jondaryan Tow Sight",
     "lat": -27.463,
     "lon": 151.592,
@@ -1875,6 +1994,7 @@
   },
   {
     "id": "PSF-004315",
+    "ref": "pge:16485",
     "name": "Clinton",
     "lat": -34.1512,
     "lon": 138.064,
@@ -1888,6 +2008,7 @@
   },
   {
     "id": "PSF-004335",
+    "ref": "pge:16515",
     "name": "Hayward Street",
     "lat": -35.5419,
     "lon": 138.636,
@@ -1904,6 +2025,7 @@
   },
   {
     "id": "PSF-004349",
+    "ref": "pge:16536",
     "name": "Helidon",
     "lat": -27.5518,
     "lon": 152.112,
@@ -1917,6 +2039,7 @@
   },
   {
     "id": "PSF-004363",
+    "ref": "pge:16559",
     "name": "The Spit",
     "lat": -27.9391,
     "lon": 153.424,
@@ -1930,6 +2053,7 @@
   },
   {
     "id": "PSF-004534",
+    "ref": "pge:16868",
     "name": "Jacobs Well",
     "lat": -27.774,
     "lon": 153.328,
@@ -1943,6 +2067,7 @@
   },
   {
     "id": "PSF-004535",
+    "ref": "pge:16870",
     "name": "Eaglehawk Neck",
     "lat": -43.0223,
     "lon": 147.925,
@@ -1956,6 +2081,7 @@
   },
   {
     "id": "PSF-004725",
+    "ref": "pge:17231",
     "name": "Cabarita Point",
     "lat": -28.334,
     "lon": 153.572,
@@ -1969,6 +2095,7 @@
   },
   {
     "id": "PSF-004758",
+    "ref": "pge:17288",
     "name": "Dinmore",
     "lat": -27.59,
     "lon": 152.822,
@@ -1982,6 +2109,7 @@
   },
   {
     "id": "PSF-004906",
+    "ref": "pge:17529",
     "name": "Camden Park",
     "lat": -34.068,
     "lon": 150.709,
@@ -1995,6 +2123,7 @@
   },
   {
     "id": "PSF-004907",
+    "ref": "pge:17530",
     "name": "Prospect Reservoir",
     "lat": -33.8202,
     "lon": 150.922,
@@ -2008,6 +2137,7 @@
   },
   {
     "id": "PSF-004914",
+    "ref": "pge:17541",
     "name": "Goat Hill",
     "lat": -31.7965,
     "lon": 150.829,
@@ -2021,6 +2151,7 @@
   },
   {
     "id": "PSF-004988",
+    "ref": "pge:17691",
     "name": "Boree Creek",
     "lat": -35.1278,
     "lon": 146.612,
@@ -2043,6 +2174,7 @@
   },
   {
     "id": "PSF-004989",
+    "ref": "pge:17692",
     "name": "Leeton Gliding Club",
     "lat": -34.4979,
     "lon": 146.449,
@@ -2065,6 +2197,7 @@
   },
   {
     "id": "PSF-005027",
+    "ref": "pge:17750",
     "name": "Minnie Waters (Nth Beach)",
     "lat": -29.5889,
     "lon": 153.332,
@@ -2081,6 +2214,7 @@
   },
   {
     "id": "PSF-005028",
+    "ref": "pge:17751",
     "name": "Gatton",
     "lat": -27.4154,
     "lon": 152.411,
@@ -2094,6 +2228,7 @@
   },
   {
     "id": "PSF-005029",
+    "ref": "pge:17753",
     "name": "Minnie Waters (South)",
     "lat": -29.765,
     "lon": 153.296,
@@ -2109,6 +2244,7 @@
   },
   {
     "id": "PSF-005085",
+    "ref": "pge:17867",
     "name": "Camden Park",
     "lat": -34.0448,
     "lon": 150.686,
@@ -2122,6 +2258,7 @@
   },
   {
     "id": "PSF-005092",
+    "ref": "pge:17886",
     "name": "Gloucester Airfield",
     "lat": -32.0527,
     "lon": 151.976,
@@ -2135,6 +2272,7 @@
   },
   {
     "id": "PSF-005093",
+    "ref": "pge:17887",
     "name": "Jondaryan",
     "lat": -27.4517,
     "lon": 151.562,
@@ -2148,6 +2286,7 @@
   },
   {
     "id": "PSF-005106",
+    "ref": "pge:17912",
     "name": "One Tree Hill",
     "lat": -28.3094,
     "lon": 152.29,
@@ -2161,6 +2300,7 @@
   },
   {
     "id": "PSF-005159",
+    "ref": "pge:18019",
     "name": "Bathurst Bash",
     "lat": -33.476,
     "lon": 149.565,
@@ -2174,6 +2314,7 @@
   },
   {
     "id": "PSF-005160",
+    "ref": "pge:18021",
     "name": "Dee's Tow Site",
     "lat": -31.2323,
     "lon": 150.574,
@@ -2187,6 +2328,7 @@
   },
   {
     "id": "PSF-005161",
+    "ref": "pge:18022",
     "name": "Spring Ridge Tow Site",
     "lat": -31.3327,
     "lon": 150.186,
@@ -2200,6 +2342,7 @@
   },
   {
     "id": "PSF-005181",
+    "ref": "pge:18075",
     "name": "WESTONIA tow paddock",
     "lat": -31.1665,
     "lon": 118.671,
@@ -2213,6 +2356,7 @@
   },
   {
     "id": "PSF-005218",
+    "ref": "pge:18145",
     "name": "Mount Rankin",
     "lat": -33.32232,
     "lon": 149.50957,
@@ -2222,14 +2366,15 @@
     },
     "altitude": 900.0,
     "sources": {
-      "pge": "18145",
-      "siteguide_au": "143-256"
+      "ansg": "143-256",
+      "pge": "18145"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/143"
   },
   {
     "id": "PSF-005229",
+    "ref": "pge:18176",
     "name": "Ocean Grove",
     "lat": -38.27134,
     "lon": 144.52243,
@@ -2238,14 +2383,15 @@
     },
     "altitude": 15.0,
     "sources": {
-      "pge": "18176",
-      "siteguide_au": "157-87"
+      "ansg": "157-87",
+      "pge": "18176"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/157"
   },
   {
     "id": "PSF-005232",
+    "ref": "pge:18186",
     "name": "Mount Rennie",
     "lat": -28.6609,
     "lon": 114.7425,
@@ -2254,14 +2400,15 @@
     },
     "altitude": 90.0,
     "sources": {
-      "pge": "18186",
-      "siteguide_au": "47-129"
+      "ansg": "47-129",
+      "pge": "18186"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/47"
   },
   {
     "id": "PSF-005233",
+    "ref": "pge:18189",
     "name": "Rooty Hill Sports Fields",
     "lat": -33.7754,
     "lon": 150.862,
@@ -2275,6 +2422,7 @@
   },
   {
     "id": "PSF-005242",
+    "ref": "pge:18220",
     "name": "North Stradbroke- Mainbeach",
     "lat": -27.4875,
     "lon": 153.516,
@@ -2288,6 +2436,7 @@
   },
   {
     "id": "PSF-005263",
+    "ref": "pge:18271",
     "name": "Nundle",
     "lat": -31.4586,
     "lon": 151.113,
@@ -2301,6 +2450,7 @@
   },
   {
     "id": "PSF-005266",
+    "ref": "pge:18280",
     "name": "Portland - Bishops Rock / Shelly Beach",
     "lat": -38.3597,
     "lon": 141.4435,
@@ -2309,14 +2459,15 @@
     },
     "altitude": 9.0,
     "sources": {
-      "pge": "18280",
-      "siteguide_au": "158-97"
+      "ansg": "158-97",
+      "pge": "18280"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-005267",
+    "ref": "pge:18282",
     "name": "West Sydney Uni",
     "lat": -33.7685,
     "lon": 150.73,
@@ -2330,6 +2481,7 @@
   },
   {
     "id": "PSF-005322",
+    "ref": "pge:18452",
     "name": "Westonia Tow Paddock",
     "lat": -31.1556,
     "lon": 118.637,
@@ -2343,6 +2495,7 @@
   },
   {
     "id": "PSF-005366",
+    "ref": "pge:18616",
     "name": "Broome Cable Beach",
     "lat": -17.9295,
     "lon": 122.21,
@@ -2360,6 +2513,7 @@
   },
   {
     "id": "PSF-005370",
+    "ref": "pge:18622",
     "name": "Yallingup - Rabbit Hill",
     "lat": -33.634,
     "lon": 115.0295,
@@ -2368,14 +2522,15 @@
     },
     "altitude": 10.0,
     "sources": {
-      "pge": "18622",
-      "siteguide_au": "58-139"
+      "ansg": "58-139",
+      "pge": "18622"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/58"
   },
   {
     "id": "PSF-005395",
+    "ref": "pge:18657",
     "name": "murwillumbah",
     "lat": -28.332,
     "lon": 153.413,
@@ -2389,6 +2544,7 @@
   },
   {
     "id": "PSF-005404",
+    "ref": "pge:18672",
     "name": "Norwell",
     "lat": -27.7552,
     "lon": 153.269,
@@ -2402,6 +2558,7 @@
   },
   {
     "id": "PSF-005410",
+    "ref": "pge:18680",
     "name": "Quinns Beach Launch",
     "lat": -31.6632,
     "lon": 115.689,
@@ -2418,6 +2575,7 @@
   },
   {
     "id": "PSF-005412",
+    "ref": "pge:18686",
     "name": "Conto Springs",
     "lat": -34.0821,
     "lon": 115.0066,
@@ -2426,14 +2584,15 @@
     },
     "altitude": 60.0,
     "sources": {
-      "pge": "18686",
-      "siteguide_au": "61-142"
+      "ansg": "61-142",
+      "pge": "18686"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/61"
   },
   {
     "id": "PSF-005423",
+    "ref": "pge:18699",
     "name": "Maleny Mezzanine",
     "lat": -26.7795,
     "lon": 152.921,
@@ -2449,6 +2608,7 @@
   },
   {
     "id": "PSF-005458",
+    "ref": "pge:18779",
     "name": "Long Reef SE",
     "lat": -33.74232,
     "lon": 151.31297,
@@ -2458,14 +2618,15 @@
     },
     "altitude": 30.0,
     "sources": {
-      "pge": "18779",
-      "siteguide_au": "130-35"
+      "ansg": "130-35",
+      "pge": "18779"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/130"
   },
   {
     "id": "PSF-005535",
+    "ref": "pge:18871",
     "name": "Mona Vale",
     "lat": -33.6751,
     "lon": 151.319,
@@ -2482,6 +2643,7 @@
   },
   {
     "id": "PSF-005538",
+    "ref": "pge:18874",
     "name": "Newport",
     "lat": -33.649,
     "lon": 151.3248,
@@ -2491,14 +2653,15 @@
     },
     "altitude": 25.0,
     "sources": {
-      "pge": "18874",
-      "siteguide_au": "124-29"
+      "ansg": "124-29",
+      "pge": "18874"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/124"
   },
   {
     "id": "PSF-005565",
+    "ref": "pge:19018",
     "name": "Glenmore Park",
     "lat": -33.7871,
     "lon": 150.692,
@@ -2512,6 +2675,7 @@
   },
   {
     "id": "PSF-005574",
+    "ref": "pge:19088",
     "name": "Prestons",
     "lat": -33.9519,
     "lon": 150.877,
@@ -2525,6 +2689,7 @@
   },
   {
     "id": "PSF-005658",
+    "ref": "pge:19303",
     "name": "rex lookout",
     "lat": -16.6415,
     "lon": 145.563,
@@ -2541,6 +2706,7 @@
   },
   {
     "id": "PSF-005831",
+    "ref": "pge:19536",
     "name": "Mount Ovens",
     "lat": -33.41652,
     "lon": 149.77762,
@@ -2549,14 +2715,15 @@
     },
     "altitude": 450.0,
     "sources": {
-      "pge": "19536",
-      "siteguide_au": "139-252"
+      "ansg": "139-252",
+      "pge": "19536"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/139"
   },
   {
     "id": "PSF-005857",
+    "ref": "pge:19570",
     "name": "Nambucca Heads",
     "lat": -30.6356,
     "lon": 153.014,
@@ -2572,6 +2739,7 @@
   },
   {
     "id": "PSF-006123",
+    "ref": "pge:19992",
     "name": "Mt Cook",
     "lat": -27.2869,
     "lon": 151.256,
@@ -2585,6 +2753,7 @@
   },
   {
     "id": "PSF-006131",
+    "ref": "pge:20000",
     "name": "Dunvegan Road, Phillip Island",
     "lat": -38.51104,
     "lon": 145.29013,
@@ -2594,14 +2763,15 @@
     },
     "altitude": 15.2,
     "sources": {
-      "pge": "20000",
-      "siteguide_au": "254-277"
+      "ansg": "254-277",
+      "pge": "20000"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/254"
   },
   {
     "id": "PSF-006310",
+    "ref": "pge:21219",
     "name": "Long Reef Northfacing",
     "lat": -33.7388,
     "lon": 151.312,
@@ -2619,6 +2789,7 @@
   },
   {
     "id": "PSF-006311",
+    "ref": "pge:21220",
     "name": "North Head",
     "lat": -33.8221,
     "lon": 151.301,
@@ -2634,6 +2805,7 @@
   },
   {
     "id": "PSF-006407",
+    "ref": "pge:21347",
     "name": "Burns Beach",
     "lat": -31.7249,
     "lon": 115.715,
@@ -2650,6 +2822,7 @@
   },
   {
     "id": "PSF-006475",
+    "ref": "pge:21421",
     "name": "Sand Patch - Sandpatch",
     "lat": -35.0653,
     "lon": 117.79393,
@@ -2658,14 +2831,15 @@
     },
     "altitude": 150.0,
     "sources": {
-      "pge": "21421",
-      "siteguide_au": "233-269"
+      "ansg": "233-269",
+      "pge": "21421"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/233"
   },
   {
     "id": "PSF-006476",
+    "ref": "pge:21422",
     "name": "Muttonbird Beach",
     "lat": -35.04346,
     "lon": 117.68619,
@@ -2675,14 +2849,15 @@
     },
     "altitude": 20.0,
     "sources": {
-      "pge": "21422",
-      "siteguide_au": "234-270"
+      "ansg": "234-270",
+      "pge": "21422"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/234"
   },
   {
     "id": "PSF-006477",
+    "ref": "pge:21424",
     "name": "Lights Beach",
     "lat": -35.0236,
     "lon": 117.279,
@@ -2696,6 +2871,7 @@
   },
   {
     "id": "PSF-006478",
+    "ref": "pge:21425",
     "name": "Bunbury Back Beach",
     "lat": -33.35174,
     "lon": 115.6202,
@@ -2704,14 +2880,15 @@
     },
     "altitude": 15.0,
     "sources": {
-      "pge": "21425",
-      "siteguide_au": "55-231"
+      "ansg": "55-231",
+      "pge": "21425"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/55"
   },
   {
     "id": "PSF-006479",
+    "ref": "pge:21426",
     "name": "Warnbro Beach",
     "lat": -32.3235,
     "lon": 115.742,
@@ -2728,6 +2905,7 @@
   },
   {
     "id": "PSF-006480",
+    "ref": "pge:21427",
     "name": "Quinns Rocks",
     "lat": -31.6622,
     "lon": 115.689,
@@ -2745,6 +2923,7 @@
   },
   {
     "id": "PSF-006848",
+    "ref": "pge:21846",
     "name": "Wamby Dunes",
     "lat": -33.4272,
     "lon": 151.45,
@@ -2762,6 +2941,7 @@
   },
   {
     "id": "PSF-007151",
+    "ref": "pge:22198",
     "name": "Eungella - Caravan Park",
     "lat": -21.129556,
     "lon": 148.494803,
@@ -2771,14 +2951,15 @@
     },
     "altitude": 660.0,
     "sources": {
-      "pge": "22198",
-      "siteguide_au": "10-8"
+      "ansg": "10-8",
+      "pge": "22198"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/10"
   },
   {
     "id": "PSF-007152",
+    "ref": "pge:22199",
     "name": "Big Conway",
     "lat": -20.4778,
     "lon": 148.763,
@@ -2792,6 +2973,7 @@
   },
   {
     "id": "PSF-007153",
+    "ref": "pge:22200",
     "name": "Small Conway",
     "lat": -20.4804,
     "lon": 148.736,
@@ -2805,6 +2987,7 @@
   },
   {
     "id": "PSF-007154",
+    "ref": "pge:22201",
     "name": "Flagstaff Hill",
     "lat": -20.0154,
     "lon": 148.266,
@@ -2818,6 +3001,7 @@
   },
   {
     "id": "PSF-007164",
+    "ref": "pge:22215",
     "name": "Inky",
     "lat": -19.7461,
     "lon": 147.497,
@@ -2831,6 +3015,7 @@
   },
   {
     "id": "PSF-007165",
+    "ref": "pge:22216",
     "name": "Wunjunga",
     "lat": -19.7286,
     "lon": 147.589,
@@ -2844,6 +3029,7 @@
   },
   {
     "id": "PSF-007340",
+    "ref": "pge:22414",
     "name": "Buchy's, at Gerrards Lookout",
     "lat": -26.731103,
     "lon": 152.901987,
@@ -2852,14 +3038,15 @@
     },
     "altitude": 375.0,
     "sources": {
-      "pge": "22414",
-      "siteguide_au": "223-257"
+      "ansg": "223-257",
+      "pge": "22414"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/223"
   },
   {
     "id": "PSF-007547",
+    "ref": "pge:22640",
     "name": "Widgee Bombout",
     "lat": -26.257,
     "lon": 152.382,
@@ -2873,6 +3060,7 @@
   },
   {
     "id": "PSF-007734",
+    "ref": "pge:22856",
     "name": "Red Bluff",
     "lat": -37.956584,
     "lon": 145.007426,
@@ -2881,14 +3069,15 @@
     },
     "altitude": 20.0,
     "sources": {
-      "pge": "22856",
-      "siteguide_au": "178-99"
+      "ansg": "178-99",
+      "pge": "22856"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/178"
   },
   {
     "id": "PSF-007736",
+    "ref": "pge:22859",
     "name": "Gordon - South-East launch",
     "lat": -37.58841,
     "lon": 144.08239,
@@ -2900,14 +3089,15 @@
     },
     "altitude": 120.0,
     "sources": {
-      "pge": "22859",
-      "siteguide_au": "187-194"
+      "ansg": "187-194",
+      "pge": "22859"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/187"
   },
   {
     "id": "PSF-007737",
+    "ref": "pge:22860",
     "name": "Ben More",
     "lat": -37.2042,
     "lon": 143.43,
@@ -2921,6 +3111,7 @@
   },
   {
     "id": "PSF-007822",
+    "ref": "pge:22957",
     "name": "Teddys Lookout",
     "lat": -38.5538,
     "lon": 143.98,
@@ -2929,14 +3120,15 @@
     },
     "altitude": 110.0,
     "sources": {
-      "pge": "22957",
-      "siteguide_au": "160-246"
+      "ansg": "160-246",
+      "pge": "22957"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/160"
   },
   {
     "id": "PSF-007835",
+    "ref": "pge:22970",
     "name": "Sunrise Beach",
     "lat": -26.4152,
     "lon": 153.1102,
@@ -2945,14 +3137,15 @@
     },
     "altitude": 23.0,
     "sources": {
-      "pge": "22970",
-      "siteguide_au": "14-234"
+      "ansg": "14-234",
+      "pge": "22970"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/14"
   },
   {
     "id": "PSF-007877",
+    "ref": "pge:23013",
     "name": "Mt Tarrengower",
     "lat": -36.99556,
     "lon": 144.04486,
@@ -2961,14 +3154,15 @@
     },
     "altitude": 250.0,
     "sources": {
-      "pge": "23013",
-      "siteguide_au": "193-190"
+      "ansg": "193-190",
+      "pge": "23013"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/193"
   },
   {
     "id": "PSF-007891",
+    "ref": "pge:23028",
     "name": "Barwon Heads (13th Beach) - PG beach launch 30W",
     "lat": -38.2885,
     "lon": 144.4871,
@@ -2978,14 +3172,15 @@
     },
     "altitude": 7.0,
     "sources": {
-      "pge": "23028",
-      "siteguide_au": "146-248"
+      "ansg": "146-248",
+      "pge": "23028"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/146"
   },
   {
     "id": "PSF-007892",
+    "ref": "pge:23029",
     "name": "Whites Beach",
     "lat": -38.3182,
     "lon": 144.349,
@@ -2999,6 +3194,7 @@
   },
   {
     "id": "PSF-008038",
+    "ref": "pge:23186",
     "name": "Gundowring (Savhill) - SW-NW launch",
     "lat": -36.395511,
     "lon": 147.090228,
@@ -3010,14 +3206,15 @@
     },
     "altitude": 640.0,
     "sources": {
-      "pge": "23186",
-      "siteguide_au": "219-186"
+      "ansg": "219-186",
+      "pge": "23186"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/219"
   },
   {
     "id": "PSF-008128",
+    "ref": "pge:23283",
     "name": "Yeppoon",
     "lat": -23.127,
     "lon": 150.749,
@@ -3031,6 +3228,7 @@
   },
   {
     "id": "PSF-008129",
+    "ref": "pge:23284",
     "name": "Kemp hill",
     "lat": -23.1817,
     "lon": 150.799,
@@ -3044,6 +3242,7 @@
   },
   {
     "id": "PSF-008621",
+    "ref": "pge:23852",
     "name": "Horrocks Beach",
     "lat": -28.3417,
     "lon": 114.4119,
@@ -3054,14 +3253,15 @@
     },
     "altitude": 90.0,
     "sources": {
-      "pge": "23852",
-      "siteguide_au": "49-131"
+      "ansg": "49-131",
+      "pge": "23852"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/49"
   },
   {
     "id": "PSF-008659",
+    "ref": "pge:23900",
     "name": "Tawonga Gap",
     "lat": -36.71654,
     "lon": 147.12252,
@@ -3070,14 +3270,15 @@
     },
     "altitude": 970.0,
     "sources": {
-      "pge": "23900",
-      "siteguide_au": "211-103"
+      "ansg": "211-103",
+      "pge": "23900"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/211"
   },
   {
     "id": "PSF-008671",
+    "ref": "pge:23912",
     "name": "Reed’s Lookout Paraglider launch",
     "lat": -36.711,
     "lon": 146.816,
@@ -3095,6 +3296,7 @@
   },
   {
     "id": "PSF-009247",
+    "ref": "pge:4632",
     "name": "Manilla - Mt Borah - West launch",
     "lat": -30.6792,
     "lon": 150.6086,
@@ -3110,14 +3312,15 @@
     },
     "altitude": 880.0,
     "sources": {
-      "pge": "4632",
-      "siteguide_au": "136-20"
+      "ansg": "136-20",
+      "pge": "4632"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
     "id": "PSF-009248",
+    "ref": "pge:4633",
     "name": "Mosman Park",
     "lat": -32.009,
     "lon": 115.772,
@@ -3126,14 +3329,15 @@
     },
     "altitude": 30.0,
     "sources": {
-      "pge": "4633",
-      "siteguide_au": "69-151"
+      "ansg": "69-151",
+      "pge": "4633"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/69"
   },
   {
     "id": "PSF-009249",
+    "ref": "pge:4634",
     "name": "Lake George (Geary's Gap)",
     "lat": -35.09613,
     "lon": 149.37446,
@@ -3142,14 +3346,15 @@
     },
     "altitude": 730.0,
     "sources": {
-      "pge": "4634",
-      "siteguide_au": "100-24"
+      "ansg": "100-24",
+      "pge": "4634"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/100"
   },
   {
     "id": "PSF-009250",
+    "ref": "pge:4635",
     "name": "Spring Hill",
     "lat": -35.09479,
     "lon": 149.08336,
@@ -3160,14 +3365,15 @@
     },
     "altitude": 870.0,
     "sources": {
-      "pge": "4635",
-      "siteguide_au": "104-26"
+      "ansg": "104-26",
+      "pge": "4635"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/104"
   },
   {
     "id": "PSF-009251",
+    "ref": "pge:4637",
     "name": "Cabramurra, Black Jack",
     "lat": -35.9689,
     "lon": 148.317,
@@ -3184,6 +3390,7 @@
   },
   {
     "id": "PSF-009252",
+    "ref": "pge:4638",
     "name": "Canberra, Pig Hill",
     "lat": -35.2233,
     "lon": 148.897,
@@ -3200,6 +3407,7 @@
   },
   {
     "id": "PSF-009253",
+    "ref": "pge:4642",
     "name": "Lennox Head",
     "lat": -28.80729,
     "lon": 153.60348,
@@ -3209,14 +3417,15 @@
     },
     "altitude": 30.0,
     "sources": {
-      "pge": "4642",
-      "siteguide_au": "255-278"
+      "ansg": "255-278",
+      "pge": "4642"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/255"
   },
   {
     "id": "PSF-009254",
+    "ref": "pge:4648",
     "name": "Stanwell Park - Bald Hill - The Point",
     "lat": -34.224,
     "lon": 150.9971,
@@ -3226,14 +3435,15 @@
     },
     "altitude": 180.0,
     "sources": {
-      "pge": "4648",
-      "siteguide_au": "132-112"
+      "ansg": "132-112",
+      "pge": "4648"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/132"
   },
   {
     "id": "PSF-009255",
+    "ref": "pge:4649",
     "name": "Rainbow Beach",
     "lat": -25.9159,
     "lon": 153.097,
@@ -3250,6 +3460,7 @@
   },
   {
     "id": "PSF-009256",
+    "ref": "pge:4650",
     "name": "Mt Elliot - Main launch (north-west)",
     "lat": -36.18592,
     "lon": 147.97515,
@@ -3259,14 +3470,15 @@
     },
     "altitude": 600.0,
     "sources": {
-      "pge": "4650",
-      "siteguide_au": "205-75"
+      "ansg": "205-75",
+      "pge": "4650"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/205"
   },
   {
     "id": "PSF-009257",
+    "ref": "pge:4653",
     "name": "Mt Emu - Emu 1",
     "lat": -36.67218,
     "lon": 147.21843,
@@ -3275,14 +3487,15 @@
     },
     "altitude": 1360.0,
     "sources": {
-      "pge": "4653",
-      "siteguide_au": "206-76"
+      "ansg": "206-76",
+      "pge": "4653"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/206"
   },
   {
     "id": "PSF-009258",
+    "ref": "pge:4657",
     "name": "Cottesloe, Perth",
     "lat": -32.0133,
     "lon": 115.753,
@@ -3299,6 +3512,7 @@
   },
   {
     "id": "PSF-009259",
+    "ref": "pge:4658",
     "name": "Greenhills - Penny's Tow Paddock, near York",
     "lat": -31.9656,
     "lon": 116.997,
@@ -3321,6 +3535,7 @@
   },
   {
     "id": "PSF-009260",
+    "ref": "pge:4659",
     "name": "Injidup, Margaret River WA",
     "lat": -33.7015,
     "lon": 114.982,
@@ -3339,6 +3554,7 @@
   },
   {
     "id": "PSF-009261",
+    "ref": "pge:4662",
     "name": "Mt Trio, Stirling Range",
     "lat": -34.3475,
     "lon": 118.105,
@@ -3358,6 +3574,7 @@
   },
   {
     "id": "PSF-009262",
+    "ref": "pge:4663",
     "name": "Serpentine",
     "lat": -32.4149,
     "lon": 115.9975,
@@ -3367,14 +3584,15 @@
     },
     "altitude": 120.0,
     "sources": {
-      "pge": "4663",
-      "siteguide_au": "73-152"
+      "ansg": "73-152",
+      "pge": "4663"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/73"
   },
   {
     "id": "PSF-009263",
+    "ref": "pge:4664",
     "name": "Two Rocks, North of Perth",
     "lat": -31.4922,
     "lon": 115.583,
@@ -3392,6 +3610,7 @@
   },
   {
     "id": "PSF-009264",
+    "ref": "pge:4665",
     "name": "Wozza's Knob",
     "lat": -28.6943,
     "lon": 114.693,
@@ -3402,14 +3621,15 @@
     },
     "altitude": 60.0,
     "sources": {
-      "pge": "4665",
-      "siteguide_au": "46-128"
+      "ansg": "46-128",
+      "pge": "4665"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/46"
   },
   {
     "id": "PSF-009265",
+    "ref": "pge:4666",
     "name": "Wyalkatchem, WA",
     "lat": -31.1739,
     "lon": 117.5,
@@ -3432,6 +3652,7 @@
   },
   {
     "id": "PSF-009532",
+    "ref": "pge:6595",
     "name": "Mystic",
     "lat": -36.75855,
     "lon": 146.96575,
@@ -3440,14 +3661,15 @@
     },
     "altitude": 797.0,
     "sources": {
-      "pge": "6595",
-      "siteguide_au": "210-86"
+      "ansg": "210-86",
+      "pge": "6595"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/210"
   },
   {
     "id": "PSF-009545",
+    "ref": "pge:6613",
     "name": "York - Greenhills Towing - Humphrey's",
     "lat": -31.871,
     "lon": 116.952,
@@ -3463,14 +3685,15 @@
     },
     "altitude": 312.0,
     "sources": {
-      "pge": "6613",
-      "siteguide_au": "89-170"
+      "ansg": "89-170",
+      "pge": "6613"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/89"
   },
   {
     "id": "PSF-009562",
+    "ref": "pge:6635",
     "name": "Flowerdale (3 Sisters)",
     "lat": -37.2957,
     "lon": 145.281,
@@ -3489,6 +3712,7 @@
   },
   {
     "id": "PSF-009643",
+    "ref": "pge:6724",
     "name": "Mount Bakewell (top launches)",
     "lat": -31.853,
     "lon": 116.761,
@@ -3499,14 +3723,15 @@
     },
     "altitude": 255.0,
     "sources": {
-      "pge": "6724",
-      "siteguide_au": "86-165"
+      "ansg": "86-165",
+      "pge": "6724"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/86"
   },
   {
     "id": "PSF-009659",
+    "ref": "pge:6746",
     "name": "Mt. Tamborine",
     "lat": -27.95028,
     "lon": 153.18104,
@@ -3517,14 +3742,15 @@
     },
     "altitude": 548.0,
     "sources": {
-      "pge": "6746",
-      "siteguide_au": "19-286"
+      "ansg": "19-286",
+      "pge": "6746"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/19"
   },
   {
     "id": "PSF-009660",
+    "ref": "pge:6747",
     "name": "Beechmont - Rosin's Lookout",
     "lat": -28.117819,
     "lon": 153.201971,
@@ -3535,14 +3761,15 @@
     },
     "altitude": 530.0,
     "sources": {
-      "pge": "6747",
-      "siteguide_au": "18-284"
+      "ansg": "18-284",
+      "pge": "6747"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/18"
   },
   {
     "id": "PSF-009662",
+    "ref": "pge:6750",
     "name": "Killarney - Queensland",
     "lat": -28.3054,
     "lon": 152.324,
@@ -3556,6 +3783,7 @@
   },
   {
     "id": "PSF-009678",
+    "ref": "pge:6777",
     "name": "The Range, Toodyay",
     "lat": -31.5308,
     "lon": 116.519,
@@ -3564,14 +3792,15 @@
     },
     "altitude": 90.0,
     "sources": {
-      "pge": "6777",
-      "siteguide_au": "85-164"
+      "ansg": "85-164",
+      "pge": "6777"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/85"
   },
   {
     "id": "PSF-009684",
+    "ref": "pge:6784",
     "name": "Peeralilla Hill",
     "lat": -35.4779,
     "lon": 138.618,
@@ -3588,6 +3817,7 @@
   },
   {
     "id": "PSF-009686",
+    "ref": "pge:6786",
     "name": "Lochiel Ridge",
     "lat": -33.8684,
     "lon": 138.12,
@@ -3603,6 +3833,7 @@
   },
   {
     "id": "PSF-009697",
+    "ref": "pge:6802",
     "name": "Winton",
     "lat": -42.6752,
     "lon": 147.219,
@@ -3619,6 +3850,7 @@
   },
   {
     "id": "PSF-009709",
+    "ref": "pge:6817",
     "name": "Breeza",
     "lat": -31.219,
     "lon": 150.541,
@@ -3632,6 +3864,7 @@
   },
   {
     "id": "PSF-009715",
+    "ref": "pge:6824",
     "name": "Mt Broughton (Thistle Hill)",
     "lat": -37.12269,
     "lon": 145.41304,
@@ -3640,14 +3873,15 @@
     },
     "altitude": 630.0,
     "sources": {
-      "pge": "6824",
-      "siteguide_au": "201-68"
+      "ansg": "201-68",
+      "pge": "6824"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/201"
   },
   {
     "id": "PSF-010050",
+    "ref": "pge:7270",
     "name": "Crackneck Lookout",
     "lat": -33.3944,
     "lon": 151.483,
@@ -3657,14 +3891,15 @@
     },
     "altitude": 105.0,
     "sources": {
-      "pge": "7270",
-      "siteguide_au": "123-244"
+      "ansg": "123-244",
+      "pge": "7270"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/123"
   },
   {
     "id": "PSF-010246",
+    "ref": "pge:7585",
     "name": "Adelaide River",
     "lat": -13.2372,
     "lon": 131.093,
@@ -3682,6 +3917,7 @@
   },
   {
     "id": "PSF-010249",
+    "ref": "pge:7588",
     "name": "Crommarty Hill, Forresters Beach",
     "lat": -33.405,
     "lon": 151.476,
@@ -3697,6 +3933,7 @@
   },
   {
     "id": "PSF-010255",
+    "ref": "pge:7595",
     "name": "Moonee Moonee",
     "lat": -33.17155,
     "lon": 151.62991,
@@ -3705,14 +3942,15 @@
     },
     "altitude": 52.0,
     "sources": {
-      "pge": "7595",
-      "siteguide_au": "267-299"
+      "ansg": "267-299",
+      "pge": "7595"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/267"
   },
   {
     "id": "PSF-010256",
+    "ref": "pge:7596",
     "name": "Glennies Ridge - Lake St Clair (Little Europe)",
     "lat": -32.3544,
     "lon": 151.312,
@@ -3723,14 +3961,15 @@
     },
     "altitude": 596.0,
     "sources": {
-      "pge": "7596",
-      "siteguide_au": "109-238"
+      "ansg": "109-238",
+      "pge": "7596"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/109"
   },
   {
     "id": "PSF-010259",
+    "ref": "pge:7600",
     "name": "Catherine Hill Bay (Catho's)",
     "lat": -33.15134,
     "lon": 151.62991,
@@ -3739,14 +3978,15 @@
     },
     "altitude": 37.0,
     "sources": {
-      "pge": "7600",
-      "siteguide_au": "108-240"
+      "ansg": "108-240",
+      "pge": "7600"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/108"
   },
   {
     "id": "PSF-010264",
+    "ref": "pge:7606",
     "name": "North Brother Lookout",
     "lat": -31.6572,
     "lon": 152.7779,
@@ -3756,14 +3996,15 @@
     },
     "altitude": 465.0,
     "sources": {
-      "pge": "7606",
-      "siteguide_au": "115-222"
+      "ansg": "115-222",
+      "pge": "7606"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/115"
   },
   {
     "id": "PSF-011509",
+    "ref": "ansg:10-7",
     "name": "Eungella - Chalet",
     "lat": -21.132771,
     "lon": 148.493093,
@@ -3773,13 +4014,14 @@
     },
     "altitude": 660.0,
     "sources": {
-      "siteguide_au": "10-7"
+      "ansg": "10-7"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/10"
   },
   {
     "id": "PSF-011510",
+    "ref": "ansg:101-206",
     "name": "Lake George (South Launch)",
     "lat": -35.1036,
     "lon": 149.3752,
@@ -3788,13 +4030,14 @@
     },
     "altitude": 730.0,
     "sources": {
-      "siteguide_au": "101-206"
+      "ansg": "101-206"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/101"
   },
   {
     "id": "PSF-011511",
+    "ref": "ansg:102-25",
     "name": "Lake George (Collector) - Launch",
     "lat": -34.96992,
     "lon": 149.37478,
@@ -3803,13 +4046,14 @@
     },
     "altitude": 910.0,
     "sources": {
-      "siteguide_au": "102-25"
+      "ansg": "102-25"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/102"
   },
   {
     "id": "PSF-011512",
+    "ref": "ansg:103-208",
     "name": "Honeysuckle - Launch 2",
     "lat": -35.13009,
     "lon": 148.31665,
@@ -3819,13 +4063,14 @@
     },
     "altitude": 685.0,
     "sources": {
-      "siteguide_au": "103-208"
+      "ansg": "103-208"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/103"
   },
   {
     "id": "PSF-011513",
+    "ref": "ansg:103-329",
     "name": "Honeysuckle - Launch 1",
     "lat": -35.12581,
     "lon": 148.31452,
@@ -3835,13 +4080,14 @@
     },
     "altitude": 685.0,
     "sources": {
-      "siteguide_au": "103-329"
+      "ansg": "103-329"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/103"
   },
   {
     "id": "PSF-011514",
+    "ref": "ansg:11-9",
     "name": "Rainbow Beach - Carlo Sand Blow",
     "lat": -25.9148,
     "lon": 153.0996,
@@ -3850,13 +4096,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "11-9"
+      "ansg": "11-9"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/11"
   },
   {
     "id": "PSF-011515",
+    "ref": "ansg:114-114",
     "name": "Crescent Head - S launch",
     "lat": -31.19323,
     "lon": 152.9769,
@@ -3866,13 +4113,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "114-114"
+      "ansg": "114-114"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/114"
   },
   {
     "id": "PSF-011516",
+    "ref": "ansg:114-115",
     "name": "Crescent Head - E launch",
     "lat": -31.19296,
     "lon": 152.98026,
@@ -3882,13 +4130,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "114-115"
+      "ansg": "114-115"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/114"
   },
   {
     "id": "PSF-011517",
+    "ref": "ansg:116-223",
     "name": "Harrys Lookout",
     "lat": -31.456,
     "lon": 152.931,
@@ -3897,13 +4146,14 @@
     },
     "altitude": 35.0,
     "sources": {
-      "siteguide_au": "116-223"
+      "ansg": "116-223"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/116"
   },
   {
     "id": "PSF-011518",
+    "ref": "ansg:120-226",
     "name": "Rocky Beach",
     "lat": -31.43933,
     "lon": 152.92494,
@@ -3912,13 +4162,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "120-226"
+      "ansg": "120-226"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/120"
   },
   {
     "id": "PSF-011519",
+    "ref": "ansg:121-228",
     "name": "Nellies",
     "lat": -31.7108,
     "lon": 152.5067,
@@ -3928,13 +4179,14 @@
     },
     "altitude": 515.0,
     "sources": {
-      "siteguide_au": "121-228"
+      "ansg": "121-228"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/121"
   },
   {
     "id": "PSF-011520",
+    "ref": "ansg:125-30",
     "name": "Mona Vale",
     "lat": -33.67176,
     "lon": 151.31783,
@@ -3944,13 +4196,14 @@
     },
     "altitude": 20.0,
     "sources": {
-      "siteguide_au": "125-30"
+      "ansg": "125-30"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/125"
   },
   {
     "id": "PSF-011521",
+    "ref": "ansg:128-33",
     "name": "Turimetta",
     "lat": -33.6965,
     "lon": 151.3102,
@@ -3959,13 +4212,14 @@
     },
     "altitude": 20.0,
     "sources": {
-      "siteguide_au": "128-33"
+      "ansg": "128-33"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/128"
   },
   {
     "id": "PSF-011522",
+    "ref": "ansg:131-215",
     "name": "Bungan",
     "lat": -33.67137,
     "lon": 151.31837,
@@ -3975,13 +4229,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "131-215"
+      "ansg": "131-215"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/131"
   },
   {
     "id": "PSF-011523",
+    "ref": "ansg:132-113",
     "name": "Stanwell Park - Bald Hill - East Launch",
     "lat": -34.22272,
     "lon": 150.99856,
@@ -3990,13 +4245,14 @@
     },
     "altitude": 180.0,
     "sources": {
-      "siteguide_au": "132-113"
+      "ansg": "132-113"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/132"
   },
   {
     "id": "PSF-011524",
+    "ref": "ansg:134-182",
     "name": "Tongarra",
     "lat": -34.60026,
     "lon": 150.67937,
@@ -4005,13 +4261,14 @@
     },
     "altitude": 620.0,
     "sources": {
-      "siteguide_au": "134-182"
+      "ansg": "134-182"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/134"
   },
   {
     "id": "PSF-011525",
+    "ref": "ansg:135-183",
     "name": "Cambewarra",
     "lat": -34.80042,
     "lon": 150.57732,
@@ -4022,13 +4279,14 @@
     },
     "altitude": 680.0,
     "sources": {
-      "siteguide_au": "135-183"
+      "ansg": "135-183"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/135"
   },
   {
     "id": "PSF-011526",
+    "ref": "ansg:136-21",
     "name": "Manilla - Mt Borah - East launch",
     "lat": -30.6793,
     "lon": 150.6116,
@@ -4044,13 +4302,14 @@
     },
     "altitude": 880.0,
     "sources": {
-      "siteguide_au": "136-21"
+      "ansg": "136-21"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
     "id": "PSF-011527",
+    "ref": "ansg:136-22",
     "name": "Manilla - Mt Borah - South launch",
     "lat": -30.6799,
     "lon": 150.6103,
@@ -4066,13 +4325,14 @@
     },
     "altitude": 880.0,
     "sources": {
-      "siteguide_au": "136-22"
+      "ansg": "136-22"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
     "id": "PSF-011528",
+    "ref": "ansg:136-23",
     "name": "Manilla - Mt Borah - Northeast launch",
     "lat": -30.6728,
     "lon": 150.6156,
@@ -4088,52 +4348,56 @@
     },
     "altitude": 880.0,
     "sources": {
-      "siteguide_au": "136-23"
+      "ansg": "136-23"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
     "id": "PSF-011529",
+    "ref": "ansg:137-191",
     "name": "Conargo (Deniliquin) - Conargo Tow Strip",
     "lat": -35.3157,
     "lon": 145.1622,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "137-191"
+      "ansg": "137-191"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/137"
   },
   {
     "id": "PSF-011530",
+    "ref": "ansg:137-192",
     "name": "Conargo (Deniliquin) - Conargo North Tow Strip",
     "lat": -35.2803,
     "lon": 145.1727,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "137-192"
+      "ansg": "137-192"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/137"
   },
   {
     "id": "PSF-011531",
+    "ref": "ansg:137-193",
     "name": "Conargo (Deniliquin) - Pretty Pine Tow Strip",
     "lat": -35.342,
     "lon": 144.8494,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "137-193"
+      "ansg": "137-193"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/137"
   },
   {
     "id": "PSF-011532",
+    "ref": "ansg:138-251",
     "name": "Mt Blackheath - North ramp",
     "lat": -33.64193,
     "lon": 150.24603,
@@ -4143,13 +4407,14 @@
     },
     "altitude": 1040.0,
     "sources": {
-      "siteguide_au": "138-251"
+      "ansg": "138-251"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/138"
   },
   {
     "id": "PSF-011533",
+    "ref": "ansg:140-253",
     "name": "Sofala",
     "lat": -33.1,
     "lon": 149.8,
@@ -4158,13 +4423,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "140-253"
+      "ansg": "140-253"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/140"
   },
   {
     "id": "PSF-011534",
+    "ref": "ansg:144-38",
     "name": "Bells Beach - Jarosite",
     "lat": -38.37496,
     "lon": 144.26934,
@@ -4174,13 +4440,14 @@
     },
     "altitude": 35.0,
     "sources": {
-      "siteguide_au": "144-38"
+      "ansg": "144-38"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/144"
   },
   {
     "id": "PSF-011535",
+    "ref": "ansg:146-42",
     "name": "Barwon Heads (13th Beach) - HG launch 40W",
     "lat": -38.28133,
     "lon": 144.4391,
@@ -4190,13 +4457,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "146-42"
+      "ansg": "146-42"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/146"
   },
   {
     "id": "PSF-011536",
+    "ref": "ansg:15-235",
     "name": "Point Cartwright",
     "lat": -26.68041,
     "lon": 153.13835,
@@ -4205,13 +4473,14 @@
     },
     "altitude": 22.0,
     "sources": {
-      "siteguide_au": "15-235"
+      "ansg": "15-235"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/15"
   },
   {
     "id": "PSF-011537",
+    "ref": "ansg:150-56",
     "name": "Flaxmans Hill",
     "lat": -38.5326,
     "lon": 142.7372,
@@ -4220,13 +4489,14 @@
     },
     "altitude": 55.0,
     "sources": {
-      "siteguide_au": "150-56"
+      "ansg": "150-56"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/150"
   },
   {
     "id": "PSF-011538",
+    "ref": "ansg:151-60",
     "name": "Grannies Grave",
     "lat": -38.40057,
     "lon": 142.50799,
@@ -4235,13 +4505,14 @@
     },
     "altitude": 18.0,
     "sources": {
-      "siteguide_au": "151-60"
+      "ansg": "151-60"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/151"
   },
   {
     "id": "PSF-011539",
+    "ref": "ansg:153-64",
     "name": "Logans Beach",
     "lat": -38.404886,
     "lon": 142.525956,
@@ -4250,13 +4521,14 @@
     },
     "altitude": 18.0,
     "sources": {
-      "siteguide_au": "153-64"
+      "ansg": "153-64"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/153"
   },
   {
     "id": "PSF-011540",
+    "ref": "ansg:154-197",
     "name": "Levy's Point Beach",
     "lat": -38.371177,
     "lon": 142.424091,
@@ -4265,13 +4537,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "154-197"
+      "ansg": "154-197"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/154"
   },
   {
     "id": "PSF-011541",
+    "ref": "ansg:156-81",
     "name": "Mt Meuron",
     "lat": -38.67335,
     "lon": 143.8558,
@@ -4281,13 +4554,14 @@
     },
     "altitude": 140.0,
     "sources": {
-      "siteguide_au": "156-81"
+      "ansg": "156-81"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/156"
   },
   {
     "id": "PSF-011542",
+    "ref": "ansg:158-200",
     "name": "Portland - Murrells Beach NW",
     "lat": -38.40366,
     "lon": 141.5304,
@@ -4297,13 +4571,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-200"
+      "ansg": "158-200"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011543",
+    "ref": "ansg:158-201",
     "name": "Portland - Amos Road - Whites Beach",
     "lat": -38.34787,
     "lon": 141.39033,
@@ -4312,13 +4587,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-201"
+      "ansg": "158-201"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011544",
+    "ref": "ansg:158-89",
     "name": "Portland - Murrells Beach",
     "lat": -38.40191,
     "lon": 141.52984,
@@ -4328,13 +4604,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-89"
+      "ansg": "158-89"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011545",
+    "ref": "ansg:158-90",
     "name": "Portland - Bridgewater Bay",
     "lat": -38.3672,
     "lon": 141.40921,
@@ -4343,13 +4620,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-90"
+      "ansg": "158-90"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011546",
+    "ref": "ansg:158-92",
     "name": "Portland - Dutton Way",
     "lat": -38.295,
     "lon": 141.6175,
@@ -4358,13 +4636,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-92"
+      "ansg": "158-92"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011547",
+    "ref": "ansg:158-93",
     "name": "Portland - Golf Course / Harbour Trust Road",
     "lat": -38.36526,
     "lon": 141.62715,
@@ -4373,13 +4652,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-93"
+      "ansg": "158-93"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011548",
+    "ref": "ansg:158-94",
     "name": "Portland - Nuns Beach",
     "lat": -38.33819,
     "lon": 141.6089,
@@ -4388,13 +4668,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-94"
+      "ansg": "158-94"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011549",
+    "ref": "ansg:158-96",
     "name": "Portland - Cape Bridgewater Seal Cliffs",
     "lat": -38.38157,
     "lon": 141.40833,
@@ -4404,13 +4685,14 @@
     },
     "altitude": 9.0,
     "sources": {
-      "siteguide_au": "158-96"
+      "ansg": "158-96"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
     "id": "PSF-011550",
+    "ref": "ansg:159-101",
     "name": "Spion Kop (Fairhaven, Aireys, Moggs) - Spion",
     "lat": -38.46803,
     "lon": 144.06941,
@@ -4419,13 +4701,14 @@
     },
     "altitude": 45.0,
     "sources": {
-      "siteguide_au": "159-101"
+      "ansg": "159-101"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/159"
   },
   {
     "id": "PSF-011551",
+    "ref": "ansg:159-249",
     "name": "Spion Kop (Fairhaven, Aireys, Moggs) - Mad Max",
     "lat": -38.4684,
     "lon": 144.0898,
@@ -4434,13 +4717,14 @@
     },
     "altitude": 45.0,
     "sources": {
-      "siteguide_au": "159-249"
+      "ansg": "159-249"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/159"
   },
   {
     "id": "PSF-011552",
+    "ref": "ansg:163-44",
     "name": "Cairns Bay",
     "lat": -38.48583,
     "lon": 144.96674,
@@ -4450,13 +4734,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "163-44"
+      "ansg": "163-44"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/163"
   },
   {
     "id": "PSF-011553",
+    "ref": "ansg:166-50",
     "name": "Craigie Rd, Mt Martha",
     "lat": -38.25185,
     "lon": 145.02719,
@@ -4465,13 +4750,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "166-50"
+      "ansg": "166-50"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/166"
   },
   {
     "id": "PSF-011554",
+    "ref": "ansg:167-52",
     "name": "Eagles Nest",
     "lat": -38.66797,
     "lon": 145.67034,
@@ -4480,13 +4766,14 @@
     },
     "altitude": 35.0,
     "sources": {
-      "siteguide_au": "167-52"
+      "ansg": "167-52"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/167"
   },
   {
     "id": "PSF-011555",
+    "ref": "ansg:173-204",
     "name": "Grossard Point, Phillip Island",
     "lat": -38.46853,
     "lon": 145.16542,
@@ -4495,13 +4782,14 @@
     },
     "altitude": 17.0,
     "sources": {
-      "siteguide_au": "173-204"
+      "ansg": "173-204"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/173"
   },
   {
     "id": "PSF-011556",
+    "ref": "ansg:174-209",
     "name": "Rhyll, Phillip Island",
     "lat": -38.459931,
     "lon": 145.309125,
@@ -4512,13 +4800,14 @@
     },
     "altitude": 16.0,
     "sources": {
-      "siteguide_au": "174-209"
+      "ansg": "174-209"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/174"
   },
   {
     "id": "PSF-011557",
+    "ref": "ansg:175-210",
     "name": "Fisher Street, Phillip Island",
     "lat": -38.460069,
     "lon": 145.185278,
@@ -4527,26 +4816,28 @@
     },
     "altitude": 12.0,
     "sources": {
-      "siteguide_au": "175-210"
+      "ansg": "175-210"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/175"
   },
   {
     "id": "PSF-011558",
+    "ref": "ansg:176-202",
     "name": "Phillip Island",
     "lat": -38.48,
     "lon": 145.24,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "176-202"
+      "ansg": "176-202"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/176"
   },
   {
     "id": "PSF-011559",
+    "ref": "ansg:179-100",
     "name": "Shoreham",
     "lat": -38.43975,
     "lon": 145.04328,
@@ -4555,13 +4846,14 @@
     },
     "altitude": 24.0,
     "sources": {
-      "siteguide_au": "179-100"
+      "ansg": "179-100"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/179"
   },
   {
     "id": "PSF-011560",
+    "ref": "ansg:181-39",
     "name": "Ben More",
     "lat": -37.22799,
     "lon": 143.43532,
@@ -4570,13 +4862,14 @@
     },
     "altitude": 300.0,
     "sources": {
-      "siteguide_au": "181-39"
+      "ansg": "181-39"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/181"
   },
   {
     "id": "PSF-011561",
+    "ref": "ansg:182-40",
     "name": "Birchip Tow Paddock",
     "lat": -35.81025,
     "lon": 143.00312,
@@ -4592,13 +4885,14 @@
     },
     "altitude": 85.0,
     "sources": {
-      "siteguide_au": "182-40"
+      "ansg": "182-40"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/182"
   },
   {
     "id": "PSF-011562",
+    "ref": "ansg:183-46",
     "name": "Cave Hill",
     "lat": -37.32378,
     "lon": 143.25566,
@@ -4608,13 +4902,14 @@
     },
     "altitude": 360.0,
     "sources": {
-      "siteguide_au": "183-46"
+      "ansg": "183-46"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/183"
   },
   {
     "id": "PSF-011563",
+    "ref": "ansg:184-48",
     "name": "Colliers Gap",
     "lat": -37.21038,
     "lon": 143.21873,
@@ -4624,13 +4919,14 @@
     },
     "altitude": 335.0,
     "sources": {
-      "siteguide_au": "184-48"
+      "ansg": "184-48"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/184"
   },
   {
     "id": "PSF-011564",
+    "ref": "ansg:187-59",
     "name": "Gordon - South launch",
     "lat": -37.58927,
     "lon": 144.08075,
@@ -4642,13 +4938,14 @@
     },
     "altitude": 120.0,
     "sources": {
-      "siteguide_au": "187-59"
+      "ansg": "187-59"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/187"
   },
   {
     "id": "PSF-011565",
+    "ref": "ansg:189-69",
     "name": "Mt Buangor",
     "lat": -37.29549,
     "lon": 143.22218,
@@ -4658,13 +4955,14 @@
     },
     "altitude": 560.0,
     "sources": {
-      "siteguide_au": "189-69"
+      "ansg": "189-69"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/189"
   },
   {
     "id": "PSF-011566",
+    "ref": "ansg:190-71",
     "name": "Mt Buninyong",
     "lat": -37.65315,
     "lon": 143.92785,
@@ -4673,13 +4971,14 @@
     },
     "altitude": 180.0,
     "sources": {
-      "siteguide_au": "190-71"
+      "ansg": "190-71"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/190"
   },
   {
     "id": "PSF-011567",
+    "ref": "ansg:192-195",
     "name": "Mt Hollowback - North launch",
     "lat": -37.438173,
     "lon": 143.815884,
@@ -4690,13 +4989,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "192-195"
+      "ansg": "192-195"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/192"
   },
   {
     "id": "PSF-011568",
+    "ref": "ansg:192-196",
     "name": "Mt Hollowback - South launch",
     "lat": -37.441514,
     "lon": 143.816855,
@@ -4707,13 +5007,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "192-196"
+      "ansg": "192-196"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/192"
   },
   {
     "id": "PSF-011569",
+    "ref": "ansg:196-83",
     "name": "Mt Sugarloaf",
     "lat": -37.23609,
     "lon": 143.18332,
@@ -4722,13 +5023,14 @@
     },
     "altitude": 380.0,
     "sources": {
-      "siteguide_au": "196-83"
+      "ansg": "196-83"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/196"
   },
   {
     "id": "PSF-011570",
+    "ref": "ansg:198-109",
     "name": "Werribee Gorge",
     "lat": -37.68894,
     "lon": 144.37765,
@@ -4738,26 +5040,28 @@
     },
     "altitude": 150.0,
     "sources": {
-      "siteguide_au": "198-109"
+      "ansg": "198-109"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/198"
   },
   {
     "id": "PSF-011571",
+    "ref": "ansg:20-283",
     "name": "Flying Fox",
     "lat": -28.14568,
     "lon": 153.14898,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "20-283"
+      "ansg": "20-283"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/20"
   },
   {
     "id": "PSF-011572",
+    "ref": "ansg:202-70",
     "name": "Mt Buffalo - The Gorge HG Ramp",
     "lat": -36.7216,
     "lon": 146.8236,
@@ -4766,13 +5070,14 @@
     },
     "altitude": 1380.0,
     "sources": {
-      "siteguide_au": "202-70"
+      "ansg": "202-70"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/202"
   },
   {
     "id": "PSF-011573",
+    "ref": "ansg:205-198",
     "name": "Mt Elliot - North-East",
     "lat": -36.180405,
     "lon": 147.983049,
@@ -4782,13 +5087,14 @@
     },
     "altitude": 600.0,
     "sources": {
-      "siteguide_au": "205-198"
+      "ansg": "205-198"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/205"
   },
   {
     "id": "PSF-011574",
+    "ref": "ansg:206-77",
     "name": "Mt Emu - Emu 2",
     "lat": -36.66491,
     "lon": 147.20543,
@@ -4797,13 +5103,14 @@
     },
     "altitude": 1360.0,
     "sources": {
-      "siteguide_au": "206-77"
+      "ansg": "206-77"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/206"
   },
   {
     "id": "PSF-011575",
+    "ref": "ansg:208-84",
     "name": "Murmungee",
     "lat": -36.4187,
     "lon": 146.7114,
@@ -4813,13 +5120,14 @@
     },
     "altitude": 365.0,
     "sources": {
-      "siteguide_au": "208-84"
+      "ansg": "208-84"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/208"
   },
   {
     "id": "PSF-011576",
+    "ref": "ansg:212-258",
     "name": "The Paps - North",
     "lat": -37.04301,
     "lon": 145.98521,
@@ -4835,13 +5143,14 @@
     },
     "altitude": 320.0,
     "sources": {
-      "siteguide_au": "212-258"
+      "ansg": "212-258"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
     "id": "PSF-011577",
+    "ref": "ansg:212-259",
     "name": "The Paps - West",
     "lat": -37.04305,
     "lon": 145.98434,
@@ -4857,13 +5166,14 @@
     },
     "altitude": 320.0,
     "sources": {
-      "siteguide_au": "212-259"
+      "ansg": "212-259"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
     "id": "PSF-011578",
+    "ref": "ansg:212-260",
     "name": "The Paps - East",
     "lat": -37.04616,
     "lon": 145.99231,
@@ -4879,13 +5189,14 @@
     },
     "altitude": 320.0,
     "sources": {
-      "siteguide_au": "212-260"
+      "ansg": "212-260"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
     "id": "PSF-011579",
+    "ref": "ansg:212-261",
     "name": "The Paps - South",
     "lat": -37.05238,
     "lon": 145.98558,
@@ -4901,13 +5212,14 @@
     },
     "altitude": 320.0,
     "sources": {
-      "siteguide_au": "212-261"
+      "ansg": "212-261"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
     "id": "PSF-011580",
+    "ref": "ansg:212-262",
     "name": "The Paps - South west",
     "lat": -37.05269,
     "lon": 145.98859,
@@ -4923,13 +5235,14 @@
     },
     "altitude": 320.0,
     "sources": {
-      "siteguide_au": "212-262"
+      "ansg": "212-262"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
     "id": "PSF-011581",
+    "ref": "ansg:212-263",
     "name": "The Paps - South east",
     "lat": -37.05278,
     "lon": 145.98911,
@@ -4945,13 +5258,14 @@
     },
     "altitude": 320.0,
     "sources": {
-      "siteguide_au": "212-263"
+      "ansg": "212-263"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
     "id": "PSF-011582",
+    "ref": "ansg:213-205",
     "name": "Eagle Rise",
     "lat": -36.40973,
     "lon": 146.65192,
@@ -4962,13 +5276,14 @@
     },
     "altitude": 365.0,
     "sources": {
-      "siteguide_au": "213-205"
+      "ansg": "213-205"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/213"
   },
   {
     "id": "PSF-011583",
+    "ref": "ansg:215-221",
     "name": "Manny's",
     "lat": -36.413861,
     "lon": 146.623583,
@@ -4977,13 +5292,14 @@
     },
     "altitude": 496.0,
     "sources": {
-      "siteguide_au": "215-221"
+      "ansg": "215-221"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/215"
   },
   {
     "id": "PSF-011584",
+    "ref": "ansg:216-107",
     "name": "Three Sisters (Flowerdale)",
     "lat": -37.316,
     "lon": 145.289,
@@ -4996,13 +5312,14 @@
     },
     "altitude": 230.0,
     "sources": {
-      "siteguide_au": "216-107"
+      "ansg": "216-107"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/216"
   },
   {
     "id": "PSF-011585",
+    "ref": "ansg:218-110",
     "name": "Yarragon",
     "lat": -38.24669,
     "lon": 146.04753,
@@ -5011,13 +5328,14 @@
     },
     "altitude": 275.0,
     "sources": {
-      "siteguide_au": "218-110"
+      "ansg": "218-110"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/218"
   },
   {
     "id": "PSF-011586",
+    "ref": "ansg:220-188",
     "name": "Mt Terrible",
     "lat": -37.395,
     "lon": 146.140278,
@@ -5026,26 +5344,28 @@
     },
     "altitude": 1297.0,
     "sources": {
-      "siteguide_au": "220-188"
+      "ansg": "220-188"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/220"
   },
   {
     "id": "PSF-011587",
+    "ref": "ansg:221-211",
     "name": "Locksley Field",
     "lat": -36.814,
     "lon": 145.348,
     "wind": {},
     "altitude": 165.0,
     "sources": {
-      "siteguide_au": "221-211"
+      "ansg": "221-211"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/221"
   },
   {
     "id": "PSF-011588",
+    "ref": "ansg:239-123",
     "name": "Parry Beach - Point Hillier - Beach Launch and Landing",
     "lat": -35.04654,
     "lon": 117.15483,
@@ -5055,13 +5375,14 @@
     },
     "altitude": 50.0,
     "sources": {
-      "siteguide_au": "239-123"
+      "ansg": "239-123"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/239"
   },
   {
     "id": "PSF-011589",
+    "ref": "ansg:24-322",
     "name": "Tasman Flying Site 2",
     "lat": -43.06092,
     "lon": 147.86468,
@@ -5071,13 +5392,14 @@
     },
     "altitude": 25.0,
     "sources": {
-      "siteguide_au": "24-322"
+      "ansg": "24-322"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/24"
   },
   {
     "id": "PSF-011590",
+    "ref": "ansg:241-125",
     "name": "Porongorups - Porongurups",
     "lat": -34.68,
     "lon": 117.88,
@@ -5088,13 +5410,14 @@
     },
     "altitude": 500.0,
     "sources": {
-      "siteguide_au": "241-125"
+      "ansg": "241-125"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/241"
   },
   {
     "id": "PSF-011591",
+    "ref": "ansg:246-306",
     "name": "Lauderdale Flying Site 2",
     "lat": -42.90786,
     "lon": 147.49246,
@@ -5104,13 +5427,14 @@
     },
     "altitude": 170.0,
     "sources": {
-      "siteguide_au": "246-306"
+      "ansg": "246-306"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/246"
   },
   {
     "id": "PSF-011592",
+    "ref": "ansg:247-314",
     "name": "Oatlands Flying Site",
     "lat": -42.29996,
     "lon": 147.37123,
@@ -5124,13 +5448,14 @@
     },
     "altitude": 518.0,
     "sources": {
-      "siteguide_au": "247-314"
+      "ansg": "247-314"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/247"
   },
   {
     "id": "PSF-011593",
+    "ref": "ansg:248-315",
     "name": "Hobart Flying Site 1",
     "lat": -42.88122,
     "lon": 147.33005,
@@ -5139,13 +5464,14 @@
     },
     "altitude": 1230.0,
     "sources": {
-      "siteguide_au": "248-315"
+      "ansg": "248-315"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/248"
   },
   {
     "id": "PSF-011594",
+    "ref": "ansg:249-312",
     "name": "South Arm Flying Site",
     "lat": -43.02831,
     "lon": 147.41661,
@@ -5155,13 +5481,14 @@
     },
     "altitude": 24.0,
     "sources": {
-      "siteguide_au": "249-312"
+      "ansg": "249-312"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/249"
   },
   {
     "id": "PSF-011595",
+    "ref": "ansg:250-272",
     "name": "Windy Harbour",
     "lat": -34.8176,
     "lon": 116.0061,
@@ -5170,13 +5497,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "250-272"
+      "ansg": "250-272"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/250"
   },
   {
     "id": "PSF-011596",
+    "ref": "ansg:252-275",
     "name": "One Tree Hill, Gungahlin",
     "lat": -35.14214,
     "lon": 149.09166,
@@ -5186,26 +5514,28 @@
     },
     "altitude": 876.0,
     "sources": {
-      "siteguide_au": "252-275"
+      "ansg": "252-275"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/252"
   },
   {
     "id": "PSF-011597",
+    "ref": "ansg:253-276",
     "name": "Mt Buffalo – Reed’s Lookout Paraglider launch",
     "lat": -36.715,
     "lon": 146.822,
     "wind": {},
     "altitude": 1380.0,
     "sources": {
-      "siteguide_au": "253-276"
+      "ansg": "253-276"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/253"
   },
   {
     "id": "PSF-011598",
+    "ref": "ansg:256-279",
     "name": "Broadwater National Park - Mandatory VHF Carriage - Check status of NOTAM",
     "lat": -29.03068,
     "lon": 153.45677,
@@ -5215,13 +5545,14 @@
     },
     "altitude": 10.0,
     "sources": {
-      "siteguide_au": "256-279"
+      "ansg": "256-279"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/256"
   },
   {
     "id": "PSF-011599",
+    "ref": "ansg:256-280",
     "name": "Broadwater National Park - Mandatory VHF Carriage - Check status of NOTAM",
     "lat": -29.0371,
     "lon": 153.45277,
@@ -5231,13 +5562,14 @@
     },
     "altitude": 10.0,
     "sources": {
-      "siteguide_au": "256-280"
+      "ansg": "256-280"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/256"
   },
   {
     "id": "PSF-011600",
+    "ref": "ansg:257-281",
     "name": "Possums - Private Property - All pilots must be inducted and 'check-in' prior to entry. No Parking at Launch.",
     "lat": -28.6296,
     "lon": 153.50683,
@@ -5247,13 +5579,14 @@
     },
     "altitude": 160.0,
     "sources": {
-      "siteguide_au": "257-281"
+      "ansg": "257-281"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/257"
   },
   {
     "id": "PSF-011601",
+    "ref": "ansg:26-302",
     "name": "Tunbridge Flying Site",
     "lat": -42.14289,
     "lon": 147.42132,
@@ -5263,13 +5596,14 @@
     },
     "altitude": 885.0,
     "sources": {
-      "siteguide_au": "26-302"
+      "ansg": "26-302"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/26"
   },
   {
     "id": "PSF-011602",
+    "ref": "ansg:260-288",
     "name": "Wilson's",
     "lat": -27.69168,
     "lon": 151.99881,
@@ -5278,13 +5612,14 @@
     },
     "altitude": 718.0,
     "sources": {
-      "siteguide_au": "260-288"
+      "ansg": "260-288"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/260"
   },
   {
     "id": "PSF-011603",
+    "ref": "ansg:262-291",
     "name": "Hunter Lookout",
     "lat": -32.96111,
     "lon": 151.41417,
@@ -5293,13 +5628,14 @@
     },
     "altitude": 450.0,
     "sources": {
-      "siteguide_au": "262-291"
+      "ansg": "262-291"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/262"
   },
   {
     "id": "PSF-011604",
+    "ref": "ansg:263-292",
     "name": "Killarney - SE Launch",
     "lat": -28.29515,
     "lon": 152.33855,
@@ -5308,13 +5644,14 @@
     },
     "altitude": 1100.0,
     "sources": {
-      "siteguide_au": "263-292"
+      "ansg": "263-292"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
     "id": "PSF-011605",
+    "ref": "ansg:263-293",
     "name": "Killarney - E Launch",
     "lat": -28.29326,
     "lon": 152.34013,
@@ -5323,13 +5660,14 @@
     },
     "altitude": 1100.0,
     "sources": {
-      "siteguide_au": "263-293"
+      "ansg": "263-293"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
     "id": "PSF-011606",
+    "ref": "ansg:263-294",
     "name": "Killarney - W Launch",
     "lat": -28.30154,
     "lon": 152.32466,
@@ -5338,13 +5676,14 @@
     },
     "altitude": 1100.0,
     "sources": {
-      "siteguide_au": "263-294"
+      "ansg": "263-294"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
     "id": "PSF-011607",
+    "ref": "ansg:263-295",
     "name": "Killarney - N Launch",
     "lat": -28.22152,
     "lon": 152.35104,
@@ -5354,13 +5693,14 @@
     },
     "altitude": 1100.0,
     "sources": {
-      "siteguide_au": "263-295"
+      "ansg": "263-295"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
     "id": "PSF-011608",
+    "ref": "ansg:264-296",
     "name": "West Heaton Lookout",
     "lat": -32.95357,
     "lon": 151.45706,
@@ -5370,13 +5710,14 @@
     },
     "altitude": 430.0,
     "sources": {
-      "siteguide_au": "264-296"
+      "ansg": "264-296"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/264"
   },
   {
     "id": "PSF-011609",
+    "ref": "ansg:266-298",
     "name": "SE Heaton Lookout",
     "lat": -32.96772,
     "lon": 151.46913,
@@ -5385,13 +5726,14 @@
     },
     "altitude": 407.0,
     "sources": {
-      "siteguide_au": "266-298"
+      "ansg": "266-298"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/266"
   },
   {
     "id": "PSF-011610",
+    "ref": "ansg:269-300",
     "name": "Bothwell Flying Site 3",
     "lat": -42.38237,
     "lon": 147.00811,
@@ -5402,13 +5744,14 @@
     },
     "altitude": 590.0,
     "sources": {
-      "siteguide_au": "269-300"
+      "ansg": "269-300"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/269"
   },
   {
     "id": "PSF-011611",
+    "ref": "ansg:270-303",
     "name": "Trial Harbour Flying Site",
     "lat": -41.92841,
     "lon": 145.1754,
@@ -5418,13 +5761,14 @@
     },
     "altitude": 100.0,
     "sources": {
-      "siteguide_au": "270-303"
+      "ansg": "270-303"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/270"
   },
   {
     "id": "PSF-011612",
+    "ref": "ansg:271-305",
     "name": "Tasman Flying Site 4",
     "lat": -43.06325,
     "lon": 147.86435,
@@ -5434,13 +5778,14 @@
     },
     "altitude": 0.0,
     "sources": {
-      "siteguide_au": "271-305"
+      "ansg": "271-305"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/271"
   },
   {
     "id": "PSF-011613",
+    "ref": "ansg:272-307",
     "name": "Lauderdale Flying Site 1",
     "lat": -42.91041,
     "lon": 147.4924,
@@ -5450,13 +5795,14 @@
     },
     "altitude": 195.0,
     "sources": {
-      "siteguide_au": "272-307"
+      "ansg": "272-307"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/272"
   },
   {
     "id": "PSF-011614",
+    "ref": "ansg:273-308",
     "name": "Jericho Flying Site 1",
     "lat": -42.38347,
     "lon": 147.28526,
@@ -5466,13 +5812,14 @@
     },
     "altitude": 570.0,
     "sources": {
-      "siteguide_au": "273-308"
+      "ansg": "273-308"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/273"
   },
   {
     "id": "PSF-011615",
+    "ref": "ansg:274-309",
     "name": "Strahan Flying Site",
     "lat": -42.15243,
     "lon": 145.318,
@@ -5483,13 +5830,14 @@
     },
     "altitude": 0.0,
     "sources": {
-      "siteguide_au": "274-309"
+      "ansg": "274-309"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/274"
   },
   {
     "id": "PSF-011616",
+    "ref": "ansg:275-310",
     "name": "Scottsdale Flying Site",
     "lat": -41.15945,
     "lon": 147.51878,
@@ -5499,13 +5847,14 @@
     },
     "altitude": 480.0,
     "sources": {
-      "siteguide_au": "275-310"
+      "ansg": "275-310"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/275"
   },
   {
     "id": "PSF-011617",
+    "ref": "ansg:276-311",
     "name": "Queenstown Flying Site",
     "lat": -42.07955,
     "lon": 145.55546,
@@ -5515,13 +5864,14 @@
     },
     "altitude": 800.0,
     "sources": {
-      "siteguide_au": "276-311"
+      "ansg": "276-311"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/276"
   },
   {
     "id": "PSF-011618",
+    "ref": "ansg:277-313",
     "name": "Bothwell Flying Site 2",
     "lat": -42.38461,
     "lon": 147.01039,
@@ -5531,13 +5881,14 @@
     },
     "altitude": 570.0,
     "sources": {
-      "siteguide_au": "277-313"
+      "ansg": "277-313"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/277"
   },
   {
     "id": "PSF-011619",
+    "ref": "ansg:278-316",
     "name": "Irishtown Flying Site",
     "lat": -40.91425,
     "lon": 145.14331,
@@ -5546,13 +5897,14 @@
     },
     "altitude": 186.0,
     "sources": {
-      "siteguide_au": "278-316"
+      "ansg": "278-316"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/278"
   },
   {
     "id": "PSF-011620",
+    "ref": "ansg:279-317",
     "name": "Wilderness Hike and Fly",
     "lat": -42.68174,
     "lon": 146.71636,
@@ -5568,13 +5920,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "279-317"
+      "ansg": "279-317"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/279"
   },
   {
     "id": "PSF-011621",
+    "ref": "ansg:280-318",
     "name": "Stanley Flying Site",
     "lat": -40.76039,
     "lon": 145.2941,
@@ -5585,13 +5938,14 @@
     },
     "altitude": 50.0,
     "sources": {
-      "siteguide_au": "280-318"
+      "ansg": "280-318"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/280"
   },
   {
     "id": "PSF-011622",
+    "ref": "ansg:281-319",
     "name": "Ross Flying Site",
     "lat": -42.03105,
     "lon": 147.49207,
@@ -5606,13 +5960,14 @@
     },
     "altitude": 460.0,
     "sources": {
-      "siteguide_au": "281-319"
+      "ansg": "281-319"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/281"
   },
   {
     "id": "PSF-011623",
+    "ref": "ansg:282-320",
     "name": "Wynyard Flying Site",
     "lat": -40.99,
     "lon": 145.7257,
@@ -5621,13 +5976,14 @@
     },
     "altitude": 70.0,
     "sources": {
-      "siteguide_au": "282-320"
+      "ansg": "282-320"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/282"
   },
   {
     "id": "PSF-011624",
+    "ref": "ansg:283-321",
     "name": "Tasman Flying Site 3",
     "lat": -43.06295,
     "lon": 147.86449,
@@ -5637,13 +5993,14 @@
     },
     "altitude": 350.0,
     "sources": {
-      "siteguide_au": "283-321"
+      "ansg": "283-321"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/283"
   },
   {
     "id": "PSF-011625",
+    "ref": "ansg:284-323",
     "name": "Tasman Flying Site 1",
     "lat": -43.055,
     "lon": 147.86563,
@@ -5653,13 +6010,14 @@
     },
     "altitude": 45.0,
     "sources": {
-      "siteguide_au": "284-323"
+      "ansg": "284-323"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/284"
   },
   {
     "id": "PSF-011626",
+    "ref": "ansg:285-324",
     "name": "Bothwell Flying Site 1",
     "lat": -42.38438,
     "lon": 147.00734,
@@ -5669,13 +6027,14 @@
     },
     "altitude": 580.0,
     "sources": {
-      "siteguide_au": "285-324"
+      "ansg": "285-324"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/285"
   },
   {
     "id": "PSF-011627",
+    "ref": "ansg:286-325",
     "name": "Ouse Flying Site",
     "lat": -42.48554,
     "lon": 146.71209,
@@ -5688,13 +6047,14 @@
     },
     "altitude": 506.0,
     "sources": {
-      "siteguide_au": "286-325"
+      "ansg": "286-325"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/286"
   },
   {
     "id": "PSF-011628",
+    "ref": "ansg:287-326",
     "name": "North Coast Dunes",
     "lat": -41.01224,
     "lon": 147.40375,
@@ -5705,13 +6065,14 @@
     },
     "altitude": 0.0,
     "sources": {
-      "siteguide_au": "287-326"
+      "ansg": "287-326"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/287"
   },
   {
     "id": "PSF-011629",
+    "ref": "ansg:3-218",
     "name": "Ochre Point - Maslins",
     "lat": -35.2212,
     "lon": 138.4698,
@@ -5722,13 +6083,14 @@
     },
     "altitude": 50.0,
     "sources": {
-      "siteguide_au": "3-218"
+      "ansg": "3-218"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/3"
   },
   {
     "id": "PSF-011630",
+    "ref": "ansg:31-304",
     "name": "Devonport Flying Site",
     "lat": -41.18003,
     "lon": 146.35024,
@@ -5738,26 +6100,28 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "31-304"
+      "ansg": "31-304"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/31"
   },
   {
     "id": "PSF-011631",
+    "ref": "ansg:4-219",
     "name": "Eucla",
     "lat": -31.68,
     "lon": 128.88,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "4-219"
+      "ansg": "4-219"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/4"
   },
   {
     "id": "PSF-011632",
+    "ref": "ansg:44-126",
     "name": "Observatory Point - Twilight Beach",
     "lat": -33.907,
     "lon": 121.796,
@@ -5766,13 +6130,14 @@
     },
     "altitude": 200.0,
     "sources": {
-      "siteguide_au": "44-126"
+      "ansg": "44-126"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/44"
   },
   {
     "id": "PSF-011633",
+    "ref": "ansg:48-130",
     "name": "City View",
     "lat": -28.71,
     "lon": 114.678,
@@ -5782,13 +6147,14 @@
     },
     "altitude": 60.0,
     "sources": {
-      "siteguide_au": "48-130"
+      "ansg": "48-130"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/48"
   },
   {
     "id": "PSF-011634",
+    "ref": "ansg:50-132",
     "name": "Lynton Farm",
     "lat": -28.2074,
     "lon": 114.307,
@@ -5799,13 +6165,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "50-132"
+      "ansg": "50-132"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/50"
   },
   {
     "id": "PSF-011635",
+    "ref": "ansg:51-133",
     "name": "Kalbarri South Sea Cliffs",
     "lat": -27.745,
     "lon": 114.14,
@@ -5816,13 +6183,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "51-133"
+      "ansg": "51-133"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/51"
   },
   {
     "id": "PSF-011636",
+    "ref": "ansg:52-134",
     "name": "Kalbarri North Coastal - Zuytdorp Sea Cliffs",
     "lat": -27.69,
     "lon": 114.16,
@@ -5833,13 +6201,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "52-134"
+      "ansg": "52-134"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/52"
   },
   {
     "id": "PSF-011637",
+    "ref": "ansg:53-135",
     "name": "Brunswick Junction",
     "lat": -33.29,
     "lon": 115.84,
@@ -5848,13 +6217,14 @@
     },
     "altitude": 180.0,
     "sources": {
-      "siteguide_au": "53-135"
+      "ansg": "53-135"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/53"
   },
   {
     "id": "PSF-011638",
+    "ref": "ansg:57-138",
     "name": "Yallingup - Three Bears",
     "lat": -33.584,
     "lon": 115.014,
@@ -5863,13 +6233,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "57-138"
+      "ansg": "57-138"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/57"
   },
   {
     "id": "PSF-011639",
+    "ref": "ansg:59-140",
     "name": "Injidup",
     "lat": -33.699,
     "lon": 114.988,
@@ -5882,13 +6253,14 @@
     },
     "altitude": 20.0,
     "sources": {
-      "siteguide_au": "59-140"
+      "ansg": "59-140"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/59"
   },
   {
     "id": "PSF-011640",
+    "ref": "ansg:60-141",
     "name": "Moses Rocks",
     "lat": -33.75894,
     "lon": 114.99114,
@@ -5898,13 +6270,14 @@
     },
     "altitude": 20.0,
     "sources": {
-      "siteguide_au": "60-141"
+      "ansg": "60-141"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/60"
   },
   {
     "id": "PSF-011641",
+    "ref": "ansg:62-143",
     "name": "Cosy Corner",
     "lat": -34.256,
     "lon": 115.028,
@@ -5913,13 +6286,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "62-143"
+      "ansg": "62-143"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/62"
   },
   {
     "id": "PSF-011642",
+    "ref": "ansg:63-144",
     "name": "Greenhills",
     "lat": -34.32,
     "lon": 115.09,
@@ -5928,13 +6302,14 @@
     },
     "altitude": 75.0,
     "sources": {
-      "siteguide_au": "63-144"
+      "ansg": "63-144"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/63"
   },
   {
     "id": "PSF-011643",
+    "ref": "ansg:64-145",
     "name": "Point Matthew",
     "lat": -34.37,
     "lon": 115.15,
@@ -5944,13 +6319,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "64-145"
+      "ansg": "64-145"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/64"
   },
   {
     "id": "PSF-011644",
+    "ref": "ansg:65-146",
     "name": "Sarge Bay",
     "lat": -34.37,
     "lon": 115.139,
@@ -5960,13 +6336,14 @@
     },
     "altitude": 6.0,
     "sources": {
-      "siteguide_au": "65-146"
+      "ansg": "65-146"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/65"
   },
   {
     "id": "PSF-011645",
+    "ref": "ansg:67-150",
     "name": "Cottesloe",
     "lat": -32.0187,
     "lon": 115.7513,
@@ -5975,13 +6352,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "67-150"
+      "ansg": "67-150"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/67"
   },
   {
     "id": "PSF-011646",
+    "ref": "ansg:7-242",
     "name": "Barn Hill (The Bluff)",
     "lat": -33.58777,
     "lon": 138.13567,
@@ -5993,13 +6371,14 @@
     },
     "altitude": 335.0,
     "sources": {
-      "siteguide_au": "7-242"
+      "ansg": "7-242"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/7"
   },
   {
     "id": "PSF-011647",
+    "ref": "ansg:71-148",
     "name": "Burns Beach",
     "lat": -31.729,
     "lon": 115.717,
@@ -6009,13 +6388,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "71-148"
+      "ansg": "71-148"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/71"
   },
   {
     "id": "PSF-011648",
+    "ref": "ansg:72-149",
     "name": "Mullaloo Beach",
     "lat": -31.7884,
     "lon": 115.7334,
@@ -6024,13 +6404,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "72-149"
+      "ansg": "72-149"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/72"
   },
   {
     "id": "PSF-011649",
+    "ref": "ansg:74-153",
     "name": "Warnbro",
     "lat": -32.33,
     "lon": 115.74,
@@ -6040,13 +6421,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "74-153"
+      "ansg": "74-153"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/74"
   },
   {
     "id": "PSF-011650",
+    "ref": "ansg:75-154",
     "name": "Avalon",
     "lat": -32.57,
     "lon": 115.65,
@@ -6055,13 +6437,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "75-154"
+      "ansg": "75-154"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/75"
   },
   {
     "id": "PSF-011651",
+    "ref": "ansg:76-155",
     "name": "Two Rocks Beach",
     "lat": -31.49,
     "lon": 115.579,
@@ -6070,13 +6453,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "76-155"
+      "ansg": "76-155"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/76"
   },
   {
     "id": "PSF-011652",
+    "ref": "ansg:77-156",
     "name": "Seabird",
     "lat": -31.279,
     "lon": 115.441,
@@ -6085,13 +6469,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "77-156"
+      "ansg": "77-156"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/77"
   },
   {
     "id": "PSF-011653",
+    "ref": "ansg:78-157",
     "name": "Gingin",
     "lat": -31.35,
     "lon": 115.9,
@@ -6100,13 +6485,14 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "78-157"
+      "ansg": "78-157"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/78"
   },
   {
     "id": "PSF-011654",
+    "ref": "ansg:8-6",
     "name": "Rex Lookout",
     "lat": -16.64646,
     "lon": 145.56545,
@@ -6116,13 +6502,14 @@
     },
     "altitude": 55.0,
     "sources": {
-      "siteguide_au": "8-6"
+      "ansg": "8-6"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/8"
   },
   {
     "id": "PSF-011655",
+    "ref": "ansg:81-160",
     "name": "Windmill Hill, Toodyay",
     "lat": -31.55,
     "lon": 116.47,
@@ -6131,13 +6518,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "81-160"
+      "ansg": "81-160"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/81"
   },
   {
     "id": "PSF-011656",
+    "ref": "ansg:84-163",
     "name": "White Lakes Farm, Toodyay",
     "lat": -31.55,
     "lon": 116.48,
@@ -6146,13 +6534,14 @@
     },
     "altitude": 20.0,
     "sources": {
-      "siteguide_au": "84-163"
+      "ansg": "84-163"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/84"
   },
   {
     "id": "PSF-011657",
+    "ref": "ansg:87-166",
     "name": "Mount Bakewell (lower launch)",
     "lat": -31.848,
     "lon": 116.777,
@@ -6161,13 +6550,14 @@
     },
     "altitude": 120.0,
     "sources": {
-      "siteguide_au": "87-166"
+      "ansg": "87-166"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/87"
   },
   {
     "id": "PSF-011658",
+    "ref": "ansg:88-167",
     "name": "York Silos - Gwambygine Hill",
     "lat": -31.93,
     "lon": 116.78,
@@ -6176,13 +6566,14 @@
     },
     "altitude": 60.0,
     "sources": {
-      "siteguide_au": "88-167"
+      "ansg": "88-167"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/88"
   },
   {
     "id": "PSF-011659",
+    "ref": "ansg:89-168",
     "name": "York - Greenhills Towing - John Salmon's",
     "lat": -31.9502,
     "lon": 116.9979,
@@ -6198,13 +6589,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "89-168"
+      "ansg": "89-168"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/89"
   },
   {
     "id": "PSF-011660",
+    "ref": "ansg:89-169",
     "name": "York - Greenhills Towing - Penny's (Closed)",
     "lat": -31.966,
     "lon": 117.0,
@@ -6220,13 +6612,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "89-169"
+      "ansg": "89-169"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/89"
   },
   {
     "id": "PSF-011661",
+    "ref": "ansg:9-185",
     "name": "Gillies Lookout",
     "lat": -17.2,
     "lon": 145.7,
@@ -6237,13 +6630,14 @@
     },
     "altitude": 750.0,
     "sources": {
-      "siteguide_au": "9-185"
+      "ansg": "9-185"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/9"
   },
   {
     "id": "PSF-011662",
+    "ref": "ansg:90-171",
     "name": "York Airstrip",
     "lat": -31.857,
     "lon": 116.797,
@@ -6256,13 +6650,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "90-171"
+      "ansg": "90-171"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/90"
   },
   {
     "id": "PSF-011663",
+    "ref": "ansg:91-172",
     "name": "Wyalkatchem",
     "lat": -31.18,
     "lon": 117.38,
@@ -6278,13 +6673,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "91-172"
+      "ansg": "91-172"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/91"
   },
   {
     "id": "PSF-011664",
+    "ref": "ansg:92-212",
     "name": "Westonia Tow Paddocks",
     "lat": -31.302,
     "lon": 118.693,
@@ -6300,13 +6696,14 @@
     },
     "altitude": 350.0,
     "sources": {
-      "siteguide_au": "92-212"
+      "ansg": "92-212"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/92"
   },
   {
     "id": "PSF-011665",
+    "ref": "ansg:93-173",
     "name": "Table Mountain",
     "lat": -21.035,
     "lon": 117.109,
@@ -6322,13 +6719,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "93-173"
+      "ansg": "93-173"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/93"
   },
   {
     "id": "PSF-011666",
+    "ref": "ansg:94-174",
     "name": "Mount Nameless",
     "lat": -22.718,
     "lon": 117.762,
@@ -6344,13 +6742,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "94-174"
+      "ansg": "94-174"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/94"
   },
   {
     "id": "PSF-011667",
+    "ref": "ansg:95-175",
     "name": "Cape Couvier",
     "lat": -24.211,
     "lon": 113.426,
@@ -6360,13 +6759,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "95-175"
+      "ansg": "95-175"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/95"
   },
   {
     "id": "PSF-011668",
+    "ref": "ansg:96-176",
     "name": "Bastion - Sunset/West Launch",
     "lat": -15.451,
     "lon": 128.119,
@@ -6377,13 +6777,14 @@
     },
     "altitude": 330.0,
     "sources": {
-      "siteguide_au": "96-176"
+      "ansg": "96-176"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/96"
   },
   {
     "id": "PSF-011669",
+    "ref": "ansg:96-177",
     "name": "Bastion - North Launch",
     "lat": -15.4502,
     "lon": 128.1227,
@@ -6394,13 +6795,14 @@
     },
     "altitude": 330.0,
     "sources": {
-      "siteguide_au": "96-177"
+      "ansg": "96-177"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/96"
   },
   {
     "id": "PSF-011670",
+    "ref": "ansg:97-178",
     "name": "Mt Harrison",
     "lat": -15.83,
     "lon": 128.28,
@@ -6411,13 +6813,14 @@
     },
     "altitude": 250.0,
     "sources": {
-      "siteguide_au": "97-178"
+      "ansg": "97-178"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/97"
   },
   {
     "id": "PSF-011671",
+    "ref": "ansg:98-179",
     "name": "Wyndham Towing",
     "lat": -15.53,
     "lon": 128.15,
@@ -6433,13 +6836,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "98-179"
+      "ansg": "98-179"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/98"
   },
   {
     "id": "PSF-011672",
+    "ref": "ansg:99-213",
     "name": "Kalgoorlie - Lake Perkolilly",
     "lat": -30.572,
     "lon": 121.7118,
@@ -6455,13 +6859,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "99-213"
+      "ansg": "99-213"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/99"
   },
   {
     "id": "PSF-011673",
+    "ref": "ansg:105-27",
     "name": "Pig Hill",
     "lat": -35.22077,
     "lon": 148.89655,
@@ -6471,13 +6876,14 @@
     },
     "altitude": 950.0,
     "sources": {
-      "siteguide_au": "105-27"
+      "ansg": "105-27"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/105"
   },
   {
     "id": "PSF-011674",
+    "ref": "ansg:12-232",
     "name": "Alexandra Headland",
     "lat": -26.6753,
     "lon": 153.1152,
@@ -6486,13 +6892,14 @@
     },
     "altitude": 18.0,
     "sources": {
-      "siteguide_au": "12-232"
+      "ansg": "12-232"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/12"
   },
   {
     "id": "PSF-011675",
+    "ref": "ansg:13-289",
     "name": "North End Sunshine Beach",
     "lat": -26.47706,
     "lon": 153.16098,
@@ -6501,13 +6908,14 @@
     },
     "altitude": 33.0,
     "sources": {
-      "siteguide_au": "13-289"
+      "ansg": "13-289"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/13"
   },
   {
     "id": "PSF-011676",
+    "ref": "ansg:141-254",
     "name": "Wolgan",
     "lat": -33.24,
     "lon": 150.17,
@@ -6516,13 +6924,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "141-254"
+      "ansg": "141-254"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/141"
   },
   {
     "id": "PSF-011677",
+    "ref": "ansg:148-54",
     "name": "Eumeralla (Red Rocks)",
     "lat": -38.3968,
     "lon": 144.2292,
@@ -6531,13 +6940,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "148-54"
+      "ansg": "148-54"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/148"
   },
   {
     "id": "PSF-011678",
+    "ref": "ansg:161-41",
     "name": "Arthurs Seat",
     "lat": -38.353,
     "lon": 144.951,
@@ -6547,39 +6957,42 @@
     },
     "altitude": 260.0,
     "sources": {
-      "siteguide_au": "161-41"
+      "ansg": "161-41"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/161"
   },
   {
     "id": "PSF-011679",
+    "ref": "ansg:171-66",
     "name": "Mentone",
     "lat": -38.0,
     "lon": 145.04,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "171-66"
+      "ansg": "171-66"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/171"
   },
   {
     "id": "PSF-011680",
+    "ref": "ansg:172-203",
     "name": "Potters Road, San Remo",
     "lat": -38.534,
     "lon": 145.387,
     "wind": {},
     "altitude": 45.0,
     "sources": {
-      "siteguide_au": "172-203"
+      "ansg": "172-203"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/172"
   },
   {
     "id": "PSF-011681",
+    "ref": "ansg:186-53",
     "name": "Elmhurst Hill",
     "lat": -37.15069,
     "lon": 143.26053,
@@ -6588,13 +7001,14 @@
     },
     "altitude": 180.0,
     "sources": {
-      "siteguide_au": "186-53"
+      "ansg": "186-53"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/186"
   },
   {
     "id": "PSF-011682",
+    "ref": "ansg:191-74",
     "name": "Mt Elephant",
     "lat": -37.96,
     "lon": 143.2,
@@ -6604,39 +7018,42 @@
     },
     "altitude": 120.0,
     "sources": {
-      "siteguide_au": "191-74"
+      "ansg": "191-74"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/191"
   },
   {
     "id": "PSF-011683",
+    "ref": "ansg:194-79",
     "name": "Mt Langhi Ghiran",
     "lat": -37.301,
     "lon": 143.118,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "194-79"
+      "ansg": "194-79"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/194"
   },
   {
     "id": "PSF-011684",
+    "ref": "ansg:199-184",
     "name": "Grampians",
     "lat": -37.3,
     "lon": 142.5,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "199-184"
+      "ansg": "199-184"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/199"
   },
   {
     "id": "PSF-011685",
+    "ref": "ansg:207-82",
     "name": "Mt Mittamatite",
     "lat": -36.148,
     "lon": 147.882,
@@ -6645,13 +7062,14 @@
     },
     "altitude": 610.0,
     "sources": {
-      "siteguide_au": "207-82"
+      "ansg": "207-82"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/207"
   },
   {
     "id": "PSF-011686",
+    "ref": "ansg:214-106",
     "name": "The Pines (Buckland Ridge)",
     "lat": -36.413,
     "lon": 146.64,
@@ -6662,26 +7080,28 @@
     },
     "altitude": 365.0,
     "sources": {
-      "siteguide_au": "214-106"
+      "ansg": "214-106"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/214"
   },
   {
     "id": "PSF-011687",
+    "ref": "ansg:217-108",
     "name": "Warrigal Rocks",
     "lat": -37.1361,
     "lon": 145.2067,
     "wind": {},
     "altitude": null,
     "sources": {
-      "siteguide_au": "217-108"
+      "ansg": "217-108"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/217"
   },
   {
     "id": "PSF-011688",
+    "ref": "ansg:222-245",
     "name": "Mt Gillen - West Gap, South Face",
     "lat": -23.71,
     "lon": 133.81,
@@ -6691,13 +7111,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "222-245"
+      "ansg": "222-245"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/222"
   },
   {
     "id": "PSF-011689",
+    "ref": "ansg:226-121",
     "name": "Back Beach",
     "lat": -35.1105,
     "lon": 117.5763,
@@ -6706,13 +7127,14 @@
     },
     "altitude": 120.0,
     "sources": {
-      "siteguide_au": "226-121"
+      "ansg": "226-121"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/226"
   },
   {
     "id": "PSF-011690",
+    "ref": "ansg:23-301",
     "name": "Brighton Flying Site",
     "lat": -42.70001,
     "lon": 147.25092,
@@ -6723,13 +7145,14 @@
     },
     "altitude": 160.0,
     "sources": {
-      "siteguide_au": "23-301"
+      "ansg": "23-301"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/23"
   },
   {
     "id": "PSF-011691",
+    "ref": "ansg:230-19",
     "name": "Point King - Albany Town",
     "lat": -35.0289,
     "lon": 117.9211,
@@ -6738,13 +7161,14 @@
     },
     "altitude": 20.0,
     "sources": {
-      "siteguide_au": "230-19"
+      "ansg": "230-19"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/230"
   },
   {
     "id": "PSF-011692",
+    "ref": "ansg:235-118",
     "name": "Perkins Beach",
     "lat": -35.0483,
     "lon": 117.67015,
@@ -6753,13 +7177,14 @@
     },
     "altitude": 5.0,
     "sources": {
-      "siteguide_au": "235-118"
+      "ansg": "235-118"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/235"
   },
   {
     "id": "PSF-011693",
+    "ref": "ansg:236-119",
     "name": "Dingo's Beach",
     "lat": -35.088,
     "lon": 117.6414,
@@ -6768,13 +7193,14 @@
     },
     "altitude": null,
     "sources": {
-      "siteguide_au": "236-119"
+      "ansg": "236-119"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/236"
   },
   {
     "id": "PSF-011694",
+    "ref": "ansg:238-122",
     "name": "Lowlands Beach",
     "lat": -35.09799,
     "lon": 117.52496,
@@ -6784,26 +7210,28 @@
     },
     "altitude": 30.0,
     "sources": {
-      "siteguide_au": "238-122"
+      "ansg": "238-122"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/238"
   },
   {
     "id": "PSF-011695",
+    "ref": "ansg:240-273",
     "name": "Stirlings",
     "lat": -34.39157,
     "lon": 118.11169,
     "wind": {},
     "altitude": 400.0,
     "sources": {
-      "siteguide_au": "240-273"
+      "ansg": "240-273"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/240"
   },
   {
     "id": "PSF-011696",
+    "ref": "ansg:45-127",
     "name": "Frenchman's Peak",
     "lat": -33.967,
     "lon": 122.166,
@@ -6812,13 +7240,14 @@
     },
     "altitude": 200.0,
     "sources": {
-      "siteguide_au": "45-127"
+      "ansg": "45-127"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/45"
   },
   {
     "id": "PSF-011697",
+    "ref": "ansg:5-220",
     "name": "Myponga Cliffs",
     "lat": -35.3541,
     "lon": 138.4367,
@@ -6828,13 +7257,14 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "5-220"
+      "ansg": "5-220"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/5"
   },
   {
     "id": "PSF-011698",
+    "ref": "ansg:56-137",
     "name": "Dalyellup",
     "lat": -33.3976,
     "lon": 115.6044,
@@ -6843,13 +7273,14 @@
     },
     "altitude": 10.0,
     "sources": {
-      "siteguide_au": "56-137"
+      "ansg": "56-137"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/56"
   },
   {
     "id": "PSF-011699",
+    "ref": "ansg:70-147",
     "name": "Quinns Rocks",
     "lat": -31.674,
     "lon": 115.688,
@@ -6858,13 +7289,14 @@
     },
     "altitude": 15.0,
     "sources": {
-      "siteguide_au": "70-147"
+      "ansg": "70-147"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/70"
   },
   {
     "id": "PSF-011700",
+    "ref": "ansg:79-158",
     "name": "Noondeening Hill",
     "lat": -31.58526,
     "lon": 116.50177,
@@ -6873,13 +7305,14 @@
     },
     "altitude": 150.0,
     "sources": {
-      "siteguide_au": "79-158"
+      "ansg": "79-158"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/79"
   },
   {
     "id": "PSF-011701",
+    "ref": "ansg:80-159",
     "name": "Masters",
     "lat": -31.5845,
     "lon": 116.4977,
@@ -6888,13 +7321,14 @@
     },
     "altitude": 120.0,
     "sources": {
-      "siteguide_au": "80-159"
+      "ansg": "80-159"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/80"
   },
   {
     "id": "PSF-011702",
+    "ref": "ansg:82-161",
     "name": "Mt Nardie, Toodyay",
     "lat": -31.55,
     "lon": 116.46,
@@ -6904,13 +7338,14 @@
     },
     "altitude": 210.0,
     "sources": {
-      "siteguide_au": "82-161"
+      "ansg": "82-161"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/82"
   },
   {
     "id": "PSF-011703",
+    "ref": "ansg:83-162",
     "name": "Whitfield Hill (Wicklow)",
     "lat": -31.55,
     "lon": 116.5,
@@ -6919,9 +7354,9 @@
     },
     "altitude": 90.0,
     "sources": {
-      "siteguide_au": "83-162"
+      "ansg": "83-162"
     },
-    "primary": "siteguide_au",
+    "primary": "ansg",
     "url": "https://siteguide.org.au/sites/details/83"
   }
 ]

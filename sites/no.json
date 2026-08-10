@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000013",
+    "ref": "pge:10016",
     "name": "Tvangen",
     "lat": 61.3256,
     "lon": 7.18861,
@@ -19,6 +20,7 @@
   },
   {
     "id": "PSF-000112",
+    "ref": "pge:10135",
     "name": "Aarvollbakke (Oslo)",
     "lat": 59.9461,
     "lon": 10.8203,
@@ -37,6 +39,7 @@
   },
   {
     "id": "PSF-000113",
+    "ref": "pge:10136",
     "name": "Grefsenkollen",
     "lat": 59.9566,
     "lon": 10.8001,
@@ -54,6 +57,7 @@
   },
   {
     "id": "PSF-000162",
+    "ref": "pge:10197",
     "name": "Hemnes, Kangsen",
     "lat": 66.1086,
     "lon": 13.8606,
@@ -74,6 +78,7 @@
   },
   {
     "id": "PSF-000166",
+    "ref": "pge:10201",
     "name": "Øksnanuten",
     "lat": 58.7608,
     "lon": 5.98167,
@@ -94,6 +99,7 @@
   },
   {
     "id": "PSF-000210",
+    "ref": "pge:10249",
     "name": "Øksnanuten",
     "lat": 58.7608,
     "lon": 5.98167,
@@ -114,6 +120,7 @@
   },
   {
     "id": "PSF-000214",
+    "ref": "pge:10253",
     "name": "Balbergkampen",
     "lat": 61.1559,
     "lon": 10.4407,
@@ -130,6 +137,7 @@
   },
   {
     "id": "PSF-000319",
+    "ref": "pge:10366",
     "name": "Forbord",
     "lat": 63.5261,
     "lon": 10.8909,
@@ -151,6 +159,7 @@
   },
   {
     "id": "PSF-000422",
+    "ref": "pge:10484",
     "name": "Ornheia",
     "lat": 68.5428,
     "lon": 14.9262,
@@ -168,6 +177,7 @@
   },
   {
     "id": "PSF-000423",
+    "ref": "pge:10485",
     "name": "Fleineskollen",
     "lat": 68.6328,
     "lon": 14.8587,
@@ -190,6 +200,7 @@
   },
   {
     "id": "PSF-000426",
+    "ref": "pge:10488",
     "name": "Storheia",
     "lat": 68.5433,
     "lon": 14.8704,
@@ -210,6 +221,7 @@
   },
   {
     "id": "PSF-000542",
+    "ref": "pge:10632",
     "name": "Hareid, Vabakken - Vassverket",
     "lat": 62.3611,
     "lon": 6.04639,
@@ -227,6 +239,7 @@
   },
   {
     "id": "PSF-000828",
+    "ref": "pge:10970",
     "name": "Skarsfjellet",
     "lat": 62.9059,
     "lon": 12.0197,
@@ -245,6 +258,7 @@
   },
   {
     "id": "PSF-001355",
+    "ref": "pge:11626",
     "name": "Nedalsklompen",
     "lat": 62.986,
     "lon": 12.1052,
@@ -262,6 +276,7 @@
   },
   {
     "id": "PSF-001483",
+    "ref": "pge:11851",
     "name": "Gaustatoppen",
     "lat": 59.8531,
     "lon": 8.65577,
@@ -280,6 +295,7 @@
   },
   {
     "id": "PSF-001688",
+    "ref": "pge:12207",
     "name": "Brandbukampen",
     "lat": 60.443,
     "lon": 10.4892,
@@ -295,6 +311,7 @@
   },
   {
     "id": "PSF-001732",
+    "ref": "pge:12291",
     "name": "Tusten Nord",
     "lat": 62.7825,
     "lon": 7.24873,
@@ -308,6 +325,7 @@
   },
   {
     "id": "PSF-001808",
+    "ref": "pge:12426",
     "name": "Aurland",
     "lat": 60.9183,
     "lon": 7.225,
@@ -329,6 +347,7 @@
   },
   {
     "id": "PSF-002091",
+    "ref": "pge:12967",
     "name": "Trysilfjellet",
     "lat": 61.3101,
     "lon": 12.195,
@@ -342,6 +361,7 @@
   },
   {
     "id": "PSF-002092",
+    "ref": "pge:12969",
     "name": "Mokland",
     "lat": 68.7651,
     "lon": 14.6866,
@@ -355,6 +375,7 @@
   },
   {
     "id": "PSF-002095",
+    "ref": "pge:12972",
     "name": "Juvasshytta",
     "lat": 61.6917,
     "lon": 8.37255,
@@ -370,6 +391,7 @@
   },
   {
     "id": "PSF-002103",
+    "ref": "pge:12986",
     "name": "Kjerringplassen",
     "lat": 62.5609,
     "lon": 7.70587,
@@ -383,6 +405,7 @@
   },
   {
     "id": "PSF-002111",
+    "ref": "pge:12996",
     "name": "Linvikskampen",
     "lat": 61.3819,
     "lon": 10.1771,
@@ -396,6 +419,7 @@
   },
   {
     "id": "PSF-002154",
+    "ref": "pge:13067",
     "name": "Tron",
     "lat": 62.1489,
     "lon": 10.7111,
@@ -409,6 +433,7 @@
   },
   {
     "id": "PSF-002462",
+    "ref": "pge:13561",
     "name": "Hjartdal",
     "lat": 59.6194,
     "lon": 8.6972,
@@ -428,6 +453,7 @@
   },
   {
     "id": "PSF-002579",
+    "ref": "pge:13773",
     "name": "Unneland",
     "lat": 60.3682,
     "lon": 5.48502,
@@ -446,6 +472,7 @@
   },
   {
     "id": "PSF-002582",
+    "ref": "pge:13781",
     "name": "Ulriken Øst",
     "lat": 60.3761,
     "lon": 5.41972,
@@ -464,6 +491,7 @@
   },
   {
     "id": "PSF-002689",
+    "ref": "pge:13949",
     "name": "Bjørnestigen",
     "lat": 60.6432,
     "lon": 6.54287,
@@ -479,6 +507,7 @@
   },
   {
     "id": "PSF-002737",
+    "ref": "pge:14008",
     "name": "Heng - Kinsarvik",
     "lat": 60.363,
     "lon": 6.7016,
@@ -496,6 +525,7 @@
   },
   {
     "id": "PSF-003290",
+    "ref": "pge:14849",
     "name": "Hanguren",
     "lat": 60.6392,
     "lon": 6.4028,
@@ -514,6 +544,7 @@
   },
   {
     "id": "PSF-003303",
+    "ref": "pge:14865",
     "name": "Kvitegga",
     "lat": 59.9436,
     "lon": 6.02611,
@@ -535,6 +566,7 @@
   },
   {
     "id": "PSF-003322",
+    "ref": "pge:14896",
     "name": "Kråbøl",
     "lat": 61.2923,
     "lon": 10.3925,
@@ -550,6 +582,7 @@
   },
   {
     "id": "PSF-003356",
+    "ref": "pge:14953",
     "name": "Bryggefjell, Bø",
     "lat": 59.4393,
     "lon": 8.98543,
@@ -567,6 +600,7 @@
   },
   {
     "id": "PSF-003481",
+    "ref": "pge:15165",
     "name": "Vestre Bråten Grimsland, Risør (PPG)",
     "lat": 58.6842,
     "lon": 9.1,
@@ -585,6 +619,7 @@
   },
   {
     "id": "PSF-003788",
+    "ref": "pge:15656",
     "name": "Meråker",
     "lat": 63.4559,
     "lon": 11.6846,
@@ -603,6 +638,7 @@
   },
   {
     "id": "PSF-003789",
+    "ref": "pge:15657",
     "name": "Rye (Trondheim)",
     "lat": 63.2699,
     "lon": 10.3127,
@@ -620,6 +656,7 @@
   },
   {
     "id": "PSF-004097",
+    "ref": "pge:16122",
     "name": "Ulriken",
     "lat": 60.3756,
     "lon": 5.38417,
@@ -640,6 +677,7 @@
   },
   {
     "id": "PSF-004098",
+    "ref": "pge:16123",
     "name": "Storhovd Aurland",
     "lat": 60.9092,
     "lon": 7.29361,
@@ -657,6 +695,7 @@
   },
   {
     "id": "PSF-004099",
+    "ref": "pge:16124",
     "name": "Nosi - Lofthus",
     "lat": 60.3189,
     "lon": 6.70056,
@@ -675,6 +714,7 @@
   },
   {
     "id": "PSF-004100",
+    "ref": "pge:16125",
     "name": "Byrkjeflot - Lofthus",
     "lat": 60.3275,
     "lon": 6.69028,
@@ -693,6 +733,7 @@
   },
   {
     "id": "PSF-004101",
+    "ref": "pge:16126",
     "name": "Novle - Røldal",
     "lat": 59.8428,
     "lon": 6.88972,
@@ -712,6 +753,7 @@
   },
   {
     "id": "PSF-004102",
+    "ref": "pge:16127",
     "name": "Lauvås - Røldal",
     "lat": 59.8142,
     "lon": 6.82306,
@@ -729,6 +771,7 @@
   },
   {
     "id": "PSF-004103",
+    "ref": "pge:16128",
     "name": "Reinstigen - Røldal",
     "lat": 59.8264,
     "lon": 6.75278,
@@ -747,6 +790,7 @@
   },
   {
     "id": "PSF-004104",
+    "ref": "pge:16129",
     "name": "Kjosås - Øystese",
     "lat": 60.3897,
     "lon": 6.17417,
@@ -763,6 +807,7 @@
   },
   {
     "id": "PSF-004105",
+    "ref": "pge:16130",
     "name": "Vollane",
     "lat": 60.4417,
     "lon": 5.32167,
@@ -778,6 +823,7 @@
   },
   {
     "id": "PSF-004106",
+    "ref": "pge:16131",
     "name": "Nipa",
     "lat": 60.3836,
     "lon": 5.4875,
@@ -797,6 +843,7 @@
   },
   {
     "id": "PSF-004107",
+    "ref": "pge:16132",
     "name": "Sletteggen",
     "lat": 60.3636,
     "lon": 5.50722,
@@ -815,6 +862,7 @@
   },
   {
     "id": "PSF-004280",
+    "ref": "pge:16418",
     "name": "Flattsberget",
     "lat": 60.8357,
     "lon": 11.8398,
@@ -828,6 +876,7 @@
   },
   {
     "id": "PSF-004288",
+    "ref": "pge:16428",
     "name": "Nesna, Middagstuva",
     "lat": 66.2014,
     "lon": 13.0669,
@@ -845,6 +894,7 @@
   },
   {
     "id": "PSF-004309",
+    "ref": "pge:16468",
     "name": "Brandstadkampen",
     "lat": 61.5112,
     "lon": 10.1908,
@@ -858,6 +908,7 @@
   },
   {
     "id": "PSF-004378",
+    "ref": "pge:16586",
     "name": "Løyning - Seljestad",
     "lat": 59.9173,
     "lon": 6.62603,
@@ -876,6 +927,7 @@
   },
   {
     "id": "PSF-004508",
+    "ref": "pge:16824",
     "name": "Keiservarden",
     "lat": 67.3173,
     "lon": 14.4853,
@@ -889,6 +941,7 @@
   },
   {
     "id": "PSF-004637",
+    "ref": "pge:17055",
     "name": "Melås in Gjerstad",
     "lat": 58.8847,
     "lon": 8.9976,
@@ -907,6 +960,7 @@
   },
   {
     "id": "PSF-004664",
+    "ref": "pge:17099",
     "name": "Asker- Kraakholmen",
     "lat": 59.8231,
     "lon": 10.4916,
@@ -929,6 +983,7 @@
   },
   {
     "id": "PSF-004789",
+    "ref": "pge:17347",
     "name": "Unstad",
     "lat": 68.2627,
     "lon": 13.5632,
@@ -942,6 +997,7 @@
   },
   {
     "id": "PSF-005063",
+    "ref": "pge:17831",
     "name": "Ulsteinvik, Hestelegda",
     "lat": 62.3253,
     "lon": 5.88944,
@@ -960,6 +1016,7 @@
   },
   {
     "id": "PSF-005120",
+    "ref": "pge:17972",
     "name": "Nicostarten",
     "lat": 59.176,
     "lon": 6.1472,
@@ -977,6 +1034,7 @@
   },
   {
     "id": "PSF-005282",
+    "ref": "pge:18329",
     "name": "Berge",
     "lat": 59.6617,
     "lon": 6.01472,
@@ -993,6 +1051,7 @@
   },
   {
     "id": "PSF-005461",
+    "ref": "pge:18782",
     "name": "Lensamansstarten",
     "lat": 59.1709,
     "lon": 6.2033,
@@ -1012,6 +1071,7 @@
   },
   {
     "id": "PSF-005502",
+    "ref": "pge:18835",
     "name": "Hammers",
     "lat": 61.1706,
     "lon": 10.1118,
@@ -1029,6 +1089,7 @@
   },
   {
     "id": "PSF-005650",
+    "ref": "pge:19293",
     "name": "Nuten",
     "lat": 59.4478,
     "lon": 5.28056,
@@ -1042,6 +1103,7 @@
   },
   {
     "id": "PSF-005681",
+    "ref": "pge:19331",
     "name": "Freimstølen - Odda",
     "lat": 60.0633,
     "lon": 6.5826,
@@ -1060,6 +1122,7 @@
   },
   {
     "id": "PSF-005682",
+    "ref": "pge:19332",
     "name": "Kløve - Øvre Eidfjord",
     "lat": 60.4256,
     "lon": 7.0985,
@@ -1077,6 +1140,7 @@
   },
   {
     "id": "PSF-005810",
+    "ref": "pge:19511",
     "name": "Hjelle",
     "lat": 60.0,
     "lon": 6.0,
@@ -1094,6 +1158,7 @@
   },
   {
     "id": "PSF-005973",
+    "ref": "pge:19736",
     "name": "Bangsberg syd",
     "lat": 60.845,
     "lon": 10.8975,
@@ -1112,6 +1177,7 @@
   },
   {
     "id": "PSF-005982",
+    "ref": "pge:19745",
     "name": "Hovden",
     "lat": 62.0,
     "lon": 9.0,
@@ -1133,6 +1199,7 @@
   },
   {
     "id": "PSF-005995",
+    "ref": "pge:19762",
     "name": "Bjellandsfjellet",
     "lat": 58.9089,
     "lon": 5.87305,
@@ -1150,6 +1217,7 @@
   },
   {
     "id": "PSF-006051",
+    "ref": "pge:19833",
     "name": "Dalsnuten",
     "lat": 58.8938,
     "lon": 5.78643,
@@ -1166,6 +1234,7 @@
   },
   {
     "id": "PSF-006373",
+    "ref": "pge:21313",
     "name": "Panorama",
     "lat": 61.233,
     "lon": 7.14283,
@@ -1183,6 +1252,7 @@
   },
   {
     "id": "PSF-006374",
+    "ref": "pge:21314",
     "name": "Åberget",
     "lat": 61.2423,
     "lon": 7.08837,
@@ -1201,6 +1271,7 @@
   },
   {
     "id": "PSF-006375",
+    "ref": "pge:21315",
     "name": "Barten",
     "lat": 61.2479,
     "lon": 7.08998,
@@ -1218,6 +1289,7 @@
   },
   {
     "id": "PSF-006495",
+    "ref": "pge:21443",
     "name": "Hoven",
     "lat": 61.8847,
     "lon": 6.83501,
@@ -1235,6 +1307,7 @@
   },
   {
     "id": "PSF-006628",
+    "ref": "pge:21596",
     "name": "Ramnan (Alomar observatory), Andøya",
     "lat": 69.2792,
     "lon": 16.0094,
@@ -1256,6 +1329,7 @@
   },
   {
     "id": "PSF-006645",
+    "ref": "pge:21621",
     "name": "Korsvika",
     "lat": 63.4507,
     "lon": 10.4374,
@@ -1273,6 +1347,7 @@
   },
   {
     "id": "PSF-006646",
+    "ref": "pge:21622",
     "name": "Rana, Hellerfjellet",
     "lat": 66.1848,
     "lon": 14.5302,
@@ -1290,6 +1365,7 @@
   },
   {
     "id": "PSF-006649",
+    "ref": "pge:21625",
     "name": "Rana, Lillekubben ved Umskardet",
     "lat": 66.1849,
     "lon": 14.5796,
@@ -1307,6 +1383,7 @@
   },
   {
     "id": "PSF-006650",
+    "ref": "pge:21626",
     "name": "Rana, Snøfjellet",
     "lat": 66.3728,
     "lon": 13.9834,
@@ -1324,6 +1401,7 @@
   },
   {
     "id": "PSF-006652",
+    "ref": "pge:21630",
     "name": "Rana, Storekubben ved Umskardet",
     "lat": 66.1982,
     "lon": 14.5963,
@@ -1341,6 +1419,7 @@
   },
   {
     "id": "PSF-006662",
+    "ref": "pge:21643",
     "name": "Rana, Mofjellet Vest",
     "lat": 66.2956,
     "lon": 14.1093,
@@ -1358,6 +1437,7 @@
   },
   {
     "id": "PSF-006663",
+    "ref": "pge:21644",
     "name": "Hemnes, Bryggfjellet",
     "lat": 66.0294,
     "lon": 13.9221,
@@ -1375,6 +1455,7 @@
   },
   {
     "id": "PSF-006665",
+    "ref": "pge:21646",
     "name": "Lofoten, Leknes Haugheia",
     "lat": 68.1288,
     "lon": 13.5072,
@@ -1392,6 +1473,7 @@
   },
   {
     "id": "PSF-006765",
+    "ref": "pge:21755",
     "name": "Veten (Eldsfjellet nord)",
     "lat": 60.5852,
     "lon": 5.02839,
@@ -1410,6 +1492,7 @@
   },
   {
     "id": "PSF-006766",
+    "ref": "pge:21756",
     "name": "Hjelle",
     "lat": 60.6025,
     "lon": 6.40741,
@@ -1426,6 +1509,7 @@
   },
   {
     "id": "PSF-006767",
+    "ref": "pge:21757",
     "name": "Lønahorgi",
     "lat": 60.6939,
     "lon": 6.41273,
@@ -1439,6 +1523,7 @@
   },
   {
     "id": "PSF-006768",
+    "ref": "pge:21758",
     "name": "Liaset",
     "lat": 60.7006,
     "lon": 6.51875,
@@ -1452,6 +1537,7 @@
   },
   {
     "id": "PSF-006769",
+    "ref": "pge:21759",
     "name": "Ondrahaugen",
     "lat": 60.8598,
     "lon": 6.46623,
@@ -1465,6 +1551,7 @@
   },
   {
     "id": "PSF-006770",
+    "ref": "pge:21760",
     "name": "Bavallen",
     "lat": 60.6455,
     "lon": 6.40378,
@@ -1478,6 +1565,7 @@
   },
   {
     "id": "PSF-006771",
+    "ref": "pge:21761",
     "name": "Rokne",
     "lat": 60.6109,
     "lon": 6.44923,
@@ -1496,6 +1584,7 @@
   },
   {
     "id": "PSF-006772",
+    "ref": "pge:21762",
     "name": "Presthaugen",
     "lat": 60.9028,
     "lon": 6.47236,
@@ -1509,6 +1598,7 @@
   },
   {
     "id": "PSF-006850",
+    "ref": "pge:21848",
     "name": "Selsfjellet",
     "lat": 59.0869,
     "lon": 5.7089,
@@ -1526,6 +1616,7 @@
   },
   {
     "id": "PSF-006851",
+    "ref": "pge:21849",
     "name": "Obrestad havn",
     "lat": 58.6545,
     "lon": 5.5648,
@@ -1543,6 +1634,7 @@
   },
   {
     "id": "PSF-006852",
+    "ref": "pge:21850",
     "name": "Reve",
     "lat": 58.773,
     "lon": 5.52059,
@@ -1560,6 +1652,7 @@
   },
   {
     "id": "PSF-006915",
+    "ref": "pge:21915",
     "name": "Arnipa",
     "lat": 69.1776,
     "lon": 15.9164,
@@ -1580,6 +1673,7 @@
   },
   {
     "id": "PSF-007036",
+    "ref": "pge:22052",
     "name": "Aglapsvika",
     "lat": 69.4695,
     "lon": 18.2347,
@@ -1598,6 +1692,7 @@
   },
   {
     "id": "PSF-007037",
+    "ref": "pge:22053",
     "name": "Andsfjellet",
     "lat": 69.1146,
     "lon": 18.5361,
@@ -1615,6 +1710,7 @@
   },
   {
     "id": "PSF-007038",
+    "ref": "pge:22054",
     "name": "Grønfjellet",
     "lat": 68.6755,
     "lon": 18.8409,
@@ -1635,6 +1731,7 @@
   },
   {
     "id": "PSF-007158",
+    "ref": "pge:22209",
     "name": "Torland Airfield",
     "lat": 58.6889,
     "lon": 5.63705,
@@ -1648,6 +1745,7 @@
   },
   {
     "id": "PSF-007159",
+    "ref": "pge:22210",
     "name": "Sokn Airfield",
     "lat": 59.0521,
     "lon": 5.66361,
@@ -1661,6 +1759,7 @@
   },
   {
     "id": "PSF-007160",
+    "ref": "pge:22211",
     "name": "Førstefjellet",
     "lat": 69.2616,
     "lon": 17.4573,
@@ -1681,6 +1780,7 @@
   },
   {
     "id": "PSF-007161",
+    "ref": "pge:22212",
     "name": "Eikeneshesten",
     "lat": 61.8119,
     "lon": 6.00888,
@@ -1702,6 +1802,7 @@
   },
   {
     "id": "PSF-007162",
+    "ref": "pge:22213",
     "name": "Hyeneshesten",
     "lat": 61.8405,
     "lon": 5.93584,
@@ -1721,6 +1822,7 @@
   },
   {
     "id": "PSF-007370",
+    "ref": "pge:22445",
     "name": "Ballesvika",
     "lat": 69.3665,
     "lon": 17.111,
@@ -1738,6 +1840,7 @@
   },
   {
     "id": "PSF-007388",
+    "ref": "pge:22463",
     "name": "Kistefjellet",
     "lat": 69.2918,
     "lon": 18.1325,
@@ -1758,6 +1861,7 @@
   },
   {
     "id": "PSF-007389",
+    "ref": "pge:22464",
     "name": "Kvittinden",
     "lat": 69.2754,
     "lon": 18.1104,
@@ -1780,6 +1884,7 @@
   },
   {
     "id": "PSF-007416",
+    "ref": "pge:22491",
     "name": "Vefsn, Drevlandsaksla",
     "lat": 65.9348,
     "lon": 13.0967,
@@ -1799,6 +1904,7 @@
   },
   {
     "id": "PSF-007421",
+    "ref": "pge:22498",
     "name": "Tredje Svanfjell",
     "lat": 69.2995,
     "lon": 17.4039,
@@ -1819,6 +1925,7 @@
   },
   {
     "id": "PSF-007440",
+    "ref": "pge:22521",
     "name": "Saltdal, Junkerdal, Nerknausen",
     "lat": 66.8308,
     "lon": 15.5262,
@@ -1837,6 +1944,7 @@
   },
   {
     "id": "PSF-007441",
+    "ref": "pge:22522",
     "name": "Saltdal, Junkerdal, Nerknausen",
     "lat": 66.8308,
     "lon": 15.5262,
@@ -1856,6 +1964,7 @@
   },
   {
     "id": "PSF-007471",
+    "ref": "pge:22554",
     "name": "Bleik, Storslettneset morene",
     "lat": 69.2671,
     "lon": 15.9243,
@@ -1872,6 +1981,7 @@
   },
   {
     "id": "PSF-007472",
+    "ref": "pge:22555",
     "name": "Røyken",
     "lat": 69.2886,
     "lon": 16.0022,
@@ -1890,6 +2000,7 @@
   },
   {
     "id": "PSF-007473",
+    "ref": "pge:22556",
     "name": "Einletten",
     "lat": 69.2462,
     "lon": 16.0386,
@@ -1912,6 +2023,7 @@
   },
   {
     "id": "PSF-007474",
+    "ref": "pge:22557",
     "name": "Nonstinden",
     "lat": 69.2397,
     "lon": 15.9266,
@@ -1933,6 +2045,7 @@
   },
   {
     "id": "PSF-007475",
+    "ref": "pge:22558",
     "name": "Trolltinden",
     "lat": 69.2414,
     "lon": 16.0027,
@@ -1951,6 +2064,7 @@
   },
   {
     "id": "PSF-007476",
+    "ref": "pge:22559",
     "name": "Barden",
     "lat": 69.4852,
     "lon": 17.636,
@@ -1971,6 +2085,7 @@
   },
   {
     "id": "PSF-007477",
+    "ref": "pge:22560",
     "name": "Snøfjellet",
     "lat": 69.3479,
     "lon": 17.6655,
@@ -1984,6 +2099,7 @@
   },
   {
     "id": "PSF-007478",
+    "ref": "pge:22561",
     "name": "Istind - Kaperdalen",
     "lat": 69.2847,
     "lon": 17.2698,
@@ -2005,6 +2121,7 @@
   },
   {
     "id": "PSF-007486",
+    "ref": "pge:22571",
     "name": "Bratten",
     "lat": 67.3077,
     "lon": 14.4117,
@@ -2022,6 +2139,7 @@
   },
   {
     "id": "PSF-007487",
+    "ref": "pge:22572",
     "name": "Løpsfjellet øst",
     "lat": 67.3242,
     "lon": 14.5217,
@@ -2039,6 +2157,7 @@
   },
   {
     "id": "PSF-007488",
+    "ref": "pge:22573",
     "name": "Løpsfjellet vest",
     "lat": 67.3235,
     "lon": 14.5184,
@@ -2057,6 +2176,7 @@
   },
   {
     "id": "PSF-007489",
+    "ref": "pge:22574",
     "name": "Auvika",
     "lat": 67.4032,
     "lon": 14.6088,
@@ -2074,6 +2194,7 @@
   },
   {
     "id": "PSF-007490",
+    "ref": "pge:22575",
     "name": "Mjelle",
     "lat": 67.4081,
     "lon": 14.636,
@@ -2092,6 +2213,7 @@
   },
   {
     "id": "PSF-007491",
+    "ref": "pge:22576",
     "name": "Latmannstarten Mjelle",
     "lat": 67.4083,
     "lon": 14.6111,
@@ -2109,6 +2231,7 @@
   },
   {
     "id": "PSF-007492",
+    "ref": "pge:22577",
     "name": "Skaugtuva",
     "lat": 67.3719,
     "lon": 14.6431,
@@ -2122,6 +2245,7 @@
   },
   {
     "id": "PSF-007493",
+    "ref": "pge:22578",
     "name": "Middagstuva",
     "lat": 67.3343,
     "lon": 14.5498,
@@ -2139,6 +2263,7 @@
   },
   {
     "id": "PSF-007494",
+    "ref": "pge:22579",
     "name": "Hopsfjellet",
     "lat": 67.35,
     "lon": 14.7363,
@@ -2152,6 +2277,7 @@
   },
   {
     "id": "PSF-007495",
+    "ref": "pge:22580",
     "name": "Rishågen",
     "lat": 66.9923,
     "lon": 14.8331,
@@ -2169,6 +2295,7 @@
   },
   {
     "id": "PSF-007496",
+    "ref": "pge:22581",
     "name": "Mjelle toppen",
     "lat": 67.4203,
     "lon": 14.6546,
@@ -2186,6 +2313,7 @@
   },
   {
     "id": "PSF-007508",
+    "ref": "pge:22594",
     "name": "Husfjellet",
     "lat": 69.4694,
     "lon": 17.2721,
@@ -2206,6 +2334,7 @@
   },
   {
     "id": "PSF-007513",
+    "ref": "pge:22599",
     "name": "Sarpsborg - Storedal",
     "lat": 59.2313,
     "lon": 11.1096,
@@ -2223,6 +2352,7 @@
   },
   {
     "id": "PSF-007514",
+    "ref": "pge:22600",
     "name": "Sarpsborg - Ise",
     "lat": 59.301,
     "lon": 11.2439,
@@ -2240,6 +2370,7 @@
   },
   {
     "id": "PSF-007518",
+    "ref": "pge:22604",
     "name": "Kvænan",
     "lat": 69.2066,
     "lon": 17.1351,
@@ -2257,6 +2388,7 @@
   },
   {
     "id": "PSF-007519",
+    "ref": "pge:22605",
     "name": "Kaperfjellet",
     "lat": 69.2838,
     "lon": 17.2988,
@@ -2277,6 +2409,7 @@
   },
   {
     "id": "PSF-007520",
+    "ref": "pge:22606",
     "name": "Andre Svanfjell",
     "lat": 69.2785,
     "lon": 17.4427,
@@ -2297,6 +2430,7 @@
   },
   {
     "id": "PSF-007521",
+    "ref": "pge:22607",
     "name": "Segla",
     "lat": 69.5074,
     "lon": 17.5957,
@@ -2316,6 +2450,7 @@
   },
   {
     "id": "PSF-007526",
+    "ref": "pge:22613",
     "name": "Mikkelfjellet",
     "lat": 69.3865,
     "lon": 17.7184,
@@ -2334,6 +2469,7 @@
   },
   {
     "id": "PSF-007530",
+    "ref": "pge:22618",
     "name": "Skattvikfjellet",
     "lat": 69.183,
     "lon": 17.598,
@@ -2354,6 +2490,7 @@
   },
   {
     "id": "PSF-007531",
+    "ref": "pge:22619",
     "name": "Kjerringøy, Kvarven",
     "lat": 67.5097,
     "lon": 14.8713,
@@ -2372,6 +2509,7 @@
   },
   {
     "id": "PSF-007539",
+    "ref": "pge:22632",
     "name": "Henningsvær",
     "lat": 68.1782,
     "lon": 14.2261,
@@ -2389,6 +2527,7 @@
   },
   {
     "id": "PSF-007572",
+    "ref": "pge:22667",
     "name": "Synshorn Via Ferrata",
     "lat": 61.336,
     "lon": 8.79679,
@@ -2402,6 +2541,7 @@
   },
   {
     "id": "PSF-007591",
+    "ref": "pge:22690",
     "name": "Hemnes, Ramnfloget",
     "lat": 66.2144,
     "lon": 13.6673,
@@ -2420,6 +2560,7 @@
   },
   {
     "id": "PSF-007614",
+    "ref": "pge:22714",
     "name": "Steigen, Engeløya, Prestkona",
     "lat": 67.9324,
     "lon": 15.0193,
@@ -2439,6 +2580,7 @@
   },
   {
     "id": "PSF-007615",
+    "ref": "pge:22715",
     "name": "Alstahaug, Tvillingene",
     "lat": 65.9497,
     "lon": 12.5526,
@@ -2458,6 +2600,7 @@
   },
   {
     "id": "PSF-007616",
+    "ref": "pge:22716",
     "name": "Saltdal, Bleiknes",
     "lat": 66.9415,
     "lon": 15.3285,
@@ -2477,6 +2620,7 @@
   },
   {
     "id": "PSF-007718",
+    "ref": "pge:22834",
     "name": "Storsteinsfjellet",
     "lat": 67.298,
     "lon": 15.3427,
@@ -2490,6 +2634,7 @@
   },
   {
     "id": "PSF-007719",
+    "ref": "pge:22835",
     "name": "Søndre nattmålstuva",
     "lat": 67.3593,
     "lon": 15.1863,
@@ -2503,6 +2648,7 @@
   },
   {
     "id": "PSF-007755",
+    "ref": "pge:22880",
     "name": "Tromsø-fjellheisen-sør",
     "lat": 69.6337,
     "lon": 18.9893,
@@ -2516,6 +2662,7 @@
   },
   {
     "id": "PSF-007756",
+    "ref": "pge:22881",
     "name": "Tromsø-fjellheisen-nord",
     "lat": 69.6365,
     "lon": 18.9987,
@@ -2529,6 +2676,7 @@
   },
   {
     "id": "PSF-007791",
+    "ref": "pge:22919",
     "name": "Gruve 7",
     "lat": 78.1597,
     "lon": 16.0282,
@@ -2544,6 +2692,7 @@
   },
   {
     "id": "PSF-007792",
+    "ref": "pge:22920",
     "name": "Sukkertoppen H&F",
     "lat": 78.2109,
     "lon": 15.6554,
@@ -2557,6 +2706,7 @@
   },
   {
     "id": "PSF-007861",
+    "ref": "pge:22996",
     "name": "Odderoya",
     "lat": 58.1322,
     "lon": 8.00419,
@@ -2570,6 +2720,7 @@
   },
   {
     "id": "PSF-008103",
+    "ref": "pge:23253",
     "name": "Galdhøpiggen",
     "lat": 61.6303,
     "lon": 8.36349,
@@ -2583,6 +2734,7 @@
   },
   {
     "id": "PSF-008504",
+    "ref": "pge:23721",
     "name": "Alnes",
     "lat": 62.4807,
     "lon": 5.9739,
@@ -2596,6 +2748,7 @@
   },
   {
     "id": "PSF-008690",
+    "ref": "pge:23933",
     "name": "Indre Tvangen",
     "lat": 61.3315,
     "lon": 7.18532,
@@ -2609,6 +2762,7 @@
   },
   {
     "id": "PSF-009538",
+    "ref": "pge:6603",
     "name": "Solfjellstua",
     "lat": 59.9396,
     "lon": 10.463,
@@ -2622,6 +2776,7 @@
   },
   {
     "id": "PSF-009635",
+    "ref": "pge:6715",
     "name": "Engjekollen - Dombes",
     "lat": 62.0494,
     "lon": 9.17167,
@@ -2638,6 +2793,7 @@
   },
   {
     "id": "PSF-009636",
+    "ref": "pge:6716",
     "name": "Vole - Vågå",
     "lat": 61.8922,
     "lon": 9.1688,
@@ -2657,6 +2813,7 @@
   },
   {
     "id": "PSF-009642",
+    "ref": "pge:6722",
     "name": "Bismo (Riksanlegget)",
     "lat": 61.919,
     "lon": 8.23727,
@@ -2673,6 +2830,7 @@
   },
   {
     "id": "PSF-009676",
+    "ref": "pge:6773",
     "name": "Espesetra (Riksanlegget) ved Sjoa Heidal",
     "lat": 61.7067,
     "lon": 9.47237,
@@ -2689,6 +2847,7 @@
   },
   {
     "id": "PSF-010071",
+    "ref": "pge:7303",
     "name": "Sula",
     "lat": 62.4343,
     "lon": 6.17333,
@@ -2708,6 +2867,7 @@
   },
   {
     "id": "PSF-010078",
+    "ref": "pge:7311",
     "name": "Bondalseidet",
     "lat": 62.1597,
     "lon": 6.29306,
@@ -2730,6 +2890,7 @@
   },
   {
     "id": "PSF-011111",
+    "ref": "pge:9335",
     "name": "Sollifjellet",
     "lat": 68.8048,
     "lon": 16.3744,
@@ -2750,6 +2911,7 @@
   },
   {
     "id": "PSF-011112",
+    "ref": "pge:9336",
     "name": "KilhusaiÂ¿Â½sen",
     "lat": 68.8031,
     "lon": 16.4522,
@@ -2767,6 +2929,7 @@
   },
   {
     "id": "PSF-011113",
+    "ref": "pge:9537",
     "name": "Asker- Vardåsen",
     "lat": 59.8083,
     "lon": 10.4178,
@@ -2780,6 +2943,7 @@
   },
   {
     "id": "PSF-011114",
+    "ref": "pge:9538",
     "name": "Bærum- Haugskollen",
     "lat": 59.9469,
     "lon": 10.4711,
@@ -2793,6 +2957,7 @@
   },
   {
     "id": "PSF-011115",
+    "ref": "pge:9539",
     "name": "Bærum- Kirkerudbakken",
     "lat": 59.9014,
     "lon": 10.4789,
@@ -2806,6 +2971,7 @@
   },
   {
     "id": "PSF-011116",
+    "ref": "pge:9540",
     "name": "Bærum- Kolsåsbakken",
     "lat": 59.9319,
     "lon": 10.5211,
@@ -2819,6 +2985,7 @@
   },
   {
     "id": "PSF-011117",
+    "ref": "pge:9541",
     "name": "Bærum- Krydsbyløypa",
     "lat": 59.9517,
     "lon": 10.4731,
@@ -2832,6 +2999,7 @@
   },
   {
     "id": "PSF-011118",
+    "ref": "pge:9542",
     "name": "Bærum- Ramsåsen",
     "lat": 59.9078,
     "lon": 10.4283,
@@ -2845,6 +3013,7 @@
   },
   {
     "id": "PSF-011119",
+    "ref": "pge:9543",
     "name": "Bærum- Solfjellstua",
     "lat": 59.9423,
     "lon": 10.4559,
@@ -2863,6 +3032,7 @@
   },
   {
     "id": "PSF-011120",
+    "ref": "pge:9545",
     "name": "Berg gård - Kjeller ved Lillestrøm",
     "lat": 59.9789,
     "lon": 11.0514,
@@ -2876,6 +3046,7 @@
   },
   {
     "id": "PSF-011121",
+    "ref": "pge:9546",
     "name": "Fet-Hunes",
     "lat": 59.7658,
     "lon": 11.2483,
@@ -2889,6 +3060,7 @@
   },
   {
     "id": "PSF-011122",
+    "ref": "pge:9547",
     "name": "Hakadal",
     "lat": 60.135,
     "lon": 10.8272,
@@ -2902,6 +3074,7 @@
   },
   {
     "id": "PSF-011123",
+    "ref": "pge:9548",
     "name": "Hedum- Lierfoss- Aurskog-Høland Kommune",
     "lat": 59.9511,
     "lon": 11.5408,
@@ -2915,6 +3088,7 @@
   },
   {
     "id": "PSF-011124",
+    "ref": "pge:9549",
     "name": "Hemnes-Kløv",
     "lat": 59.8081,
     "lon": 11.3925,
@@ -2928,6 +3102,7 @@
   },
   {
     "id": "PSF-011125",
+    "ref": "pge:9550",
     "name": "Hoel-Hemnes",
     "lat": 59.7433,
     "lon": 11.4339,
@@ -2941,6 +3116,7 @@
   },
   {
     "id": "PSF-011126",
+    "ref": "pge:9551",
     "name": "Hurdal alpinsenter",
     "lat": 60.4622,
     "lon": 11.0758,
@@ -2954,6 +3130,7 @@
   },
   {
     "id": "PSF-011127",
+    "ref": "pge:9552",
     "name": "Kjeller - skolebakke",
     "lat": 59.9769,
     "lon": 11.0383,
@@ -2967,6 +3144,7 @@
   },
   {
     "id": "PSF-011128",
+    "ref": "pge:9553",
     "name": "Kolsåstoppen- Bærum",
     "lat": 59.9178,
     "lon": 10.5158,
@@ -2980,6 +3158,7 @@
   },
   {
     "id": "PSF-011129",
+    "ref": "pge:9554",
     "name": "Kroer Mellom PPG - Kroer- Ã…s",
     "lat": 59.6422,
     "lon": 10.8617,
@@ -2993,6 +3172,7 @@
   },
   {
     "id": "PSF-011130",
+    "ref": "pge:9555",
     "name": "Lahaugmoen - skolebakke-Gjelleråsen",
     "lat": 59.9853,
     "lon": 10.9583,
@@ -3006,6 +3186,7 @@
   },
   {
     "id": "PSF-011131",
+    "ref": "pge:9556",
     "name": "Ã˜kern GÃ¥rd- NÃ¦r frogn kirke",
     "lat": 59.7028,
     "lon": 10.7169,
@@ -3019,6 +3200,7 @@
   },
   {
     "id": "PSF-011132",
+    "ref": "pge:9558",
     "name": "Sutterhol PPG - Kroer- Ã…s",
     "lat": 59.6331,
     "lon": 10.8456,
@@ -3032,6 +3214,7 @@
   },
   {
     "id": "PSF-011133",
+    "ref": "pge:9559",
     "name": "Varingskollen skisenter",
     "lat": 60.0939,
     "lon": 10.8361,
@@ -3045,6 +3228,7 @@
   },
   {
     "id": "PSF-011134",
+    "ref": "pge:9560",
     "name": "Ã…mli sentrum",
     "lat": 58.7747,
     "lon": 8.47139,
@@ -3058,6 +3242,7 @@
   },
   {
     "id": "PSF-011135",
+    "ref": "pge:9561",
     "name": "Ã…raksbÃ¸",
     "lat": 58.9139,
     "lon": 7.75,
@@ -3071,6 +3256,7 @@
   },
   {
     "id": "PSF-011136",
+    "ref": "pge:9562",
     "name": "årdalsknaben",
     "lat": 58.6667,
     "lon": 7.83333,
@@ -3084,6 +3270,7 @@
   },
   {
     "id": "PSF-011137",
+    "ref": "pge:9563",
     "name": "berdalsbru-hovden",
     "lat": 59.4661,
     "lon": 7.39361,
@@ -3097,6 +3284,7 @@
   },
   {
     "id": "PSF-011138",
+    "ref": "pge:9564",
     "name": "Bygland",
     "lat": 58.8269,
     "lon": 7.80139,
@@ -3110,6 +3298,7 @@
   },
   {
     "id": "PSF-011139",
+    "ref": "pge:9565",
     "name": "einerfjell reddal-grimstad",
     "lat": 58.35,
     "lon": 8.45,
@@ -3123,6 +3312,7 @@
   },
   {
     "id": "PSF-011140",
+    "ref": "pge:9566",
     "name": "Gullknapp (Arendal) oppslep",
     "lat": 58.5153,
     "lon": 8.69944,
@@ -3136,6 +3326,7 @@
   },
   {
     "id": "PSF-011141",
+    "ref": "pge:9567",
     "name": "Havstad -Grimstad",
     "lat": 58.3314,
     "lon": 8.50639,
@@ -3149,6 +3340,7 @@
   },
   {
     "id": "PSF-011142",
+    "ref": "pge:9568",
     "name": "Hovden i Sætesdalen",
     "lat": 59.58,
     "lon": 7.33139,
@@ -3162,6 +3354,7 @@
   },
   {
     "id": "PSF-011143",
+    "ref": "pge:9569",
     "name": "Kleivåsen ved Smedland",
     "lat": 58.9478,
     "lon": 8.21167,
@@ -3175,6 +3368,7 @@
   },
   {
     "id": "PSF-011144",
+    "ref": "pge:9570",
     "name": "lauåsvolden-grimstad-ppg",
     "lat": 58.3281,
     "lon": 8.56333,
@@ -3188,6 +3382,7 @@
   },
   {
     "id": "PSF-011145",
+    "ref": "pge:9571",
     "name": "molland- i Grimstad",
     "lat": 58.3181,
     "lon": 8.54667,
@@ -3201,6 +3396,7 @@
   },
   {
     "id": "PSF-011146",
+    "ref": "pge:9572",
     "name": "Nygrenda Grimstad ppg",
     "lat": 58.3478,
     "lon": 8.3675,
@@ -3214,6 +3410,7 @@
   },
   {
     "id": "PSF-011147",
+    "ref": "pge:9573",
     "name": "reddal vest",
     "lat": 58.3314,
     "lon": 8.45056,
@@ -3227,6 +3424,7 @@
   },
   {
     "id": "PSF-011148",
+    "ref": "pge:9574",
     "name": "Valle veststart- Setesdalen",
     "lat": 59.2067,
     "lon": 7.55833,
@@ -3240,6 +3438,7 @@
   },
   {
     "id": "PSF-011149",
+    "ref": "pge:9575",
     "name": "Ã…l- skianlegget",
     "lat": 60.6606,
     "lon": 8.52972,
@@ -3253,6 +3452,7 @@
   },
   {
     "id": "PSF-011150",
+    "ref": "pge:9576",
     "name": "Ã…rtun- landing for Fekjan",
     "lat": 60.5167,
     "lon": 9.16361,
@@ -3266,6 +3466,7 @@
   },
   {
     "id": "PSF-011151",
+    "ref": "pge:9577",
     "name": "Ã…sa",
     "lat": 60.1264,
     "lon": 10.3949,
@@ -3281,6 +3482,7 @@
   },
   {
     "id": "PSF-011152",
+    "ref": "pge:9578",
     "name": "Ã…sen - Veggli",
     "lat": 60.0508,
     "lon": 9.11583,
@@ -3294,6 +3496,7 @@
   },
   {
     "id": "PSF-011153",
+    "ref": "pge:9579",
     "name": "Borofjell- Sigdal",
     "lat": 60.0911,
     "lon": 9.38778,
@@ -3307,6 +3510,7 @@
   },
   {
     "id": "PSF-011154",
+    "ref": "pge:9580",
     "name": "Bufjellnatten",
     "lat": 60.0019,
     "lon": 9.35861,
@@ -3320,6 +3524,7 @@
   },
   {
     "id": "PSF-011155",
+    "ref": "pge:9581",
     "name": "Bukollen",
     "lat": 60.4325,
     "lon": 9.80417,
@@ -3333,6 +3538,7 @@
   },
   {
     "id": "PSF-011156",
+    "ref": "pge:9582",
     "name": "Dagali- Seterdalen- Gvonnestulberget",
     "lat": 60.4072,
     "lon": 8.29333,
@@ -3346,6 +3552,7 @@
   },
   {
     "id": "PSF-011157",
+    "ref": "pge:9583",
     "name": "Drammen - Eggekollen",
     "lat": 59.8264,
     "lon": 10.1897,
@@ -3363,6 +3570,7 @@
   },
   {
     "id": "PSF-011158",
+    "ref": "pge:9584",
     "name": "Drammen- Lindum",
     "lat": 59.6861,
     "lon": 10.2819,
@@ -3376,6 +3584,7 @@
   },
   {
     "id": "PSF-011159",
+    "ref": "pge:9585",
     "name": "Drammen- Solbergåsen",
     "lat": 59.7694,
     "lon": 10.05,
@@ -3392,6 +3601,7 @@
   },
   {
     "id": "PSF-011160",
+    "ref": "pge:9586",
     "name": "Drammen- Solbergåsen- nedre PG-start ved antenne",
     "lat": 59.7717,
     "lon": 10.055,
@@ -3407,6 +3617,7 @@
   },
   {
     "id": "PSF-011161",
+    "ref": "pge:9587",
     "name": "Drøgitn- Tuv- Hemsedal",
     "lat": 60.8881,
     "lon": 8.48611,
@@ -3423,6 +3634,7 @@
   },
   {
     "id": "PSF-011162",
+    "ref": "pge:9588",
     "name": "Eggedal sørstart",
     "lat": 60.265,
     "lon": 9.31444,
@@ -3440,6 +3652,7 @@
   },
   {
     "id": "PSF-011163",
+    "ref": "pge:9589",
     "name": "Fagerfjell skitrekk-Blefjell- Flesberg",
     "lat": 59.8308,
     "lon": 9.31167,
@@ -3453,6 +3666,7 @@
   },
   {
     "id": "PSF-011164",
+    "ref": "pge:9590",
     "name": "Fetjan - Rollag",
     "lat": 60.0114,
     "lon": 9.26806,
@@ -3466,6 +3680,7 @@
   },
   {
     "id": "PSF-011165",
+    "ref": "pge:9591",
     "name": "Flesberg- Blåberg",
     "lat": 59.8567,
     "lon": 9.36194,
@@ -3482,6 +3697,7 @@
   },
   {
     "id": "PSF-011166",
+    "ref": "pge:9592",
     "name": "Funkelia- Kongsberg",
     "lat": 59.6575,
     "lon": 9.59917,
@@ -3499,6 +3715,7 @@
   },
   {
     "id": "PSF-011167",
+    "ref": "pge:9593",
     "name": "Geilo- Vestlia Skisenter",
     "lat": 60.5167,
     "lon": 8.19778,
@@ -3512,6 +3729,7 @@
   },
   {
     "id": "PSF-011168",
+    "ref": "pge:9594",
     "name": "Geilotoppen(Geilo)",
     "lat": 60.5397,
     "lon": 8.19417,
@@ -3532,6 +3750,7 @@
   },
   {
     "id": "PSF-011169",
+    "ref": "pge:9595",
     "name": "Gol - Flatagrov",
     "lat": 60.6947,
     "lon": 8.84056,
@@ -3550,6 +3769,7 @@
   },
   {
     "id": "PSF-011170",
+    "ref": "pge:9596",
     "name": "Gol - Skisenteret",
     "lat": 60.7094,
     "lon": 8.88667,
@@ -3563,6 +3783,7 @@
   },
   {
     "id": "PSF-011171",
+    "ref": "pge:9597",
     "name": "Hemsedal- Grøndalen- Nedre start",
     "lat": 60.9322,
     "lon": 8.43333,
@@ -3581,6 +3802,7 @@
   },
   {
     "id": "PSF-011172",
+    "ref": "pge:9598",
     "name": "Hemsedal- GrÃ¸ndalen- Ã˜vre start- Sogglarberget",
     "lat": 60.9372,
     "lon": 8.43278,
@@ -3600,6 +3822,7 @@
   },
   {
     "id": "PSF-011173",
+    "ref": "pge:9599",
     "name": "Hemsedal- Groendalen- Solheisen",
     "lat": 60.9233,
     "lon": 8.45,
@@ -3619,6 +3842,7 @@
   },
   {
     "id": "PSF-011174",
+    "ref": "pge:9600",
     "name": "Hemsedal- Grøndalen- Solheisen- Fjellheisen",
     "lat": 60.9253,
     "lon": 8.45389,
@@ -3636,6 +3860,7 @@
   },
   {
     "id": "PSF-011175",
+    "ref": "pge:9601",
     "name": "Hemsedal- Hydnefossen",
     "lat": 60.8014,
     "lon": 8.62806,
@@ -3649,6 +3874,7 @@
   },
   {
     "id": "PSF-011176",
+    "ref": "pge:9602",
     "name": "Hemsedal- Lauvdalsbrea- Blåbergi",
     "lat": 60.7683,
     "lon": 8.39028,
@@ -3662,6 +3888,7 @@
   },
   {
     "id": "PSF-011177",
+    "ref": "pge:9603",
     "name": "Hemsedal- Reineskarvet",
     "lat": 60.7611,
     "lon": 8.30722,
@@ -3679,6 +3906,7 @@
   },
   {
     "id": "PSF-011178",
+    "ref": "pge:9604",
     "name": "Hemsedal- Roniheisen",
     "lat": 60.8592,
     "lon": 8.47139,
@@ -3692,6 +3920,7 @@
   },
   {
     "id": "PSF-011179",
+    "ref": "pge:9605",
     "name": "Hemsedal- Skisenter- Fjellheisen",
     "lat": 60.8442,
     "lon": 8.50417,
@@ -3705,6 +3934,7 @@
   },
   {
     "id": "PSF-011180",
+    "ref": "pge:9606",
     "name": "Hemsedal- Skogshorn",
     "lat": 60.88,
     "lon": 8.69306,
@@ -3718,6 +3948,7 @@
   },
   {
     "id": "PSF-011181",
+    "ref": "pge:9607",
     "name": "Hemsedal- Tinden",
     "lat": 60.8347,
     "lon": 8.49556,
@@ -3734,6 +3965,7 @@
   },
   {
     "id": "PSF-011182",
+    "ref": "pge:9608",
     "name": "Hemsedal- Totten (2)",
     "lat": 60.8383,
     "lon": 8.53556,
@@ -3747,6 +3979,7 @@
   },
   {
     "id": "PSF-011183",
+    "ref": "pge:9609",
     "name": "Hemsedal- Totten 1",
     "lat": 60.85,
     "lon": 8.51389,
@@ -3760,6 +3993,7 @@
   },
   {
     "id": "PSF-011184",
+    "ref": "pge:9610",
     "name": "Hol- Rui",
     "lat": 60.605,
     "lon": 8.34639,
@@ -3773,6 +4007,7 @@
   },
   {
     "id": "PSF-011185",
+    "ref": "pge:9611",
     "name": "Holsåsen",
     "lat": 60.6314,
     "lon": 8.31028,
@@ -3786,6 +4021,7 @@
   },
   {
     "id": "PSF-011186",
+    "ref": "pge:9612",
     "name": "Hovdebøfjell- Heistad",
     "lat": 59.5778,
     "lon": 9.74861,
@@ -3799,6 +4035,7 @@
   },
   {
     "id": "PSF-011187",
+    "ref": "pge:9613",
     "name": "Hvittingfoss Bergerbakken",
     "lat": 59.5011,
     "lon": 10.0025,
@@ -3815,6 +4052,7 @@
   },
   {
     "id": "PSF-011188",
+    "ref": "pge:9614",
     "name": "Hvittingfoss Brudeberget",
     "lat": 59.4947,
     "lon": 9.82444,
@@ -3831,6 +4069,7 @@
   },
   {
     "id": "PSF-011189",
+    "ref": "pge:9615",
     "name": "Hvittingfoss Føskekollen",
     "lat": 59.4814,
     "lon": 9.93917,
@@ -3848,6 +4087,7 @@
   },
   {
     "id": "PSF-011190",
+    "ref": "pge:9616",
     "name": "Hvittingfoss Groetterud",
     "lat": 59.5047,
     "lon": 9.99694,
@@ -3865,6 +4105,7 @@
   },
   {
     "id": "PSF-011191",
+    "ref": "pge:9617",
     "name": "Hvittingfoss Hajeren",
     "lat": 59.5094,
     "lon": 9.97028,
@@ -3881,6 +4122,7 @@
   },
   {
     "id": "PSF-011192",
+    "ref": "pge:9618",
     "name": "Hvittingfoss Kulen på Grøtterudlandingen",
     "lat": 59.4964,
     "lon": 9.99417,
@@ -3898,6 +4140,7 @@
   },
   {
     "id": "PSF-011193",
+    "ref": "pge:9619",
     "name": "Hvittingfoss og Kongsberg- Bjerknes",
     "lat": 59.5906,
     "lon": 9.83167,
@@ -3914,6 +4157,7 @@
   },
   {
     "id": "PSF-011194",
+    "ref": "pge:9620",
     "name": "Hvittingfoss Rudskollen",
     "lat": 59.4936,
     "lon": 9.81833,
@@ -3931,6 +4175,7 @@
   },
   {
     "id": "PSF-011195",
+    "ref": "pge:9621",
     "name": "Kalveskallen - Hol",
     "lat": 60.6469,
     "lon": 8.20361,
@@ -3944,6 +4189,7 @@
   },
   {
     "id": "PSF-011196",
+    "ref": "pge:9622",
     "name": "Klanten flyplass",
     "lat": 60.79,
     "lon": 9.05833,
@@ -3957,6 +4203,7 @@
   },
   {
     "id": "PSF-011197",
+    "ref": "pge:9623",
     "name": "Kongsberg- Barbrokollen",
     "lat": 59.6794,
     "lon": 9.61667,
@@ -3970,6 +4217,7 @@
   },
   {
     "id": "PSF-011198",
+    "ref": "pge:9624",
     "name": "Kongsberg- Jondalen",
     "lat": 59.7147,
     "lon": 9.52417,
@@ -3983,6 +4231,7 @@
   },
   {
     "id": "PSF-011199",
+    "ref": "pge:9625",
     "name": "Kongsberg- Jonsknuten",
     "lat": 59.6708,
     "lon": 9.52194,
@@ -3996,6 +4245,7 @@
   },
   {
     "id": "PSF-011200",
+    "ref": "pge:9626",
     "name": "LANDFALÃ˜YA",
     "lat": 59.75,
     "lon": 10.1683,
@@ -4009,6 +4259,7 @@
   },
   {
     "id": "PSF-011201",
+    "ref": "pge:9627",
     "name": "Leinenøse- Hemsedal",
     "lat": 60.9058,
     "lon": 8.53861,
@@ -4022,6 +4273,7 @@
   },
   {
     "id": "PSF-011202",
+    "ref": "pge:9628",
     "name": "Liabergstølen (Sisseldalen)- Hovet (Hol)",
     "lat": 60.6311,
     "lon": 8.1275,
@@ -4035,6 +4287,7 @@
   },
   {
     "id": "PSF-011203",
+    "ref": "pge:9629",
     "name": "Liagardene- Ã…l",
     "lat": 60.6675,
     "lon": 8.63444,
@@ -4048,6 +4301,7 @@
   },
   {
     "id": "PSF-011204",
+    "ref": "pge:9630",
     "name": "Loråsen ved Steinsfjorden",
     "lat": 60.1056,
     "lon": 10.3069,
@@ -4061,6 +4315,7 @@
   },
   {
     "id": "PSF-011205",
+    "ref": "pge:9631",
     "name": "Mansætra",
     "lat": 60.5603,
     "lon": 9.68056,
@@ -4078,6 +4333,7 @@
   },
   {
     "id": "PSF-011206",
+    "ref": "pge:9632",
     "name": "Nes- Fekjan (Påverud)",
     "lat": 60.5178,
     "lon": 9.14111,
@@ -4091,6 +4347,7 @@
   },
   {
     "id": "PSF-011207",
+    "ref": "pge:9633",
     "name": "Nesbyen",
     "lat": 60.5761,
     "lon": 9.14528,
@@ -4104,6 +4361,7 @@
   },
   {
     "id": "PSF-011208",
+    "ref": "pge:9634",
     "name": "Nesbyen Alpinsenter",
     "lat": 60.5303,
     "lon": 9.05222,
@@ -4117,6 +4375,7 @@
   },
   {
     "id": "PSF-011209",
+    "ref": "pge:9635",
     "name": "Nilstad Gård Tuv-Hemsedal",
     "lat": 60.8733,
     "lon": 8.49528,
@@ -4130,6 +4389,7 @@
   },
   {
     "id": "PSF-011210",
+    "ref": "pge:9636",
     "name": "Norefjell",
     "lat": 60.2211,
     "lon": 9.57361,
@@ -4143,6 +4403,7 @@
   },
   {
     "id": "PSF-011211",
+    "ref": "pge:9637",
     "name": "Ã˜vre Eiker- Knivfjell",
     "lat": 59.8522,
     "lon": 9.93333,
@@ -4162,6 +4423,7 @@
   },
   {
     "id": "PSF-011212",
+    "ref": "pge:9638",
     "name": "Ã˜vre Eiker- Ruud gÃ¥rd nÃ¦r Krekling (M)",
     "lat": 59.6528,
     "lon": 9.72889,
@@ -4175,6 +4437,7 @@
   },
   {
     "id": "PSF-011213",
+    "ref": "pge:9639",
     "name": "PG-Berget",
     "lat": 60.7111,
     "lon": 9.01167,
@@ -4188,6 +4451,7 @@
   },
   {
     "id": "PSF-011214",
+    "ref": "pge:9640",
     "name": "Prestegård-tveita Uvdal",
     "lat": 60.26,
     "lon": 8.8325,
@@ -4201,6 +4465,7 @@
   },
   {
     "id": "PSF-011215",
+    "ref": "pge:9641",
     "name": "Prestholt",
     "lat": 60.5556,
     "lon": 8.06444,
@@ -4214,6 +4479,7 @@
   },
   {
     "id": "PSF-011216",
+    "ref": "pge:9642",
     "name": "Ringerudkollen",
     "lat": 60.3889,
     "lon": 10.0306,
@@ -4233,6 +4499,7 @@
   },
   {
     "id": "PSF-011217",
+    "ref": "pge:9643",
     "name": "Rødberg- Skarvestølen",
     "lat": 60.2572,
     "lon": 9.02833,
@@ -4246,6 +4513,7 @@
   },
   {
     "id": "PSF-011218",
+    "ref": "pge:9644",
     "name": "Rødberg-Lykkjeåsen",
     "lat": 60.2681,
     "lon": 8.9925,
@@ -4259,6 +4527,7 @@
   },
   {
     "id": "PSF-011219",
+    "ref": "pge:9645",
     "name": "Ryghåsen- Nordstarten",
     "lat": 59.7419,
     "lon": 10.0572,
@@ -4272,6 +4541,7 @@
   },
   {
     "id": "PSF-011220",
+    "ref": "pge:9646",
     "name": "RyghÃ¥sen-NÃ˜ starten",
     "lat": 59.74,
     "lon": 10.0589,
@@ -4287,6 +4557,7 @@
   },
   {
     "id": "PSF-011221",
+    "ref": "pge:9647",
     "name": "Skagsåsen",
     "lat": 60.1028,
     "lon": 9.08083,
@@ -4300,6 +4571,7 @@
   },
   {
     "id": "PSF-011222",
+    "ref": "pge:9648",
     "name": "Skavlem - Veggli",
     "lat": 60.0753,
     "lon": 9.10306,
@@ -4313,6 +4585,7 @@
   },
   {
     "id": "PSF-011223",
+    "ref": "pge:9649",
     "name": "Skavlemsetra Veggli",
     "lat": 60.0642,
     "lon": 9.09389,
@@ -4326,6 +4599,7 @@
   },
   {
     "id": "PSF-011224",
+    "ref": "pge:9650",
     "name": "Skurvefjell- Hemsedal",
     "lat": 60.8881,
     "lon": 8.60361,
@@ -4339,6 +4613,7 @@
   },
   {
     "id": "PSF-011225",
+    "ref": "pge:9651",
     "name": "Slettenøse- Hemsedal",
     "lat": 60.9136,
     "lon": 8.41194,
@@ -4352,6 +4627,7 @@
   },
   {
     "id": "PSF-011226",
+    "ref": "pge:9652",
     "name": "Smylinatten Eidsfjell",
     "lat": 60.0906,
     "lon": 9.0075,
@@ -4365,6 +4641,7 @@
   },
   {
     "id": "PSF-011227",
+    "ref": "pge:9653",
     "name": "Stuv- Hovet (Hol)",
     "lat": 60.6311,
     "lon": 8.15806,
@@ -4378,6 +4655,7 @@
   },
   {
     "id": "PSF-011228",
+    "ref": "pge:9654",
     "name": "Sundvollen",
     "lat": 60.0533,
     "lon": 10.322,
@@ -4397,6 +4675,7 @@
   },
   {
     "id": "PSF-011229",
+    "ref": "pge:9655",
     "name": "Tannberg i Uvdal",
     "lat": 60.2706,
     "lon": 8.61111,
@@ -4410,6 +4689,7 @@
   },
   {
     "id": "PSF-011230",
+    "ref": "pge:9656",
     "name": "Tempelseter- Nordnatten- Eggedal",
     "lat": 60.2717,
     "lon": 9.40194,
@@ -4423,6 +4703,7 @@
   },
   {
     "id": "PSF-011231",
+    "ref": "pge:9657",
     "name": "Tveitåsen Veggli (Numedal)",
     "lat": 60.0433,
     "lon": 9.115,
@@ -4436,6 +4717,7 @@
   },
   {
     "id": "PSF-011232",
+    "ref": "pge:9658",
     "name": "Tveitåsen-2 Veggli",
     "lat": 60.0553,
     "lon": 9.10472,
@@ -4449,6 +4731,7 @@
   },
   {
     "id": "PSF-011233",
+    "ref": "pge:9659",
     "name": "Urundberget- Geilo",
     "lat": 60.5336,
     "lon": 8.12917,
@@ -4462,6 +4745,7 @@
   },
   {
     "id": "PSF-011234",
+    "ref": "pge:9660",
     "name": "Usteberget(Geilo)",
     "lat": 60.4769,
     "lon": 8.04889,
@@ -4475,6 +4759,7 @@
   },
   {
     "id": "PSF-011235",
+    "ref": "pge:9661",
     "name": "Uvdal - Gauksettnatten",
     "lat": 60.2792,
     "lon": 8.71667,
@@ -4491,6 +4776,7 @@
   },
   {
     "id": "PSF-011236",
+    "ref": "pge:9662",
     "name": "Uvdal- Grekkvar",
     "lat": 60.2692,
     "lon": 8.83722,
@@ -4507,6 +4793,7 @@
   },
   {
     "id": "PSF-011237",
+    "ref": "pge:9663",
     "name": "Uvdal- Haugåsen",
     "lat": 60.2464,
     "lon": 8.78556,
@@ -4523,6 +4810,7 @@
   },
   {
     "id": "PSF-011238",
+    "ref": "pge:9664",
     "name": "Uvdal- Imingfjell",
     "lat": 60.2658,
     "lon": 8.56306,
@@ -4540,6 +4828,7 @@
   },
   {
     "id": "PSF-011239",
+    "ref": "pge:9665",
     "name": "Uvdal- Tannberg",
     "lat": 60.2694,
     "lon": 8.635,
@@ -4557,6 +4846,7 @@
   },
   {
     "id": "PSF-011240",
+    "ref": "pge:9666",
     "name": "Verket sandtak- Hurum",
     "lat": 59.6147,
     "lon": 10.4317,
@@ -4570,6 +4860,7 @@
   },
   {
     "id": "PSF-011241",
+    "ref": "pge:9667",
     "name": "Vikersund",
     "lat": 59.9383,
     "lon": 10.0061,
@@ -4583,6 +4874,7 @@
   },
   {
     "id": "PSF-011242",
+    "ref": "pge:9668",
     "name": "Vikersund Alpinsenter",
     "lat": 59.9669,
     "lon": 10.0392,
@@ -4596,6 +4888,7 @@
   },
   {
     "id": "PSF-011243",
+    "ref": "pge:9669",
     "name": "Vikersund hoppbakke",
     "lat": 59.9386,
     "lon": 10.0067,
@@ -4609,6 +4902,7 @@
   },
   {
     "id": "PSF-011244",
+    "ref": "pge:9670",
     "name": "Alta Alpinsenter",
     "lat": 70.0417,
     "lon": 23.5386,
@@ -4622,6 +4916,7 @@
   },
   {
     "id": "PSF-011245",
+    "ref": "pge:9671",
     "name": "Ã…uovvarnjunni- Repparfjord",
     "lat": 70.4586,
     "lon": 24.3472,
@@ -4635,6 +4930,7 @@
   },
   {
     "id": "PSF-011246",
+    "ref": "pge:9672",
     "name": "Auskarnes- Alta",
     "lat": 69.9619,
     "lon": 23.1383,
@@ -4648,6 +4944,7 @@
   },
   {
     "id": "PSF-011247",
+    "ref": "pge:9673",
     "name": "Båtsfjord- Spira",
     "lat": 70.5383,
     "lon": 30.6314,
@@ -4661,6 +4958,7 @@
   },
   {
     "id": "PSF-011248",
+    "ref": "pge:9674",
     "name": "Bøttafjellet - Falleberget ved SKAIDI",
     "lat": 70.4789,
     "lon": 24.4686,
@@ -4674,6 +4972,7 @@
   },
   {
     "id": "PSF-011249",
+    "ref": "pge:9675",
     "name": "Detsika- Alta",
     "lat": 69.875,
     "lon": 23.3333,
@@ -4687,6 +4986,7 @@
   },
   {
     "id": "PSF-011250",
+    "ref": "pge:9676",
     "name": "Djupvikhauan- Kviby",
     "lat": 70.1083,
     "lon": 23.3656,
@@ -4700,6 +5000,7 @@
   },
   {
     "id": "PSF-011251",
+    "ref": "pge:9677",
     "name": "Goalsenjunis- Levajok",
     "lat": 69.8281,
     "lon": 26.2553,
@@ -4713,6 +5014,7 @@
   },
   {
     "id": "PSF-011252",
+    "ref": "pge:9678",
     "name": "Hasvik- Håen",
     "lat": 70.4769,
     "lon": 22.1308,
@@ -4726,6 +5028,7 @@
   },
   {
     "id": "PSF-011253",
+    "ref": "pge:9679",
     "name": "Hasvik- Navaren",
     "lat": 70.4978,
     "lon": 22.1639,
@@ -4739,6 +5042,7 @@
   },
   {
     "id": "PSF-011254",
+    "ref": "pge:9680",
     "name": "Kautokeino flystripe- PPG start",
     "lat": 69.04,
     "lon": 23.0336,
@@ -4752,6 +5056,7 @@
   },
   {
     "id": "PSF-011255",
+    "ref": "pge:9681",
     "name": "Komsatoppen- Alta",
     "lat": 69.9844,
     "lon": 23.2825,
@@ -4765,6 +5070,7 @@
   },
   {
     "id": "PSF-011256",
+    "ref": "pge:9682",
     "name": "Leirbotnvann- lavstarten- Alta",
     "lat": 70.1236,
     "lon": 23.5722,
@@ -4778,6 +5084,7 @@
   },
   {
     "id": "PSF-011257",
+    "ref": "pge:9683",
     "name": "Levdunfjellet- Sennaland",
     "lat": 70.1569,
     "lon": 23.7444,
@@ -4791,6 +5098,7 @@
   },
   {
     "id": "PSF-011258",
+    "ref": "pge:9684",
     "name": "Okseberget- Sennaland",
     "lat": 70.1667,
     "lon": 23.8667,
@@ -4804,6 +5112,7 @@
   },
   {
     "id": "PSF-011259",
+    "ref": "pge:9685",
     "name": "Peskafjellet",
     "lat": 69.8528,
     "lon": 23.275,
@@ -4817,6 +5126,7 @@
   },
   {
     "id": "PSF-011260",
+    "ref": "pge:9686",
     "name": "Sennaland- Hæstavarri",
     "lat": 70.1739,
     "lon": 23.81,
@@ -4830,6 +5140,7 @@
   },
   {
     "id": "PSF-011261",
+    "ref": "pge:9687",
     "name": "Steikbukta- Skillefjordnes",
     "lat": 70.1597,
     "lon": 23.2872,
@@ -4843,6 +5154,7 @@
   },
   {
     "id": "PSF-011262",
+    "ref": "pge:9688",
     "name": "Storfjellet- Kåfjord- Alta",
     "lat": 69.9469,
     "lon": 23.0044,
@@ -4856,6 +5168,7 @@
   },
   {
     "id": "PSF-011263",
+    "ref": "pge:9689",
     "name": "Ã…sen-Sandstrand",
     "lat": 68.6769,
     "lon": 16.8278,
@@ -4869,6 +5182,7 @@
   },
   {
     "id": "PSF-011264",
+    "ref": "pge:9690",
     "name": "Harstad Storhornet",
     "lat": 68.8272,
     "lon": 16.2161,
@@ -4888,6 +5202,7 @@
   },
   {
     "id": "PSF-011265",
+    "ref": "pge:9691",
     "name": "Harstad- SamaiÂ¿Â½sen",
     "lat": 68.8103,
     "lon": 16.5264,
@@ -4904,6 +5219,7 @@
   },
   {
     "id": "PSF-011266",
+    "ref": "pge:9692",
     "name": "Akselvorda ved Eldåvollen",
     "lat": 61.3642,
     "lon": 10.8231,
@@ -4917,6 +5233,7 @@
   },
   {
     "id": "PSF-011267",
+    "ref": "pge:9693",
     "name": "Deifjellet",
     "lat": 61.2906,
     "lon": 11.5586,
@@ -4930,6 +5247,7 @@
   },
   {
     "id": "PSF-011268",
+    "ref": "pge:9694",
     "name": "Engersjøen- Engerdal",
     "lat": 61.6353,
     "lon": 12.0331,
@@ -4943,6 +5261,7 @@
   },
   {
     "id": "PSF-011269",
+    "ref": "pge:9695",
     "name": "Gjersåsen- Arneberg",
     "lat": 60.5772,
     "lon": 12.0967,
@@ -4956,6 +5275,7 @@
   },
   {
     "id": "PSF-011270",
+    "ref": "pge:9696",
     "name": "Ã…rneseth Volda",
     "lat": 62.1447,
     "lon": 6.0975,
@@ -4969,6 +5289,7 @@
   },
   {
     "id": "PSF-011271",
+    "ref": "pge:9697",
     "name": "Betna",
     "lat": 63.0769,
     "lon": 8.43028,
@@ -4982,6 +5303,7 @@
   },
   {
     "id": "PSF-011272",
+    "ref": "pge:9698",
     "name": "Bodø Skjerstad Ljønes",
     "lat": 67.2361,
     "lon": 14.9953,
@@ -4995,6 +5317,7 @@
   },
   {
     "id": "PSF-011273",
+    "ref": "pge:9699",
     "name": "Ferista",
     "lat": 63.4172,
     "lon": 10.3408,
@@ -5008,6 +5331,7 @@
   },
   {
     "id": "PSF-011274",
+    "ref": "pge:9700",
     "name": "Fiplingdalen- Golverfjellet - Nord",
     "lat": 65.3503,
     "lon": 13.6589,
@@ -5021,6 +5345,7 @@
   },
   {
     "id": "PSF-011275",
+    "ref": "pge:9701",
     "name": "Fjelltur til Saudehornet",
     "lat": 62.1967,
     "lon": 6.12694,
@@ -5034,6 +5359,7 @@
   },
   {
     "id": "PSF-011276",
+    "ref": "pge:9702",
     "name": "Fonn-Jølster",
     "lat": 61.6219,
     "lon": 6.7275,
@@ -5047,6 +5373,7 @@
   },
   {
     "id": "PSF-011277",
+    "ref": "pge:9703",
     "name": "Fræna- Trondalen- Rødalen",
     "lat": 62.8506,
     "lon": 7.36611,
@@ -5060,6 +5387,7 @@
   },
   {
     "id": "PSF-011278",
+    "ref": "pge:9704",
     "name": "Gallen-Fonn-Jølster",
     "lat": 61.5833,
     "lon": 6.76028,
@@ -5073,6 +5401,7 @@
   },
   {
     "id": "PSF-011279",
+    "ref": "pge:9705",
     "name": "Gautefall",
     "lat": 59.0547,
     "lon": 8.73389,
@@ -5088,6 +5417,7 @@
   },
   {
     "id": "PSF-011280",
+    "ref": "pge:9706",
     "name": "Gråhorga",
     "lat": 59.64,
     "lon": 5.69806,
@@ -5101,6 +5431,7 @@
   },
   {
     "id": "PSF-011281",
+    "ref": "pge:9707",
     "name": "Haugastøylen i Stardalen.Jølster",
     "lat": 61.6239,
     "lon": 6.66833,
@@ -5114,6 +5445,7 @@
   },
   {
     "id": "PSF-011282",
+    "ref": "pge:9708",
     "name": "Hellemobotn-musken",
     "lat": 67.8122,
     "lon": 16.5008,
@@ -5127,6 +5459,7 @@
   },
   {
     "id": "PSF-011283",
+    "ref": "pge:9710",
     "name": "Kaldekari-Jostedalsbreen",
     "lat": 61.555,
     "lon": 6.76722,
@@ -5140,6 +5473,7 @@
   },
   {
     "id": "PSF-011284",
+    "ref": "pge:9711",
     "name": "Kallhovda- Masfjorden",
     "lat": 60.9222,
     "lon": 5.45,
@@ -5158,6 +5492,7 @@
   },
   {
     "id": "PSF-011285",
+    "ref": "pge:9712",
     "name": "Keipen Aunfjellet",
     "lat": 68.8564,
     "lon": 16.3356,
@@ -5174,6 +5509,7 @@
   },
   {
     "id": "PSF-011286",
+    "ref": "pge:9713",
     "name": "Klåpheia- Andørja",
     "lat": 68.9236,
     "lon": 17.22,
@@ -5187,6 +5523,7 @@
   },
   {
     "id": "PSF-011287",
+    "ref": "pge:9714",
     "name": "Kvamsøy- Sande",
     "lat": 62.2103,
     "lon": 5.37028,
@@ -5200,6 +5537,7 @@
   },
   {
     "id": "PSF-011288",
+    "ref": "pge:9715",
     "name": "Kvannebakknova-Befringsdalen-Jølster",
     "lat": 61.5689,
     "lon": 6.68861,
@@ -5213,6 +5551,7 @@
   },
   {
     "id": "PSF-011289",
+    "ref": "pge:9716",
     "name": "Leikanger- Frækaland",
     "lat": 61.1922,
     "lon": 6.80917,
@@ -5226,6 +5565,7 @@
   },
   {
     "id": "PSF-011290",
+    "ref": "pge:9717",
     "name": "Leikanger- Skaftestad",
     "lat": 61.1892,
     "lon": 6.79278,
@@ -5239,6 +5579,7 @@
   },
   {
     "id": "PSF-011291",
+    "ref": "pge:9718",
     "name": "Lista ( flyplas)",
     "lat": 58.0911,
     "lon": 6.64417,
@@ -5252,6 +5593,7 @@
   },
   {
     "id": "PSF-011292",
+    "ref": "pge:9719",
     "name": "Litjehompen bak Stornaustet tell han far..",
     "lat": 68.3119,
     "lon": 15.6542,
@@ -5265,6 +5607,7 @@
   },
   {
     "id": "PSF-011293",
+    "ref": "pge:9720",
     "name": "Lyngen",
     "lat": 69.4364,
     "lon": 19.8514,
@@ -5278,6 +5621,7 @@
   },
   {
     "id": "PSF-011294",
+    "ref": "pge:9721",
     "name": "Oldeskars vannet",
     "lat": 61.6558,
     "lon": 6.74861,
@@ -5291,6 +5635,7 @@
   },
   {
     "id": "PSF-011295",
+    "ref": "pge:9723",
     "name": "Skardmodalen- Hanstinden",
     "lat": 65.5047,
     "lon": 14.3378,
@@ -5304,6 +5649,7 @@
   },
   {
     "id": "PSF-011296",
+    "ref": "pge:9724",
     "name": "Skogn idrettshall - Alvestad",
     "lat": 63.6989,
     "lon": 11.2039,
@@ -5317,6 +5663,7 @@
   },
   {
     "id": "PSF-011297",
+    "ref": "pge:9726",
     "name": "Todalen",
     "lat": 62.8175,
     "lon": 8.6925,
@@ -5330,6 +5677,7 @@
   },
   {
     "id": "PSF-011298",
+    "ref": "pge:9727",
     "name": "Tosbotn- Tosdalen pkt. 923 m",
     "lat": 65.2881,
     "lon": 13.0981,
@@ -5343,6 +5691,7 @@
   },
   {
     "id": "PSF-011299",
+    "ref": "pge:9728",
     "name": "Troms- Tromsø- Kvaløyvågen",
     "lat": 69.8411,
     "lon": 18.7786,
@@ -5356,6 +5705,7 @@
   },
   {
     "id": "PSF-011300",
+    "ref": "pge:9729",
     "name": "Tromsø- Breivikeidet- Nakkeenden",
     "lat": 69.6481,
     "lon": 19.7025,
@@ -5369,6 +5719,7 @@
   },
   {
     "id": "PSF-011301",
+    "ref": "pge:9730",
     "name": "Værøy- Håheia",
     "lat": 67.6658,
     "lon": 12.6322,
@@ -5382,6 +5733,7 @@
   },
   {
     "id": "PSF-011302",
+    "ref": "pge:9731",
     "name": "Vassfaret - Sæterknatten (Hedalen)",
     "lat": 60.5528,
     "lon": 9.55361,
@@ -5397,6 +5749,7 @@
   },
   {
     "id": "PSF-011303",
+    "ref": "pge:9732",
     "name": "Hemnes, Veten",
     "lat": 66.2025,
     "lon": 13.75,
@@ -5414,6 +5767,7 @@
   },
   {
     "id": "PSF-011304",
+    "ref": "pge:9733",
     "name": "Vikebukt - Hjelsetnakken",
     "lat": 62.5964,
     "lon": 7.16722,
@@ -5427,6 +5781,7 @@
   },
   {
     "id": "PSF-011305",
+    "ref": "pge:9734",
     "name": "Vrådal- Fagerliheii - Telemark - Norway",
     "lat": 59.2756,
     "lon": 8.54306,

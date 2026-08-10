@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-006943",
+    "ref": "pge:21947",
     "name": "Zouz Roet.",
     "lat": 37.1823,
     "lon": 10.1382,
@@ -16,6 +17,7 @@
   },
   {
     "id": "PSF-006944",
+    "ref": "pge:21948",
     "name": "les trois mousquetaires",
     "lat": 37.0312,
     "lon": 10.01,
@@ -29,6 +31,7 @@
   },
   {
     "id": "PSF-006945",
+    "ref": "pge:21949",
     "name": "La table de Jugurtha",
     "lat": 35.7431,
     "lon": 8.38128,
@@ -51,6 +54,7 @@
   },
   {
     "id": "PSF-007224",
+    "ref": "pge:22283",
     "name": "Hallouf",
     "lat": 37.3204,
     "lon": 9.79236,
@@ -67,6 +71,7 @@
   },
   {
     "id": "PSF-007225",
+    "ref": "pge:22284",
     "name": "Rafraf .skyriders",
     "lat": 37.1784,
     "lon": 10.2027,
@@ -84,6 +89,7 @@
   },
   {
     "id": "PSF-008092",
+    "ref": "pge:23242",
     "name": "mraya.skyriders",
     "lat": 37.2868,
     "lon": 9.76897,
@@ -101,6 +107,7 @@
   },
   {
     "id": "PSF-008206",
+    "ref": "pge:23370",
     "name": "DÉMNA.skyriders",
     "lat": 37.2574,
     "lon": 10.0549,
@@ -117,6 +124,7 @@
   },
   {
     "id": "PSF-008207",
+    "ref": "pge:23373",
     "name": "Sidi Bouchoucha.skyriders",
     "lat": 37.2532,
     "lon": 10.0602,
@@ -133,6 +141,7 @@
   },
   {
     "id": "PSF-008208",
+    "ref": "pge:23374",
     "name": "MIRAAA skyriders",
     "lat": 37.0887,
     "lon": 8.99549,
@@ -149,6 +158,7 @@
   },
   {
     "id": "PSF-008209",
+    "ref": "pge:23375",
     "name": "CAP NÉGRO .skyriders",
     "lat": 37.107,
     "lon": 8.98747,
@@ -166,6 +176,7 @@
   },
   {
     "id": "PSF-008210",
+    "ref": "pge:23378",
     "name": "zag ..skyriders",
     "lat": 36.3794,
     "lon": 10.1119,
@@ -179,6 +190,7 @@
   },
   {
     "id": "PSF-008211",
+    "ref": "pge:23379",
     "name": "Houma ... skyridres",
     "lat": 36.6132,
     "lon": 10.333,
@@ -192,6 +204,7 @@
   },
   {
     "id": "PSF-008212",
+    "ref": "pge:23380",
     "name": "skyriders kobros",
     "lat": 36.7887,
     "lon": 10.5563,
@@ -205,6 +218,7 @@
   },
   {
     "id": "PSF-008213",
+    "ref": "pge:23381",
     "name": "waga..skyriders",
     "lat": 36.8939,
     "lon": 10.7384,
@@ -218,6 +232,7 @@
   },
   {
     "id": "PSF-008214",
+    "ref": "pge:23382",
     "name": "Sidi Abd Mekki.. skyriders",
     "lat": 36.7912,
     "lon": 10.7587,
@@ -233,6 +248,7 @@
   },
   {
     "id": "PSF-008215",
+    "ref": "pge:23383",
     "name": "El Haouaria. .skyriders",
     "lat": 37.0714,
     "lon": 11.0416,
@@ -246,6 +262,7 @@
   },
   {
     "id": "PSF-008216",
+    "ref": "pge:23384",
     "name": "mona skyriders",
     "lat": 35.7837,
     "lon": 10.8102,
@@ -259,6 +276,7 @@
   },
   {
     "id": "PSF-008217",
+    "ref": "pge:23387",
     "name": "boulahnach..skyriders",
     "lat": 35.7085,
     "lon": 8.6985,
@@ -272,6 +290,7 @@
   },
   {
     "id": "PSF-008218",
+    "ref": "pge:23391",
     "name": "Guermessa skyriders",
     "lat": 32.9871,
     "lon": 10.2513,
@@ -289,6 +308,7 @@
   },
   {
     "id": "PSF-008219",
+    "ref": "pge:23392",
     "name": "tata ...skyridres",
     "lat": 32.9436,
     "lon": 10.8384,
@@ -302,6 +322,7 @@
   },
   {
     "id": "PSF-008220",
+    "ref": "pge:23393",
     "name": "Zamza.skyriders",
     "lat": 33.2731,
     "lon": 10.1826,
@@ -315,6 +336,7 @@
   },
   {
     "id": "PSF-008221",
+    "ref": "pge:23394",
     "name": "zamour.skyriders",
     "lat": 33.2776,
     "lon": 10.194,
@@ -328,6 +350,7 @@
   },
   {
     "id": "PSF-008222",
+    "ref": "pge:23395",
     "name": "skyriders  sans nom",
     "lat": 33.2827,
     "lon": 10.2368,
@@ -341,6 +364,7 @@
   },
   {
     "id": "PSF-008223",
+    "ref": "pge:23396",
     "name": "Gabès.... skyriderstunisia.",
     "lat": 33.3828,
     "lon": 10.1474,
@@ -354,6 +378,7 @@
   },
   {
     "id": "PSF-008224",
+    "ref": "pge:23397",
     "name": "toujane skyriders",
     "lat": 33.4797,
     "lon": 10.1203,
@@ -367,6 +392,7 @@
   },
   {
     "id": "PSF-008225",
+    "ref": "pge:23398",
     "name": "El Mahassen repère de skyriders",
     "lat": 34.035,
     "lon": 8.2806,
@@ -380,6 +406,7 @@
   },
   {
     "id": "PSF-008226",
+    "ref": "pge:23399",
     "name": "errdaif skyriders spot",
     "lat": 34.3634,
     "lon": 8.09891,
@@ -393,6 +420,7 @@
   },
   {
     "id": "PSF-008227",
+    "ref": "pge:23401",
     "name": "le Mont rsass skyriders",
     "lat": 36.6105,
     "lon": 10.3361,
@@ -406,6 +434,7 @@
   },
   {
     "id": "PSF-008228",
+    "ref": "pge:23403",
     "name": "Beni Ouff",
     "lat": 37.3197,
     "lon": 9.78829,
@@ -423,6 +452,7 @@
   },
   {
     "id": "PSF-008344",
+    "ref": "pge:23534",
     "name": "pente EOL",
     "lat": 37.1953,
     "lon": 10.0628,
@@ -439,6 +469,7 @@
   },
   {
     "id": "PSF-008450",
+    "ref": "pge:23653",
     "name": "PAF",
     "lat": 37.1783,
     "lon": 10.1931,
@@ -456,6 +487,7 @@
   },
   {
     "id": "PSF-008593",
+    "ref": "pge:23821",
     "name": "Djerissa",
     "lat": 35.8253,
     "lon": 8.64295,
@@ -469,6 +501,7 @@
   },
   {
     "id": "PSF-008607",
+    "ref": "pge:23837",
     "name": "Curly",
     "lat": 36.2415,
     "lon": 8.8043,
@@ -487,6 +520,7 @@
   },
   {
     "id": "PSF-008668",
+    "ref": "pge:23909",
     "name": "skyblanc",
     "lat": 37.3305,
     "lon": 9.83941,

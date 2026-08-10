@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000160",
+    "ref": "pge:10195",
     "name": "Xi Shan  West mountain",
     "lat": 24.9101,
     "lon": 102.633,
@@ -19,6 +20,7 @@
   },
   {
     "id": "PSF-000267",
+    "ref": "pge:10308",
     "name": "Xi Shan  West mountain lower launch",
     "lat": 24.9235,
     "lon": 102.637,
@@ -37,6 +39,7 @@
   },
   {
     "id": "PSF-000268",
+    "ref": "pge:10309",
     "name": "exploration",
     "lat": 25.0288,
     "lon": 103.011,
@@ -55,6 +58,7 @@
   },
   {
     "id": "PSF-000738",
+    "ref": "pge:10870",
     "name": "Dongchuan, north face",
     "lat": 26.1345,
     "lon": 103.225,
@@ -72,6 +76,7 @@
   },
   {
     "id": "PSF-001210",
+    "ref": "pge:11445",
     "name": "Mt.Wugong",
     "lat": 27.4527,
     "lon": 114.171,
@@ -91,6 +96,7 @@
   },
   {
     "id": "PSF-001216",
+    "ref": "pge:11451",
     "name": "Linzhou T1/林州1号",
     "lat": 36.1489,
     "lon": 113.735,
@@ -108,6 +114,7 @@
   },
   {
     "id": "PSF-001701",
+    "ref": "pge:12227",
     "name": "ziwuzhen",
     "lat": 34.0283,
     "lon": 108.919,
@@ -121,6 +128,7 @@
   },
   {
     "id": "PSF-001771",
+    "ref": "pge:12358",
     "name": "YongAnShan",
     "lat": 29.8735,
     "lon": 119.921,
@@ -138,6 +146,7 @@
   },
   {
     "id": "PSF-002415",
+    "ref": "pge:13485",
     "name": "Shuidi Shan",
     "lat": 22.8967,
     "lon": 114.939,
@@ -151,6 +160,7 @@
   },
   {
     "id": "PSF-002493",
+    "ref": "pge:13613",
     "name": "Siu Ying Tsui",
     "lat": 22.6892,
     "lon": 114.533,
@@ -164,6 +174,7 @@
   },
   {
     "id": "PSF-002505",
+    "ref": "pge:13643",
     "name": "ZhangFang",
     "lat": 39.5916,
     "lon": 115.703,
@@ -180,6 +191,7 @@
   },
   {
     "id": "PSF-002774",
+    "ref": "pge:14074",
     "name": "Xi Wah Shan",
     "lat": 23.0828,
     "lon": 114.825,
@@ -193,6 +205,7 @@
   },
   {
     "id": "PSF-003617",
+    "ref": "pge:15385",
     "name": "JiuLong/九龙",
     "lat": 31.4119,
     "lon": 104.111,
@@ -206,6 +219,7 @@
   },
   {
     "id": "PSF-004391",
+    "ref": "pge:16605",
     "name": "Ningbou New Site",
     "lat": 29.383,
     "lon": 121.662,
@@ -219,6 +233,7 @@
   },
   {
     "id": "PSF-004560",
+    "ref": "pge:16915",
     "name": "LinZhou TO 2",
     "lat": 36.0313,
     "lon": 113.714,
@@ -232,6 +247,7 @@
   },
   {
     "id": "PSF-004623",
+    "ref": "pge:17023",
     "name": "Lion Mountain North Slope",
     "lat": 22.8053,
     "lon": 115.016,
@@ -245,6 +261,7 @@
   },
   {
     "id": "PSF-004801",
+    "ref": "pge:17390",
     "name": "Qi'ao island No. 2",
     "lat": 22.4323,
     "lon": 113.659,
@@ -261,6 +278,7 @@
   },
   {
     "id": "PSF-004802",
+    "ref": "pge:17391",
     "name": "Qi'ao island No. 1",
     "lat": 22.435,
     "lon": 113.645,
@@ -278,6 +296,7 @@
   },
   {
     "id": "PSF-004803",
+    "ref": "pge:17392",
     "name": "Qi'ao island No. 3",
     "lat": 22.4204,
     "lon": 113.653,
@@ -294,6 +313,7 @@
   },
   {
     "id": "PSF-004804",
+    "ref": "pge:17393",
     "name": "Qi'ao island No. 4",
     "lat": 22.4136,
     "lon": 113.648,
@@ -311,6 +331,7 @@
   },
   {
     "id": "PSF-004805",
+    "ref": "pge:17394",
     "name": "Bamianshan",
     "lat": 28.8364,
     "lon": 109.254,
@@ -333,6 +354,7 @@
   },
   {
     "id": "PSF-004807",
+    "ref": "pge:17398",
     "name": "NaoBei Mountain",
     "lat": 22.1094,
     "lon": 113.525,
@@ -349,6 +371,7 @@
   },
   {
     "id": "PSF-004808",
+    "ref": "pge:17399",
     "name": "Hebao island No. 1",
     "lat": 21.8602,
     "lon": 113.16,
@@ -366,6 +389,7 @@
   },
   {
     "id": "PSF-004810",
+    "ref": "pge:17401",
     "name": "Hebao island No. 2",
     "lat": 21.8605,
     "lon": 113.172,
@@ -383,6 +407,7 @@
   },
   {
     "id": "PSF-005849",
+    "ref": "pge:19560",
     "name": "Wangliaoling, Hailing island",
     "lat": 21.5668,
     "lon": 111.83,
@@ -401,6 +426,7 @@
   },
   {
     "id": "PSF-005850",
+    "ref": "pge:19561",
     "name": "Qiguling",
     "lat": 22.0746,
     "lon": 111.587,
@@ -418,6 +444,7 @@
   },
   {
     "id": "PSF-005851",
+    "ref": "pge:19562",
     "name": "Goujiding",
     "lat": 22.1811,
     "lon": 111.601,
@@ -435,6 +462,7 @@
   },
   {
     "id": "PSF-005854",
+    "ref": "pge:19565",
     "name": "Zaomushan",
     "lat": 22.7208,
     "lon": 112.776,
@@ -457,6 +485,7 @@
   },
   {
     "id": "PSF-005856",
+    "ref": "pge:19569",
     "name": "HAIXIHAI －1",
     "lat": 26.2977,
     "lon": 99.9577,
@@ -470,6 +499,7 @@
   },
   {
     "id": "PSF-006103",
+    "ref": "pge:19970",
     "name": "Gulang",
     "lat": 37.4943,
     "lon": 102.876,
@@ -483,6 +513,7 @@
   },
   {
     "id": "PSF-006312",
+    "ref": "pge:21222",
     "name": "Ren Shou",
     "lat": 29.9132,
     "lon": 104.086,
@@ -501,6 +532,7 @@
   },
   {
     "id": "PSF-006608",
+    "ref": "pge:21566",
     "name": "Daping",
     "lat": 30.6432,
     "lon": 103.398,
@@ -514,6 +546,7 @@
   },
   {
     "id": "PSF-006629",
+    "ref": "pge:21598",
     "name": "LTX",
     "lat": 26.0006,
     "lon": 99.8523,
@@ -527,6 +560,7 @@
   },
   {
     "id": "PSF-006630",
+    "ref": "pge:21599",
     "name": "LTX",
     "lat": 25.9991,
     "lon": 99.854,
@@ -546,6 +580,7 @@
   },
   {
     "id": "PSF-006653",
+    "ref": "pge:21634",
     "name": "Baimachang",
     "lat": 25.9018,
     "lon": 99.9092,
@@ -563,6 +598,7 @@
   },
   {
     "id": "PSF-006654",
+    "ref": "pge:21635",
     "name": "Dali 3 Pagodas",
     "lat": 25.6965,
     "lon": 100.11,
@@ -576,6 +612,7 @@
   },
   {
     "id": "PSF-006655",
+    "ref": "pge:21636",
     "name": "Mekong North",
     "lat": 25.6236,
     "lon": 99.1765,
@@ -589,6 +626,7 @@
   },
   {
     "id": "PSF-006656",
+    "ref": "pge:21637",
     "name": "Mekong north",
     "lat": 25.726,
     "lon": 99.1592,
@@ -602,6 +640,7 @@
   },
   {
     "id": "PSF-006657",
+    "ref": "pge:21638",
     "name": "Lijiang Tower",
     "lat": 26.9357,
     "lon": 100.101,
@@ -615,6 +654,7 @@
   },
   {
     "id": "PSF-006659",
+    "ref": "pge:21640",
     "name": "Hanghai road",
     "lat": 26.696,
     "lon": 100.722,
@@ -628,6 +668,7 @@
   },
   {
     "id": "PSF-006660",
+    "ref": "pge:21641",
     "name": "Mekong tunnel pass",
     "lat": 24.8997,
     "lon": 100.313,
@@ -641,6 +682,7 @@
   },
   {
     "id": "PSF-006661",
+    "ref": "pge:21642",
     "name": "Jinggu",
     "lat": 23.5103,
     "lon": 100.657,
@@ -654,6 +696,7 @@
   },
   {
     "id": "PSF-006745",
+    "ref": "pge:21734",
     "name": "太舞滑雪场",
     "lat": 40.8747,
     "lon": 115.457,
@@ -670,6 +713,7 @@
   },
   {
     "id": "PSF-006751",
+    "ref": "pge:21740",
     "name": "Heimifeng",
     "lat": 28.454,
     "lon": 112.987,
@@ -683,6 +727,7 @@
   },
   {
     "id": "PSF-006752",
+    "ref": "pge:21741",
     "name": "Lianhuashan",
     "lat": 28.1303,
     "lon": 112.79,
@@ -696,6 +741,7 @@
   },
   {
     "id": "PSF-006757",
+    "ref": "pge:21747",
     "name": "802",
     "lat": 43.354,
     "lon": 117.706,
@@ -713,6 +759,7 @@
   },
   {
     "id": "PSF-006793",
+    "ref": "pge:21784",
     "name": "Tiantaishan Mountain",
     "lat": 30.3103,
     "lon": 103.147,
@@ -726,6 +773,7 @@
   },
   {
     "id": "PSF-006829",
+    "ref": "pge:21823",
     "name": "Hua Shan",
     "lat": 31.8535,
     "lon": 120.289,
@@ -744,6 +792,7 @@
   },
   {
     "id": "PSF-006901",
+    "ref": "pge:21901",
     "name": "Mutianyu Great Wall",
     "lat": 40.4499,
     "lon": 116.55,
@@ -757,6 +806,7 @@
   },
   {
     "id": "PSF-007045",
+    "ref": "pge:22074",
     "name": "Big Love",
     "lat": 22.3334,
     "lon": 114.257,
@@ -773,6 +823,7 @@
   },
   {
     "id": "PSF-007090",
+    "ref": "pge:22123",
     "name": "Niucao Mountain",
     "lat": 31.0462,
     "lon": 116.261,
@@ -786,6 +837,7 @@
   },
   {
     "id": "PSF-007113",
+    "ref": "pge:22154",
     "name": "mt. Huanghuashan/黄花山",
     "lat": 40.163,
     "lon": 117.584,
@@ -799,6 +851,7 @@
   },
   {
     "id": "PSF-007617",
+    "ref": "pge:22717",
     "name": "Luojiayu",
     "lat": 39.6234,
     "lon": 115.834,
@@ -812,6 +865,7 @@
   },
   {
     "id": "PSF-007618",
+    "ref": "pge:22718",
     "name": "Gujianshan/古剑山",
     "lat": 28.9649,
     "lon": 106.628,
@@ -825,6 +879,7 @@
   },
   {
     "id": "PSF-007740",
+    "ref": "pge:22863",
     "name": "Shijinglong Ski",
     "lat": 40.5258,
     "lon": 115.961,
@@ -838,6 +893,7 @@
   },
   {
     "id": "PSF-007741",
+    "ref": "pge:22864",
     "name": "mt. DaQingShan",
     "lat": 40.9303,
     "lon": 111.719,
@@ -851,6 +907,7 @@
   },
   {
     "id": "PSF-007778",
+    "ref": "pge:22905",
     "name": "JiuHuaShan",
     "lat": 30.5981,
     "lon": 117.806,
@@ -870,6 +927,7 @@
   },
   {
     "id": "PSF-007783",
+    "ref": "pge:22910",
     "name": "Linzhou/林州三号",
     "lat": 35.9976,
     "lon": 113.694,
@@ -883,6 +941,7 @@
   },
   {
     "id": "PSF-007786",
+    "ref": "pge:22913",
     "name": "HuanXian",
     "lat": 29.9119,
     "lon": 114.815,
@@ -896,6 +955,7 @@
   },
   {
     "id": "PSF-007958",
+    "ref": "pge:23102",
     "name": "HongJiaoLing International Paragliding Flight Camp",
     "lat": 18.5729,
     "lon": 110.111,
@@ -909,6 +969,7 @@
   },
   {
     "id": "PSF-008097",
+    "ref": "pge:23247",
     "name": "Mt.MingyueShan/明月山",
     "lat": 27.6072,
     "lon": 114.237,
@@ -922,6 +983,7 @@
   },
   {
     "id": "PSF-008152",
+    "ref": "pge:23310",
     "name": "mt.wansuishan",
     "lat": 41.2153,
     "lon": 124.141,
@@ -935,6 +997,7 @@
   },
   {
     "id": "PSF-008258",
+    "ref": "pge:23437",
     "name": "mumianshan",
     "lat": 22.8609,
     "lon": 114.284,
@@ -948,6 +1011,7 @@
   },
   {
     "id": "PSF-008269",
+    "ref": "pge:23448",
     "name": "DaJianShan/大尖山",
     "lat": 30.3503,
     "lon": 120.762,
@@ -961,6 +1025,7 @@
   },
   {
     "id": "PSF-008302",
+    "ref": "pge:23484",
     "name": "kamayami paragliding(nanxijiang river)",
     "lat": 28.3406,
     "lon": 120.774,
@@ -974,6 +1039,7 @@
   },
   {
     "id": "PSF-008361",
+    "ref": "pge:23552",
     "name": "JingDeZhen",
     "lat": 29.4503,
     "lon": 117.533,
@@ -987,6 +1053,7 @@
   },
   {
     "id": "PSF-008362",
+    "ref": "pge:23553",
     "name": "DaMingShan",
     "lat": 23.5523,
     "lon": 108.341,
@@ -1000,6 +1067,7 @@
   },
   {
     "id": "PSF-008367",
+    "ref": "pge:23558",
     "name": "mt. babaoshan",
     "lat": 40.4981,
     "lon": 115.414,
@@ -1013,6 +1081,7 @@
   },
   {
     "id": "PSF-008368",
+    "ref": "pge:23559",
     "name": "Fly ZhiYou",
     "lat": 40.2103,
     "lon": 117.315,
@@ -1026,6 +1095,7 @@
   },
   {
     "id": "PSF-008463",
+    "ref": "pge:23670",
     "name": "Mt. Bailongshan",
     "lat": 38.8974,
     "lon": 115.076,
@@ -1039,6 +1109,7 @@
   },
   {
     "id": "PSF-008548",
+    "ref": "pge:23767",
     "name": "JinJiaShan/金家山",
     "lat": 29.7842,
     "lon": 119.51,
@@ -1052,6 +1123,7 @@
   },
   {
     "id": "PSF-008549",
+    "ref": "pge:23768",
     "name": "AnJi YuFeng/驭风",
     "lat": 30.4854,
     "lon": 119.447,
@@ -1065,6 +1137,7 @@
   },
   {
     "id": "PSF-008550",
+    "ref": "pge:23769",
     "name": "LuNiao/鸬鸟",
     "lat": 30.4666,
     "lon": 119.726,
@@ -1078,6 +1151,7 @@
   },
   {
     "id": "PSF-008551",
+    "ref": "pge:23770",
     "name": "ShaoXing HeiBao/黑豹",
     "lat": 29.6247,
     "lon": 120.959,
@@ -1091,6 +1165,7 @@
   },
   {
     "id": "PSF-008552",
+    "ref": "pge:23771",
     "name": "BaiHe/白鹤",
     "lat": 29.2377,
     "lon": 120.908,
@@ -1104,6 +1179,7 @@
   },
   {
     "id": "PSF-008553",
+    "ref": "pge:23772",
     "name": "Fuyang DieKong/叠空",
     "lat": 29.9931,
     "lon": 119.611,
@@ -1117,6 +1193,7 @@
   },
   {
     "id": "PSF-008577",
+    "ref": "pge:23803",
     "name": "HuiXian International Flying Club Taking Off Site",
     "lat": 35.4688,
     "lon": 113.489,
@@ -1130,6 +1207,7 @@
   },
   {
     "id": "PSF-008586",
+    "ref": "pge:23813",
     "name": "YueLiangWan/月亮湾",
     "lat": 30.6905,
     "lon": 118.541,
@@ -1143,6 +1221,7 @@
   },
   {
     "id": "PSF-008595",
+    "ref": "pge:23823",
     "name": "the Whale",
     "lat": 40.5017,
     "lon": 116.785,
@@ -1156,6 +1235,7 @@
   },
   {
     "id": "PSF-008603",
+    "ref": "pge:23833",
     "name": "大幕山滑翔伞基地",
     "lat": 29.7352,
     "lon": 114.645,
@@ -1169,6 +1249,7 @@
   },
   {
     "id": "PSF-008628",
+    "ref": "pge:23863",
     "name": "Jindouyun 筋斗云",
     "lat": 31.1564,
     "lon": 103.778,
@@ -1182,6 +1263,7 @@
   },
   {
     "id": "PSF-008655",
+    "ref": "pge:23896",
     "name": "Puhong",
     "lat": 31.0829,
     "lon": 103.662,
@@ -1195,6 +1277,7 @@
   },
   {
     "id": "PSF-008656",
+    "ref": "pge:23897",
     "name": "Douchuan Mountain",
     "lat": 31.9146,
     "lon": 104.812,
@@ -1208,6 +1291,7 @@
   },
   {
     "id": "PSF-008657",
+    "ref": "pge:23898",
     "name": "Manbuyunduan",
     "lat": 30.5598,
     "lon": 104.328,
@@ -1221,6 +1305,7 @@
   },
   {
     "id": "PSF-008658",
+    "ref": "pge:23899",
     "name": "Little Cloud",
     "lat": 30.7886,
     "lon": 104.539,
@@ -1234,6 +1319,7 @@
   },
   {
     "id": "PSF-008664",
+    "ref": "pge:23905",
     "name": "Hanyuan",
     "lat": 29.3823,
     "lon": 102.66,
@@ -1247,6 +1333,7 @@
   },
   {
     "id": "PSF-008675",
+    "ref": "pge:23916",
     "name": "yuzui850",
     "lat": 31.0054,
     "lon": 103.562,
@@ -1260,6 +1347,7 @@
   },
   {
     "id": "PSF-008676",
+    "ref": "pge:23917",
     "name": "同温层 > ENGLISH please - otherwise site will be cancelled!",
     "lat": 30.8181,
     "lon": 104.563,
@@ -1273,6 +1361,7 @@
   },
   {
     "id": "PSF-010056",
+    "ref": "pge:7279",
     "name": "Simatai Great Wall",
     "lat": 40.658,
     "lon": 117.285,
@@ -1290,6 +1379,7 @@
   },
   {
     "id": "PSF-010057",
+    "ref": "pge:7280",
     "name": "mt. MiaoFengshan",
     "lat": 40.0778,
     "lon": 116.047,
@@ -1307,6 +1397,7 @@
   },
   {
     "id": "PSF-010060",
+    "ref": "pge:7288",
     "name": "Chicheng chaoyang cliff",
     "lat": 40.704,
     "lon": 116.061,
@@ -1326,6 +1417,7 @@
   },
   {
     "id": "PSF-010244",
+    "ref": "pge:7583",
     "name": "Dujiangyan zipingpu",
     "lat": 31.0467,
     "lon": 103.558,
@@ -1348,6 +1440,7 @@
   },
   {
     "id": "PSF-011309",
+    "ref": "pge:9740",
     "name": "Anning",
     "lat": 24.9681,
     "lon": 102.402,
@@ -1365,6 +1458,7 @@
   },
   {
     "id": "PSF-011390",
+    "ref": "pge:9839",
     "name": "yuxi",
     "lat": 24.4138,
     "lon": 102.606,
@@ -1382,6 +1476,7 @@
   },
   {
     "id": "PSF-011391",
+    "ref": "pge:9840",
     "name": "Yang Zhong Hai",
     "lat": 24.9609,
     "lon": 102.99,
@@ -1399,6 +1494,7 @@
   },
   {
     "id": "PSF-011392",
+    "ref": "pge:9842",
     "name": "Haikou",
     "lat": 24.867,
     "lon": 102.626,
@@ -1419,6 +1515,7 @@
   },
   {
     "id": "PSF-011424",
+    "ref": "pge:9883",
     "name": "north mountain sunset dam",
     "lat": 34.0283,
     "lon": 108.919,

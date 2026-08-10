@@ -1,6 +1,6 @@
 # Possible duplicates within one source
 
-- **179** pairs, from 2 source(s)
+- **156** pairs, from 2 source(s)
 
 Two entries in the **same** guide sitting within 250 m of each other.
 
@@ -17,7 +17,18 @@ reporting upstream to that guide.
 Pairs of launches belonging to the same parent site are excluded, as
 those are distinct by definition.
 
-## pge — 173 pairs
+## ansg — 6 pairs
+
+| Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |
+|---|---|---:|---:|---|---|---|
+| [Tasman Flying Site 4](https://siteguide.org.au/sites/details/271) | [Tasman Flying Site 3](https://siteguide.org.au/sites/details/283) | 35 m | 95% | NW,W | E,NE | `ansg:271-305 ansg:283-321` |
+| [Mona Vale](https://siteguide.org.au/sites/details/125) | [Bungan](https://siteguide.org.au/sites/details/131) | 66 m | 27% | S,SE | E,NE | `ansg:125-30 ansg:131-215` |
+| [Long Reef NE](https://siteguide.org.au/sites/details/129) | [Long Reef SE](https://siteguide.org.au/sites/details/130) | 205 m | 92% | NE | S,SE | `ansg:129-34 ansg:130-35` |
+| [Tasman Flying Site 2](https://siteguide.org.au/sites/details/24) | [Tasman Flying Site 3](https://siteguide.org.au/sites/details/283) | 226 m | 95% | E,NE | E,NE | `ansg:24-322 ansg:283-321` |
+| [Bothwell Flying Site 3](https://siteguide.org.au/sites/details/269) | [Bothwell Flying Site 1](https://siteguide.org.au/sites/details/285) | 232 m | 95% | NW,SW,W | E,NE | `ansg:269-300 ansg:285-324` |
+| [West Heaton Lookout](https://siteguide.org.au/sites/details/264) | [NNE Heaton Lookout](https://siteguide.org.au/sites/details/265) | 239 m | 88% | NW,W | N,NE | `ansg:264-296 ansg:265-297` |
+
+## pge — 150 pairs
 
 | Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |
 |---|---|---:|---:|---|---|---|
@@ -41,36 +52,13 @@ those are distinct by definition.
 | [Polipoli - Ferns Launch](https://www.paraglidingearth.com/?site=22512) | [Polipoli - Ferns Launch](https://www.paraglidingearth.com/?site=22513) | 0 m | 100% | — | — | `pge:22512 pge:22513` |
 | [Saltdal, Junkerdal, Nerknausen](https://www.paraglidingearth.com/?site=22521) | [Saltdal, Junkerdal, Nerknausen](https://www.paraglidingearth.com/?site=22522) | 0 m | 100% | E,S,SE,SW | E,NE,S,SE,SW | `pge:22521 pge:22522` |
 | [Ambohimanambola West](https://www.paraglidingearth.com/?site=22806) | [Ambohimanambola West](https://www.paraglidingearth.com/?site=22807) | 0 m | 100% | — | — | `pge:22806 pge:22807` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | 0 m | 100% | — | — | `pge:23342 pge:23343` |
 | [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | 0 m | 100% | — | — | `pge:23342 pge:23345` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | 0 m | 100% | — | — | `pge:23342 pge:23346` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | 0 m | 100% | — | — | `pge:23342 pge:23347` |
 | [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | 0 m | 100% | — | — | `pge:23342 pge:23348` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | 0 m | 100% | — | — | `pge:23342 pge:23349` |
 | [ByeokDo San](https://www.paraglidingearth.com/?site=23342) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23342 pge:23350` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | 0 m | 100% | — | — | `pge:23343 pge:23345` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | 0 m | 100% | — | — | `pge:23343 pge:23346` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | 0 m | 100% | — | — | `pge:23343 pge:23347` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | 0 m | 100% | — | — | `pge:23343 pge:23348` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | 0 m | 100% | — | — | `pge:23343 pge:23349` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23343) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23343 pge:23350` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | 0 m | 100% | — | — | `pge:23345 pge:23346` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | 0 m | 100% | — | — | `pge:23345 pge:23347` |
 | [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | 0 m | 100% | — | — | `pge:23345 pge:23348` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | 0 m | 100% | — | — | `pge:23345 pge:23349` |
 | [ByeokDo San](https://www.paraglidingearth.com/?site=23345) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23345 pge:23350` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | 0 m | 100% | — | — | `pge:23346 pge:23347` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | 0 m | 100% | — | — | `pge:23346 pge:23348` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | 0 m | 100% | — | — | `pge:23346 pge:23349` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23346) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23346 pge:23350` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | 0 m | 100% | — | — | `pge:23347 pge:23348` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | 0 m | 100% | — | — | `pge:23347 pge:23349` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23347) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23347 pge:23350` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | 0 m | 100% | — | — | `pge:23348 pge:23349` |
 | [ByeokDo San](https://www.paraglidingearth.com/?site=23348) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23348 pge:23350` |
-| [ByeokDo San](https://www.paraglidingearth.com/?site=23349) | [ByeokDo San](https://www.paraglidingearth.com/?site=23350) | 0 m | 100% | — | — | `pge:23349 pge:23350` |
 | [سایت پروازی کنارسیاه blackjujube flying site](https://www.paraglidingearth.com/?site=23488) | [سایت پروازی کنارسیاه](https://www.paraglidingearth.com/?site=23489) | 0 m | 100% | — | — | `pge:23488 pge:23489` |
-| [Tash Tepe](https://www.paraglidingearth.com/?site=15581) | [Tash Tepe](https://www.paraglidingearth.com/?site=16571) | 8 m | 100% | E,N,NE,NW,W | — | `pge:15581 pge:16571` |
 | [Port a Binson](https://www.paraglidingearth.com/?site=10888) | [Port a binson](https://www.paraglidingearth.com/?site=2858) | 11 m | 92% | N,NW | N | `pge:10888 pge:2858` |
 | [Col du Couraduque](https://www.paraglidingearth.com/?site=2927) | [Aucun](https://www.paraglidingearth.com/?site=9835) | 11 m | 18% | E,SE | E,N,NE,NW,SE,W | `pge:2927 pge:9835` |
 | [Moechisa](https://www.paraglidingearth.com/?site=10203) | [Chapacual Moechisa Taindala](https://www.paraglidingearth.com/?site=7370) | 12 m | 100% | N,NW | N,NW,S,SE | `pge:10203 pge:7370` |
@@ -194,14 +182,3 @@ those are distinct by definition.
 | [golica](https://www.paraglidingearth.com/?site=15460) | [Golica](https://www.paraglidingearth.com/?site=19312) | 243 m | 83% | S,SE | S,SE,SW | `pge:15460 pge:19312` |
 | [Bisanne Nord](https://www.paraglidingearth.com/?site=22586) | [Bisanne Sud](https://www.paraglidingearth.com/?site=3019) | 249 m | 78% | N,NE,NW,W | E,S,SE,SW,W | `pge:22586 pge:3019` |
 | [Tafelbühl](https://www.paraglidingearth.com/?site=14693) | [Tafelbühl](https://www.paraglidingearth.com/?site=8589) | 250 m | 100% | — | — | `pge:14693 pge:8589` |
-
-## siteguide_au — 6 pairs
-
-| Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |
-|---|---|---:|---:|---|---|---|
-| [Tasman Flying Site 4](https://siteguide.org.au/sites/details/271) | [Tasman Flying Site 3](https://siteguide.org.au/sites/details/283) | 35 m | 95% | NW,W | E,NE | `siteguide_au:271-305 siteguide_au:283-321` |
-| [Mona Vale](https://siteguide.org.au/sites/details/125) | [Bungan](https://siteguide.org.au/sites/details/131) | 66 m | 27% | S,SE | E,NE | `siteguide_au:125-30 siteguide_au:131-215` |
-| [Long Reef NE](https://siteguide.org.au/sites/details/129) | [Long Reef SE](https://siteguide.org.au/sites/details/130) | 205 m | 92% | NE | S,SE | `siteguide_au:129-34 siteguide_au:130-35` |
-| [Tasman Flying Site 2](https://siteguide.org.au/sites/details/24) | [Tasman Flying Site 3](https://siteguide.org.au/sites/details/283) | 226 m | 95% | E,NE | E,NE | `siteguide_au:24-322 siteguide_au:283-321` |
-| [Bothwell Flying Site 3](https://siteguide.org.au/sites/details/269) | [Bothwell Flying Site 1](https://siteguide.org.au/sites/details/285) | 232 m | 95% | NW,SW,W | E,NE | `siteguide_au:269-300 siteguide_au:285-324` |
-| [West Heaton Lookout](https://siteguide.org.au/sites/details/264) | [NNE Heaton Lookout](https://siteguide.org.au/sites/details/265) | 239 m | 88% | NW,W | N,NE | `siteguide_au:264-296 siteguide_au:265-297` |

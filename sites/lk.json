@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-005666",
+    "ref": "pge:19314",
     "name": "Tharahalpana Kanda (Para Adventure)",
     "lat": 7.19614,
     "lon": 80.7308,
@@ -19,6 +20,7 @@
   },
   {
     "id": "PSF-006612",
+    "ref": "pge:21572",
     "name": "Paragliding SRI LANKA - James Taylor's Seat",
     "lat": 7.14668,
     "lon": 80.7047,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-007653",
+    "ref": "pge:22755",
     "name": "Ravana Kanda-Delthota",
     "lat": 7.15629,
     "lon": 80.6977,
@@ -53,6 +56,7 @@
   },
   {
     "id": "PSF-008320",
+    "ref": "pge:23504",
     "name": "Ambuluwawa",
     "lat": 7.15857,
     "lon": 80.548,
@@ -70,6 +74,7 @@
   },
   {
     "id": "PSF-008327",
+    "ref": "pge:23513",
     "name": "Para Adventure- Gampola",
     "lat": 7.13964,
     "lon": 80.5543,
@@ -87,6 +92,7 @@
   },
   {
     "id": "PSF-008332",
+    "ref": "pge:23519",
     "name": "Paragliding SRI LANKA- Kavisigamuwa",
     "lat": 7.4999,
     "lon": 80.4804,
@@ -104,6 +110,7 @@
   },
   {
     "id": "PSF-008334",
+    "ref": "pge:23523",
     "name": "PARA Adventure Rathkele",
     "lat": 7.12613,
     "lon": 81.1464,
@@ -122,6 +129,7 @@
   },
   {
     "id": "PSF-008652",
+    "ref": "pge:23893",
     "name": "Makaldeniya - Poonagala",
     "lat": 6.74791,
     "lon": 81.0544,

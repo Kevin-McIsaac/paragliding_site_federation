@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000111",
+    "ref": "pge:10134",
     "name": "Rosbeigh",
     "lat": 52.0475,
     "lon": -9.9802,
@@ -21,6 +22,7 @@
   },
   {
     "id": "PSF-000174",
+    "ref": "pge:10210",
     "name": "Killiney Hill",
     "lat": 53.2654,
     "lon": -6.11177,
@@ -38,6 +40,7 @@
   },
   {
     "id": "PSF-000229",
+    "ref": "pge:10269",
     "name": "Mayobridge",
     "lat": 54.1705,
     "lon": -6.1885,
@@ -56,6 +59,7 @@
   },
   {
     "id": "PSF-000633",
+    "ref": "pge:10743",
     "name": "Lough Bray",
     "lat": 53.1888,
     "lon": -6.3097,
@@ -73,6 +77,7 @@
   },
   {
     "id": "PSF-000766",
+    "ref": "pge:10899",
     "name": "Monavullagh",
     "lat": 52.19,
     "lon": -7.5887,
@@ -91,6 +96,7 @@
   },
   {
     "id": "PSF-000768",
+    "ref": "pge:10901",
     "name": "The Vee",
     "lat": 52.2471,
     "lon": -7.943,
@@ -108,6 +114,7 @@
   },
   {
     "id": "PSF-000769",
+    "ref": "pge:10902",
     "name": "Knockanaffrin",
     "lat": 52.3024,
     "lon": -7.5945,
@@ -125,6 +132,7 @@
   },
   {
     "id": "PSF-000877",
+    "ref": "pge:11034",
     "name": "Knocknarea",
     "lat": 54.2608,
     "lon": -8.5773,
@@ -145,6 +153,7 @@
   },
   {
     "id": "PSF-001046",
+    "ref": "pge:11232",
     "name": "Bray Head",
     "lat": 53.1875,
     "lon": -6.0802,
@@ -161,6 +170,7 @@
   },
   {
     "id": "PSF-001053",
+    "ref": "pge:11240",
     "name": "Minaun, Achill Island",
     "lat": 53.9547,
     "lon": -10.0292,
@@ -178,6 +188,7 @@
   },
   {
     "id": "PSF-001082",
+    "ref": "pge:11287",
     "name": "Seefin NE (Co.Kerry)",
     "lat": 52.058,
     "lon": -9.9,
@@ -194,6 +205,7 @@
   },
   {
     "id": "PSF-001094",
+    "ref": "pge:11302",
     "name": "Trawalua Strand",
     "lat": 54.4338,
     "lon": -8.4707,
@@ -209,6 +221,7 @@
   },
   {
     "id": "PSF-001108",
+    "ref": "pge:11322",
     "name": "Clara",
     "lat": 52.049,
     "lon": -9.094,
@@ -227,6 +240,7 @@
   },
   {
     "id": "PSF-001109",
+    "ref": "pge:11323",
     "name": "Gneeves NE",
     "lat": 52.017,
     "lon": -9.117,
@@ -244,6 +258,7 @@
   },
   {
     "id": "PSF-001112",
+    "ref": "pge:11326",
     "name": "Mweelin",
     "lat": 51.8922,
     "lon": -9.2756,
@@ -262,6 +277,7 @@
   },
   {
     "id": "PSF-001113",
+    "ref": "pge:11327",
     "name": "Dingle Bowl",
     "lat": 52.176,
     "lon": -10.198,
@@ -280,6 +296,7 @@
   },
   {
     "id": "PSF-001120",
+    "ref": "pge:11336",
     "name": "Caherdaniel - Cahernageeha Mtn.",
     "lat": 51.798,
     "lon": -10.0854,
@@ -297,6 +314,7 @@
   },
   {
     "id": "PSF-001144",
+    "ref": "pge:11366",
     "name": "Ballyvaldon beach",
     "lat": 52.4633,
     "lon": -6.29728,
@@ -312,6 +330,7 @@
   },
   {
     "id": "PSF-001356",
+    "ref": "pge:11627",
     "name": "Ballaghasheen Gap",
     "lat": 51.9479,
     "lon": -9.9334,
@@ -329,6 +348,7 @@
   },
   {
     "id": "PSF-001644",
+    "ref": "pge:12133",
     "name": "Keadeen",
     "lat": 52.951,
     "lon": -6.58948,
@@ -346,6 +366,7 @@
   },
   {
     "id": "PSF-001657",
+    "ref": "pge:12151",
     "name": "Devils' Ladder  (Carrauntoohill Mtn)",
     "lat": 51.9935,
     "lon": -9.74492,
@@ -365,6 +386,7 @@
   },
   {
     "id": "PSF-001887",
+    "ref": "pge:12567",
     "name": "Mullaghmesha Mtn. (W)",
     "lat": 51.702,
     "lon": -9.33058,
@@ -382,6 +404,7 @@
   },
   {
     "id": "PSF-002856",
+    "ref": "pge:14217",
     "name": "Musheramore (W)",
     "lat": 52.0143,
     "lon": -8.9803,
@@ -401,6 +424,7 @@
   },
   {
     "id": "PSF-002935",
+    "ref": "pge:14335",
     "name": "Mt.Gabriel",
     "lat": 51.5586,
     "lon": -9.5402,
@@ -420,6 +444,7 @@
   },
   {
     "id": "PSF-002936",
+    "ref": "pge:14336",
     "name": "Dunworly Bay",
     "lat": 51.5795,
     "lon": -8.7506,
@@ -436,6 +461,7 @@
   },
   {
     "id": "PSF-002937",
+    "ref": "pge:14337",
     "name": "Old Head of Kinsale (Cork)",
     "lat": 51.6204,
     "lon": -8.5451,
@@ -452,6 +478,7 @@
   },
   {
     "id": "PSF-002938",
+    "ref": "pge:14338",
     "name": "Aconeera or Cnoc Mordain",
     "lat": 53.3842,
     "lon": -9.6772,
@@ -469,6 +496,7 @@
   },
   {
     "id": "PSF-002939",
+    "ref": "pge:14339",
     "name": "Benglenesky",
     "lat": 53.4864,
     "lon": -9.85902,
@@ -485,6 +513,7 @@
   },
   {
     "id": "PSF-002940",
+    "ref": "pge:14340",
     "name": "Cregg Mt.",
     "lat": 53.5068,
     "lon": -9.93678,
@@ -498,6 +527,7 @@
   },
   {
     "id": "PSF-002941",
+    "ref": "pge:14341",
     "name": "Lackadunna",
     "lat": 53.3954,
     "lon": -9.49724,
@@ -513,6 +543,7 @@
   },
   {
     "id": "PSF-002942",
+    "ref": "pge:14342",
     "name": "Maumturk Mts",
     "lat": 53.4943,
     "lon": -9.664,
@@ -529,6 +560,7 @@
   },
   {
     "id": "PSF-002943",
+    "ref": "pge:14343",
     "name": "Tully Mtn.",
     "lat": 53.583,
     "lon": -10.0037,
@@ -542,6 +574,7 @@
   },
   {
     "id": "PSF-002944",
+    "ref": "pge:14344",
     "name": "Bencroy or Gubnaveagh",
     "lat": 54.0391,
     "lon": -8.0,
@@ -555,6 +588,7 @@
   },
   {
     "id": "PSF-002945",
+    "ref": "pge:14345",
     "name": "Englishman's",
     "lat": 54.2637,
     "lon": -7.98465,
@@ -568,6 +602,7 @@
   },
   {
     "id": "PSF-002946",
+    "ref": "pge:14346",
     "name": "Glenade Lough",
     "lat": 54.3639,
     "lon": -8.28459,
@@ -581,6 +616,7 @@
   },
   {
     "id": "PSF-002947",
+    "ref": "pge:14347",
     "name": "Keeloges",
     "lat": 54.4035,
     "lon": -8.28641,
@@ -594,6 +630,7 @@
   },
   {
     "id": "PSF-002948",
+    "ref": "pge:14348",
     "name": "O'Donnell's",
     "lat": 54.2183,
     "lon": -8.30659,
@@ -607,6 +644,7 @@
   },
   {
     "id": "PSF-002949",
+    "ref": "pge:14349",
     "name": "Sheenun",
     "lat": 54.4082,
     "lon": -8.14476,
@@ -620,6 +658,7 @@
   },
   {
     "id": "PSF-002950",
+    "ref": "pge:14350",
     "name": "Croagh Patrick",
     "lat": 53.7599,
     "lon": -9.65878,
@@ -641,6 +680,7 @@
   },
   {
     "id": "PSF-002951",
+    "ref": "pge:14351",
     "name": "Croaghmoyle",
     "lat": 53.926,
     "lon": -9.3741,
@@ -657,6 +697,7 @@
   },
   {
     "id": "PSF-002952",
+    "ref": "pge:14352",
     "name": "Devil's Mother",
     "lat": 53.6011,
     "lon": -9.63744,
@@ -670,6 +711,7 @@
   },
   {
     "id": "PSF-002953",
+    "ref": "pge:14353",
     "name": "Maumtrasna",
     "lat": 53.6202,
     "lon": -9.55053,
@@ -683,6 +725,7 @@
   },
   {
     "id": "PSF-002954",
+    "ref": "pge:14354",
     "name": "Nephin",
     "lat": 54.0124,
     "lon": -9.36828,
@@ -701,6 +744,7 @@
   },
   {
     "id": "PSF-002955",
+    "ref": "pge:14356",
     "name": "Ben Bulbin",
     "lat": 54.3651,
     "lon": -8.47229,
@@ -719,6 +763,7 @@
   },
   {
     "id": "PSF-002956",
+    "ref": "pge:14357",
     "name": "Knocknarea",
     "lat": 54.2598,
     "lon": -8.5767,
@@ -740,6 +785,7 @@
   },
   {
     "id": "PSF-002957",
+    "ref": "pge:14358",
     "name": "Ox Mts.",
     "lat": 54.131,
     "lon": -8.75874,
@@ -753,6 +799,7 @@
   },
   {
     "id": "PSF-002958",
+    "ref": "pge:14359",
     "name": "Truskmore",
     "lat": 54.3745,
     "lon": -8.37084,
@@ -766,6 +813,7 @@
   },
   {
     "id": "PSF-002959",
+    "ref": "pge:14360",
     "name": "Bricklieve Mts",
     "lat": 54.0537,
     "lon": -8.37561,
@@ -779,6 +827,7 @@
   },
   {
     "id": "PSF-002960",
+    "ref": "pge:14361",
     "name": "Kesh Corann",
     "lat": 54.0617,
     "lon": -8.42302,
@@ -792,6 +841,7 @@
   },
   {
     "id": "PSF-002961",
+    "ref": "pge:14363",
     "name": "Bournabrena",
     "lat": 53.2365,
     "lon": -6.37801,
@@ -805,6 +855,7 @@
   },
   {
     "id": "PSF-002962",
+    "ref": "pge:14364",
     "name": "Corn Hill",
     "lat": 53.8069,
     "lon": -7.71464,
@@ -818,6 +869,7 @@
   },
   {
     "id": "PSF-002963",
+    "ref": "pge:14365",
     "name": "Black Mt",
     "lat": 54.0794,
     "lon": -6.32086,
@@ -834,6 +886,7 @@
   },
   {
     "id": "PSF-002964",
+    "ref": "pge:14366",
     "name": "Carlingford Mt.",
     "lat": 54.0429,
     "lon": -6.21547,
@@ -853,6 +906,7 @@
   },
   {
     "id": "PSF-002965",
+    "ref": "pge:14367",
     "name": "Gormanstown Dunes",
     "lat": 53.6521,
     "lon": -6.21992,
@@ -869,6 +923,7 @@
   },
   {
     "id": "PSF-002966",
+    "ref": "pge:14368",
     "name": "Annagh Hill",
     "lat": 52.752,
     "lon": -6.37088,
@@ -884,6 +939,7 @@
   },
   {
     "id": "PSF-002967",
+    "ref": "pge:14369",
     "name": "Arklow Rock",
     "lat": 52.7695,
     "lon": -6.15093,
@@ -897,6 +953,7 @@
   },
   {
     "id": "PSF-002968",
+    "ref": "pge:14370",
     "name": "Church Mt.",
     "lat": 53.054,
     "lon": -6.58472,
@@ -910,6 +967,7 @@
   },
   {
     "id": "PSF-002969",
+    "ref": "pge:14371",
     "name": "Croghan Mountain",
     "lat": 52.7954,
     "lon": -6.3233,
@@ -930,6 +988,7 @@
   },
   {
     "id": "PSF-002970",
+    "ref": "pge:14372",
     "name": "Djouce Mtn.",
     "lat": 53.1303,
     "lon": -6.24007,
@@ -943,6 +1002,7 @@
   },
   {
     "id": "PSF-002971",
+    "ref": "pge:14373",
     "name": "Dunran Hill",
     "lat": 53.0556,
     "lon": -6.11782,
@@ -956,6 +1016,7 @@
   },
   {
     "id": "PSF-002972",
+    "ref": "pge:14374",
     "name": "Mt. Kennedy",
     "lat": 53.0831,
     "lon": -6.15095,
@@ -969,6 +1030,7 @@
   },
   {
     "id": "PSF-002973",
+    "ref": "pge:14375",
     "name": "Sugar Loaf Mountain",
     "lat": 53.1541,
     "lon": -6.1494,
@@ -986,6 +1048,7 @@
   },
   {
     "id": "PSF-002974",
+    "ref": "pge:14376",
     "name": "Tonelagee",
     "lat": 53.0532,
     "lon": -6.38191,
@@ -999,6 +1062,7 @@
   },
   {
     "id": "PSF-002975",
+    "ref": "pge:14377",
     "name": "Fanore",
     "lat": 53.118,
     "lon": -9.2879,
@@ -1015,6 +1079,7 @@
   },
   {
     "id": "PSF-002976",
+    "ref": "pge:14378",
     "name": "Gleninagh Mt.",
     "lat": 53.1289,
     "lon": -9.2063,
@@ -1031,6 +1096,7 @@
   },
   {
     "id": "PSF-002977",
+    "ref": "pge:14379",
     "name": "Slieve Bernagh",
     "lat": 52.8239,
     "lon": -8.55183,
@@ -1047,6 +1113,7 @@
   },
   {
     "id": "PSF-002978",
+    "ref": "pge:14380",
     "name": "Slieve Elva",
     "lat": 53.0835,
     "lon": -9.2685,
@@ -1063,6 +1130,7 @@
   },
   {
     "id": "PSF-002979",
+    "ref": "pge:14381",
     "name": "Castlefreke",
     "lat": 51.5563,
     "lon": -8.9653,
@@ -1078,6 +1146,7 @@
   },
   {
     "id": "PSF-002980",
+    "ref": "pge:14382",
     "name": "Healy Pass",
     "lat": 51.7247,
     "lon": -9.75836,
@@ -1091,6 +1160,7 @@
   },
   {
     "id": "PSF-002981",
+    "ref": "pge:14383",
     "name": "Hungry Hill",
     "lat": 51.676,
     "lon": -9.76515,
@@ -1104,6 +1174,7 @@
   },
   {
     "id": "PSF-002982",
+    "ref": "pge:14384",
     "name": "Inchadoney",
     "lat": 51.5981,
     "lon": -8.86156,
@@ -1120,6 +1191,7 @@
   },
   {
     "id": "PSF-002983",
+    "ref": "pge:14385",
     "name": "Knockgour / Allihies",
     "lat": 51.6417,
     "lon": -10.0007,
@@ -1136,6 +1208,7 @@
   },
   {
     "id": "PSF-002984",
+    "ref": "pge:14386",
     "name": "Mass Mt.",
     "lat": 51.6996,
     "lon": -9.69374,
@@ -1149,6 +1222,7 @@
   },
   {
     "id": "PSF-002985",
+    "ref": "pge:14387",
     "name": "Mullaghanish",
     "lat": 51.983,
     "lon": -9.14256,
@@ -1167,6 +1241,7 @@
   },
   {
     "id": "PSF-002986",
+    "ref": "pge:14388",
     "name": "Seefin - Bantry Bay",
     "lat": 51.5989,
     "lon": -9.69576,
@@ -1180,6 +1255,7 @@
   },
   {
     "id": "PSF-002987",
+    "ref": "pge:14389",
     "name": "Bolus Head",
     "lat": 51.8012,
     "lon": -10.321,
@@ -1193,6 +1269,7 @@
   },
   {
     "id": "PSF-002988",
+    "ref": "pge:14390",
     "name": "Castle (Castlegoat) Rock",
     "lat": 51.8184,
     "lon": -9.5908,
@@ -1210,6 +1287,7 @@
   },
   {
     "id": "PSF-002989",
+    "ref": "pge:14391",
     "name": "Cruach Marthain",
     "lat": 52.1495,
     "lon": -10.4311,
@@ -1223,6 +1301,7 @@
   },
   {
     "id": "PSF-002990",
+    "ref": "pge:14392",
     "name": "Eagle Mountain",
     "lat": 52.1172,
     "lon": -10.4308,
@@ -1236,6 +1315,7 @@
   },
   {
     "id": "PSF-002991",
+    "ref": "pge:14393",
     "name": "Knocknadobar",
     "lat": 51.9927,
     "lon": -10.1751,
@@ -1249,6 +1329,7 @@
   },
   {
     "id": "PSF-002992",
+    "ref": "pge:14394",
     "name": "Knocknagantee / Finnararagh",
     "lat": 51.8936,
     "lon": -9.93492,
@@ -1262,6 +1343,7 @@
   },
   {
     "id": "PSF-002993",
+    "ref": "pge:14396",
     "name": "Portmagee",
     "lat": 51.8675,
     "lon": -10.3331,
@@ -1275,6 +1357,7 @@
   },
   {
     "id": "PSF-002994",
+    "ref": "pge:14397",
     "name": "Slieve Mish Mts.",
     "lat": 52.2125,
     "lon": -9.71465,
@@ -1288,6 +1371,7 @@
   },
   {
     "id": "PSF-002995",
+    "ref": "pge:14398",
     "name": "Turner's Rock - Esk Mt.",
     "lat": 51.7846,
     "lon": -9.58679,
@@ -1307,6 +1391,7 @@
   },
   {
     "id": "PSF-002996",
+    "ref": "pge:14399",
     "name": "Galty Mountains",
     "lat": 52.3469,
     "lon": -8.25679,
@@ -1320,6 +1405,7 @@
   },
   {
     "id": "PSF-002997",
+    "ref": "pge:14400",
     "name": "Seefin - Ballyhoura Mts.",
     "lat": 52.3136,
     "lon": -8.522,
@@ -1333,6 +1419,7 @@
   },
   {
     "id": "PSF-002998",
+    "ref": "pge:14401",
     "name": "Slievereagh",
     "lat": 52.3779,
     "lon": -8.40382,
@@ -1346,6 +1433,7 @@
   },
   {
     "id": "PSF-002999",
+    "ref": "pge:14402",
     "name": "Arra",
     "lat": 52.8467,
     "lon": -8.39407,
@@ -1363,6 +1451,7 @@
   },
   {
     "id": "PSF-003000",
+    "ref": "pge:14403",
     "name": "Carrigeenina (Slievenamuck)",
     "lat": 52.4342,
     "lon": -8.17643,
@@ -1376,6 +1465,7 @@
   },
   {
     "id": "PSF-003001",
+    "ref": "pge:14404",
     "name": "Devil's Bit Mountain",
     "lat": 52.8207,
     "lon": -7.91397,
@@ -1393,6 +1483,7 @@
   },
   {
     "id": "PSF-003002",
+    "ref": "pge:14405",
     "name": "Keeper Hill / Slievekimalta",
     "lat": 52.7512,
     "lon": -8.26064,
@@ -1406,6 +1497,7 @@
   },
   {
     "id": "PSF-003003",
+    "ref": "pge:14406",
     "name": "Slievenamon",
     "lat": 52.4272,
     "lon": -7.56192,
@@ -1421,6 +1513,7 @@
   },
   {
     "id": "PSF-003004",
+    "ref": "pge:14407",
     "name": "Fathom Wood",
     "lat": 54.1197,
     "lon": -6.30853,
@@ -1434,6 +1527,7 @@
   },
   {
     "id": "PSF-003005",
+    "ref": "pge:14408",
     "name": "Slieve Gullion",
     "lat": 54.1223,
     "lon": -6.43232,
@@ -1450,6 +1544,7 @@
   },
   {
     "id": "PSF-003006",
+    "ref": "pge:14409",
     "name": "Banagher Hill",
     "lat": 54.72,
     "lon": -8.07914,
@@ -1463,6 +1558,7 @@
   },
   {
     "id": "PSF-003007",
+    "ref": "pge:14410",
     "name": "Bloody Foreland",
     "lat": 55.1374,
     "lon": -8.26028,
@@ -1476,6 +1572,7 @@
   },
   {
     "id": "PSF-003008",
+    "ref": "pge:14411",
     "name": "Croaghmuckros",
     "lat": 54.6207,
     "lon": -8.58206,
@@ -1489,6 +1586,7 @@
   },
   {
     "id": "PSF-003009",
+    "ref": "pge:14412",
     "name": "Crownarad",
     "lat": 54.6453,
     "lon": -8.51271,
@@ -1502,6 +1600,7 @@
   },
   {
     "id": "PSF-003010",
+    "ref": "pge:14413",
     "name": "Errigal Mt.",
     "lat": 55.0343,
     "lon": -8.1126,
@@ -1515,6 +1614,7 @@
   },
   {
     "id": "PSF-003011",
+    "ref": "pge:14414",
     "name": "Glengesh Hill",
     "lat": 54.7461,
     "lon": -8.46274,
@@ -1528,6 +1628,7 @@
   },
   {
     "id": "PSF-003012",
+    "ref": "pge:14415",
     "name": "Kingarrow Mtn",
     "lat": 55.0613,
     "lon": -7.91549,
@@ -1541,6 +1642,7 @@
   },
   {
     "id": "PSF-003013",
+    "ref": "pge:14416",
     "name": "Knockalla Mountain",
     "lat": 55.1658,
     "lon": -7.61244,
@@ -1554,6 +1656,7 @@
   },
   {
     "id": "PSF-003014",
+    "ref": "pge:14417",
     "name": "Lough Aderry",
     "lat": 54.7362,
     "lon": -8.02329,
@@ -1567,6 +1670,7 @@
   },
   {
     "id": "PSF-003015",
+    "ref": "pge:14418",
     "name": "Mamore - Urris Hills",
     "lat": 55.2372,
     "lon": -7.49071,
@@ -1580,6 +1684,7 @@
   },
   {
     "id": "PSF-003016",
+    "ref": "pge:14419",
     "name": "Mouldy Hill",
     "lat": 55.1023,
     "lon": -7.44543,
@@ -1593,6 +1698,7 @@
   },
   {
     "id": "PSF-003017",
+    "ref": "pge:14420",
     "name": "Muckish Mt.",
     "lat": 55.1035,
     "lon": -7.9389,
@@ -1606,6 +1712,7 @@
   },
   {
     "id": "PSF-003018",
+    "ref": "pge:14421",
     "name": "Mulmosog Mountain",
     "lat": 54.732,
     "lon": -8.39117,
@@ -1619,6 +1726,7 @@
   },
   {
     "id": "PSF-003019",
+    "ref": "pge:14422",
     "name": "Rocky Hill",
     "lat": 55.0918,
     "lon": -7.32654,
@@ -1632,6 +1740,7 @@
   },
   {
     "id": "PSF-003020",
+    "ref": "pge:14423",
     "name": "Scraigs",
     "lat": 54.8601,
     "lon": -8.10277,
@@ -1645,6 +1754,7 @@
   },
   {
     "id": "PSF-003021",
+    "ref": "pge:14424",
     "name": "Slievetooey",
     "lat": 54.7617,
     "lon": -8.5934,
@@ -1658,6 +1768,7 @@
   },
   {
     "id": "PSF-003029",
+    "ref": "pge:14435",
     "name": "Mushera (N)",
     "lat": 52.0231,
     "lon": -8.9553,
@@ -1674,6 +1785,7 @@
   },
   {
     "id": "PSF-003172",
+    "ref": "pge:14662",
     "name": "West Carpark take off  Mt. Leinster",
     "lat": 52.6578,
     "lon": -6.77283,
@@ -1691,6 +1803,7 @@
   },
   {
     "id": "PSF-003297",
+    "ref": "pge:14857",
     "name": "Loughcrillan RTE Transmitter",
     "lat": 54.817,
     "lon": -8.3189,
@@ -1708,6 +1821,7 @@
   },
   {
     "id": "PSF-003325",
+    "ref": "pge:14899",
     "name": "Lachta",
     "lat": 53.7053,
     "lon": -9.74153,
@@ -1724,6 +1838,7 @@
   },
   {
     "id": "PSF-003652",
+    "ref": "pge:15449",
     "name": "Sky Road",
     "lat": 53.5006,
     "lon": -10.0962,
@@ -1740,6 +1855,7 @@
   },
   {
     "id": "PSF-003661",
+    "ref": "pge:15459",
     "name": "Ballyelly",
     "lat": 53.1128,
     "lon": -9.27447,
@@ -1756,6 +1872,7 @@
   },
   {
     "id": "PSF-003750",
+    "ref": "pge:15606",
     "name": "Silver Strand",
     "lat": 53.2503,
     "lon": -9.1224,
@@ -1772,6 +1889,7 @@
   },
   {
     "id": "PSF-003771",
+    "ref": "pge:15637",
     "name": "Abbey Hill",
     "lat": 53.1402,
     "lon": -9.0478,
@@ -1788,6 +1906,7 @@
   },
   {
     "id": "PSF-003947",
+    "ref": "pge:15939",
     "name": "Inch Beach - This site is currently CLOSED to all Flying",
     "lat": 52.145,
     "lon": -9.99,
@@ -1805,6 +1924,7 @@
   },
   {
     "id": "PSF-003949",
+    "ref": "pge:15941",
     "name": "Knocknakilton",
     "lat": 52.19,
     "lon": -9.988,
@@ -1825,6 +1945,7 @@
   },
   {
     "id": "PSF-003950",
+    "ref": "pge:15942",
     "name": "Glengarriff",
     "lat": 51.772,
     "lon": -9.582,
@@ -1842,6 +1963,7 @@
   },
   {
     "id": "PSF-003951",
+    "ref": "pge:15943",
     "name": "Gneeves (E)",
     "lat": 52.0275,
     "lon": -9.125,
@@ -1860,6 +1982,7 @@
   },
   {
     "id": "PSF-003952",
+    "ref": "pge:15944",
     "name": "Knocknakilla    -   NW-N",
     "lat": 52.0078,
     "lon": -9.015,
@@ -1876,6 +1999,7 @@
   },
   {
     "id": "PSF-003962",
+    "ref": "pge:15956",
     "name": "Croagh Patrick East Site",
     "lat": 53.7635,
     "lon": -9.6356,
@@ -1893,6 +2017,7 @@
   },
   {
     "id": "PSF-003963",
+    "ref": "pge:15957",
     "name": "Ben Goram",
     "lat": 53.7577,
     "lon": -9.6868,
@@ -1908,6 +2033,7 @@
   },
   {
     "id": "PSF-003983",
+    "ref": "pge:15979",
     "name": "Silvermine Mts.",
     "lat": 52.7771,
     "lon": -8.2524,
@@ -1925,6 +2051,7 @@
   },
   {
     "id": "PSF-004023",
+    "ref": "pge:16038",
     "name": "Slivecarran",
     "lat": 53.1081,
     "lon": -9.014,
@@ -1941,6 +2068,7 @@
   },
   {
     "id": "PSF-004027",
+    "ref": "pge:16042",
     "name": "Slievecarran North",
     "lat": 53.1273,
     "lon": -9.0241,
@@ -1957,6 +2085,7 @@
   },
   {
     "id": "PSF-004044",
+    "ref": "pge:16062",
     "name": "Croagh Patrick South take-off",
     "lat": 53.7624,
     "lon": -9.635,
@@ -1973,6 +2102,7 @@
   },
   {
     "id": "PSF-004110",
+    "ref": "pge:16136",
     "name": "Gleninagh Mt. lower launch",
     "lat": 53.1334,
     "lon": -9.2221,
@@ -1989,6 +2119,7 @@
   },
   {
     "id": "PSF-004208",
+    "ref": "pge:16307",
     "name": "Croaghanmoira",
     "lat": 52.9145,
     "lon": -6.34027,
@@ -2002,6 +2133,7 @@
   },
   {
     "id": "PSF-004213",
+    "ref": "pge:16315",
     "name": "Spelga",
     "lat": 54.1887,
     "lon": -6.06708,
@@ -2015,6 +2147,7 @@
   },
   {
     "id": "PSF-004317",
+    "ref": "pge:16490",
     "name": "Iron Mount",
     "lat": 54.1185,
     "lon": -7.92432,
@@ -2028,6 +2161,7 @@
   },
   {
     "id": "PSF-004318",
+    "ref": "pge:16491",
     "name": "Ballinglen",
     "lat": 52.8238,
     "lon": -6.45197,
@@ -2041,6 +2175,7 @@
   },
   {
     "id": "PSF-004365",
+    "ref": "pge:16561",
     "name": "Dunany",
     "lat": 53.857,
     "lon": -6.24422,
@@ -2056,6 +2191,7 @@
   },
   {
     "id": "PSF-004388",
+    "ref": "pge:16601",
     "name": "Blackstair Mountains",
     "lat": 52.5472,
     "lon": -6.81693,
@@ -2069,6 +2205,7 @@
   },
   {
     "id": "PSF-004436",
+    "ref": "pge:16697",
     "name": "Shannakeela Mt.",
     "lat": 53.4729,
     "lon": -9.6186,
@@ -2086,6 +2223,7 @@
   },
   {
     "id": "PSF-004437",
+    "ref": "pge:16698",
     "name": "Redeemed Siner",
     "lat": 53.4742,
     "lon": -9.6067,
@@ -2103,6 +2241,7 @@
   },
   {
     "id": "PSF-004548",
+    "ref": "pge:16893",
     "name": "Faher Mountain",
     "lat": 51.9096,
     "lon": -9.8458,
@@ -2120,6 +2259,7 @@
   },
   {
     "id": "PSF-004622",
+    "ref": "pge:17021",
     "name": "Ben Wee",
     "lat": 53.6546,
     "lon": -9.5519,
@@ -2137,6 +2277,7 @@
   },
   {
     "id": "PSF-004660",
+    "ref": "pge:17089",
     "name": "Gleninagh North",
     "lat": 53.129,
     "lon": -9.2064,
@@ -2153,6 +2294,7 @@
   },
   {
     "id": "PSF-004694",
+    "ref": "pge:17136",
     "name": "Breanlee (Hydro Road)",
     "lat": 52.0152,
     "lon": -9.7813,
@@ -2169,6 +2311,7 @@
   },
   {
     "id": "PSF-004695",
+    "ref": "pge:17137",
     "name": "Gap of Dunloe",
     "lat": 52.0384,
     "lon": -9.6478,
@@ -2185,6 +2328,7 @@
   },
   {
     "id": "PSF-004696",
+    "ref": "pge:17138",
     "name": "Gougane Barra",
     "lat": 51.8436,
     "lon": -9.3249,
@@ -2201,6 +2345,7 @@
   },
   {
     "id": "PSF-004698",
+    "ref": "pge:17141",
     "name": "Skellig Michael",
     "lat": 51.7714,
     "lon": -10.5394,
@@ -2218,6 +2363,7 @@
   },
   {
     "id": "PSF-004699",
+    "ref": "pge:17142",
     "name": "Parkana",
     "lat": 51.8439,
     "lon": -9.428,
@@ -2235,6 +2381,7 @@
   },
   {
     "id": "PSF-004752",
+    "ref": "pge:17279",
     "name": "The Grasshoppers",
     "lat": 53.9778,
     "lon": -6.16952,
@@ -2248,6 +2395,7 @@
   },
   {
     "id": "PSF-004811",
+    "ref": "pge:17404",
     "name": "Madman's Seat",
     "lat": 51.9915,
     "lon": -9.6355,
@@ -2265,6 +2413,7 @@
   },
   {
     "id": "PSF-004814",
+    "ref": "pge:17407",
     "name": "Minister's Fall (Tomies Wood)",
     "lat": 52.0268,
     "lon": -9.572,
@@ -2284,6 +2433,7 @@
   },
   {
     "id": "PSF-004815",
+    "ref": "pge:17408",
     "name": "Triskbeg (Kerry Head)",
     "lat": 52.4052,
     "lon": -9.8928,
@@ -2301,6 +2451,7 @@
   },
   {
     "id": "PSF-004816",
+    "ref": "pge:17409",
     "name": "Maulin Mtn (Kerry Head",
     "lat": 52.416,
     "lon": -9.8608,
@@ -2316,6 +2467,7 @@
   },
   {
     "id": "PSF-004817",
+    "ref": "pge:17410",
     "name": "Kerry Head (West)",
     "lat": 52.4122,
     "lon": -9.9429,
@@ -2333,6 +2485,7 @@
   },
   {
     "id": "PSF-004818",
+    "ref": "pge:17411",
     "name": "Kerry Head (NW-N)",
     "lat": 52.43,
     "lon": -9.9139,
@@ -2350,6 +2503,7 @@
   },
   {
     "id": "PSF-004819",
+    "ref": "pge:17412",
     "name": "Kerry Head (Northeast)",
     "lat": 52.4279,
     "lon": -9.8714,
@@ -2366,6 +2520,7 @@
   },
   {
     "id": "PSF-004820",
+    "ref": "pge:17413",
     "name": "Ballyheigue",
     "lat": 52.3926,
     "lon": -9.8545,
@@ -2382,6 +2537,7 @@
   },
   {
     "id": "PSF-004827",
+    "ref": "pge:17430",
     "name": "Mweelin N-E",
     "lat": 51.8958,
     "lon": -9.271,
@@ -2400,6 +2556,7 @@
   },
   {
     "id": "PSF-004828",
+    "ref": "pge:17431",
     "name": "Sillaherdane",
     "lat": 51.8985,
     "lon": -9.3189,
@@ -2416,6 +2573,7 @@
   },
   {
     "id": "PSF-004829",
+    "ref": "pge:17432",
     "name": "Knockboy (Caoinkeen)",
     "lat": 51.8247,
     "lon": -9.4251,
@@ -2434,6 +2592,7 @@
   },
   {
     "id": "PSF-004830",
+    "ref": "pge:17433",
     "name": "Priest's Leap",
     "lat": 51.8354,
     "lon": -9.383,
@@ -2450,6 +2609,7 @@
   },
   {
     "id": "PSF-004831",
+    "ref": "pge:17434",
     "name": "Caum",
     "lat": 51.9018,
     "lon": -8.8837,
@@ -2465,6 +2625,7 @@
   },
   {
     "id": "PSF-004832",
+    "ref": "pge:17435",
     "name": "Stookeen",
     "lat": 52.034,
     "lon": -9.1446,
@@ -2481,6 +2642,7 @@
   },
   {
     "id": "PSF-004833",
+    "ref": "pge:17436",
     "name": "Top of Bealach (Millstreet)",
     "lat": 52.0413,
     "lon": -9.1126,
@@ -2498,6 +2660,7 @@
   },
   {
     "id": "PSF-004834",
+    "ref": "pge:17437",
     "name": "Rossacroo",
     "lat": 52.0324,
     "lon": -9.3167,
@@ -2515,6 +2678,7 @@
   },
   {
     "id": "PSF-004835",
+    "ref": "pge:17438",
     "name": "The Paps",
     "lat": 52.0154,
     "lon": -9.275,
@@ -2536,6 +2700,7 @@
   },
   {
     "id": "PSF-004836",
+    "ref": "pge:17439",
     "name": "The Paps (Southwest site)",
     "lat": 52.0033,
     "lon": -9.2731,
@@ -2553,6 +2718,7 @@
   },
   {
     "id": "PSF-004837",
+    "ref": "pge:17440",
     "name": "Knocknabro",
     "lat": 52.0135,
     "lon": -9.2323,
@@ -2571,6 +2737,7 @@
   },
   {
     "id": "PSF-004838",
+    "ref": "pge:17441",
     "name": "Knocknagowan",
     "lat": 52.011,
     "lon": -9.1847,
@@ -2589,6 +2756,7 @@
   },
   {
     "id": "PSF-004839",
+    "ref": "pge:17442",
     "name": "Killeen",
     "lat": 51.9891,
     "lon": -9.3135,
@@ -2607,6 +2775,7 @@
   },
   {
     "id": "PSF-004840",
+    "ref": "pge:17443",
     "name": "Coolcurtoga",
     "lat": 51.9967,
     "lon": -9.3145,
@@ -2623,6 +2792,7 @@
   },
   {
     "id": "PSF-004841",
+    "ref": "pge:17444",
     "name": "Crohane",
     "lat": 51.9911,
     "lon": -9.3829,
@@ -2642,6 +2812,7 @@
   },
   {
     "id": "PSF-004842",
+    "ref": "pge:17445",
     "name": "Torc",
     "lat": 51.9982,
     "lon": -9.5215,
@@ -2661,6 +2832,7 @@
   },
   {
     "id": "PSF-004843",
+    "ref": "pge:17446",
     "name": "Rosbeigh Dunes",
     "lat": 52.0642,
     "lon": -9.9735,
@@ -2678,6 +2850,7 @@
   },
   {
     "id": "PSF-004844",
+    "ref": "pge:17447",
     "name": "Bentee",
     "lat": 51.9356,
     "lon": -10.2173,
@@ -2698,6 +2871,7 @@
   },
   {
     "id": "PSF-004845",
+    "ref": "pge:17448",
     "name": "Aghatubride",
     "lat": 51.904,
     "lon": -10.1747,
@@ -2718,6 +2892,7 @@
   },
   {
     "id": "PSF-004846",
+    "ref": "pge:17449",
     "name": "Knockavahaun",
     "lat": 51.9228,
     "lon": -10.1153,
@@ -2739,6 +2914,7 @@
   },
   {
     "id": "PSF-004847",
+    "ref": "pge:17450",
     "name": "Coomduff",
     "lat": 51.9562,
     "lon": -10.1366,
@@ -2755,6 +2931,7 @@
   },
   {
     "id": "PSF-004848",
+    "ref": "pge:17451",
     "name": "Kilkeaveragh",
     "lat": 51.868,
     "lon": -10.3326,
@@ -2773,6 +2950,7 @@
   },
   {
     "id": "PSF-004849",
+    "ref": "pge:17452",
     "name": "Coonanaspig",
     "lat": 51.8569,
     "lon": -10.3806,
@@ -2789,6 +2967,7 @@
   },
   {
     "id": "PSF-004850",
+    "ref": "pge:17453",
     "name": "Foilnageragh",
     "lat": 51.8722,
     "lon": -10.3868,
@@ -2805,6 +2984,7 @@
   },
   {
     "id": "PSF-004851",
+    "ref": "pge:17454",
     "name": "Connor Pass",
     "lat": 52.1809,
     "lon": -10.2063,
@@ -2822,6 +3002,7 @@
   },
   {
     "id": "PSF-004889",
+    "ref": "pge:17507",
     "name": "Mweelrea",
     "lat": 53.6373,
     "lon": -9.8316,
@@ -2838,6 +3019,7 @@
   },
   {
     "id": "PSF-004890",
+    "ref": "pge:17508",
     "name": "Mweelrea Mt. North",
     "lat": 53.6388,
     "lon": -9.8282,
@@ -2855,6 +3037,7 @@
   },
   {
     "id": "PSF-004897",
+    "ref": "pge:17516",
     "name": "Lough Bray Upper",
     "lat": 53.1729,
     "lon": -6.3,
@@ -2872,6 +3055,7 @@
   },
   {
     "id": "PSF-004987",
+    "ref": "pge:17688",
     "name": "Brandon Mtn",
     "lat": 52.2479,
     "lon": -10.2607,
@@ -2888,6 +3072,7 @@
   },
   {
     "id": "PSF-005007",
+    "ref": "pge:17721",
     "name": "Croagh Sceirde",
     "lat": 52.1741,
     "lon": -10.1752,
@@ -2905,6 +3090,7 @@
   },
   {
     "id": "PSF-005088",
+    "ref": "pge:17875",
     "name": "Hill",
     "lat": 53.5391,
     "lon": -9.79007,
@@ -2918,6 +3104,7 @@
   },
   {
     "id": "PSF-005109",
+    "ref": "pge:17921",
     "name": "POISON 3",
     "lat": 52.8219,
     "lon": -7.00737,
@@ -2931,6 +3118,7 @@
   },
   {
     "id": "PSF-005111",
+    "ref": "pge:17923",
     "name": "Drummin Double Dysza",
     "lat": 53.0584,
     "lon": -6.29873,
@@ -2944,6 +3132,7 @@
   },
   {
     "id": "PSF-005168",
+    "ref": "pge:18040",
     "name": "MARIUS",
     "lat": 52.6537,
     "lon": -6.70208,
@@ -2957,6 +3146,7 @@
   },
   {
     "id": "PSF-005202",
+    "ref": "pge:18109",
     "name": "The Hags' Teeth",
     "lat": 52.0153,
     "lon": -9.7253,
@@ -2973,6 +3163,7 @@
   },
   {
     "id": "PSF-005203",
+    "ref": "pge:18110",
     "name": "The Windy Gap",
     "lat": 52.0321,
     "lon": -9.9314,
@@ -2993,6 +3184,7 @@
   },
   {
     "id": "PSF-005305",
+    "ref": "pge:18389",
     "name": "Mum",
     "lat": 53.518,
     "lon": -9.5356,
@@ -3008,6 +3200,7 @@
   },
   {
     "id": "PSF-005335",
+    "ref": "pge:18502",
     "name": "Comeragh N-NE",
     "lat": 52.2627,
     "lon": -7.5094,
@@ -3021,6 +3214,7 @@
   },
   {
     "id": "PSF-005371",
+    "ref": "pge:18623",
     "name": "Lough Navar",
     "lat": 54.4631,
     "lon": -7.9287,
@@ -3038,6 +3232,7 @@
   },
   {
     "id": "PSF-005431",
+    "ref": "pge:18710",
     "name": "Shillelagh",
     "lat": 52.7823,
     "lon": -6.55568,
@@ -3051,6 +3246,7 @@
   },
   {
     "id": "PSF-005432",
+    "ref": "pge:18712",
     "name": "Galtymore  Anteny NW,N",
     "lat": 52.3137,
     "lon": -8.3097,
@@ -3064,6 +3260,7 @@
   },
   {
     "id": "PSF-005438",
+    "ref": "pge:18722",
     "name": "Galtymore NE ,N",
     "lat": 52.3731,
     "lon": -8.16928,
@@ -3077,6 +3274,7 @@
   },
   {
     "id": "PSF-005443",
+    "ref": "pge:18729",
     "name": "Comeragh S, SE",
     "lat": 52.223,
     "lon": -7.55237,
@@ -3090,6 +3288,7 @@
   },
   {
     "id": "PSF-005444",
+    "ref": "pge:18731",
     "name": "Farrandalouge",
     "lat": 52.2378,
     "lon": -10.1276,
@@ -3103,6 +3302,7 @@
   },
   {
     "id": "PSF-005445",
+    "ref": "pge:18732",
     "name": "Rafal's Marius ESE",
     "lat": 52.7217,
     "lon": -7.02853,
@@ -3116,6 +3316,7 @@
   },
   {
     "id": "PSF-005477",
+    "ref": "pge:18807",
     "name": "Nine Stones",
     "lat": 52.6394,
     "lon": -6.8017,
@@ -3133,6 +3334,7 @@
   },
   {
     "id": "PSF-005524",
+    "ref": "pge:18859",
     "name": "BallyMac.@Seven Heads Bay",
     "lat": 51.598,
     "lon": -8.7025,
@@ -3149,6 +3351,7 @@
   },
   {
     "id": "PSF-005525",
+    "ref": "pge:18860",
     "name": "Coolim Cliffs @ Seven HEads Bay",
     "lat": 51.6031,
     "lon": -8.695,
@@ -3167,6 +3370,7 @@
   },
   {
     "id": "PSF-005645",
+    "ref": "pge:19278",
     "name": "The Heat",
     "lat": 53.0655,
     "lon": -7.206,
@@ -3189,6 +3393,7 @@
   },
   {
     "id": "PSF-005657",
+    "ref": "pge:19302",
     "name": "Limetree",
     "lat": 53.1142,
     "lon": -7.2446,
@@ -3211,6 +3416,7 @@
   },
   {
     "id": "PSF-005723",
+    "ref": "pge:19394",
     "name": "Shehy Mtn",
     "lat": 52.0196,
     "lon": -9.5746,
@@ -3230,6 +3436,7 @@
   },
   {
     "id": "PSF-005773",
+    "ref": "pge:19454",
     "name": "Arroo",
     "lat": 54.4149,
     "lon": -8.2435,
@@ -3245,6 +3452,7 @@
   },
   {
     "id": "PSF-005794",
+    "ref": "pge:19483",
     "name": "Corranabinnia",
     "lat": 53.9595,
     "lon": -9.6843,
@@ -3262,6 +3470,7 @@
   },
   {
     "id": "PSF-005975",
+    "ref": "pge:19738",
     "name": "Ballybanaun",
     "lat": 53.6738,
     "lon": -9.4101,
@@ -3279,6 +3488,7 @@
   },
   {
     "id": "PSF-005996",
+    "ref": "pge:19764",
     "name": "Leenaun",
     "lat": 53.5749,
     "lon": -9.699,
@@ -3297,6 +3507,7 @@
   },
   {
     "id": "PSF-006023",
+    "ref": "pge:19797",
     "name": "Gyles Quay",
     "lat": 53.9864,
     "lon": -6.2289,
@@ -3312,6 +3523,7 @@
   },
   {
     "id": "PSF-006117",
+    "ref": "pge:19985",
     "name": "Good Lad",
     "lat": 53.192,
     "lon": -8.91327,
@@ -3325,6 +3537,7 @@
   },
   {
     "id": "PSF-006204",
+    "ref": "pge:20083",
     "name": "Doolin 2",
     "lat": 53.0135,
     "lon": -9.39033,
@@ -3338,6 +3551,7 @@
   },
   {
     "id": "PSF-006215",
+    "ref": "pge:20095",
     "name": "Skerries",
     "lat": 53.5908,
     "lon": -6.1549,
@@ -3351,6 +3565,7 @@
   },
   {
     "id": "PSF-009624",
+    "ref": "pge:6703",
     "name": "Sorrel Hill",
     "lat": 53.1383,
     "lon": -6.4418,
@@ -3368,6 +3583,7 @@
   },
   {
     "id": "PSF-009641",
+    "ref": "pge:6721",
     "name": "Mount Leinster",
     "lat": 52.6188,
     "lon": -6.78205,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000104",
+    "ref": "pge:10127",
     "name": "Cochrane",
     "lat": 51.1955,
     "lon": -114.449,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-000269",
+    "ref": "pge:10310",
     "name": "Dennis Beach",
     "lat": 45.629,
     "lon": -64.8436,
@@ -36,6 +38,7 @@
   },
   {
     "id": "PSF-000287",
+    "ref": "pge:10329",
     "name": "Sim Site",
     "lat": 49.3495,
     "lon": -122.734,
@@ -49,6 +52,7 @@
   },
   {
     "id": "PSF-000323",
+    "ref": "pge:10370",
     "name": "Point Prim",
     "lat": 46.0733,
     "lon": -62.9712,
@@ -66,6 +70,7 @@
   },
   {
     "id": "PSF-000324",
+    "ref": "pge:10371",
     "name": "Halliday Bank",
     "lat": 46.1061,
     "lon": -62.896,
@@ -81,6 +86,7 @@
   },
   {
     "id": "PSF-000412",
+    "ref": "pge:10470",
     "name": "Mont-Edouard",
     "lat": 48.1551,
     "lon": -70.2872,
@@ -100,6 +106,7 @@
   },
   {
     "id": "PSF-000544",
+    "ref": "pge:10634",
     "name": "Ymir - Mt Dundee",
     "lat": 49.2912,
     "lon": -117.179,
@@ -118,6 +125,7 @@
   },
   {
     "id": "PSF-000552",
+    "ref": "pge:10645",
     "name": "Salt Spring Island, Bruce Peak",
     "lat": 48.7671,
     "lon": -123.508,
@@ -134,6 +142,7 @@
   },
   {
     "id": "PSF-000553",
+    "ref": "pge:10646",
     "name": "Mount Prevost",
     "lat": 48.8313,
     "lon": -123.767,
@@ -152,6 +161,7 @@
   },
   {
     "id": "PSF-000750",
+    "ref": "pge:10882",
     "name": "Ottawa paragliding school",
     "lat": 45.4522,
     "lon": -75.4668,
@@ -174,6 +184,7 @@
   },
   {
     "id": "PSF-000848",
+    "ref": "pge:11000",
     "name": "Camrose Ridge",
     "lat": 52.7898,
     "lon": -112.689,
@@ -191,6 +202,7 @@
   },
   {
     "id": "PSF-000994",
+    "ref": "pge:11171",
     "name": "Fox River",
     "lat": 45.4006,
     "lon": -64.5276,
@@ -208,6 +220,7 @@
   },
   {
     "id": "PSF-000997",
+    "ref": "pge:11175",
     "name": "White Mountain",
     "lat": 60.3023,
     "lon": -133.947,
@@ -226,6 +239,7 @@
   },
   {
     "id": "PSF-001011",
+    "ref": "pge:11191",
     "name": "Vista Mountain",
     "lat": 60.9322,
     "lon": -135.222,
@@ -245,6 +259,7 @@
   },
   {
     "id": "PSF-001012",
+    "ref": "pge:11192",
     "name": "Sodbusters",
     "lat": 61.0201,
     "lon": -135.214,
@@ -262,6 +277,7 @@
   },
   {
     "id": "PSF-001013",
+    "ref": "pge:11193",
     "name": "Little Fox Lake",
     "lat": 61.3474,
     "lon": -135.637,
@@ -279,6 +295,7 @@
   },
   {
     "id": "PSF-001014",
+    "ref": "pge:11194",
     "name": "Eagle Site - Jakes Corner",
     "lat": 60.3613,
     "lon": -133.92,
@@ -297,6 +314,7 @@
   },
   {
     "id": "PSF-001015",
+    "ref": "pge:11195",
     "name": "Minto Landing",
     "lat": 62.577,
     "lon": -136.793,
@@ -314,6 +332,7 @@
   },
   {
     "id": "PSF-001016",
+    "ref": "pge:11197",
     "name": "Stewart Crossing",
     "lat": 63.409,
     "lon": -136.776,
@@ -330,6 +349,7 @@
   },
   {
     "id": "PSF-001017",
+    "ref": "pge:11198",
     "name": "Klondike - Tombstone Campground",
     "lat": 64.5211,
     "lon": -138.23,
@@ -347,6 +367,7 @@
   },
   {
     "id": "PSF-001018",
+    "ref": "pge:11199",
     "name": "Klondike - Tombstone Goldensides",
     "lat": 64.5264,
     "lon": -138.199,
@@ -364,6 +385,7 @@
   },
   {
     "id": "PSF-001019",
+    "ref": "pge:11200",
     "name": "Klondike - Tombstone Angelcomb",
     "lat": 64.6047,
     "lon": -138.275,
@@ -381,6 +403,7 @@
   },
   {
     "id": "PSF-001020",
+    "ref": "pge:11201",
     "name": "Dawson - Dome",
     "lat": 64.0677,
     "lon": -139.396,
@@ -400,6 +423,7 @@
   },
   {
     "id": "PSF-001021",
+    "ref": "pge:11202",
     "name": "Klondike - US-Canada Border",
     "lat": 64.109,
     "lon": -140.793,
@@ -415,6 +439,7 @@
   },
   {
     "id": "PSF-001022",
+    "ref": "pge:11203",
     "name": "Fraser Lake",
     "lat": 59.7198,
     "lon": -135.094,
@@ -434,6 +459,7 @@
   },
   {
     "id": "PSF-001023",
+    "ref": "pge:11205",
     "name": "Dawson - King Solomon Dome",
     "lat": 63.868,
     "lon": -138.954,
@@ -451,6 +477,7 @@
   },
   {
     "id": "PSF-001024",
+    "ref": "pge:11206",
     "name": "Carcross Desert Training Hill",
     "lat": 60.1886,
     "lon": -134.689,
@@ -466,6 +493,7 @@
   },
   {
     "id": "PSF-001025",
+    "ref": "pge:11208",
     "name": "Teslin Tower",
     "lat": 60.2106,
     "lon": -132.815,
@@ -483,6 +511,7 @@
   },
   {
     "id": "PSF-001026",
+    "ref": "pge:11209",
     "name": "Richards Roost",
     "lat": 60.5371,
     "lon": -134.371,
@@ -500,6 +529,7 @@
   },
   {
     "id": "PSF-001027",
+    "ref": "pge:11210",
     "name": "Haines Junction Paint Mountain",
     "lat": 60.8258,
     "lon": -137.51,
@@ -515,6 +545,7 @@
   },
   {
     "id": "PSF-001028",
+    "ref": "pge:11211",
     "name": "Three Guardsmen Pass",
     "lat": 59.5986,
     "lon": -136.471,
@@ -534,6 +565,7 @@
   },
   {
     "id": "PSF-001030",
+    "ref": "pge:11213",
     "name": "Mountainview",
     "lat": 60.7748,
     "lon": -135.083,
@@ -551,6 +583,7 @@
   },
   {
     "id": "PSF-001031",
+    "ref": "pge:11214",
     "name": "Klondike - Keno",
     "lat": 63.9179,
     "lon": -135.303,
@@ -564,6 +597,7 @@
   },
   {
     "id": "PSF-001035",
+    "ref": "pge:11218",
     "name": "Tally-Ho",
     "lat": 60.2294,
     "lon": -135.047,
@@ -583,6 +617,7 @@
   },
   {
     "id": "PSF-001068",
+    "ref": "pge:11264",
     "name": "Dawson - Dome North Launch",
     "lat": 64.0691,
     "lon": -139.401,
@@ -596,6 +631,7 @@
   },
   {
     "id": "PSF-001069",
+    "ref": "pge:11266",
     "name": "Dawson - Fire-tower",
     "lat": 64.0561,
     "lon": -139.339,
@@ -609,6 +645,7 @@
   },
   {
     "id": "PSF-001070",
+    "ref": "pge:11267",
     "name": "Dawson - Landing Zone",
     "lat": 64.0594,
     "lon": -139.439,
@@ -622,6 +659,7 @@
   },
   {
     "id": "PSF-001071",
+    "ref": "pge:11268",
     "name": "Klondike - Tombstone A",
     "lat": 64.4118,
     "lon": -138.667,
@@ -635,6 +673,7 @@
   },
   {
     "id": "PSF-001072",
+    "ref": "pge:11269",
     "name": "Klondike - Tombstone B",
     "lat": 64.4258,
     "lon": -138.624,
@@ -648,6 +687,7 @@
   },
   {
     "id": "PSF-001073",
+    "ref": "pge:11275",
     "name": "Klondike  - Tombstone 02",
     "lat": 64.5867,
     "lon": -138.248,
@@ -661,6 +701,7 @@
   },
   {
     "id": "PSF-001074",
+    "ref": "pge:11276",
     "name": "Klondike - Top-World Hwy 03",
     "lat": 64.0908,
     "lon": -140.958,
@@ -674,6 +715,7 @@
   },
   {
     "id": "PSF-001075",
+    "ref": "pge:11277",
     "name": "Klondike - Top-World Hwy 02",
     "lat": 64.0975,
     "lon": -140.885,
@@ -687,6 +729,7 @@
   },
   {
     "id": "PSF-001076",
+    "ref": "pge:11278",
     "name": "Klondike - Top-World Hwy 01",
     "lat": 64.2004,
     "lon": -140.352,
@@ -700,6 +743,7 @@
   },
   {
     "id": "PSF-001095",
+    "ref": "pge:11303",
     "name": "Pt Burwell",
     "lat": 42.6439,
     "lon": -80.7925,
@@ -716,6 +760,7 @@
   },
   {
     "id": "PSF-001097",
+    "ref": "pge:11310",
     "name": "Blue Point",
     "lat": 43.0962,
     "lon": -82.1304,
@@ -733,6 +778,7 @@
   },
   {
     "id": "PSF-001179",
+    "ref": "pge:11408",
     "name": "Shannon Lake",
     "lat": 49.8613,
     "lon": -119.64,
@@ -749,6 +795,7 @@
   },
   {
     "id": "PSF-001325",
+    "ref": "pge:11584",
     "name": "Bridal Falls (Lower)",
     "lat": 49.1712,
     "lon": -121.749,
@@ -766,6 +813,7 @@
   },
   {
     "id": "PSF-001516",
+    "ref": "pge:11903",
     "name": "Mont des Florents",
     "lat": 47.5081,
     "lon": -70.5243,
@@ -784,6 +832,7 @@
   },
   {
     "id": "PSF-001636",
+    "ref": "pge:12124",
     "name": "Freedom Road",
     "lat": 52.8173,
     "lon": -112.28,
@@ -797,6 +846,7 @@
   },
   {
     "id": "PSF-001664",
+    "ref": "pge:12161",
     "name": "Blue Grouse",
     "lat": 49.9507,
     "lon": -119.512,
@@ -814,6 +864,7 @@
   },
   {
     "id": "PSF-001671",
+    "ref": "pge:12178",
     "name": "Nanton Tow Site",
     "lat": 50.4264,
     "lon": -113.686,
@@ -827,6 +878,7 @@
   },
   {
     "id": "PSF-001699",
+    "ref": "pge:12223",
     "name": "Saddle Mountain",
     "lat": 50.2617,
     "lon": -118.945,
@@ -843,6 +895,7 @@
   },
   {
     "id": "PSF-002047",
+    "ref": "pge:12898",
     "name": "Standard Tow Site",
     "lat": 50.9286,
     "lon": -113.005,
@@ -856,6 +909,7 @@
   },
   {
     "id": "PSF-002054",
+    "ref": "pge:12906",
     "name": "Vulcan Tow rd. 161",
     "lat": 50.3214,
     "lon": -113.255,
@@ -869,6 +923,7 @@
   },
   {
     "id": "PSF-002100",
+    "ref": "pge:12982",
     "name": "Rainbow Mountain  (BC)",
     "lat": 52.5363,
     "lon": -125.338,
@@ -882,6 +937,7 @@
   },
   {
     "id": "PSF-002167",
+    "ref": "pge:13091",
     "name": "Blackcomb Mountain",
     "lat": 50.0945,
     "lon": -122.908,
@@ -895,6 +951,7 @@
   },
   {
     "id": "PSF-002461",
+    "ref": "pge:13560",
     "name": "Vulcan Tow Site",
     "lat": 50.4034,
     "lon": -113.438,
@@ -908,6 +965,7 @@
   },
   {
     "id": "PSF-002463",
+    "ref": "pge:13562",
     "name": "Camrose",
     "lat": 52.8432,
     "lon": -112.568,
@@ -921,6 +979,7 @@
   },
   {
     "id": "PSF-002518",
+    "ref": "pge:13658",
     "name": "Steinbach North airport, MB",
     "lat": 49.5523,
     "lon": -96.6812,
@@ -934,6 +993,7 @@
   },
   {
     "id": "PSF-002519",
+    "ref": "pge:13659",
     "name": "Sale Mtn, BC",
     "lat": 51.1668,
     "lon": -118.157,
@@ -950,6 +1010,7 @@
   },
   {
     "id": "PSF-002521",
+    "ref": "pge:13661",
     "name": "Deadman's / Savona, BC",
     "lat": 50.7943,
     "lon": -120.902,
@@ -963,6 +1024,7 @@
   },
   {
     "id": "PSF-002523",
+    "ref": "pge:13664",
     "name": "Sun Peaks, BC",
     "lat": 50.898,
     "lon": -119.922,
@@ -976,6 +1038,7 @@
   },
   {
     "id": "PSF-002524",
+    "ref": "pge:13665",
     "name": "Smithers, BC",
     "lat": 54.7994,
     "lon": -126.873,
@@ -989,6 +1052,7 @@
   },
   {
     "id": "PSF-002525",
+    "ref": "pge:13666",
     "name": "Cornwall, BC",
     "lat": 50.6931,
     "lon": -121.448,
@@ -1002,6 +1066,7 @@
   },
   {
     "id": "PSF-002527",
+    "ref": "pge:13668",
     "name": "Vulcan",
     "lat": 50.3645,
     "lon": -113.323,
@@ -1015,6 +1080,7 @@
   },
   {
     "id": "PSF-002528",
+    "ref": "pge:13672",
     "name": "Brussels",
     "lat": 43.7482,
     "lon": -81.2381,
@@ -1028,6 +1094,7 @@
   },
   {
     "id": "PSF-002530",
+    "ref": "pge:13674",
     "name": "Winnifred",
     "lat": 49.9604,
     "lon": -111.126,
@@ -1041,6 +1108,7 @@
   },
   {
     "id": "PSF-002545",
+    "ref": "pge:13705",
     "name": "Drowning Ford",
     "lat": 50.2686,
     "lon": -110.596,
@@ -1054,6 +1122,7 @@
   },
   {
     "id": "PSF-002688",
+    "ref": "pge:13946",
     "name": "BEISEKER",
     "lat": 51.3605,
     "lon": -113.709,
@@ -1067,6 +1136,7 @@
   },
   {
     "id": "PSF-002702",
+    "ref": "pge:13965",
     "name": "Winnifred N-S",
     "lat": 49.9469,
     "lon": -111.074,
@@ -1080,6 +1150,7 @@
   },
   {
     "id": "PSF-002786",
+    "ref": "pge:14092",
     "name": "LaFramboise",
     "lat": 45.5298,
     "lon": -75.962,
@@ -1097,6 +1168,7 @@
   },
   {
     "id": "PSF-002868",
+    "ref": "pge:14229",
     "name": "Mont Pelneault",
     "lat": 46.3956,
     "lon": -75.5149,
@@ -1114,6 +1186,7 @@
   },
   {
     "id": "PSF-002910",
+    "ref": "pge:14298",
     "name": "Bald Peak",
     "lat": 47.1733,
     "lon": -67.1084,
@@ -1136,6 +1209,7 @@
   },
   {
     "id": "PSF-002911",
+    "ref": "pge:14299",
     "name": "Gardner's Creek",
     "lat": 45.2651,
     "lon": -65.7331,
@@ -1153,6 +1227,7 @@
   },
   {
     "id": "PSF-002912",
+    "ref": "pge:14300",
     "name": "Red Head",
     "lat": 45.2512,
     "lon": -66.0107,
@@ -1170,6 +1245,7 @@
   },
   {
     "id": "PSF-002914",
+    "ref": "pge:14302",
     "name": "Welsford",
     "lat": 45.472,
     "lon": -66.5086,
@@ -1187,6 +1263,7 @@
   },
   {
     "id": "PSF-002915",
+    "ref": "pge:14303",
     "name": "Florenceville",
     "lat": 46.4356,
     "lon": -67.5693,
@@ -1203,6 +1280,7 @@
   },
   {
     "id": "PSF-003051",
+    "ref": "pge:14477",
     "name": "Thompson's lookout",
     "lat": 49.0878,
     "lon": -116.378,
@@ -1219,6 +1297,7 @@
   },
   {
     "id": "PSF-003090",
+    "ref": "pge:14538",
     "name": "Cliffton",
     "lat": 47.7361,
     "lon": -65.3818,
@@ -1236,6 +1315,7 @@
   },
   {
     "id": "PSF-003223",
+    "ref": "pge:14765",
     "name": "Hidden Falls",
     "lat": 45.4324,
     "lon": -64.2489,
@@ -1252,6 +1332,7 @@
   },
   {
     "id": "PSF-003224",
+    "ref": "pge:14767",
     "name": "Cape Chignecto",
     "lat": 45.3532,
     "lon": -64.8309,
@@ -1268,6 +1349,7 @@
   },
   {
     "id": "PSF-003225",
+    "ref": "pge:14768",
     "name": "Economy Mountain",
     "lat": 45.3997,
     "lon": -64.0059,
@@ -1284,6 +1366,7 @@
   },
   {
     "id": "PSF-003226",
+    "ref": "pge:14769",
     "name": "Half Island",
     "lat": 44.6369,
     "lon": -63.3137,
@@ -1301,6 +1384,7 @@
   },
   {
     "id": "PSF-003227",
+    "ref": "pge:14770",
     "name": "West Bay",
     "lat": 45.3701,
     "lon": -64.3916,
@@ -1318,6 +1402,7 @@
   },
   {
     "id": "PSF-003228",
+    "ref": "pge:14771",
     "name": "Joggins",
     "lat": 45.7116,
     "lon": -64.4349,
@@ -1335,6 +1420,7 @@
   },
   {
     "id": "PSF-003230",
+    "ref": "pge:14774",
     "name": "High Head",
     "lat": 45.6185,
     "lon": -63.5388,
@@ -1350,6 +1436,7 @@
   },
   {
     "id": "PSF-003231",
+    "ref": "pge:14776",
     "name": "Hugh's Brook",
     "lat": 48.9895,
     "lon": -57.8929,
@@ -1368,6 +1455,7 @@
   },
   {
     "id": "PSF-003364",
+    "ref": "pge:14963",
     "name": "Daysland",
     "lat": 52.756,
     "lon": -111.965,
@@ -1381,6 +1469,7 @@
   },
   {
     "id": "PSF-003365",
+    "ref": "pge:14964",
     "name": "North Battleford",
     "lat": 52.9294,
     "lon": -108.342,
@@ -1394,6 +1483,7 @@
   },
   {
     "id": "PSF-003402",
+    "ref": "pge:15029",
     "name": "Bolean",
     "lat": 50.5226,
     "lon": -119.526,
@@ -1407,6 +1497,7 @@
   },
   {
     "id": "PSF-003496",
+    "ref": "pge:15184",
     "name": "High Perspective Tow",
     "lat": 43.9131,
     "lon": -79.1318,
@@ -1428,6 +1519,7 @@
   },
   {
     "id": "PSF-003497",
+    "ref": "pge:15185",
     "name": "East Point Park Scarborough",
     "lat": 43.7631,
     "lon": -79.15,
@@ -1445,6 +1537,7 @@
   },
   {
     "id": "PSF-003498",
+    "ref": "pge:15186",
     "name": "Centennial Park Etobicoke",
     "lat": 43.6561,
     "lon": -79.5903,
@@ -1463,6 +1556,7 @@
   },
   {
     "id": "PSF-003608",
+    "ref": "pge:15367",
     "name": "Tofield",
     "lat": 53.3066,
     "lon": -112.587,
@@ -1485,6 +1579,7 @@
   },
   {
     "id": "PSF-003650",
+    "ref": "pge:15447",
     "name": "Luskville Ouest",
     "lat": 45.5318,
     "lon": -75.9772,
@@ -1502,6 +1597,7 @@
   },
   {
     "id": "PSF-003653",
+    "ref": "pge:15450",
     "name": "Brennan recreational farm",
     "lat": 46.0088,
     "lon": -77.2062,
@@ -1520,6 +1616,7 @@
   },
   {
     "id": "PSF-003667",
+    "ref": "pge:15465",
     "name": "Riverdale Park",
     "lat": 43.6701,
     "lon": -79.3547,
@@ -1536,6 +1633,7 @@
   },
   {
     "id": "PSF-003704",
+    "ref": "pge:15529",
     "name": "Kings Forest Park Hamilton aka The Nest",
     "lat": 43.2136,
     "lon": -79.8146,
@@ -1553,6 +1651,7 @@
   },
   {
     "id": "PSF-003917",
+    "ref": "pge:15897",
     "name": "Atlin - Monarch Mountain",
     "lat": 59.5467,
     "lon": -133.627,
@@ -1570,6 +1669,7 @@
   },
   {
     "id": "PSF-003923",
+    "ref": "pge:15906",
     "name": "Cathedral Bluffers Park (Toronto)",
     "lat": 43.7165,
     "lon": -79.2281,
@@ -1585,6 +1685,7 @@
   },
   {
     "id": "PSF-003924",
+    "ref": "pge:15907",
     "name": "Westover Training Hill",
     "lat": 43.3359,
     "lon": -80.0811,
@@ -1600,6 +1701,7 @@
   },
   {
     "id": "PSF-003948",
+    "ref": "pge:15940",
     "name": "Mont Adstock",
     "lat": 46.0313,
     "lon": -71.1981,
@@ -1620,6 +1722,7 @@
   },
   {
     "id": "PSF-004020",
+    "ref": "pge:16023",
     "name": "Sussex",
     "lat": 45.7775,
     "lon": -65.4377,
@@ -1642,6 +1745,7 @@
   },
   {
     "id": "PSF-004090",
+    "ref": "pge:16115",
     "name": "Mt. Sima",
     "lat": 60.6047,
     "lon": -135.062,
@@ -1661,6 +1765,7 @@
   },
   {
     "id": "PSF-004142",
+    "ref": "pge:16189",
     "name": "Prarie Mountain",
     "lat": 50.8882,
     "lon": -114.807,
@@ -1678,6 +1783,7 @@
   },
   {
     "id": "PSF-004304",
+    "ref": "pge:16458",
     "name": "Anarchist (Osoyoos)",
     "lat": 49.0458,
     "lon": -119.403,
@@ -1693,6 +1799,7 @@
   },
   {
     "id": "PSF-004316",
+    "ref": "pge:16487",
     "name": "Chimps Pioneered",
     "lat": 50.8064,
     "lon": -121.23,
@@ -1706,6 +1813,7 @@
   },
   {
     "id": "PSF-004321",
+    "ref": "pge:16497",
     "name": "Camrose",
     "lat": 53.8065,
     "lon": -112.369,
@@ -1719,6 +1827,7 @@
   },
   {
     "id": "PSF-004394",
+    "ref": "pge:16610",
     "name": "Stoney Creek Airport",
     "lat": 43.1687,
     "lon": -79.7095,
@@ -1732,6 +1841,7 @@
   },
   {
     "id": "PSF-004424",
+    "ref": "pge:16664",
     "name": "King Eddy Baldy",
     "lat": 50.2034,
     "lon": -119.154,
@@ -1745,6 +1855,7 @@
   },
   {
     "id": "PSF-004428",
+    "ref": "pge:16685",
     "name": "Blackstrap Ridge / Saskatoon Ridge",
     "lat": 51.7738,
     "lon": -106.452,
@@ -1762,6 +1873,7 @@
   },
   {
     "id": "PSF-004459",
+    "ref": "pge:16730",
     "name": "Nares Mountain",
     "lat": 60.1666,
     "lon": -134.607,
@@ -1775,6 +1887,7 @@
   },
   {
     "id": "PSF-004460",
+    "ref": "pge:16731",
     "name": "Mount Mac",
     "lat": 60.6224,
     "lon": -135.144,
@@ -1792,6 +1905,7 @@
   },
   {
     "id": "PSF-004461",
+    "ref": "pge:16734",
     "name": "Camping Ste Veronique",
     "lat": 46.5097,
     "lon": -74.9834,
@@ -1807,6 +1921,7 @@
   },
   {
     "id": "PSF-004462",
+    "ref": "pge:16735",
     "name": "Mont-Blanc",
     "lat": 46.1007,
     "lon": -74.4917,
@@ -1824,6 +1939,7 @@
   },
   {
     "id": "PSF-004467",
+    "ref": "pge:16744",
     "name": "Nadahini",
     "lat": 59.6943,
     "lon": -136.63,
@@ -1842,6 +1958,7 @@
   },
   {
     "id": "PSF-004477",
+    "ref": "pge:16757",
     "name": "Teston Rd Vaughan",
     "lat": 43.8763,
     "lon": -79.5123,
@@ -1858,6 +1975,7 @@
   },
   {
     "id": "PSF-004570",
+    "ref": "pge:16939",
     "name": "Teston Rd Vaughn 2nd site",
     "lat": 43.8705,
     "lon": -79.5051,
@@ -1877,6 +1995,7 @@
   },
   {
     "id": "PSF-004572",
+    "ref": "pge:16941",
     "name": "Intrepid Park Whitby",
     "lat": 43.8523,
     "lon": -78.8799,
@@ -1893,6 +2012,7 @@
   },
   {
     "id": "PSF-004574",
+    "ref": "pge:16945",
     "name": "Thickson Rd Whitby",
     "lat": 43.8488,
     "lon": -78.8999,
@@ -1910,6 +2030,7 @@
   },
   {
     "id": "PSF-004578",
+    "ref": "pge:16950",
     "name": "Fly Hills Lower, Mid and Upper Launches.",
     "lat": 50.6863,
     "lon": -119.412,
@@ -1930,6 +2051,7 @@
   },
   {
     "id": "PSF-004580",
+    "ref": "pge:16952",
     "name": "Fly Hills north",
     "lat": 50.691,
     "lon": -119.387,
@@ -1946,6 +2068,7 @@
   },
   {
     "id": "PSF-005122",
+    "ref": "pge:17975",
     "name": "Petite neigette",
     "lat": 48.4468,
     "lon": -68.3008,
@@ -1965,6 +2088,7 @@
   },
   {
     "id": "PSF-005287",
+    "ref": "pge:18342",
     "name": "Coopers ('Thermal Rise')",
     "lat": 50.2856,
     "lon": -118.986,
@@ -1983,6 +2107,7 @@
   },
   {
     "id": "PSF-005295",
+    "ref": "pge:18354",
     "name": "Le Grand Morne",
     "lat": 46.1373,
     "lon": -71.1001,
@@ -2000,6 +2125,7 @@
   },
   {
     "id": "PSF-005298",
+    "ref": "pge:18377",
     "name": "Dawson - Sunnydale",
     "lat": 64.0557,
     "lon": -139.461,
@@ -2016,6 +2142,7 @@
   },
   {
     "id": "PSF-005369",
+    "ref": "pge:18620",
     "name": "Diefenbaker Training Hill",
     "lat": 49.0054,
     "lon": -123.074,
@@ -2035,6 +2162,7 @@
   },
   {
     "id": "PSF-005456",
+    "ref": "pge:18777",
     "name": "Haeckel Hill",
     "lat": 60.7479,
     "lon": -135.233,
@@ -2053,6 +2181,7 @@
   },
   {
     "id": "PSF-005457",
+    "ref": "pge:18778",
     "name": "Schwatka Lake",
     "lat": 60.694,
     "lon": -135.031,
@@ -2069,6 +2198,7 @@
   },
   {
     "id": "PSF-005460",
+    "ref": "pge:18781",
     "name": "Havelock",
     "lat": 45.9865,
     "lon": -65.2961,
@@ -2090,6 +2220,7 @@
   },
   {
     "id": "PSF-005484",
+    "ref": "pge:18815",
     "name": "Tyler's Bay",
     "lat": 46.2325,
     "lon": -64.2509,
@@ -2107,6 +2238,7 @@
   },
   {
     "id": "PSF-005668",
+    "ref": "pge:19317",
     "name": "Little Nic",
     "lat": 49.19,
     "lon": -122.147,
@@ -2124,6 +2256,7 @@
   },
   {
     "id": "PSF-005727",
+    "ref": "pge:19398",
     "name": "Lower Ripley - CLOSED DO NOT FLY",
     "lat": 49.251,
     "lon": -119.608,
@@ -2141,6 +2274,7 @@
   },
   {
     "id": "PSF-005736",
+    "ref": "pge:19410",
     "name": "Mont Ste-Marie (MSM) South",
     "lat": 45.9275,
     "lon": -75.8806,
@@ -2158,6 +2292,7 @@
   },
   {
     "id": "PSF-005813",
+    "ref": "pge:19516",
     "name": "Hedley",
     "lat": 49.3515,
     "lon": -120.035,
@@ -2176,6 +2311,7 @@
   },
   {
     "id": "PSF-005814",
+    "ref": "pge:19517",
     "name": "Cawston",
     "lat": 49.1854,
     "lon": -119.699,
@@ -2194,6 +2330,7 @@
   },
   {
     "id": "PSF-005843",
+    "ref": "pge:19550",
     "name": "Mont Ste-Marie (MSM) West",
     "lat": 45.9344,
     "lon": -75.8767,
@@ -2211,6 +2348,7 @@
   },
   {
     "id": "PSF-005915",
+    "ref": "pge:19659",
     "name": "Mont-Megantic",
     "lat": 45.4476,
     "lon": -71.1195,
@@ -2228,6 +2366,7 @@
   },
   {
     "id": "PSF-005976",
+    "ref": "pge:19739",
     "name": "Mesa Butte",
     "lat": 50.7794,
     "lon": -114.561,
@@ -2245,6 +2384,7 @@
   },
   {
     "id": "PSF-005981",
+    "ref": "pge:19744",
     "name": "Idaho Peak",
     "lat": 49.971,
     "lon": -117.3,
@@ -2267,6 +2407,7 @@
   },
   {
     "id": "PSF-006010",
+    "ref": "pge:19783",
     "name": "Pin rouge",
     "lat": 48.3237,
     "lon": -65.7179,
@@ -2285,6 +2426,7 @@
   },
   {
     "id": "PSF-006032",
+    "ref": "pge:19807",
     "name": "Elk Mountain",
     "lat": 49.1132,
     "lon": -121.804,
@@ -2303,6 +2445,7 @@
   },
   {
     "id": "PSF-006077",
+    "ref": "pge:19869",
     "name": "Sumas Mountain",
     "lat": 49.1193,
     "lon": -122.126,
@@ -2316,6 +2459,7 @@
   },
   {
     "id": "PSF-006119",
+    "ref": "pge:19987",
     "name": "Mt. Bruce",
     "lat": 50.5195,
     "lon": -116.223,
@@ -2329,6 +2473,7 @@
   },
   {
     "id": "PSF-006120",
+    "ref": "pge:19988",
     "name": "Whitetail Lake",
     "lat": 50.2163,
     "lon": -116.071,
@@ -2342,6 +2487,7 @@
   },
   {
     "id": "PSF-006121",
+    "ref": "pge:19989",
     "name": "Eagle Hill",
     "lat": 50.448,
     "lon": -115.907,
@@ -2355,6 +2501,7 @@
   },
   {
     "id": "PSF-006142",
+    "ref": "pge:20012",
     "name": "Tunnel Bluff",
     "lat": 49.4868,
     "lon": -123.237,
@@ -2368,6 +2515,7 @@
   },
   {
     "id": "PSF-006193",
+    "ref": "pge:20069",
     "name": "Padella Peak",
     "lat": 54.8481,
     "lon": -126.919,
@@ -2381,6 +2529,7 @@
   },
   {
     "id": "PSF-006194",
+    "ref": "pge:20070",
     "name": "Kits",
     "lat": 54.9489,
     "lon": -127.479,
@@ -2394,6 +2543,7 @@
   },
   {
     "id": "PSF-006246",
+    "ref": "pge:20131",
     "name": "Jasper Tram",
     "lat": 52.8368,
     "lon": -118.129,
@@ -2407,6 +2557,7 @@
   },
   {
     "id": "PSF-006253",
+    "ref": "pge:20139",
     "name": "Galahad E-W",
     "lat": 52.4923,
     "lon": -111.963,
@@ -2420,6 +2571,7 @@
   },
   {
     "id": "PSF-006258",
+    "ref": "pge:20145",
     "name": "Alliance S/W Tow",
     "lat": 52.4048,
     "lon": -111.586,
@@ -2433,6 +2585,7 @@
   },
   {
     "id": "PSF-006283",
+    "ref": "pge:20862",
     "name": "The Pimple",
     "lat": 50.7527,
     "lon": -120.523,
@@ -2446,6 +2599,7 @@
   },
   {
     "id": "PSF-006288",
+    "ref": "pge:21054",
     "name": "Carleton",
     "lat": 48.1205,
     "lon": -66.0406,
@@ -2459,6 +2613,7 @@
   },
   {
     "id": "PSF-006472",
+    "ref": "pge:21417",
     "name": "Mount St. Benedict",
     "lat": 49.2979,
     "lon": -122.205,
@@ -2472,6 +2627,7 @@
   },
   {
     "id": "PSF-006473",
+    "ref": "pge:21419",
     "name": "Benny School LZ",
     "lat": 49.2134,
     "lon": -122.234,
@@ -2485,6 +2641,7 @@
   },
   {
     "id": "PSF-006474",
+    "ref": "pge:21420",
     "name": "Stawamus Chief Mountain",
     "lat": 49.6828,
     "lon": -123.144,
@@ -2498,6 +2655,7 @@
   },
   {
     "id": "PSF-006528",
+    "ref": "pge:21481",
     "name": "Blacktail Creek",
     "lat": 48.9859,
     "lon": -114.975,
@@ -2511,6 +2669,7 @@
   },
   {
     "id": "PSF-006531",
+    "ref": "pge:21484",
     "name": "Go Parapente",
     "lat": 46.2385,
     "lon": -74.1043,
@@ -2530,6 +2689,7 @@
   },
   {
     "id": "PSF-006570",
+    "ref": "pge:21526",
     "name": "Orofino",
     "lat": 49.2254,
     "lon": -119.78,
@@ -2543,6 +2703,7 @@
   },
   {
     "id": "PSF-006571",
+    "ref": "pge:21527",
     "name": "Mount Kobau",
     "lat": 49.1113,
     "lon": -119.667,
@@ -2556,6 +2717,7 @@
   },
   {
     "id": "PSF-006632",
+    "ref": "pge:21604",
     "name": "Benny PG",
     "lat": 49.2847,
     "lon": -122.214,
@@ -2569,6 +2731,7 @@
   },
   {
     "id": "PSF-006633",
+    "ref": "pge:21605",
     "name": "Benny HG",
     "lat": 49.2832,
     "lon": -122.21,
@@ -2582,6 +2745,7 @@
   },
   {
     "id": "PSF-006668",
+    "ref": "pge:21650",
     "name": "Horsefly",
     "lat": 49.2798,
     "lon": -121.983,
@@ -2595,6 +2759,7 @@
   },
   {
     "id": "PSF-006700",
+    "ref": "pge:21682",
     "name": "Cherryville Golf Course LZ",
     "lat": 50.2498,
     "lon": -118.704,
@@ -2608,6 +2773,7 @@
   },
   {
     "id": "PSF-006810",
+    "ref": "pge:21802",
     "name": "Ross' Ridge",
     "lat": 46.1156,
     "lon": -62.8838,
@@ -2625,6 +2791,7 @@
   },
   {
     "id": "PSF-006811",
+    "ref": "pge:21803",
     "name": "Cousins Shore",
     "lat": 46.5516,
     "lon": -63.5962,
@@ -2641,6 +2808,7 @@
   },
   {
     "id": "PSF-006812",
+    "ref": "pge:21804",
     "name": "Shaws Bank",
     "lat": 46.171,
     "lon": -63.4011,
@@ -2656,6 +2824,7 @@
   },
   {
     "id": "PSF-006813",
+    "ref": "pge:21805",
     "name": "Fitzpatricks Mountain",
     "lat": 45.6458,
     "lon": -62.8807,
@@ -2671,6 +2840,7 @@
   },
   {
     "id": "PSF-006814",
+    "ref": "pge:21806",
     "name": "Greenhill Provincial Park",
     "lat": 45.5824,
     "lon": -62.7951,
@@ -2686,6 +2856,7 @@
   },
   {
     "id": "PSF-006840",
+    "ref": "pge:21838",
     "name": "Mara",
     "lat": 50.7119,
     "lon": -118.996,
@@ -2699,6 +2870,7 @@
   },
   {
     "id": "PSF-006841",
+    "ref": "pge:21839",
     "name": "Sicamous",
     "lat": 50.8605,
     "lon": -118.996,
@@ -2712,6 +2884,7 @@
   },
   {
     "id": "PSF-007015",
+    "ref": "pge:22030",
     "name": "Savona",
     "lat": 50.762,
     "lon": -120.879,
@@ -2731,6 +2904,7 @@
   },
   {
     "id": "PSF-007016",
+    "ref": "pge:22031",
     "name": "Fernie Mic Towers",
     "lat": 49.4451,
     "lon": -114.99,
@@ -2744,6 +2918,7 @@
   },
   {
     "id": "PSF-007017",
+    "ref": "pge:22032",
     "name": "Fernie LZ",
     "lat": 49.5121,
     "lon": -115.054,
@@ -2757,6 +2932,7 @@
   },
   {
     "id": "PSF-007019",
+    "ref": "pge:22034",
     "name": "SavonaBowl",
     "lat": 50.7707,
     "lon": -120.902,
@@ -2776,6 +2952,7 @@
   },
   {
     "id": "PSF-007044",
+    "ref": "pge:22064",
     "name": "Chetwynd",
     "lat": 55.6346,
     "lon": -121.577,
@@ -2789,6 +2966,7 @@
   },
   {
     "id": "PSF-007215",
+    "ref": "pge:22274",
     "name": "port smellon",
     "lat": 49.543,
     "lon": -123.468,
@@ -2802,6 +2980,7 @@
   },
   {
     "id": "PSF-007216",
+    "ref": "pge:22275",
     "name": "soames hill",
     "lat": 49.4207,
     "lon": -123.488,
@@ -2815,6 +2994,7 @@
   },
   {
     "id": "PSF-007217",
+    "ref": "pge:22276",
     "name": "mt elphinstone",
     "lat": 49.4604,
     "lon": -123.565,
@@ -2828,6 +3008,7 @@
   },
   {
     "id": "PSF-007218",
+    "ref": "pge:22277",
     "name": "Sechelt Ridge",
     "lat": 49.4986,
     "lon": -123.696,
@@ -2841,6 +3022,7 @@
   },
   {
     "id": "PSF-007219",
+    "ref": "pge:22278",
     "name": "mt richardson",
     "lat": 49.569,
     "lon": -123.756,
@@ -2854,6 +3036,7 @@
   },
   {
     "id": "PSF-007220",
+    "ref": "pge:22279",
     "name": "mt hallowell",
     "lat": 49.681,
     "lon": -123.941,
@@ -2867,6 +3050,7 @@
   },
   {
     "id": "PSF-007255",
+    "ref": "pge:22316",
     "name": "Rainbow Mountain (Alpine Meadows)",
     "lat": 50.1426,
     "lon": -122.984,
@@ -2880,6 +3064,7 @@
   },
   {
     "id": "PSF-007256",
+    "ref": "pge:22317",
     "name": "Meadow Park",
     "lat": 50.1444,
     "lon": -122.962,
@@ -2893,6 +3078,7 @@
   },
   {
     "id": "PSF-007339",
+    "ref": "pge:22413",
     "name": "Mont-Ham",
     "lat": 45.7896,
     "lon": -71.6348,
@@ -2909,6 +3095,7 @@
   },
   {
     "id": "PSF-007349",
+    "ref": "pge:22423",
     "name": "Saint-Fabien N",
     "lat": 48.3055,
     "lon": -68.8858,
@@ -2926,6 +3113,7 @@
   },
   {
     "id": "PSF-007529",
+    "ref": "pge:22617",
     "name": "Cap-Santé",
     "lat": 46.678,
     "lon": -71.8053,
@@ -2943,6 +3131,7 @@
   },
   {
     "id": "PSF-007588",
+    "ref": "pge:22687",
     "name": "Grand Valley",
     "lat": 44.0163,
     "lon": -80.324,
@@ -2956,6 +3145,7 @@
   },
   {
     "id": "PSF-007627",
+    "ref": "pge:22728",
     "name": "Pokeshaw Cliff / Air Exploration",
     "lat": 47.7676,
     "lon": -65.2961,
@@ -2974,6 +3164,7 @@
   },
   {
     "id": "PSF-007631",
+    "ref": "pge:22732",
     "name": "Baie-des-Sables",
     "lat": 48.7032,
     "lon": -67.9262,
@@ -2991,6 +3182,7 @@
   },
   {
     "id": "PSF-007750",
+    "ref": "pge:22875",
     "name": "Athabasca Lookout",
     "lat": 53.408,
     "lon": -117.787,
@@ -3004,6 +3196,7 @@
   },
   {
     "id": "PSF-007781",
+    "ref": "pge:22908",
     "name": "Les Dunes",
     "lat": 48.1543,
     "lon": -69.6671,
@@ -3021,6 +3214,7 @@
   },
   {
     "id": "PSF-007845",
+    "ref": "pge:22980",
     "name": "CVLY OUEST",
     "lat": 45.4542,
     "lon": -72.8797,
@@ -3034,6 +3228,7 @@
   },
   {
     "id": "PSF-007846",
+    "ref": "pge:22981",
     "name": "CVLY NORD EST",
     "lat": 45.4728,
     "lon": -72.8577,
@@ -3047,6 +3242,7 @@
   },
   {
     "id": "PSF-007847",
+    "ref": "pge:22982",
     "name": "CVLY NORD",
     "lat": 45.4729,
     "lon": -72.8586,
@@ -3060,6 +3256,7 @@
   },
   {
     "id": "PSF-007848",
+    "ref": "pge:22983",
     "name": "Yamaska deco SUD",
     "lat": 45.447,
     "lon": -72.8725,
@@ -3073,6 +3270,7 @@
   },
   {
     "id": "PSF-007894",
+    "ref": "pge:23031",
     "name": "Goderich",
     "lat": 43.7273,
     "lon": -81.7235,
@@ -3089,6 +3287,7 @@
   },
   {
     "id": "PSF-008106",
+    "ref": "pge:23258",
     "name": "Ha Ling",
     "lat": 51.0602,
     "lon": -115.398,
@@ -3102,6 +3301,7 @@
   },
   {
     "id": "PSF-008107",
+    "ref": "pge:23259",
     "name": "Grotto Mountain",
     "lat": 51.0952,
     "lon": -115.288,
@@ -3115,6 +3315,7 @@
   },
   {
     "id": "PSF-008135",
+    "ref": "pge:23290",
     "name": "Lac-au-Saumon",
     "lat": 48.4457,
     "lon": -67.3468,
@@ -3132,6 +3333,7 @@
   },
   {
     "id": "PSF-008136",
+    "ref": "pge:23291",
     "name": "Amqui",
     "lat": 48.4529,
     "lon": -67.3729,
@@ -3148,6 +3350,7 @@
   },
   {
     "id": "PSF-008137",
+    "ref": "pge:23292",
     "name": "Saint-Fulgence",
     "lat": 48.4436,
     "lon": -70.9,
@@ -3167,6 +3370,7 @@
   },
   {
     "id": "PSF-008297",
+    "ref": "pge:23479",
     "name": "Emerald Lake",
     "lat": 51.4565,
     "lon": -116.57,
@@ -3180,6 +3384,7 @@
   },
   {
     "id": "PSF-008298",
+    "ref": "pge:23480",
     "name": "Moose Mountain",
     "lat": 50.905,
     "lon": -114.783,
@@ -3193,6 +3398,7 @@
   },
   {
     "id": "PSF-008299",
+    "ref": "pge:23481",
     "name": "Lady MacDonald",
     "lat": 51.1162,
     "lon": -115.317,
@@ -3206,6 +3412,7 @@
   },
   {
     "id": "PSF-008300",
+    "ref": "pge:23482",
     "name": "Panorama Roller Coaster Launch",
     "lat": 50.4363,
     "lon": -116.219,
@@ -3219,6 +3426,7 @@
   },
   {
     "id": "PSF-008301",
+    "ref": "pge:23483",
     "name": "Panorama Top Launch",
     "lat": 50.4309,
     "lon": -116.205,
@@ -3232,6 +3440,7 @@
   },
   {
     "id": "PSF-008311",
+    "ref": "pge:23493",
     "name": "Paragliding Ontario Tow Field",
     "lat": 42.9256,
     "lon": -80.1201,
@@ -3254,6 +3463,7 @@
   },
   {
     "id": "PSF-008336",
+    "ref": "pge:23525",
     "name": "XCT 900",
     "lat": 49.2993,
     "lon": -122.216,
@@ -3267,6 +3477,7 @@
   },
   {
     "id": "PSF-008358",
+    "ref": "pge:23549",
     "name": "Ottos",
     "lat": 49.2609,
     "lon": -119.607,
@@ -3285,6 +3496,7 @@
   },
   {
     "id": "PSF-008359",
+    "ref": "pge:23550",
     "name": "Seacrest",
     "lat": 49.2543,
     "lon": -119.578,
@@ -3303,6 +3515,7 @@
   },
   {
     "id": "PSF-008365",
+    "ref": "pge:23556",
     "name": "Gower Point",
     "lat": 49.3844,
     "lon": -123.537,
@@ -3316,6 +3529,7 @@
   },
   {
     "id": "PSF-008383",
+    "ref": "pge:23576",
     "name": "Upper Ripley",
     "lat": 49.2432,
     "lon": -119.622,
@@ -3335,6 +3549,7 @@
   },
   {
     "id": "PSF-008569",
+    "ref": "pge:23795",
     "name": "Irwin Lower",
     "lat": 49.3407,
     "lon": -124.856,
@@ -3352,6 +3567,7 @@
   },
   {
     "id": "PSF-008598",
+    "ref": "pge:23826",
     "name": "Mt Strachan NW",
     "lat": 49.411,
     "lon": -123.195,
@@ -3365,6 +3581,7 @@
   },
   {
     "id": "PSF-008630",
+    "ref": "pge:23865",
     "name": "Kitchener",
     "lat": 50.2844,
     "lon": -125.703,
@@ -3383,6 +3600,7 @@
   },
   {
     "id": "PSF-009600",
+    "ref": "pge:6677",
     "name": "Tenas Hill",
     "lat": 55.4469,
     "lon": -127.655,
@@ -3400,6 +3618,7 @@
   },
   {
     "id": "PSF-009629",
+    "ref": "pge:6709",
     "name": "Pemberton",
     "lat": 50.3529,
     "lon": -122.799,
@@ -3416,6 +3635,7 @@
   },
   {
     "id": "PSF-009630",
+    "ref": "pge:6710",
     "name": "Mt 7 - Golden",
     "lat": 51.2758,
     "lon": -116.885,
@@ -3433,6 +3653,7 @@
   },
   {
     "id": "PSF-009651",
+    "ref": "pge:6735",
     "name": "Woodside",
     "lat": 49.2431,
     "lon": -121.89,
@@ -3449,6 +3670,7 @@
   },
   {
     "id": "PSF-009655",
+    "ref": "pge:6739",
     "name": "Grouse",
     "lat": 49.386,
     "lon": -123.077,
@@ -3465,6 +3687,7 @@
   },
   {
     "id": "PSF-009905",
+    "ref": "pge:7082",
     "name": "Yamaska (Montreal)",
     "lat": 45.4522,
     "lon": -72.8781,
@@ -3486,6 +3709,7 @@
   },
   {
     "id": "PSF-009927",
+    "ref": "pge:7109",
     "name": "MacKenzie",
     "lat": 50.9652,
     "lon": -118.103,
@@ -3503,6 +3727,7 @@
   },
   {
     "id": "PSF-009953",
+    "ref": "pge:7147",
     "name": "Swansea",
     "lat": 50.5081,
     "lon": -115.953,
@@ -3520,6 +3745,7 @@
   },
   {
     "id": "PSF-010143",
+    "ref": "pge:7393",
     "name": "Kaaikop",
     "lat": 46.2278,
     "lon": -74.189,
@@ -3537,6 +3763,7 @@
   },
   {
     "id": "PSF-011310",
+    "ref": "pge:9741",
     "name": "Mont-Sainte-Anne",
     "lat": 47.0807,
     "lon": -70.9347,
@@ -3555,6 +3782,7 @@
   },
   {
     "id": "PSF-011388",
+    "ref": "pge:9837",
     "name": "carlosparaglideclub",
     "lat": 45.3941,
     "lon": -75.6718,
@@ -3577,6 +3805,7 @@
   },
   {
     "id": "PSF-011491",
+    "ref": "pge:9981",
     "name": "Mont St Pierre",
     "lat": 49.2272,
     "lon": -65.785,

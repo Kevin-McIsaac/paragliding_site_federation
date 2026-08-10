@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-002906",
+    "ref": "pge:14289",
     "name": "Kerimasi Crater",
     "lat": -2.87275,
     "lon": 35.9556,
@@ -14,6 +15,7 @@
   },
   {
     "id": "PSF-003031",
+    "ref": "pge:14437",
     "name": "World's en View",
     "lat": -8.83103,
     "lon": 33.5418,
@@ -30,6 +32,7 @@
   },
   {
     "id": "PSF-004701",
+    "ref": "pge:17144",
     "name": "Ol'molog",
     "lat": -2.841,
     "lon": 37.148,
@@ -52,6 +55,7 @@
   },
   {
     "id": "PSF-004763",
+    "ref": "pge:17296",
     "name": "Manyara South",
     "lat": -3.79272,
     "lon": 35.6757,
@@ -65,6 +69,7 @@
   },
   {
     "id": "PSF-004776",
+    "ref": "pge:17324",
     "name": "Lengai Volcano SE",
     "lat": -2.77018,
     "lon": 35.9365,
@@ -78,6 +83,7 @@
   },
   {
     "id": "PSF-004777",
+    "ref": "pge:17325",
     "name": "Engare Sero",
     "lat": -2.61737,
     "lon": 35.8675,
@@ -91,6 +97,7 @@
   },
   {
     "id": "PSF-004781",
+    "ref": "pge:17332",
     "name": "Ol-joro",
     "lat": -3.4427,
     "lon": 36.6043,
@@ -104,6 +111,7 @@
   },
   {
     "id": "PSF-006270",
+    "ref": "pge:20487",
     "name": "Kilimanjaro Stella Point",
     "lat": -3.07963,
     "lon": 37.3624,
@@ -117,6 +125,7 @@
   },
   {
     "id": "PSF-007221",
+    "ref": "pge:22280",
     "name": "Mount Mbeya",
     "lat": -8.83996,
     "lon": 33.3686,
@@ -130,6 +139,7 @@
   },
   {
     "id": "PSF-007222",
+    "ref": "pge:22281",
     "name": "Mbeya Cross",
     "lat": -8.86171,
     "lon": 33.4256,
@@ -146,6 +156,7 @@
   },
   {
     "id": "PSF-009540",
+    "ref": "pge:6606",
     "name": "Usambara ridge",
     "lat": -4.83787,
     "lon": 38.2802,

@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-006576",
+    "ref": "pge:21532",
     "name": "Orrisdale Head",
     "lat": 54.3069,
     "lon": -4.58171,
@@ -17,6 +18,7 @@
   },
   {
     "id": "PSF-006577",
+    "ref": "pge:21533",
     "name": "Shellag Point",
     "lat": 54.3692,
     "lon": -4.37586,
@@ -30,6 +32,7 @@
   },
   {
     "id": "PSF-006578",
+    "ref": "pge:21534",
     "name": "Bulgham Bay",
     "lat": 54.2475,
     "lon": -4.36913,
@@ -43,6 +46,7 @@
   },
   {
     "id": "PSF-006579",
+    "ref": "pge:21535",
     "name": "Dog Mills",
     "lat": 54.3441,
     "lon": -4.38423,
@@ -56,6 +60,7 @@
   },
   {
     "id": "PSF-006580",
+    "ref": "pge:21536",
     "name": "North Barrule",
     "lat": 54.2901,
     "lon": -4.39376,
@@ -71,6 +76,7 @@
   },
   {
     "id": "PSF-006581",
+    "ref": "pge:21537",
     "name": "Beinn y Phott",
     "lat": 54.2443,
     "lon": -4.48605,
@@ -87,6 +93,7 @@
   },
   {
     "id": "PSF-006582",
+    "ref": "pge:21538",
     "name": "Slieau Ruy",
     "lat": 54.2124,
     "lon": -4.56104,
@@ -104,6 +111,7 @@
   },
   {
     "id": "PSF-006583",
+    "ref": "pge:21539",
     "name": "South Barrule",
     "lat": 54.1494,
     "lon": -4.6691,
@@ -123,6 +131,7 @@
   },
   {
     "id": "PSF-006584",
+    "ref": "pge:21540",
     "name": "Keppel Gate",
     "lat": 54.2132,
     "lon": -4.47195,
@@ -136,6 +145,7 @@
   },
   {
     "id": "PSF-006585",
+    "ref": "pge:21541",
     "name": "The site with no name",
     "lat": 54.2452,
     "lon": -4.51384,
@@ -149,6 +159,7 @@
   },
   {
     "id": "PSF-006586",
+    "ref": "pge:21542",
     "name": "Sartfell",
     "lat": 54.2518,
     "lon": -4.56104,
@@ -165,6 +176,7 @@
   },
   {
     "id": "PSF-006587",
+    "ref": "pge:21543",
     "name": "Slieau Curn",
     "lat": 54.2846,
     "lon": -4.55263,
@@ -181,6 +193,7 @@
   },
   {
     "id": "PSF-006588",
+    "ref": "pge:21544",
     "name": "Slieau Maggle",
     "lat": 54.242,
     "lon": -4.54268,
@@ -194,6 +207,7 @@
   },
   {
     "id": "PSF-006589",
+    "ref": "pge:21545",
     "name": "Cronk ny Arrey Laa",
     "lat": 54.1332,
     "lon": -4.72361,
@@ -210,6 +224,7 @@
   },
   {
     "id": "PSF-006590",
+    "ref": "pge:21546",
     "name": "Glen Mooar",
     "lat": 54.272,
     "lon": -4.60851,
@@ -223,6 +238,7 @@
   },
   {
     "id": "PSF-006591",
+    "ref": "pge:21547",
     "name": "Balleira Beach",
     "lat": 54.2901,
     "lon": -4.59095,
@@ -239,6 +255,7 @@
   },
   {
     "id": "PSF-006592",
+    "ref": "pge:21548",
     "name": "Snaefell",
     "lat": 54.2631,
     "lon": -4.46071,
@@ -258,6 +275,7 @@
   },
   {
     "id": "PSF-006593",
+    "ref": "pge:21550",
     "name": "Ballaugh",
     "lat": 54.3069,
     "lon": -4.51976,
@@ -273,6 +291,7 @@
   },
   {
     "id": "PSF-006594",
+    "ref": "pge:21551",
     "name": "North Barrule",
     "lat": 54.293,
     "lon": -4.38157,
@@ -286,6 +305,7 @@
   },
   {
     "id": "PSF-006595",
+    "ref": "pge:21552",
     "name": "Jurby",
     "lat": 54.3731,
     "lon": -4.52176,
@@ -301,6 +321,7 @@
   },
   {
     "id": "PSF-006596",
+    "ref": "pge:21553",
     "name": "Sartfield",
     "lat": 54.3665,
     "lon": -4.53469,
@@ -316,6 +337,7 @@
   },
   {
     "id": "PSF-006597",
+    "ref": "pge:21554",
     "name": "Peel Hill",
     "lat": 54.2229,
     "lon": -4.70314,
@@ -331,6 +353,7 @@
   },
   {
     "id": "PSF-006598",
+    "ref": "pge:21555",
     "name": "Sartfell NW",
     "lat": 54.2523,
     "lon": -4.56068,
@@ -344,6 +367,7 @@
   },
   {
     "id": "PSF-006599",
+    "ref": "pge:21556",
     "name": "Port Erin beach",
     "lat": 54.088,
     "lon": -4.75928,
@@ -360,6 +384,7 @@
   },
   {
     "id": "PSF-006759",
+    "ref": "pge:21749",
     "name": "Andreas Airfield (Paramotor)",
     "lat": 54.3724,
     "lon": -4.42015,

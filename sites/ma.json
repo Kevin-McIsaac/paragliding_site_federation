@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-000443",
+    "ref": "pge:10508",
     "name": "Sidi Ifni",
     "lat": 29.3632,
     "lon": -10.1711,
@@ -18,6 +19,7 @@
   },
   {
     "id": "PSF-001093",
+    "ref": "pge:11301",
     "name": "Tiz'n Test",
     "lat": 30.8605,
     "lon": -8.377,
@@ -35,6 +37,7 @@
   },
   {
     "id": "PSF-001995",
+    "ref": "pge:12800",
     "name": "Tifnit",
     "lat": 30.1837,
     "lon": -9.63844,
@@ -50,6 +53,7 @@
   },
   {
     "id": "PSF-002850",
+    "ref": "pge:14206",
     "name": "Touflith / Ait Barka",
     "lat": 31.4527,
     "lon": -7.4447,
@@ -67,6 +71,7 @@
   },
   {
     "id": "PSF-002855",
+    "ref": "pge:14216",
     "name": "Mzouda",
     "lat": 31.2139,
     "lon": -8.5986,
@@ -82,6 +87,7 @@
   },
   {
     "id": "PSF-003123",
+    "ref": "pge:14590",
     "name": "192km",
     "lat": 32.6153,
     "lon": -9.17627,
@@ -95,6 +101,7 @@
   },
   {
     "id": "PSF-003337",
+    "ref": "pge:14921",
     "name": "Skoura",
     "lat": 31.0791,
     "lon": -6.46058,
@@ -108,6 +115,7 @@
   },
   {
     "id": "PSF-003912",
+    "ref": "pge:15891",
     "name": "Kerdous",
     "lat": 29.5446,
     "lon": -9.3425,
@@ -125,6 +133,7 @@
   },
   {
     "id": "PSF-003913",
+    "ref": "pge:15892",
     "name": "Tirhmi",
     "lat": 29.5973,
     "lon": -9.38149,
@@ -141,6 +150,7 @@
   },
   {
     "id": "PSF-003921",
+    "ref": "pge:15904",
     "name": "Taghazout",
     "lat": 30.5693,
     "lon": -9.73115,
@@ -158,6 +168,7 @@
   },
   {
     "id": "PSF-004624",
+    "ref": "pge:17024",
     "name": "Taghia",
     "lat": 31.8006,
     "lon": -6.07042,
@@ -171,6 +182,7 @@
   },
   {
     "id": "PSF-004874",
+    "ref": "pge:17488",
     "name": "Oulja",
     "lat": 33.9646,
     "lon": -6.762,
@@ -188,6 +200,7 @@
   },
   {
     "id": "PSF-004875",
+    "ref": "pge:17489",
     "name": "Plage des nations (Plage)",
     "lat": 34.1477,
     "lon": -6.73559,
@@ -205,6 +218,7 @@
   },
   {
     "id": "PSF-004876",
+    "ref": "pge:17490",
     "name": "Plage des nations (Grande Dune)",
     "lat": 34.1608,
     "lon": -6.72611,
@@ -222,6 +236,7 @@
   },
   {
     "id": "PSF-004877",
+    "ref": "pge:17491",
     "name": "Moulay Bousselham (Plage)",
     "lat": 34.8963,
     "lon": -6.28832,
@@ -239,6 +254,7 @@
   },
   {
     "id": "PSF-004878",
+    "ref": "pge:17492",
     "name": "Moulay Bousselham (Grande Dune)",
     "lat": 34.8678,
     "lon": -6.29764,
@@ -256,6 +272,7 @@
   },
   {
     "id": "PSF-004882",
+    "ref": "pge:17496",
     "name": "MTERBA",
     "lat": 33.8006,
     "lon": -4.7422,
@@ -273,6 +290,7 @@
   },
   {
     "id": "PSF-005363",
+    "ref": "pge:18611",
     "name": "Imsouane",
     "lat": 30.8352,
     "lon": -9.8003,
@@ -290,6 +308,7 @@
   },
   {
     "id": "PSF-005527",
+    "ref": "pge:18862",
     "name": "Mzedra-Est",
     "lat": 33.7997,
     "lon": -4.7366,
@@ -307,6 +326,7 @@
   },
   {
     "id": "PSF-005542",
+    "ref": "pge:18878",
     "name": "MTERBA-West",
     "lat": 33.8001,
     "lon": -4.7431,
@@ -323,6 +343,7 @@
   },
   {
     "id": "PSF-005545",
+    "ref": "pge:18883",
     "name": "Zalagh",
     "lat": 34.1055,
     "lon": -4.9679,
@@ -343,6 +364,7 @@
   },
   {
     "id": "PSF-006012",
+    "ref": "pge:19785",
     "name": "Legzira Beach (the beach)",
     "lat": 29.4394,
     "lon": -10.1204,
@@ -359,6 +381,7 @@
   },
   {
     "id": "PSF-006127",
+    "ref": "pge:19996",
     "name": "Soly Site",
     "lat": 33.4649,
     "lon": -6.47735,
@@ -372,6 +395,7 @@
   },
   {
     "id": "PSF-006136",
+    "ref": "pge:20006",
     "name": "Little Spot",
     "lat": 33.6568,
     "lon": -7.28378,
@@ -385,6 +409,7 @@
   },
   {
     "id": "PSF-006137",
+    "ref": "pge:20007",
     "name": "Sidi Abderrazzak Spot",
     "lat": 33.9317,
     "lon": -6.11338,
@@ -398,6 +423,7 @@
   },
   {
     "id": "PSF-006138",
+    "ref": "pge:20008",
     "name": "Mnasra Spot",
     "lat": 34.4824,
     "lon": -6.51695,
@@ -411,6 +437,7 @@
   },
   {
     "id": "PSF-006139",
+    "ref": "pge:20009",
     "name": "Fedallat Spot",
     "lat": 33.5504,
     "lon": -7.18733,
@@ -424,6 +451,7 @@
   },
   {
     "id": "PSF-006140",
+    "ref": "pge:20010",
     "name": "Id Magha Spot",
     "lat": 29.5521,
     "lon": -10.0103,
@@ -437,6 +465,7 @@
   },
   {
     "id": "PSF-006152",
+    "ref": "pge:20023",
     "name": "Abdellah Ibn Yassine",
     "lat": 33.7423,
     "lon": -6.71478,
@@ -450,6 +479,7 @@
   },
   {
     "id": "PSF-007198",
+    "ref": "pge:22256",
     "name": "\"Raven's home\" Crete de Guigou",
     "lat": 33.3354,
     "lon": -4.81871,
@@ -467,6 +497,7 @@
   },
   {
     "id": "PSF-007199",
+    "ref": "pge:22257",
     "name": "\"ALMOU\" Soaring boulemane",
     "lat": 33.3212,
     "lon": -4.70185,
@@ -483,6 +514,7 @@
   },
   {
     "id": "PSF-007200",
+    "ref": "pge:22258",
     "name": "Boulemane North learning place",
     "lat": 33.3315,
     "lon": -4.69644,
@@ -498,6 +530,7 @@
   },
   {
     "id": "PSF-007201",
+    "ref": "pge:22259",
     "name": "Titchouk",
     "lat": 33.3939,
     "lon": -4.65856,
@@ -514,6 +547,7 @@
   },
   {
     "id": "PSF-007241",
+    "ref": "pge:22302",
     "name": "Dousderm",
     "lat": 29.6536,
     "lon": -8.95628,
@@ -530,6 +564,7 @@
   },
   {
     "id": "PSF-007242",
+    "ref": "pge:22303",
     "name": "Tahala",
     "lat": 29.6056,
     "lon": -9.1547,
@@ -546,6 +581,7 @@
   },
   {
     "id": "PSF-008462",
+    "ref": "pge:23669",
     "name": "Bounaamane",
     "lat": 29.5108,
     "lon": -9.75561,
@@ -561,6 +597,7 @@
   },
   {
     "id": "PSF-009711",
+    "ref": "pge:6820",
     "name": "Nid d'Aigle",
     "lat": 29.7004,
     "lon": -9.9318,
@@ -578,6 +615,7 @@
   },
   {
     "id": "PSF-009712",
+    "ref": "pge:6821",
     "name": "Idikel (Idikl/ Tafraout)",
     "lat": 29.711,
     "lon": -8.84659,
@@ -595,6 +633,7 @@
   },
   {
     "id": "PSF-009774",
+    "ref": "pge:6901",
     "name": "Aglou beach",
     "lat": 29.855,
     "lon": -9.79218,
@@ -612,6 +651,7 @@
   },
   {
     "id": "PSF-009775",
+    "ref": "pge:6902",
     "name": "Aguergour",
     "lat": 31.2972,
     "lon": -8.0654,
@@ -630,6 +670,7 @@
   },
   {
     "id": "PSF-009776",
+    "ref": "pge:6903",
     "name": "Ait-ourir",
     "lat": 31.5057,
     "lon": -7.6937,
@@ -645,6 +686,7 @@
   },
   {
     "id": "PSF-009792",
+    "ref": "pge:6923",
     "name": "Legzira (the hill)",
     "lat": 29.4416,
     "lon": -10.1008,
@@ -662,6 +704,7 @@
   },
   {
     "id": "PSF-009793",
+    "ref": "pge:6924",
     "name": "Merzouga Dunes",
     "lat": 31.0773,
     "lon": -3.9922,

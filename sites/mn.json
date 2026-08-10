@@ -1,6 +1,7 @@
 [
   {
     "id": "PSF-008293",
+    "ref": "pge:23474",
     "name": "Bayanzurh Mountain",
     "lat": 47.8968,
     "lon": 107.142,
@@ -14,6 +15,7 @@
   },
   {
     "id": "PSF-008562",
+    "ref": "pge:23788",
     "name": "Sugar take off",
     "lat": 49.3577,
     "lon": 93.1216,
@@ -27,6 +29,7 @@
   },
   {
     "id": "PSF-008681",
+    "ref": "pge:23923",
     "name": "JoMo Takeoff",
     "lat": 47.7076,
     "lon": 92.0025,

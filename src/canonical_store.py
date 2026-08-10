@@ -13,7 +13,7 @@ import json
 from collections import defaultdict
 from pathlib import Path
 
-from src.model import DIRECTIONS, CanonicalSite
+from src.model import DIRECTIONS, CanonicalSite, ref_for
 
 SITES_DIR = Path("sites")
 APP_CSV = Path("app/sites.csv")
@@ -71,6 +71,49 @@ def write_sites(sites: list[CanonicalSite], sites_dir: Path | None = None) -> di
     for name in sorted(stale):
         (directory / name).unlink()
     return counts
+
+
+def read_published(path: Path | None = None) -> list:
+    """The catalogue already published, for the publish gates to compare against.
+
+    Read before anything is overwritten, so a run can be stopped for replacing a
+    good catalogue with a broken one. Reading prior state to *check* a run is
+    fine; the ids and keys themselves stay a pure function of the sources, so a
+    lost snapshot degrades this to "nothing to compare" rather than renumbering
+    everything.
+
+    A snapshot predating the `ref` column is keyed by the same rule that produced
+    it, via `ref_for`, so an older file still gives usable comparisons.
+    """
+    from src.run_summary import PublishedSite
+
+    target = path or APP_CSV
+    if not target.exists():
+        return []
+
+    published = []
+    for row in csv.DictReader(target.read_text().splitlines()):
+        tokens = [t for t in (row.get("source") or "").split(";") if t]
+        sources = {}
+        for token in tokens:
+            provider, _, source_id = token.partition(":")
+            if provider and source_id:
+                sources[provider] = source_id
+        if not sources:
+            continue
+        try:
+            lat, lon = float(row["latitude"]), float(row["longitude"])
+        except (KeyError, TypeError, ValueError):
+            continue
+        published.append(
+            PublishedSite(
+                ref=row.get("ref") or ref_for(sources),
+                lat=lat,
+                lon=lon,
+                providers=frozenset(sources),
+            )
+        )
+    return published
 
 
 def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:

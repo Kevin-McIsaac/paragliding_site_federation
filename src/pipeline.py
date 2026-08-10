@@ -9,13 +9,18 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from src import overrides, reports
-from src.canonical_store import write_app_csv, write_sites
+from src.canonical_store import read_published, write_app_csv, write_sites
 from src.clustering import cluster
 from src.ids import IdRegistry
 from src.matcher import intra_source_pairs
 from src.matcher import pairs as build_pairs
 from src.model import AUSTRALIA_BBOX, WORLD_BBOX
-from src.run_summary import SourceStats, build_pr, check_health
+from src.run_summary import (
+    SourceStats,
+    build_pr,
+    check_health,
+    check_output_health,
+)
 from src.selection import select
 from src.sources.pge import PgeSource
 from src.sources.siteguide_au import SiteGuideAuSource
@@ -27,7 +32,7 @@ PR_OUTPUT_DIR = Path(".pr")
 def _load_state() -> dict:
     if STATE_PATH.exists():
         return json.loads(STATE_PATH.read_text())
-    return {"sources": {}, "siteguide_au": {"version_id": None}}
+    return {"sources": {}, "ansg": {"version_id": None}}
 
 
 def _save_state(state: dict) -> None:
@@ -41,6 +46,12 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
 
     state = _load_state()
     previous = {n: e["record_count"] for n, e in state.get("sources", {}).items()}
+    # The Australian guide was `siteguide_au` until it took its own name. Carried
+    # over rather than dropped: check_health skips a source it has no previous
+    # count for, so without this the drop gate would quietly not run for that
+    # source on the first run after the rename.
+    if "ansg" not in previous and "siteguide_au" in previous:
+        previous["ansg"] = previous.pop("siteguide_au")
 
     pge = PgeSource()
     siteguide = SiteGuideAuSource()
@@ -50,7 +61,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
 
     stats = [
         SourceStats("pge", len(pge_records), sum(1 for r in pge_records if r.wind)),
-        SourceStats("siteguide_au", len(sg_records), sum(1 for r in sg_records if r.wind)),
+        SourceStats("ansg", len(sg_records), sum(1 for r in sg_records if r.wind)),
     ]
 
     health = check_health(stats, previous)
@@ -69,7 +80,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
 
     if dry_run:
         print(
-            f"[dry-run] scope={scope} pge={len(pge_records)} siteguide_au={len(sg_records)} "
+            f"[dry-run] scope={scope} pge={len(pge_records)} ansg={len(sg_records)} "
             f"clusters={len(result.clusters)} merged={merged} review={len(result.review)}"
         )
         return 0
@@ -77,6 +88,15 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     registry = IdRegistry.load()
     sites = [select(c, registry) for c in sorted(result.clusters, key=lambda c: sorted(c.keys)[0])]
     no_wind = sum(1 for s in sites if not s.wind)
+
+    output_health = check_output_health(sites, read_published())
+    if not output_health.ok:
+        print("Publish gates failed - aborting before writing anything.", file=sys.stderr)
+        for note in output_health.notes:
+            print(f"  {note}", file=sys.stderr)
+        return 1
+    for note in output_health.notes:
+        print(f"[gates] {note}")
 
     site_counts = write_sites(sites)
     csv_changed = write_app_csv(sites)
@@ -110,7 +130,7 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     (PR_OUTPUT_DIR / "body.md").write_text(body)
 
     state["sources"] = {s.name: {"record_count": s.record_count} for s in stats}
-    state.setdefault("siteguide_au", {})["version_id"] = siteguide.current_version_id
+    state.setdefault("ansg", {})["version_id"] = siteguide.current_version_id
     _save_state(state)
 
     print(title)

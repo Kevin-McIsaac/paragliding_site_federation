@@ -43,6 +43,23 @@ DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 KEY_PRECEDENCE = ("pge", "ansg")
 
 
+def ref_for(sources: dict[str, str]) -> str:
+    """The key for a launch described by `sources`, as `provider:id`.
+
+    Module-level rather than only a property, because a *previous* published
+    snapshot arrives as CSV rows rather than CanonicalSite objects and has to be
+    keyed by the identical rule - the publish gates compare the two, and a second
+    spelling of this would make that comparison meaningless.
+    """
+    for provider in KEY_PRECEDENCE:
+        if provider in sources:
+            return f"{provider}:{sources[provider]}"
+    # A guide with no ranking yet. Deterministic beats arbitrary: sorted, so two
+    # runs over the same cluster agree.
+    provider, source_id = sorted(sources.items())[0]
+    return f"{provider}:{source_id}"
+
+
 @dataclass(frozen=True)
 class SiteRecord:
     """One launch as published by one source."""
@@ -117,13 +134,7 @@ class CanonicalSite:
         durable handle, which is a different question and usually a different
         answer.
         """
-        for provider in KEY_PRECEDENCE:
-            if provider in self.sources:
-                return f"{provider}:{self.sources[provider]}"
-        # A guide with no ranking yet. Deterministic beats arbitrary: sorted, so
-        # two runs over the same cluster agree.
-        provider, source_id = sorted(self.sources.items())[0]
-        return f"{provider}:{source_id}"
+        return ref_for(self.sources)
 
     @property
     def numeric_id(self) -> int:

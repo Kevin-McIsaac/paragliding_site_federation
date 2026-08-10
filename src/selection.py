@@ -8,29 +8,85 @@ Guide sites whose conditions prose does not parse.
 Note the accepted consequence of that rule: PGE grades directions 0/1/2 while
 parsed Site Guide prose can only ever say "in range" (1), so a Site
 Guide-primary launch never shows "excellent" even when PGE rated it so.
+
+Measured, so the trade is a known size rather than a vague one: 61% of
+PGE-primary launches (6,974 of 11,419) carry at least one "excellent", against 1
+of the 89 Australian launches both guides describe. So most of those 89 are
+giving up a grade PGE had. Kept deliberately - the local guide is the authority
+on which aspects a hill actually works in, and mixing one guide's directions with
+another's severity would publish a rating no guide ever gave.
 """
 
 from __future__ import annotations
+
+import logging
 
 from src.clustering import Cluster
 from src.ids import IdRegistry
 from src.model import CanonicalSite, SiteRecord
 
-NATIONAL_SCOPE: dict[str, set[str]] = {"ansg": {"AU"}}
+LOGGER = logging.getLogger(__name__)
+
+#: Which guides are authoritative inside which countries, most authoritative
+#: first. A list, not a set, because two guides may one day cover one country and
+#: the order then has to be a decision rather than a coincidence - it used to
+#: fall out of `sorted` on the provider name, so `aaa` would have outranked
+#: `ansg` for no reason anyone chose.
+NATIONAL_SCOPE: dict[str, list[str]] = {"ansg": ["AU"]}
 _FALLBACK_ORDER = ("pge",)
 
 
-def _rank(record: SiteRecord, country: str | None) -> tuple[int, str]:
-    scope = NATIONAL_SCOPE.get(record.provider)
-    if scope and country and country in scope:
-        return (0, record.provider)
+def _national_rank(provider: str, country: str | None) -> int | None:
+    """Where `provider` sits among the guides authoritative in `country`."""
+    if country is None:
+        return None
+    scoped = [p for p, countries in NATIONAL_SCOPE.items() if country in countries]
+    return scoped.index(provider) if provider in scoped else None
+
+
+def _rank(record: SiteRecord, country: str | None) -> tuple[int, int, str]:
+    national = _national_rank(record.provider, country)
+    if national is not None:
+        return (0, national, record.provider)
     if record.provider in _FALLBACK_ORDER:
-        return (1, record.provider)
-    return (2, record.provider)
+        return (1, 0, record.provider)
+    return (2, 0, record.provider)
+
+
+def _country_of(cluster: Cluster) -> str | None:
+    """Which country the cluster is in, for deciding who is authoritative there.
+
+    This used to be the first non-null country among the members, which made the
+    ranking below depend on member order: if a national guide said AU and PGE
+    said NZ, whichever happened to come first decided whose name and wind won.
+    Silent, and it flips on an upstream reordering.
+
+    A guide that only covers one country is the better authority on whether a
+    launch is in it, so a scoped provider's answer wins. Disagreements are
+    reported rather than absorbed - the clustering matched two records claiming
+    different countries, which is worth a human look either way.
+    """
+    claimed = {m.country for m in cluster.members if m.country}
+    if len(claimed) <= 1:
+        return next(iter(claimed), None)
+
+    scoped = [
+        m.country
+        for m in cluster.members
+        if m.country and m.provider in NATIONAL_SCOPE
+    ]
+    chosen = scoped[0] if scoped else sorted(claimed)[0]
+    LOGGER.warning(
+        "cluster %s claims countries %s; using %s",
+        sorted(cluster.keys),
+        sorted(claimed),
+        chosen,
+    )
+    return chosen
 
 
 def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
-    country = next((m.country for m in cluster.members if m.country), None)
+    country = _country_of(cluster)
     ordered = sorted(cluster.members, key=lambda m: _rank(m, country))
     winner = ordered[0]
 

@@ -31,6 +31,11 @@ _UNKNOWN = "xx"
 #  ansg:106-28 -> siteguide.org.au/sites/details/106).
 CSV_COLUMNS = [
     "id",
+    # The key a device stores against a flown site. Emitted rather than left for
+    # the app to derive, so one side decides. Appended at the end would read
+    # better in a diff, but the app parses by column name, so position is free
+    # and next to `id` is where a reader looks for identity.
+    "ref",
     "name",
     "longitude",
     "latitude",
@@ -83,6 +88,7 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
     for site in sorted(sites, key=lambda s: s.id):
         row = [
             str(site.numeric_id),
+            site.ref,
             _lf(site.name),
             f"{site.lon:.6f}",
             f"{site.lat:.6f}",

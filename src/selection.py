@@ -53,7 +53,7 @@ def _rank(record: SiteRecord, country: str | None) -> tuple[int, int, str]:
     return (2, 0, record.provider)
 
 
-def _country_of(cluster: Cluster) -> str | None:
+def country_of(cluster: Cluster) -> str | None:
     """Which country the cluster is in, for deciding who is authoritative there.
 
     This used to be the first non-null country among the members, which made the
@@ -86,7 +86,7 @@ def _country_of(cluster: Cluster) -> str | None:
 
 
 def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
-    country = _country_of(cluster)
+    country = country_of(cluster)
     ordered = sorted(cluster.members, key=lambda m: _rank(m, country))
     winner = ordered[0]
 

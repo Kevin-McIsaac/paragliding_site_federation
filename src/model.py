@@ -57,7 +57,11 @@ DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 #: column. The two must not drift: a launch keyed `pge:` here and `ansg:` there
 #: would leave a fresh install and an upgraded one disagreeing about the same
 #: site.
-KEY_PRECEDENCE = ("pge", "ansg")
+#: `dhv` is last because it arrived last, not because it is worth less: a
+#: launch both guides describe keeps the `pge:` key devices already store, and
+#: re-keying one is a delete plus an insert that takes the pilot's favourite
+#: with it.
+KEY_PRECEDENCE = ("pge", "ansg", "dhv")
 
 
 def ref_for(sources: dict[str, str]) -> str:

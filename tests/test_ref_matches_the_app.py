@@ -16,7 +16,7 @@ import pathlib
 SITES = pathlib.Path(__file__).resolve().parents[1] / "sites"
 
 # lib/utils/catalog_ref.dart: CatalogRef.providerPrecedence, then tokens.first.
-APP_PRECEDENCE = ("pge", "ansg")
+APP_PRECEDENCE = ("pge", "ansg", "dhv")
 
 
 def app_ref(source_tokens: dict[str, str]) -> str:

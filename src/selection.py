@@ -32,7 +32,7 @@ LOGGER = logging.getLogger(__name__)
 #: the order then has to be a decision rather than a coincidence - it used to
 #: fall out of `sorted` on the provider name, so `aaa` would have outranked
 #: `ansg` for no reason anyone chose.
-NATIONAL_SCOPE: dict[str, list[str]] = {"ansg": ["AU"]}
+NATIONAL_SCOPE: dict[str, list[str]] = {"ansg": ["AU"], "dhv": ["DE", "AT", "CH"]}
 _FALLBACK_ORDER = ("pge",)
 
 

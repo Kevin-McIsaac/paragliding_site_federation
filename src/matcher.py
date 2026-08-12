@@ -13,9 +13,25 @@ What would have been the only genuinely wrong merges - "Long Reef NE" against
 "Long Reef SE" at ~200m - cannot happen anyway: NE matched NE at 14m and SE
 matched SE, so both are already claimed by the one-to-one assignment.
 
-Note this is calibrated on Australia alone: English names, good coordinates,
-one national source. Sites are far denser in the Alps, so revisit before
-adding DHV, FFVL or Flyland rather than assuming 250m generalises.
+Re-measured against DHV before adding it, since the above is Australian data
+and the Alps are far denser (`python -m scripts.calibrate dhv de at ch`). Of
+1,476 DE/AT/CH takeoffs, 300 sit within 50m of a launch already published and
+only 49 in 200-250m, and a second candidate is inside the threshold for just
+0-2% of them - so merges here are decided by clearly-coincident coordinates,
+not by where the line happens to fall. 250m was kept.
+
+The caveat, from the runs that included it: 169 DHV pairs land in the
+250-400m review band, 71 of them naming the same place to 80% or better. Some
+of those are real under-merges; the rest are DHV resolving several takeoffs on
+a hill PGE records once, which *should* stay separate.
+
+Germany alone made 250m look tight - 51 of 82 pairs past it looked like one
+launch. Adding Austria and Switzerland argues the other way: the share of
+convincing pairs falls to 42%, and moving the line to 300m would absorb 60 more
+pairs of which 28 have names that flatly disagree. So past the threshold the
+population is increasingly genuine neighbours, which is what a threshold in the
+right place looks like. Left at 250m: an under-merge is a duplicate row visible
+in review.md, while an over-merge deletes a name that survives nowhere else.
 
 This replaced a weighted model that also considered name similarity, wind
 overlap and altitude. Distance is the one signal every source publishes and

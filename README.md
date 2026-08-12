@@ -13,6 +13,40 @@ launches, **135 have no PGE counterpart at all**, and PGE is missing wind
 directions for **42% of its Australian sites** where Site Guide is missing
 them for 5%. Federating adds both coverage and data quality.
 
+The Alps are the same story at larger scale. Adding the DHV Geländedatenbank:
+
+| | before | after | wind before | wind after | added | merged |
+|---|---:|---:|---:|---:|---:|---:|
+| DE | 595 | 1,355 | 36% | 81% | 760 | 265 |
+| AT | 256 | 483 | 40% | 73% | 227 | 86 |
+| CH | 564 | 784 | 87% | 94% | 220 | 274 |
+
+DHV publishes a Startrichtung for every takeoff it lists, where PGE has one for
+about a third of its German sites. 1,207 of DHV's 1,832 launches had no PGE
+counterpart at all — in Germany a third of those are the tow fields most of the
+north actually flies from. Every one of the 625 merges kept the `pge:` key
+devices already store.
+
+## Sources
+
+| Guide | Provider | Countries | Access |
+|---|---|---|---|
+| ParaglidingEarth | `pge` | worldwide | public GeoJSON API, no key |
+| Australian National Site Guide | `ansg` | AU | public bulk export, no key |
+| DHV Geländedatenbank | `dhv` | DE, AT, CH | public per-country KML, no key |
+
+Adding one is: write the adapter, list it in `src/sources/__init__.py`, rank it
+in `model.KEY_PRECEDENCE`, and say where it is authoritative in
+`selection.NATIONAL_SCOPE`. The last two stay hand-written because they are
+decisions — which guide's id keys a launch, and which guide's content wins —
+and the pipeline refuses to run if an adapter is missing from the first of them.
+
+Two guides that publish no usable site data, checked and rejected: **Flyland**
+(airspace only, and behind a login — DHV covers Switzerland instead) and
+**BHPA** (clubs and schools, not flying sites; UK site data lives with
+individual clubs). **FFVL** is next and does publish a good API, but its key
+must be authorised per application (`informatique@ffvl.fr`).
+
 PGE is treated as one source among peers, not as the spine. The output *is*
 the dataset.
 
@@ -30,8 +64,7 @@ the PGE-only asset it replaces field for field, with `source` in the slot
 deliberate**: reordering them parses cleanly and puts every site in the wrong
 hemisphere, which no row count would catch.
 
-That's `app/sites.csv` — 11,692 launches, 301 KB gzipped, near-identical in
-size to the PGE-only asset it replaces despite carrying 255 more launches.
+That's `app/sites.csv` — 12,450 launches, 411 KB gzipped.
 
 Altitude and country are carried because the app reads them in nine places.
 Rating, hazards, access notes and landowners are deliberately absent. It's looked up from the source when a user opens a site,
@@ -143,15 +176,21 @@ redistribution.
 
 - [ ] PGE — confirmed OK to redistribute derived/merged data
 - [ ] Site Guide AU — confirmed OK to redistribute derived/merged data
+- [ ] DHV — confirmed OK to redistribute derived/merged data. The Geländedaten
+      KML export is public and needs no login, but DHV publishes no terms with
+      it, so this is a conversation rather than a licence to read
+      (`gelaendeinfo@dhv.de`).
 
 ## Running locally
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 100 tests, no network
+pytest                                        # 143 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)
+
+python -m scripts.calibrate dhv de at ch      # is 250m right for a new guide?
 ```
 
 ## CI

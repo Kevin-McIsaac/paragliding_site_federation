@@ -2,21 +2,21 @@
   {
     "id": "PSF-000143",
     "ref": "pge:10170",
-    "name": "Golplan",
-    "lat": 47.0245,
-    "lon": 12.4271,
+    "name": "Virgen Startplatz 1",
+    "lat": 47.0247,
+    "lon": 12.426444,
     "wind": {
       "E": 1,
-      "SE": 2,
-      "S": 1,
-      "SW": 1
+      "SE": 1,
+      "S": 1
     },
-    "altitude": 2072.0,
+    "altitude": 2098.0,
     "sources": {
+      "dhv": "1511-virgen-startplatz-1",
       "pge": "10170"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=10170"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1511"
   },
   {
     "id": "PSF-000221",
@@ -39,20 +39,21 @@
   {
     "id": "PSF-000535",
     "ref": "pge:10622",
-    "name": "Perler",
-    "lat": 47.2003,
-    "lon": 11.8459,
+    "name": "Perler Startplatz",
+    "lat": 47.20032,
+    "lon": 11.845987,
     "wind": {
-      "SE": 1,
-      "S": 2,
-      "SW": 1
+      "NE": 1,
+      "E": 1,
+      "SE": 1
     },
-    "altitude": 1105.0,
+    "altitude": 1124.0,
     "sources": {
+      "dhv": "1299-perler-startplatz",
       "pge": "10622"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=10622"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1299"
   },
   {
     "id": "PSF-000551",
@@ -118,61 +119,59 @@
   {
     "id": "PSF-001165",
     "ref": "pge:11390",
-    "name": "Gosau - Zwieselalm",
-    "lat": 47.5388,
-    "lon": 13.4764,
+    "name": "Zwieselalm Startplatz",
+    "lat": 47.538753,
+    "lon": 13.477027,
     "wind": {
-      "N": 2,
-      "NE": 2,
-      "E": 2,
-      "SW": 1,
-      "W": 2,
-      "NW": 1
+      "NE": 1,
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1578.0,
+    "altitude": 1568.0,
     "sources": {
+      "dhv": "1420-zwieselalm-startplatz",
       "pge": "11390"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=11390"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1420"
   },
   {
     "id": "PSF-001227",
     "ref": "pge:11464",
-    "name": "Gumma",
-    "lat": 47.2079,
-    "lon": 13.781,
+    "name": "Göriach Startplatz",
+    "lat": 47.206975,
+    "lon": 13.781272,
     "wind": {
-      "E": 2,
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 2
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
     },
-    "altitude": 2243.0,
+    "altitude": 2233.0,
     "sources": {
+      "dhv": "2286-goeriach-startplatz",
       "pge": "11464"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=11464"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2286"
   },
   {
     "id": "PSF-001388",
     "ref": "pge:11664",
-    "name": "Hohe Wand South",
-    "lat": 47.8302,
-    "lon": 16.0463,
+    "name": "Hohe Wand Startplatz 2",
+    "lat": 47.830213,
+    "lon": 16.046246,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 1
+      "S": 1
     },
-    "altitude": 849.0,
+    "altitude": 863.0,
     "sources": {
+      "dhv": "1365-hohe-wand-startplatz-2",
       "pge": "11664"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=11664"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1365"
   },
   {
     "id": "PSF-001470",
@@ -285,25 +284,21 @@
   {
     "id": "PSF-001678",
     "ref": "pge:12187",
-    "name": "Polster",
-    "lat": 47.5323,
-    "lon": 14.9609,
+    "name": "Polster Startplatz 2",
+    "lat": 47.532389,
+    "lon": 14.960972,
     "wind": {
-      "N": 2,
-      "NE": 1,
-      "E": 1,
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 2,
-      "NW": 2
+      "S": 1,
+      "SW": 1,
+      "W": 1
     },
-    "altitude": 1884.0,
+    "altitude": 1816.0,
     "sources": {
+      "dhv": "1370-polster-startplatz-2",
       "pge": "12187"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=12187"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1370"
   },
   {
     "id": "PSF-001692",
@@ -424,16 +419,19 @@
   {
     "id": "PSF-001880",
     "ref": "pge:12553",
-    "name": "Kranzhorn",
-    "lat": 47.7002,
-    "lon": 12.1856,
-    "wind": {},
-    "altitude": 1310.0,
+    "name": "Kranzhorn Startplatz",
+    "lat": 47.700217,
+    "lon": 12.185947,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1320.0,
     "sources": {
+      "dhv": "5156-kranzhorn-startplatz",
       "pge": "12553"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=12553"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5156"
   },
   {
     "id": "PSF-001890",
@@ -480,16 +478,20 @@
   {
     "id": "PSF-002138",
     "ref": "pge:13039",
-    "name": "Petzen",
-    "lat": 46.5186,
-    "lon": 14.7713,
-    "wind": {},
-    "altitude": 1700.0,
+    "name": "Petzen Startplatz",
+    "lat": 46.518792,
+    "lon": 14.771992,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1653.0,
     "sources": {
+      "dhv": "1500-petzen-startplatz",
       "pge": "13039"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13039"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1500"
   },
   {
     "id": "PSF-002149",
@@ -652,25 +654,20 @@
   {
     "id": "PSF-002308",
     "ref": "pge:13304",
-    "name": "Schmittenhöhe (Zell am See)",
-    "lat": 47.3303,
-    "lon": 12.7357,
+    "name": "Schmittenhöhe Startplatz 3",
+    "lat": 47.329167,
+    "lon": 12.736545,
     "wind": {
       "N": 1,
-      "NE": 1,
-      "E": 2,
-      "SE": 2,
-      "S": 1,
-      "SW": 2,
-      "W": 2,
-      "NW": 2
+      "NW": 1
     },
-    "altitude": 1912.0,
+    "altitude": 1942.0,
     "sources": {
+      "dhv": "1269-schmittenhoehe-startplatz-3",
       "pge": "13304"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13304"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1269"
   },
   {
     "id": "PSF-002309",
@@ -703,16 +700,21 @@
   {
     "id": "PSF-002409",
     "ref": "pge:13472",
-    "name": "Hauser Kaibling",
-    "lat": 47.3754,
-    "lon": 13.7771,
-    "wind": {},
-    "altitude": 1967.0,
+    "name": "Hauser Kaibling Startplatz 2",
+    "lat": 47.375054,
+    "lon": 13.777413,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1973.0,
     "sources": {
+      "dhv": "1324-hauser-kaibling-startplatz-2",
       "pge": "13472"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13472"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1324"
   },
   {
     "id": "PSF-002447",
@@ -731,39 +733,37 @@
   {
     "id": "PSF-002466",
     "ref": "pge:13574",
-    "name": "Abtenau",
-    "lat": 47.5449,
-    "lon": 13.3604,
+    "name": "Karkogel Startplatz",
+    "lat": 47.545054,
+    "lon": 13.359917,
     "wind": {
-      "N": 1,
-      "SW": 1,
-      "W": 2,
-      "NW": 2
+      "W": 1,
+      "NW": 1
     },
-    "altitude": 1180.0,
+    "altitude": 1189.0,
     "sources": {
+      "dhv": "1390-karkogel-startplatz",
       "pge": "13574"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13574"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1390"
   },
   {
     "id": "PSF-002507",
     "ref": "pge:13646",
-    "name": "Muckenkogel",
-    "lat": 47.9866,
-    "lon": 15.5995,
+    "name": "Muckenkogel Startplatz 4",
+    "lat": 47.986518,
+    "lon": 15.599384,
     "wind": {
-      "N": 2,
-      "NE": 1,
-      "NW": 2
+      "NE": 1
     },
-    "altitude": 1049.0,
+    "altitude": 1042.0,
     "sources": {
+      "dhv": "1374-muckenkogel-startplatz-4",
       "pge": "13646"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13646"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1374"
   },
   {
     "id": "PSF-002549",
@@ -782,16 +782,21 @@
   {
     "id": "PSF-002558",
     "ref": "pge:13737",
-    "name": "Giggijoch",
-    "lat": 46.9793,
-    "lon": 10.9772,
-    "wind": {},
-    "altitude": 2230.0,
+    "name": "Giggijoch Startplatz",
+    "lat": 46.979153,
+    "lon": 10.975489,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 2291.0,
     "sources": {
+      "dhv": "1451-giggijoch-startplatz",
       "pge": "13737"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13737"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1451"
   },
   {
     "id": "PSF-002569",
@@ -959,16 +964,19 @@
   {
     "id": "PSF-002648",
     "ref": "pge:13877",
-    "name": "Patscherkofel",
-    "lat": 47.2102,
-    "lon": 11.4593,
-    "wind": {},
-    "altitude": 2153.0,
+    "name": "Patscherkofel Startplatz",
+    "lat": 47.208672,
+    "lon": 11.460656,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 2236.0,
     "sources": {
+      "dhv": "2361-patscherkofel-startplatz",
       "pge": "13877"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13877"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2361"
   },
   {
     "id": "PSF-002656",
@@ -987,22 +995,20 @@
   {
     "id": "PSF-002677",
     "ref": "pge:13923",
-    "name": "Schafberg",
-    "lat": 47.7764,
-    "lon": 13.4321,
+    "name": "Schafberg Startplatz",
+    "lat": 47.776449,
+    "lon": 13.431805,
     "wind": {
-      "E": 1,
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 1
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1761.0,
+    "altitude": 1712.0,
     "sources": {
+      "dhv": "1423-schafberg-startplatz",
       "pge": "13923"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=13923"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1423"
   },
   {
     "id": "PSF-002681",
@@ -1067,24 +1073,19 @@
   {
     "id": "PSF-002766",
     "ref": "pge:14060",
-    "name": "Grubigstein",
-    "lat": 47.3812,
-    "lon": 10.8469,
+    "name": "Grubigstein Startplatz 2",
+    "lat": 47.381941,
+    "lon": 10.847121,
     "wind": {
-      "N": 1,
-      "NE": 1,
-      "E": 2,
-      "SE": 1,
-      "S": 2,
-      "SW": 1,
-      "NW": 2
+      "E": 1
     },
-    "altitude": 1995.0,
+    "altitude": 2038.0,
     "sources": {
+      "dhv": "1517-grubigstein-startplatz-2",
       "pge": "14060"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=14060"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1517"
   },
   {
     "id": "PSF-002793",
@@ -1176,33 +1177,38 @@
   {
     "id": "PSF-003327",
     "ref": "pge:14901",
-    "name": "Obervellach",
-    "lat": 46.9484,
-    "lon": 13.1698,
-    "wind": {},
-    "altitude": 1250.0,
+    "name": "Semslach Startplatz",
+    "lat": 46.949675,
+    "lon": 13.169636,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1315.0,
     "sources": {
+      "dhv": "1501-semslach-startplatz",
       "pge": "14901"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=14901"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1501"
   },
   {
     "id": "PSF-003355",
     "ref": "pge:14952",
-    "name": "Bürgeralm (Aflenz)",
-    "lat": 47.579,
-    "lon": 15.2262,
+    "name": "Bürgeralm Startplatz 1",
+    "lat": 47.577669,
+    "lon": 15.224476,
     "wind": {
-      "S": 2,
-      "SW": 2
+      "S": 1
     },
-    "altitude": 1756.0,
+    "altitude": 1742.0,
     "sources": {
+      "dhv": "1371-buergeralm-startplatz-1",
       "pge": "14952"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=14952"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1371"
   },
   {
     "id": "PSF-003369",
@@ -1559,20 +1565,19 @@
   {
     "id": "PSF-003922",
     "ref": "pge:15905",
-    "name": "Oetscher",
-    "lat": 47.856,
-    "lon": 15.1828,
+    "name": "Ötscher Startplatz",
+    "lat": 47.856325,
+    "lon": 15.180972,
     "wind": {
-      "N": 1,
-      "W": 1,
-      "NW": 2
+      "NW": 1
     },
-    "altitude": 1497.0,
+    "altitude": 1440.0,
     "sources": {
+      "dhv": "1504-oetscher-startplatz",
       "pge": "15905"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=15905"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1504"
   },
   {
     "id": "PSF-004050",
@@ -1802,30 +1807,38 @@
   {
     "id": "PSF-004753",
     "ref": "pge:17281",
-    "name": "Winde Lutzmannsburg",
-    "lat": 47.472,
-    "lon": 16.6616,
-    "wind": {},
-    "altitude": 205.0,
+    "name": "Lutzmannsburg Schleppgelände",
+    "lat": 47.473547,
+    "lon": 16.660772,
+    "wind": {
+      "SE": 1,
+      "NW": 1
+    },
+    "altitude": 203.0,
     "sources": {
+      "dhv": "1496-lutzmannsburg-schleppgelaende",
       "pge": "17281"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=17281"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1496"
   },
   {
     "id": "PSF-004900",
     "ref": "pge:17521",
-    "name": "Sonnwendstein",
-    "lat": 47.6285,
-    "lon": 15.8567,
-    "wind": {},
-    "altitude": 1455.0,
+    "name": "Sonnwendstein Startplatz 2",
+    "lat": 47.628554,
+    "lon": 15.856876,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1474.0,
     "sources": {
+      "dhv": "1368-sonnwendstein-startplatz-2",
       "pge": "17521"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=17521"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1368"
   },
   {
     "id": "PSF-004950",
@@ -2103,41 +2116,38 @@
   {
     "id": "PSF-005698",
     "ref": "pge:19358",
-    "name": "Herndleck",
-    "lat": 47.9283,
-    "lon": 14.3284,
+    "name": "Herndleck Startplatz",
+    "lat": 47.928345,
+    "lon": 14.328366,
     "wind": {
-      "N": 2,
-      "E": 2
+      "N": 1,
+      "NE": 1,
+      "E": 1
     },
     "altitude": 1026.0,
     "sources": {
+      "dhv": "1375-herndleck-startplatz",
       "pge": "19358"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=19358"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1375"
   },
   {
     "id": "PSF-006049",
     "ref": "pge:19828",
-    "name": "Feuerkogel",
-    "lat": 47.8158,
-    "lon": 13.7208,
+    "name": "Feuerkogel Startplatz 2",
+    "lat": 47.815942,
+    "lon": 13.720969,
     "wind": {
-      "N": 2,
-      "NE": 2,
-      "E": 2,
-      "SE": 2,
-      "S": 1,
-      "SW": 1,
-      "NW": 1
+      "N": 1
     },
-    "altitude": 1594.0,
+    "altitude": 1590.0,
     "sources": {
+      "dhv": "1415-feuerkogel-startplatz-2",
       "pge": "19828"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=19828"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1415"
   },
   {
     "id": "PSF-006084",
@@ -2198,16 +2208,20 @@
   {
     "id": "PSF-006421",
     "ref": "pge:21361",
-    "name": "Grünberg",
-    "lat": 47.8983,
-    "lon": 13.8196,
-    "wind": {},
-    "altitude": 986.0,
+    "name": "Grünberg Startplatz",
+    "lat": 47.898231,
+    "lon": 13.817728,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 957.0,
     "sources": {
+      "dhv": "1414-gruenberg-startplatz",
       "pge": "21361"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=21361"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1414"
   },
   {
     "id": "PSF-006422",
@@ -2226,19 +2240,20 @@
   {
     "id": "PSF-006618",
     "ref": "pge:21582",
-    "name": "Hochkalmberg",
-    "lat": 47.6124,
-    "lon": 13.5674,
+    "name": "Kalmberg Startplatz",
+    "lat": 47.612431,
+    "lon": 13.567492,
     "wind": {
-      "SW": 2,
-      "W": 1
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1801.0,
+    "altitude": 1833.0,
     "sources": {
+      "dhv": "1421-kalmberg-startplatz",
       "pge": "21582"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=21582"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1421"
   },
   {
     "id": "PSF-006620",
@@ -2260,16 +2275,20 @@
   {
     "id": "PSF-007182",
     "ref": "pge:22238",
-    "name": "Gemeindealpe Mitterbach",
-    "lat": 47.8115,
-    "lon": 15.2485,
-    "wind": {},
-    "altitude": 1616.0,
+    "name": "Gemeindealpe Startplatz 1",
+    "lat": 47.811771,
+    "lon": 15.248723,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1598.0,
     "sources": {
+      "dhv": "1372-gemeindealpe-startplatz-1",
       "pge": "22238"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22238"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1372"
   },
   {
     "id": "PSF-007338",
@@ -2302,55 +2321,58 @@
   {
     "id": "PSF-007425",
     "ref": "pge:22502",
-    "name": "UNTERBERGHORN Takeoff 1",
-    "lat": 47.6312,
-    "lon": 12.431,
+    "name": "Unterberghorn Startplatz 1",
+    "lat": 47.631167,
+    "lon": 12.431056,
     "wind": {
       "SW": 1,
-      "W": 2
+      "W": 1
     },
-    "altitude": 1490.0,
+    "altitude": 1497.0,
     "sources": {
+      "dhv": "1311-unterberghorn-startplatz-1",
       "pge": "22502"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22502"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1311"
   },
   {
     "id": "PSF-007426",
     "ref": "pge:22503",
-    "name": "UNTERBERGHORN Takeoff 2",
-    "lat": 47.6317,
-    "lon": 12.4318,
+    "name": "Unterberghorn Startplatz 2",
+    "lat": 47.631851,
+    "lon": 12.431559,
     "wind": {
-      "N": 2,
-      "NE": 1,
-      "NW": 1
+      "N": 1,
+      "NE": 1
     },
-    "altitude": 1498.0,
+    "altitude": 1480.0,
     "sources": {
+      "dhv": "1311-unterberghorn-startplatz-2",
       "pge": "22503"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22503"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1311"
   },
   {
     "id": "PSF-007427",
     "ref": "pge:22504",
-    "name": "UNTERBERGHORN Takeoff 4",
-    "lat": 47.6246,
-    "lon": 12.4361,
+    "name": "Unterberghorn Startplatz 3",
+    "lat": 47.626251,
+    "lon": 12.435933,
     "wind": {
+      "N": 1,
+      "NE": 1,
       "SW": 1,
-      "W": 2,
-      "NW": 2
+      "W": 1
     },
-    "altitude": 1682.0,
+    "altitude": 1642.0,
     "sources": {
+      "dhv": "1311-unterberghorn-startplatz-3",
       "pge": "22504"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22504"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1311"
   },
   {
     "id": "PSF-007428",
@@ -2391,50 +2413,54 @@
   {
     "id": "PSF-007532",
     "ref": "pge:22620",
-    "name": "Sender Kleinerberg",
-    "lat": 47.7336,
-    "lon": 14.3666,
+    "name": "Kleinerberg Startplatz 2",
+    "lat": 47.733554,
+    "lon": 14.366598,
     "wind": {
-      "E": 2,
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 2
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1286.0,
+    "altitude": 1245.0,
     "sources": {
+      "dhv": "1380-kleinerberg-startplatz-2",
       "pge": "22620"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22620"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1380"
   },
   {
     "id": "PSF-007604",
     "ref": "pge:22704",
-    "name": "Kronbauer",
-    "lat": 47.8995,
-    "lon": 14.0762,
-    "wind": {},
-    "altitude": 876.0,
+    "name": "Kronbauer Startplatz",
+    "lat": 47.899279,
+    "lon": 14.076592,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 870.0,
     "sources": {
+      "dhv": "5155-kronbauer-startplatz",
       "pge": "22704"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22704"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5155"
   },
   {
     "id": "PSF-007605",
     "ref": "pge:22705",
-    "name": "Hinterstoder",
-    "lat": 47.6649,
-    "lon": 14.1697,
-    "wind": {},
-    "altitude": 1789.0,
+    "name": "Hutterer Höß Startplatz 1",
+    "lat": 47.664986,
+    "lon": 14.170218,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1807.0,
     "sources": {
+      "dhv": "1379-hutterer-hoess-startplatz-1",
       "pge": "22705"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22705"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1379"
   },
   {
     "id": "PSF-007641",
@@ -2489,34 +2515,37 @@
   {
     "id": "PSF-007760",
     "ref": "pge:22886",
-    "name": "Sillian - Thurntaler",
-    "lat": 46.7573,
-    "lon": 12.417,
+    "name": "Stalpe Startplatz",
+    "lat": 46.757357,
+    "lon": 12.417244,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 2
+      "SE": 1,
+      "S": 1
     },
-    "altitude": null,
+    "altitude": 1541.0,
     "sources": {
+      "dhv": "1508-stalpe-startplatz",
       "pge": "22886"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=22886"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1508"
   },
   {
     "id": "PSF-007898",
     "ref": "pge:23035",
-    "name": "Marsbach",
-    "lat": 48.4627,
-    "lon": 13.8178,
-    "wind": {},
-    "altitude": 542.0,
+    "name": "Marsbach Startplatz",
+    "lat": 48.462911,
+    "lon": 13.817314,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 537.0,
     "sources": {
+      "dhv": "1506-marsbach-startplatz",
       "pge": "23035"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=23035"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1506"
   },
   {
     "id": "PSF-008023",
@@ -2577,96 +2606,111 @@
   {
     "id": "PSF-008289",
     "ref": "pge:23470",
-    "name": "Achenkirch Christlum Nordost",
-    "lat": 47.5027,
-    "lon": 11.6619,
-    "wind": {},
-    "altitude": 1714.0,
+    "name": "Christlum Startplatz",
+    "lat": 47.504106,
+    "lon": 11.661656,
+    "wind": {
+      "NE": 1,
+      "SE": 1
+    },
+    "altitude": 1725.0,
     "sources": {
+      "dhv": "1457-christlum-startplatz",
       "pge": "23470"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=23470"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1457"
   },
   {
     "id": "PSF-008546",
     "ref": "pge:23765",
-    "name": "Fohnsdorf 1",
-    "lat": 47.2203,
-    "lon": 14.6809,
-    "wind": {},
-    "altitude": 1058.0,
+    "name": "Fohnsdorf Startplatz 1",
+    "lat": 47.220261,
+    "lon": 14.681017,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1036.0,
     "sources": {
+      "dhv": "1944-fohnsdorf-startplatz-1",
       "pge": "23765"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=23765"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1944"
   },
   {
     "id": "PSF-008547",
     "ref": "pge:23766",
-    "name": "Hochödenbauer",
-    "lat": 47.1688,
-    "lon": 14.3785,
-    "wind": {},
-    "altitude": 1246.0,
+    "name": "Startplatz Hochödenbauer",
+    "lat": 47.168667,
+    "lon": 14.378333,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1240.0,
     "sources": {
+      "dhv": "5800-startplatz-hochoedenbauer",
       "pge": "23766"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=23766"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5800"
   },
   {
     "id": "PSF-009536",
     "ref": "pge:6600",
-    "name": "Neunerköpfle (Neunerkopfle-Tannheim)",
-    "lat": 47.4825,
-    "lon": 10.5418,
+    "name": "Neunerköpfle Startplatz 1",
+    "lat": 47.482518,
+    "lon": 10.541891,
     "wind": {
-      "N": 2,
-      "SW": 2,
-      "W": 2,
+      "W": 1,
       "NW": 1
     },
-    "altitude": 1803.0,
+    "altitude": 1824.0,
     "sources": {
+      "dhv": "1243-neunerkoepfle-startplatz-1",
       "pge": "6600"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=6600"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1243"
   },
   {
     "id": "PSF-009573",
     "ref": "pge:6647",
-    "name": "Embergeralm - Greifenburg",
-    "lat": 46.7725,
-    "lon": 13.1495,
+    "name": "Emberger Alm Startplatz 1",
+    "lat": 46.772306,
+    "lon": 13.149944,
     "wind": {
-      "S": 2,
-      "SW": 2
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1727.0,
+    "altitude": 1735.0,
     "sources": {
+      "dhv": "1305-emberger-alm-startplatz-1",
       "pge": "6647"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=6647"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1305"
   },
   {
     "id": "PSF-009586",
     "ref": "pge:6661",
-    "name": "Wildkogel",
-    "lat": 47.2792,
-    "lon": 12.2807,
+    "name": "Wildkogel Startplatz 1",
+    "lat": 47.279306,
+    "lon": 12.280889,
     "wind": {
-      "S": 2
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 2063.0,
+    "altitude": 2049.0,
     "sources": {
+      "dhv": "1266-wildkogel-startplatz-1",
       "pge": "6661"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=6661"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1266"
   },
   {
     "id": "PSF-009594",
@@ -2699,109 +2743,114 @@
   {
     "id": "PSF-009706",
     "ref": "pge:6814",
-    "name": "Zillertaler Höhenstrasse -Melchboden (Mayrhofen)",
-    "lat": 47.2188,
-    "lon": 11.8254,
+    "name": "Melchboden Startplatz 1",
+    "lat": 47.219167,
+    "lon": 11.824486,
     "wind": {
-      "NE": 2,
-      "E": 2,
-      "SE": 2
+      "NE": 1,
+      "E": 1,
+      "SE": 1
     },
-    "altitude": 2005.0,
+    "altitude": 2015.0,
     "sources": {
+      "dhv": "1300-melchboden-startplatz-1",
       "pge": "6814"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=6814"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1300"
   },
   {
     "id": "PSF-010009",
     "ref": "pge:7219",
-    "name": "Seefeld",
-    "lat": 47.3406,
-    "lon": 11.2393,
+    "name": "Härmelekopf Startplatz 2",
+    "lat": 47.340177,
+    "lon": 11.239767,
     "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1,
       "S": 1,
-      "SW": 2,
-      "W": 1
+      "SW": 1
     },
-    "altitude": 2053.0,
+    "altitude": 2011.0,
     "sources": {
+      "dhv": "1331-haermelekopf-startplatz-2",
       "pge": "7219"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=7219"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1331"
   },
   {
     "id": "PSF-010018",
     "ref": "pge:7231",
-    "name": "Neustift - Elfer",
-    "lat": 47.0986,
-    "lon": 11.3243,
+    "name": "Elfer Startplatz",
+    "lat": 47.097635,
+    "lon": 11.323621,
     "wind": {
-      "NE": 2
+      "N": 1,
+      "NE": 1,
+      "NW": 1
     },
-    "altitude": 1785.0,
+    "altitude": 1827.0,
     "sources": {
+      "dhv": "1304-elfer-startplatz",
       "pge": "7231"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=7231"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1304"
   },
   {
     "id": "PSF-010059",
     "ref": "pge:7286",
-    "name": "Seeboden 02",
-    "lat": 46.7582,
-    "lon": 13.4547,
+    "name": "Goldeck Startplatz 2",
+    "lat": 46.758279,
+    "lon": 13.45602,
     "wind": {
-      "S": 1,
-      "SW": 1,
-      "W": 2,
-      "NW": 1
+      "W": 1
     },
-    "altitude": 2063.0,
+    "altitude": 2106.0,
     "sources": {
+      "dhv": "1250-goldeck-startplatz-2",
       "pge": "7286"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=7286"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1250"
   },
   {
     "id": "PSF-010901",
     "ref": "pge:9007",
-    "name": "Jochelspitze - Bach im Lechtal",
-    "lat": 47.2765,
-    "lon": 10.3671,
+    "name": "Jöchelspitze Startplatz 2",
+    "lat": 47.27655,
+    "lon": 10.367135,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 2
+      "SE": 1,
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1816.0,
+    "altitude": 1809.0,
     "sources": {
+      "dhv": "1435-joechelspitze-startplatz-2",
       "pge": "9007"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9007"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1435"
   },
   {
     "id": "PSF-010902",
     "ref": "pge:9010",
-    "name": "12er Kopf Zwoelferkopf (Pertisau- Achensee)",
-    "lat": 47.428,
-    "lon": 11.696,
+    "name": "Zwölferkopf Startplatz 1",
+    "lat": 47.427475,
+    "lon": 11.696397,
     "wind": {
-      "NE": 2,
-      "W": 2,
-      "NW": 2
+      "N": 1
     },
-    "altitude": 1441.0,
+    "altitude": 1466.0,
     "sources": {
+      "dhv": "1443-zwoelferkopf-startplatz-1",
       "pge": "9010"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9010"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1443"
   },
   {
     "id": "PSF-010903",
@@ -2822,63 +2871,59 @@
   {
     "id": "PSF-010904",
     "ref": "pge:9013",
-    "name": "Diedamskopf",
-    "lat": 47.3458,
-    "lon": 10.0262,
+    "name": "Diedamskopf Startplatz 1 Gipfel",
+    "lat": 47.346222,
+    "lon": 10.025917,
     "wind": {
       "E": 1,
-      "SE": 2,
-      "S": 2,
+      "SE": 1,
+      "S": 1,
       "SW": 1,
-      "W": 2,
-      "NW": 1
+      "W": 1
     },
-    "altitude": 2046.0,
+    "altitude": 2077.0,
     "sources": {
+      "dhv": "1219-diedamskopf-startplatz-1-gipfel",
       "pge": "9013"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9013"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1219"
   },
   {
     "id": "PSF-010905",
     "ref": "pge:9014",
-    "name": "Niedere - Andelsbuch",
-    "lat": 47.4035,
-    "lon": 9.93893,
+    "name": "Niedere - Andelsbuch Startplatz",
+    "lat": 47.403472,
+    "lon": 9.9385,
     "wind": {
-      "W": 2,
-      "NW": 2
+      "W": 1,
+      "NW": 1
     },
-    "altitude": 1582.0,
+    "altitude": 1552.0,
     "sources": {
+      "dhv": "1220-niedere-andelsbuch-startplatz",
       "pge": "9014"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9014"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1220"
   },
   {
     "id": "PSF-010906",
     "ref": "pge:9016",
-    "name": "Hohe Salve",
-    "lat": 47.4631,
-    "lon": 12.2003,
+    "name": "Hohe Salve Startplatz 1",
+    "lat": 47.464166,
+    "lon": 12.202538,
     "wind": {
-      "N": 1,
-      "NE": 2,
-      "E": 1,
-      "SE": 2,
-      "S": 1,
-      "SW": 2,
-      "W": 1,
-      "NW": 2
+      "SE": 1,
+      "S": 1
     },
-    "altitude": 1680.0,
+    "altitude": 1815.0,
     "sources": {
+      "dhv": "1309-hohe-salve-startplatz-1",
       "pge": "9016"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9016"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1309"
   },
   {
     "id": "PSF-010907",
@@ -2901,16 +2946,19 @@
   {
     "id": "PSF-010908",
     "ref": "pge:9019",
-    "name": "Schnifis",
-    "lat": 47.2279,
-    "lon": 9.7395,
-    "wind": {},
-    "altitude": 1280.0,
+    "name": "Schnifis Startplatz",
+    "lat": 47.228319,
+    "lon": 9.739483,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1310.0,
     "sources": {
+      "dhv": "1386-schnifis-startplatz",
       "pge": "9019"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9019"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1386"
   },
   {
     "id": "PSF-010909",
@@ -2929,81 +2977,72 @@
   {
     "id": "PSF-010910",
     "ref": "pge:9025",
-    "name": "Bischling (Werfenweng)",
-    "lat": 47.4622,
-    "lon": 13.2972,
+    "name": "Bischling Startplatz West",
+    "lat": 47.462306,
+    "lon": 13.297472,
     "wind": {
-      "NE": 1,
-      "E": 2,
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 2,
-      "NW": 1
+      "SW": 1
     },
-    "altitude": 1811.0,
+    "altitude": 1817.0,
     "sources": {
+      "dhv": "1391-bischling-startplatz-west",
       "pge": "9025"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9025"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1391"
   },
   {
     "id": "PSF-010911",
     "ref": "pge:9026",
-    "name": "Hohe Wand East",
-    "lat": 47.8293,
-    "lon": 16.0408,
+    "name": "Hohe Wand Startplatz 1",
+    "lat": 47.829378,
+    "lon": 16.041627,
     "wind": {
-      "NE": 1,
-      "E": 2,
-      "SE": 2,
-      "S": 2
+      "E": 1,
+      "SE": 1
     },
-    "altitude": 920.0,
+    "altitude": 912.0,
     "sources": {
+      "dhv": "1365-hohe-wand-startplatz-1",
       "pge": "9026"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9026"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1365"
   },
   {
     "id": "PSF-010912",
     "ref": "pge:9027",
-    "name": "Kulm",
-    "lat": 47.2282,
-    "lon": 15.7621,
+    "name": "Kulm Startplatz 1",
+    "lat": 47.228151,
+    "lon": 15.762055,
     "wind": {
-      "E": 1,
-      "SE": 2,
-      "S": 1
+      "E": 1
     },
-    "altitude": 904.0,
+    "altitude": 925.0,
     "sources": {
+      "dhv": "1364-kulm-startplatz-1",
       "pge": "9027"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9027"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1364"
   },
   {
     "id": "PSF-010913",
     "ref": "pge:9028",
-    "name": "Fulseck (Gastein)",
-    "lat": 47.235,
-    "lon": 13.1477,
+    "name": "Fulseck Startplatz 2",
+    "lat": 47.235377,
+    "lon": 13.1474,
     "wind": {
-      "E": 1,
-      "SE": 1,
-      "SW": 1,
-      "W": 2,
-      "NW": 2
+      "W": 1,
+      "NW": 1
     },
-    "altitude": 2013.0,
+    "altitude": 1998.0,
     "sources": {
+      "dhv": "1307-fulseck-startplatz-2",
       "pge": "9028"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9028"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1307"
   },
   {
     "id": "PSF-010914",
@@ -3041,20 +3080,19 @@
   {
     "id": "PSF-010916",
     "ref": "pge:9031",
-    "name": "Goding",
-    "lat": 46.7779,
-    "lon": 14.9193,
+    "name": "Goding Startplatz",
+    "lat": 46.778497,
+    "lon": 14.921,
     "wind": {
-      "S": 1,
-      "SW": 2,
-      "W": 2
+      "SW": 1
     },
-    "altitude": 1129.0,
+    "altitude": 1193.0,
     "sources": {
+      "dhv": "2112-goding-startplatz",
       "pge": "9031"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9031"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2112"
   },
   {
     "id": "PSF-010917",
@@ -3093,61 +3131,57 @@
   {
     "id": "PSF-010919",
     "ref": "pge:9037",
-    "name": "Burg Altpernstein - Hirschwaldstein",
-    "lat": 47.885,
-    "lon": 14.1628,
+    "name": "Hirschwaldstein Startplatz",
+    "lat": 47.886547,
+    "lon": 14.163458,
     "wind": {
-      "N": 2,
-      "NE": 1,
-      "SW": 1,
-      "W": 2,
-      "NW": 2
+      "W": 1,
+      "NW": 1
     },
-    "altitude": 955.0,
+    "altitude": 939.0,
     "sources": {
+      "dhv": "1377-hirschwaldstein-startplatz",
       "pge": "9037"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9037"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1377"
   },
   {
     "id": "PSF-010920",
     "ref": "pge:9039",
-    "name": "Gerlitzen",
-    "lat": 46.6924,
-    "lon": 13.9139,
+    "name": "Gerlitzen Startplatz 1",
+    "lat": 46.692417,
+    "lon": 13.913917,
     "wind": {
-      "E": 2,
-      "SE": 2,
-      "S": 2,
+      "SE": 1,
+      "S": 1,
       "SW": 1
     },
-    "altitude": 1878.0,
+    "altitude": 1897.0,
     "sources": {
+      "dhv": "1251-gerlitzen-startplatz-1",
       "pge": "9039"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9039"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1251"
   },
   {
     "id": "PSF-010921",
     "ref": "pge:9040",
-    "name": "Kaiserburg",
-    "lat": 46.7845,
-    "lon": 13.8268,
+    "name": "Kaiserburg Startplatz",
+    "lat": 46.783753,
+    "lon": 13.826056,
     "wind": {
-      "N": 2,
-      "NE": 1,
-      "SW": 1,
-      "W": 2,
-      "NW": 2
+      "W": 1,
+      "NW": 1
     },
-    "altitude": 2024.0,
+    "altitude": 2017.0,
     "sources": {
+      "dhv": "5166-kaiserburg-startplatz",
       "pge": "9040"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9040"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5166"
   },
   {
     "id": "PSF-010922",
@@ -3190,20 +3224,20 @@
   {
     "id": "PSF-010924",
     "ref": "pge:9044",
-    "name": "Radsberg",
-    "lat": 46.5727,
-    "lon": 14.4023,
+    "name": "Radsberg Startplatz",
+    "lat": 46.572583,
+    "lon": 14.402389,
     "wind": {
-      "E": 1,
-      "SE": 2,
-      "S": 2
+      "SE": 1,
+      "S": 1
     },
-    "altitude": 797.0,
+    "altitude": 815.0,
     "sources": {
+      "dhv": "1252-radsberg-startplatz",
       "pge": "9044"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9044"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1252"
   },
   {
     "id": "PSF-010925",
@@ -3222,22 +3256,20 @@
   {
     "id": "PSF-010926",
     "ref": "pge:9046",
-    "name": "Gaisberg (Salzburg)",
-    "lat": 47.8045,
-    "lon": 13.1103,
+    "name": "Gaisberg Startplatz 2",
+    "lat": 47.804522,
+    "lon": 13.110273,
     "wind": {
-      "N": 2,
-      "NE": 1,
-      "E": 2,
-      "W": 2,
+      "W": 1,
       "NW": 1
     },
-    "altitude": 1262.0,
+    "altitude": 1256.0,
     "sources": {
+      "dhv": "1298-gaisberg-startplatz-2",
       "pge": "9046"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9046"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1298"
   },
   {
     "id": "PSF-010927",
@@ -3256,178 +3288,178 @@
   {
     "id": "PSF-010928",
     "ref": "pge:9049",
-    "name": "Golm",
-    "lat": 47.0622,
-    "lon": 9.83908,
-    "wind": {},
-    "altitude": 2021.0,
+    "name": "Golm Startplatz",
+    "lat": 47.062586,
+    "lon": 9.837456,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 2068.0,
     "sources": {
+      "dhv": "1462-golm-startplatz",
       "pge": "9049"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9049"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1462"
   },
   {
     "id": "PSF-010929",
     "ref": "pge:9050",
-    "name": "Obertilliach - Golzentipp",
-    "lat": 46.719,
-    "lon": 12.6251,
+    "name": "Golzentipp Startplatz 1",
+    "lat": 46.719372,
+    "lon": 12.624936,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 2
+      "SE": 1,
+      "S": 1
     },
-    "altitude": 1998.0,
+    "altitude": 2002.0,
     "sources": {
+      "dhv": "1444-golzentipp-startplatz-1",
       "pge": "9050"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9050"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1444"
   },
   {
     "id": "PSF-010930",
     "ref": "pge:9052",
-    "name": "Gelderkogel",
-    "lat": 47.3036,
-    "lon": 15.4794,
+    "name": "Gelderkogel Startplatz",
+    "lat": 47.303889,
+    "lon": 15.478889,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 2
+      "SE": 1
     },
-    "altitude": 1116.0,
+    "altitude": 1130.0,
     "sources": {
+      "dhv": "1362-gelderkogel-startplatz",
       "pge": "9052"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9052"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1362"
   },
   {
     "id": "PSF-010931",
     "ref": "pge:9056",
-    "name": "Schöckl near Graz",
-    "lat": 47.2012,
-    "lon": 15.4756,
+    "name": "Schöckel Startplatz 2",
+    "lat": 47.201111,
+    "lon": 15.475556,
     "wind": {
-      "N": 2,
-      "E": 1,
-      "SE": 2,
-      "S": 1,
-      "NW": 2
+      "SE": 1
     },
-    "altitude": 1409.0,
+    "altitude": 1398.0,
     "sources": {
+      "dhv": "1361-schoeckel-startplatz-2",
       "pge": "9056"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9056"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1361"
   },
   {
     "id": "PSF-010932",
     "ref": "pge:9057",
-    "name": "Stubaital - Kreuzjoch (Schlick2000)",
-    "lat": 47.1451,
-    "lon": 11.3078,
+    "name": "Kreuzjoch -Schlick 2000 Startplatz 1",
+    "lat": 47.145081,
+    "lon": 11.307597,
     "wind": {
-      "SE": 2,
-      "S": 2
+      "E": 1,
+      "SE": 1,
+      "S": 1
     },
-    "altitude": 2081.0,
+    "altitude": 2098.0,
     "sources": {
+      "dhv": "1436-kreuzjoch-schlick-2000-startplatz-1",
       "pge": "9057"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9057"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1436"
   },
   {
     "id": "PSF-010933",
     "ref": "pge:9059",
-    "name": "Silvretta Nova, Gampabing, St. Gallenkirch",
-    "lat": 46.9852,
-    "lon": 9.96342,
-    "wind": {},
-    "altitude": 2111.0,
+    "name": "Bella Nova Startplatz 1",
+    "lat": 46.985528,
+    "lon": 9.964703,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2120.0,
     "sources": {
+      "dhv": "1930-bella-nova-startplatz-1",
       "pge": "9059"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9059"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1930"
   },
   {
     "id": "PSF-010934",
     "ref": "pge:9060",
-    "name": "Stubnerkogel (Gastein)",
-    "lat": 47.114,
-    "lon": 13.099,
+    "name": "Stubnerkogel Startplatz 2",
+    "lat": 47.113978,
+    "lon": 13.098857,
     "wind": {
-      "N": 2,
-      "E": 2,
-      "NW": 2
+      "N": 1,
+      "NW": 1
     },
-    "altitude": 2237.0,
+    "altitude": 2209.0,
     "sources": {
+      "dhv": "1317-stubnerkogel-startplatz-2",
       "pge": "9060"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9060"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1317"
   },
   {
     "id": "PSF-010935",
     "ref": "pge:9061",
-    "name": "Zettersfeld",
-    "lat": 46.8749,
-    "lon": 12.788,
+    "name": "Zettersfeld Startplatz",
+    "lat": 46.874778,
+    "lon": 12.788056,
     "wind": {
-      "E": 2,
-      "SE": 2,
-      "S": 2,
-      "SW": 2,
-      "W": 2
+      "SW": 1
     },
-    "altitude": 2199.0,
+    "altitude": 2186.0,
     "sources": {
+      "dhv": "1328-zettersfeld-startplatz",
       "pge": "9061"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9061"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1328"
   },
   {
     "id": "PSF-010936",
     "ref": "pge:9064",
-    "name": "Seegrube (Innsbruck)",
-    "lat": 47.3052,
-    "lon": 11.3774,
+    "name": "Nordkette Startplatz 2",
+    "lat": 47.305344,
+    "lon": 11.377233,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 2
+      "S": 1
     },
-    "altitude": 1898.0,
+    "altitude": 1911.0,
     "sources": {
+      "dhv": "1459-nordkette-startplatz-2",
       "pge": "9064"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9064"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1459"
   },
   {
     "id": "PSF-010937",
     "ref": "pge:9065",
-    "name": "Jaga",
-    "lat": 46.8391,
-    "lon": 14.8861,
+    "name": "Haas Startplatz",
+    "lat": 46.839822,
+    "lon": 14.88523,
     "wind": {
-      "S": 2,
-      "SW": 2,
-      "W": 2
+      "SW": 1,
+      "W": 1
     },
-    "altitude": 1019.0,
+    "altitude": 1030.0,
     "sources": {
+      "dhv": "2113-haas-startplatz",
       "pge": "9065"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9065"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2113"
   },
   {
     "id": "PSF-010938",
@@ -3460,52 +3492,56 @@
   {
     "id": "PSF-010940",
     "ref": "pge:9072",
-    "name": "Loser",
+    "name": "Loser Startplatz 1",
     "lat": 47.663,
-    "lon": 13.7778,
-    "wind": {},
-    "altitude": 1812.0,
+    "lon": 13.777778,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1837.0,
     "sources": {
+      "dhv": "1416-loser-startplatz-1",
       "pge": "9072"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9072"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1416"
   },
   {
     "id": "PSF-010941",
     "ref": "pge:9075",
-    "name": "Untersberg",
-    "lat": 47.7219,
-    "lon": 13.007,
+    "name": "Untersberg Startplatz 1",
+    "lat": 47.722073,
+    "lon": 13.007598,
     "wind": {
-      "N": 1,
-      "W": 2,
-      "NW": 2
+      "W": 1
     },
-    "altitude": 1755.0,
+    "altitude": 1751.0,
     "sources": {
+      "dhv": "1322-untersberg-startplatz-1",
       "pge": "9075"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9075"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1322"
   },
   {
     "id": "PSF-010942",
     "ref": "pge:9077",
-    "name": "Hochjoch",
-    "lat": 47.0659,
-    "lon": 9.97265,
+    "name": "Hochjoch Startplatz 1",
+    "lat": 47.067897,
+    "lon": 9.973028,
     "wind": {
       "SW": 1,
-      "W": 2,
-      "NW": 1
+      "W": 1
     },
-    "altitude": 2230.0,
+    "altitude": 2249.0,
     "sources": {
+      "dhv": "1461-hochjoch-startplatz-1",
       "pge": "9077"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9077"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1461"
   },
   {
     "id": "PSF-010943",
@@ -3563,21 +3599,19 @@
   {
     "id": "PSF-010946",
     "ref": "pge:9083",
-    "name": "Schönjoch (Fiss, Ladis)",
-    "lat": 47.0747,
-    "lon": 10.5889,
+    "name": "Schönjoch Startplatz 1",
+    "lat": 47.074658,
+    "lon": 10.589022,
     "wind": {
-      "N": 1,
-      "SE": 2,
-      "S": 2,
-      "SW": 2
+      "S": 1
     },
-    "altitude": 2415.0,
+    "altitude": 2417.0,
     "sources": {
+      "dhv": "1455-schoenjoch-startplatz-1",
       "pge": "9083"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9083"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1455"
   },
   {
     "id": "PSF-010947",
@@ -3705,37 +3739,39 @@
   {
     "id": "PSF-010955",
     "ref": "pge:9096",
-    "name": "Hollersbach im Pinzgau  (Berghof)",
-    "lat": 47.2643,
-    "lon": 12.4283,
+    "name": "Hollersbach Startplatz",
+    "lat": 47.265167,
+    "lon": 12.427417,
     "wind": {
-      "N": 2,
-      "NW": 2
+      "N": 1,
+      "NW": 1
     },
-    "altitude": 1174.0,
+    "altitude": 1145.0,
     "sources": {
+      "dhv": "1268-hollersbach-startplatz",
       "pge": "9096"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9096"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1268"
   },
   {
     "id": "PSF-010956",
     "ref": "pge:9098",
-    "name": "Ebnerfeld",
-    "lat": 46.8526,
-    "lon": 12.7945,
+    "name": "Startplatz Ebnerfeld",
+    "lat": 46.852833,
+    "lon": 12.794667,
     "wind": {
-      "SE": 2,
-      "S": 2,
-      "SW": 2
+      "SE": 1,
+      "S": 1,
+      "SW": 1
     },
-    "altitude": 1376.0,
+    "altitude": 1397.0,
     "sources": {
+      "dhv": "1445-startplatz-ebnerfeld",
       "pge": "9098"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9098"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1445"
   },
   {
     "id": "PSF-010957",
@@ -3754,33 +3790,37 @@
   {
     "id": "PSF-010959",
     "ref": "pge:9106",
-    "name": "Rax",
-    "lat": 47.7173,
-    "lon": 15.7788,
+    "name": "Rax Startplatz 1",
+    "lat": 47.717361,
+    "lon": 15.779056,
     "wind": {
-      "E": 2,
-      "SE": 2
+      "E": 1,
+      "SE": 1
     },
-    "altitude": 1533.0,
+    "altitude": 1539.0,
     "sources": {
+      "dhv": "1367-rax-startplatz-1",
       "pge": "9106"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9106"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1367"
   },
   {
     "id": "PSF-010960",
     "ref": "pge:9107",
-    "name": "Hahnenkamm (Reutte)",
-    "lat": 47.4764,
-    "lon": 10.6434,
-    "wind": {},
-    "altitude": 1820.0,
+    "name": "Hahnenkamm Startplatz 2",
+    "lat": 47.476633,
+    "lon": 10.642353,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1850.0,
     "sources": {
+      "dhv": "1244-hahnenkamm-startplatz-2",
       "pge": "9107"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9107"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1244"
   },
   {
     "id": "PSF-010961",
@@ -3803,37 +3843,39 @@
   {
     "id": "PSF-010962",
     "ref": "pge:9112",
-    "name": "Zwölferhorn",
-    "lat": 47.7428,
-    "lon": 13.3519,
+    "name": "Zwölferhorn Startplatz 1",
+    "lat": 47.742711,
+    "lon": 13.35175,
     "wind": {
-      "N": 2,
-      "NE": 2,
-      "E": 1,
-      "SE": 1,
-      "W": 1,
-      "NW": 2
+      "N": 1,
+      "NE": 1,
+      "NW": 1
     },
-    "altitude": 1496.0,
+    "altitude": 1505.0,
     "sources": {
+      "dhv": "1424-zwoelferhorn-startplatz-1",
       "pge": "9112"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9112"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1424"
   },
   {
     "id": "PSF-010963",
     "ref": "pge:9115",
-    "name": "Tschiernock - Hansbauer",
-    "lat": 46.857,
-    "lon": 13.5534,
-    "wind": {},
-    "altitude": 1593.0,
+    "name": "Tschiernock Startplatz 1",
+    "lat": 46.858452,
+    "lon": 13.552247,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1669.0,
     "sources": {
+      "dhv": "1249-tschiernock-startplatz-1",
       "pge": "9115"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9115"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1249"
   },
   {
     "id": "PSF-010964",
@@ -3866,18 +3908,19 @@
   {
     "id": "PSF-010966",
     "ref": "pge:9120",
-    "name": "Markbachjoch (Wildschönau)",
-    "lat": 47.4321,
-    "lon": 12.094,
+    "name": "Markbachjoch Startplatz 1",
+    "lat": 47.43205,
+    "lon": 12.093979,
     "wind": {
-      "N": 2
+      "N": 1
     },
-    "altitude": 1430.0,
+    "altitude": 1448.0,
     "sources": {
+      "dhv": "1313-markbachjoch-startplatz-1",
       "pge": "9120"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9120"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1313"
   },
   {
     "id": "PSF-010967",
@@ -3896,19 +3939,19 @@
   {
     "id": "PSF-010968",
     "ref": "pge:9122",
-    "name": "Hochstein",
-    "lat": 46.8183,
-    "lon": 12.707,
+    "name": "Hochstein Startplatz",
+    "lat": 46.818388,
+    "lon": 12.708006,
     "wind": {
-      "NE": 2,
-      "E": 2
+      "E": 1
     },
-    "altitude": 1977.0,
+    "altitude": 1963.0,
     "sources": {
+      "dhv": "1326-hochstein-startplatz",
       "pge": "9122"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9122"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1326"
   },
   {
     "id": "PSF-010969",
@@ -3927,35 +3970,36 @@
   {
     "id": "PSF-010970",
     "ref": "pge:9125",
-    "name": "Planai",
-    "lat": 47.3721,
-    "lon": 13.7255,
-    "wind": {},
-    "altitude": 1837.0,
+    "name": "Planai Startplatz 2",
+    "lat": 47.372667,
+    "lon": 13.724639,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 1821.0,
     "sources": {
+      "dhv": "1315-planai-startplatz-2",
       "pge": "9125"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9125"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1315"
   },
   {
     "id": "PSF-010971",
     "ref": "pge:9126",
-    "name": "Stoderzinken",
-    "lat": 47.4589,
-    "lon": 13.8269,
+    "name": "Stoderzinken Startplatz 1",
+    "lat": 47.458806,
+    "lon": 13.827694,
     "wind": {
-      "N": 2,
-      "SE": 2,
-      "S": 2,
-      "NW": 2
+      "SE": 1
     },
-    "altitude": 2029.0,
+    "altitude": 2028.0,
     "sources": {
+      "dhv": "1316-stoderzinken-startplatz-1",
       "pge": "9126"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9126"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1316"
   },
   {
     "id": "PSF-010972",
@@ -3974,16 +4018,20 @@
   {
     "id": "PSF-010973",
     "ref": "pge:9129",
-    "name": "Schiessling",
-    "lat": 47.5705,
-    "lon": 15.2894,
-    "wind": {},
-    "altitude": 1485.0,
+    "name": "Schießling Startplatz",
+    "lat": 47.570411,
+    "lon": 15.289522,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1465.0,
     "sources": {
+      "dhv": "2111-schiessling-startplatz",
       "pge": "9129"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9129"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2111"
   },
   {
     "id": "PSF-010974",
@@ -4030,20 +4078,19 @@
   {
     "id": "PSF-010977",
     "ref": "pge:9136",
-    "name": "Singerberg",
-    "lat": 46.5016,
-    "lon": 14.2379,
+    "name": "Singerberg Startplatz",
+    "lat": 46.501631,
+    "lon": 14.237978,
     "wind": {
-      "N": 2,
-      "NE": 2,
-      "NW": 2
+      "N": 1
     },
-    "altitude": 1435.0,
+    "altitude": 1426.0,
     "sources": {
+      "dhv": "2287-singerberg-startplatz",
       "pge": "9136"
     },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=9136"
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2287"
   },
   {
     "id": "PSF-010978",
@@ -4079,5 +4126,3815 @@
     },
     "primary": "pge",
     "url": "https://www.paraglidingearth.com/?site=9979"
+  },
+  {
+    "id": "PSF-012465",
+    "ref": "dhv:1208-choralpe-startplatz-1",
+    "name": "Choralpe Startplatz 1",
+    "lat": 47.418789,
+    "lon": 12.243973,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1797.0,
+    "sources": {
+      "dhv": "1208-choralpe-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1208"
+  },
+  {
+    "id": "PSF-012466",
+    "ref": "dhv:1208-choralpe-startplatz-2",
+    "name": "Choralpe Startplatz 2",
+    "lat": 47.420901,
+    "lon": 12.245443,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1742.0,
+    "sources": {
+      "dhv": "1208-choralpe-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1208"
+  },
+  {
+    "id": "PSF-012467",
+    "ref": "dhv:1208-choralpe-startplatz-3",
+    "name": "Choralpe Startplatz 3",
+    "lat": 47.421433,
+    "lon": 12.245285,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1734.0,
+    "sources": {
+      "dhv": "1208-choralpe-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1208"
+  },
+  {
+    "id": "PSF-012468",
+    "ref": "dhv:1208-choralpe-startplatz-westendorf-300er",
+    "name": "Choralpe Startplatz Westendorf 300er",
+    "lat": 47.421862,
+    "lon": 12.220439,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1036.0,
+    "sources": {
+      "dhv": "1208-choralpe-startplatz-westendorf-300er"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1208"
+  },
+  {
+    "id": "PSF-012469",
+    "ref": "dhv:1219-diedamskopf-startplatz-2-hg-rampe",
+    "name": "Diedamskopf Startplatz 2 HG Rampe",
+    "lat": 47.344947,
+    "lon": 10.029967,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1979.0,
+    "sources": {
+      "dhv": "1219-diedamskopf-startplatz-2-hg-rampe"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1219"
+  },
+  {
+    "id": "PSF-012470",
+    "ref": "dhv:1219-diedamskopf-startplatz-3-mittelstation",
+    "name": "Diedamskopf Startplatz 3 Mittelstation",
+    "lat": 47.333228,
+    "lon": 10.024717,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1639.0,
+    "sources": {
+      "dhv": "1219-diedamskopf-startplatz-3-mittelstation"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1219"
+  },
+  {
+    "id": "PSF-012471",
+    "ref": "dhv:1221-startplatz-bezau-nord",
+    "name": "Startplatz Bezau Nord",
+    "lat": 47.399606,
+    "lon": 9.937003,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1640.0,
+    "sources": {
+      "dhv": "1221-startplatz-bezau-nord"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1221"
+  },
+  {
+    "id": "PSF-012472",
+    "ref": "dhv:1221-startplatz-bezau-sued",
+    "name": "Startplatz Bezau Süd",
+    "lat": 47.398833,
+    "lon": 9.944306,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1672.0,
+    "sources": {
+      "dhv": "1221-startplatz-bezau-sued"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1221"
+  },
+  {
+    "id": "PSF-012473",
+    "ref": "dhv:1243-neunerkoepfle-startplatz-2",
+    "name": "Neunerköpfle Startplatz 2",
+    "lat": 47.485157,
+    "lon": 10.544879,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1756.0,
+    "sources": {
+      "dhv": "1243-neunerkoepfle-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1243"
+  },
+  {
+    "id": "PSF-012474",
+    "ref": "dhv:1244-hahnenkamm-startplatz-1",
+    "name": "Hahnenkamm Startplatz 1",
+    "lat": 47.476405,
+    "lon": 10.640795,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1869.0,
+    "sources": {
+      "dhv": "1244-hahnenkamm-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1244"
+  },
+  {
+    "id": "PSF-012483",
+    "ref": "dhv:1250-goldeck-startplatz-1",
+    "name": "Goldeck Startplatz 1",
+    "lat": 46.758871,
+    "lon": 13.458349,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2132.0,
+    "sources": {
+      "dhv": "1250-goldeck-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1250"
+  },
+  {
+    "id": "PSF-012484",
+    "ref": "dhv:1251-gerlitzen-startplatz-2",
+    "name": "Gerlitzen Startplatz 2",
+    "lat": 46.669274,
+    "lon": 13.904657,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1043.0,
+    "sources": {
+      "dhv": "1251-gerlitzen-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1251"
+  },
+  {
+    "id": "PSF-012485",
+    "ref": "dhv:1251-gerlitzen-startplatz-3",
+    "name": "Gerlitzen Startplatz 3",
+    "lat": 46.673621,
+    "lon": 13.896664,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1460.0,
+    "sources": {
+      "dhv": "1251-gerlitzen-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1251"
+  },
+  {
+    "id": "PSF-012486",
+    "ref": "dhv:1260-thurntaler-startplatz-1",
+    "name": "Thurntaler Startplatz 1",
+    "lat": 46.771983,
+    "lon": 12.3888,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 2333.0,
+    "sources": {
+      "dhv": "1260-thurntaler-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1260"
+  },
+  {
+    "id": "PSF-012487",
+    "ref": "dhv:1260-thurntaler-startplatz-2",
+    "name": "Thurntaler Startplatz 2",
+    "lat": 46.7692,
+    "lon": 12.392606,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 2246.0,
+    "sources": {
+      "dhv": "1260-thurntaler-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1260"
+  },
+  {
+    "id": "PSF-012488",
+    "ref": "dhv:1260-thurntaler-startplatz-3",
+    "name": "Thurntaler Startplatz 3",
+    "lat": 46.767575,
+    "lon": 12.3986,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2171.0,
+    "sources": {
+      "dhv": "1260-thurntaler-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1260"
+  },
+  {
+    "id": "PSF-012489",
+    "ref": "dhv:1266-wildkogel-startplatz-2",
+    "name": "Wildkogel Startplatz 2",
+    "lat": 47.280168,
+    "lon": 12.279797,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 2049.0,
+    "sources": {
+      "dhv": "1266-wildkogel-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1266"
+  },
+  {
+    "id": "PSF-012490",
+    "ref": "dhv:1266-wildkogel-startplatz-3",
+    "name": "Wildkogel Startplatz 3",
+    "lat": 47.281238,
+    "lon": 12.287092,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2117.0,
+    "sources": {
+      "dhv": "1266-wildkogel-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1266"
+  },
+  {
+    "id": "PSF-012491",
+    "ref": "dhv:1266-wildkogel-startplatz-4",
+    "name": "Wildkogel Startplatz 4",
+    "lat": 47.282056,
+    "lon": 12.292222,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 2091.0,
+    "sources": {
+      "dhv": "1266-wildkogel-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1266"
+  },
+  {
+    "id": "PSF-012492",
+    "ref": "dhv:1267-entscharn-startplatz",
+    "name": "Entscharn Startplatz",
+    "lat": 47.280556,
+    "lon": 12.342417,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1137.0,
+    "sources": {
+      "dhv": "1267-entscharn-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1267"
+  },
+  {
+    "id": "PSF-012493",
+    "ref": "dhv:1269-schmittenhoehe-startplatz-1",
+    "name": "Schmittenhöhe Startplatz 1",
+    "lat": 47.323025,
+    "lon": 12.736919,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1869.0,
+    "sources": {
+      "dhv": "1269-schmittenhoehe-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1269"
+  },
+  {
+    "id": "PSF-012494",
+    "ref": "dhv:1269-schmittenhoehe-startplatz-2",
+    "name": "Schmittenhöhe Startplatz 2",
+    "lat": 47.328458,
+    "lon": 12.737151,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1942.0,
+    "sources": {
+      "dhv": "1269-schmittenhoehe-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1269"
+  },
+  {
+    "id": "PSF-012510",
+    "ref": "dhv:1298-gaisberg-startplatz-1",
+    "name": "Gaisberg Startplatz 1",
+    "lat": 47.803241,
+    "lon": 13.109707,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1257.0,
+    "sources": {
+      "dhv": "1298-gaisberg-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1298"
+  },
+  {
+    "id": "PSF-012511",
+    "ref": "dhv:1298-gaisberg-startplatz-3",
+    "name": "Gaisberg Startplatz 3",
+    "lat": 47.804883,
+    "lon": 13.113942,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1263.0,
+    "sources": {
+      "dhv": "1298-gaisberg-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1298"
+  },
+  {
+    "id": "PSF-012512",
+    "ref": "dhv:1300-melchboden-startplatz-2",
+    "name": "Melchboden Startplatz 2",
+    "lat": 47.219415,
+    "lon": 11.82307,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2041.0,
+    "sources": {
+      "dhv": "1300-melchboden-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1300"
+  },
+  {
+    "id": "PSF-012513",
+    "ref": "dhv:1300-melchboden-startplatz-3",
+    "name": "Melchboden Startplatz 3",
+    "lat": 47.219528,
+    "lon": 11.824078,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 2037.0,
+    "sources": {
+      "dhv": "1300-melchboden-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1300"
+  },
+  {
+    "id": "PSF-012514",
+    "ref": "dhv:1301-penken-startplatz",
+    "name": "Penken Startplatz",
+    "lat": 47.176222,
+    "lon": 11.816697,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1975.0,
+    "sources": {
+      "dhv": "1301-penken-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1301"
+  },
+  {
+    "id": "PSF-012515",
+    "ref": "dhv:1302-finkenberg-startplatz-1",
+    "name": "Finkenberg Startplatz 1",
+    "lat": 47.167972,
+    "lon": 11.804333,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 2029.0,
+    "sources": {
+      "dhv": "1302-finkenberg-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1302"
+  },
+  {
+    "id": "PSF-012516",
+    "ref": "dhv:1302-finkenberg-startplatz-2",
+    "name": "Finkenberg Startplatz 2",
+    "lat": 47.169049,
+    "lon": 11.799,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 2074.0,
+    "sources": {
+      "dhv": "1302-finkenberg-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1302"
+  },
+  {
+    "id": "PSF-012517",
+    "ref": "dhv:1303-alkus-startplatz",
+    "name": "Alkus Startplatz",
+    "lat": 46.875361,
+    "lon": 12.702167,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1309.0,
+    "sources": {
+      "dhv": "1303-alkus-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1303"
+  },
+  {
+    "id": "PSF-012518",
+    "ref": "dhv:1305-emberger-alm-startplatz-2",
+    "name": "Emberger Alm Startplatz 2",
+    "lat": 46.776861,
+    "lon": 13.149605,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1889.0,
+    "sources": {
+      "dhv": "1305-emberger-alm-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1305"
+  },
+  {
+    "id": "PSF-012519",
+    "ref": "dhv:1306-greifenburg-startplatz-wiesflecker",
+    "name": "Greifenburg Startplatz Wiesflecker",
+    "lat": 46.76125,
+    "lon": 13.201583,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1068.0,
+    "sources": {
+      "dhv": "1306-greifenburg-startplatz-wiesflecker"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1306"
+  },
+  {
+    "id": "PSF-012520",
+    "ref": "dhv:1307-fulseck-startplatz-1",
+    "name": "Fulseck Startplatz 1",
+    "lat": 47.2343,
+    "lon": 13.148006,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 2015.0,
+    "sources": {
+      "dhv": "1307-fulseck-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1307"
+  },
+  {
+    "id": "PSF-012521",
+    "ref": "dhv:1307-fulseck-startplatz-3",
+    "name": "Fulseck Startplatz 3",
+    "lat": 47.23559,
+    "lon": 13.148242,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 2015.0,
+    "sources": {
+      "dhv": "1307-fulseck-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1307"
+  },
+  {
+    "id": "PSF-012522",
+    "ref": "dhv:1307-fulseck-startplatz-4",
+    "name": "Fulseck Startplatz 4",
+    "lat": 47.236682,
+    "lon": 13.148339,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1998.0,
+    "sources": {
+      "dhv": "1307-fulseck-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1307"
+  },
+  {
+    "id": "PSF-012523",
+    "ref": "dhv:1308-goeriach-startplatz",
+    "name": "Göriach Startplatz",
+    "lat": 46.861494,
+    "lon": 13.399722,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1323.0,
+    "sources": {
+      "dhv": "1308-goeriach-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1308"
+  },
+  {
+    "id": "PSF-012524",
+    "ref": "dhv:1309-hohe-salve-startplatz-2",
+    "name": "Hohe Salve Startplatz 2",
+    "lat": 47.465272,
+    "lon": 12.203139,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1815.0,
+    "sources": {
+      "dhv": "1309-hohe-salve-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1309"
+  },
+  {
+    "id": "PSF-012525",
+    "ref": "dhv:1309-hohe-salve-startplatz-3",
+    "name": "Hohe Salve Startplatz 3",
+    "lat": 47.464507,
+    "lon": 12.204673,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1763.0,
+    "sources": {
+      "dhv": "1309-hohe-salve-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1309"
+  },
+  {
+    "id": "PSF-012526",
+    "ref": "dhv:1313-markbachjoch-startplatz-2",
+    "name": "Markbachjoch Startplatz 2",
+    "lat": 47.431992,
+    "lon": 12.091441,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1448.0,
+    "sources": {
+      "dhv": "1313-markbachjoch-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1313"
+  },
+  {
+    "id": "PSF-012527",
+    "ref": "dhv:1313-markbachjoch-startplatz-3",
+    "name": "Markbachjoch Startplatz 3",
+    "lat": 47.425833,
+    "lon": 12.070442,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1704.0,
+    "sources": {
+      "dhv": "1313-markbachjoch-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1313"
+  },
+  {
+    "id": "PSF-012528",
+    "ref": "dhv:1313-markbachjoch-startplatz-4",
+    "name": "Markbachjoch Startplatz 4",
+    "lat": 47.438122,
+    "lon": 12.108839,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "altitude": 1229.0,
+    "sources": {
+      "dhv": "1313-markbachjoch-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1313"
+  },
+  {
+    "id": "PSF-012529",
+    "ref": "dhv:1314-michaelerberg-startplatz",
+    "name": "Michaelerberg Startplatz",
+    "lat": 47.411361,
+    "lon": 13.893694,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1106.0,
+    "sources": {
+      "dhv": "1314-michaelerberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1314"
+  },
+  {
+    "id": "PSF-012530",
+    "ref": "dhv:1315-planai-startplatz-1",
+    "name": "Planai Startplatz 1",
+    "lat": 47.381389,
+    "lon": 13.705028,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "altitude": 1335.0,
+    "sources": {
+      "dhv": "1315-planai-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1315"
+  },
+  {
+    "id": "PSF-012531",
+    "ref": "dhv:1315-planai-startplatz-3",
+    "name": "Planai Startplatz 3",
+    "lat": 47.37175,
+    "lon": 13.724083,
+    "wind": {
+      "E": 1,
+      "NW": 1
+    },
+    "altitude": 1848.0,
+    "sources": {
+      "dhv": "1315-planai-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1315"
+  },
+  {
+    "id": "PSF-012532",
+    "ref": "dhv:1316-stoderzinken-startplatz-2",
+    "name": "Stoderzinken Startplatz 2",
+    "lat": 47.459444,
+    "lon": 13.828194,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 2028.0,
+    "sources": {
+      "dhv": "1316-stoderzinken-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1316"
+  },
+  {
+    "id": "PSF-012533",
+    "ref": "dhv:1316-stoderzinken-startplatz-3",
+    "name": "Stoderzinken Startplatz 3",
+    "lat": 47.4575,
+    "lon": 13.819028,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1881.0,
+    "sources": {
+      "dhv": "1316-stoderzinken-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1316"
+  },
+  {
+    "id": "PSF-012534",
+    "ref": "dhv:1316-stoderzinken-startplatz-4",
+    "name": "Stoderzinken Startplatz 4",
+    "lat": 47.458689,
+    "lon": 13.823883,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1966.0,
+    "sources": {
+      "dhv": "1316-stoderzinken-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1316"
+  },
+  {
+    "id": "PSF-012535",
+    "ref": "dhv:1317-stubnerkogel-startplatz-1",
+    "name": "Stubnerkogel Startplatz 1",
+    "lat": 47.113797,
+    "lon": 13.09971,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 2242.0,
+    "sources": {
+      "dhv": "1317-stubnerkogel-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1317"
+  },
+  {
+    "id": "PSF-012536",
+    "ref": "dhv:1319-riesner-alm-startplatz",
+    "name": "Riesner Alm Startplatz",
+    "lat": 47.368325,
+    "lon": 14.091833,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1788.0,
+    "sources": {
+      "dhv": "1319-riesner-alm-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1319"
+  },
+  {
+    "id": "PSF-012537",
+    "ref": "dhv:1321-uebungsgelaende-flugschule-wings-landeplatz",
+    "name": "Übungsgelände Flugschule Wings Landeplatz",
+    "lat": 47.69327,
+    "lon": 14.325764,
+    "wind": {
+      "SE": 1,
+      "NW": 1
+    },
+    "altitude": 603.0,
+    "sources": {
+      "dhv": "1321-uebungsgelaende-flugschule-wings-landeplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1321"
+  },
+  {
+    "id": "PSF-012538",
+    "ref": "dhv:1322-untersberg-startplatz-2",
+    "name": "Untersberg Startplatz 2",
+    "lat": 47.722073,
+    "lon": 13.007598,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1728.0,
+    "sources": {
+      "dhv": "1322-untersberg-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1322"
+  },
+  {
+    "id": "PSF-012539",
+    "ref": "dhv:1323-gruberleiten-uebungshang-startplatz",
+    "name": "Gruberleiten Übungshang Startplatz",
+    "lat": 47.425445,
+    "lon": 13.667035,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1162.0,
+    "sources": {
+      "dhv": "1323-gruberleiten-uebungshang-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1323"
+  },
+  {
+    "id": "PSF-012540",
+    "ref": "dhv:1324-hauser-kaibling-startplatz-1",
+    "name": "Hauser Kaibling Startplatz 1",
+    "lat": 47.379233,
+    "lon": 13.767058,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 1796.0,
+    "sources": {
+      "dhv": "1324-hauser-kaibling-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1324"
+  },
+  {
+    "id": "PSF-012541",
+    "ref": "dhv:1324-hauser-kaibling-startplatz-3",
+    "name": "Hauser Kaibling Startplatz 3",
+    "lat": 47.374374,
+    "lon": 13.778824,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1982.0,
+    "sources": {
+      "dhv": "1324-hauser-kaibling-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1324"
+  },
+  {
+    "id": "PSF-012542",
+    "ref": "dhv:1329-liezen-startplatz",
+    "name": "Liezen Startplatz",
+    "lat": 47.581968,
+    "lon": 14.232101,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1069.0,
+    "sources": {
+      "dhv": "1329-liezen-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1329"
+  },
+  {
+    "id": "PSF-012543",
+    "ref": "dhv:1330-hochwurzen-startplatz-1",
+    "name": "Hochwurzen Startplatz 1",
+    "lat": 47.360008,
+    "lon": 13.638961,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "altitude": 1812.0,
+    "sources": {
+      "dhv": "1330-hochwurzen-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1330"
+  },
+  {
+    "id": "PSF-012544",
+    "ref": "dhv:1330-hochwurzen-startplatz-2",
+    "name": "Hochwurzen Startplatz 2",
+    "lat": 47.358827,
+    "lon": 13.639483,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1812.0,
+    "sources": {
+      "dhv": "1330-hochwurzen-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1330"
+  },
+  {
+    "id": "PSF-012545",
+    "ref": "dhv:1330-hochwurzen-startplatz-3",
+    "name": "Hochwurzen Startplatz 3",
+    "lat": 47.360297,
+    "lon": 13.640158,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1808.0,
+    "sources": {
+      "dhv": "1330-hochwurzen-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1330"
+  },
+  {
+    "id": "PSF-012546",
+    "ref": "dhv:1331-haermelekopf-startplatz-1",
+    "name": "Härmelekopf Startplatz 1",
+    "lat": 47.328927,
+    "lon": 11.227153,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 2011.0,
+    "sources": {
+      "dhv": "1331-haermelekopf-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1331"
+  },
+  {
+    "id": "PSF-012547",
+    "ref": "dhv:1332-gschwandtkopf-startplatz",
+    "name": "Gschwandtkopf Startplatz",
+    "lat": 47.315377,
+    "lon": 11.178632,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1412.0,
+    "sources": {
+      "dhv": "1332-gschwandtkopf-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1332"
+  },
+  {
+    "id": "PSF-012548",
+    "ref": "dhv:1334-gaislachkogel-startplatz-1",
+    "name": "Gaislachkogel Startplatz 1",
+    "lat": 46.954192,
+    "lon": 10.981458,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "altitude": 2306.0,
+    "sources": {
+      "dhv": "1334-gaislachkogel-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1334"
+  },
+  {
+    "id": "PSF-012549",
+    "ref": "dhv:1334-gaislachkogel-startplatz-2",
+    "name": "Gaislachkogel Startplatz 2",
+    "lat": 46.953617,
+    "lon": 10.984242,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 2241.0,
+    "sources": {
+      "dhv": "1334-gaislachkogel-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1334"
+  },
+  {
+    "id": "PSF-012550",
+    "ref": "dhv:1335-spieljoch-startplatz-1",
+    "name": "Spieljoch Startplatz 1",
+    "lat": 47.331539,
+    "lon": 11.796464,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 1852.0,
+    "sources": {
+      "dhv": "1335-spieljoch-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1335"
+  },
+  {
+    "id": "PSF-012551",
+    "ref": "dhv:1335-spieljoch-startplatz-2",
+    "name": "Spieljoch Startplatz 2",
+    "lat": 47.324633,
+    "lon": 11.791392,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 2047.0,
+    "sources": {
+      "dhv": "1335-spieljoch-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1335"
+  },
+  {
+    "id": "PSF-012552",
+    "ref": "dhv:1357-martele-startplatz",
+    "name": "Martele Startplatz",
+    "lat": 46.880306,
+    "lon": 12.942167,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1838.0,
+    "sources": {
+      "dhv": "1357-martele-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1357"
+  },
+  {
+    "id": "PSF-012553",
+    "ref": "dhv:1358-rottenstein-startplatz",
+    "name": "Rottenstein Startplatz",
+    "lat": 46.768144,
+    "lon": 13.230569,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1291.0,
+    "sources": {
+      "dhv": "1358-rottenstein-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1358"
+  },
+  {
+    "id": "PSF-012554",
+    "ref": "dhv:1361-schoeckel-startplatz-1",
+    "name": "Schöckel Startplatz 1",
+    "lat": 47.198333,
+    "lon": 15.46,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1419.0,
+    "sources": {
+      "dhv": "1361-schoeckel-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1361"
+  },
+  {
+    "id": "PSF-012555",
+    "ref": "dhv:1363-teichalm-startplatz",
+    "name": "Teichalm Startplatz",
+    "lat": 47.358056,
+    "lon": 15.481389,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1453.0,
+    "sources": {
+      "dhv": "1363-teichalm-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1363"
+  },
+  {
+    "id": "PSF-012556",
+    "ref": "dhv:1366-grosse-scheibe-startplatz",
+    "name": "Große Scheibe Startplatz",
+    "lat": 47.634861,
+    "lon": 15.689583,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1449.0,
+    "sources": {
+      "dhv": "1366-grosse-scheibe-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1366"
+  },
+  {
+    "id": "PSF-012557",
+    "ref": "dhv:1367-rax-startplatz-2",
+    "name": "Rax Startplatz 2",
+    "lat": 47.713371,
+    "lon": 15.762409,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1642.0,
+    "sources": {
+      "dhv": "1367-rax-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1367"
+  },
+  {
+    "id": "PSF-012558",
+    "ref": "dhv:1368-sonnwendstein-startplatz-1",
+    "name": "Sonnwendstein Startplatz 1",
+    "lat": 47.622537,
+    "lon": 15.858078,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1482.0,
+    "sources": {
+      "dhv": "1368-sonnwendstein-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1368"
+  },
+  {
+    "id": "PSF-012559",
+    "ref": "dhv:1368-sonnwendstein-startplatz-3",
+    "name": "Sonnwendstein Startplatz 3",
+    "lat": 47.632082,
+    "lon": 15.868807,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1246.0,
+    "sources": {
+      "dhv": "1368-sonnwendstein-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1368"
+  },
+  {
+    "id": "PSF-012560",
+    "ref": "dhv:1369-messnerin-startplatz-1",
+    "name": "Messnerin Startplatz 1",
+    "lat": 47.55866,
+    "lon": 15.082898,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1798.0,
+    "sources": {
+      "dhv": "1369-messnerin-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1369"
+  },
+  {
+    "id": "PSF-012561",
+    "ref": "dhv:1369-messnerin-startplatz-2",
+    "name": "Messnerin Startplatz 2",
+    "lat": 47.555836,
+    "lon": 15.085281,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1695.0,
+    "sources": {
+      "dhv": "1369-messnerin-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1369"
+  },
+  {
+    "id": "PSF-012562",
+    "ref": "dhv:1370-polster-startplatz-1",
+    "name": "Polster Startplatz 1",
+    "lat": 47.532419,
+    "lon": 14.961013,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1874.0,
+    "sources": {
+      "dhv": "1370-polster-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1370"
+  },
+  {
+    "id": "PSF-012563",
+    "ref": "dhv:1370-polster-startplatz-3",
+    "name": "Polster Startplatz 3",
+    "lat": 47.532335,
+    "lon": 14.961587,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1798.0,
+    "sources": {
+      "dhv": "1370-polster-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1370"
+  },
+  {
+    "id": "PSF-012564",
+    "ref": "dhv:1371-buergeralm-startplatz-2",
+    "name": "Bürgeralm Startplatz 2",
+    "lat": 47.568274,
+    "lon": 15.230463,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1550.0,
+    "sources": {
+      "dhv": "1371-buergeralm-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1371"
+  },
+  {
+    "id": "PSF-012565",
+    "ref": "dhv:1372-gemeindealpe-startplatz-2",
+    "name": "Gemeindealpe Startplatz 2",
+    "lat": 47.810842,
+    "lon": 15.247242,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1598.0,
+    "sources": {
+      "dhv": "1372-gemeindealpe-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1372"
+  },
+  {
+    "id": "PSF-012566",
+    "ref": "dhv:1372-gemeindealpe-startplatz-3",
+    "name": "Gemeindealpe Startplatz 3",
+    "lat": 47.811991,
+    "lon": 15.248047,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1598.0,
+    "sources": {
+      "dhv": "1372-gemeindealpe-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1372"
+  },
+  {
+    "id": "PSF-012567",
+    "ref": "dhv:1374-muckenkogel-startplatz-1",
+    "name": "Muckenkogel Startplatz 1",
+    "lat": 47.971333,
+    "lon": 15.610056,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1284.0,
+    "sources": {
+      "dhv": "1374-muckenkogel-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1374"
+  },
+  {
+    "id": "PSF-012568",
+    "ref": "dhv:1374-muckenkogel-startplatz-2",
+    "name": "Muckenkogel Startplatz 2",
+    "lat": 47.985247,
+    "lon": 15.600994,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1090.0,
+    "sources": {
+      "dhv": "1374-muckenkogel-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1374"
+  },
+  {
+    "id": "PSF-012569",
+    "ref": "dhv:1374-muckenkogel-startplatz-3",
+    "name": "Muckenkogel Startplatz 3",
+    "lat": 47.977068,
+    "lon": 15.608345,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1220.0,
+    "sources": {
+      "dhv": "1374-muckenkogel-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1374"
+  },
+  {
+    "id": "PSF-012570",
+    "ref": "dhv:1376-schoberstein-start-landeplatz-suedost",
+    "name": "Schoberstein Start-/Landeplatz Südost",
+    "lat": 47.905,
+    "lon": 14.322389,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1215.0,
+    "sources": {
+      "dhv": "1376-schoberstein-start-landeplatz-suedost"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1376"
+  },
+  {
+    "id": "PSF-012571",
+    "ref": "dhv:1378-schnabelberg-startplatz",
+    "name": "Schnabelberg Startplatz",
+    "lat": 47.938801,
+    "lon": 14.738073,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 920.0,
+    "sources": {
+      "dhv": "1378-schnabelberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1378"
+  },
+  {
+    "id": "PSF-012572",
+    "ref": "dhv:1379-hutterer-hoess-startplatz-2",
+    "name": "Hutterer Höß Startplatz 2",
+    "lat": 47.669072,
+    "lon": 14.176365,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 1792.0,
+    "sources": {
+      "dhv": "1379-hutterer-hoess-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1379"
+  },
+  {
+    "id": "PSF-012573",
+    "ref": "dhv:1379-hutterer-hoess-startplatz-3",
+    "name": "Hutterer Höß Startplatz 3",
+    "lat": 47.66637,
+    "lon": 14.166538,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1716.0,
+    "sources": {
+      "dhv": "1379-hutterer-hoess-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1379"
+  },
+  {
+    "id": "PSF-012574",
+    "ref": "dhv:1380-kleinerberg-startplatz-1",
+    "name": "Kleinerberg Startplatz 1",
+    "lat": 47.734078,
+    "lon": 14.366115,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1245.0,
+    "sources": {
+      "dhv": "1380-kleinerberg-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1380"
+  },
+  {
+    "id": "PSF-012575",
+    "ref": "dhv:1380-kleinerberg-startplatz-3",
+    "name": "Kleinerberg Startplatz 3",
+    "lat": 47.73365,
+    "lon": 14.367089,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1245.0,
+    "sources": {
+      "dhv": "1380-kleinerberg-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1380"
+  },
+  {
+    "id": "PSF-012576",
+    "ref": "dhv:1381-speiereck-startplatz-1",
+    "name": "Speiereck Startplatz 1",
+    "lat": 47.120833,
+    "lon": 13.642222,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "S": 1
+    },
+    "altitude": 2010.0,
+    "sources": {
+      "dhv": "1381-speiereck-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1381"
+  },
+  {
+    "id": "PSF-012577",
+    "ref": "dhv:1381-speiereck-startplatz-2",
+    "name": "Speiereck Startplatz 2",
+    "lat": 47.127257,
+    "lon": 13.624667,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2380.0,
+    "sources": {
+      "dhv": "1381-speiereck-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1381"
+  },
+  {
+    "id": "PSF-012578",
+    "ref": "dhv:1382-aineck-startplatz",
+    "name": "Aineck Startplatz",
+    "lat": 47.057008,
+    "lon": 13.637064,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2167.0,
+    "sources": {
+      "dhv": "1382-aineck-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1382"
+  },
+  {
+    "id": "PSF-012579",
+    "ref": "dhv:1383-almkopf-startplatz",
+    "name": "Almkopf Startplatz",
+    "lat": 47.415472,
+    "lon": 10.7659,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1770.0,
+    "sources": {
+      "dhv": "1383-almkopf-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1383"
+  },
+  {
+    "id": "PSF-012580",
+    "ref": "dhv:1384-kapall-startplatz",
+    "name": "Kapall Startplatz",
+    "lat": 47.148253,
+    "lon": 10.248203,
+    "wind": {
+      "E": 1,
+      "W": 1
+    },
+    "altitude": 2307.0,
+    "sources": {
+      "dhv": "1384-kapall-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1384"
+  },
+  {
+    "id": "PSF-012581",
+    "ref": "dhv:1385-kriegerhorn-startplatz",
+    "name": "Kriegerhorn Startplatz",
+    "lat": 47.214064,
+    "lon": 10.115831,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 2142.0,
+    "sources": {
+      "dhv": "1385-kriegerhorn-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1385"
+  },
+  {
+    "id": "PSF-012582",
+    "ref": "dhv:1388-trattberg-startplatz-1",
+    "name": "Trattberg Startplatz 1",
+    "lat": 47.6375,
+    "lon": 13.268861,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1623.0,
+    "sources": {
+      "dhv": "1388-trattberg-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1388"
+  },
+  {
+    "id": "PSF-012583",
+    "ref": "dhv:1388-trattberg-startplatz-2",
+    "name": "Trattberg Startplatz 2",
+    "lat": 47.637056,
+    "lon": 13.262944,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1519.0,
+    "sources": {
+      "dhv": "1388-trattberg-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1388"
+  },
+  {
+    "id": "PSF-012584",
+    "ref": "dhv:1389-pernegg-startplatz",
+    "name": "Pernegg Startplatz",
+    "lat": 47.60698,
+    "lon": 13.356457,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1038.0,
+    "sources": {
+      "dhv": "1389-pernegg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1389"
+  },
+  {
+    "id": "PSF-012585",
+    "ref": "dhv:1391-bischling-startplatz-ost",
+    "name": "Bischling Startplatz Ost",
+    "lat": 47.464056,
+    "lon": 13.299083,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1818.0,
+    "sources": {
+      "dhv": "1391-bischling-startplatz-ost"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1391"
+  },
+  {
+    "id": "PSF-012586",
+    "ref": "dhv:1391-bischling-startplatz-sued",
+    "name": "Bischling Startplatz Süd",
+    "lat": 47.462,
+    "lon": 13.298167,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1818.0,
+    "sources": {
+      "dhv": "1391-bischling-startplatz-sued"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1391"
+  },
+  {
+    "id": "PSF-012587",
+    "ref": "dhv:1392-hochstall-startplatz",
+    "name": "Hochstall Startplatz",
+    "lat": 47.611284,
+    "lon": 13.383923,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1235.0,
+    "sources": {
+      "dhv": "1392-hochstall-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1392"
+  },
+  {
+    "id": "PSF-012588",
+    "ref": "dhv:1393-einberg-startplatz",
+    "name": "Einberg Startplatz",
+    "lat": 47.617432,
+    "lon": 13.360743,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1635.0,
+    "sources": {
+      "dhv": "1393-einberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1393"
+  },
+  {
+    "id": "PSF-012602",
+    "ref": "dhv:1415-feuerkogel-startplatz-1",
+    "name": "Feuerkogel Startplatz 1",
+    "lat": 47.816506,
+    "lon": 13.719419,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1595.0,
+    "sources": {
+      "dhv": "1415-feuerkogel-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1415"
+  },
+  {
+    "id": "PSF-012603",
+    "ref": "dhv:1415-feuerkogel-startplatz-3",
+    "name": "Feuerkogel Startplatz 3",
+    "lat": 47.814301,
+    "lon": 13.721318,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1580.0,
+    "sources": {
+      "dhv": "1415-feuerkogel-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1415"
+  },
+  {
+    "id": "PSF-012604",
+    "ref": "dhv:1416-loser-startplatz-2",
+    "name": "Loser Startplatz 2",
+    "lat": 47.662917,
+    "lon": 13.788806,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1700.0,
+    "sources": {
+      "dhv": "1416-loser-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1416"
+  },
+  {
+    "id": "PSF-012605",
+    "ref": "dhv:1416-loser-startplatz-3",
+    "name": "Loser Startplatz 3",
+    "lat": 47.667208,
+    "lon": 13.787799,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1770.0,
+    "sources": {
+      "dhv": "1416-loser-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1416"
+  },
+  {
+    "id": "PSF-012606",
+    "ref": "dhv:1416-loser-startplatz-4",
+    "name": "Loser Startplatz 4",
+    "lat": 47.656922,
+    "lon": 13.782978,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1525.0,
+    "sources": {
+      "dhv": "1416-loser-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1416"
+  },
+  {
+    "id": "PSF-012607",
+    "ref": "dhv:1416-loser-startplatz-5",
+    "name": "Loser Startplatz 5",
+    "lat": 47.660792,
+    "lon": 13.785731,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1600.0,
+    "sources": {
+      "dhv": "1416-loser-startplatz-5"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1416"
+  },
+  {
+    "id": "PSF-012608",
+    "ref": "dhv:1417-rittisberg-startplatz",
+    "name": "Rittisberg Startplatz",
+    "lat": 47.419506,
+    "lon": 13.614211,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1482.0,
+    "sources": {
+      "dhv": "1417-rittisberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1417"
+  },
+  {
+    "id": "PSF-012609",
+    "ref": "dhv:1418-reiteralm-startplatz",
+    "name": "Reiteralm Startplatz",
+    "lat": 47.353008,
+    "lon": 13.592083,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1965.0,
+    "sources": {
+      "dhv": "1418-reiteralm-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1418"
+  },
+  {
+    "id": "PSF-012610",
+    "ref": "dhv:1419-dachstein-startplatz",
+    "name": "Dachstein Startplatz",
+    "lat": 47.467261,
+    "lon": 13.627464,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2593.0,
+    "sources": {
+      "dhv": "1419-dachstein-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1419"
+  },
+  {
+    "id": "PSF-012611",
+    "ref": "dhv:1422-krippenstein-startplatz",
+    "name": "Krippenstein Startplatz",
+    "lat": 47.528528,
+    "lon": 13.692044,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1976.0,
+    "sources": {
+      "dhv": "1422-krippenstein-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1422"
+  },
+  {
+    "id": "PSF-012612",
+    "ref": "dhv:1425-hahnenkamm-kitzbuehel-startplatz-1",
+    "name": "Hahnenkamm Kitzbühel Startplatz 1",
+    "lat": 47.426639,
+    "lon": 12.370892,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1625.0,
+    "sources": {
+      "dhv": "1425-hahnenkamm-kitzbuehel-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1425"
+  },
+  {
+    "id": "PSF-012613",
+    "ref": "dhv:1425-hahnenkamm-kitzbuehel-startplatz-2",
+    "name": "Hahnenkamm Kitzbühel Startplatz 2",
+    "lat": 47.424797,
+    "lon": 12.370344,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1650.0,
+    "sources": {
+      "dhv": "1425-hahnenkamm-kitzbuehel-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1425"
+  },
+  {
+    "id": "PSF-012614",
+    "ref": "dhv:1426-laerchfilzkogel-startplatz",
+    "name": "Lärchfilzkogel Startplatz",
+    "lat": 47.443081,
+    "lon": 12.549006,
+    "wind": {
+      "E": 1,
+      "S": 1,
+      "W": 1
+    },
+    "altitude": 1641.0,
+    "sources": {
+      "dhv": "1426-laerchfilzkogel-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1426"
+  },
+  {
+    "id": "PSF-012615",
+    "ref": "dhv:1427-kitzeck-startplatz",
+    "name": "Kitzeck Startplatz",
+    "lat": 46.775336,
+    "lon": 15.467172,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 471.0,
+    "sources": {
+      "dhv": "1427-kitzeck-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1427"
+  },
+  {
+    "id": "PSF-012616",
+    "ref": "dhv:1428-pongratzen-startplatz",
+    "name": "Pongratzen Startplatz",
+    "lat": 46.653447,
+    "lon": 15.300494,
+    "wind": {
+      "N": 1,
+      "NE": 1
+    },
+    "altitude": 876.0,
+    "sources": {
+      "dhv": "1428-pongratzen-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1428"
+  },
+  {
+    "id": "PSF-012617",
+    "ref": "dhv:1429-wechtisch-startplatz",
+    "name": "Wechtisch Startplatz",
+    "lat": 46.654642,
+    "lon": 15.356283,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "altitude": 704.0,
+    "sources": {
+      "dhv": "1429-wechtisch-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1429"
+  },
+  {
+    "id": "PSF-012618",
+    "ref": "dhv:1435-joechelspitze-startplatz-1",
+    "name": "Jöchelspitze Startplatz 1",
+    "lat": 47.275133,
+    "lon": 10.363981,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1763.0,
+    "sources": {
+      "dhv": "1435-joechelspitze-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1435"
+  },
+  {
+    "id": "PSF-012619",
+    "ref": "dhv:1435-joechelspitze-startplatz-3",
+    "name": "Jöchelspitze Startplatz 3",
+    "lat": 47.278189,
+    "lon": 10.370106,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1884.0,
+    "sources": {
+      "dhv": "1435-joechelspitze-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1435"
+  },
+  {
+    "id": "PSF-012620",
+    "ref": "dhv:1436-kreuzjoch-schlick-2000-startplatz-2",
+    "name": "Kreuzjoch - Schlick 2000 Startplatz 2",
+    "lat": 47.144735,
+    "lon": 11.307238,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 2098.0,
+    "sources": {
+      "dhv": "1436-kreuzjoch-schlick-2000-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1436"
+  },
+  {
+    "id": "PSF-012621",
+    "ref": "dhv:1437-predigberg-startplatz-1",
+    "name": "Predigberg Startplatz 1",
+    "lat": 46.963158,
+    "lon": 10.206994,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2212.0,
+    "sources": {
+      "dhv": "1437-predigberg-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1437"
+  },
+  {
+    "id": "PSF-012622",
+    "ref": "dhv:1437-predigberg-startplatz-2",
+    "name": "Predigberg Startplatz 2",
+    "lat": 46.964808,
+    "lon": 10.216075,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 2295.0,
+    "sources": {
+      "dhv": "1437-predigberg-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1437"
+  },
+  {
+    "id": "PSF-012623",
+    "ref": "dhv:1437-predigberg-startplatz-3",
+    "name": "Predigberg Startplatz 3",
+    "lat": 46.963447,
+    "lon": 10.220083,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 2383.0,
+    "sources": {
+      "dhv": "1437-predigberg-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1437"
+  },
+  {
+    "id": "PSF-012624",
+    "ref": "dhv:1438-adamsberg-startplatz",
+    "name": "Adamsberg Startplatz",
+    "lat": 46.987042,
+    "lon": 10.199617,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 2315.0,
+    "sources": {
+      "dhv": "1438-adamsberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1438"
+  },
+  {
+    "id": "PSF-012625",
+    "ref": "dhv:1440-mutmanoer-startplatz",
+    "name": "Mutmanör Startplatz",
+    "lat": 47.030372,
+    "lon": 10.277844,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2286.0,
+    "sources": {
+      "dhv": "1440-mutmanoer-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1440"
+  },
+  {
+    "id": "PSF-012626",
+    "ref": "dhv:1441-lattenkopf-startplatz",
+    "name": "Lattenkopf Startplatz",
+    "lat": 47.017867,
+    "lon": 10.268625,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 2272.0,
+    "sources": {
+      "dhv": "1441-lattenkopf-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1441"
+  },
+  {
+    "id": "PSF-012627",
+    "ref": "dhv:1442-rofan-hg-startplatz-erfurter-huette-rampe-fuer-drachenstart",
+    "name": "Rofan HG-Startplatz Erfurter Hütte (Rampe für Drachenstart)",
+    "lat": 47.441606,
+    "lon": 11.762617,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1802.0,
+    "sources": {
+      "dhv": "1442-rofan-hg-startplatz-erfurter-huette-rampe-fuer-drachenstart"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1442"
+  },
+  {
+    "id": "PSF-012628",
+    "ref": "dhv:1442-rofan-startplatz-mauritzalm",
+    "name": "Rofan Startplatz Mauritzalm",
+    "lat": 47.443911,
+    "lon": 11.763489,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1838.0,
+    "sources": {
+      "dhv": "1442-rofan-startplatz-mauritzalm"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1442"
+  },
+  {
+    "id": "PSF-012629",
+    "ref": "dhv:1443-zwoelferkopf-startplatz-2",
+    "name": "Zwölferkopf Startplatz 2",
+    "lat": 47.427608,
+    "lon": 11.694474,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1450.0,
+    "sources": {
+      "dhv": "1443-zwoelferkopf-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1443"
+  },
+  {
+    "id": "PSF-012630",
+    "ref": "dhv:1443-zwoelferkopf-startplatz-3",
+    "name": "Zwölferkopf Startplatz 3",
+    "lat": 47.426297,
+    "lon": 11.698414,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1458.0,
+    "sources": {
+      "dhv": "1443-zwoelferkopf-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1443"
+  },
+  {
+    "id": "PSF-012631",
+    "ref": "dhv:1444-golzentipp-startplatz-2",
+    "name": "Golzentipp Startplatz 2",
+    "lat": 46.7253,
+    "lon": 12.622647,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 2150.0,
+    "sources": {
+      "dhv": "1444-golzentipp-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1444"
+  },
+  {
+    "id": "PSF-012632",
+    "ref": "dhv:1447-seefelder-joch-startplatz",
+    "name": "Seefelder Joch Startplatz",
+    "lat": 47.339786,
+    "lon": 11.239606,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2059.0,
+    "sources": {
+      "dhv": "1447-seefelder-joch-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1447"
+  },
+  {
+    "id": "PSF-012633",
+    "ref": "dhv:1449-oetz-startplatz-1",
+    "name": "Oetz Startplatz 1",
+    "lat": 47.208733,
+    "lon": 10.935247,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 2136.0,
+    "sources": {
+      "dhv": "1449-oetz-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1449"
+  },
+  {
+    "id": "PSF-012634",
+    "ref": "dhv:1449-oetz-startplatz-2",
+    "name": "Oetz Startplatz 2",
+    "lat": 47.20855,
+    "lon": 10.917828,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1460.0,
+    "sources": {
+      "dhv": "1449-oetz-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1449"
+  },
+  {
+    "id": "PSF-012635",
+    "ref": "dhv:1450-hochzeiger-startplatz-1",
+    "name": "Hochzeiger Startplatz 1",
+    "lat": 47.148825,
+    "lon": 10.794772,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 2434.0,
+    "sources": {
+      "dhv": "1450-hochzeiger-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1450"
+  },
+  {
+    "id": "PSF-012636",
+    "ref": "dhv:1450-hochzeiger-startplatz-2",
+    "name": "Hochzeiger Startplatz 2",
+    "lat": 47.161736,
+    "lon": 10.786028,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2353.0,
+    "sources": {
+      "dhv": "1450-hochzeiger-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1450"
+  },
+  {
+    "id": "PSF-012637",
+    "ref": "dhv:1452-greit-startplatz",
+    "name": "Greit Startplatz",
+    "lat": 46.9673,
+    "lon": 10.56105,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1505.0,
+    "sources": {
+      "dhv": "1452-greit-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1452"
+  },
+  {
+    "id": "PSF-012638",
+    "ref": "dhv:1453-kobl-startplatz",
+    "name": "Kobl Startplatz",
+    "lat": 46.971988,
+    "lon": 10.49558,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 2121.0,
+    "sources": {
+      "dhv": "1453-kobl-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1453"
+  },
+  {
+    "id": "PSF-012639",
+    "ref": "dhv:1454-venet-startplatz-1",
+    "name": "Venet Startplatz 1",
+    "lat": 47.145492,
+    "lon": 10.624981,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 2190.0,
+    "sources": {
+      "dhv": "1454-venet-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1454"
+  },
+  {
+    "id": "PSF-012640",
+    "ref": "dhv:1454-venet-startplatz-2",
+    "name": "Venet Startplatz 2",
+    "lat": 47.146067,
+    "lon": 10.629667,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2178.0,
+    "sources": {
+      "dhv": "1454-venet-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1454"
+  },
+  {
+    "id": "PSF-012641",
+    "ref": "dhv:1454-venet-startplatz-3",
+    "name": "Venet Startplatz 3",
+    "lat": 47.146821,
+    "lon": 10.63001,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "E": 1
+    },
+    "altitude": 2163.0,
+    "sources": {
+      "dhv": "1454-venet-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1454"
+  },
+  {
+    "id": "PSF-012642",
+    "ref": "dhv:1454-venet-startplatz-4",
+    "name": "Venet Startplatz 4",
+    "lat": 47.146381,
+    "lon": 10.626761,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "altitude": 2190.0,
+    "sources": {
+      "dhv": "1454-venet-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1454"
+  },
+  {
+    "id": "PSF-012643",
+    "ref": "dhv:1455-schoenjoch-startplatz-2",
+    "name": "Schönjoch Startplatz 2",
+    "lat": 47.07835,
+    "lon": 10.598519,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 2471.0,
+    "sources": {
+      "dhv": "1455-schoenjoch-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1455"
+  },
+  {
+    "id": "PSF-012644",
+    "ref": "dhv:1455-schoenjoch-startplatz-3",
+    "name": "Schönjoch Startplatz 3",
+    "lat": 47.076,
+    "lon": 10.594333,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 2471.0,
+    "sources": {
+      "dhv": "1455-schoenjoch-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1455"
+  },
+  {
+    "id": "PSF-012645",
+    "ref": "dhv:1455-schoenjoch-startplatz-4",
+    "name": "Schönjoch Startplatz 4",
+    "lat": 47.076457,
+    "lon": 10.598055,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": null,
+    "sources": {
+      "dhv": "1455-schoenjoch-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1455"
+  },
+  {
+    "id": "PSF-012646",
+    "ref": "dhv:1456-hochimst-startplatz",
+    "name": "Hochimst Startplatz",
+    "lat": 47.255994,
+    "lon": 10.677231,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 2021.0,
+    "sources": {
+      "dhv": "1456-hochimst-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1456"
+  },
+  {
+    "id": "PSF-012647",
+    "ref": "dhv:1458-hochficht-startplatz",
+    "name": "Hochficht Startplatz",
+    "lat": 48.736373,
+    "lon": 13.918916,
+    "wind": {
+      "S": 1,
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1313.0,
+    "sources": {
+      "dhv": "1458-hochficht-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1458"
+  },
+  {
+    "id": "PSF-012648",
+    "ref": "dhv:1459-nordkette-startplatz-1",
+    "name": "Nordkette Startplatz 1",
+    "lat": 47.312697,
+    "lon": 11.384439,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2268.0,
+    "sources": {
+      "dhv": "1459-nordkette-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1459"
+  },
+  {
+    "id": "PSF-012649",
+    "ref": "dhv:1459-nordkette-startplatz-3",
+    "name": "Nordkette Startplatz 3",
+    "lat": 47.306083,
+    "lon": 11.379097,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1911.0,
+    "sources": {
+      "dhv": "1459-nordkette-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1459"
+  },
+  {
+    "id": "PSF-012650",
+    "ref": "dhv:1460-hinterhornalm-startplatz-1",
+    "name": "Hinterhornalm Startplatz 1",
+    "lat": 47.334472,
+    "lon": 11.565078,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1550.0,
+    "sources": {
+      "dhv": "1460-hinterhornalm-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1460"
+  },
+  {
+    "id": "PSF-012651",
+    "ref": "dhv:1460-hinterhornalm-startplatz-2",
+    "name": "Hinterhornalm Startplatz 2",
+    "lat": 47.3335,
+    "lon": 11.565203,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1511.0,
+    "sources": {
+      "dhv": "1460-hinterhornalm-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1460"
+  },
+  {
+    "id": "PSF-012652",
+    "ref": "dhv:1461-hochjoch-startplatz-2",
+    "name": "Hochjoch Startplatz 2",
+    "lat": 47.064008,
+    "lon": 9.974167,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2292.0,
+    "sources": {
+      "dhv": "1461-hochjoch-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1461"
+  },
+  {
+    "id": "PSF-012653",
+    "ref": "dhv:1461-hochjoch-startplatz-3",
+    "name": "Hochjoch Startplatz 3",
+    "lat": 47.069011,
+    "lon": 9.973333,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 2241.0,
+    "sources": {
+      "dhv": "1461-hochjoch-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1461"
+  },
+  {
+    "id": "PSF-012654",
+    "ref": "dhv:1461-hochjoch-startplatz-4",
+    "name": "Hochjoch Startplatz 4",
+    "lat": 47.073111,
+    "lon": 9.96635,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1935.0,
+    "sources": {
+      "dhv": "1461-hochjoch-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1461"
+  },
+  {
+    "id": "PSF-012671",
+    "ref": "dhv:1495-deutschkreutz-schleppgelaende",
+    "name": "Deutschkreutz Schleppgelände",
+    "lat": 47.609288,
+    "lon": 16.597767,
+    "wind": {
+      "SE": 1,
+      "NW": 1
+    },
+    "altitude": 190.0,
+    "sources": {
+      "dhv": "1495-deutschkreutz-schleppgelaende"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1495"
+  },
+  {
+    "id": "PSF-012672",
+    "ref": "dhv:1497-schwarzenbach-start-landeplatz",
+    "name": "Schwarzenbach Start-/Landeplatz",
+    "lat": 47.644642,
+    "lon": 16.334719,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 464.0,
+    "sources": {
+      "dhv": "1497-schwarzenbach-start-landeplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1497"
+  },
+  {
+    "id": "PSF-012673",
+    "ref": "dhv:1498-spitzerberg-uebungshang",
+    "name": "Spitzerberg Übungshang",
+    "lat": 48.100431,
+    "lon": 16.939503,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 217.0,
+    "sources": {
+      "dhv": "1498-spitzerberg-uebungshang"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1498"
+  },
+  {
+    "id": "PSF-012674",
+    "ref": "dhv:1499-schareck-startplatz",
+    "name": "Schareck Startplatz",
+    "lat": 47.064822,
+    "lon": 12.857222,
+    "wind": {
+      "E": 1,
+      "S": 1,
+      "W": 1
+    },
+    "altitude": 2533.0,
+    "sources": {
+      "dhv": "1499-schareck-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1499"
+  },
+  {
+    "id": "PSF-012675",
+    "ref": "dhv:1503-hundsheimer-berg-startplatz-1",
+    "name": "Hundsheimer Berg Startplatz 1",
+    "lat": 48.122469,
+    "lon": 16.936331,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 341.0,
+    "sources": {
+      "dhv": "1503-hundsheimer-berg-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1503"
+  },
+  {
+    "id": "PSF-012676",
+    "ref": "dhv:1503-hundsheimer-berg-startplatz-2",
+    "name": "Hundsheimer Berg Startplatz 2",
+    "lat": 48.123428,
+    "lon": 16.935147,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 361.0,
+    "sources": {
+      "dhv": "1503-hundsheimer-berg-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1503"
+  },
+  {
+    "id": "PSF-012677",
+    "ref": "dhv:1503-hundsheimer-berg-startplatz-3",
+    "name": "Hundsheimer Berg Startplatz 3",
+    "lat": 48.123949,
+    "lon": 16.939577,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 370.0,
+    "sources": {
+      "dhv": "1503-hundsheimer-berg-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1503"
+  },
+  {
+    "id": "PSF-012678",
+    "ref": "dhv:1507-praegraten-startplatz",
+    "name": "Prägraten Startplatz",
+    "lat": 47.038019,
+    "lon": 12.354378,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 2554.0,
+    "sources": {
+      "dhv": "1507-praegraten-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1507"
+  },
+  {
+    "id": "PSF-012679",
+    "ref": "dhv:1509-petersberg-startplatz",
+    "name": "Petersberg Startplatz",
+    "lat": 46.755846,
+    "lon": 12.427831,
+    "wind": {
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 1327.0,
+    "sources": {
+      "dhv": "1509-petersberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1509"
+  },
+  {
+    "id": "PSF-012680",
+    "ref": "dhv:1511-virgen-startplatz-2",
+    "name": "Virgen Startplatz 2",
+    "lat": 47.008978,
+    "lon": 12.425089,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1548.0,
+    "sources": {
+      "dhv": "1511-virgen-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1511"
+  },
+  {
+    "id": "PSF-012681",
+    "ref": "dhv:1512-gebrenzen-startplatz",
+    "name": "Gebrenzen Startplatz",
+    "lat": 47.038769,
+    "lon": 14.331519,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1859.0,
+    "sources": {
+      "dhv": "1512-gebrenzen-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1512"
+  },
+  {
+    "id": "PSF-012682",
+    "ref": "dhv:1513-greim-startplatz",
+    "name": "Greim Startplatz",
+    "lat": 47.225519,
+    "lon": 14.161478,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1741.0,
+    "sources": {
+      "dhv": "1513-greim-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1513"
+  },
+  {
+    "id": "PSF-012683",
+    "ref": "dhv:1514-grossstuebing-startplatz",
+    "name": "Großstübing Startplatz",
+    "lat": 47.208192,
+    "lon": 15.225933,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 978.0,
+    "sources": {
+      "dhv": "1514-grossstuebing-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1514"
+  },
+  {
+    "id": "PSF-012684",
+    "ref": "dhv:1517-grubigstein-startplatz-1",
+    "name": "Grubigstein Startplatz 1",
+    "lat": 47.385719,
+    "lon": 10.847808,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 2060.0,
+    "sources": {
+      "dhv": "1517-grubigstein-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1517"
+  },
+  {
+    "id": "PSF-012685",
+    "ref": "dhv:1523-stoefflerberg-startplatz",
+    "name": "Stöfflerberg Startplatz",
+    "lat": 46.651147,
+    "lon": 13.193383,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1131.0,
+    "sources": {
+      "dhv": "1523-stoefflerberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1523"
+  },
+  {
+    "id": "PSF-012766",
+    "ref": "dhv:1821-sattel-startplatz",
+    "name": "Sattel Startplatz",
+    "lat": 46.721539,
+    "lon": 12.407858,
+    "wind": {
+      "N": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 2100.0,
+    "sources": {
+      "dhv": "1821-sattel-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1821"
+  },
+  {
+    "id": "PSF-012767",
+    "ref": "dhv:1822-tessenberg-startplatz",
+    "name": "Tessenberg Startplatz",
+    "lat": 46.764663,
+    "lon": 12.452992,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1821.0,
+    "sources": {
+      "dhv": "1822-tessenberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1822"
+  },
+  {
+    "id": "PSF-012769",
+    "ref": "dhv:1909-moesern-startplatz",
+    "name": "Mösern Startplatz",
+    "lat": 47.313903,
+    "lon": 11.140186,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1233.0,
+    "sources": {
+      "dhv": "1909-moesern-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1909"
+  },
+  {
+    "id": "PSF-012770",
+    "ref": "dhv:1910-hohe-munde-startplatz-1",
+    "name": "Hohe Munde Startplatz 1",
+    "lat": 47.344959,
+    "lon": 11.104903,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1539.0,
+    "sources": {
+      "dhv": "1910-hohe-munde-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1910"
+  },
+  {
+    "id": "PSF-012771",
+    "ref": "dhv:1910-hohe-munde-startplatz-2",
+    "name": "Hohe Munde Startplatz 2",
+    "lat": 47.342839,
+    "lon": 11.103142,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1539.0,
+    "sources": {
+      "dhv": "1910-hohe-munde-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1910"
+  },
+  {
+    "id": "PSF-012773",
+    "ref": "dhv:1912-gaschurn-startplatz",
+    "name": "Gaschurn Startplatz",
+    "lat": 46.980558,
+    "lon": 9.9935,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 1971.0,
+    "sources": {
+      "dhv": "1912-gaschurn-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1912"
+  },
+  {
+    "id": "PSF-012774",
+    "ref": "dhv:1940-reisseck-startplatz",
+    "name": "Reißeck Startplatz",
+    "lat": 46.903956,
+    "lon": 13.334292,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 2260.0,
+    "sources": {
+      "dhv": "1940-reisseck-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1940"
+  },
+  {
+    "id": "PSF-012775",
+    "ref": "dhv:1943-buchberg-startplatz",
+    "name": "Buchberg Startplatz",
+    "lat": 47.955108,
+    "lon": 13.116936,
+    "wind": {
+      "NE": 1,
+      "E": 1,
+      "SE": 1
+    },
+    "altitude": 689.0,
+    "sources": {
+      "dhv": "1943-buchberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1943"
+  },
+  {
+    "id": "PSF-012776",
+    "ref": "dhv:1944-fohnsdorf-startplatz-2",
+    "name": "Fohnsdorf Startplatz 2",
+    "lat": 47.231881,
+    "lon": 14.689775,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1310.0,
+    "sources": {
+      "dhv": "1944-fohnsdorf-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1944"
+  },
+  {
+    "id": "PSF-012777",
+    "ref": "dhv:1945-griessenkar-startplatz",
+    "name": "Grießenkar Startplatz",
+    "lat": 47.329586,
+    "lon": 13.348206,
+    "wind": {
+      "N": 1,
+      "NE": 1,
+      "NW": 1
+    },
+    "altitude": 1808.0,
+    "sources": {
+      "dhv": "1945-griessenkar-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1945"
+  },
+  {
+    "id": "PSF-012778",
+    "ref": "dhv:1946-mutta-startplatz",
+    "name": "Mutta Startplatz",
+    "lat": 46.993336,
+    "lon": 10.213097,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 2174.0,
+    "sources": {
+      "dhv": "1946-mutta-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1946"
+  },
+  {
+    "id": "PSF-012779",
+    "ref": "dhv:1948-reiter-gupf-startplatz",
+    "name": "Reiter Gupf Startplatz",
+    "lat": 47.869106,
+    "lon": 13.508764,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 820.0,
+    "sources": {
+      "dhv": "1948-reiter-gupf-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1948"
+  },
+  {
+    "id": "PSF-012780",
+    "ref": "dhv:1949-hochalm-grafenalm-startplatz",
+    "name": "Hochalm Grafenalm Startplatz",
+    "lat": 47.311578,
+    "lon": 14.799464,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1518.0,
+    "sources": {
+      "dhv": "1949-hochalm-grafenalm-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1949"
+  },
+  {
+    "id": "PSF-012781",
+    "ref": "dhv:1949-hochalm-kirche-startplatz",
+    "name": "Hochalm Kirche Startplatz",
+    "lat": 47.322156,
+    "lon": 14.802661,
+    "wind": {
+      "E": 1,
+      "SE": 1,
+      "S": 1,
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1836.0,
+    "sources": {
+      "dhv": "1949-hochalm-kirche-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1949"
+  },
+  {
+    "id": "PSF-012782",
+    "ref": "dhv:1950-seeleiten-startplatz",
+    "name": "Seeleiten Startplatz",
+    "lat": 47.862747,
+    "lon": 13.572553,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 857.0,
+    "sources": {
+      "dhv": "1950-seeleiten-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1950"
+  },
+  {
+    "id": "PSF-012783",
+    "ref": "dhv:1952-weissenbach-startplatz",
+    "name": "Weißenbach Startplatz",
+    "lat": 47.422478,
+    "lon": 13.775858,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 773.0,
+    "sources": {
+      "dhv": "1952-weissenbach-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1952"
+  },
+  {
+    "id": "PSF-012815",
+    "ref": "dhv:2110-hochkar-startplatz-1",
+    "name": "Hochkar Startplatz 1",
+    "lat": 47.710153,
+    "lon": 14.909525,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1740.0,
+    "sources": {
+      "dhv": "2110-hochkar-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2110"
+  },
+  {
+    "id": "PSF-012816",
+    "ref": "dhv:2110-hochkar-startplatz-2",
+    "name": "Hochkar Startplatz 2",
+    "lat": 47.712086,
+    "lon": 14.90425,
+    "wind": {
+      "N": 1,
+      "NW": 1
+    },
+    "altitude": 1753.0,
+    "sources": {
+      "dhv": "2110-hochkar-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2110"
+  },
+  {
+    "id": "PSF-012817",
+    "ref": "dhv:2114-koralpe-startplatz-1",
+    "name": "Koralpe Startplatz 1",
+    "lat": 46.798011,
+    "lon": 14.942192,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1825.0,
+    "sources": {
+      "dhv": "2114-koralpe-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2114"
+  },
+  {
+    "id": "PSF-012818",
+    "ref": "dhv:2114-koralpe-startplatz-2",
+    "name": "Koralpe Startplatz 2",
+    "lat": 46.793347,
+    "lon": 14.951592,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 1906.0,
+    "sources": {
+      "dhv": "2114-koralpe-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2114"
+  },
+  {
+    "id": "PSF-012819",
+    "ref": "dhv:2115-rauchbauer-startplatz",
+    "name": "Rauchbauer Startplatz",
+    "lat": 46.825233,
+    "lon": 14.920933,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1318.0,
+    "sources": {
+      "dhv": "2115-rauchbauer-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2115"
+  },
+  {
+    "id": "PSF-012820",
+    "ref": "dhv:2117-elbigenalp-uebungshang-startplatz",
+    "name": "Elbigenalp Übungshang Startplatz",
+    "lat": 47.296114,
+    "lon": 10.439586,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 1079.0,
+    "sources": {
+      "dhv": "2117-elbigenalp-uebungshang-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2117"
+  },
+  {
+    "id": "PSF-012826",
+    "ref": "dhv:2270-gugglberg-startplatz",
+    "name": "Gugglberg Startplatz",
+    "lat": 47.228483,
+    "lon": 11.848606,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1196.0,
+    "sources": {
+      "dhv": "2270-gugglberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2270"
+  },
+  {
+    "id": "PSF-012827",
+    "ref": "dhv:2355-sulzberg-startplatz",
+    "name": "Sulzberg Startplatz",
+    "lat": 47.522614,
+    "lon": 9.885361,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 804.0,
+    "sources": {
+      "dhv": "2355-sulzberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2355"
+  },
+  {
+    "id": "PSF-012828",
+    "ref": "dhv:2357-wiedersberger-horn-startplatz-1",
+    "name": "Wiedersberger Horn Startplatz 1",
+    "lat": 47.368561,
+    "lon": 11.930664,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1871.0,
+    "sources": {
+      "dhv": "2357-wiedersberger-horn-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2357"
+  },
+  {
+    "id": "PSF-012829",
+    "ref": "dhv:2357-wiedersberger-horn-startplatz-2",
+    "name": "Wiedersberger Horn Startplatz 2",
+    "lat": 47.373328,
+    "lon": 11.929022,
+    "wind": {
+      "N": 1
+    },
+    "altitude": 1797.0,
+    "sources": {
+      "dhv": "2357-wiedersberger-horn-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2357"
+  },
+  {
+    "id": "PSF-012830",
+    "ref": "dhv:2357-wiedersberger-horn-startplatz-3",
+    "name": "Wiedersberger Horn Startplatz 3",
+    "lat": 47.370303,
+    "lon": 11.930408,
+    "wind": {
+      "NE": 1
+    },
+    "altitude": 1849.0,
+    "sources": {
+      "dhv": "2357-wiedersberger-horn-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2357"
+  },
+  {
+    "id": "PSF-012831",
+    "ref": "dhv:2357-wiedersberger-horn-startplatz-4",
+    "name": "Wiedersberger Horn Startplatz 4",
+    "lat": 47.369281,
+    "lon": 11.9289,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 1832.0,
+    "sources": {
+      "dhv": "2357-wiedersberger-horn-startplatz-4"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2357"
+  },
+  {
+    "id": "PSF-012832",
+    "ref": "dhv:2358-rosskogel-startplatz",
+    "name": "Roßkogel Startplatz",
+    "lat": 47.463092,
+    "lon": 11.829156,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1759.0,
+    "sources": {
+      "dhv": "2358-rosskogel-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2358"
+  },
+  {
+    "id": "PSF-012833",
+    "ref": "dhv:2359-harschbichl-startplatz-1",
+    "name": "Harschbichl Startplatz 1",
+    "lat": 47.484475,
+    "lon": 12.428525,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1584.0,
+    "sources": {
+      "dhv": "2359-harschbichl-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2359"
+  },
+  {
+    "id": "PSF-012834",
+    "ref": "dhv:2359-harschbichl-startplatz-2",
+    "name": "Harschbichl Startplatz 2",
+    "lat": 47.481992,
+    "lon": 12.427617,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 1580.0,
+    "sources": {
+      "dhv": "2359-harschbichl-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2359"
+  },
+  {
+    "id": "PSF-012835",
+    "ref": "dhv:2362-startplatz-uebungshang-medraz",
+    "name": "Startplatz Übungshang Medraz",
+    "lat": 47.147831,
+    "lon": 11.341646,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 963.0,
+    "sources": {
+      "dhv": "2362-startplatz-uebungshang-medraz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2362"
+  },
+  {
+    "id": "PSF-012838",
+    "ref": "dhv:2390-jocham-startplatz",
+    "name": "Jocham Startplatz",
+    "lat": 47.105319,
+    "lon": 13.663481,
+    "wind": {
+      "S": 1
+    },
+    "altitude": 1324.0,
+    "sources": {
+      "dhv": "2390-jocham-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2390"
+  },
+  {
+    "id": "PSF-012839",
+    "ref": "dhv:2473-upsspitze-startplatz",
+    "name": "Upsspitze Startplatz",
+    "lat": 47.431033,
+    "lon": 10.872594,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 2249.0,
+    "sources": {
+      "dhv": "2473-upsspitze-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2473"
+  },
+  {
+    "id": "PSF-012840",
+    "ref": "dhv:2474-muttenkopf-startplatz-1",
+    "name": "Muttenkopf Startplatz 1",
+    "lat": 47.017367,
+    "lon": 11.370347,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 2607.0,
+    "sources": {
+      "dhv": "2474-muttenkopf-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2474"
+  },
+  {
+    "id": "PSF-012841",
+    "ref": "dhv:2474-muttenkopf-startplatz-2",
+    "name": "Muttenkopf Startplatz 2",
+    "lat": 47.016747,
+    "lon": 11.373856,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 2469.0,
+    "sources": {
+      "dhv": "2474-muttenkopf-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2474"
+  },
+  {
+    "id": "PSF-012842",
+    "ref": "dhv:2474-muttenkopf-startplatz-3",
+    "name": "Muttenkopf Startplatz 3",
+    "lat": 47.016878,
+    "lon": 11.390172,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 2043.0,
+    "sources": {
+      "dhv": "2474-muttenkopf-startplatz-3"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2474"
+  },
+  {
+    "id": "PSF-012844",
+    "ref": "dhv:2548-kramakogel-startplatz",
+    "name": "Kramakogel Startplatz",
+    "lat": 47.114311,
+    "lon": 14.100183,
+    "wind": {
+      "SE": 1,
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1251.0,
+    "sources": {
+      "dhv": "2548-kramakogel-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2548"
+  },
+  {
+    "id": "PSF-012845",
+    "ref": "dhv:2550-himmelreich-startplatz",
+    "name": "Himmelreich Startplatz",
+    "lat": 47.507403,
+    "lon": 15.339206,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 1169.0,
+    "sources": {
+      "dhv": "2550-himmelreich-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=2550"
+  },
+  {
+    "id": "PSF-012847",
+    "ref": "dhv:4444-nassereith-startplatz",
+    "name": "Nassereith Startplatz",
+    "lat": 47.302094,
+    "lon": 10.854144,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 902.0,
+    "sources": {
+      "dhv": "4444-nassereith-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=4444"
+  },
+  {
+    "id": "PSF-012848",
+    "ref": "dhv:4559-ludescherberg-startplatz",
+    "name": "Ludescherberg Startplatz",
+    "lat": 47.197103,
+    "lon": 9.798972,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 896.0,
+    "sources": {
+      "dhv": "4559-ludescherberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=4559"
+  },
+  {
+    "id": "PSF-012849",
+    "ref": "dhv:5144-reischlberg-startplatz",
+    "name": "Reischlberg Startplatz",
+    "lat": 48.748811,
+    "lon": 13.904425,
+    "wind": {
+      "SW": 1,
+      "W": 1
+    },
+    "altitude": 1260.0,
+    "sources": {
+      "dhv": "5144-reischlberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5144"
+  },
+  {
+    "id": "PSF-012850",
+    "ref": "dhv:5145-oedt-startplatz",
+    "name": "Oedt Startplatz",
+    "lat": 48.604303,
+    "lon": 14.048161,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 676.0,
+    "sources": {
+      "dhv": "5145-oedt-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5145"
+  },
+  {
+    "id": "PSF-012851",
+    "ref": "dhv:5146-rampetzreit-startplatz",
+    "name": "Rampetzreit Startplatz",
+    "lat": 48.593089,
+    "lon": 13.903372,
+    "wind": {
+      "NE": 1,
+      "E": 1
+    },
+    "altitude": 654.0,
+    "sources": {
+      "dhv": "5146-rampetzreit-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5146"
+  },
+  {
+    "id": "PSF-012852",
+    "ref": "dhv:5148-scheiblberg-startplatz",
+    "name": "Scheiblberg Startplatz",
+    "lat": 48.558933,
+    "lon": 13.984317,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 627.0,
+    "sources": {
+      "dhv": "5148-scheiblberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5148"
+  },
+  {
+    "id": "PSF-012853",
+    "ref": "dhv:5149-pfarrkirchen-startplatz",
+    "name": "Pfarrkirchen Startplatz",
+    "lat": 48.508917,
+    "lon": 13.820033,
+    "wind": {
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 803.0,
+    "sources": {
+      "dhv": "5149-pfarrkirchen-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5149"
+  },
+  {
+    "id": "PSF-012854",
+    "ref": "dhv:5150-mitterfeld-startplatz",
+    "name": "Mitterfeld Startplatz",
+    "lat": 48.460403,
+    "lon": 14.203411,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 763.0,
+    "sources": {
+      "dhv": "5150-mitterfeld-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5150"
+  },
+  {
+    "id": "PSF-012855",
+    "ref": "dhv:5151-kirchschlag-startplatz",
+    "name": "Kirchschlag Startplatz",
+    "lat": 48.407106,
+    "lon": 14.281342,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 841.0,
+    "sources": {
+      "dhv": "5151-kirchschlag-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5151"
+  },
+  {
+    "id": "PSF-012856",
+    "ref": "dhv:5152-oed-in-bergen-startplatz",
+    "name": "Oed in Bergen Startplatz",
+    "lat": 48.392194,
+    "lon": 13.972408,
+    "wind": {
+      "SE": 1
+    },
+    "altitude": 505.0,
+    "sources": {
+      "dhv": "5152-oed-in-bergen-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5152"
+  },
+  {
+    "id": "PSF-012857",
+    "ref": "dhv:5153-eitzenberg-startplatz",
+    "name": "Eitzenberg Startplatz",
+    "lat": 48.351756,
+    "lon": 13.799153,
+    "wind": {
+      "SE": 1,
+      "S": 1
+    },
+    "altitude": 448.0,
+    "sources": {
+      "dhv": "5153-eitzenberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5153"
+  },
+  {
+    "id": "PSF-012858",
+    "ref": "dhv:5154-schaumberg-startplatz",
+    "name": "Schaumberg Startplatz",
+    "lat": 48.344328,
+    "lon": 13.973278,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 454.0,
+    "sources": {
+      "dhv": "5154-schaumberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5154"
+  },
+  {
+    "id": "PSF-012859",
+    "ref": "dhv:5163-matrei-startplatz-1",
+    "name": "Matrei Startplatz 1",
+    "lat": 46.993075,
+    "lon": 12.595542,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 2381.0,
+    "sources": {
+      "dhv": "5163-matrei-startplatz-1"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5163"
+  },
+  {
+    "id": "PSF-012860",
+    "ref": "dhv:5163-matrei-startplatz-2",
+    "name": "Matrei Startplatz 2",
+    "lat": 46.990028,
+    "lon": 12.576964,
+    "wind": {
+      "SW": 1
+    },
+    "altitude": 2103.0,
+    "sources": {
+      "dhv": "5163-matrei-startplatz-2"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5163"
+  },
+  {
+    "id": "PSF-012861",
+    "ref": "dhv:5164-nauders-startplatz",
+    "name": "Nauders Startplatz",
+    "lat": 46.885336,
+    "lon": 10.529992,
+    "wind": {
+      "W": 1
+    },
+    "altitude": 2020.0,
+    "sources": {
+      "dhv": "5164-nauders-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5164"
+  },
+  {
+    "id": "PSF-012862",
+    "ref": "dhv:5165-bergkastel-startplatz",
+    "name": "Bergkastel Startplatz",
+    "lat": 46.853022,
+    "lon": 10.544156,
+    "wind": {
+      "NW": 1
+    },
+    "altitude": 2427.0,
+    "sources": {
+      "dhv": "5165-bergkastel-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5165"
+  },
+  {
+    "id": "PSF-012863",
+    "ref": "dhv:5167-lippekogel-startplatz",
+    "name": "Lippekogel Startplatz",
+    "lat": 46.730131,
+    "lon": 14.4997,
+    "wind": {
+      "E": 1
+    },
+    "altitude": 1001.0,
+    "sources": {
+      "dhv": "5167-lippekogel-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5167"
+  },
+  {
+    "id": "PSF-012907",
+    "ref": "dhv:5619-doebriach-startplatz",
+    "name": "Döbriach Startplatz",
+    "lat": 46.763519,
+    "lon": 13.664375,
+    "wind": {
+      "SW": 1,
+      "W": 1,
+      "NW": 1
+    },
+    "altitude": 1050.0,
+    "sources": {
+      "dhv": "5619-doebriach-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5619"
+  },
+  {
+    "id": "PSF-012911",
+    "ref": "dhv:5817-haimburgerberg-startplatz",
+    "name": "Haimburgerberg Startplatz",
+    "lat": 46.718944,
+    "lon": 14.671911,
+    "wind": {
+      "S": 1,
+      "SW": 1
+    },
+    "altitude": 1060.0,
+    "sources": {
+      "dhv": "5817-haimburgerberg-startplatz"
+    },
+    "primary": "dhv",
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5817"
   }
 ]

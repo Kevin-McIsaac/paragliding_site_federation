@@ -58,4 +58,4 @@ def test_ref_names_a_source_the_row_actually_lists():
 def test_precedence_is_ordered_most_durable_first():
     # Pinned because the app carries an identical list as its fallback. If these
     # two drift, a launch is keyed `pge:` on one device and `ansg:` on another.
-    assert KEY_PRECEDENCE == ("pge", "ansg")
+    assert KEY_PRECEDENCE == ("pge", "ansg", "dhv")

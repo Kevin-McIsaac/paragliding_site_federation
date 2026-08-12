@@ -14,9 +14,10 @@ of being keyed by a `sorted()` tie-break nobody chose.
 
 from __future__ import annotations
 
+from src.sources.dhv import DhvSource
 from src.sources.pge import PgeSource
 from src.sources.siteguide_au import SiteGuideAuSource
 
-ADAPTERS = (PgeSource, SiteGuideAuSource)
+ADAPTERS = (PgeSource, SiteGuideAuSource, DhvSource)
 
-__all__ = ["ADAPTERS", "PgeSource", "SiteGuideAuSource"]
+__all__ = ["ADAPTERS", "DhvSource", "PgeSource", "SiteGuideAuSource"]

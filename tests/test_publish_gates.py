@@ -130,3 +130,41 @@ def test_reads_a_snapshot_that_predates_the_ref_column(tmp_path):
     published = read_published(path)
 
     assert [p.ref for p in published] == [s.ref for s in _catalogue(3)]
+
+
+def test_a_new_guide_may_land_its_launches_in_one_run():
+    """Adding a national guide is a step change the count gate would otherwise
+    refuse - DHV alone is ~13% against a 5% limit."""
+    before = _catalogue(200)
+    after = before + _catalogue(40, provider="dhv", start=1000)
+
+    health = check_output_health(after, _published(before))
+
+    assert health.ok, health.notes
+    assert "only from new guide(s) dhv" in " ".join(health.notes)
+
+
+def test_the_allowance_expires_once_the_new_guide_is_published():
+    """The same 20% growth that was allowed on arrival must fail afterwards.
+
+    This is the whole point of deriving the allowance rather than declaring it:
+    a declared one would keep excusing growth on every later run.
+    """
+    before = _catalogue(200) + _catalogue(40, provider="dhv", start=1000)
+    after = before + _catalogue(40, provider="dhv", start=2000)
+
+    health = check_output_health(after, _published(before))
+
+    assert not health.ok
+    assert "launch count changed" in " ".join(health.notes)
+
+
+def test_the_allowance_never_excuses_a_collapse():
+    """A new guide arriving must not mask the catalogue shrinking."""
+    before = _catalogue(200)
+    after = before[:100] + _catalogue(5, provider="dhv", start=1000)
+
+    health = check_output_health(after, _published(before))
+
+    assert not health.ok
+    assert "launch count changed" in " ".join(health.notes)

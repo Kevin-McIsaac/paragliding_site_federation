@@ -107,6 +107,14 @@ def check_output_health(
 
     Nothing to compare against on a first run, which is reported rather than
     treated as a pass - a gate that silently does nothing reads as coverage.
+
+    The count gate carries one allowance: launches contributed *solely* by a
+    guide the published catalogue has never seen. Adding a national guide is a
+    deliberate step change - DHV alone is ~13% - and without this the only way
+    to land one would be to raise the limit for every later run too. The
+    allowance is derived, not declared, so it expires by itself: once that guide
+    appears in the published snapshot it is no longer new, the allowance is zero,
+    and the same growth fails. It only ever excuses growth, never a collapse.
     """
     notes: list[str] = []
     ok = True
@@ -118,11 +126,30 @@ def check_output_health(
     before = {s.ref: s for s in previous}
 
     delta = (len(now) - len(before)) / len(before)
-    if abs(delta) > _MAX_SITE_COUNT_DELTA:
+
+    new_providers = {p for s in sites for p in s.sources} - {
+        p for s in previous for p in s.providers
+    }
+    from_new_providers = sum(1 for s in sites if set(s.sources) <= new_providers)
+    allowance = from_new_providers / len(before) if delta > 0 else 0.0
+
+    if abs(delta) - allowance > _MAX_SITE_COUNT_DELTA:
         ok = False
         notes.append(
             f"launch count changed {delta:+.1%} ({len(before)} -> {len(now)}), "
             f"limit {_MAX_SITE_COUNT_DELTA:.0%}"
+            + (
+                f" after allowing {allowance:.1%} for new guide(s) "
+                f"{', '.join(sorted(new_providers))}"
+                if allowance
+                else ""
+            )
+        )
+    elif allowance:
+        notes.append(
+            f"{from_new_providers} launches come only from new guide(s) "
+            f"{', '.join(sorted(new_providers))} ({allowance:.1%}); allowed once, "
+            f"and not again after they are published."
         )
 
     for provider in sorted({p for s in previous for p in s.providers}):

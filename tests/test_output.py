@@ -167,7 +167,9 @@ def test_review_table_has_the_requested_columns_and_order():
     table = render([_item(pair_for(pge, far)), _item(pair_for(pge, near))])
     lines = [l for l in table.splitlines() if l.startswith("|")]
 
-    assert lines[0] == "| PGE Name | AU Name | Distance | Name match | Why | Override (to merge) |"
+    # Columns are named by position, not by guide: a pair can be any two
+    # guides now, and addressing them as (pge, ansg) rendered a third as blank.
+    assert lines[0] == "| Site A | Site B | Distance | Name match | Why | Override (to merge) |"
     assert "Cape Jervis SG" in lines[2]  # closest first
     assert "Shoreham SG" in lines[3]
 
@@ -210,7 +212,9 @@ def test_review_names_link_to_their_source_page():
 def test_review_falls_back_to_plain_name_without_a_url():
     pge = record("pge", "1", name="Cape Jervis", url=None)
     au = record("ansg", "a", lat=-33.7 - metres(120), url=None)
-    assert "| Cape Jervis |" in render([_item(pair_for(pge, au))])
+    # The guide is named in the cell, so a reader can tell which side is which
+    # without the column heading doing it.
+    assert "| **pge** Cape Jervis |" in render([_item(pair_for(pge, au))])
 
 
 def test_pipe_in_a_name_cannot_break_the_table():

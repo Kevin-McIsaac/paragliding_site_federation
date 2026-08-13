@@ -88,15 +88,20 @@ def _landing_records(
     several parents.
 
     The richer thing Site Guide publishes about landings is prose, on the site
-    rather than the shape - `landing` free text on 125 of 244 sites, with real
-    rules in it. That is deliberately not carried yet: the catalogue holds no
-    prose at all today, and the decision to start belongs with the column that
-    would hold it rather than with this parser.
+    rather than the shape - `landing` free text on 125 of 244 sites, with rules
+    a visiting pilot cannot infer. It is carried in `notes`, attached to every
+    landing polygon under that site: the words describe the site's landing
+    arrangements as a whole, which is upstream's granularity and not something
+    to invent a split for.
     """
     parents: dict[int, list[str]] = {}
+    landing_notes: dict[int, str] = {}
     for site in sites:
+        prose = _text(site.get("landing"))
         for shape_id in site.get("mapShapeIds") or []:
             parents.setdefault(shape_id, []).append(str(site["id"]))
+            if prose and shape_id not in landing_notes:
+                landing_notes[shape_id] = prose
 
     records: list[SiteRecord] = []
     for shape in shapes:
@@ -126,6 +131,13 @@ def _landing_records(
                 country="AU",
                 url=f"{_BASE_URL}/sites/details/{site_ids[0]}",
                 group_ids=tuple(site_ids),
+                # The richest landing text of any guide - 125 of 244 sites,
+                # median 277 characters, and rules a visiting pilot cannot
+                # infer: "Due to landowner concerns, only land on SAHPGA Inc
+                # leased land". Published on the *site*, so every landing
+                # polygon under it carries the same words; that is upstream's
+                # granularity, not something to invent a split for.
+                notes=landing_notes.get(shape_id),
             )
         )
     return records

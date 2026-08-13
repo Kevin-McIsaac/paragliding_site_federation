@@ -54,6 +54,9 @@ CSV_COLUMNS = [
     # `;`-separated form as `source`. This is how a landing finds its launches;
     # distance cannot do it (median gap 1.7km).
     "site_group",
+    # What a guide says about a landing, verbatim. Empty for launches: their
+    # prose is long, and is looked up live when a site is opened.
+    "notes",
 ]
 
 
@@ -156,6 +159,7 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
             site.role,
             "1" if site.tow else "0",
             ";".join(site.group),
+            _lf(site.notes or ""),
         ]
         lines.append(_csv_row(row))
     content = "\n".join(lines) + "\n"

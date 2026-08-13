@@ -68,7 +68,14 @@ That's `app/sites.csv` — 12,897 launches, 428 KB gzipped.
 
 Altitude and country are carried because the app reads them in nine places.
 Rating, hazards, access notes and landowners are deliberately absent. It's looked up from the source when a user opens a site,
-so it doesn't need to ship with every install. There's no `url` column either:
+so it doesn't need to ship with every install.
+
+The one exception is `notes`, carried for **landings only**: landing rules are
+safety information a pilot wants at a launch site with no signal, they exist for
+guides ParaglidingEarth cannot answer for, and they are bounded - DHV publishes
+none at all, and only Site Guide's run long.
+
+There's no `url` column either:
 every source page is derivable from `source` (`pge:4632` →
 `paraglidingearth.com/?site=4632`, `siteguide_au:106-28` →
 `siteguide.org.au/sites/details/106`).

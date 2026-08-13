@@ -168,3 +168,17 @@ def test_the_allowance_never_excuses_a_collapse():
 
     assert not health.ok
     assert "launch count changed" in " ".join(health.notes)
+
+
+def test_the_allowance_does_not_let_a_shrinking_catalogue_hide_behind_it():
+    """The case `abs(delta) - allowance` missed: 150 of 200 existing launches
+    survive alongside 60 from a new guide, which nets to a healthy-looking +5%
+    while a quarter of the catalogue has gone. The allowance excuses the new
+    guide's launches, never the ones that stopped being emitted."""
+    before = _catalogue(200)
+    after = before[:150] + _catalogue(60, provider="dhv", start=1000)
+
+    health = check_output_health(after, _published(before))
+
+    assert not health.ok
+    assert "launch count changed" in " ".join(health.notes)

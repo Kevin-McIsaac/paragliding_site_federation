@@ -100,3 +100,12 @@ def test_records_outside_the_box_are_dropped():
 def test_slug_folds_umlauts_deterministically():
     assert _slug("Bräuningalm Startplatz 3") == "braeuningalm-startplatz-3"
     assert _slug("Hochhamm  Startplatz!") == "hochhamm-startplatz"
+
+
+def test_a_name_that_slugs_to_nothing_is_dropped():
+    """`_slug` keeps only ASCII alphanumerics, so a name made entirely of
+    punctuation leaves nothing behind. Two of those under one Gelände would
+    both key as `dhv:<item>-` and collide, which is the one thing the ref is
+    required never to do."""
+    assert _slug("!!! ---") == ""
+    assert "!!! ---" not in [r.name for r in records()]

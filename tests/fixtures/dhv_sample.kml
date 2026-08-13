@@ -11,6 +11,12 @@
         <Point><coordinates>9.628861,49.309994</coordinates></Point>
       </Placemark>
       <Placemark>
+        <name>!!! ---</name>
+        <description><![CDATA[Startplatz, Startrichtung N<br/>Gemeinde Ingelfingen, Höhe NN 300m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=5701" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>9.629000,49.310500</coordinates></Point>
+      </Placemark>
+      <Placemark>
         <name>Criesbach Landeplatz</name>
         <description><![CDATA[Landeplatz<br/>Gemeinde Ingelfingen, Höhe NN 210m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=5701" target="_blank">Details anzeigen</a>]]></description>
         <styleUrl>#dhv_landeplatz</styleUrl>

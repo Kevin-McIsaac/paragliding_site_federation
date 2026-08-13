@@ -85,13 +85,6 @@ class Pair:
     def keys(self) -> frozenset[str]:
         return frozenset({self.a.key, self.b.key})
 
-    def by_provider(self, provider: str) -> SiteRecord | None:
-        if self.a.provider == provider:
-            return self.a
-        if self.b.provider == provider:
-            return self.b
-        return None
-
 
 def haversine_m(lat1: float, lon1: float, lat2: float, lon2: float) -> float:
     r = 6_371_000.0

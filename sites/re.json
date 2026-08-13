@@ -11,6 +11,11 @@
       "pge": "14451"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14451"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14451"
   },
   {
@@ -29,6 +34,11 @@
       "pge": "6876"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6876"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6876"
   },
   {
@@ -47,6 +57,11 @@
       "pge": "6877"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6877"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6877"
   },
   {
@@ -65,6 +80,11 @@
       "pge": "6878"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6878"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6878"
   },
   {
@@ -81,6 +101,11 @@
       "pge": "6879"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6879"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6879"
   },
   {
@@ -98,6 +123,11 @@
       "pge": "6888"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6888"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6888"
   },
   {
@@ -114,6 +144,11 @@
       "pge": "6889"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6889"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6889"
   },
   {
@@ -131,6 +166,11 @@
       "pge": "6890"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6890"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6890"
   },
   {
@@ -145,6 +185,11 @@
       "pge": "6891"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6891"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6891"
   },
   {
@@ -163,6 +208,11 @@
       "pge": "6892"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6892"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6892"
   },
   {
@@ -179,6 +229,11 @@
       "pge": "6893"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6893"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6893"
   },
   {
@@ -193,6 +248,11 @@
       "pge": "6894"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6894"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6894"
   },
   {
@@ -209,6 +269,11 @@
       "pge": "6895"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6895"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6895"
   },
   {
@@ -226,6 +291,11 @@
       "pge": "6896"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6896"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6896"
   },
   {
@@ -240,6 +310,11 @@
       "pge": "6904"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6904"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6904"
   },
   {
@@ -258,6 +333,126 @@
       "pge": "6908"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6908"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6908"
+  },
+  {
+    "id": "PSF-018247",
+    "ref": "pge:6876-lz",
+    "name": "colimacon 800 Landing",
+    "lat": -21.1524,
+    "lon": 55.279,
+    "wind": {},
+    "altitude": 9.0,
+    "sources": {
+      "pge": "6876-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6876"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6876"
+  },
+  {
+    "id": "PSF-018248",
+    "ref": "pge:6878-lz",
+    "name": "dos d\\'ane Landing",
+    "lat": -21.0033,
+    "lon": 55.356,
+    "wind": {},
+    "altitude": 949.0,
+    "sources": {
+      "pge": "6878-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6878",
+      "pge:6891"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6878"
+  },
+  {
+    "id": "PSF-018256",
+    "ref": "pge:6895-lz",
+    "name": "le dimitile Landing",
+    "lat": -21.2477,
+    "lon": 55.4662,
+    "wind": {},
+    "altitude": 368.0,
+    "sources": {
+      "pge": "6895-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6895"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6895"
+  },
+  {
+    "id": "PSF-018257",
+    "ref": "pge:6896-lz",
+    "name": "bellemene Landing",
+    "lat": -21.0033,
+    "lon": 55.2983,
+    "wind": {},
+    "altitude": 6.0,
+    "sources": {
+      "pge": "6896-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6896"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6896"
+  },
+  {
+    "id": "PSF-018262",
+    "ref": "pge:6904-lz",
+    "name": "colimacons 1500 Landing",
+    "lat": -21.1524,
+    "lon": 55.2791,
+    "wind": {},
+    "altitude": 9.0,
+    "sources": {
+      "pge": "6904-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6904"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6904"
+  },
+  {
+    "id": "PSF-018264",
+    "ref": "pge:6908-lz",
+    "name": "MAKES Landing",
+    "lat": -21.2053,
+    "lon": 55.398,
+    "wind": {},
+    "altitude": 924.0,
+    "sources": {
+      "pge": "6908-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6908"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6908"
   }
 ]

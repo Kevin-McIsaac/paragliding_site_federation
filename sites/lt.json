@@ -11,6 +11,11 @@
       "pge": "13541"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13541"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13541"
   },
   {
@@ -25,6 +30,11 @@
       "pge": "14024"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14024"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14024"
   },
   {
@@ -39,6 +49,11 @@
       "pge": "14593"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14593"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14593"
   },
   {
@@ -62,6 +77,11 @@
       "pge": "14594"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:14594"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14594"
   },
   {
@@ -76,6 +96,11 @@
       "pge": "16328"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16328"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16328"
   },
   {
@@ -92,6 +117,11 @@
       "pge": "17125"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17125"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17125"
   },
   {
@@ -110,6 +140,11 @@
       "pge": "17487"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17487"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17487"
   },
   {
@@ -133,6 +168,11 @@
       "pge": "6633"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:6633"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6633"
   },
   {
@@ -147,6 +187,11 @@
       "pge": "6639"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6639"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6639"
   },
   {
@@ -161,6 +206,11 @@
       "pge": "6646"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6646"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6646"
   },
   {
@@ -177,6 +227,11 @@
       "pge": "6649"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6649"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6649"
   },
   {
@@ -191,6 +246,49 @@
       "pge": "6702"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:6702"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6702"
+  },
+  {
+    "id": "PSF-016358",
+    "ref": "pge:17125-lz",
+    "name": "Netoniai Landing",
+    "lat": 54.9405,
+    "lon": 23.7216,
+    "wind": {},
+    "altitude": 69.0,
+    "sources": {
+      "pge": "17125-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17125"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17125"
+  },
+  {
+    "id": "PSF-016445",
+    "ref": "pge:17487-lz",
+    "name": "Leonpolis Landing",
+    "lat": 55.2085,
+    "lon": 24.7029,
+    "wind": {},
+    "altitude": 65.0,
+    "sources": {
+      "pge": "17487-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17487"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17487"
   }
 ]

@@ -11,6 +11,11 @@
       "pge": "14289"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14289"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14289"
   },
   {
@@ -28,6 +33,11 @@
       "pge": "14437"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14437"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14437"
   },
   {
@@ -51,6 +61,11 @@
       "pge": "17144"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17144"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17144"
   },
   {
@@ -65,6 +80,11 @@
       "pge": "17296"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17296"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17296"
   },
   {
@@ -79,6 +99,11 @@
       "pge": "17324"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17324"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17324"
   },
   {
@@ -93,6 +118,11 @@
       "pge": "17325"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17325"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17325"
   },
   {
@@ -107,6 +137,11 @@
       "pge": "17332"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17332"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17332"
   },
   {
@@ -121,6 +156,11 @@
       "pge": "20487"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:20487"
+    ],
     "url": "https://www.paraglidingearth.com/?site=20487"
   },
   {
@@ -135,6 +175,11 @@
       "pge": "22280"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22280"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22280"
   },
   {
@@ -152,6 +197,11 @@
       "pge": "22281"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22281"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22281"
   },
   {
@@ -172,6 +222,30 @@
       "pge": "6606"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6606"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6606"
+  },
+  {
+    "id": "PSF-015663",
+    "ref": "pge:14437-lz",
+    "name": "World's en View Landing",
+    "lat": -8.87717,
+    "lon": 33.5469,
+    "wind": {},
+    "altitude": 1750.0,
+    "sources": {
+      "pge": "14437-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:14437"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=14437"
   }
 ]

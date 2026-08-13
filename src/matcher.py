@@ -167,7 +167,7 @@ def intra_source_pairs(records: list[SiteRecord]) -> Iterator[tuple[SiteRecord, 
         if a.provider != b.provider or a.role != b.role:
             continue
         # Two launches under one parent site are deliberately distinct.
-        if a.group_id is not None and a.group_id == b.group_id:
+        if a.group_ids and set(a.group_ids) & set(b.group_ids):
             continue
         distance_m = haversine_m(a.lat, a.lon, b.lat, b.lon)
         if distance_m <= MERGE_DISTANCE_M:

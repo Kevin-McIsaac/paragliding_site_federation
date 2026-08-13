@@ -15,6 +15,11 @@
       "pge": "10774"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10774"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10774"
   },
   {
@@ -32,6 +37,11 @@
       "pge": "12454"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12454"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12454"
   },
   {
@@ -46,6 +56,11 @@
       "pge": "17009"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17009"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17009"
   },
   {
@@ -60,6 +75,11 @@
       "pge": "22250"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22250"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22250"
   },
   {
@@ -74,6 +94,11 @@
       "pge": "22251"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22251"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22251"
   },
   {
@@ -88,6 +113,30 @@
       "pge": "22252"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22252"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22252"
+  },
+  {
+    "id": "PSF-014827",
+    "ref": "pge:10774-lz",
+    "name": "Gringlay Landing",
+    "lat": 49.909,
+    "lon": 6.0857,
+    "wind": {},
+    "altitude": 222.0,
+    "sources": {
+      "pge": "10774-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10774"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10774"
   }
 ]

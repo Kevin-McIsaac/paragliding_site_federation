@@ -16,6 +16,11 @@
       "pge": "21733"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21733"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21733"
   },
   {
@@ -35,6 +40,11 @@
       "pge": "21807"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21807"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21807"
   },
   {
@@ -53,6 +63,11 @@
       "pge": "21808"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21808"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21808"
   },
   {
@@ -71,6 +86,11 @@
       "pge": "21809"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21809"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21809"
   },
   {
@@ -89,6 +109,11 @@
       "pge": "21810"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21810"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21810"
   },
   {
@@ -107,6 +132,11 @@
       "pge": "21811"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21811"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21811"
   },
   {
@@ -126,6 +156,11 @@
       "pge": "21812"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21812"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21812"
   },
   {
@@ -145,6 +180,11 @@
       "pge": "6881"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6881"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6881"
   },
   {
@@ -164,6 +204,11 @@
       "pge": "6882"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6882"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6882"
   },
   {
@@ -182,6 +227,11 @@
       "pge": "6883"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6883"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6883"
   },
   {
@@ -199,6 +249,11 @@
       "pge": "6884"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6884"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6884"
   },
   {
@@ -217,6 +272,11 @@
       "pge": "6885"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6885"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6885"
   },
   {
@@ -234,6 +294,11 @@
       "pge": "6886"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6886"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6886"
   },
   {
@@ -252,6 +317,11 @@
       "pge": "6887"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6887"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6887"
   },
   {
@@ -271,6 +341,277 @@
       "pge": "6925"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6925"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6925"
+  },
+  {
+    "id": "PSF-017299",
+    "ref": "pge:21733-lz",
+    "name": "Parking landing",
+    "lat": -21.5988,
+    "lon": 165.371,
+    "wind": {},
+    "altitude": 18.0,
+    "sources": {
+      "pge": "21733-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21733"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21733"
+  },
+  {
+    "id": "PSF-017321",
+    "ref": "pge:21807-lz",
+    "name": "Tontouta river shore",
+    "lat": -21.9691,
+    "lon": 166.21,
+    "wind": {},
+    "altitude": 8.0,
+    "sources": {
+      "pge": "21807-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21807"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21807"
+  },
+  {
+    "id": "PSF-017322",
+    "ref": "pge:21809-lz",
+    "name": "Landing",
+    "lat": -21.9234,
+    "lon": 165.974,
+    "wind": {},
+    "altitude": 15.0,
+    "sources": {
+      "pge": "21809-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21809"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21809"
+  },
+  {
+    "id": "PSF-017323",
+    "ref": "pge:21810-lz",
+    "name": "Track landing",
+    "lat": -21.9819,
+    "lon": 165.99,
+    "wind": {},
+    "altitude": 6.0,
+    "sources": {
+      "pge": "21810-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21810"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21810"
+  },
+  {
+    "id": "PSF-017324",
+    "ref": "pge:21811-lz",
+    "name": "Soccer stadium",
+    "lat": -20.6916,
+    "lon": 164.947,
+    "wind": {},
+    "altitude": 2.0,
+    "sources": {
+      "pge": "21811-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21811"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21811"
+  },
+  {
+    "id": "PSF-017325",
+    "ref": "pge:21812-lz",
+    "name": "Ouano",
+    "lat": -21.8706,
+    "lon": 165.824,
+    "wind": {},
+    "altitude": 6.0,
+    "sources": {
+      "pge": "21812-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21812"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21812"
+  },
+  {
+    "id": "PSF-018249",
+    "ref": "pge:6881-lz",
+    "name": "Ouen Toro Landing",
+    "lat": -22.3095,
+    "lon": 166.457,
+    "wind": {},
+    "altitude": 34.0,
+    "sources": {
+      "pge": "6881-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6881"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6881"
+  },
+  {
+    "id": "PSF-018250",
+    "ref": "pge:6882-lz",
+    "name": "Dumbea golf field",
+    "lat": -22.1446,
+    "lon": 166.458,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "6882-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6882"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6882"
+  },
+  {
+    "id": "PSF-018251",
+    "ref": "pge:6883-lz",
+    "name": "Kuendu Beach Landing",
+    "lat": -22.261,
+    "lon": 166.393,
+    "wind": {},
+    "altitude": 4.0,
+    "sources": {
+      "pge": "6883-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6883"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6883"
+  },
+  {
+    "id": "PSF-018252",
+    "ref": "pge:6884-lz",
+    "name": "Atterro",
+    "lat": -22.2898,
+    "lon": 166.594,
+    "wind": {},
+    "altitude": 8.0,
+    "sources": {
+      "pge": "6884-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6884"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6884"
+  },
+  {
+    "id": "PSF-018253",
+    "ref": "pge:6885-lz",
+    "name": "Gadji Landing",
+    "lat": -22.1996,
+    "lon": 166.356,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "6885-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6885"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6885"
+  },
+  {
+    "id": "PSF-018254",
+    "ref": "pge:6886-lz",
+    "name": "Ga Kaleon Landing",
+    "lat": -20.691,
+    "lon": 164.947,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "6886-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6886"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6886"
+  },
+  {
+    "id": "PSF-018255",
+    "ref": "pge:6887-lz",
+    "name": "Turtle bay beach",
+    "lat": -21.6064,
+    "lon": 165.455,
+    "wind": {},
+    "altitude": 12.0,
+    "sources": {
+      "pge": "6887-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6887"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6887"
+  },
+  {
+    "id": "PSF-018275",
+    "ref": "pge:6925-lz",
+    "name": "Barendeu Landing",
+    "lat": -21.4724,
+    "lon": 165.376,
+    "wind": {},
+    "altitude": 114.0,
+    "sources": {
+      "pge": "6925-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6925"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6925"
   }
 ]

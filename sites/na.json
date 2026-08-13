@@ -11,6 +11,11 @@
       "pge": "11619"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11619"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11619"
   },
   {
@@ -25,6 +30,11 @@
       "pge": "13283"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13283"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13283"
   },
   {
@@ -39,6 +49,11 @@
       "pge": "13332"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13332"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13332"
   },
   {
@@ -53,6 +68,11 @@
       "pge": "13838"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13838"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13838"
   },
   {
@@ -67,6 +87,11 @@
       "pge": "13843"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13843"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13843"
   },
   {
@@ -81,6 +106,11 @@
       "pge": "16139"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16139"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16139"
   },
   {
@@ -95,6 +125,11 @@
       "pge": "16177"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16177"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16177"
   },
   {
@@ -109,6 +144,11 @@
       "pge": "16647"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16647"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16647"
   },
   {
@@ -123,6 +163,11 @@
       "pge": "16653"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16653"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16653"
   },
   {
@@ -137,6 +182,11 @@
       "pge": "17307"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17307"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17307"
   },
   {
@@ -159,6 +209,49 @@
       "pge": "19359"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19359"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19359"
+  },
+  {
+    "id": "PSF-015359",
+    "ref": "pge:11619-lz",
+    "name": "Spreets Hoogte Landing",
+    "lat": -23.6337,
+    "lon": 16.184,
+    "wind": {},
+    "altitude": 1634.0,
+    "sources": {
+      "pge": "11619-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11619"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11619"
+  },
+  {
+    "id": "PSF-016830",
+    "ref": "pge:19359-lz",
+    "name": "Vogelberg Landing",
+    "lat": -23.0544,
+    "lon": 14.9854,
+    "wind": {},
+    "altitude": 481.0,
+    "sources": {
+      "pge": "19359-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19359"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19359"
   }
 ]

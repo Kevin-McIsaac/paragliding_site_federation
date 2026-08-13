@@ -20,6 +20,11 @@
       "pge": "10620"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:10620"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10620"
   },
   {
@@ -39,6 +44,11 @@
       "pge": "10763"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10763"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10763"
   },
   {
@@ -56,6 +66,11 @@
       "pge": "11189"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11189"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11189"
   },
   {
@@ -79,6 +94,11 @@
       "pge": "15653"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15653"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15653"
   },
   {
@@ -93,6 +113,11 @@
       "pge": "20015"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:20015"
+    ],
     "url": "https://www.paraglidingearth.com/?site=20015"
   },
   {
@@ -110,6 +135,11 @@
       "pge": "7237"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7237"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7237"
   },
   {
@@ -131,6 +161,11 @@
       "pge": "7238"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7238"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7238"
   },
   {
@@ -152,6 +187,30 @@
       "pge": "7389"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7389"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7389"
+  },
+  {
+    "id": "PSF-014739",
+    "ref": "pge:10620-lz",
+    "name": "Kerio Valley Landing",
+    "lat": 0.6568,
+    "lon": 35.5112,
+    "wind": {},
+    "altitude": 2344.0,
+    "sources": {
+      "pge": "10620-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10620"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10620"
   }
 ]

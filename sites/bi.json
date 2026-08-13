@@ -15,6 +15,11 @@
       "pge": "18113"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18113"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18113"
   },
   {
@@ -35,6 +40,11 @@
       "pge": "18114"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18114"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18114"
   },
   {
@@ -54,6 +64,11 @@
       "pge": "18115"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18115"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18115"
   },
   {
@@ -72,6 +87,11 @@
       "pge": "18608"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18608"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18608"
   },
   {
@@ -91,6 +111,11 @@
       "pge": "18609"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18609"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18609"
   },
   {
@@ -110,6 +135,87 @@
       "pge": "18610"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18610"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18610"
+  },
+  {
+    "id": "PSF-016557",
+    "ref": "pge:18113-lz",
+    "name": "Rutovu Landing",
+    "lat": -3.915,
+    "lon": 29.8577,
+    "wind": {},
+    "altitude": 1869.0,
+    "sources": {
+      "pge": "18113-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18113"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18113"
+  },
+  {
+    "id": "PSF-016558",
+    "ref": "pge:18114-lz",
+    "name": "Mutumba Landing",
+    "lat": -3.6162,
+    "lon": 29.3454,
+    "wind": {},
+    "altitude": 773.0,
+    "sources": {
+      "pge": "18114-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18114"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18114"
+  },
+  {
+    "id": "PSF-016559",
+    "ref": "pge:18115-lz",
+    "name": "Kabezi Landing",
+    "lat": -3.5031,
+    "lon": 29.3469,
+    "wind": {},
+    "altitude": 814.0,
+    "sources": {
+      "pge": "18115-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18115"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18115"
+  },
+  {
+    "id": "PSF-016612",
+    "ref": "pge:18608-lz",
+    "name": "Rutovu - Ouest Landing",
+    "lat": -3.94111,
+    "lon": 29.8679,
+    "wind": {},
+    "altitude": 1924.0,
+    "sources": {
+      "pge": "18608-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18608"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18608"
   }
 ]

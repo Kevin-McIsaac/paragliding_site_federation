@@ -14,6 +14,11 @@
       "pge": "10175"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10175"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10175"
   },
   {
@@ -31,6 +36,11 @@
       "pge": "14760"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14760"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14760"
   }
 ]

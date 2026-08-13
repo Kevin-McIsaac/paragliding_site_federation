@@ -20,6 +20,11 @@
       "pge": "10372"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10372"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10372"
   },
   {
@@ -37,6 +42,11 @@
       "pge": "10385"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10385"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10385"
   },
   {
@@ -55,6 +65,11 @@
       "pge": "10421"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10421"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10421"
   },
   {
@@ -72,6 +87,11 @@
       "pge": "10422"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10422"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10422"
   },
   {
@@ -88,6 +108,11 @@
       "pge": "10427"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10427"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10427"
   },
   {
@@ -104,6 +129,11 @@
       "pge": "10452"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10452"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10452"
   },
   {
@@ -122,6 +152,11 @@
       "pge": "10453"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10453"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10453"
   },
   {
@@ -140,6 +175,11 @@
       "pge": "10454"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10454"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10454"
   },
   {
@@ -159,6 +199,11 @@
       "pge": "10455"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10455"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10455"
   },
   {
@@ -178,6 +223,11 @@
       "pge": "10456"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10456"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10456"
   },
   {
@@ -196,6 +246,11 @@
       "pge": "10457"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10457"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10457"
   },
   {
@@ -214,6 +269,11 @@
       "pge": "10499"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10499"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10499"
   },
   {
@@ -234,6 +294,11 @@
       "pge": "19363"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:19363"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19363"
   },
   {
@@ -252,6 +317,125 @@
       "pge": "21845"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21845"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21845"
+  },
+  {
+    "id": "PSF-014583",
+    "ref": "pge:10372-lz",
+    "name": "Punaruu 600 Landing",
+    "lat": -17.6388,
+    "lon": -149.61,
+    "wind": {},
+    "altitude": 11.0,
+    "sources": {
+      "pge": "10372-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10372"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10372"
+  },
+  {
+    "id": "PSF-014610",
+    "ref": "pge:10421-lz",
+    "name": "Tautira Landing",
+    "lat": -17.7531,
+    "lon": -149.167,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "10421-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10421"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10421"
+  },
+  {
+    "id": "PSF-014635",
+    "ref": "pge:10455-lz",
+    "name": "Posé Quai",
+    "lat": -16.7302,
+    "lon": -151.441,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "10455-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10455"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10455"
+  },
+  {
+    "id": "PSF-014636",
+    "ref": "pge:10457-lz",
+    "name": "Tefarerii 60 Landing",
+    "lat": -16.7762,
+    "lon": -150.958,
+    "wind": {},
+    "altitude": 12.0,
+    "sources": {
+      "pge": "10457-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10457"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10457"
+  },
+  {
+    "id": "PSF-016832",
+    "ref": "pge:19363-lz",
+    "name": "900 To'a Rotu Rahi Landing",
+    "lat": -17.6192,
+    "lon": -149.615,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "19363-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19363"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19363"
+  },
+  {
+    "id": "PSF-017331",
+    "ref": "pge:21845-lz",
+    "name": "Posé faaroa",
+    "lat": -16.8216,
+    "lon": -151.421,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "21845-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21845"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21845"
   }
 ]

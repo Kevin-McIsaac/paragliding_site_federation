@@ -15,6 +15,11 @@
       "pge": "12139"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12139"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12139"
   },
   {
@@ -33,6 +38,11 @@
       "pge": "13564"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13564"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13564"
   },
   {
@@ -47,6 +57,11 @@
       "pge": "15110"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15110"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15110"
   },
   {
@@ -65,6 +80,11 @@
       "pge": "9766"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9766"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9766"
   },
   {
@@ -83,6 +103,11 @@
       "pge": "9767"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9767"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9767"
   },
   {
@@ -99,6 +124,11 @@
       "pge": "9768"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9768"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9768"
   },
   {
@@ -116,6 +146,11 @@
       "pge": "9769"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9769"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9769"
   },
   {
@@ -134,6 +169,68 @@
       "pge": "9770"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9770"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9770"
+  },
+  {
+    "id": "PSF-018671",
+    "ref": "pge:9767-lz",
+    "name": "Ma On Shan Landing",
+    "lat": 22.3895,
+    "lon": 114.269,
+    "wind": {},
+    "altitude": 19.0,
+    "sources": {
+      "pge": "9767-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9767"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9767"
+  },
+  {
+    "id": "PSF-018672",
+    "ref": "pge:9769-lz",
+    "name": "Pak Tam Au Landing",
+    "lat": 22.4355,
+    "lon": 114.331,
+    "wind": {},
+    "altitude": 18.0,
+    "sources": {
+      "pge": "9769-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9769"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9769"
+  },
+  {
+    "id": "PSF-018673",
+    "ref": "pge:9770-lz",
+    "name": "Shek-O (Dragon's Back) Landing",
+    "lat": 22.2321,
+    "lon": 114.252,
+    "wind": {},
+    "altitude": 2.0,
+    "sources": {
+      "pge": "9770-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9770"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9770"
   }
 ]

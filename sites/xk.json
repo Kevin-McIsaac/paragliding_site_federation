@@ -11,6 +11,11 @@
       "pge": "22226"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22226"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22226"
   }
 ]

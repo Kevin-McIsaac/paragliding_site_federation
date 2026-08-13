@@ -20,6 +20,30 @@
       "pge": "23193"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:23193"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23193"
+  },
+  {
+    "id": "PSF-017654",
+    "ref": "pge:23193-lz",
+    "name": "land",
+    "lat": 35.4743,
+    "lon": 118.081,
+    "wind": {},
+    "altitude": 222.0,
+    "sources": {
+      "pge": "23193-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23193"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23193"
   }
 ]

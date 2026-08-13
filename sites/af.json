@@ -16,6 +16,30 @@
       "pge": "16753"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16753"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=16753"
+  },
+  {
+    "id": "PSF-016264",
+    "ref": "pge:16753-lz",
+    "name": "Ptukh Landing",
+    "lat": 37.0073,
+    "lon": 73.3713,
+    "wind": {},
+    "altitude": 3230.0,
+    "sources": {
+      "pge": "16753-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:16753"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16753"
   }
 ]

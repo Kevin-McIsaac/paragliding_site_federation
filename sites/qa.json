@@ -15,6 +15,11 @@
       "pge": "14820"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14820"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14820"
   },
   {
@@ -29,6 +34,30 @@
       "pge": "17313"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17313"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17313"
+  },
+  {
+    "id": "PSF-015791",
+    "ref": "pge:14820-lz",
+    "name": "sealine Landing",
+    "lat": 24.8082,
+    "lon": 51.4803,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "14820-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:14820"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=14820"
   }
 ]

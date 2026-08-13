@@ -15,6 +15,11 @@
       "pge": "10149"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10149"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10149"
   },
   {
@@ -29,6 +34,11 @@
       "pge": "10547"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10547"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10547"
   },
   {
@@ -47,6 +57,11 @@
       "pge": "10548"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10548"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10548"
   },
   {
@@ -61,6 +76,11 @@
       "pge": "10549"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10549"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10549"
   },
   {
@@ -75,6 +95,11 @@
       "pge": "10550"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10550"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10550"
   },
   {
@@ -89,6 +114,11 @@
       "pge": "10551"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10551"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10551"
   },
   {
@@ -103,6 +133,11 @@
       "pge": "10552"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10552"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10552"
   },
   {
@@ -117,6 +152,11 @@
       "pge": "10553"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10553"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10553"
   },
   {
@@ -131,6 +171,11 @@
       "pge": "12627"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12627"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12627"
   },
   {
@@ -145,6 +190,11 @@
       "pge": "13653"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13653"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13653"
   },
   {
@@ -159,6 +209,11 @@
       "pge": "14717"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14717"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14717"
   },
   {
@@ -173,6 +228,11 @@
       "pge": "16375"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16375"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16375"
   },
   {
@@ -191,6 +251,11 @@
       "pge": "21729"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21729"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21729"
   },
   {
@@ -209,6 +274,30 @@
       "pge": "21730"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21730"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21730"
+  },
+  {
+    "id": "PSF-014417",
+    "ref": "pge:10149-lz",
+    "name": "Barra do Cuanza Landing",
+    "lat": -9.30833,
+    "lon": 13.1333,
+    "wind": {},
+    "altitude": 58.0,
+    "sources": {
+      "pge": "10149-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10149"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10149"
   }
 ]

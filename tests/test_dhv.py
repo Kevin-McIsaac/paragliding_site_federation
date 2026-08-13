@@ -22,15 +22,38 @@ def by_name(name):
     return next(r for r in records() if r.name == name)
 
 
-def test_landings_are_not_launches():
-    """DHV publishes ~1,300 Landeplätze. The catalogue's unit is a launch, and
-    the app would draw every one of them as a site you can take off from."""
-    assert "Criesbach Landeplatz" not in [r.name for r in records()]
+def test_a_landing_is_a_landing():
+    """The app filters on this. A landing typed as a launch would be offered as
+    somewhere to take off from, and could capture a logged flight."""
+    landing = by_name("Criesbach Landeplatz")
+    assert landing.role == "landing"
+    assert landing.tow is False
 
 
-def test_tow_fields_are_launches():
-    """A third of the German data, and PGE carries almost none of it."""
-    assert by_name("Ailringen").role == "launch"
+def test_a_landing_carries_its_gelaende_so_it_can_find_its_launches():
+    """The only usable join. Distance cannot do it - the median gap from a
+    landing to its own takeoff is 1.7km, against a 250m merge threshold."""
+    landing = by_name("Criesbach Landeplatz")
+    launch = by_name("Criesbach Startplatz 1")
+    assert landing.group_ids == launch.group_ids == ("5701",)
+
+
+def test_a_landing_has_no_wind():
+    """DHV publishes a Startrichtung for every takeoff and for none of its
+    1,318 landings, so this is absence rather than a parse failure."""
+    assert by_name("Criesbach Landeplatz").wind == {}
+
+
+def test_tow_fields_are_launches_that_say_so():
+    """A third of the German data, and PGE carries almost none of it. Still a
+    launch everywhere that matters - only the detail page distinguishes it."""
+    tow = by_name("Ailringen")
+    assert tow.role == "launch"
+    assert tow.tow is True
+
+
+def test_a_hill_launch_is_not_a_tow():
+    assert by_name("Criesbach Startplatz 1").tow is False
 
 
 def test_a_gelaende_with_several_takeoffs_gives_each_its_own_ref():
@@ -47,7 +70,7 @@ def test_a_gelaende_with_several_takeoffs_gives_each_its_own_ref():
 
 
 def test_siblings_share_a_group_so_they_are_never_reported_as_duplicates():
-    assert {r.group_id for r in records() if r.id.startswith("1416-")} == {"1416"}
+    assert {r.group_ids for r in records() if r.id.startswith("1416-")} == {("1416",)}
 
 
 def test_german_compass_points_become_english_ones():

@@ -17,6 +17,11 @@
       "pge": "23064"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23064"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23064"
   },
   {
@@ -40,6 +45,11 @@
       "pge": "23273"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23273"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23273"
   },
   {
@@ -54,6 +64,11 @@
       "pge": "23829"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23829"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23829"
   },
   {
@@ -68,6 +83,11 @@
       "pge": "23832"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23832"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23832"
   },
   {
@@ -85,6 +105,106 @@
       "pge": "23866"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23866"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23866"
+  },
+  {
+    "id": "PSF-017637",
+    "ref": "pge:23064-lz",
+    "name": "Mount Tapyas Landing",
+    "lat": 11.9951,
+    "lon": 120.204,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "23064-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23064"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23064"
+  },
+  {
+    "id": "PSF-017676",
+    "ref": "pge:23273-lz",
+    "name": "pouso oficial capivari",
+    "lat": -25.1061,
+    "lon": -48.8042,
+    "wind": {},
+    "altitude": 763.0,
+    "sources": {
+      "pge": "23273-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23273"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23273"
+  },
+  {
+    "id": "PSF-017796",
+    "ref": "pge:23829-lz",
+    "name": "安基山降落场",
+    "lat": 28.9723,
+    "lon": 120.961,
+    "wind": {},
+    "altitude": 70.0,
+    "sources": {
+      "pge": "23829-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23829"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23829"
+  },
+  {
+    "id": "PSF-017797",
+    "ref": "pge:23832-lz",
+    "name": "九都降落场",
+    "lat": 25.2142,
+    "lon": 118.449,
+    "wind": {},
+    "altitude": 97.0,
+    "sources": {
+      "pge": "23832-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23832"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23832"
+  },
+  {
+    "id": "PSF-017803",
+    "ref": "pge:23866-lz",
+    "name": "Hel Landing",
+    "lat": 54.627,
+    "lon": 18.7737,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "23866-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23866"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23866"
   }
 ]

@@ -17,6 +17,11 @@
       "pge": "10137"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10137"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10137"
   },
   {
@@ -34,6 +39,11 @@
       "pge": "10501"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10501"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10501"
   },
   {
@@ -48,6 +58,11 @@
       "pge": "15547"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15547"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15547"
   },
   {
@@ -62,6 +77,11 @@
       "pge": "23314"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23314"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23314"
   },
   {
@@ -76,6 +96,11 @@
       "pge": "23943"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23943"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23943"
   },
   {
@@ -90,6 +115,11 @@
       "pge": "23944"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23944"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23944"
   },
   {
@@ -104,6 +134,49 @@
       "pge": "23945"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23945"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23945"
+  },
+  {
+    "id": "PSF-014409",
+    "ref": "pge:10137-lz",
+    "name": "Roghi Landing",
+    "lat": 46.782,
+    "lon": 28.1996,
+    "wind": {},
+    "altitude": 62.0,
+    "sources": {
+      "pge": "10137-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10137"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10137"
+  },
+  {
+    "id": "PSF-014665",
+    "ref": "pge:10501-lz",
+    "name": "Rogi - Dachi Landing",
+    "lat": 47.335,
+    "lon": 29.1682,
+    "wind": {},
+    "altitude": 124.0,
+    "sources": {
+      "pge": "10501-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10501"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10501"
   }
 ]

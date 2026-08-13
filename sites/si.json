@@ -14,6 +14,11 @@
       "pge": "10193"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10193"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10193"
   },
   {
@@ -31,6 +36,11 @@
       "pge": "10205"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10205"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10205"
   },
   {
@@ -50,6 +60,11 @@
       "pge": "10594"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10594"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10594"
   },
   {
@@ -70,6 +85,11 @@
       "pge": "10595"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10595"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10595"
   },
   {
@@ -89,6 +109,11 @@
       "pge": "10637"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10637"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10637"
   },
   {
@@ -107,6 +132,11 @@
       "pge": "10862"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10862"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10862"
   },
   {
@@ -125,6 +155,11 @@
       "pge": "12284"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12284"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12284"
   },
   {
@@ -142,6 +177,11 @@
       "pge": "13042"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13042"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13042"
   },
   {
@@ -159,6 +199,11 @@
       "pge": "13747"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13747"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13747"
   },
   {
@@ -177,6 +222,11 @@
       "pge": "17001"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17001"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17001"
   },
   {
@@ -191,6 +241,11 @@
       "pge": "20029"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:20029"
+    ],
     "url": "https://www.paraglidingearth.com/?site=20029"
   },
   {
@@ -210,6 +265,11 @@
       "pge": "20127"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:20127"
+    ],
     "url": "https://www.paraglidingearth.com/?site=20127"
   },
   {
@@ -227,6 +287,11 @@
       "pge": "20128"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:20128"
+    ],
     "url": "https://www.paraglidingearth.com/?site=20128"
   },
   {
@@ -244,6 +309,11 @@
       "pge": "21260"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21260"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21260"
   },
   {
@@ -261,6 +331,11 @@
       "pge": "21261"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21261"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21261"
   },
   {
@@ -278,6 +353,11 @@
       "pge": "21262"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21262"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21262"
   },
   {
@@ -295,6 +375,11 @@
       "pge": "21353"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21353"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21353"
   },
   {
@@ -313,6 +398,11 @@
       "pge": "22223"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22223"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22223"
   },
   {
@@ -327,6 +417,11 @@
       "pge": "22328"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22328"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22328"
   },
   {
@@ -341,6 +436,11 @@
       "pge": "22366"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22366"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22366"
   },
   {
@@ -360,6 +460,11 @@
       "pge": "22479"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22479"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22479"
   },
   {
@@ -379,6 +484,11 @@
       "pge": "22480"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22480"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22480"
   },
   {
@@ -395,6 +505,11 @@
       "pge": "22481"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22481"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22481"
   },
   {
@@ -413,6 +528,11 @@
       "pge": "22482"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22482"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22482"
   },
   {
@@ -431,6 +551,11 @@
       "pge": "22483"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22483"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22483"
   },
   {
@@ -448,6 +573,11 @@
       "pge": "22484"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22484"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22484"
   },
   {
@@ -466,6 +596,11 @@
       "pge": "23454"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23454"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23454"
   },
   {
@@ -485,6 +620,11 @@
       "pge": "23468"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23468"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23468"
   },
   {
@@ -499,6 +639,11 @@
       "pge": "23521"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23521"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23521"
   },
   {
@@ -517,6 +662,11 @@
       "pge": "23805"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23805"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23805"
   },
   {
@@ -536,6 +686,11 @@
       "pge": "6667"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6667"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6667"
   },
   {
@@ -554,6 +709,11 @@
       "pge": "6668"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6668"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6668"
   },
   {
@@ -572,6 +732,11 @@
       "pge": "6670"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6670"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6670"
   },
   {
@@ -590,6 +755,11 @@
       "pge": "6671"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6671"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6671"
   },
   {
@@ -610,6 +780,11 @@
       "pge": "6676"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6676"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6676"
   },
   {
@@ -630,6 +805,11 @@
       "pge": "6775"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6775"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6775"
   },
   {
@@ -648,6 +828,11 @@
       "pge": "6779"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6779"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6779"
   },
   {
@@ -669,6 +854,11 @@
       "pge": "6832"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6832"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6832"
   },
   {
@@ -688,6 +878,11 @@
       "pge": "6833"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6833"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6833"
   },
   {
@@ -707,6 +902,11 @@
       "pge": "6834"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6834"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6834"
   },
   {
@@ -727,6 +927,11 @@
       "pge": "7146"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7146"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7146"
   },
   {
@@ -747,6 +952,11 @@
       "pge": "7183"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7183"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7183"
   },
   {
@@ -767,6 +977,11 @@
       "pge": "7310"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7310"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7310"
   },
   {
@@ -785,6 +1000,11 @@
       "pge": "7320"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7320"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7320"
   },
   {
@@ -804,6 +1024,11 @@
       "pge": "7322"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7322"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7322"
   },
   {
@@ -824,6 +1049,11 @@
       "pge": "7325"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7325"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7325"
   },
   {
@@ -842,6 +1072,642 @@
       "pge": "9274"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9274"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9274"
+  },
+  {
+    "id": "PSF-014439",
+    "ref": "pge:10193-lz",
+    "name": "Mangart Landing",
+    "lat": 46.4033,
+    "lon": 13.6001,
+    "wind": {},
+    "altitude": 625.0,
+    "sources": {
+      "pge": "10193-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10193"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10193"
+  },
+  {
+    "id": "PSF-014447",
+    "ref": "pge:10205-lz",
+    "name": "Malic Landing",
+    "lat": 46.1656,
+    "lon": 15.2325,
+    "wind": {},
+    "altitude": 221.0,
+    "sources": {
+      "pge": "10205-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10205"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10205"
+  },
+  {
+    "id": "PSF-014718",
+    "ref": "pge:10594-lz",
+    "name": "Glem Landing",
+    "lat": 45.4968,
+    "lon": 13.786,
+    "wind": {},
+    "altitude": 147.0,
+    "sources": {
+      "pge": "10594-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10594"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10594"
+  },
+  {
+    "id": "PSF-014719",
+    "ref": "pge:10595-lz",
+    "name": "Socerb Landing",
+    "lat": 45.6017,
+    "lon": 13.8529,
+    "wind": {},
+    "altitude": 50.0,
+    "sources": {
+      "pge": "10595-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10595"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10595"
+  },
+  {
+    "id": "PSF-014748",
+    "ref": "pge:10637-lz",
+    "name": "Dobrca Landing",
+    "lat": 46.376,
+    "lon": 14.1902,
+    "wind": {},
+    "altitude": 554.0,
+    "sources": {
+      "pge": "10637-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10637"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10637"
+  },
+  {
+    "id": "PSF-014882",
+    "ref": "pge:10862-lz",
+    "name": "Mrzlica Landing",
+    "lat": 46.1685,
+    "lon": 15.0844,
+    "wind": {},
+    "altitude": 401.0,
+    "sources": {
+      "pge": "10862-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10862"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10862"
+  },
+  {
+    "id": "PSF-015455",
+    "ref": "pge:12284-lz",
+    "name": "Caven Landing",
+    "lat": 45.9017,
+    "lon": 13.8821,
+    "wind": {},
+    "altitude": 161.0,
+    "sources": {
+      "pge": "12284-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:12284"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=12284"
+  },
+  {
+    "id": "PSF-015505",
+    "ref": "pge:13042-lz",
+    "name": "Nanos Landing",
+    "lat": 45.8679,
+    "lon": 13.933,
+    "wind": {},
+    "altitude": 97.0,
+    "sources": {
+      "pge": "13042-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:13042"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=13042"
+  },
+  {
+    "id": "PSF-015557",
+    "ref": "pge:13747-lz",
+    "name": "Konjiska gora Landing",
+    "lat": 46.3349,
+    "lon": 15.3243,
+    "wind": {},
+    "altitude": 333.0,
+    "sources": {
+      "pge": "13747-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:13747"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=13747"
+  },
+  {
+    "id": "PSF-016309",
+    "ref": "pge:17001-lz",
+    "name": "Kranjska Gora Landing",
+    "lat": 46.4872,
+    "lon": 13.78,
+    "wind": {},
+    "altitude": 801.0,
+    "sources": {
+      "pge": "17001-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17001"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17001"
+  },
+  {
+    "id": "PSF-017133",
+    "ref": "pge:20127-lz",
+    "name": "Poljane Landing",
+    "lat": 45.5209,
+    "lon": 13.7442,
+    "wind": {},
+    "altitude": 9.0,
+    "sources": {
+      "pge": "20127-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:20127"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=20127"
+  },
+  {
+    "id": "PSF-017134",
+    "ref": "pge:20128-lz",
+    "name": "Kvirik Landing",
+    "lat": 45.4536,
+    "lon": 13.909,
+    "wind": {},
+    "altitude": 124.0,
+    "sources": {
+      "pge": "20128-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:20128"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=20128"
+  },
+  {
+    "id": "PSF-017170",
+    "ref": "pge:21260-lz",
+    "name": "Bohinj-Vogel Landing",
+    "lat": 46.2822,
+    "lon": 13.8819,
+    "wind": {},
+    "altitude": 533.0,
+    "sources": {
+      "pge": "21260-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21260",
+      "pge:21261"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21260"
+  },
+  {
+    "id": "PSF-017171",
+    "ref": "pge:21262-lz",
+    "name": "Lake",
+    "lat": 46.2822,
+    "lon": 13.882,
+    "wind": {},
+    "altitude": 533.0,
+    "sources": {
+      "pge": "21262-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21262"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21262"
+  },
+  {
+    "id": "PSF-017212",
+    "ref": "pge:21353-lz",
+    "name": "Brestovica Landing",
+    "lat": 45.8135,
+    "lon": 13.622,
+    "wind": {},
+    "altitude": 67.0,
+    "sources": {
+      "pge": "21353-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21353"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21353"
+  },
+  {
+    "id": "PSF-017421",
+    "ref": "pge:22223-lz",
+    "name": "Bovec",
+    "lat": 46.3406,
+    "lon": 13.5689,
+    "wind": {},
+    "altitude": 461.0,
+    "sources": {
+      "pge": "22223-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22223"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22223"
+  },
+  {
+    "id": "PSF-017450",
+    "ref": "pge:22328-lz",
+    "name": "Rečica ob Paki",
+    "lat": 46.3234,
+    "lon": 15.0442,
+    "wind": {},
+    "altitude": 310.0,
+    "sources": {
+      "pge": "22328-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22328"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22328"
+  },
+  {
+    "id": "PSF-017470",
+    "ref": "pge:22366-lz",
+    "name": "Dobrovlje Landing",
+    "lat": 46.3009,
+    "lon": 15.0268,
+    "wind": {},
+    "altitude": 317.0,
+    "sources": {
+      "pge": "22366-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22366"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22366"
+  },
+  {
+    "id": "PSF-017513",
+    "ref": "pge:22479-lz",
+    "name": "Štatenberg Landing",
+    "lat": 46.322,
+    "lon": 15.6652,
+    "wind": {},
+    "altitude": 244.0,
+    "sources": {
+      "pge": "22479-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22479"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22479"
+  },
+  {
+    "id": "PSF-017514",
+    "ref": "pge:22480-lz",
+    "name": "Rimske Toplice",
+    "lat": 46.1238,
+    "lon": 15.197,
+    "wind": {},
+    "altitude": 228.0,
+    "sources": {
+      "pge": "22480-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22480",
+      "pge:22481"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22480"
+  },
+  {
+    "id": "PSF-017515",
+    "ref": "pge:22483-lz",
+    "name": "Mala gora Landing",
+    "lat": 46.3557,
+    "lon": 15.3549,
+    "wind": {},
+    "altitude": 425.0,
+    "sources": {
+      "pge": "22483-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22483"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22483"
+  },
+  {
+    "id": "PSF-017706",
+    "ref": "pge:23454-lz",
+    "name": "Zavrh Landing",
+    "lat": 45.9299,
+    "lon": 14.3524,
+    "wind": {},
+    "altitude": 294.0,
+    "sources": {
+      "pge": "23454-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23454"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23454"
+  },
+  {
+    "id": "PSF-017707",
+    "ref": "pge:23468-lz",
+    "name": "Airstrip - Marof",
+    "lat": 45.7778,
+    "lon": 14.3869,
+    "wind": {},
+    "altitude": 551.0,
+    "sources": {
+      "pge": "23468-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23468"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23468"
+  },
+  {
+    "id": "PSF-018175",
+    "ref": "pge:6667-lz",
+    "name": "Kovk Landing",
+    "lat": 45.8677,
+    "lon": 13.933,
+    "wind": {},
+    "altitude": 97.0,
+    "sources": {
+      "pge": "6667-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6667"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6667"
+  },
+  {
+    "id": "PSF-018176",
+    "ref": "pge:6668-lz",
+    "name": "Sorica Landing",
+    "lat": 46.2233,
+    "lon": 14.1796,
+    "wind": {},
+    "altitude": 435.0,
+    "sources": {
+      "pge": "6668-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6668"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6668"
+  },
+  {
+    "id": "PSF-018177",
+    "ref": "pge:6670-lz",
+    "name": "Donacka gora Landing",
+    "lat": 46.254,
+    "lon": 15.7244,
+    "wind": {},
+    "altitude": 298.0,
+    "sources": {
+      "pge": "6670-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6670"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6670"
+  },
+  {
+    "id": "PSF-018178",
+    "ref": "pge:6671-lz",
+    "name": "Pohorje Landing",
+    "lat": 46.5337,
+    "lon": 15.6045,
+    "wind": {},
+    "altitude": 314.0,
+    "sources": {
+      "pge": "6671-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6671"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6671"
+  },
+  {
+    "id": "PSF-018179",
+    "ref": "pge:6676-lz",
+    "name": "Krvavec Landing",
+    "lat": 46.2597,
+    "lon": 14.4967,
+    "wind": {},
+    "altitude": 421.0,
+    "sources": {
+      "pge": "6676-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6676",
+      "pge:7310"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6676"
+  },
+  {
+    "id": "PSF-018216",
+    "ref": "pge:6775-lz",
+    "name": "Kobariski Stol (Kobarid) Landing",
+    "lat": 46.2412,
+    "lon": 13.5825,
+    "wind": {},
+    "altitude": 215.0,
+    "sources": {
+      "pge": "6775-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6775"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6775"
+  },
+  {
+    "id": "PSF-018233",
+    "ref": "pge:6832-lz",
+    "name": "Smjhel",
+    "lat": 45.9477,
+    "lon": 13.7132,
+    "wind": {},
+    "altitude": 63.0,
+    "sources": {
+      "pge": "6832-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6832"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6832"
+  },
+  {
+    "id": "PSF-018345",
+    "ref": "pge:7146-lz",
+    "name": "Ratitovec Landing",
+    "lat": 46.224,
+    "lon": 14.1852,
+    "wind": {},
+    "altitude": 435.0,
+    "sources": {
+      "pge": "7146-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7146"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7146"
+  },
+  {
+    "id": "PSF-018365",
+    "ref": "pge:7183-lz",
+    "name": "Kobala (Tolmin) Landing",
+    "lat": 46.1851,
+    "lon": 13.7222,
+    "wind": {},
+    "altitude": 158.0,
+    "sources": {
+      "pge": "7183-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7183"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7183"
+  },
+  {
+    "id": "PSF-018432",
+    "ref": "pge:7322-lz",
+    "name": "Kriska gora Landing",
+    "lat": 46.3248,
+    "lon": 14.319,
+    "wind": {},
+    "altitude": 465.0,
+    "sources": {
+      "pge": "7322-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7322",
+      "pge:7325"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7322"
   }
 ]

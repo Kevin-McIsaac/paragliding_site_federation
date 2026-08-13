@@ -15,6 +15,30 @@
       "pge": "6141"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6141"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6141"
+  },
+  {
+    "id": "PSF-018107",
+    "ref": "pge:6141-lz",
+    "name": "Snake Hill Landing",
+    "lat": -26.2552,
+    "lon": 31.1288,
+    "wind": {},
+    "altitude": 1388.0,
+    "sources": {
+      "pge": "6141-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6141"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6141"
   }
 ]

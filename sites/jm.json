@@ -17,6 +17,11 @@
       "pge": "10009"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10009"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10009"
   },
   {
@@ -37,6 +42,11 @@
       "pge": "11035"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11035"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11035"
   },
   {
@@ -55,6 +65,11 @@
       "pge": "11036"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11036"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11036"
   },
   {
@@ -75,6 +90,11 @@
       "pge": "16134"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16134"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16134"
   },
   {
@@ -95,6 +115,11 @@
       "pge": "17028"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17028"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17028"
   },
   {
@@ -114,6 +139,11 @@
       "pge": "17711"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17711"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17711"
   },
   {
@@ -134,6 +164,144 @@
       "pge": "19735"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19735"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19735"
+  },
+  {
+    "id": "PSF-014343",
+    "ref": "pge:10009-lz",
+    "name": "Skyline Landing",
+    "lat": 18.0206,
+    "lon": -76.7425,
+    "wind": {},
+    "altitude": 225.0,
+    "sources": {
+      "pge": "10009-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10009"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10009"
+  },
+  {
+    "id": "PSF-014995",
+    "ref": "pge:11035-lz",
+    "name": "John Crow Hill Landing",
+    "lat": 17.9638,
+    "lon": -77.7305,
+    "wind": {},
+    "altitude": 15.0,
+    "sources": {
+      "pge": "11035-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11035"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11035"
+  },
+  {
+    "id": "PSF-014996",
+    "ref": "pge:11036-lz",
+    "name": "Freehill Landing",
+    "lat": 18.4505,
+    "lon": -77.2548,
+    "wind": {},
+    "altitude": 29.0,
+    "sources": {
+      "pge": "11036-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11036"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11036"
+  },
+  {
+    "id": "PSF-016206",
+    "ref": "pge:16134-lz",
+    "name": "Pen Hill - Kirkvine Landing",
+    "lat": 18.0878,
+    "lon": -77.4772,
+    "wind": {},
+    "altitude": 383.0,
+    "sources": {
+      "pge": "16134-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:16134"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=16134"
+  },
+  {
+    "id": "PSF-016311",
+    "ref": "pge:17028-lz",
+    "name": "Spur Tree South Landing",
+    "lat": 17.9798,
+    "lon": -77.5694,
+    "wind": {},
+    "altitude": 280.0,
+    "sources": {
+      "pge": "17028-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17028"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17028"
+  },
+  {
+    "id": "PSF-016492",
+    "ref": "pge:17711-lz",
+    "name": "Lovers Leap Landing",
+    "lat": 17.8722,
+    "lon": -77.6545,
+    "wind": {},
+    "altitude": 517.0,
+    "sources": {
+      "pge": "17711-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17711"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17711"
+  },
+  {
+    "id": "PSF-017048",
+    "ref": "pge:19735-lz",
+    "name": "Cabbage Hill Landing",
+    "lat": 17.9428,
+    "lon": -76.6078,
+    "wind": {},
+    "altitude": 200.0,
+    "sources": {
+      "pge": "19735-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19735"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19735"
   }
 ]

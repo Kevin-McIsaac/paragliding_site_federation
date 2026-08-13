@@ -15,6 +15,11 @@
       "pge": "18893"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18893"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18893"
   },
   {
@@ -33,6 +38,11 @@
       "pge": "18894"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18894"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18894"
   },
   {
@@ -47,6 +57,11 @@
       "pge": "19849"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19849"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19849"
   },
   {
@@ -65,6 +80,68 @@
       "pge": "23093"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23093"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23093"
+  },
+  {
+    "id": "PSF-016731",
+    "ref": "pge:18893-lz",
+    "name": "Fazayah Bay Landing",
+    "lat": 16.8253,
+    "lon": 53.7019,
+    "wind": {},
+    "altitude": 19.0,
+    "sources": {
+      "pge": "18893-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18893"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18893"
+  },
+  {
+    "id": "PSF-016732",
+    "ref": "pge:18894-lz",
+    "name": "Eftalquot Beach Landing",
+    "lat": 16.8966,
+    "lon": 53.8651,
+    "wind": {},
+    "altitude": 88.0,
+    "sources": {
+      "pge": "18894-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18894"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18894"
+  },
+  {
+    "id": "PSF-017123",
+    "ref": "pge:19849-lz",
+    "name": "Dibab Landing",
+    "lat": 23.012,
+    "lon": 59.1006,
+    "wind": {},
+    "altitude": 22.0,
+    "sources": {
+      "pge": "19849-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19849"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19849"
   }
 ]

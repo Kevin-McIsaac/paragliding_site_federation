@@ -100,9 +100,12 @@ def calibrate(source_name: str, countries: list[str]) -> int:
         elif MERGE_DISTANCE_M <= distance < REVIEW_DISTANCE_M:
             outside.append((distance, r.name, name))
 
-    others = ", ".join(sorted(a.name for a in ADAPTERS if a.name != source_name))
+    # Named from what actually contributed, not from every other adapter: a
+    # guide whose extent misses this one entirely is skipped, and crediting it
+    # here would imply a comparison that never happened.
+    contributors = ", ".join(sorted({name.split(" ", 1)[0] for name, _, _ in catalogue}))
     print(f"{source_name}: {len(records)} launches against "
-          f"{len(catalogue)} from {others} in {','.join(countries)}\n")
+          f"{len(catalogue)} from {contributors} in {','.join(countries)}\n")
     for low, high in _BANDS:
         count = histogram[(low, high)]
         marker = "  <- merge threshold" if high == int(MERGE_DISTANCE_M) else ""

@@ -148,9 +148,14 @@ def run(*, dry_run: bool, scope: str) -> int:
 
     # Updated rather than replaced, so a scoped run that skipped a source out of
     # its area does not erase the count the drop gate compares against next week.
-    state.setdefault("sources", {}).update(
-        {s.name: {"record_count": s.record_count} for s in stats}
-    )
+    # Names that are no longer adapters at all are dropped, though: assignment
+    # used to clear them for free, and `update` alone would keep a renamed
+    # provider's count in the file forever.
+    known = {a.name for a in adapters}
+    sources = state.setdefault("sources", {})
+    sources.update({s.name: {"record_count": s.record_count} for s in stats})
+    for retired in [name for name in sources if name not in known]:
+        del sources[retired]
     for adapter in adapters:
         version_id = getattr(adapter, "current_version_id", None)
         if version_id is not None:

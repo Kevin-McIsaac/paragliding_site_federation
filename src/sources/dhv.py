@@ -14,10 +14,11 @@ formats: it types each Fläche through `styleUrl`, which GPX does not.
 number — Diedamskopf's three takeoffs and two landings are all `item=1219` —
 and the "report a change" links show DHV has no finer identifier internally
 either. So the ref is the Gelände id plus a slug of the area's own name, which
-is the only other handle upstream assigns. Measured over the whole DE/AT/CH
-export: 1,476 takeoffs, no Gelände holding two identically-named ones, so this
-is unique. A rename costs one re-key; it can never point at a different launch,
-which is the property that matters (see `CatalogRef` in the app).
+is the only other handle upstream assigns. Measured over everything this
+adapter emits for DE/AT/CH - all 1,832 records, Startplätze and Schleppgelände
+alike - every ref is distinct, so no Gelände holds two identically-named areas.
+A rename costs one re-key; it can never point at a different launch, which is
+the property that matters (see `CatalogRef` in the app).
 
 **Landings are dropped.** The catalogue's unit is a launch, and the guides it
 already federates carry landing coordinates as an attribute of a takeoff rather
@@ -30,6 +31,7 @@ from __future__ import annotations
 
 import re
 import unicodedata
+import xml.etree.ElementTree as ElementTree
 
 import httpx
 
@@ -93,10 +95,6 @@ def _to_english_compass(text: str) -> str:
 
 
 def parse_kml(xml: str, country: str, bbox: BoundingBox) -> list[SiteRecord]:
-    # Imported here so a malformed export raises from the parse rather than at
-    # import time, and so the module stays importable without lxml installed.
-    import xml.etree.ElementTree as ElementTree
-
     root = ElementTree.fromstring(xml)
     records: list[SiteRecord] = []
     for placemark in root.iterfind(".//kml:Placemark", _KML_NS):
@@ -116,10 +114,13 @@ def _parse_placemark(placemark, country: str, bbox: BoundingBox) -> SiteRecord |
     name = (placemark.findtext("kml:name", "", _KML_NS) or "").strip()
     coordinates = placemark.findtext(".//kml:coordinates", "", _KML_NS) or ""
 
-    # A Fläche with no Gelände id has nothing durable to key on, and one with no
-    # name cannot be told from its siblings. Either way the ref would not be
-    # stable, so the record is dropped rather than given a made-up one.
-    if item is None or not name:
+    # A Fläche with no Gelände id has nothing durable to key on, and one whose
+    # name leaves nothing behind after slugging cannot be told from its
+    # siblings - two of those under one Gelände would collide on `<item>-`.
+    # Either way the ref would not be stable, so the record is dropped rather
+    # than given a made-up one. No launch in the current export hits this.
+    slug = _slug(name)
+    if item is None or not slug:
         return None
 
     parts = coordinates.strip().split(",")
@@ -140,7 +141,7 @@ def _parse_placemark(placemark, country: str, bbox: BoundingBox) -> SiteRecord |
 
     return SiteRecord(
         provider="dhv",
-        id=f"{item.group(1)}-{_slug(name)}",
+        id=f"{item.group(1)}-{slug}",
         name=name,
         role="launch",
         lat=lat,

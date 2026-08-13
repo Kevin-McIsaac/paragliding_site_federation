@@ -19,34 +19,45 @@ What to read:
 
     python -m scripts.calibrate dhv de at ch
 
-Compares a source's records against the launches already published for those
+Compares a source's records against *the other guides' records* for those
 countries, so it answers "what would adding this guide do" rather than
 re-deriving what the pipeline already agrees with itself about.
+
+Deliberately not against `sites/*.json`. Those are the published output, and
+once a guide ships they contain it: it wins `NATIONAL_SCOPE` where it is
+authoritative, so the canonical coordinate *is* its coordinate and every record
+matches itself at 0 m. That reads as a perfect cliff no matter what the
+threshold is - the tool would agree with any number it was given. Comparing
+records to records also matches what `matcher.py` actually sees, which is
+records, not the canonical site selected from them.
 """
 
 from __future__ import annotations
 
-import json
 import sys
 from collections import Counter
-from pathlib import Path
 
 from src.matcher import MERGE_DISTANCE_M, REVIEW_DISTANCE_M, haversine_m
+from src.model import intersect
 from src.sources import ADAPTERS
 
-SITES_DIR = Path("sites")
 _BANDS = ((0, 50), (50, 100), (100, 150), (150, 200), (200, 250),
           (250, 300), (300, 400), (400, 1000))
 
 
-def _published(countries: list[str]) -> list[tuple[str, float, float]]:
+def _counterparts(subject, countries: list[str]) -> list[tuple[str, float, float]]:
+    """Every launch the *other* guides publish where this one would land."""
+    wanted = {c.upper() for c in countries}
     sites: list[tuple[str, float, float]] = []
-    for country in countries:
-        path = SITES_DIR / f"{country.lower()}.json"
-        if not path.exists():
-            print(f"  (no published shard for {country})", file=sys.stderr)
+    for adapter_cls in ADAPTERS:
+        if adapter_cls.name == subject.name:
             continue
-        sites += [(s["name"], s["lat"], s["lon"]) for s in json.loads(path.read_text())]
+        scoped = intersect(adapter_cls.bbox, subject.bbox)
+        if scoped is None:
+            continue
+        for r in adapter_cls().fetch(scoped):
+            if r.role == "launch" and r.country in wanted:
+                sites.append((f"{r.provider} {r.name}", r.lat, r.lon))
     return sites
 
 
@@ -57,8 +68,13 @@ def calibrate(source_name: str, countries: list[str]) -> int:
         print(f"Unknown source {source_name!r}. Known: {known}", file=sys.stderr)
         return 1
 
-    records = [r for r in adapter.fetch(adapter.bbox) if r.role == "launch"]
-    catalogue = _published(countries)
+    wanted = {c.upper() for c in countries}
+    records = [
+        r
+        for r in adapter.fetch(adapter.bbox)
+        if r.role == "launch" and r.country in wanted
+    ]
+    catalogue = _counterparts(adapter, countries)
     if not records or not catalogue:
         print("Nothing to compare.", file=sys.stderr)
         return 1
@@ -84,8 +100,9 @@ def calibrate(source_name: str, countries: list[str]) -> int:
         elif MERGE_DISTANCE_M <= distance < REVIEW_DISTANCE_M:
             outside.append((distance, r.name, name))
 
+    others = ", ".join(sorted(a.name for a in ADAPTERS if a.name != source_name))
     print(f"{source_name}: {len(records)} launches against "
-          f"{len(catalogue)} published in {','.join(countries)}\n")
+          f"{len(catalogue)} from {others} in {','.join(countries)}\n")
     for low, high in _BANDS:
         count = histogram[(low, high)]
         marker = "  <- merge threshold" if high == int(MERGE_DISTANCE_M) else ""

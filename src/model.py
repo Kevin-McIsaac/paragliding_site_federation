@@ -25,7 +25,6 @@ class BoundingBox(NamedTuple):
 
 WORLD_BBOX = BoundingBox(south=-90.0, west=-180.0, north=90.0, east=180.0)
 AUSTRALIA_BBOX = BoundingBox(south=-44.0, west=112.0, north=-10.0, east=154.0)
-GERMANY_BBOX = BoundingBox(south=45.0, west=5.0, north=56.0, east=16.0)
 
 
 def intersect(a: BoundingBox, b: BoundingBox) -> BoundingBox | None:

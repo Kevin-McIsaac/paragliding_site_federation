@@ -64,7 +64,7 @@ the PGE-only asset it replaces field for field, with `source` in the slot
 deliberate**: reordering them parses cleanly and puts every site in the wrong
 hemisphere, which no row count would catch.
 
-That's `app/sites.csv` — 12,450 launches, 411 KB gzipped.
+That's `app/sites.csv` — 12,897 launches, 428 KB gzipped.
 
 Altitude and country are carried because the app reads them in nine places.
 Rating, hazards, access notes and landowners are deliberately absent. It's looked up from the source when a user opens a site,

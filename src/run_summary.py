@@ -133,7 +133,12 @@ def check_output_health(
     from_new_providers = sum(1 for s in sites if set(s.sources) <= new_providers)
     allowance = from_new_providers / len(before) if delta > 0 else 0.0
 
-    if abs(delta) - allowance > _MAX_SITE_COUNT_DELTA:
+    # `abs(delta - allowance)`, not `abs(delta) - allowance`: the allowance is
+    # the growth the new guide accounts for, so subtracting it *inside* the
+    # absolute value leaves the change in everything else. Outside it, a
+    # catalogue that shrank could hide behind a new guide's arrival - 150 of 200
+    # existing launches surviving alongside 60 new ones nets to +5% and passed.
+    if abs(delta - allowance) > _MAX_SITE_COUNT_DELTA:
         ok = False
         notes.append(
             f"launch count changed {delta:+.1%} ({len(before)} -> {len(now)}), "

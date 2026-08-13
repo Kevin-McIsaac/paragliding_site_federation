@@ -2,15 +2,15 @@
   "ansg": {
     "version_id": 870
   },
-  "siteguide_au": {
-    "version_id": 870
-  },
   "sources": {
+    "ansg": {
+      "record_count": 284
+    },
+    "dhv": {
+      "record_count": 1832
+    },
     "pge": {
       "record_count": 11495
-    },
-    "siteguide_au": {
-      "record_count": 284
     }
   }
 }

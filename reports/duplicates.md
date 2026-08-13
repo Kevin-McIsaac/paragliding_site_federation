@@ -1,6 +1,6 @@
 # Possible duplicates within one source
 
-- **156** pairs, from 2 source(s)
+- **183** pairs, from 3 source(s)
 
 Two entries in the **same** guide sitting within 250 m of each other.
 
@@ -27,6 +27,38 @@ those are distinct by definition.
 | [Tasman Flying Site 2](https://siteguide.org.au/sites/details/24) | [Tasman Flying Site 3](https://siteguide.org.au/sites/details/283) | 226 m | 95% | E,NE | E,NE | `ansg:24-322 ansg:283-321` |
 | [Bothwell Flying Site 3](https://siteguide.org.au/sites/details/269) | [Bothwell Flying Site 1](https://siteguide.org.au/sites/details/285) | 232 m | 95% | NW,SW,W | E,NE | `ansg:269-300 ansg:285-324` |
 | [West Heaton Lookout](https://siteguide.org.au/sites/details/264) | [NNE Heaton Lookout](https://siteguide.org.au/sites/details/265) | 239 m | 88% | NW,W | N,NE | `ansg:264-296 ansg:265-297` |
+
+## dhv — 27 pairs
+
+| Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |
+|---|---|---:|---:|---|---|---|
+| [Hochfelln Oststart](https://service.dhv.de/db2/details.php?qi=glp_details&item=1160) | [Hochfelln Oststart](https://service.dhv.de/db2/details.php?qi=glp_details&item=346) | 0 m | 100% | E | E | `dhv:1160-hochfelln-oststart dhv:346-hochfelln-oststart` |
+| [Sandkopf Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1152) | [Sandkopf Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=974) | 0 m | 100% | S | S | `dhv:1152-sandkopf-startplatz dhv:974-sandkopf-startplatz` |
+| [Eisenberg Windenschlepp](https://service.dhv.de/db2/details.php?qi=glp_details&item=5764) | [Eisenberg Windenschlepp](https://service.dhv.de/db2/details.php?qi=glp_details&item=59) | 0 m | 100% | E,N,NW,SE,W | E,N,NW,SE,W | `dhv:5764-eisenberg-windenschlepp dhv:59-eisenberg-windenschlepp` |
+| [Hahnberg Schleppstrecke](https://service.dhv.de/db2/details.php?qi=glp_details&item=1148) | [Hahnberg Schleppstrecke](https://service.dhv.de/db2/details.php?qi=glp_details&item=966) | 0 m | 100% | NE,SW | NE,SW | `dhv:1148-hahnberg-schleppstrecke dhv:966-hahnberg-schleppstrecke` |
+| [Wixberg Startplatz West](https://service.dhv.de/db2/details.php?qi=glp_details&item=116) | [Flugplatz Altena Hegenscheid](https://service.dhv.de/db2/details.php?qi=glp_details&item=5484) | 0 m | 43% | W | NE,SW | `dhv:116-wixberg-startplatz-west dhv:5484-flugplatz-altena-hegenscheid` |
+| [Parusciana Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1743) | [Parusciana Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=2092) | 8 m | 100% | SW,W | S | `dhv:1743-parusciana-startplatz dhv:2092-parusciana-startplatz` |
+| [Ruedlen Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1399) | [Ruelen Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1768) | 11 m | 97% | SW | W | `dhv:1399-ruedlen-startplatz dhv:1768-ruelen-startplatz` |
+| [Seetalhorn Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1772) | [Seetalhorn Startplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=1966) | 17 m | 100% | NW,SW,W | NW,SW,W | `dhv:1772-seetalhorn-startplatz dhv:1966-seetalhorn-startplatz-1` |
+| [Nonroder Höhe Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=2173) | [Nonroder Höhe Hangstart](https://service.dhv.de/db2/details.php?qi=glp_details&item=5615) | 18 m | 77% | N,NW,W | W | `dhv:2173-nonroder-hoehe-startplatz dhv:5615-nonroder-hoehe-hangstart` |
+| [Nonroder Höhe Schleppgelände](https://service.dhv.de/db2/details.php?qi=glp_details&item=2173) | [Nonroder Höhe Schlepp](https://service.dhv.de/db2/details.php?qi=glp_details&item=5615) | 19 m | 86% | W | W | `dhv:2173-nonroder-hoehe-schleppgelaende dhv:5615-nonroder-hoehe-schlepp` |
+| [Neubürg Startplatz West](https://service.dhv.de/db2/details.php?qi=glp_details&item=248) | [Neubürg](https://service.dhv.de/db2/details.php?qi=glp_details&item=249) | 40 m | 100% | W | N,NE,NW | `dhv:248-neubuerg-startplatz-west dhv:249-neubuerg` |
+| [Härmelekopf Startplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=1331) | [Seefelder Joch Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1447) | 45 m | 61% | E,NE,S,SE,SW | N,NE,NW,SW,W | `dhv:1331-haermelekopf-startplatz-2 dhv:1447-seefelder-joch-startplatz` |
+| [Weisshorn Winter Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1782) | [Weisshorn Startplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=2071) | 62 m | 95% | S,SE,SW | NE | `dhv:1782-weisshorn-winter-startplatz dhv:2071-weisshorn-startplatz-2` |
+| [Neubürg Startplatz Nordwest](https://service.dhv.de/db2/details.php?qi=glp_details&item=248) | [Neubürg](https://service.dhv.de/db2/details.php?qi=glp_details&item=249) | 80 m | 100% | NW | N,NE,NW | `dhv:248-neubuerg-startplatz-nordwest dhv:249-neubuerg` |
+| [Neubürg Startplatz Südost](https://service.dhv.de/db2/details.php?qi=glp_details&item=248) | [Neubürg](https://service.dhv.de/db2/details.php?qi=glp_details&item=249) | 80 m | 100% | S | N,NE,NW | `dhv:248-neubuerg-startplatz-suedost dhv:249-neubuerg` |
+| [Neubürg Startplatz Nordost](https://service.dhv.de/db2/details.php?qi=glp_details&item=248) | [Neubürg](https://service.dhv.de/db2/details.php?qi=glp_details&item=249) | 93 m | 100% | NE | N,NE,NW | `dhv:248-neubuerg-startplatz-nordost dhv:249-neubuerg` |
+| [Tannschach Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1052) | [Althof Tannschach (Naturstartplatz)](https://service.dhv.de/db2/details.php?qi=glp_details&item=671) | 98 m | 71% | SW | NW,W | `dhv:1052-tannschach-startplatz dhv:671-althof-tannschach-naturstartplatz` |
+| [Neubürg Startplatz Südwest](https://service.dhv.de/db2/details.php?qi=glp_details&item=248) | [Neubürg](https://service.dhv.de/db2/details.php?qi=glp_details&item=249) | 107 m | 100% | SW | N,NE,NW | `dhv:248-neubuerg-startplatz-suedwest dhv:249-neubuerg` |
+| [Weisshorn Winter Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1782) | [Weisshorn Startplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=2071) | 107 m | 95% | S,SE,SW | SW | `dhv:1782-weisshorn-winter-startplatz dhv:2071-weisshorn-startplatz-1` |
+| [Nordhelle Startplatz (Drachen)](https://service.dhv.de/db2/details.php?qi=glp_details&item=117) | [Nordhelle Skihang Ebbefeld SP GS](https://service.dhv.de/db2/details.php?qi=glp_details&item=120) | 108 m | 46% | N | N,NW | `dhv:117-nordhelle-startplatz-drachen dhv:120-nordhelle-skihang-ebbefeld-sp-gs` |
+| [Hochfelln Oststart](https://service.dhv.de/db2/details.php?qi=glp_details&item=1160) | [Hochfelln Nordstart](https://service.dhv.de/db2/details.php?qi=glp_details&item=346) | 131 m | 81% | E | N,NW | `dhv:1160-hochfelln-oststart dhv:346-hochfelln-nordstart` |
+| [Pig Mountain Übungshang](https://service.dhv.de/db2/details.php?qi=glp_details&item=1081) | [Pig Mountain Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=591) | 192 m | 69% | S,SE,SW | S,SW | `dhv:1081-pig-mountain-uebungshang dhv:591-pig-mountain-startplatz` |
+| [Montoz Süd Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1630) | [Montoz Nord Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1631) | 199 m | 89% | SE | N,NW | `dhv:1630-montoz-sued-startplatz dhv:1631-montoz-nord-startplatz` |
+| [Seetalhorn Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1772) | [Seetalhorn Startplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=1966) | 209 m | 100% | NW,SW,W | N,NE,NW | `dhv:1772-seetalhorn-startplatz dhv:1966-seetalhorn-startplatz-2` |
+| [Chasseral Süd Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1627) | [Chasseral Nord Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1628) | 211 m | 91% | S,SE | N,NW | `dhv:1627-chasseral-sued-startplatz dhv:1628-chasseral-nord-startplatz` |
+| [Tannschach Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1052) | [Althof (alte HG-Rampe)](https://service.dhv.de/db2/details.php?qi=glp_details&item=671) | 218 m | 28% | SW | N,NE,NW,W | `dhv:1052-tannschach-startplatz dhv:671-althof-alte-hg-rampe` |
+| [Heimat Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=1697) | [Fiescheralp Startplatz](https://service.dhv.de/db2/details.php?qi=glp_details&item=5702) | 236 m | 74% | SE | SE | `dhv:1697-heimat-startplatz dhv:5702-fiescheralp-startplatz` |
 
 ## pge — 150 pairs
 

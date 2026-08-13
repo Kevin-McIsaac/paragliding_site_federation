@@ -480,27 +480,6 @@
     "url": "https://www.paraglidingearth.com/?site=17978"
   },
   {
-    "id": "PSF-005227",
-    "ref": "pge:18173",
-    "name": "Vrgorac",
-    "lat": 43.2093,
-    "lon": 17.3582,
-    "wind": {
-      "N": 1,
-      "NE": 1,
-      "SE": 1,
-      "S": 2,
-      "SW": 1,
-      "NW": 1
-    },
-    "altitude": 475.0,
-    "sources": {
-      "pge": "18173"
-    },
-    "primary": "pge",
-    "url": "https://www.paraglidingearth.com/?site=18173"
-  },
-  {
     "id": "PSF-005725",
     "ref": "pge:19396",
     "name": "Libinje",

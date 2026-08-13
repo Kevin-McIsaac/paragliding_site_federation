@@ -26,6 +26,22 @@ class BoundingBox(NamedTuple):
 WORLD_BBOX = BoundingBox(south=-90.0, west=-180.0, north=90.0, east=180.0)
 AUSTRALIA_BBOX = BoundingBox(south=-44.0, west=112.0, north=-10.0, east=154.0)
 
+
+def intersect(a: BoundingBox, b: BoundingBox) -> BoundingBox | None:
+    """The area both boxes cover, or None if they do not overlap.
+
+    An adapter declares the extent it publishes and the run declares the extent
+    it wants; the fetch is the overlap. None means "this source has nothing to
+    say about this run", which is a skip rather than an empty fetch - a source
+    that returned zero records would otherwise read as an outage to the health
+    gate, which is exactly the confusion `--scope au` used to cause.
+    """
+    south, west = max(a.south, b.south), max(a.west, b.west)
+    north, east = min(a.north, b.north), min(a.east, b.east)
+    if south >= north or west >= east:
+        return None
+    return BoundingBox(south=south, west=west, north=north, east=east)
+
 DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 
 #: Which guide's id keys a launch described by more than one, most durable
@@ -40,7 +56,11 @@ DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 #: column. The two must not drift: a launch keyed `pge:` here and `ansg:` there
 #: would leave a fresh install and an upgraded one disagreeing about the same
 #: site.
-KEY_PRECEDENCE = ("pge", "ansg")
+#: `dhv` is last because it arrived last, not because it is worth less: a
+#: launch both guides describe keeps the `pge:` key devices already store, and
+#: re-keying one is a delete plus an insert that takes the pilot's favourite
+#: with it.
+KEY_PRECEDENCE = ("pge", "ansg", "dhv")
 
 
 def ref_for(sources: dict[str, str]) -> str:

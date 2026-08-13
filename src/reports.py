@@ -14,8 +14,8 @@ reports/duplicates.md - pairs from a *single* source close enough to be one
                         place entered twice. Never merged; a worklist for
                         reporting upstream.
 
-The merged list will need sharding per country once a third source lands -
-at two sources it is 81 rows, but it grows with every overlap.
+The merged list is sharded per country, because it grows with every overlap
+and a single table stopped being readable once a third guide landed.
 
 None is a worklist. There is deliberately no approve/reject workflow: when the
 merge threshold was 100m the review list held 21 pairs that were all obviously
@@ -35,14 +35,16 @@ from src.clustering import Cluster, ReviewItem
 from src.matcher import MERGE_DISTANCE_M, Pair, haversine_m
 from src.model import SiteRecord
 from src.overrides import ALWAYS, NEVER
+from src.selection import country_of
 
 REPORTS_DIR = Path("reports")
 MERGED_PATH = REPORTS_DIR / "merged.md"
 REVIEW_PATH = REPORTS_DIR / "review.md"
 OVERRIDES_PATH = REPORTS_DIR / "overrides.md"
 DUPLICATES_PATH = REPORTS_DIR / "duplicates.md"
-_PGE = "pge"
-_AU = "ansg"
+
+#: Shown when a cluster has no country to shard under.
+_UNKNOWN_COUNTRY = "??"
 
 
 def link_cell(record: SiteRecord | None) -> str:
@@ -106,8 +108,52 @@ def keys_cell(a: SiteRecord | None, b: SiteRecord | None) -> str:
     return f"`{a.key} {b.key}`"
 
 
-def _member(cluster: Cluster, provider: str) -> SiteRecord | None:
-    return next((m for m in cluster.members if m.provider == provider), None)
+def _ordered(*records: SiteRecord | None) -> list[SiteRecord]:
+    """Records sorted by provider, so a row reads the same way every run.
+
+    Pairs used to be addressed as (pge, ansg) by name, which quietly rendered a
+    third guide as a blank cell. Sorting means every pair of guides gets both
+    its names shown, in an order that does not depend on which was fetched first.
+    """
+    return sorted((r for r in records if r is not None), key=lambda r: r.provider)
+
+
+def _member_cell(record: SiteRecord) -> str:
+    return f"**{record.provider}** {link_cell(record)}"
+
+
+def _members_cell(records: list[SiteRecord]) -> str:
+    return " · ".join(_member_cell(r) for r in records) if records else "—"
+
+
+def _widest_pair(cluster: Cluster) -> tuple[SiteRecord, SiteRecord] | None:
+    """The two members furthest apart - the gap the merge actually bridged.
+
+    That pair is what an override needs to name: breaking it is what would undo
+    the merge, and its distance is the one worth reading in the table.
+    """
+    members = cluster.members
+    pairs = [
+        (haversine_m(a.lat, a.lon, b.lat, b.lon), a, b)
+        for i, a in enumerate(members)
+        for b in members[i + 1 :]
+    ]
+    if not pairs:
+        return None
+    _, a, b = max(pairs, key=lambda p: p[0])
+    return a, b
+
+
+def _cluster_similarity_cell(cluster: Cluster) -> str:
+    """The *lowest* name agreement in the cluster - the part worth a look."""
+    members = cluster.members
+    scores = [
+        s
+        for i, a in enumerate(members)
+        for b in members[i + 1 :]
+        if (s := name_similarity(a, b)) is not None
+    ]
+    return "—" if not scores else f"{min(scores):.0f}%"
 
 
 def _spread_m(cluster: Cluster) -> float:
@@ -132,7 +178,6 @@ def render_merged(clusters: list[Cluster]) -> str:
     absorbed.
     """
     merged = [c for c in clusters if len(c.members) > 1]
-    rows = sorted(((_spread_m(c), c) for c in merged), key=lambda t: t[0])
 
     lines = [
         "# Merged launches",
@@ -140,23 +185,39 @@ def render_merged(clusters: list[Cluster]) -> str:
         f"- **{len(merged)}** launches backed by more than one source",
         "",
         f"Folded together because the sources place them within "
-        f"{MERGE_DISTANCE_M:.0f} m of each other. Distance is how far apart they",
-        "actually were, so the largest values are the ones worth checking.",
-        "Name match is context only and played no part in the decision.",
+        f"{MERGE_DISTANCE_M:.0f} m of each other. Distance is the widest gap",
+        "between any two members - the one the merge actually bridged - so the",
+        "largest values are the ones worth checking. Name match is the *lowest*",
+        "agreement in the cluster, context only, and played no part in the decision.",
         "",
         _TEMPLATE,
-        "",
-        "| PGE Name | AU Name | Distance | Name match | Override (to un-merge) |",
-        "|---|---|---:|---:|---|",
     ]
-    for distance, cluster in rows:
-        pge, au = _member(cluster, _PGE), _member(cluster, _AU)
-        lines.append(
-            f"| {link_cell(pge)} | {link_cell(au)} | {distance:,.0f} m "
-            f"| {_similarity_cell(pge, au)} | {override_cell(pge, au, NEVER)} |"
+
+    by_country: dict[str, list[Cluster]] = defaultdict(list)
+    for cluster in merged:
+        by_country[country_of(cluster) or _UNKNOWN_COUNTRY].append(cluster)
+
+    for country in sorted(by_country):
+        rows = sorted(
+            ((_spread_m(c), c) for c in by_country[country]), key=lambda t: t[0]
         )
+        lines += [
+            "",
+            f"## {country} — {len(rows)} launches",
+            "",
+            "| Members | Distance | Name match | Override (to un-merge) |",
+            "|---|---:|---:|---|",
+        ]
+        for distance, cluster in rows:
+            widest = _widest_pair(cluster)
+            override = override_cell(*widest, NEVER) if widest else "—"
+            lines.append(
+                f"| {_members_cell(_ordered(*cluster.members))} | {distance:,.0f} m "
+                f"| {_cluster_similarity_cell(cluster)} | {override} |"
+            )
+
     if not merged:
-        lines.append("| _none_ | | | | |")
+        lines += ["", "_None found._"]
     return "\n".join(lines) + "\n"
 
 
@@ -181,15 +242,15 @@ def render_review(items: list[ReviewItem], merged: int | None = None) -> str:
         "",
         _TEMPLATE,
         "",
-        "| PGE Name | AU Name | Distance | Name match | Why | Override (to merge) |",
+        "| Site A | Site B | Distance | Name match | Why | Override (to merge) |",
         "|---|---|---:|---:|---|---|",
     ]
     for item in sorted(items, key=lambda i: i.distance_m):
-        pge, au = item.pair.by_provider(_PGE), item.pair.by_provider(_AU)
+        a, b = _ordered(item.pair.a, item.pair.b)
         lines.append(
-            f"| {link_cell(pge)} | {link_cell(au)} | {item.distance_m:,.0f} m "
-            f"| {_similarity_cell(pge, au)} | {item.reason.value} "
-            f"| {override_cell(pge, au, ALWAYS)} |"
+            f"| {_member_cell(a)} | {_member_cell(b)} | {item.distance_m:,.0f} m "
+            f"| {_similarity_cell(a, b)} | {item.reason.value} "
+            f"| {override_cell(a, b, ALWAYS)} |"
         )
     if not items:
         lines.append("| _none_ | | | | | |")
@@ -276,19 +337,20 @@ def render_overrides(
         "Everything else the pipeline decides on distance alone. Copy a **Keys**",
         "cell from any report to add an entry.",
         "",
-        "| Verdict | PGE Name | AU Name | Reason | Applied? |",
+        "| Verdict | Site A | Site B | Reason | Applied? |",
         "|---|---|---|---|---|",
     ]
     for entry in sorted(entries, key=lambda e: (e.get("verdict", ""), e.get("a", ""))):
-        keys = [entry.get("a", ""), entry.get("b", "")]
+        keys = sorted(k for k in (entry.get("a", ""), entry.get("b", "")))
         resolved = [by_key.get(k) for k in keys]
-        pge = next((r for r in resolved if r and r.provider == _PGE), None)
-        au = next((r for r in resolved if r and r.provider == _AU), None)
 
-        cells = []
-        for record, prefix in ((pge, _PGE), (au, _AU)):
-            raw = next((k for k in keys if k.startswith(f"{prefix}:")), None)
-            cells.append(link_cell(record) if record else (f"`{raw}`" if raw else "—"))
+        # A key that no longer resolves is shown raw rather than dropped: an
+        # entry silently overriding nothing is the failure this column exists
+        # to surface, so the reader has to see which key went stale.
+        cells = [
+            _member_cell(record) if record else (f"`{key}`" if key else "—")
+            for key, record in zip(keys, resolved)
+        ]
 
         if any(r is None for r in resolved):
             status = "⚠️ key not found — stale?"

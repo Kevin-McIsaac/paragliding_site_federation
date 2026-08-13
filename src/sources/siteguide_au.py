@@ -26,7 +26,7 @@ import re
 
 import httpx
 
-from src.model import BoundingBox, SiteRecord
+from src.model import AUSTRALIA_BBOX, BoundingBox, SiteRecord
 from src.wind import parse_conditions
 
 _BASE_URL = "https://siteguide.org.au"
@@ -45,6 +45,7 @@ class SiteGuideAuSource:
     # shows on its per-guide tab. The module keeps its name: this adapter is
     # for siteguide.org.au, the website, not the guide's abbreviation.
     name = "ansg"
+    bbox = AUSTRALIA_BBOX
 
     def __init__(self, *, client: httpx.Client | None = None) -> None:
         self._client = client or httpx.Client(timeout=_TIMEOUT, base_url=_BASE_URL)

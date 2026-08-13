@@ -24,6 +24,19 @@ from src.model import SiteRecord
 
 _ANOMALY_DROP_FRACTION = 0.20
 
+# Gates on the *output*, checked against the snapshot already published. The
+# source-count gate above catches a guide going dark; these catch the run
+# producing a plausible-looking catalogue that would break the app.
+#
+# Thresholds are set against what a normal week actually looks like. Measured on
+# the 2026-08-10 run: 13 of 11,703 launches withdrawn (0.11% churn), nothing
+# added, and no surviving launch moved at all. So these leave roughly an order of
+# magnitude of headroom before a real week trips them.
+_MAX_SITE_COUNT_DELTA = 0.05
+_MAX_KEY_CHURN = 0.02
+_MAX_PROVIDER_DROP = 0.20
+_MAX_KEY_MOVE_M = 5_000.0
+
 
 
 @dataclass(frozen=True)
@@ -61,6 +74,100 @@ def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> R
                 )
     if ok:
         notes.append("Record counts within normal range for all sources.")
+    return RunHealth(ok=ok, notes=notes)
+
+
+@dataclass(frozen=True)
+class PublishedSite:
+    """One row of the previously published catalogue, as the gates need it."""
+
+    ref: str
+    lat: float
+    lon: float
+    providers: frozenset[str]
+
+
+def check_output_health(
+    sites: list, previous: list[PublishedSite]
+) -> RunHealth:
+    """Would publishing this replace a good catalogue with a broken one?
+
+    Four questions, each of which has a way of passing every other check:
+
+      * the launch count swinging wildly - a partial fetch that still parsed;
+      * a provider's launches largely vanishing from the *output* even though its
+        records arrived, which is a clustering or selection fault rather than an
+        upstream one;
+      * **key churn** - how many keys the app stores against flown sites are no
+        longer emitted. This is the gate that would have caught the positional-id
+        catalogue: renumbering every row reads as 100% churn while every other
+        number looks perfect;
+      * a key whose launch moved a long way, which is how an upstream id being
+        reused for a different site would look.
+
+    Nothing to compare against on a first run, which is reported rather than
+    treated as a pass - a gate that silently does nothing reads as coverage.
+    """
+    notes: list[str] = []
+    ok = True
+
+    if not previous:
+        return RunHealth(ok=True, notes=["No published catalogue to compare against."])
+
+    now = {s.ref: s for s in sites}
+    before = {s.ref: s for s in previous}
+
+    delta = (len(now) - len(before)) / len(before)
+    if abs(delta) > _MAX_SITE_COUNT_DELTA:
+        ok = False
+        notes.append(
+            f"launch count changed {delta:+.1%} ({len(before)} -> {len(now)}), "
+            f"limit {_MAX_SITE_COUNT_DELTA:.0%}"
+        )
+
+    for provider in sorted({p for s in previous for p in s.providers}):
+        was = sum(1 for s in previous if provider in s.providers)
+        is_now = sum(1 for s in sites if provider in s.sources)
+        if was and (was - is_now) / was > _MAX_PROVIDER_DROP:
+            ok = False
+            notes.append(
+                f"{provider}: launches dropped {(was - is_now) / was:.0%} "
+                f"({was} -> {is_now})"
+            )
+
+    withdrawn = set(before) - set(now)
+    churn = len(withdrawn) / len(before)
+    if churn > _MAX_KEY_CHURN:
+        ok = False
+        example = ", ".join(sorted(withdrawn)[:3])
+        notes.append(
+            f"{len(withdrawn)} of {len(before)} keys no longer emitted "
+            f"({churn:.1%}, limit {_MAX_KEY_CHURN:.0%}) e.g. {example}. "
+            f"Every flown site holding one of these loses its wind and altitude."
+        )
+
+    moved = []
+    for ref, was in before.items():
+        is_now = now.get(ref)
+        if is_now is None:
+            continue
+        distance = haversine_m(was.lat, was.lon, is_now.lat, is_now.lon)
+        if distance > _MAX_KEY_MOVE_M:
+            moved.append((ref, distance))
+    if moved:
+        ok = False
+        worst = ", ".join(f"{ref} {d / 1000:.0f} km" for ref, d in sorted(
+            moved, key=lambda m: -m[1])[:3])
+        notes.append(
+            f"{len(moved)} key(s) moved more than {_MAX_KEY_MOVE_M / 1000:.0f} km: "
+            f"{worst}. An upstream id reused for a different site looks like this."
+        )
+
+    if ok:
+        notes.append(
+            f"Output within range: {len(now)} launches ({delta:+.1%}), "
+            f"{len(withdrawn)} keys withdrawn ({churn:.2%})."
+        )
     return RunHealth(ok=ok, notes=notes)
 
 

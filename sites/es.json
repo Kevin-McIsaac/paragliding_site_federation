@@ -8708,5 +8708,22 @@
     },
     "primary": "pge",
     "url": "https://www.paraglidingearth.com/?site=9918"
+  },
+  {
+    "id": "PSF-012464",
+    "ref": "pge:23974",
+    "name": "Narieda",
+    "lat": 42.192,
+    "lon": 1.34461,
+    "wind": {
+      "N": 2,
+      "NW": 1
+    },
+    "altitude": 1121.0,
+    "sources": {
+      "pge": "23974"
+    },
+    "primary": "pge",
+    "url": "https://www.paraglidingearth.com/?site=23974"
   }
 ]

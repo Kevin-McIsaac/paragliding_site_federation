@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>dhvgelaende_kml_sample.kml</name>
+    <Folder>
+      <name>Criesbach</name>
+      <Placemark>
+        <name>Criesbach Startplatz 1</name>
+        <description><![CDATA[Startplatz, Startrichtung SSO-SSW<br/>Gemeinde Ingelfingen, Höhe NN 350m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=5701" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>9.628861,49.309994</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>!!! ---</name>
+        <description><![CDATA[Startplatz, Startrichtung N<br/>Gemeinde Ingelfingen, Höhe NN 300m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=5701" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>9.629000,49.310500</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Criesbach Landeplatz</name>
+        <description><![CDATA[Landeplatz<br/>Gemeinde Ingelfingen, Höhe NN 210m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=5701" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_landeplatz</styleUrl>
+        <Point><coordinates>9.630000,49.311000</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Loser</name>
+      <Placemark>
+        <name>Loser Startplatz 1</name>
+        <description><![CDATA[Startplatz, Startrichtung O, W<br/>Gemeinde Altaussee, Höhe NN 1600m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=1416" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>13.780000,47.650000</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Loser Startplatz 3 Bräuningalm</name>
+        <description><![CDATA[Startplatz, Startrichtung NW-N<br/>Gemeinde Altaussee, Höhe NN 1450m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=1416" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>13.781000,47.651000</coordinates></Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Ailringen</name>
+      <Placemark>
+        <name>Ailringen</name>
+        <description><![CDATA[Schleppgelände<br/>Gemeinde Mulfingen, Höhe NN 320m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=4210" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_schlepp</styleUrl>
+        <Point><coordinates>9.800000,49.320000</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Namenlos ohne Startrichtung</name>
+        <description><![CDATA[Startplatz<br/>Gemeinde Nirgendwo<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=9999" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>9.900000,49.400000</coordinates></Point>
+      </Placemark>
+      <Placemark>
+        <name>Weit weg</name>
+        <description><![CDATA[Startplatz, Startrichtung N<br/>Höhe NN 100m<br/><a href="https://service.dhv.de/db2/details.php?qi=glp_details&amp;popup=1&amp;item=8888" target="_blank">Details anzeigen</a>]]></description>
+        <styleUrl>#dhv_startplatz</styleUrl>
+        <Point><coordinates>151.300000,-33.700000</coordinates></Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

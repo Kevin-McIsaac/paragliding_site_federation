@@ -15,7 +15,7 @@ from __future__ import annotations
 
 import httpx
 
-from src.model import DIRECTIONS, BoundingBox, SiteRecord
+from src.model import DIRECTIONS, WORLD_BBOX, BoundingBox, SiteRecord
 
 _BASE_URL = "https://www.paraglidingearth.com/api/geojson/getBoundingBoxSites.php"
 _TIMEOUT = 180.0
@@ -24,6 +24,7 @@ _LANDING_MARKERS = ("landing", "atterrissage", "landeplatz")
 
 class PgeSource:
     name = "pge"
+    bbox = WORLD_BBOX
 
     def __init__(self, *, client: httpx.Client | None = None) -> None:
         self._client = client or httpx.Client(timeout=_TIMEOUT)

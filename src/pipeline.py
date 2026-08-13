@@ -14,7 +14,7 @@ from src.clustering import cluster
 from src.ids import IdRegistry
 from src.matcher import intra_source_pairs
 from src.matcher import pairs as build_pairs
-from src.model import AUSTRALIA_BBOX, WORLD_BBOX
+from src.model import AUSTRALIA_BBOX, KEY_PRECEDENCE, WORLD_BBOX, intersect
 from src.run_summary import (
     SourceStats,
     build_pr,
@@ -22,8 +22,7 @@ from src.run_summary import (
     check_output_health,
 )
 from src.selection import select
-from src.sources.pge import PgeSource
-from src.sources.siteguide_au import SiteGuideAuSource
+from src.sources import ADAPTERS
 
 STATE_PATH = Path("state/last_run.json")
 PR_OUTPUT_DIR = Path(".pr")
@@ -40,7 +39,7 @@ def _save_state(state: dict) -> None:
     STATE_PATH.write_text(json.dumps(state, indent=2, sort_keys=True) + "\n")
 
 
-def run(*, dry_run: bool, scope: str, force: bool) -> int:
+def run(*, dry_run: bool, scope: str) -> int:
     run_id = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     bbox = AUSTRALIA_BBOX if scope == "au" else WORLD_BBOX
 
@@ -53,16 +52,34 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     if "ansg" not in previous and "siteguide_au" in previous:
         previous["ansg"] = previous.pop("siteguide_au")
 
-    pge = PgeSource()
-    siteguide = SiteGuideAuSource()
+    adapters = [adapter() for adapter in ADAPTERS]
 
-    pge_records = pge.fetch(bbox)
-    sg_records = siteguide.fetch(AUSTRALIA_BBOX)
+    # A guide with no entry in KEY_PRECEDENCE would be keyed by a `sorted()`
+    # tie-break instead of a decision, and the app - which carries its own copy
+    # of that list - would key the same launch differently. The app's comment
+    # says this should be a hard failure here, because here is where the
+    # decision can be made. Checked before fetching: no point spending a minute
+    # on the network to fail on a constant.
+    unranked = [a.name for a in adapters if a.name not in KEY_PRECEDENCE]
+    if unranked:
+        print(
+            f"Adapters not ranked in KEY_PRECEDENCE: {', '.join(sorted(unranked))}. "
+            f"Add them to src/model.py and to CatalogRef.providerPrecedence in the app.",
+            file=sys.stderr,
+        )
+        return 1
 
-    stats = [
-        SourceStats("pge", len(pge_records), sum(1 for r in pge_records if r.wind)),
-        SourceStats("ansg", len(sg_records), sum(1 for r in sg_records if r.wind)),
-    ]
+    records = []
+    stats = []
+    for adapter in adapters:
+        scoped = intersect(adapter.bbox, bbox)
+        if scoped is None:
+            continue
+        fetched = adapter.fetch(scoped)
+        records.extend(fetched)
+        stats.append(
+            SourceStats(adapter.name, len(fetched), sum(1 for r in fetched if r.wind))
+        )
 
     health = check_health(stats, previous)
     if not health.ok:
@@ -71,7 +88,6 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
             print(f"  {note}", file=sys.stderr)
         return 1
 
-    records = pge_records + sg_records
     decisions = overrides.load()
     result = cluster(records, list(build_pairs(records)),
                      rejected=decisions.never, forced=decisions.always)
@@ -79,8 +95,9 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     no_wind = 0
 
     if dry_run:
+        counts = " ".join(f"{s.name}={s.record_count}" for s in stats)
         print(
-            f"[dry-run] scope={scope} pge={len(pge_records)} ansg={len(sg_records)} "
+            f"[dry-run] scope={scope} {counts} "
             f"clusters={len(result.clusters)} merged={merged} review={len(result.review)}"
         )
         return 0
@@ -129,8 +146,20 @@ def run(*, dry_run: bool, scope: str, force: bool) -> int:
     (PR_OUTPUT_DIR / "title.txt").write_text(title)
     (PR_OUTPUT_DIR / "body.md").write_text(body)
 
-    state["sources"] = {s.name: {"record_count": s.record_count} for s in stats}
-    state.setdefault("ansg", {})["version_id"] = siteguide.current_version_id
+    # Updated rather than replaced, so a scoped run that skipped a source out of
+    # its area does not erase the count the drop gate compares against next week.
+    # Names that are no longer adapters at all are dropped, though: assignment
+    # used to clear them for free, and `update` alone would keep a renamed
+    # provider's count in the file forever.
+    known = {a.name for a in adapters}
+    sources = state.setdefault("sources", {})
+    sources.update({s.name: {"record_count": s.record_count} for s in stats})
+    for retired in [name for name in sources if name not in known]:
+        del sources[retired]
+    for adapter in adapters:
+        version_id = getattr(adapter, "current_version_id", None)
+        if version_id is not None:
+            state.setdefault(adapter.name, {})["version_id"] = version_id
     _save_state(state)
 
     print(title)
@@ -142,9 +171,8 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--scope", choices=("world", "au"), default="world")
-    parser.add_argument("--force", action="store_true", help="Ignore the Site Guide version gate.")
     args = parser.parse_args()
-    return run(dry_run=args.dry_run, scope=args.scope, force=args.force)
+    return run(dry_run=args.dry_run, scope=args.scope)
 
 
 if __name__ == "__main__":

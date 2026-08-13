@@ -104,6 +104,15 @@ class SiteRecord:
     # pending a council agreement, PGE has two entries that do not know that,
     # and the app showed only PGE's.
     closed: str | None = None
+    # What a guide says about this place, verbatim.
+    #
+    # The catalogue carries no prose anywhere else - rating, hazards, access and
+    # landowner notes are all looked up live when a site is opened, because they
+    # are long and a pilot is online when browsing. Landing rules are the
+    # exception: they are safety information wanted at a launch site with no
+    # signal, they exist for guides ParaglidingEarth cannot answer for, and they
+    # are bounded. Populated for landings only.
+    notes: str | None = None
     # A launch you are winched or towed from. Kept a flag rather than a third
     # `role`, so every "is this a launch" test stays one comparison and cannot
     # silently omit tow sites - they are a third of DHV's German data.
@@ -141,6 +150,8 @@ class CanonicalSite:
     #: "launch" or "landing". Every member of a cluster shares it - the matcher
     #: refuses to pair records whose roles differ - so this is the cluster's.
     role: str = "launch"
+    #: What a guide says about this landing, verbatim. See `SiteRecord.notes`.
+    notes: str | None = None
     #: A launch you are winched or towed from. True if *any* guide says so: it
     #: is a fact about the place, and a pilot arriving at a flat field expecting
     #: a hill has been misled by the guide that stayed silent.
@@ -211,5 +222,6 @@ class CanonicalSite:
             "role": self.role,
             "tow": self.tow,
             "group": list(self.group),
+            "notes": self.notes,
             "url": self.url,
         }

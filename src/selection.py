@@ -106,6 +106,11 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
     if altitude is None:
         altitude = next((m.altitude for m in ordered[1:] if m.altitude is not None), None)
 
+    # Same gap-fill as altitude. DHV publishes no landing text at all, so a
+    # DHV-primary landing that PGE also describes would otherwise lose the only
+    # words anyone wrote about it.
+    notes = winner.notes or next((m.notes for m in ordered[1:] if m.notes), None)
+
     # Closure is the one field not taken from the winner. One guide knowing a
     # site is shut is reason enough to say so - a pilot wants the warning even
     # if the guide that raised it lost on every other field.
@@ -134,6 +139,7 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
         role=role,
         tow=tow,
         group=group,
+        notes=notes,
         altitude=altitude,
         country=country,
         url=winner.url,

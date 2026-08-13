@@ -172,6 +172,10 @@ def _landing_records(features: list[dict]) -> list[SiteRecord]:
             country=(_text(properties.get("countryCode")) or "").upper() or None,
             url=_site_url(properties.get("pge_link"), takeoff_id),
             group_ids=(takeoff_id,),
+            # Present on 162 of 238 Alpine landings, and the practical half of
+            # what PGE knows about one: "huge LZ (with windsocks) just north of
+            # mainroad and parking, 5 mins walk to gondola station".
+            notes=_text(landing.get("landing_description")),
         )
 
     return list(by_position.values())

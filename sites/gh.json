@@ -18,6 +18,11 @@
       "pge": "10641"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10641"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10641"
   },
   {
@@ -32,6 +37,11 @@
       "pge": "21405"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21405"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21405"
   },
   {
@@ -46,6 +56,11 @@
       "pge": "21406"
     },
     "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21406"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21406"
   },
   {
@@ -60,6 +75,11 @@
       "pge": "21407"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21407"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21407"
   },
   {
@@ -74,6 +94,11 @@
       "pge": "21408"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21408"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21408"
   },
   {
@@ -88,6 +113,11 @@
       "pge": "21409"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21409"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21409"
   },
   {
@@ -102,6 +132,11 @@
       "pge": "21410"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21410"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21410"
   },
   {
@@ -120,6 +155,49 @@
       "pge": "6921"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6921"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6921"
+  },
+  {
+    "id": "PSF-014750",
+    "ref": "pge:10641-lz",
+    "name": "Osuduku Landing",
+    "lat": 6.0578,
+    "lon": 0.1814,
+    "wind": {},
+    "altitude": 51.0,
+    "sources": {
+      "pge": "10641-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10641"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10641"
+  },
+  {
+    "id": "PSF-018271",
+    "ref": "pge:6921-lz",
+    "name": "Nkawkaw Landing",
+    "lat": 6.5544,
+    "lon": -0.7571,
+    "wind": {},
+    "altitude": 231.0,
+    "sources": {
+      "pge": "6921-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6921"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6921"
   }
 ]

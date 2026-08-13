@@ -17,6 +17,11 @@
       "pge": "10327"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:10327"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10327"
   },
   {
@@ -31,6 +36,11 @@
       "pge": "10666"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:10666"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10666"
   },
   {
@@ -48,6 +58,11 @@
       "pge": "11651"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11651"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11651"
   },
   {
@@ -71,6 +86,11 @@
       "pge": "14837"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:14837"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14837"
   },
   {
@@ -89,6 +109,11 @@
       "pge": "19271"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19271"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19271"
   },
   {
@@ -106,6 +131,11 @@
       "pge": "19272"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19272"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19272"
   },
   {
@@ -124,6 +154,11 @@
       "pge": "21861"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21861"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21861"
   },
   {
@@ -141,6 +176,11 @@
       "pge": "21862"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21862"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21862"
   },
   {
@@ -157,6 +197,11 @@
       "pge": "21863"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21863"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21863"
   },
   {
@@ -173,6 +218,11 @@
       "pge": "21864"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21864"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21864"
   },
   {
@@ -189,6 +239,11 @@
       "pge": "21865"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21865"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21865"
   },
   {
@@ -208,6 +263,11 @@
       "pge": "21866"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:21866"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21866"
   },
   {
@@ -222,6 +282,11 @@
       "pge": "23807"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23807"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23807"
   },
   {
@@ -242,6 +307,11 @@
       "pge": "23836"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23836"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23836"
   },
   {
@@ -259,6 +329,144 @@
       "pge": "23850"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23850"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23850"
+  },
+  {
+    "id": "PSF-014552",
+    "ref": "pge:10327-lz",
+    "name": "Rapla South Landing",
+    "lat": 58.9993,
+    "lon": 24.7042,
+    "wind": {},
+    "altitude": 64.0,
+    "sources": {
+      "pge": "10327-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10327"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10327"
+  },
+  {
+    "id": "PSF-014764",
+    "ref": "pge:10666-lz",
+    "name": "Keila flight fields Landing",
+    "lat": 59.3174,
+    "lon": 24.4255,
+    "wind": {},
+    "altitude": 27.0,
+    "sources": {
+      "pge": "10666-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10666"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10666"
+  },
+  {
+    "id": "PSF-015388",
+    "ref": "pge:11651-lz",
+    "name": "Tabasalu Landing",
+    "lat": 59.4375,
+    "lon": 24.5443,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "11651-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11651"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11651"
+  },
+  {
+    "id": "PSF-016780",
+    "ref": "pge:19271-lz",
+    "name": "Paldiski Landing",
+    "lat": 59.381,
+    "lon": 24.0357,
+    "wind": {},
+    "altitude": 12.0,
+    "sources": {
+      "pge": "19271-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19271"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19271"
+  },
+  {
+    "id": "PSF-016781",
+    "ref": "pge:19272-lz",
+    "name": "Turisalu Landing",
+    "lat": 59.4231,
+    "lon": 24.3338,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "19272-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19272"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19272"
+  },
+  {
+    "id": "PSF-017339",
+    "ref": "pge:21863-lz",
+    "name": "Kakumäe Landing",
+    "lat": 59.4486,
+    "lon": 24.607,
+    "wind": {},
+    "altitude": 14.0,
+    "sources": {
+      "pge": "21863-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21863"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21863"
+  },
+  {
+    "id": "PSF-017794",
+    "ref": "pge:23807-lz",
+    "name": "Toila Landing",
+    "lat": 59.4268,
+    "lon": 27.5282,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "23807-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23807"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23807"
   }
 ]

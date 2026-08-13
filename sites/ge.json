@@ -15,6 +15,11 @@
       "pge": "10688"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10688"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10688"
   },
   {
@@ -34,6 +39,11 @@
       "pge": "10689"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10689"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10689"
   },
   {
@@ -54,6 +64,11 @@
       "pge": "10690"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10690"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10690"
   },
   {
@@ -73,6 +88,11 @@
       "pge": "10703"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10703"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10703"
   },
   {
@@ -93,6 +113,11 @@
       "pge": "12547"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12547"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12547"
   },
   {
@@ -116,6 +141,11 @@
       "pge": "16093"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16093"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16093"
   },
   {
@@ -137,6 +167,11 @@
       "pge": "19641"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:19641"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19641"
   },
   {
@@ -155,6 +190,11 @@
       "pge": "21945"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21945"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21945"
   },
   {
@@ -173,6 +213,11 @@
       "pge": "21946"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21946"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21946"
   },
   {
@@ -187,6 +232,11 @@
       "pge": "22329"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22329"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22329"
   },
   {
@@ -201,6 +251,11 @@
       "pge": "22543"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22543"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22543"
   },
   {
@@ -217,6 +272,11 @@
       "pge": "23153"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23153"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23153"
   },
   {
@@ -234,6 +294,11 @@
       "pge": "23154"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23154"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23154"
   },
   {
@@ -252,6 +317,144 @@
       "pge": "23155"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23155"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23155"
+  },
+  {
+    "id": "PSF-014777",
+    "ref": "pge:10688-lz",
+    "name": "Rustavi Landing",
+    "lat": 41.5654,
+    "lon": 44.9337,
+    "wind": {},
+    "altitude": 507.0,
+    "sources": {
+      "pge": "10688-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10688"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10688"
+  },
+  {
+    "id": "PSF-014778",
+    "ref": "pge:10689-lz",
+    "name": "Tbilisi Sea Landing",
+    "lat": 41.7501,
+    "lon": 44.9219,
+    "wind": {},
+    "altitude": 887.0,
+    "sources": {
+      "pge": "10689-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10689"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10689"
+  },
+  {
+    "id": "PSF-014779",
+    "ref": "pge:10690-lz",
+    "name": "Jijeti Landing",
+    "lat": 42.1273,
+    "lon": 44.8997,
+    "wind": {},
+    "altitude": 1168.0,
+    "sources": {
+      "pge": "10690-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10690"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10690"
+  },
+  {
+    "id": "PSF-014790",
+    "ref": "pge:10703-lz",
+    "name": "Tkhibuli Crater Landing",
+    "lat": 42.3736,
+    "lon": 43.0139,
+    "wind": {},
+    "altitude": 786.0,
+    "sources": {
+      "pge": "10703-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10703"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10703"
+  },
+  {
+    "id": "PSF-016179",
+    "ref": "pge:16093-lz",
+    "name": "Kazbegi Landing",
+    "lat": 42.6208,
+    "lon": 44.6182,
+    "wind": {},
+    "altitude": 1761.0,
+    "sources": {
+      "pge": "16093-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:16093"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=16093"
+  },
+  {
+    "id": "PSF-016998",
+    "ref": "pge:19641-lz",
+    "name": "Gudauri (skyatlantida.com) Landing",
+    "lat": 42.4709,
+    "lon": 44.4863,
+    "wind": {},
+    "altitude": 2147.0,
+    "sources": {
+      "pge": "19641-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19641"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19641"
+  },
+  {
+    "id": "PSF-017525",
+    "ref": "pge:22543-lz",
+    "name": "Mestia Landing",
+    "lat": 43.0573,
+    "lon": 42.7478,
+    "wind": {},
+    "altitude": 1441.0,
+    "sources": {
+      "pge": "22543-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:22543"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=22543"
   }
 ]

@@ -44,6 +44,16 @@ CSV_COLUMNS = [
     *(f"wind_{d.lower()}" for d in DIRECTIONS),
     "source",
     "closed",
+    # "launch" or "landing". Appended rather than slotted in beside `name`,
+    # because the app validates the header as a set and parses by name - so a
+    # new column is free wherever it goes, and the end keeps the diff readable.
+    "site_type",
+    # 1 if this launch is a winch or tow field.
+    "tow",
+    # Which site the row belongs to, as `provider:parentId` tokens in the same
+    # `;`-separated form as `source`. This is how a landing finds its launches;
+    # distance cannot do it (median gap 1.7km).
+    "site_group",
 ]
 
 
@@ -111,6 +121,9 @@ def read_published(path: Path | None = None) -> list:
                 lat=lat,
                 lon=lon,
                 providers=frozenset(sources),
+                # A snapshot predating the column held launches and nothing
+                # else, so its absence is an answer rather than a gap.
+                role=row.get("site_type") or "launch",
             )
         )
     return published
@@ -140,6 +153,9 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
             *(str(site.wind.get(d, 0)) for d in DIRECTIONS),
             ";".join(f"{p}:{i}" for p, i in sorted(site.sources.items())),
             _lf(site.closed or ""),
+            site.role,
+            "1" if site.tow else "0",
+            ";".join(site.group),
         ]
         lines.append(_csv_row(row))
     content = "\n".join(lines) + "\n"

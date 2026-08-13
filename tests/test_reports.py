@@ -46,16 +46,16 @@ def test_intra_source_pairs_skip_launches_under_one_parent():
     Paps - South west" and "- South east" are 47m apart and both real."""
     from src.matcher import intra_source_pairs
 
-    a = record("ansg", "212-1", name="The Paps - South west", group_id="212")
+    a = record("ansg", "212-1", name="The Paps - South west", group_ids=("212",))
     b = record("ansg", "212-2", name="The Paps - South east",
-               lat=-33.7 - metres(47), group_id="212")
+               lat=-33.7 - metres(47), group_ids=("212",))
 
     assert list(intra_source_pairs([a, b])) == []
 
 
 def test_intra_source_pairs_report_a_genuine_same_source_duplicate():
-    a = record("pge", "7596", name="Little Europe", group_id=None)
-    b = record("pge", "10714", name="Lake St Clair", lat=-33.7 - metres(133), group_id=None)
+    a = record("pge", "7596", name="Little Europe", group_ids=())
+    b = record("pge", "10714", name="Lake St Clair", lat=-33.7 - metres(133), group_ids=())
 
     from src.matcher import intra_source_pairs
 

@@ -16,6 +16,11 @@
       "pge": "19314"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19314"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19314"
   },
   {
@@ -34,6 +39,11 @@
       "pge": "21572"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21572"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21572"
   },
   {
@@ -52,6 +62,11 @@
       "pge": "22755"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22755"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22755"
   },
   {
@@ -70,6 +85,11 @@
       "pge": "23504"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23504"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23504"
   },
   {
@@ -88,6 +108,11 @@
       "pge": "23513"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23513"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23513"
   },
   {
@@ -106,6 +131,11 @@
       "pge": "23519"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23519"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23519"
   },
   {
@@ -125,6 +155,11 @@
       "pge": "23523"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23523"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23523"
   },
   {
@@ -143,6 +178,106 @@
       "pge": "23893"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23893"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23893"
+  },
+  {
+    "id": "PSF-016802",
+    "ref": "pge:19314-lz",
+    "name": "Tharahalpana Kanda (Para Adventure) Landing",
+    "lat": 7.20387,
+    "lon": 80.738,
+    "wind": {},
+    "altitude": 584.0,
+    "sources": {
+      "pge": "19314-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19314"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19314"
+  },
+  {
+    "id": "PSF-017715",
+    "ref": "pge:23504-lz",
+    "name": "Paddy Dield",
+    "lat": 7.154,
+    "lon": 80.5605,
+    "wind": {},
+    "altitude": 484.0,
+    "sources": {
+      "pge": "23504-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23504"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23504"
+  },
+  {
+    "id": "PSF-017720",
+    "ref": "pge:23513-lz",
+    "name": "Landing option 2",
+    "lat": 7.13033,
+    "lon": 80.5606,
+    "wind": {},
+    "altitude": 495.0,
+    "sources": {
+      "pge": "23513-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23513"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23513"
+  },
+  {
+    "id": "PSF-017722",
+    "ref": "pge:23519-lz",
+    "name": "Landing Site (Kavisigamuwa)",
+    "lat": 7.49702,
+    "lon": 80.4718,
+    "wind": {},
+    "altitude": 138.0,
+    "sources": {
+      "pge": "23519-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23519"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23519"
+  },
+  {
+    "id": "PSF-017723",
+    "ref": "pge:23523-lz",
+    "name": "Landing option 1",
+    "lat": 7.13489,
+    "lon": 81.1771,
+    "wind": {},
+    "altitude": 284.0,
+    "sources": {
+      "pge": "23523-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23523"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23523"
   }
 ]

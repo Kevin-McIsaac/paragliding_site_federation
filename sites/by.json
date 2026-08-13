@@ -15,6 +15,11 @@
       "pge": "18314"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18314"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18314"
   },
   {
@@ -38,6 +43,11 @@
       "pge": "18315"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:18315"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18315"
   },
   {
@@ -55,6 +65,49 @@
       "pge": "18840"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18840"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18840"
+  },
+  {
+    "id": "PSF-016578",
+    "ref": "pge:18314-lz",
+    "name": "Krutaja Hara (Anoshki) Landing",
+    "lat": 54.087,
+    "lon": 27.868,
+    "wind": {},
+    "altitude": 200.0,
+    "sources": {
+      "pge": "18314-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18314"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18314"
+  },
+  {
+    "id": "PSF-016690",
+    "ref": "pge:18840-lz",
+    "name": "Zaozerje Landing",
+    "lat": 54.1758,
+    "lon": 27.87,
+    "wind": {},
+    "altitude": 208.0,
+    "sources": {
+      "pge": "18840-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18840"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18840"
   }
 ]

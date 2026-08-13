@@ -14,6 +14,11 @@
       "pge": "15622"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15622"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15622"
   },
   {
@@ -28,6 +33,30 @@
       "pge": "16793"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16793"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16793"
+  },
+  {
+    "id": "PSF-015968",
+    "ref": "pge:15622-lz",
+    "name": "Bois Baron Landing",
+    "lat": 16.3567,
+    "lon": -61.3904,
+    "wind": {},
+    "altitude": 3.0,
+    "sources": {
+      "pge": "15622-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15622"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15622"
   }
 ]

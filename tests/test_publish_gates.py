@@ -26,7 +26,10 @@ def _site(provider, source_id, *, lat=-30.0, lon=150.0, name="A launch"):
 
 def _published(sites):
     return [
-        PublishedSite(ref=s.ref, lat=s.lat, lon=s.lon, providers=frozenset(s.sources))
+        PublishedSite(
+            ref=s.ref, lat=s.lat, lon=s.lon,
+            providers=frozenset(s.sources), role=s.role,
+        )
         for s in sites
     ]
 
@@ -177,6 +180,40 @@ def test_the_allowance_does_not_let_a_shrinking_catalogue_hide_behind_it():
     guide's launches, never the ones that stopped being emitted."""
     before = _catalogue(200)
     after = before[:150] + _catalogue(60, provider="dhv", start=1000)
+
+    health = check_output_health(after, _published(before))
+
+    assert not health.ok
+    assert "launch count changed" in " ".join(health.notes)
+
+
+def _landing(source_id, *, lat=-30.0, lon=150.0):
+    from src.model import CanonicalSite
+    site = _site("pge", source_id, lat=lat, lon=lon, name="A landing")
+    return CanonicalSite(
+        id=site.id, name=site.name, lat=site.lat, lon=site.lon, wind={},
+        sources=site.sources, primary=site.primary, role="landing",
+    )
+
+
+def test_landings_may_land_in_one_run():
+    """A third of the catalogue arrives at once, from guides already published -
+    so the new-provider allowance cannot see them and the count gate would
+    otherwise refuse the only run that can introduce them."""
+    before = _catalogue(200)
+    after = before + [_landing(f"{i}-lz", lat=-30.0 + i * 0.01) for i in range(80)]
+
+    health = check_output_health(after, _published(before))
+
+    assert health.ok, health.notes
+    assert "new row type(s) landing" in " ".join(health.notes)
+
+
+def test_the_landing_allowance_expires_once_they_are_published():
+    """The same growth must fail the week after. Derived, not declared, so this
+    needs no one to remember to take the allowance away."""
+    before = _catalogue(200) + [_landing(f"{i}-lz", lat=-30.0 + i * 0.01) for i in range(80)]
+    after = before + [_landing(f"{i}-lz2", lat=-31.0 + i * 0.01) for i in range(80)]
 
     health = check_output_health(after, _published(before))
 

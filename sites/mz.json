@@ -15,6 +15,11 @@
       "pge": "11617"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11617"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11617"
   },
   {
@@ -33,6 +38,11 @@
       "pge": "14840"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14840"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14840"
   },
   {
@@ -47,6 +57,11 @@
       "pge": "21789"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21789"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21789"
   },
   {
@@ -64,6 +79,30 @@
       "pge": "7404"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7404"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7404"
+  },
+  {
+    "id": "PSF-015357",
+    "ref": "pge:11617-lz",
+    "name": "Morongulu beach dune Landing",
+    "lat": -23.2326,
+    "lon": 35.4936,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "11617-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11617"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11617"
   }
 ]

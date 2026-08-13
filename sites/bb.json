@@ -13,6 +13,11 @@
       "pge": "10897"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10897"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10897"
   },
   {
@@ -31,6 +36,30 @@
       "pge": "10898"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10898"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10898"
+  },
+  {
+    "id": "PSF-014905",
+    "ref": "pge:10898-lz",
+    "name": "Mount Pleasant Landing",
+    "lat": 13.1601,
+    "lon": -59.4683,
+    "wind": {},
+    "altitude": 94.0,
+    "sources": {
+      "pge": "10898-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10898"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10898"
   }
 ]

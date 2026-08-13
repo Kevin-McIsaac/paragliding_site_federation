@@ -90,8 +90,16 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
     ordered = sorted(cluster.members, key=lambda m: _rank(m, country))
     winner = ordered[0]
 
-    wind = winner.wind
-    if not wind:
+    # Every member shares a role - `pair_for` refuses to pair across them - so
+    # the winner's is the cluster's.
+    role = winner.role
+
+    # A landing has no wind, whatever a source attached to it. PGE types a
+    # record as a landing from its name while still publishing the takeoff's
+    # wind on it, and two such records exist; carried through, the app would
+    # colour a landing green and call it flyable.
+    wind = {} if role == "landing" else winner.wind
+    if not wind and role != "landing":
         wind = next((m.wind for m in ordered[1:] if m.wind), {})
 
     altitude = winner.altitude
@@ -103,6 +111,18 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
     # if the guide that raised it lost on every other field.
     closed = next((m.closed for m in ordered if m.closed), None)
 
+    # Tow follows the same rule and for the same reason: a pilot arriving at a
+    # flat field expecting a hill has been misled by whichever guide stayed
+    # quiet, so one guide saying so is enough.
+    tow = any(m.tow for m in ordered)
+
+    # One token per parent, per guide. A landing carries the same tokens as the
+    # launches it serves, which is how the app joins them - and it can carry
+    # several, since one field often serves more than one launch.
+    group = tuple(
+        sorted({f"{m.provider}:{gid}" for m in ordered for gid in m.group_ids})
+    )
+
     return CanonicalSite(
         id=registry.assign(cluster.keys),
         name=winner.name,
@@ -111,6 +131,9 @@ def select(cluster: Cluster, registry: IdRegistry) -> CanonicalSite:
         wind=dict(wind),
         sources={m.provider: m.id for m in ordered},
         primary=winner.provider,
+        role=role,
+        tow=tow,
+        group=group,
         altitude=altitude,
         country=country,
         url=winner.url,

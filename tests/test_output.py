@@ -73,9 +73,13 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
         "wind_n", "wind_ne", "wind_e", "wind_se",
         "wind_s", "wind_sw", "wind_w", "wind_nw",
         "source", "closed",
+        "site_type", "tow", "site_group",
     ]
     assert rows[0]["wind_n"] == "1" and rows[0]["wind_ne"] == "2"
     assert rows[0]["source"] == "pge:1"
+    # A launch, unless a guide said otherwise - the column is never blank, so
+    # the app never has to guess what a row without one is.
+    assert rows[0]["site_type"] == "launch" and rows[0]["tow"] == "0"
 
 
 def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
@@ -95,7 +99,8 @@ def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
 
     assert path.read_text().splitlines()[0] == (
         "id,ref,name,longitude,latitude,altitude,country,"
-        "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source,closed"
+        "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source,closed,"
+        "site_type,tow,site_group"
     )
 
 

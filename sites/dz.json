@@ -15,6 +15,11 @@
       "pge": "19339"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19339"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19339"
   },
   {
@@ -34,6 +39,11 @@
       "pge": "19341"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19341"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19341"
   },
   {
@@ -51,6 +61,11 @@
       "pge": "19342"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19342"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19342"
   },
   {
@@ -68,6 +83,11 @@
       "pge": "19496"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19496"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19496"
   },
   {
@@ -86,6 +106,11 @@
       "pge": "21998"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21998"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21998"
   },
   {
@@ -104,6 +129,11 @@
       "pge": "21999"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21999"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21999"
   },
   {
@@ -118,6 +148,125 @@
       "pge": "7227"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7227"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7227"
+  },
+  {
+    "id": "PSF-016819",
+    "ref": "pge:19339-lz",
+    "name": "Corso Landing",
+    "lat": 36.768,
+    "lon": 3.4438,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "19339-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19339"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19339"
+  },
+  {
+    "id": "PSF-016820",
+    "ref": "pge:19341-lz",
+    "name": "Aiit Ziki Landing",
+    "lat": 36.5898,
+    "lon": 4.4496,
+    "wind": {},
+    "altitude": 429.0,
+    "sources": {
+      "pge": "19341-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19341"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19341"
+  },
+  {
+    "id": "PSF-016821",
+    "ref": "pge:19342-lz",
+    "name": "Aokas Landing",
+    "lat": 36.6412,
+    "lon": 5.25,
+    "wind": {},
+    "altitude": 49.0,
+    "sources": {
+      "pge": "19342-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19342"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19342"
+  },
+  {
+    "id": "PSF-016920",
+    "ref": "pge:19496-lz",
+    "name": "seddouk Landing",
+    "lat": 36.5255,
+    "lon": 4.6806,
+    "wind": {},
+    "altitude": 271.0,
+    "sources": {
+      "pge": "19496-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19496"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19496"
+  },
+  {
+    "id": "PSF-017374",
+    "ref": "pge:21998-lz",
+    "name": "Landing Beach",
+    "lat": 36.9487,
+    "lon": 7.70631,
+    "wind": {},
+    "altitude": 8.0,
+    "sources": {
+      "pge": "21998-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21998"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21998"
+  },
+  {
+    "id": "PSF-017375",
+    "ref": "pge:21999-lz",
+    "name": "Beach Landing",
+    "lat": 36.9494,
+    "lon": 7.70472,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "21999-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21999"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21999"
   }
 ]

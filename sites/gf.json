@@ -15,6 +15,30 @@
       "pge": "6869"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6869"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6869"
+  },
+  {
+    "id": "PSF-018243",
+    "ref": "pge:6869-lz",
+    "name": "St Hilaire du Rorota Landing",
+    "lat": 4.8901,
+    "lon": -52.2534,
+    "wind": {},
+    "altitude": 27.0,
+    "sources": {
+      "pge": "6869-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6869"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6869"
   }
 ]

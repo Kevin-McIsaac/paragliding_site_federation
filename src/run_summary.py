@@ -77,6 +77,16 @@ def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> R
     return RunHealth(ok=ok, notes=notes)
 
 
+def _describe_new(providers: set[str], roles: set[str]) -> str:
+    """What the allowance is being spent on, for the run notes."""
+    parts = []
+    if providers:
+        parts.append(f"new guide(s) {', '.join(sorted(providers))}")
+    if roles:
+        parts.append(f"new row type(s) {', '.join(sorted(roles))}")
+    return " and ".join(parts) or "nothing"
+
+
 @dataclass(frozen=True)
 class PublishedSite:
     """One row of the previously published catalogue, as the gates need it."""
@@ -85,6 +95,7 @@ class PublishedSite:
     lat: float
     lon: float
     providers: frozenset[str]
+    role: str = "launch"
 
 
 def check_output_health(
@@ -130,8 +141,18 @@ def check_output_health(
     new_providers = {p for s in sites for p in s.sources} - {
         p for s in previous for p in s.providers
     }
-    from_new_providers = sum(1 for s in sites if set(s.sources) <= new_providers)
-    allowance = from_new_providers / len(before) if delta > 0 else 0.0
+    # And rows of a kind the catalogue has never carried. Landings arrive from
+    # guides that are already published, so the provider test alone would not
+    # see them - and they are a third of the rows, far past any limit worth
+    # setting for a normal week. Derived the same way and expiring the same way:
+    # once a landing is in the published snapshot, `new_roles` is empty.
+    new_roles = {s.role for s in sites} - {s.role for s in previous}
+    accounted = sum(
+        1
+        for s in sites
+        if set(s.sources) <= new_providers or s.role in new_roles
+    )
+    allowance = accounted / len(before) if delta > 0 else 0.0
 
     # `abs(delta - allowance)`, not `abs(delta) - allowance`: the allowance is
     # the growth the new guide accounts for, so subtracting it *inside* the
@@ -144,17 +165,17 @@ def check_output_health(
             f"launch count changed {delta:+.1%} ({len(before)} -> {len(now)}), "
             f"limit {_MAX_SITE_COUNT_DELTA:.0%}"
             + (
-                f" after allowing {allowance:.1%} for new guide(s) "
-                f"{', '.join(sorted(new_providers))}"
+                f" after allowing {allowance:.1%} for "
+                f"{_describe_new(new_providers, new_roles)}"
                 if allowance
                 else ""
             )
         )
     elif allowance:
         notes.append(
-            f"{from_new_providers} launches come only from new guide(s) "
-            f"{', '.join(sorted(new_providers))} ({allowance:.1%}); allowed once, "
-            f"and not again after they are published."
+            f"{accounted} rows come only from "
+            f"{_describe_new(new_providers, new_roles)} ({allowance:.1%}); "
+            f"allowed once, and not again after they are published."
         )
 
     for provider in sorted({p for s in previous for p in s.providers}):

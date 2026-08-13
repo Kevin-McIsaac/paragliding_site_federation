@@ -14,6 +14,11 @@
       "pge": "14750"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14750"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14750"
   },
   {
@@ -30,6 +35,11 @@
       "pge": "15670"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15670"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15670"
   },
   {
@@ -48,6 +58,11 @@
       "pge": "15671"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15671"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15671"
   },
   {
@@ -66,6 +81,11 @@
       "pge": "15672"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15672"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15672"
   },
   {
@@ -80,6 +100,11 @@
       "pge": "21476"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21476"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21476"
   },
   {
@@ -94,6 +119,11 @@
       "pge": "21477"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21477"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21477"
   },
   {
@@ -112,6 +142,106 @@
       "pge": "7252"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7252"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7252"
+  },
+  {
+    "id": "PSF-015741",
+    "ref": "pge:14750-lz",
+    "name": "Isla de la Tigre Landing",
+    "lat": 13.2917,
+    "lon": -87.6282,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "14750-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:14750"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=14750"
+  },
+  {
+    "id": "PSF-015996",
+    "ref": "pge:15670-lz",
+    "name": "Azacualpa Landing",
+    "lat": 13.9086,
+    "lon": -87.074,
+    "wind": {},
+    "altitude": 766.0,
+    "sources": {
+      "pge": "15670-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15670"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15670"
+  },
+  {
+    "id": "PSF-015997",
+    "ref": "pge:15671-lz",
+    "name": "Danli, Bella Vista Landing",
+    "lat": 13.9761,
+    "lon": -86.5435,
+    "wind": {},
+    "altitude": 806.0,
+    "sources": {
+      "pge": "15671-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15671"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15671"
+  },
+  {
+    "id": "PSF-015998",
+    "ref": "pge:15672-lz",
+    "name": "la Villa de San Fransisco Landing",
+    "lat": 14.1669,
+    "lon": -86.9534,
+    "wind": {},
+    "altitude": 689.0,
+    "sources": {
+      "pge": "15672-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15672"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15672"
+  },
+  {
+    "id": "PSF-018400",
+    "ref": "pge:7252-lz",
+    "name": "yuscaran Landing",
+    "lat": 13.9376,
+    "lon": -86.8299,
+    "wind": {},
+    "altitude": 809.0,
+    "sources": {
+      "pge": "7252-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7252"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7252"
   }
 ]

@@ -64,7 +64,95 @@ class SiteGuideAuSource:
         records: list[SiteRecord] = []
         for site in sites:
             records.extend(_launch_records(site, bbox))
+
+        shapes = payload.get("mapShapes", []) if isinstance(payload, dict) else []
+        records.extend(_landing_records(sites, shapes, bbox))
         return records
+
+
+def _landing_records(
+    sites: list[dict], shapes: list[dict], bbox: BoundingBox
+) -> list[SiteRecord]:
+    """Landings, from the `mapShapes` polygons the site guide draws them as.
+
+    Site Guide is the only guide here that publishes a landing as an *area*
+    rather than a point - 149 shapes in category `Landing`, attached to a site
+    through its `mapShapeIds`. The centroid is taken as the point, which is a
+    fair answer to "where is the field" for a paddock a few hundred metres
+    across, and the only one the app's map can draw.
+
+    Only shapes some site references are emitted. 35 are referenced by nothing,
+    and a landing with no launch cannot be reached from the launch page that is
+    the whole point of carrying it - a marker with no context is not worth the
+    row. 29 shapes are referenced by more than one site, so a landing can carry
+    several parents.
+
+    The richer thing Site Guide publishes about landings is prose, on the site
+    rather than the shape - `landing` free text on 125 of 244 sites, with real
+    rules in it. That is deliberately not carried yet: the catalogue holds no
+    prose at all today, and the decision to start belongs with the column that
+    would hold it rather than with this parser.
+    """
+    parents: dict[int, list[str]] = {}
+    for site in sites:
+        for shape_id in site.get("mapShapeIds") or []:
+            parents.setdefault(shape_id, []).append(str(site["id"]))
+
+    records: list[SiteRecord] = []
+    for shape in shapes:
+        category = (shape.get("category") or {}).get("name")
+        if category != "Landing":
+            continue
+        shape_id = shape.get("id")
+        if shape_id not in parents:
+            continue
+
+        centroid = _centroid(shape.get("coordinatesList") or [])
+        if centroid is None:
+            continue
+        lat, lon = centroid
+        if not (bbox.south <= lat <= bbox.north and bbox.west <= lon <= bbox.east):
+            continue
+
+        site_ids = parents[shape_id]
+        records.append(
+            SiteRecord(
+                provider="ansg",
+                id=f"lz-{shape_id}",
+                name=_text(shape.get("name")) or "Landing",
+                role="landing",
+                lat=lat,
+                lon=lon,
+                country="AU",
+                url=f"{_BASE_URL}/sites/details/{site_ids[0]}",
+                group_ids=tuple(site_ids),
+            )
+        )
+    return records
+
+
+def _centroid(coordinates_list: list[str]) -> tuple[float, float] | None:
+    """The middle of a polygon's outer ring, as (lat, lon).
+
+    The mean of the vertices rather than the area centroid: a landing paddock is
+    small enough that the two agree to within metres, and the mean cannot be
+    thrown by a degenerate ring the way the area formula can.
+    """
+    if not coordinates_list:
+        return None
+    points = []
+    for pair in str(coordinates_list[0]).split():
+        lon, _, lat = pair.partition(",")
+        try:
+            points.append((float(lat), float(lon)))
+        except ValueError:
+            continue
+    if not points:
+        return None
+    return (
+        sum(p[0] for p in points) / len(points),
+        sum(p[1] for p in points) / len(points),
+    )
 
 
 _METRES = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*m\b", re.IGNORECASE)
@@ -145,7 +233,7 @@ def _launch_records(site: dict, bbox: BoundingBox) -> list[SiteRecord]:
                 # A launch can be shut while its site is open, and vice versa.
                 closed=_text(launch.get("closed")) or site_closed,
                 approximate_location=approximate,
-                group_id=str(site["id"]),
+                group_ids=(str(site["id"]),),
             )
         )
     return records

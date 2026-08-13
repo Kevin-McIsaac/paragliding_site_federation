@@ -15,6 +15,30 @@
       "pge": "18613"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18613"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18613"
+  },
+  {
+    "id": "PSF-016615",
+    "ref": "pge:18613-lz",
+    "name": "Cheoc-Van Beach Landing",
+    "lat": 22.1134,
+    "lon": 113.561,
+    "wind": {},
+    "altitude": 12.0,
+    "sources": {
+      "pge": "18613-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18613"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18613"
   }
 ]

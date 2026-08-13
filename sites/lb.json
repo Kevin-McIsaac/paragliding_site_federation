@@ -15,6 +15,11 @@
       "pge": "10166"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10166"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10166"
   },
   {
@@ -33,6 +38,11 @@
       "pge": "10851"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10851"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10851"
   },
   {
@@ -51,6 +61,11 @@
       "pge": "10859"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10859"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10859"
   },
   {
@@ -69,6 +84,11 @@
       "pge": "11443"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11443"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11443"
   },
   {
@@ -86,6 +106,11 @@
       "pge": "14845"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14845"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14845"
   },
   {
@@ -100,6 +125,11 @@
       "pge": "16164"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16164"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16164"
   },
   {
@@ -114,6 +144,11 @@
       "pge": "23760"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23760"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23760"
   },
   {
@@ -132,6 +167,11 @@
       "pge": "9290"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9290"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9290"
   },
   {
@@ -149,6 +189,11 @@
       "pge": "9295"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9295"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9295"
   },
   {
@@ -167,6 +212,11 @@
       "pge": "9296"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9296"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9296"
   },
   {
@@ -184,6 +234,11 @@
       "pge": "9297"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9297"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9297"
   },
   {
@@ -203,6 +258,11 @@
       "pge": "9739"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9739"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9739"
   },
   {
@@ -220,6 +280,11 @@
       "pge": "9753"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:9753"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9753"
   },
   {
@@ -238,6 +303,239 @@
       "pge": "9864"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:9864"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9864"
+  },
+  {
+    "id": "PSF-014429",
+    "ref": "pge:10166-lz",
+    "name": "Faraya - Mzar Landing",
+    "lat": 33.9577,
+    "lon": 35.8,
+    "wind": {},
+    "altitude": 1726.0,
+    "sources": {
+      "pge": "10166-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10166"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10166"
+  },
+  {
+    "id": "PSF-014872",
+    "ref": "pge:10851-lz",
+    "name": "Jbeil Landing",
+    "lat": 34.1284,
+    "lon": 35.6424,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "10851-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10851"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10851"
+  },
+  {
+    "id": "PSF-014880",
+    "ref": "pge:10859-lz",
+    "name": "Dedeh Landing",
+    "lat": 34.3951,
+    "lon": 35.7959,
+    "wind": {},
+    "altitude": 2.0,
+    "sources": {
+      "pge": "10859-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10859"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10859"
+  },
+  {
+    "id": "PSF-015245",
+    "ref": "pge:11443-lz",
+    "name": "The Cedars - Soaring ridge Landing",
+    "lat": 34.245,
+    "lon": 36.0376,
+    "wind": {},
+    "altitude": 1817.0,
+    "sources": {
+      "pge": "11443-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11443"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11443"
+  },
+  {
+    "id": "PSF-015802",
+    "ref": "pge:14845-lz",
+    "name": "Annaya Landing",
+    "lat": 34.1057,
+    "lon": 35.762,
+    "wind": {},
+    "altitude": 745.0,
+    "sources": {
+      "pge": "14845-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:14845"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=14845"
+  },
+  {
+    "id": "PSF-018619",
+    "ref": "pge:9290-lz",
+    "name": "Hammana Landing",
+    "lat": 33.8123,
+    "lon": 35.7328,
+    "wind": {},
+    "altitude": 1195.0,
+    "sources": {
+      "pge": "9290-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9290"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9290"
+  },
+  {
+    "id": "PSF-018623",
+    "ref": "pge:9295-lz",
+    "name": "The Cedars - Top takeoff Landing",
+    "lat": 34.2459,
+    "lon": 36.0632,
+    "wind": {},
+    "altitude": 1996.0,
+    "sources": {
+      "pge": "9295-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9295"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9295"
+  },
+  {
+    "id": "PSF-018624",
+    "ref": "pge:9296-lz",
+    "name": "The Cedars - Bekaa side Landing",
+    "lat": 34.203,
+    "lon": 36.0814,
+    "wind": {},
+    "altitude": 1818.0,
+    "sources": {
+      "pge": "9296-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9296"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9296"
+  },
+  {
+    "id": "PSF-018625",
+    "ref": "pge:9297-lz",
+    "name": "The Cedars - Intermediate takeoff Landing",
+    "lat": 34.246,
+    "lon": 36.0632,
+    "wind": {},
+    "altitude": 1996.0,
+    "sources": {
+      "pge": "9297-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9297"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9297"
+  },
+  {
+    "id": "PSF-018658",
+    "ref": "pge:9739-lz",
+    "name": "Ghosta Landing",
+    "lat": 33.9955,
+    "lon": 35.6409,
+    "wind": {},
+    "altitude": 3.0,
+    "sources": {
+      "pge": "9739-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9739"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9739"
+  },
+  {
+    "id": "PSF-018665",
+    "ref": "pge:9753-lz",
+    "name": "Miziara Landing",
+    "lat": 34.3531,
+    "lon": 35.9182,
+    "wind": {},
+    "altitude": 293.0,
+    "sources": {
+      "pge": "9753-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9753"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=9753"
+  },
+  {
+    "id": "PSF-018706",
+    "ref": "pge:9864-lz",
+    "name": "Faraya - Wardeh Landing",
+    "lat": 33.998,
+    "lon": 35.8639,
+    "wind": {},
+    "altitude": 2017.0,
+    "sources": {
+      "pge": "9864-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:9864"
+    ],
     "url": "https://www.paraglidingearth.com/?site=9864"
   }
 ]

@@ -14,6 +14,12 @@
       "pge": "10060"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:106",
+      "pge:10060"
+    ],
     "url": "https://siteguide.org.au/sites/details/106"
   },
   {
@@ -31,6 +37,12 @@
       "pge": "10096"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:237",
+      "pge:10096"
+    ],
     "url": "https://siteguide.org.au/sites/details/237"
   },
   {
@@ -45,6 +57,11 @@
       "pge": "10129"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10129"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10129"
   },
   {
@@ -63,6 +80,11 @@
       "pge": "10171"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10171"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10171"
   },
   {
@@ -80,6 +102,12 @@
       "pge": "10498"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:251",
+      "pge:10498"
+    ],
     "url": "https://siteguide.org.au/sites/details/251"
   },
   {
@@ -98,6 +126,12 @@
       "pge": "10625"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:1",
+      "pge:10625"
+    ],
     "url": "https://siteguide.org.au/sites/details/1"
   },
   {
@@ -116,6 +150,11 @@
       "pge": "10714"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:10714"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10714"
   },
   {
@@ -133,6 +172,11 @@
       "pge": "10715"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10715"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10715"
   },
   {
@@ -150,6 +194,12 @@
       "pge": "10809"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:129",
+      "pge:10809"
+    ],
     "url": "https://siteguide.org.au/sites/details/129"
   },
   {
@@ -168,6 +218,12 @@
       "pge": "10814"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:126",
+      "pge:10814"
+    ],
     "url": "https://siteguide.org.au/sites/details/126"
   },
   {
@@ -185,6 +241,11 @@
       "pge": "10877"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10877"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10877"
   },
   {
@@ -206,6 +267,11 @@
       "pge": "10969"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10969"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10969"
   },
   {
@@ -229,6 +295,11 @@
       "pge": "11077"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11077"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11077"
   },
   {
@@ -246,6 +317,11 @@
       "pge": "11177"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11177"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11177"
   },
   {
@@ -263,6 +339,12 @@
       "pge": "11371"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:2",
+      "pge:11371"
+    ],
     "url": "https://siteguide.org.au/sites/details/2"
   },
   {
@@ -281,6 +363,12 @@
       "pge": "11480"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:122",
+      "pge:11480"
+    ],
     "url": "https://siteguide.org.au/sites/details/122"
   },
   {
@@ -299,6 +387,12 @@
       "pge": "11482"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:122",
+      "pge:11482"
+    ],
     "url": "https://siteguide.org.au/sites/details/122"
   },
   {
@@ -316,6 +410,12 @@
       "pge": "11487"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:138",
+      "pge:11487"
+    ],
     "url": "https://siteguide.org.au/sites/details/138"
   },
   {
@@ -334,6 +434,12 @@
       "pge": "11512"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:107",
+      "pge:11512"
+    ],
     "url": "https://siteguide.org.au/sites/details/107"
   },
   {
@@ -351,6 +457,12 @@
       "pge": "11513"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:261",
+      "pge:11513"
+    ],
     "url": "https://siteguide.org.au/sites/details/261"
   },
   {
@@ -367,6 +479,11 @@
       "pge": "11514"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11514"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11514"
   },
   {
@@ -385,6 +502,11 @@
       "pge": "11516"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11516"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11516"
   },
   {
@@ -402,6 +524,12 @@
       "pge": "11571"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:119",
+      "pge:11571"
+    ],
     "url": "https://siteguide.org.au/sites/details/119"
   },
   {
@@ -420,6 +548,11 @@
       "pge": "11661"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11661"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11661"
   },
   {
@@ -437,6 +570,11 @@
       "pge": "11665"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11665"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11665"
   },
   {
@@ -460,6 +598,11 @@
       "pge": "11710"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11710"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11710"
   },
   {
@@ -477,6 +620,12 @@
       "pge": "11756"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:152",
+      "pge:11756"
+    ],
     "url": "https://siteguide.org.au/sites/details/152"
   },
   {
@@ -496,6 +645,11 @@
       "pge": "11893"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11893"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11893"
   },
   {
@@ -513,6 +667,11 @@
       "pge": "11897"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11897"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11897"
   },
   {
@@ -531,6 +690,11 @@
       "pge": "11906"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11906"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11906"
   },
   {
@@ -545,6 +709,11 @@
       "pge": "11922"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11922"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11922"
   },
   {
@@ -559,6 +728,11 @@
       "pge": "11944"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11944"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11944"
   },
   {
@@ -577,6 +751,11 @@
       "pge": "11970"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11970"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11970"
   },
   {
@@ -595,6 +774,12 @@
       "pge": "11971"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:17",
+      "pge:11971"
+    ],
     "url": "https://siteguide.org.au/sites/details/17"
   },
   {
@@ -612,6 +797,11 @@
       "pge": "11972"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:11972"
+    ],
     "url": "https://www.paraglidingearth.com/?site=11972"
   },
   {
@@ -629,6 +819,12 @@
       "pge": "11987"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:133",
+      "pge:11987"
+    ],
     "url": "https://siteguide.org.au/sites/details/133"
   },
   {
@@ -643,6 +839,11 @@
       "pge": "12136"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12136"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12136"
   },
   {
@@ -657,6 +858,11 @@
       "pge": "12137"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12137"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12137"
   },
   {
@@ -676,6 +882,11 @@
       "pge": "12138"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12138"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12138"
   },
   {
@@ -690,6 +901,11 @@
       "pge": "12158"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12158"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12158"
   },
   {
@@ -704,6 +920,11 @@
       "pge": "12501"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12501"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12501"
   },
   {
@@ -718,6 +939,11 @@
       "pge": "12502"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12502"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12502"
   },
   {
@@ -736,6 +962,11 @@
       "pge": "12753"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12753"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12753"
   },
   {
@@ -750,6 +981,11 @@
       "pge": "12789"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12789"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12789"
   },
   {
@@ -765,6 +1001,12 @@
       "pge": "12803"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:22",
+      "pge:12803"
+    ],
     "url": "https://siteguide.org.au/sites/details/22"
   },
   {
@@ -779,6 +1021,11 @@
       "pge": "12857"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:12857"
+    ],
     "url": "https://www.paraglidingearth.com/?site=12857"
   },
   {
@@ -793,6 +1040,11 @@
       "pge": "13050"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13050"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13050"
   },
   {
@@ -807,6 +1059,11 @@
       "pge": "13230"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13230"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13230"
   },
   {
@@ -825,6 +1082,11 @@
       "pge": "13231"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13231"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13231"
   },
   {
@@ -848,6 +1110,11 @@
       "pge": "13237"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:13237"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13237"
   },
   {
@@ -868,6 +1135,11 @@
       "pge": "13238"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13238"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13238"
   },
   {
@@ -886,6 +1158,12 @@
       "pge": "13239"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:103",
+      "pge:13239"
+    ],
     "url": "https://siteguide.org.au/sites/details/103"
   },
   {
@@ -905,6 +1183,12 @@
       "pge": "13383"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:21",
+      "pge:13383"
+    ],
     "url": "https://siteguide.org.au/sites/details/21"
   },
   {
@@ -919,6 +1203,11 @@
       "pge": "13384"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13384"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13384"
   },
   {
@@ -937,6 +1226,12 @@
       "pge": "13404"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:265",
+      "pge:13404"
+    ],
     "url": "https://siteguide.org.au/sites/details/265"
   },
   {
@@ -954,6 +1249,11 @@
       "pge": "13475"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13475"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13475"
   },
   {
@@ -968,6 +1268,11 @@
       "pge": "13476"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13476"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13476"
   },
   {
@@ -983,6 +1288,12 @@
       "pge": "13491"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:142",
+      "pge:13491"
+    ],
     "url": "https://siteguide.org.au/sites/details/142"
   },
   {
@@ -997,6 +1308,11 @@
       "pge": "13667"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13667"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13667"
   },
   {
@@ -1011,6 +1327,11 @@
       "pge": "13673"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13673"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13673"
   },
   {
@@ -1025,6 +1346,11 @@
       "pge": "13687"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13687"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13687"
   },
   {
@@ -1048,6 +1374,11 @@
       "pge": "13701"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13701"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13701"
   },
   {
@@ -1066,6 +1397,12 @@
       "pge": "13702"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:195",
+      "pge:13702"
+    ],
     "url": "https://siteguide.org.au/sites/details/195"
   },
   {
@@ -1089,6 +1426,11 @@
       "pge": "13703"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:13703"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13703"
   },
   {
@@ -1107,6 +1449,12 @@
       "pge": "13704"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:145",
+      "pge:13704"
+    ],
     "url": "https://siteguide.org.au/sites/details/145"
   },
   {
@@ -1124,6 +1472,12 @@
       "pge": "13715"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:180",
+      "pge:13715"
+    ],
     "url": "https://siteguide.org.au/sites/details/180"
   },
   {
@@ -1142,6 +1496,11 @@
       "pge": "13824"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13824"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13824"
   },
   {
@@ -1160,6 +1519,12 @@
       "pge": "13870"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:188",
+      "pge:13870"
+    ],
     "url": "https://siteguide.org.au/sites/details/188"
   },
   {
@@ -1178,6 +1543,11 @@
       "pge": "13967"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:13967"
+    ],
     "url": "https://www.paraglidingearth.com/?site=13967"
   },
   {
@@ -1195,6 +1565,11 @@
       "pge": "14014"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14014"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14014"
   },
   {
@@ -1211,6 +1586,11 @@
       "pge": "14193"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14193"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14193"
   },
   {
@@ -1228,6 +1608,12 @@
       "pge": "14196"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158",
+      "pge:14196"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -1245,6 +1631,12 @@
       "pge": "14223"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:127",
+      "pge:14223"
+    ],
     "url": "https://siteguide.org.au/sites/details/127"
   },
   {
@@ -1263,6 +1655,12 @@
       "pge": "14274"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:177",
+      "pge:14274"
+    ],
     "url": "https://siteguide.org.au/sites/details/177"
   },
   {
@@ -1281,6 +1679,12 @@
       "pge": "14586"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:258",
+      "pge:14586"
+    ],
     "url": "https://siteguide.org.au/sites/details/258"
   },
   {
@@ -1295,6 +1699,11 @@
       "pge": "14602"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14602"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14602"
   },
   {
@@ -1312,6 +1721,12 @@
       "pge": "14608"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:155",
+      "pge:14608"
+    ],
     "url": "https://siteguide.org.au/sites/details/155"
   },
   {
@@ -1329,6 +1744,12 @@
       "pge": "14629"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:168",
+      "pge:14629"
+    ],
     "url": "https://siteguide.org.au/sites/details/168"
   },
   {
@@ -1343,6 +1764,11 @@
       "pge": "14651"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14651"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14651"
   },
   {
@@ -1360,6 +1786,11 @@
       "pge": "14653"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14653"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14653"
   },
   {
@@ -1378,6 +1809,12 @@
       "pge": "14656"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:170",
+      "pge:14656"
+    ],
     "url": "https://siteguide.org.au/sites/details/170"
   },
   {
@@ -1396,6 +1833,11 @@
       "pge": "14799"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:14799"
+    ],
     "url": "https://www.paraglidingearth.com/?site=14799"
   },
   {
@@ -1414,6 +1856,12 @@
       "pge": "14800"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:259",
+      "pge:14800"
+    ],
     "url": "https://siteguide.org.au/sites/details/259"
   },
   {
@@ -1432,6 +1880,12 @@
       "pge": "15042"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:144",
+      "pge:15042"
+    ],
     "url": "https://siteguide.org.au/sites/details/144"
   },
   {
@@ -1446,6 +1900,11 @@
       "pge": "15223"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15223"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15223"
   },
   {
@@ -1463,6 +1922,12 @@
       "pge": "15320"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "ansg:16",
+      "pge:15320"
+    ],
     "url": "https://siteguide.org.au/sites/details/16"
   },
   {
@@ -1477,6 +1942,11 @@
       "pge": "15368"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15368"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15368"
   },
   {
@@ -1494,6 +1964,11 @@
       "pge": "15405"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15405"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15405"
   },
   {
@@ -1511,6 +1986,12 @@
       "pge": "15461"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:169",
+      "pge:15461"
+    ],
     "url": "https://siteguide.org.au/sites/details/169"
   },
   {
@@ -1525,6 +2006,11 @@
       "pge": "15542"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15542"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15542"
   },
   {
@@ -1539,6 +2025,11 @@
       "pge": "15574"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15574"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15574"
   },
   {
@@ -1555,6 +2046,11 @@
       "pge": "15602"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15602"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15602"
   },
   {
@@ -1572,6 +2068,11 @@
       "pge": "15639"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15639"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15639"
   },
   {
@@ -1588,6 +2089,11 @@
       "pge": "15640"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15640"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15640"
   },
   {
@@ -1605,6 +2111,11 @@
       "pge": "15641"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15641"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15641"
   },
   {
@@ -1623,6 +2134,12 @@
       "pge": "15642"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:6",
+      "pge:15642"
+    ],
     "url": "https://siteguide.org.au/sites/details/6"
   },
   {
@@ -1640,6 +2157,11 @@
       "pge": "15643"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15643"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15643"
   },
   {
@@ -1657,6 +2179,11 @@
       "pge": "15644"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15644"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15644"
   },
   {
@@ -1674,6 +2201,11 @@
       "pge": "15645"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15645"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15645"
   },
   {
@@ -1690,6 +2222,11 @@
       "pge": "15646"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15646"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15646"
   },
   {
@@ -1704,6 +2241,11 @@
       "pge": "15647"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15647"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15647"
   },
   {
@@ -1722,6 +2264,12 @@
       "pge": "15649"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:117",
+      "pge:15649"
+    ],
     "url": "https://siteguide.org.au/sites/details/117"
   },
   {
@@ -1740,6 +2288,12 @@
       "pge": "15650"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:118",
+      "pge:15650"
+    ],
     "url": "https://siteguide.org.au/sites/details/118"
   },
   {
@@ -1754,6 +2308,11 @@
       "pge": "15714"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15714"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15714"
   },
   {
@@ -1768,6 +2327,11 @@
       "pge": "15738"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15738"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15738"
   },
   {
@@ -1782,6 +2346,11 @@
       "pge": "15802"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15802"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15802"
   },
   {
@@ -1796,6 +2365,11 @@
       "pge": "15815"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15815"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15815"
   },
   {
@@ -1810,6 +2384,11 @@
       "pge": "15816"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15816"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15816"
   },
   {
@@ -1824,6 +2403,11 @@
       "pge": "15829"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15829"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15829"
   },
   {
@@ -1841,6 +2425,11 @@
       "pge": "15933"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:15933"
+    ],
     "url": "https://www.paraglidingearth.com/?site=15933"
   },
   {
@@ -1859,6 +2448,12 @@
       "pge": "15952"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:164",
+      "pge:15952"
+    ],
     "url": "https://siteguide.org.au/sites/details/164"
   },
   {
@@ -1877,6 +2472,12 @@
       "pge": "15966"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:200",
+      "pge:15966"
+    ],
     "url": "https://siteguide.org.au/sites/details/200"
   },
   {
@@ -1895,6 +2496,12 @@
       "pge": "15967"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:203",
+      "pge:15967"
+    ],
     "url": "https://siteguide.org.au/sites/details/203"
   },
   {
@@ -1916,6 +2523,12 @@
       "pge": "15968"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:204",
+      "pge:15968"
+    ],
     "url": "https://siteguide.org.au/sites/details/204"
   },
   {
@@ -1934,6 +2547,11 @@
       "pge": "16045"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16045"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16045"
   },
   {
@@ -1948,6 +2566,11 @@
       "pge": "16087"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16087"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16087"
   },
   {
@@ -1962,6 +2585,11 @@
       "pge": "16144"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16144"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16144"
   },
   {
@@ -1976,6 +2604,11 @@
       "pge": "16342"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16342"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16342"
   },
   {
@@ -1990,6 +2623,11 @@
       "pge": "16422"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16422"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16422"
   },
   {
@@ -2004,6 +2642,11 @@
       "pge": "16485"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16485"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16485"
   },
   {
@@ -2021,6 +2664,11 @@
       "pge": "16515"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16515"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16515"
   },
   {
@@ -2035,6 +2683,11 @@
       "pge": "16536"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16536"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16536"
   },
   {
@@ -2049,6 +2702,11 @@
       "pge": "16559"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16559"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16559"
   },
   {
@@ -2063,6 +2721,11 @@
       "pge": "16868"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16868"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16868"
   },
   {
@@ -2077,6 +2740,11 @@
       "pge": "16870"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16870"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16870"
   },
   {
@@ -2091,6 +2759,11 @@
       "pge": "17231"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17231"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17231"
   },
   {
@@ -2105,6 +2778,11 @@
       "pge": "17288"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17288"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17288"
   },
   {
@@ -2119,6 +2797,11 @@
       "pge": "17529"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17529"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17529"
   },
   {
@@ -2133,6 +2816,11 @@
       "pge": "17530"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17530"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17530"
   },
   {
@@ -2147,6 +2835,11 @@
       "pge": "17541"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17541"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17541"
   },
   {
@@ -2170,6 +2863,11 @@
       "pge": "17691"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17691"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17691"
   },
   {
@@ -2193,6 +2891,11 @@
       "pge": "17692"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17692"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17692"
   },
   {
@@ -2210,6 +2913,11 @@
       "pge": "17750"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17750"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17750"
   },
   {
@@ -2224,6 +2932,11 @@
       "pge": "17751"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17751"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17751"
   },
   {
@@ -2240,6 +2953,11 @@
       "pge": "17753"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17753"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17753"
   },
   {
@@ -2254,6 +2972,11 @@
       "pge": "17867"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17867"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17867"
   },
   {
@@ -2268,6 +2991,11 @@
       "pge": "17886"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17886"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17886"
   },
   {
@@ -2282,6 +3010,11 @@
       "pge": "17887"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17887"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17887"
   },
   {
@@ -2296,6 +3029,11 @@
       "pge": "17912"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17912"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17912"
   },
   {
@@ -2310,6 +3048,11 @@
       "pge": "18019"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18019"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18019"
   },
   {
@@ -2324,6 +3067,11 @@
       "pge": "18021"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18021"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18021"
   },
   {
@@ -2338,6 +3086,11 @@
       "pge": "18022"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18022"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18022"
   },
   {
@@ -2352,6 +3105,11 @@
       "pge": "18075"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18075"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18075"
   },
   {
@@ -2370,6 +3128,12 @@
       "pge": "18145"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:143",
+      "pge:18145"
+    ],
     "url": "https://siteguide.org.au/sites/details/143"
   },
   {
@@ -2387,6 +3151,12 @@
       "pge": "18176"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:157",
+      "pge:18176"
+    ],
     "url": "https://siteguide.org.au/sites/details/157"
   },
   {
@@ -2404,6 +3174,12 @@
       "pge": "18186"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:47",
+      "pge:18186"
+    ],
     "url": "https://siteguide.org.au/sites/details/47"
   },
   {
@@ -2418,6 +3194,11 @@
       "pge": "18189"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18189"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18189"
   },
   {
@@ -2432,6 +3213,11 @@
       "pge": "18220"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18220"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18220"
   },
   {
@@ -2446,6 +3232,11 @@
       "pge": "18271"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18271"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18271"
   },
   {
@@ -2463,6 +3254,12 @@
       "pge": "18280"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158",
+      "pge:18280"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -2477,6 +3274,11 @@
       "pge": "18282"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18282"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18282"
   },
   {
@@ -2491,6 +3293,11 @@
       "pge": "18452"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18452"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18452"
   },
   {
@@ -2509,6 +3316,11 @@
       "pge": "18616"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18616"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18616"
   },
   {
@@ -2526,6 +3338,12 @@
       "pge": "18622"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:58",
+      "pge:18622"
+    ],
     "url": "https://siteguide.org.au/sites/details/58"
   },
   {
@@ -2540,6 +3358,11 @@
       "pge": "18657"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18657"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18657"
   },
   {
@@ -2554,6 +3377,11 @@
       "pge": "18672"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18672"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18672"
   },
   {
@@ -2571,6 +3399,11 @@
       "pge": "18680"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18680"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18680"
   },
   {
@@ -2588,6 +3421,12 @@
       "pge": "18686"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:61",
+      "pge:18686"
+    ],
     "url": "https://siteguide.org.au/sites/details/61"
   },
   {
@@ -2604,6 +3443,11 @@
       "pge": "18699"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18699"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18699"
   },
   {
@@ -2622,6 +3466,12 @@
       "pge": "18779"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:130",
+      "pge:18779"
+    ],
     "url": "https://siteguide.org.au/sites/details/130"
   },
   {
@@ -2639,6 +3489,11 @@
       "pge": "18871"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:18871"
+    ],
     "url": "https://www.paraglidingearth.com/?site=18871"
   },
   {
@@ -2657,6 +3512,12 @@
       "pge": "18874"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:124",
+      "pge:18874"
+    ],
     "url": "https://siteguide.org.au/sites/details/124"
   },
   {
@@ -2671,6 +3532,11 @@
       "pge": "19018"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19018"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19018"
   },
   {
@@ -2685,6 +3551,11 @@
       "pge": "19088"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19088"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19088"
   },
   {
@@ -2702,6 +3573,11 @@
       "pge": "19303"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19303"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19303"
   },
   {
@@ -2719,6 +3595,12 @@
       "pge": "19536"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:139",
+      "pge:19536"
+    ],
     "url": "https://siteguide.org.au/sites/details/139"
   },
   {
@@ -2735,6 +3617,11 @@
       "pge": "19570"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19570"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19570"
   },
   {
@@ -2749,6 +3636,11 @@
       "pge": "19992"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19992"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19992"
   },
   {
@@ -2767,6 +3659,12 @@
       "pge": "20000"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:254",
+      "pge:20000"
+    ],
     "url": "https://siteguide.org.au/sites/details/254"
   },
   {
@@ -2785,6 +3683,11 @@
       "pge": "21219"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21219"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21219"
   },
   {
@@ -2801,6 +3704,11 @@
       "pge": "21220"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21220"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21220"
   },
   {
@@ -2818,6 +3726,11 @@
       "pge": "21347"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21347"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21347"
   },
   {
@@ -2835,6 +3748,12 @@
       "pge": "21421"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:233",
+      "pge:21421"
+    ],
     "url": "https://siteguide.org.au/sites/details/233"
   },
   {
@@ -2853,6 +3772,12 @@
       "pge": "21422"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:234",
+      "pge:21422"
+    ],
     "url": "https://siteguide.org.au/sites/details/234"
   },
   {
@@ -2867,6 +3792,11 @@
       "pge": "21424"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21424"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21424"
   },
   {
@@ -2884,6 +3814,12 @@
       "pge": "21425"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:55",
+      "pge:21425"
+    ],
     "url": "https://siteguide.org.au/sites/details/55"
   },
   {
@@ -2901,6 +3837,11 @@
       "pge": "21426"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21426"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21426"
   },
   {
@@ -2919,6 +3860,11 @@
       "pge": "21427"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21427"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21427"
   },
   {
@@ -2937,6 +3883,11 @@
       "pge": "21846"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:21846"
+    ],
     "url": "https://www.paraglidingearth.com/?site=21846"
   },
   {
@@ -2955,6 +3906,12 @@
       "pge": "22198"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:10",
+      "pge:22198"
+    ],
     "url": "https://siteguide.org.au/sites/details/10"
   },
   {
@@ -2969,6 +3926,11 @@
       "pge": "22199"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22199"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22199"
   },
   {
@@ -2983,6 +3945,11 @@
       "pge": "22200"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22200"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22200"
   },
   {
@@ -2997,6 +3964,11 @@
       "pge": "22201"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22201"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22201"
   },
   {
@@ -3011,6 +3983,11 @@
       "pge": "22215"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22215"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22215"
   },
   {
@@ -3025,6 +4002,11 @@
       "pge": "22216"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22216"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22216"
   },
   {
@@ -3042,6 +4024,12 @@
       "pge": "22414"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:223",
+      "pge:22414"
+    ],
     "url": "https://siteguide.org.au/sites/details/223"
   },
   {
@@ -3056,6 +4044,11 @@
       "pge": "22640"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22640"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22640"
   },
   {
@@ -3073,6 +4066,12 @@
       "pge": "22856"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:178",
+      "pge:22856"
+    ],
     "url": "https://siteguide.org.au/sites/details/178"
   },
   {
@@ -3093,6 +4092,12 @@
       "pge": "22859"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:187",
+      "pge:22859"
+    ],
     "url": "https://siteguide.org.au/sites/details/187"
   },
   {
@@ -3107,6 +4112,11 @@
       "pge": "22860"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:22860"
+    ],
     "url": "https://www.paraglidingearth.com/?site=22860"
   },
   {
@@ -3124,6 +4134,12 @@
       "pge": "22957"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:160",
+      "pge:22957"
+    ],
     "url": "https://siteguide.org.au/sites/details/160"
   },
   {
@@ -3141,6 +4157,12 @@
       "pge": "22970"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:14",
+      "pge:22970"
+    ],
     "url": "https://siteguide.org.au/sites/details/14"
   },
   {
@@ -3158,6 +4180,12 @@
       "pge": "23013"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:193",
+      "pge:23013"
+    ],
     "url": "https://siteguide.org.au/sites/details/193"
   },
   {
@@ -3176,6 +4204,12 @@
       "pge": "23028"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:146",
+      "pge:23028"
+    ],
     "url": "https://siteguide.org.au/sites/details/146"
   },
   {
@@ -3190,6 +4224,11 @@
       "pge": "23029"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23029"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23029"
   },
   {
@@ -3210,6 +4249,12 @@
       "pge": "23186"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:219",
+      "pge:23186"
+    ],
     "url": "https://siteguide.org.au/sites/details/219"
   },
   {
@@ -3224,6 +4269,11 @@
       "pge": "23283"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23283"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23283"
   },
   {
@@ -3238,6 +4288,11 @@
       "pge": "23284"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23284"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23284"
   },
   {
@@ -3257,6 +4312,12 @@
       "pge": "23852"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:49",
+      "pge:23852"
+    ],
     "url": "https://siteguide.org.au/sites/details/49"
   },
   {
@@ -3274,6 +4335,12 @@
       "pge": "23900"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:211",
+      "pge:23900"
+    ],
     "url": "https://siteguide.org.au/sites/details/211"
   },
   {
@@ -3292,6 +4359,11 @@
       "pge": "23912"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23912"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23912"
   },
   {
@@ -3316,6 +4388,12 @@
       "pge": "4632"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:136",
+      "pge:4632"
+    ],
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
@@ -3333,6 +4411,12 @@
       "pge": "4633"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:69",
+      "pge:4633"
+    ],
     "url": "https://siteguide.org.au/sites/details/69"
   },
   {
@@ -3350,6 +4434,12 @@
       "pge": "4634"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:100",
+      "pge:4634"
+    ],
     "url": "https://siteguide.org.au/sites/details/100"
   },
   {
@@ -3369,6 +4459,12 @@
       "pge": "4635"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:104",
+      "pge:4635"
+    ],
     "url": "https://siteguide.org.au/sites/details/104"
   },
   {
@@ -3386,6 +4482,11 @@
       "pge": "4637"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4637"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4637"
   },
   {
@@ -3403,6 +4504,11 @@
       "pge": "4638"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4638"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4638"
   },
   {
@@ -3421,6 +4527,12 @@
       "pge": "4642"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:255",
+      "pge:4642"
+    ],
     "url": "https://siteguide.org.au/sites/details/255"
   },
   {
@@ -3439,6 +4551,12 @@
       "pge": "4648"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:132",
+      "pge:4648"
+    ],
     "url": "https://siteguide.org.au/sites/details/132"
   },
   {
@@ -3456,6 +4574,11 @@
       "pge": "4649"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4649"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4649"
   },
   {
@@ -3474,6 +4597,12 @@
       "pge": "4650"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:205",
+      "pge:4650"
+    ],
     "url": "https://siteguide.org.au/sites/details/205"
   },
   {
@@ -3491,6 +4620,12 @@
       "pge": "4653"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:206",
+      "pge:4653"
+    ],
     "url": "https://siteguide.org.au/sites/details/206"
   },
   {
@@ -3508,6 +4643,11 @@
       "pge": "4657"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4657"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4657"
   },
   {
@@ -3531,6 +4671,11 @@
       "pge": "4658"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4658"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4658"
   },
   {
@@ -3550,6 +4695,11 @@
       "pge": "4659"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4659"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4659"
   },
   {
@@ -3570,6 +4720,11 @@
       "pge": "4662"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4662"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4662"
   },
   {
@@ -3588,6 +4743,12 @@
       "pge": "4663"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:73",
+      "pge:4663"
+    ],
     "url": "https://siteguide.org.au/sites/details/73"
   },
   {
@@ -3606,6 +4767,11 @@
       "pge": "4664"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4664"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4664"
   },
   {
@@ -3625,6 +4791,12 @@
       "pge": "4665"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:46",
+      "pge:4665"
+    ],
     "url": "https://siteguide.org.au/sites/details/46"
   },
   {
@@ -3648,6 +4820,11 @@
       "pge": "4666"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:4666"
+    ],
     "url": "https://www.paraglidingearth.com/?site=4666"
   },
   {
@@ -3665,6 +4842,12 @@
       "pge": "6595"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:210",
+      "pge:6595"
+    ],
     "url": "https://siteguide.org.au/sites/details/210"
   },
   {
@@ -3689,6 +4872,12 @@
       "pge": "6613"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:89",
+      "pge:6613"
+    ],
     "url": "https://siteguide.org.au/sites/details/89"
   },
   {
@@ -3708,6 +4897,11 @@
       "pge": "6635"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6635"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6635"
   },
   {
@@ -3727,6 +4921,12 @@
       "pge": "6724"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:86",
+      "pge:6724"
+    ],
     "url": "https://siteguide.org.au/sites/details/86"
   },
   {
@@ -3746,6 +4946,12 @@
       "pge": "6746"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:19",
+      "pge:6746"
+    ],
     "url": "https://siteguide.org.au/sites/details/19"
   },
   {
@@ -3765,6 +4971,12 @@
       "pge": "6747"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:18",
+      "pge:6747"
+    ],
     "url": "https://siteguide.org.au/sites/details/18"
   },
   {
@@ -3779,6 +4991,11 @@
       "pge": "6750"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6750"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6750"
   },
   {
@@ -3796,6 +5013,12 @@
       "pge": "6777"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:85",
+      "pge:6777"
+    ],
     "url": "https://siteguide.org.au/sites/details/85"
   },
   {
@@ -3813,6 +5036,11 @@
       "pge": "6784"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6784"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6784"
   },
   {
@@ -3829,6 +5057,11 @@
       "pge": "6786"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6786"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6786"
   },
   {
@@ -3846,6 +5079,11 @@
       "pge": "6802"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:6802"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6802"
   },
   {
@@ -3860,6 +5098,11 @@
       "pge": "6817"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:6817"
+    ],
     "url": "https://www.paraglidingearth.com/?site=6817"
   },
   {
@@ -3877,6 +5120,12 @@
       "pge": "6824"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:201",
+      "pge:6824"
+    ],
     "url": "https://siteguide.org.au/sites/details/201"
   },
   {
@@ -3895,6 +5144,12 @@
       "pge": "7270"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:123",
+      "pge:7270"
+    ],
     "url": "https://siteguide.org.au/sites/details/123"
   },
   {
@@ -3913,6 +5168,11 @@
       "pge": "7585"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7585"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7585"
   },
   {
@@ -3929,6 +5189,11 @@
       "pge": "7588"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:7588"
+    ],
     "url": "https://www.paraglidingearth.com/?site=7588"
   },
   {
@@ -3946,6 +5211,12 @@
       "pge": "7595"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:267",
+      "pge:7595"
+    ],
     "url": "https://siteguide.org.au/sites/details/267"
   },
   {
@@ -3965,6 +5236,12 @@
       "pge": "7596"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:109",
+      "pge:7596"
+    ],
     "url": "https://siteguide.org.au/sites/details/109"
   },
   {
@@ -3982,6 +5259,12 @@
       "pge": "7600"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:108",
+      "pge:7600"
+    ],
     "url": "https://siteguide.org.au/sites/details/108"
   },
   {
@@ -4000,6 +5283,12 @@
       "pge": "7606"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:115",
+      "pge:7606"
+    ],
     "url": "https://siteguide.org.au/sites/details/115"
   },
   {
@@ -4017,6 +5306,11 @@
       "ansg": "10-7"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:10"
+    ],
     "url": "https://siteguide.org.au/sites/details/10"
   },
   {
@@ -4033,6 +5327,11 @@
       "ansg": "101-206"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:101"
+    ],
     "url": "https://siteguide.org.au/sites/details/101"
   },
   {
@@ -4049,6 +5348,11 @@
       "ansg": "102-25"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:102"
+    ],
     "url": "https://siteguide.org.au/sites/details/102"
   },
   {
@@ -4066,6 +5370,11 @@
       "ansg": "103-208"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:103"
+    ],
     "url": "https://siteguide.org.au/sites/details/103"
   },
   {
@@ -4083,6 +5392,11 @@
       "ansg": "103-329"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:103"
+    ],
     "url": "https://siteguide.org.au/sites/details/103"
   },
   {
@@ -4099,6 +5413,11 @@
       "ansg": "11-9"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:11"
+    ],
     "url": "https://siteguide.org.au/sites/details/11"
   },
   {
@@ -4116,6 +5435,11 @@
       "ansg": "114-114"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:114"
+    ],
     "url": "https://siteguide.org.au/sites/details/114"
   },
   {
@@ -4133,6 +5457,11 @@
       "ansg": "114-115"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:114"
+    ],
     "url": "https://siteguide.org.au/sites/details/114"
   },
   {
@@ -4149,6 +5478,11 @@
       "ansg": "116-223"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:116"
+    ],
     "url": "https://siteguide.org.au/sites/details/116"
   },
   {
@@ -4165,6 +5499,11 @@
       "ansg": "120-226"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:120"
+    ],
     "url": "https://siteguide.org.au/sites/details/120"
   },
   {
@@ -4182,6 +5521,11 @@
       "ansg": "121-228"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:121"
+    ],
     "url": "https://siteguide.org.au/sites/details/121"
   },
   {
@@ -4199,6 +5543,11 @@
       "ansg": "125-30"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:125"
+    ],
     "url": "https://siteguide.org.au/sites/details/125"
   },
   {
@@ -4215,6 +5564,11 @@
       "ansg": "128-33"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:128"
+    ],
     "url": "https://siteguide.org.au/sites/details/128"
   },
   {
@@ -4232,6 +5586,11 @@
       "ansg": "131-215"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:131"
+    ],
     "url": "https://siteguide.org.au/sites/details/131"
   },
   {
@@ -4248,6 +5607,11 @@
       "ansg": "132-113"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:132"
+    ],
     "url": "https://siteguide.org.au/sites/details/132"
   },
   {
@@ -4264,6 +5628,11 @@
       "ansg": "134-182"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:134"
+    ],
     "url": "https://siteguide.org.au/sites/details/134"
   },
   {
@@ -4282,6 +5651,11 @@
       "ansg": "135-183"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:135"
+    ],
     "url": "https://siteguide.org.au/sites/details/135"
   },
   {
@@ -4305,6 +5679,11 @@
       "ansg": "136-21"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
@@ -4328,6 +5707,11 @@
       "ansg": "136-22"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
@@ -4351,6 +5735,11 @@
       "ansg": "136-23"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
     "url": "https://siteguide.org.au/sites/details/136"
   },
   {
@@ -4365,6 +5754,11 @@
       "ansg": "137-191"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:137"
+    ],
     "url": "https://siteguide.org.au/sites/details/137"
   },
   {
@@ -4379,6 +5773,11 @@
       "ansg": "137-192"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:137"
+    ],
     "url": "https://siteguide.org.au/sites/details/137"
   },
   {
@@ -4393,6 +5792,11 @@
       "ansg": "137-193"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:137"
+    ],
     "url": "https://siteguide.org.au/sites/details/137"
   },
   {
@@ -4410,6 +5814,11 @@
       "ansg": "138-251"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:138"
+    ],
     "url": "https://siteguide.org.au/sites/details/138"
   },
   {
@@ -4426,6 +5835,11 @@
       "ansg": "140-253"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:140"
+    ],
     "url": "https://siteguide.org.au/sites/details/140"
   },
   {
@@ -4443,6 +5857,11 @@
       "ansg": "144-38"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:144"
+    ],
     "url": "https://siteguide.org.au/sites/details/144"
   },
   {
@@ -4460,6 +5879,11 @@
       "ansg": "146-42"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:146"
+    ],
     "url": "https://siteguide.org.au/sites/details/146"
   },
   {
@@ -4476,6 +5900,11 @@
       "ansg": "15-235"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:15"
+    ],
     "url": "https://siteguide.org.au/sites/details/15"
   },
   {
@@ -4492,6 +5921,11 @@
       "ansg": "150-56"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:150"
+    ],
     "url": "https://siteguide.org.au/sites/details/150"
   },
   {
@@ -4508,6 +5942,11 @@
       "ansg": "151-60"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:151"
+    ],
     "url": "https://siteguide.org.au/sites/details/151"
   },
   {
@@ -4524,6 +5963,11 @@
       "ansg": "153-64"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:153"
+    ],
     "url": "https://siteguide.org.au/sites/details/153"
   },
   {
@@ -4540,6 +5984,11 @@
       "ansg": "154-197"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:154"
+    ],
     "url": "https://siteguide.org.au/sites/details/154"
   },
   {
@@ -4557,6 +6006,11 @@
       "ansg": "156-81"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:156"
+    ],
     "url": "https://siteguide.org.au/sites/details/156"
   },
   {
@@ -4574,6 +6028,11 @@
       "ansg": "158-200"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4590,6 +6049,11 @@
       "ansg": "158-201"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4607,6 +6071,11 @@
       "ansg": "158-89"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4623,6 +6092,11 @@
       "ansg": "158-90"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4639,6 +6113,11 @@
       "ansg": "158-92"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4655,6 +6134,11 @@
       "ansg": "158-93"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4671,6 +6155,11 @@
       "ansg": "158-94"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4688,6 +6177,11 @@
       "ansg": "158-96"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:158"
+    ],
     "url": "https://siteguide.org.au/sites/details/158"
   },
   {
@@ -4704,6 +6198,11 @@
       "ansg": "159-101"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:159"
+    ],
     "url": "https://siteguide.org.au/sites/details/159"
   },
   {
@@ -4720,6 +6219,11 @@
       "ansg": "159-249"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:159"
+    ],
     "url": "https://siteguide.org.au/sites/details/159"
   },
   {
@@ -4737,6 +6241,11 @@
       "ansg": "163-44"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:163"
+    ],
     "url": "https://siteguide.org.au/sites/details/163"
   },
   {
@@ -4753,6 +6262,11 @@
       "ansg": "166-50"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:166"
+    ],
     "url": "https://siteguide.org.au/sites/details/166"
   },
   {
@@ -4769,6 +6283,11 @@
       "ansg": "167-52"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:167"
+    ],
     "url": "https://siteguide.org.au/sites/details/167"
   },
   {
@@ -4785,6 +6304,11 @@
       "ansg": "173-204"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:173"
+    ],
     "url": "https://siteguide.org.au/sites/details/173"
   },
   {
@@ -4803,6 +6327,11 @@
       "ansg": "174-209"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:174"
+    ],
     "url": "https://siteguide.org.au/sites/details/174"
   },
   {
@@ -4819,6 +6348,11 @@
       "ansg": "175-210"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:175"
+    ],
     "url": "https://siteguide.org.au/sites/details/175"
   },
   {
@@ -4833,6 +6367,11 @@
       "ansg": "176-202"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:176"
+    ],
     "url": "https://siteguide.org.au/sites/details/176"
   },
   {
@@ -4849,6 +6388,11 @@
       "ansg": "179-100"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:179"
+    ],
     "url": "https://siteguide.org.au/sites/details/179"
   },
   {
@@ -4865,6 +6409,11 @@
       "ansg": "181-39"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:181"
+    ],
     "url": "https://siteguide.org.au/sites/details/181"
   },
   {
@@ -4888,6 +6437,11 @@
       "ansg": "182-40"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:182"
+    ],
     "url": "https://siteguide.org.au/sites/details/182"
   },
   {
@@ -4905,6 +6459,11 @@
       "ansg": "183-46"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:183"
+    ],
     "url": "https://siteguide.org.au/sites/details/183"
   },
   {
@@ -4922,6 +6481,11 @@
       "ansg": "184-48"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:184"
+    ],
     "url": "https://siteguide.org.au/sites/details/184"
   },
   {
@@ -4941,6 +6505,11 @@
       "ansg": "187-59"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:187"
+    ],
     "url": "https://siteguide.org.au/sites/details/187"
   },
   {
@@ -4958,6 +6527,11 @@
       "ansg": "189-69"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:189"
+    ],
     "url": "https://siteguide.org.au/sites/details/189"
   },
   {
@@ -4974,6 +6548,11 @@
       "ansg": "190-71"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:190"
+    ],
     "url": "https://siteguide.org.au/sites/details/190"
   },
   {
@@ -4992,6 +6571,11 @@
       "ansg": "192-195"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:192"
+    ],
     "url": "https://siteguide.org.au/sites/details/192"
   },
   {
@@ -5010,6 +6594,11 @@
       "ansg": "192-196"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:192"
+    ],
     "url": "https://siteguide.org.au/sites/details/192"
   },
   {
@@ -5026,6 +6615,11 @@
       "ansg": "196-83"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:196"
+    ],
     "url": "https://siteguide.org.au/sites/details/196"
   },
   {
@@ -5043,6 +6637,11 @@
       "ansg": "198-109"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:198"
+    ],
     "url": "https://siteguide.org.au/sites/details/198"
   },
   {
@@ -5057,6 +6656,11 @@
       "ansg": "20-283"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:20"
+    ],
     "url": "https://siteguide.org.au/sites/details/20"
   },
   {
@@ -5073,6 +6677,11 @@
       "ansg": "202-70"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:202"
+    ],
     "url": "https://siteguide.org.au/sites/details/202"
   },
   {
@@ -5090,6 +6699,11 @@
       "ansg": "205-198"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:205"
+    ],
     "url": "https://siteguide.org.au/sites/details/205"
   },
   {
@@ -5106,6 +6720,11 @@
       "ansg": "206-77"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
     "url": "https://siteguide.org.au/sites/details/206"
   },
   {
@@ -5123,6 +6742,11 @@
       "ansg": "208-84"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:208"
+    ],
     "url": "https://siteguide.org.au/sites/details/208"
   },
   {
@@ -5146,6 +6770,11 @@
       "ansg": "212-258"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
@@ -5169,6 +6798,11 @@
       "ansg": "212-259"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
@@ -5192,6 +6826,11 @@
       "ansg": "212-260"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
@@ -5215,6 +6854,11 @@
       "ansg": "212-261"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
@@ -5238,6 +6882,11 @@
       "ansg": "212-262"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
@@ -5261,6 +6910,11 @@
       "ansg": "212-263"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
     "url": "https://siteguide.org.au/sites/details/212"
   },
   {
@@ -5279,6 +6933,11 @@
       "ansg": "213-205"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:213"
+    ],
     "url": "https://siteguide.org.au/sites/details/213"
   },
   {
@@ -5295,6 +6954,11 @@
       "ansg": "215-221"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:215"
+    ],
     "url": "https://siteguide.org.au/sites/details/215"
   },
   {
@@ -5315,6 +6979,11 @@
       "ansg": "216-107"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:216"
+    ],
     "url": "https://siteguide.org.au/sites/details/216"
   },
   {
@@ -5331,6 +7000,11 @@
       "ansg": "218-110"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:218"
+    ],
     "url": "https://siteguide.org.au/sites/details/218"
   },
   {
@@ -5347,6 +7021,11 @@
       "ansg": "220-188"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:220"
+    ],
     "url": "https://siteguide.org.au/sites/details/220"
   },
   {
@@ -5361,6 +7040,11 @@
       "ansg": "221-211"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:221"
+    ],
     "url": "https://siteguide.org.au/sites/details/221"
   },
   {
@@ -5378,6 +7062,11 @@
       "ansg": "239-123"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:239"
+    ],
     "url": "https://siteguide.org.au/sites/details/239"
   },
   {
@@ -5395,6 +7084,11 @@
       "ansg": "24-322"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:24"
+    ],
     "url": "https://siteguide.org.au/sites/details/24"
   },
   {
@@ -5413,6 +7107,11 @@
       "ansg": "241-125"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:241"
+    ],
     "url": "https://siteguide.org.au/sites/details/241"
   },
   {
@@ -5430,6 +7129,11 @@
       "ansg": "246-306"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:246"
+    ],
     "url": "https://siteguide.org.au/sites/details/246"
   },
   {
@@ -5451,6 +7155,11 @@
       "ansg": "247-314"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:247"
+    ],
     "url": "https://siteguide.org.au/sites/details/247"
   },
   {
@@ -5467,6 +7176,11 @@
       "ansg": "248-315"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:248"
+    ],
     "url": "https://siteguide.org.au/sites/details/248"
   },
   {
@@ -5484,6 +7198,11 @@
       "ansg": "249-312"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:249"
+    ],
     "url": "https://siteguide.org.au/sites/details/249"
   },
   {
@@ -5500,6 +7219,11 @@
       "ansg": "250-272"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:250"
+    ],
     "url": "https://siteguide.org.au/sites/details/250"
   },
   {
@@ -5517,6 +7241,11 @@
       "ansg": "252-275"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:252"
+    ],
     "url": "https://siteguide.org.au/sites/details/252"
   },
   {
@@ -5531,6 +7260,11 @@
       "ansg": "253-276"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:253"
+    ],
     "url": "https://siteguide.org.au/sites/details/253"
   },
   {
@@ -5548,6 +7282,11 @@
       "ansg": "256-279"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:256"
+    ],
     "url": "https://siteguide.org.au/sites/details/256"
   },
   {
@@ -5565,6 +7304,11 @@
       "ansg": "256-280"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:256"
+    ],
     "url": "https://siteguide.org.au/sites/details/256"
   },
   {
@@ -5582,6 +7326,11 @@
       "ansg": "257-281"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:257"
+    ],
     "url": "https://siteguide.org.au/sites/details/257"
   },
   {
@@ -5599,6 +7348,11 @@
       "ansg": "26-302"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:26"
+    ],
     "url": "https://siteguide.org.au/sites/details/26"
   },
   {
@@ -5615,6 +7369,11 @@
       "ansg": "260-288"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:260"
+    ],
     "url": "https://siteguide.org.au/sites/details/260"
   },
   {
@@ -5631,6 +7390,11 @@
       "ansg": "262-291"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:262"
+    ],
     "url": "https://siteguide.org.au/sites/details/262"
   },
   {
@@ -5647,6 +7411,11 @@
       "ansg": "263-292"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
@@ -5663,6 +7432,11 @@
       "ansg": "263-293"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
@@ -5679,6 +7453,11 @@
       "ansg": "263-294"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
@@ -5696,6 +7475,11 @@
       "ansg": "263-295"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
     "url": "https://siteguide.org.au/sites/details/263"
   },
   {
@@ -5713,6 +7497,11 @@
       "ansg": "264-296"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:264"
+    ],
     "url": "https://siteguide.org.au/sites/details/264"
   },
   {
@@ -5729,6 +7518,11 @@
       "ansg": "266-298"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:266"
+    ],
     "url": "https://siteguide.org.au/sites/details/266"
   },
   {
@@ -5747,6 +7541,11 @@
       "ansg": "269-300"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:269"
+    ],
     "url": "https://siteguide.org.au/sites/details/269"
   },
   {
@@ -5764,6 +7563,11 @@
       "ansg": "270-303"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:270"
+    ],
     "url": "https://siteguide.org.au/sites/details/270"
   },
   {
@@ -5781,6 +7585,11 @@
       "ansg": "271-305"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:271"
+    ],
     "url": "https://siteguide.org.au/sites/details/271"
   },
   {
@@ -5798,6 +7607,11 @@
       "ansg": "272-307"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:272"
+    ],
     "url": "https://siteguide.org.au/sites/details/272"
   },
   {
@@ -5815,6 +7629,11 @@
       "ansg": "273-308"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:273"
+    ],
     "url": "https://siteguide.org.au/sites/details/273"
   },
   {
@@ -5833,6 +7652,11 @@
       "ansg": "274-309"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:274"
+    ],
     "url": "https://siteguide.org.au/sites/details/274"
   },
   {
@@ -5850,6 +7674,11 @@
       "ansg": "275-310"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:275"
+    ],
     "url": "https://siteguide.org.au/sites/details/275"
   },
   {
@@ -5867,6 +7696,11 @@
       "ansg": "276-311"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:276"
+    ],
     "url": "https://siteguide.org.au/sites/details/276"
   },
   {
@@ -5884,6 +7718,11 @@
       "ansg": "277-313"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:277"
+    ],
     "url": "https://siteguide.org.au/sites/details/277"
   },
   {
@@ -5900,6 +7739,11 @@
       "ansg": "278-316"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:278"
+    ],
     "url": "https://siteguide.org.au/sites/details/278"
   },
   {
@@ -5923,6 +7767,11 @@
       "ansg": "279-317"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:279"
+    ],
     "url": "https://siteguide.org.au/sites/details/279"
   },
   {
@@ -5941,6 +7790,11 @@
       "ansg": "280-318"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:280"
+    ],
     "url": "https://siteguide.org.au/sites/details/280"
   },
   {
@@ -5963,6 +7817,11 @@
       "ansg": "281-319"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:281"
+    ],
     "url": "https://siteguide.org.au/sites/details/281"
   },
   {
@@ -5979,6 +7838,11 @@
       "ansg": "282-320"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:282"
+    ],
     "url": "https://siteguide.org.au/sites/details/282"
   },
   {
@@ -5996,6 +7860,11 @@
       "ansg": "283-321"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:283"
+    ],
     "url": "https://siteguide.org.au/sites/details/283"
   },
   {
@@ -6013,6 +7882,11 @@
       "ansg": "284-323"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:284"
+    ],
     "url": "https://siteguide.org.au/sites/details/284"
   },
   {
@@ -6030,6 +7904,11 @@
       "ansg": "285-324"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:285"
+    ],
     "url": "https://siteguide.org.au/sites/details/285"
   },
   {
@@ -6050,6 +7929,11 @@
       "ansg": "286-325"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:286"
+    ],
     "url": "https://siteguide.org.au/sites/details/286"
   },
   {
@@ -6068,6 +7952,11 @@
       "ansg": "287-326"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:287"
+    ],
     "url": "https://siteguide.org.au/sites/details/287"
   },
   {
@@ -6086,6 +7975,11 @@
       "ansg": "3-218"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:3"
+    ],
     "url": "https://siteguide.org.au/sites/details/3"
   },
   {
@@ -6103,6 +7997,11 @@
       "ansg": "31-304"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:31"
+    ],
     "url": "https://siteguide.org.au/sites/details/31"
   },
   {
@@ -6117,6 +8016,11 @@
       "ansg": "4-219"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:4"
+    ],
     "url": "https://siteguide.org.au/sites/details/4"
   },
   {
@@ -6133,6 +8037,11 @@
       "ansg": "44-126"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:44"
+    ],
     "url": "https://siteguide.org.au/sites/details/44"
   },
   {
@@ -6150,6 +8059,11 @@
       "ansg": "48-130"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:48"
+    ],
     "url": "https://siteguide.org.au/sites/details/48"
   },
   {
@@ -6168,6 +8082,11 @@
       "ansg": "50-132"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:50"
+    ],
     "url": "https://siteguide.org.au/sites/details/50"
   },
   {
@@ -6186,6 +8105,11 @@
       "ansg": "51-133"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:51"
+    ],
     "url": "https://siteguide.org.au/sites/details/51"
   },
   {
@@ -6204,6 +8128,11 @@
       "ansg": "52-134"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:52"
+    ],
     "url": "https://siteguide.org.au/sites/details/52"
   },
   {
@@ -6220,6 +8149,11 @@
       "ansg": "53-135"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:53"
+    ],
     "url": "https://siteguide.org.au/sites/details/53"
   },
   {
@@ -6236,6 +8170,11 @@
       "ansg": "57-138"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:57"
+    ],
     "url": "https://siteguide.org.au/sites/details/57"
   },
   {
@@ -6256,6 +8195,11 @@
       "ansg": "59-140"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:59"
+    ],
     "url": "https://siteguide.org.au/sites/details/59"
   },
   {
@@ -6273,6 +8217,11 @@
       "ansg": "60-141"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:60"
+    ],
     "url": "https://siteguide.org.au/sites/details/60"
   },
   {
@@ -6289,6 +8238,11 @@
       "ansg": "62-143"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:62"
+    ],
     "url": "https://siteguide.org.au/sites/details/62"
   },
   {
@@ -6305,6 +8259,11 @@
       "ansg": "63-144"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:63"
+    ],
     "url": "https://siteguide.org.au/sites/details/63"
   },
   {
@@ -6322,6 +8281,11 @@
       "ansg": "64-145"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:64"
+    ],
     "url": "https://siteguide.org.au/sites/details/64"
   },
   {
@@ -6339,6 +8303,11 @@
       "ansg": "65-146"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:65"
+    ],
     "url": "https://siteguide.org.au/sites/details/65"
   },
   {
@@ -6355,6 +8324,11 @@
       "ansg": "67-150"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:67"
+    ],
     "url": "https://siteguide.org.au/sites/details/67"
   },
   {
@@ -6374,6 +8348,11 @@
       "ansg": "7-242"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:7"
+    ],
     "url": "https://siteguide.org.au/sites/details/7"
   },
   {
@@ -6391,6 +8370,11 @@
       "ansg": "71-148"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:71"
+    ],
     "url": "https://siteguide.org.au/sites/details/71"
   },
   {
@@ -6407,6 +8391,11 @@
       "ansg": "72-149"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:72"
+    ],
     "url": "https://siteguide.org.au/sites/details/72"
   },
   {
@@ -6424,6 +8413,11 @@
       "ansg": "74-153"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:74"
+    ],
     "url": "https://siteguide.org.au/sites/details/74"
   },
   {
@@ -6440,6 +8434,11 @@
       "ansg": "75-154"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:75"
+    ],
     "url": "https://siteguide.org.au/sites/details/75"
   },
   {
@@ -6456,6 +8455,11 @@
       "ansg": "76-155"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:76"
+    ],
     "url": "https://siteguide.org.au/sites/details/76"
   },
   {
@@ -6472,6 +8476,11 @@
       "ansg": "77-156"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:77"
+    ],
     "url": "https://siteguide.org.au/sites/details/77"
   },
   {
@@ -6488,6 +8497,11 @@
       "ansg": "78-157"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:78"
+    ],
     "url": "https://siteguide.org.au/sites/details/78"
   },
   {
@@ -6505,6 +8519,11 @@
       "ansg": "8-6"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:8"
+    ],
     "url": "https://siteguide.org.au/sites/details/8"
   },
   {
@@ -6521,6 +8540,11 @@
       "ansg": "81-160"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:81"
+    ],
     "url": "https://siteguide.org.au/sites/details/81"
   },
   {
@@ -6537,6 +8561,11 @@
       "ansg": "84-163"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:84"
+    ],
     "url": "https://siteguide.org.au/sites/details/84"
   },
   {
@@ -6553,6 +8582,11 @@
       "ansg": "87-166"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:87"
+    ],
     "url": "https://siteguide.org.au/sites/details/87"
   },
   {
@@ -6569,6 +8603,11 @@
       "ansg": "88-167"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:88"
+    ],
     "url": "https://siteguide.org.au/sites/details/88"
   },
   {
@@ -6592,6 +8631,11 @@
       "ansg": "89-168"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:89"
+    ],
     "url": "https://siteguide.org.au/sites/details/89"
   },
   {
@@ -6615,6 +8659,11 @@
       "ansg": "89-169"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:89"
+    ],
     "url": "https://siteguide.org.au/sites/details/89"
   },
   {
@@ -6633,6 +8682,11 @@
       "ansg": "9-185"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:9"
+    ],
     "url": "https://siteguide.org.au/sites/details/9"
   },
   {
@@ -6653,6 +8707,11 @@
       "ansg": "90-171"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:90"
+    ],
     "url": "https://siteguide.org.au/sites/details/90"
   },
   {
@@ -6676,6 +8735,11 @@
       "ansg": "91-172"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:91"
+    ],
     "url": "https://siteguide.org.au/sites/details/91"
   },
   {
@@ -6699,6 +8763,11 @@
       "ansg": "92-212"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:92"
+    ],
     "url": "https://siteguide.org.au/sites/details/92"
   },
   {
@@ -6722,6 +8791,11 @@
       "ansg": "93-173"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:93"
+    ],
     "url": "https://siteguide.org.au/sites/details/93"
   },
   {
@@ -6745,6 +8819,11 @@
       "ansg": "94-174"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:94"
+    ],
     "url": "https://siteguide.org.au/sites/details/94"
   },
   {
@@ -6762,6 +8841,11 @@
       "ansg": "95-175"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:95"
+    ],
     "url": "https://siteguide.org.au/sites/details/95"
   },
   {
@@ -6780,6 +8864,11 @@
       "ansg": "96-176"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:96"
+    ],
     "url": "https://siteguide.org.au/sites/details/96"
   },
   {
@@ -6798,6 +8887,11 @@
       "ansg": "96-177"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:96"
+    ],
     "url": "https://siteguide.org.au/sites/details/96"
   },
   {
@@ -6816,6 +8910,11 @@
       "ansg": "97-178"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:97"
+    ],
     "url": "https://siteguide.org.au/sites/details/97"
   },
   {
@@ -6839,6 +8938,11 @@
       "ansg": "98-179"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:98"
+    ],
     "url": "https://siteguide.org.au/sites/details/98"
   },
   {
@@ -6862,6 +8966,11 @@
       "ansg": "99-213"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:99"
+    ],
     "url": "https://siteguide.org.au/sites/details/99"
   },
   {
@@ -6879,6 +8988,11 @@
       "ansg": "105-27"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:105"
+    ],
     "url": "https://siteguide.org.au/sites/details/105"
   },
   {
@@ -6895,6 +9009,11 @@
       "ansg": "12-232"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:12"
+    ],
     "url": "https://siteguide.org.au/sites/details/12"
   },
   {
@@ -6911,6 +9030,11 @@
       "ansg": "13-289"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:13"
+    ],
     "url": "https://siteguide.org.au/sites/details/13"
   },
   {
@@ -6927,6 +9051,11 @@
       "ansg": "141-254"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:141"
+    ],
     "url": "https://siteguide.org.au/sites/details/141"
   },
   {
@@ -6943,6 +9072,11 @@
       "ansg": "148-54"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:148"
+    ],
     "url": "https://siteguide.org.au/sites/details/148"
   },
   {
@@ -6960,6 +9094,11 @@
       "ansg": "161-41"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:161"
+    ],
     "url": "https://siteguide.org.au/sites/details/161"
   },
   {
@@ -6974,6 +9113,11 @@
       "ansg": "171-66"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:171"
+    ],
     "url": "https://siteguide.org.au/sites/details/171"
   },
   {
@@ -6988,6 +9132,11 @@
       "ansg": "172-203"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:172"
+    ],
     "url": "https://siteguide.org.au/sites/details/172"
   },
   {
@@ -7004,6 +9153,11 @@
       "ansg": "186-53"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:186"
+    ],
     "url": "https://siteguide.org.au/sites/details/186"
   },
   {
@@ -7021,6 +9175,11 @@
       "ansg": "191-74"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:191"
+    ],
     "url": "https://siteguide.org.au/sites/details/191"
   },
   {
@@ -7035,6 +9194,11 @@
       "ansg": "194-79"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:194"
+    ],
     "url": "https://siteguide.org.au/sites/details/194"
   },
   {
@@ -7049,6 +9213,11 @@
       "ansg": "199-184"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:199"
+    ],
     "url": "https://siteguide.org.au/sites/details/199"
   },
   {
@@ -7065,6 +9234,11 @@
       "ansg": "207-82"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:207"
+    ],
     "url": "https://siteguide.org.au/sites/details/207"
   },
   {
@@ -7083,6 +9257,11 @@
       "ansg": "214-106"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:214"
+    ],
     "url": "https://siteguide.org.au/sites/details/214"
   },
   {
@@ -7097,6 +9276,11 @@
       "ansg": "217-108"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:217"
+    ],
     "url": "https://siteguide.org.au/sites/details/217"
   },
   {
@@ -7114,6 +9298,11 @@
       "ansg": "222-245"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:222"
+    ],
     "url": "https://siteguide.org.au/sites/details/222"
   },
   {
@@ -7130,6 +9319,11 @@
       "ansg": "226-121"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:226"
+    ],
     "url": "https://siteguide.org.au/sites/details/226"
   },
   {
@@ -7148,6 +9342,11 @@
       "ansg": "23-301"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:23"
+    ],
     "url": "https://siteguide.org.au/sites/details/23"
   },
   {
@@ -7164,6 +9363,11 @@
       "ansg": "230-19"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:230"
+    ],
     "url": "https://siteguide.org.au/sites/details/230"
   },
   {
@@ -7180,6 +9384,11 @@
       "ansg": "235-118"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:235"
+    ],
     "url": "https://siteguide.org.au/sites/details/235"
   },
   {
@@ -7196,6 +9405,11 @@
       "ansg": "236-119"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:236"
+    ],
     "url": "https://siteguide.org.au/sites/details/236"
   },
   {
@@ -7213,6 +9427,11 @@
       "ansg": "238-122"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:238"
+    ],
     "url": "https://siteguide.org.au/sites/details/238"
   },
   {
@@ -7227,6 +9446,11 @@
       "ansg": "240-273"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:240"
+    ],
     "url": "https://siteguide.org.au/sites/details/240"
   },
   {
@@ -7243,6 +9467,11 @@
       "ansg": "45-127"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:45"
+    ],
     "url": "https://siteguide.org.au/sites/details/45"
   },
   {
@@ -7260,6 +9489,11 @@
       "ansg": "5-220"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:5"
+    ],
     "url": "https://siteguide.org.au/sites/details/5"
   },
   {
@@ -7276,6 +9510,11 @@
       "ansg": "56-137"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:56"
+    ],
     "url": "https://siteguide.org.au/sites/details/56"
   },
   {
@@ -7292,6 +9531,11 @@
       "ansg": "70-147"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:70"
+    ],
     "url": "https://siteguide.org.au/sites/details/70"
   },
   {
@@ -7308,6 +9552,11 @@
       "ansg": "79-158"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:79"
+    ],
     "url": "https://siteguide.org.au/sites/details/79"
   },
   {
@@ -7324,6 +9573,11 @@
       "ansg": "80-159"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:80"
+    ],
     "url": "https://siteguide.org.au/sites/details/80"
   },
   {
@@ -7341,6 +9595,11 @@
       "ansg": "82-161"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:82"
+    ],
     "url": "https://siteguide.org.au/sites/details/82"
   },
   {
@@ -7357,6 +9616,3359 @@
       "ansg": "83-162"
     },
     "primary": "ansg",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "ansg:83"
+    ],
     "url": "https://siteguide.org.au/sites/details/83"
+  },
+  {
+    "id": "PSF-012912",
+    "ref": "ansg:lz-1",
+    "name": "Godfrey's",
+    "lat": -30.678137,
+    "lon": 150.649538,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-1"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
+    "url": "https://siteguide.org.au/sites/details/136"
+  },
+  {
+    "id": "PSF-012913",
+    "ref": "ansg:lz-103",
+    "name": "West paddock",
+    "lat": -37.592879,
+    "lon": 144.072214,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-103"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:187"
+    ],
+    "url": "https://siteguide.org.au/sites/details/187"
+  },
+  {
+    "id": "PSF-012914",
+    "ref": "ansg:lz-104",
+    "name": "East paddock",
+    "lat": -37.586263,
+    "lon": 144.088581,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-104"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:187"
+    ],
+    "url": "https://siteguide.org.au/sites/details/187"
+  },
+  {
+    "id": "PSF-012915",
+    "ref": "ansg:lz-105",
+    "name": "Landing",
+    "lat": -37.590182,
+    "lon": 144.087268,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-105"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:187"
+    ],
+    "url": "https://siteguide.org.au/sites/details/187"
+  },
+  {
+    "id": "PSF-012916",
+    "ref": "ansg:lz-109",
+    "name": "Landing",
+    "lat": -37.434089,
+    "lon": 143.815036,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-109"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:192"
+    ],
+    "url": "https://siteguide.org.au/sites/details/192"
+  },
+  {
+    "id": "PSF-012917",
+    "ref": "pge:6824-lz",
+    "name": "Hang gliders",
+    "lat": -37.146638,
+    "lon": 145.40519,
+    "wind": {},
+    "altitude": 191.0,
+    "sources": {
+      "ansg": "lz-117",
+      "pge": "6824-lz"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:201",
+      "pge:6824"
+    ],
+    "url": "https://siteguide.org.au/sites/details/201"
+  },
+  {
+    "id": "PSF-012918",
+    "ref": "ansg:lz-118",
+    "name": "Paragliders",
+    "lat": -37.140088,
+    "lon": 145.40899,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-118"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:201"
+    ],
+    "url": "https://siteguide.org.au/sites/details/201"
+  },
+  {
+    "id": "PSF-012919",
+    "ref": "ansg:lz-119",
+    "name": "Hang gliders",
+    "lat": -36.161393,
+    "lon": 147.955791,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-119"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:205"
+    ],
+    "url": "https://siteguide.org.au/sites/details/205"
+  },
+  {
+    "id": "PSF-012920",
+    "ref": "ansg:lz-120",
+    "name": "Paragliders",
+    "lat": -36.173344,
+    "lon": 147.947505,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-120"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:205"
+    ],
+    "url": "https://siteguide.org.au/sites/details/205"
+  },
+  {
+    "id": "PSF-012921",
+    "ref": "ansg:lz-122",
+    "name": "Mt. Beauty airstrip",
+    "lat": -36.733499,
+    "lon": 147.170193,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-122"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012922",
+    "ref": "ansg:lz-124",
+    "name": "High Country Lavender airstrip",
+    "lat": -36.702923,
+    "lon": 146.956041,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-124"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-012923",
+    "ref": "ansg:lz-125",
+    "name": "NE Bombout",
+    "lat": -36.167298,
+    "lon": 148.008067,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-125"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:205"
+    ],
+    "url": "https://siteguide.org.au/sites/details/205"
+  },
+  {
+    "id": "PSF-012924",
+    "ref": "ansg:lz-128",
+    "name": "Bentley LZ Wandi",
+    "lat": -36.780569,
+    "lon": 146.982115,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-128"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-012925",
+    "ref": "ansg:lz-138",
+    "name": "Cat Motel",
+    "lat": -27.964672,
+    "lon": 153.159708,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-138"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012926",
+    "ref": "ansg:lz-143",
+    "name": "GC Model RC",
+    "lat": -28.115007,
+    "lon": 153.234124,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-143"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:18"
+    ],
+    "url": "https://siteguide.org.au/sites/details/18"
+  },
+  {
+    "id": "PSF-012927",
+    "ref": "ansg:lz-144",
+    "name": "Gordos",
+    "lat": -28.09349,
+    "lon": 153.145972,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-144"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:21"
+    ],
+    "url": "https://siteguide.org.au/sites/details/21"
+  },
+  {
+    "id": "PSF-012928",
+    "ref": "ansg:lz-147",
+    "name": "Hinchcliffe BO",
+    "lat": -28.077935,
+    "lon": 153.159538,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-147"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:21"
+    ],
+    "url": "https://siteguide.org.au/sites/details/21"
+  },
+  {
+    "id": "PSF-012929",
+    "ref": "ansg:lz-148",
+    "name": "Hinchcliffe BO - 2",
+    "lat": -28.076756,
+    "lon": 153.157124,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-148"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:21"
+    ],
+    "url": "https://siteguide.org.au/sites/details/21"
+  },
+  {
+    "id": "PSF-012930",
+    "ref": "ansg:lz-150",
+    "name": "L - Bennoble",
+    "lat": -27.995788,
+    "lon": 153.157718,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-150"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012931",
+    "ref": "ansg:lz-151",
+    "name": "L - Canungra 1",
+    "lat": -28.016047,
+    "lon": 153.164565,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-151"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012932",
+    "ref": "ansg:lz-157",
+    "name": "L - FF Far BO",
+    "lat": -28.11953,
+    "lon": 153.141192,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-157"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:20"
+    ],
+    "url": "https://siteguide.org.au/sites/details/20"
+  },
+  {
+    "id": "PSF-012933",
+    "ref": "ansg:lz-159",
+    "name": "L - Graceleigh Pk",
+    "lat": -28.123697,
+    "lon": 153.187466,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-159"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:18"
+    ],
+    "url": "https://siteguide.org.au/sites/details/18"
+  },
+  {
+    "id": "PSF-012934",
+    "ref": "ansg:lz-162",
+    "name": "Launch - Beechmont",
+    "lat": -28.118075,
+    "lon": 153.202122,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-162"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:18"
+    ],
+    "url": "https://siteguide.org.au/sites/details/18"
+  },
+  {
+    "id": "PSF-012935",
+    "ref": "ansg:lz-164",
+    "name": "Launch - Hinchcliffe",
+    "lat": -28.070472,
+    "lon": 153.145098,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-164"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:21"
+    ],
+    "url": "https://siteguide.org.au/sites/details/21"
+  },
+  {
+    "id": "PSF-012936",
+    "ref": "ansg:lz-166",
+    "name": "Long Rd",
+    "lat": -27.940401,
+    "lon": 153.192145,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-166"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012937",
+    "ref": "ansg:lz-167",
+    "name": "Model Airfield",
+    "lat": -27.9742,
+    "lon": 153.120172,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-167"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012938",
+    "ref": "ansg:lz-172",
+    "name": "Tambo Bombout",
+    "lat": -27.947919,
+    "lon": 153.157105,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-172"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012939",
+    "ref": "ansg:lz-18",
+    "name": "Landing",
+    "lat": -34.970856,
+    "lon": 149.3844,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-18"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:102"
+    ],
+    "url": "https://siteguide.org.au/sites/details/102"
+  },
+  {
+    "id": "PSF-012940",
+    "ref": "ansg:lz-186",
+    "name": "Murmungee Paraglider LZ.",
+    "lat": -36.423818,
+    "lon": 146.699048,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-186"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:208"
+    ],
+    "url": "https://siteguide.org.au/sites/details/208"
+  },
+  {
+    "id": "PSF-012941",
+    "ref": "ansg:lz-191",
+    "name": "Ray’s Landing Zone",
+    "lat": -36.41784,
+    "lon": 146.670566,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-191"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:213"
+    ],
+    "url": "https://siteguide.org.au/sites/details/213"
+  },
+  {
+    "id": "PSF-012942",
+    "ref": "ansg:lz-2",
+    "name": "East PG",
+    "lat": -30.675711,
+    "lon": 150.633384,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-2"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
+    "url": "https://siteguide.org.au/sites/details/136"
+  },
+  {
+    "id": "PSF-012943",
+    "ref": "ansg:lz-20",
+    "name": "Landing",
+    "lat": -35.08706,
+    "lon": 149.078633,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-20"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:104"
+    ],
+    "url": "https://siteguide.org.au/sites/details/104"
+  },
+  {
+    "id": "PSF-012944",
+    "ref": "pge:15461-lz",
+    "name": "Primary landing area",
+    "lat": -38.477188,
+    "lon": 145.025376,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "ansg": "lz-206",
+      "pge": "15461-lz"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:169",
+      "pge:15461"
+    ],
+    "url": "https://siteguide.org.au/sites/details/169"
+  },
+  {
+    "id": "PSF-012945",
+    "ref": "ansg:lz-207",
+    "name": "Secondary landing area",
+    "lat": -38.470539,
+    "lon": 145.027076,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-207"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:169"
+    ],
+    "url": "https://siteguide.org.au/sites/details/169"
+  },
+  {
+    "id": "PSF-012946",
+    "ref": "ansg:lz-208",
+    "name": "New LZ",
+    "lat": -37.755353,
+    "lon": 145.638316,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-208"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:204"
+    ],
+    "url": "https://siteguide.org.au/sites/details/204"
+  },
+  {
+    "id": "PSF-012947",
+    "ref": "ansg:lz-21",
+    "name": "Landing",
+    "lat": -35.223804,
+    "lon": 148.91347,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-21"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:105"
+    ],
+    "url": "https://siteguide.org.au/sites/details/105"
+  },
+  {
+    "id": "PSF-012948",
+    "ref": "ansg:lz-213",
+    "name": "Landing",
+    "lat": -16.652881,
+    "lon": 145.568321,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-213"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:8"
+    ],
+    "url": "https://siteguide.org.au/sites/details/8"
+  },
+  {
+    "id": "PSF-012949",
+    "ref": "pge:7596-lz",
+    "name": "Landing",
+    "lat": -32.357866,
+    "lon": 151.295072,
+    "wind": {},
+    "altitude": 180.0,
+    "sources": {
+      "ansg": "lz-222",
+      "pge": "7596-lz"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:109",
+      "pge:7596"
+    ],
+    "url": "https://siteguide.org.au/sites/details/109"
+  },
+  {
+    "id": "PSF-012950",
+    "ref": "ansg:lz-229",
+    "name": "Landing",
+    "lat": -38.551293,
+    "lon": 143.985186,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-229"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:160"
+    ],
+    "url": "https://siteguide.org.au/sites/details/160"
+  },
+  {
+    "id": "PSF-012951",
+    "ref": "ansg:lz-230",
+    "name": "Preferred landing",
+    "lat": -38.481588,
+    "lon": 145.016203,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-230"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:168"
+    ],
+    "url": "https://siteguide.org.au/sites/details/168"
+  },
+  {
+    "id": "PSF-012952",
+    "ref": "ansg:lz-235",
+    "name": "Ringer Reef Winery",
+    "lat": -36.689312,
+    "lon": 146.907174,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-235"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:202",
+      "ansg:253"
+    ],
+    "url": "https://siteguide.org.au/sites/details/202"
+  },
+  {
+    "id": "PSF-012953",
+    "ref": "ansg:lz-24",
+    "name": "Landing",
+    "lat": -35.480136,
+    "lon": 149.095964,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-24"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:106"
+    ],
+    "url": "https://siteguide.org.au/sites/details/106"
+  },
+  {
+    "id": "PSF-012954",
+    "ref": "ansg:lz-246",
+    "name": "Dalbosco's",
+    "lat": -36.700348,
+    "lon": 146.905177,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-246"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:202",
+      "ansg:253"
+    ],
+    "url": "https://siteguide.org.au/sites/details/202"
+  },
+  {
+    "id": "PSF-012955",
+    "ref": "pge:11487-lz",
+    "name": "Mount Blackheath Primary LZ",
+    "lat": -33.632477,
+    "lon": 150.253996,
+    "wind": {},
+    "altitude": 700.0,
+    "sources": {
+      "ansg": "lz-248",
+      "pge": "11487-lz"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:138",
+      "pge:11487"
+    ],
+    "url": "https://siteguide.org.au/sites/details/138"
+  },
+  {
+    "id": "PSF-012956",
+    "ref": "ansg:lz-26",
+    "name": "Porepunkah Airstrip",
+    "lat": -36.716989,
+    "lon": 146.890335,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-26"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:202",
+      "ansg:253"
+    ],
+    "url": "https://siteguide.org.au/sites/details/202"
+  },
+  {
+    "id": "PSF-012957",
+    "ref": "ansg:lz-265",
+    "name": "Landing",
+    "lat": -37.082723,
+    "lon": 145.178332,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-265"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:200"
+    ],
+    "url": "https://siteguide.org.au/sites/details/200"
+  },
+  {
+    "id": "PSF-012958",
+    "ref": "ansg:lz-269",
+    "name": "Hood’s LZ",
+    "lat": -36.681285,
+    "lon": 147.176161,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-269"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012959",
+    "ref": "ansg:lz-275",
+    "name": "Seymour’s LZ",
+    "lat": -36.58632,
+    "lon": 147.094541,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-275"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012960",
+    "ref": "ansg:lz-276",
+    "name": "Pat Mac's LZ",
+    "lat": -36.642935,
+    "lon": 147.125163,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-276"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012961",
+    "ref": "ansg:lz-277",
+    "name": "Tawonga Reserve",
+    "lat": -36.661379,
+    "lon": 147.134439,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-277"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012962",
+    "ref": "ansg:lz-28",
+    "name": "The Burrs",
+    "lat": -36.705227,
+    "lon": 146.853028,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-28"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:202",
+      "ansg:253"
+    ],
+    "url": "https://siteguide.org.au/sites/details/202"
+  },
+  {
+    "id": "PSF-012963",
+    "ref": "ansg:lz-290",
+    "name": "Airfield",
+    "lat": -36.182526,
+    "lon": 147.895841,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-290"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:205"
+    ],
+    "url": "https://siteguide.org.au/sites/details/205"
+  },
+  {
+    "id": "PSF-012964",
+    "ref": "ansg:lz-294",
+    "name": "MacDonald’s LZ",
+    "lat": -36.574835,
+    "lon": 147.100107,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-294"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012965",
+    "ref": "ansg:lz-296",
+    "name": "Landing",
+    "lat": -37.034053,
+    "lon": 145.991043,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-296"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:212"
+    ],
+    "url": "https://siteguide.org.au/sites/details/212"
+  },
+  {
+    "id": "PSF-012966",
+    "ref": "ansg:lz-298",
+    "name": "Landing",
+    "lat": -35.143651,
+    "lon": 149.096522,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-298"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:252"
+    ],
+    "url": "https://siteguide.org.au/sites/details/252"
+  },
+  {
+    "id": "PSF-012967",
+    "ref": "ansg:lz-299",
+    "name": "Landing",
+    "lat": -35.148761,
+    "lon": 149.09419,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-299"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:252"
+    ],
+    "url": "https://siteguide.org.au/sites/details/252"
+  },
+  {
+    "id": "PSF-012968",
+    "ref": "ansg:lz-3",
+    "name": "East HG",
+    "lat": -30.671238,
+    "lon": 150.635151,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-3"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
+    "url": "https://siteguide.org.au/sites/details/136"
+  },
+  {
+    "id": "PSF-012969",
+    "ref": "ansg:lz-30",
+    "name": "Bombout- Sheffield Rd",
+    "lat": -37.838562,
+    "lon": 145.327734,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-30"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:203"
+    ],
+    "url": "https://siteguide.org.au/sites/details/203"
+  },
+  {
+    "id": "PSF-012970",
+    "ref": "ansg:lz-31",
+    "name": "Retarding Basin",
+    "lat": -37.844366,
+    "lon": 145.315848,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-31"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:203"
+    ],
+    "url": "https://siteguide.org.au/sites/details/203"
+  },
+  {
+    "id": "PSF-012971",
+    "ref": "ansg:lz-314",
+    "name": "Bottom Landing (Mar 2023)",
+    "lat": -35.104275,
+    "lon": 149.377274,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-314"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:100",
+      "ansg:101"
+    ],
+    "url": "https://siteguide.org.au/sites/details/100"
+  },
+  {
+    "id": "PSF-012972",
+    "ref": "ansg:lz-315",
+    "name": "Main Take Off",
+    "lat": -35.103748,
+    "lon": 149.375481,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-315"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:100",
+      "ansg:101"
+    ],
+    "url": "https://siteguide.org.au/sites/details/100"
+  },
+  {
+    "id": "PSF-012973",
+    "ref": "ansg:lz-321",
+    "name": "Andrew’s LZ",
+    "lat": -36.70922,
+    "lon": 146.965619,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-321"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-012974",
+    "ref": "ansg:lz-322",
+    "name": "West Paddock",
+    "lat": -37.438331,
+    "lon": 143.810173,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-322"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:192"
+    ],
+    "url": "https://siteguide.org.au/sites/details/192"
+  },
+  {
+    "id": "PSF-012975",
+    "ref": "ansg:lz-323",
+    "name": "East Paddock",
+    "lat": -37.443068,
+    "lon": 143.829601,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-323"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:192"
+    ],
+    "url": "https://siteguide.org.au/sites/details/192"
+  },
+  {
+    "id": "PSF-012976",
+    "ref": "ansg:lz-34",
+    "name": "Mt Emu LZ - Baird's",
+    "lat": -36.701377,
+    "lon": 147.185989,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-34"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012977",
+    "ref": "ansg:lz-341",
+    "name": "Big shelf",
+    "lat": -28.12319,
+    "lon": 153.204757,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-341"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:18"
+    ],
+    "url": "https://siteguide.org.au/sites/details/18"
+  },
+  {
+    "id": "PSF-012978",
+    "ref": "ansg:lz-345",
+    "name": "Biddaddaba strip",
+    "lat": -27.960833,
+    "lon": 153.133149,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-345"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:19"
+    ],
+    "url": "https://siteguide.org.au/sites/details/19"
+  },
+  {
+    "id": "PSF-012979",
+    "ref": "ansg:lz-346",
+    "name": "GC FARMHOUSE LANDING",
+    "lat": -28.120847,
+    "lon": 153.227249,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-346"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:18"
+    ],
+    "url": "https://siteguide.org.au/sites/details/18"
+  },
+  {
+    "id": "PSF-012980",
+    "ref": "ansg:lz-356",
+    "name": "HikenFly lz",
+    "lat": -28.070694,
+    "lon": 153.164761,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-356"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:21"
+    ],
+    "url": "https://siteguide.org.au/sites/details/21"
+  },
+  {
+    "id": "PSF-012981",
+    "ref": "ansg:lz-357",
+    "name": "Deer Farm LZ",
+    "lat": -36.667833,
+    "lon": 146.861001,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-357"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:202",
+      "ansg:253"
+    ],
+    "url": "https://siteguide.org.au/sites/details/202"
+  },
+  {
+    "id": "PSF-012982",
+    "ref": "pge:14800-lz",
+    "name": "Landing",
+    "lat": -27.634445,
+    "lon": 152.148493,
+    "wind": {},
+    "altitude": 232.0,
+    "sources": {
+      "ansg": "lz-359",
+      "pge": "14800-lz"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:259",
+      "pge:14800"
+    ],
+    "url": "https://siteguide.org.au/sites/details/259"
+  },
+  {
+    "id": "PSF-012983",
+    "ref": "ansg:lz-36",
+    "name": "Alternate Mt Emu LZ - Granma Roper's",
+    "lat": -36.704171,
+    "lon": 147.166419,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-36"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:206"
+    ],
+    "url": "https://siteguide.org.au/sites/details/206"
+  },
+  {
+    "id": "PSF-012984",
+    "ref": "ansg:lz-361",
+    "name": "Landing",
+    "lat": -27.687788,
+    "lon": 152.013609,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-361"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:260"
+    ],
+    "url": "https://siteguide.org.au/sites/details/260"
+  },
+  {
+    "id": "PSF-012985",
+    "ref": "ansg:lz-364",
+    "name": "Top Landing Zone",
+    "lat": -35.105712,
+    "lon": 117.630493,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-364"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:237"
+    ],
+    "url": "https://siteguide.org.au/sites/details/237"
+  },
+  {
+    "id": "PSF-012986",
+    "ref": "ansg:lz-371",
+    "name": "Rear Landing Area",
+    "lat": -35.064583,
+    "lon": 117.794125,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-371"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:233"
+    ],
+    "url": "https://siteguide.org.au/sites/details/233"
+  },
+  {
+    "id": "PSF-012987",
+    "ref": "ansg:lz-379",
+    "name": "Damian's LZ",
+    "lat": -32.946348,
+    "lon": 151.403418,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-379"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:262"
+    ],
+    "url": "https://siteguide.org.au/sites/details/262"
+  },
+  {
+    "id": "PSF-012988",
+    "ref": "ansg:lz-380",
+    "name": "Backup LZ",
+    "lat": -32.952369,
+    "lon": 151.394688,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-380"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:262"
+    ],
+    "url": "https://siteguide.org.au/sites/details/262"
+  },
+  {
+    "id": "PSF-012989",
+    "ref": "ansg:lz-381",
+    "name": "E/SE Landing",
+    "lat": -28.305259,
+    "lon": 152.349548,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-381"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
+    "url": "https://siteguide.org.au/sites/details/263"
+  },
+  {
+    "id": "PSF-012990",
+    "ref": "ansg:lz-382",
+    "name": "W Landing",
+    "lat": -28.31462,
+    "lon": 152.309555,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-382"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
+    "url": "https://siteguide.org.au/sites/details/263"
+  },
+  {
+    "id": "PSF-012991",
+    "ref": "ansg:lz-383",
+    "name": "N Landing",
+    "lat": -28.206722,
+    "lon": 152.356372,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-383"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:263"
+    ],
+    "url": "https://siteguide.org.au/sites/details/263"
+  },
+  {
+    "id": "PSF-012992",
+    "ref": "ansg:lz-385",
+    "name": "Carmel's landing",
+    "lat": -32.945392,
+    "lon": 151.477602,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-385"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:264",
+      "ansg:265",
+      "ansg:266"
+    ],
+    "url": "https://siteguide.org.au/sites/details/264"
+  },
+  {
+    "id": "PSF-012993",
+    "ref": "ansg:lz-391",
+    "name": "Mark's",
+    "lat": -37.683604,
+    "lon": 144.382639,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-391"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:198"
+    ],
+    "url": "https://siteguide.org.au/sites/details/198"
+  },
+  {
+    "id": "PSF-012994",
+    "ref": "ansg:lz-393",
+    "name": "Shuey Two",
+    "lat": -36.753002,
+    "lon": 146.983059,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-393"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-012995",
+    "ref": "ansg:lz-394",
+    "name": "Orchard Top Landing",
+    "lat": -28.113201,
+    "lon": 153.198083,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-394"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:18"
+    ],
+    "url": "https://siteguide.org.au/sites/details/18"
+  },
+  {
+    "id": "PSF-012996",
+    "ref": "ansg:lz-400",
+    "name": "Tarrengower LZ",
+    "lat": -36.996818,
+    "lon": 144.034241,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-400"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:193"
+    ],
+    "url": "https://siteguide.org.au/sites/details/193"
+  },
+  {
+    "id": "PSF-012997",
+    "ref": "ansg:lz-403",
+    "name": "Landing",
+    "lat": -36.480591,
+    "lon": 147.075517,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-403"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:219"
+    ],
+    "url": "https://siteguide.org.au/sites/details/219"
+  },
+  {
+    "id": "PSF-012998",
+    "ref": "ansg:lz-412",
+    "name": "Short East LZ",
+    "lat": -30.681555,
+    "lon": 150.622565,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-412"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
+    "url": "https://siteguide.org.au/sites/details/136"
+  },
+  {
+    "id": "PSF-012999",
+    "ref": "ansg:lz-43",
+    "name": "Wandi Pub",
+    "lat": -36.779728,
+    "lon": 146.981339,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-43"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-013000",
+    "ref": "ansg:lz-44",
+    "name": "Shuey's LZ",
+    "lat": -36.747029,
+    "lon": 146.980399,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-44"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-013001",
+    "ref": "ansg:lz-46",
+    "name": "Mystic LZ",
+    "lat": -36.745666,
+    "lon": 146.978103,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-46"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:210"
+    ],
+    "url": "https://siteguide.org.au/sites/details/210"
+  },
+  {
+    "id": "PSF-013002",
+    "ref": "ansg:lz-5",
+    "name": "West",
+    "lat": -30.686907,
+    "lon": 150.601154,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-5"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:136"
+    ],
+    "url": "https://siteguide.org.au/sites/details/136"
+  },
+  {
+    "id": "PSF-013003",
+    "ref": "ansg:lz-59",
+    "name": "Tawonga Gap LZ - Iaria's Paddock",
+    "lat": -36.723901,
+    "lon": 147.149864,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-59"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:211"
+    ],
+    "url": "https://siteguide.org.au/sites/details/211"
+  },
+  {
+    "id": "PSF-013004",
+    "ref": "ansg:lz-62",
+    "name": "Landing",
+    "lat": -36.421367,
+    "lon": 146.620845,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-62"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:215"
+    ],
+    "url": "https://siteguide.org.au/sites/details/215"
+  },
+  {
+    "id": "PSF-013005",
+    "ref": "ansg:lz-64",
+    "name": "South Face Top Landing",
+    "lat": -34.223754,
+    "lon": 150.995896,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-64"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:132"
+    ],
+    "url": "https://siteguide.org.au/sites/details/132"
+  },
+  {
+    "id": "PSF-013006",
+    "ref": "pge:4648-lz",
+    "name": "'The Chute' Main Landing",
+    "lat": -34.229071,
+    "lon": 150.990588,
+    "wind": {},
+    "altitude": 6.0,
+    "sources": {
+      "ansg": "lz-66",
+      "pge": "4648-lz"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:132",
+      "pge:4648"
+    ],
+    "url": "https://siteguide.org.au/sites/details/132"
+  },
+  {
+    "id": "PSF-013007",
+    "ref": "ansg:lz-69",
+    "name": "Bakewell - Race Course",
+    "lat": -31.860314,
+    "lon": 116.770581,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-69"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:86"
+    ],
+    "url": "https://siteguide.org.au/sites/details/86"
+  },
+  {
+    "id": "PSF-013008",
+    "ref": "ansg:lz-71",
+    "name": "Lou's",
+    "lat": -31.851723,
+    "lon": 116.777063,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-71"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:87"
+    ],
+    "url": "https://siteguide.org.au/sites/details/87"
+  },
+  {
+    "id": "PSF-013009",
+    "ref": "ansg:lz-75",
+    "name": "Landing",
+    "lat": -34.820861,
+    "lon": 150.569952,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-75"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:135"
+    ],
+    "url": "https://siteguide.org.au/sites/details/135"
+  },
+  {
+    "id": "PSF-013010",
+    "ref": "ansg:lz-77",
+    "name": "Landing",
+    "lat": -34.57639,
+    "lon": 150.692548,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-77"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:134"
+    ],
+    "url": "https://siteguide.org.au/sites/details/134"
+  },
+  {
+    "id": "PSF-013011",
+    "ref": "ansg:lz-79",
+    "name": "Landing",
+    "lat": -36.391163,
+    "lon": 147.075745,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-79"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:219"
+    ],
+    "url": "https://siteguide.org.au/sites/details/219"
+  },
+  {
+    "id": "PSF-013012",
+    "ref": "ansg:lz-80",
+    "name": "Landing",
+    "lat": -36.3862,
+    "lon": 147.070775,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-80"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:219"
+    ],
+    "url": "https://siteguide.org.au/sites/details/219"
+  },
+  {
+    "id": "PSF-013013",
+    "ref": "ansg:lz-81",
+    "name": "Landing",
+    "lat": -36.393206,
+    "lon": 147.068961,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-81"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:219"
+    ],
+    "url": "https://siteguide.org.au/sites/details/219"
+  },
+  {
+    "id": "PSF-013014",
+    "ref": "ansg:lz-92",
+    "name": "Bombout",
+    "lat": -37.217215,
+    "lon": 143.182808,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-92"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:188",
+      "ansg:196"
+    ],
+    "url": "https://siteguide.org.au/sites/details/188"
+  },
+  {
+    "id": "PSF-013015",
+    "ref": "ansg:lz-93",
+    "name": "Warrack long bombout",
+    "lat": -37.26481,
+    "lon": 143.16388,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-93"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:188",
+      "ansg:196"
+    ],
+    "url": "https://siteguide.org.au/sites/details/188"
+  },
+  {
+    "id": "PSF-013016",
+    "ref": "ansg:lz-95",
+    "name": "Bombout",
+    "lat": -37.268376,
+    "lon": 143.36077,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-95"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:195"
+    ],
+    "url": "https://siteguide.org.au/sites/details/195"
+  },
+  {
+    "id": "PSF-013017",
+    "ref": "ansg:lz-96",
+    "name": "Landing",
+    "lat": -37.239558,
+    "lon": 143.425418,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-96"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:181"
+    ],
+    "url": "https://siteguide.org.au/sites/details/181"
+  },
+  {
+    "id": "PSF-013018",
+    "ref": "ansg:lz-97",
+    "name": "Landing",
+    "lat": -37.353182,
+    "lon": 143.263689,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-97"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:183"
+    ],
+    "url": "https://siteguide.org.au/sites/details/183"
+  },
+  {
+    "id": "PSF-013019",
+    "ref": "ansg:lz-98",
+    "name": "Landing",
+    "lat": -37.158789,
+    "lon": 143.26297,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-98"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:186"
+    ],
+    "url": "https://siteguide.org.au/sites/details/186"
+  },
+  {
+    "id": "PSF-013020",
+    "ref": "ansg:lz-99",
+    "name": "South paddock",
+    "lat": -37.593626,
+    "lon": 144.081518,
+    "wind": {},
+    "altitude": null,
+    "sources": {
+      "ansg": "lz-99"
+    },
+    "primary": "ansg",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "ansg:187"
+    ],
+    "url": "https://siteguide.org.au/sites/details/187"
+  },
+  {
+    "id": "PSF-014379",
+    "ref": "pge:10060-lz",
+    "name": "Canberra, Lanyon Landing",
+    "lat": -35.481,
+    "lon": 149.1,
+    "wind": {},
+    "altitude": 684.0,
+    "sources": {
+      "pge": "10060-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10060"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10060"
+  },
+  {
+    "id": "PSF-014391",
+    "ref": "pge:10096-lz",
+    "name": "Shelley Beach Landing",
+    "lat": -35.1093,
+    "lon": 117.63,
+    "wind": {},
+    "altitude": 6.0,
+    "sources": {
+      "pge": "10096-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10096"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10096"
+  },
+  {
+    "id": "PSF-014403",
+    "ref": "pge:10129-lz",
+    "name": "Kilcoy Landing",
+    "lat": -26.8209,
+    "lon": 152.589,
+    "wind": {},
+    "altitude": 154.0,
+    "sources": {
+      "pge": "10129-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10129"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10129"
+  },
+  {
+    "id": "PSF-014664",
+    "ref": "pge:10498-lz",
+    "name": "80 Meter Dunes Landing",
+    "lat": -33.8643,
+    "lon": 121.674,
+    "wind": {},
+    "altitude": 4.0,
+    "sources": {
+      "pge": "10498-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10498"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10498"
+  },
+  {
+    "id": "PSF-014740",
+    "ref": "pge:10625-lz",
+    "name": "Tunkalilla Beach Landing",
+    "lat": -35.6372,
+    "lon": 138.314,
+    "wind": {},
+    "altitude": 18.0,
+    "sources": {
+      "pge": "10625-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10625"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10625"
+  },
+  {
+    "id": "PSF-014847",
+    "ref": "pge:10809-lz",
+    "name": "Long Reef NE Landing",
+    "lat": -33.7413,
+    "lon": 151.315,
+    "wind": {},
+    "altitude": 22.0,
+    "sources": {
+      "pge": "10809-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10809"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10809"
+  },
+  {
+    "id": "PSF-014850",
+    "ref": "pge:10814-lz",
+    "name": "Cooks Terrace Landing",
+    "lat": -33.6851,
+    "lon": 151.309,
+    "wind": {},
+    "altitude": 12.0,
+    "sources": {
+      "pge": "10814-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10814"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10814"
+  },
+  {
+    "id": "PSF-015022",
+    "ref": "pge:11077-lz",
+    "name": "Forbes airfield Landing",
+    "lat": -33.3612,
+    "lon": 147.933,
+    "wind": {},
+    "altitude": 233.0,
+    "sources": {
+      "pge": "11077-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11077"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11077"
+  },
+  {
+    "id": "PSF-015090",
+    "ref": "pge:11177-lz",
+    "name": "Tunbridge Tiers Landing",
+    "lat": -42.1173,
+    "lon": 147.327,
+    "wind": {},
+    "altitude": 263.0,
+    "sources": {
+      "pge": "11177-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11177"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11177"
+  },
+  {
+    "id": "PSF-015208",
+    "ref": "pge:11371-lz",
+    "name": "Cape Jervis Landing",
+    "lat": -35.5933,
+    "lon": 138.108,
+    "wind": {},
+    "altitude": 10.0,
+    "sources": {
+      "pge": "11371-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11371"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11371"
+  },
+  {
+    "id": "PSF-015274",
+    "ref": "pge:11480-lz",
+    "name": "S.E Middle Brother Landing",
+    "lat": -31.7204,
+    "lon": 152.697,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "11480-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11480"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11480"
+  },
+  {
+    "id": "PSF-015275",
+    "ref": "pge:11482-lz",
+    "name": "S.W Middle Brother Landing",
+    "lat": -31.7204,
+    "lon": 152.698,
+    "wind": {},
+    "altitude": 7.0,
+    "sources": {
+      "pge": "11482-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11482"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11482"
+  },
+  {
+    "id": "PSF-015293",
+    "ref": "pge:11512-lz",
+    "name": "Strzelecki Landing",
+    "lat": -32.9433,
+    "lon": 151.765,
+    "wind": {},
+    "altitude": 5.0,
+    "sources": {
+      "pge": "11512-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11512"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11512"
+  },
+  {
+    "id": "PSF-015294",
+    "ref": "pge:11516-lz",
+    "name": "Bombala St Landing",
+    "lat": -32.9818,
+    "lon": 151.727,
+    "wind": {},
+    "altitude": 20.0,
+    "sources": {
+      "pge": "11516-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11516"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11516"
+  },
+  {
+    "id": "PSF-015395",
+    "ref": "pge:11661-lz",
+    "name": "don heads Landing",
+    "lat": -41.1575,
+    "lon": 146.314,
+    "wind": {},
+    "altitude": 57.0,
+    "sources": {
+      "pge": "11661-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11661"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11661"
+  },
+  {
+    "id": "PSF-015419",
+    "ref": "pge:11893-lz",
+    "name": "Argalong Landing",
+    "lat": -35.3178,
+    "lon": 148.348,
+    "wind": {},
+    "altitude": 354.0,
+    "sources": {
+      "pge": "11893-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11893"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11893"
+  },
+  {
+    "id": "PSF-015424",
+    "ref": "pge:11972-lz",
+    "name": "Mt Storey Landing",
+    "lat": -27.4587,
+    "lon": 151.848,
+    "wind": {},
+    "altitude": 635.0,
+    "sources": {
+      "pge": "11972-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:11972"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=11972"
+  },
+  {
+    "id": "PSF-015486",
+    "ref": "pge:12753-lz",
+    "name": "Khatabundah Landing",
+    "lat": -31.8414,
+    "lon": 152.355,
+    "wind": {},
+    "altitude": 68.0,
+    "sources": {
+      "pge": "12753-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:12753"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=12753"
+  },
+  {
+    "id": "PSF-015521",
+    "ref": "pge:13231-lz",
+    "name": "Long Flat Landing",
+    "lat": -31.435,
+    "lon": 152.487,
+    "wind": {},
+    "altitude": 46.0,
+    "sources": {
+      "pge": "13231-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:13231"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=13231"
+  },
+  {
+    "id": "PSF-015522",
+    "ref": "pge:13239-lz",
+    "name": "Honeysuckle Landing",
+    "lat": -35.1363,
+    "lon": 148.298,
+    "wind": {},
+    "altitude": 329.0,
+    "sources": {
+      "pge": "13239-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:13239"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=13239"
+  },
+  {
+    "id": "PSF-015554",
+    "ref": "pge:13704-lz",
+    "name": "Bells Beach Landing",
+    "lat": -38.7566,
+    "lon": 143.671,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "13704-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:13704"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=13704"
+  },
+  {
+    "id": "PSF-015555",
+    "ref": "pge:13715-lz",
+    "name": "Sunnyside Landing",
+    "lat": -38.2008,
+    "lon": 145.062,
+    "wind": {},
+    "altitude": 2.0,
+    "sources": {
+      "pge": "13715-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:13715"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=13715"
+  },
+  {
+    "id": "PSF-015582",
+    "ref": "pge:14014-lz",
+    "name": "Oil Refinery Cliffs (Hallett Cove) Landing",
+    "lat": -35.0898,
+    "lon": 138.488,
+    "wind": {},
+    "altitude": 25.0,
+    "sources": {
+      "pge": "14014-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:14014"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=14014"
+  },
+  {
+    "id": "PSF-015779",
+    "ref": "pge:14799-lz",
+    "name": "Middletons Landing",
+    "lat": -27.483,
+    "lon": 151.837,
+    "wind": {},
+    "altitude": 484.0,
+    "sources": {
+      "pge": "14799-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:14799"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=14799"
+  },
+  {
+    "id": "PSF-015832",
+    "ref": "pge:15042-lz",
+    "name": "Southside Landing",
+    "lat": -38.3733,
+    "lon": 144.276,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "15042-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15042"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15042"
+  },
+  {
+    "id": "PSF-015953",
+    "ref": "pge:15602-lz",
+    "name": "Lady Bay Landing",
+    "lat": -35.474,
+    "lon": 138.289,
+    "wind": {},
+    "altitude": 8.0,
+    "sources": {
+      "pge": "15602-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15602"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15602"
+  },
+  {
+    "id": "PSF-015978",
+    "ref": "pge:15639-lz",
+    "name": "The Bluff Landing",
+    "lat": -35.5911,
+    "lon": 138.601,
+    "wind": {},
+    "altitude": 37.0,
+    "sources": {
+      "pge": "15639-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15639"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15639"
+  },
+  {
+    "id": "PSF-015979",
+    "ref": "pge:15640-lz",
+    "name": "Tappanapa Landing",
+    "lat": -35.6433,
+    "lon": 138.254,
+    "wind": {},
+    "altitude": 150.0,
+    "sources": {
+      "pge": "15640-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15640"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15640"
+  },
+  {
+    "id": "PSF-015980",
+    "ref": "pge:15641-lz",
+    "name": "Blowhole Beach Landing",
+    "lat": -35.6476,
+    "lon": 138.153,
+    "wind": {},
+    "altitude": 224.0,
+    "sources": {
+      "pge": "15641-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15641"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15641"
+  },
+  {
+    "id": "PSF-015981",
+    "ref": "pge:15642-lz",
+    "name": "Sellicks Cliffs Landing",
+    "lat": -35.3363,
+    "lon": 138.446,
+    "wind": {},
+    "altitude": 16.0,
+    "sources": {
+      "pge": "15642-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15642"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15642"
+  },
+  {
+    "id": "PSF-015982",
+    "ref": "pge:15643-lz",
+    "name": "Snapper Rocks Landing",
+    "lat": -35.2695,
+    "lon": 138.449,
+    "wind": {},
+    "altitude": 8.0,
+    "sources": {
+      "pge": "15643-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15643"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15643"
+  },
+  {
+    "id": "PSF-015983",
+    "ref": "pge:15644-lz",
+    "name": "Fryer St Landing",
+    "lat": -35.0655,
+    "lon": 138.501,
+    "wind": {},
+    "altitude": 46.0,
+    "sources": {
+      "pge": "15644-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15644"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15644"
+  },
+  {
+    "id": "PSF-015984",
+    "ref": "pge:15645-lz",
+    "name": "Mount Terrible Landing",
+    "lat": -35.3025,
+    "lon": 138.517,
+    "wind": {},
+    "altitude": 162.0,
+    "sources": {
+      "pge": "15645-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15645"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15645"
+  },
+  {
+    "id": "PSF-015985",
+    "ref": "pge:15646-lz",
+    "name": "Boomer beach Landing",
+    "lat": -23.2413,
+    "lon": 10.5469,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "15646-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15646"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15646"
+  },
+  {
+    "id": "PSF-015987",
+    "ref": "pge:15649-lz",
+    "name": "S.E Bonny Hills Landing",
+    "lat": -31.6089,
+    "lon": 152.839,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "15649-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15649"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15649"
+  },
+  {
+    "id": "PSF-015988",
+    "ref": "pge:15650-lz",
+    "name": "N.E Bonny Hills Landing",
+    "lat": -31.5948,
+    "lon": 152.842,
+    "wind": {},
+    "altitude": 19.0,
+    "sources": {
+      "pge": "15650-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15650"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15650"
+  },
+  {
+    "id": "PSF-016075",
+    "ref": "pge:15933-lz",
+    "name": "Point Pass Landing",
+    "lat": -34.0351,
+    "lon": 139.034,
+    "wind": {},
+    "altitude": 415.0,
+    "sources": {
+      "pge": "15933-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15933"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15933"
+  },
+  {
+    "id": "PSF-016087",
+    "ref": "pge:15952-lz",
+    "name": "Cape Liptrap Landing",
+    "lat": -38.9048,
+    "lon": 145.92,
+    "wind": {},
+    "altitude": 90.0,
+    "sources": {
+      "pge": "15952-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15952"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15952"
+  },
+  {
+    "id": "PSF-016098",
+    "ref": "pge:15966-lz",
+    "name": "Great Missendon Landing",
+    "lat": -37.0802,
+    "lon": 145.178,
+    "wind": {},
+    "altitude": 156.0,
+    "sources": {
+      "pge": "15966-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15966"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15966"
+  },
+  {
+    "id": "PSF-016099",
+    "ref": "pge:15967-lz",
+    "name": "Mt Dandenong Landing",
+    "lat": -37.8467,
+    "lon": 145.323,
+    "wind": {},
+    "altitude": 155.0,
+    "sources": {
+      "pge": "15967-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15967"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15967"
+  },
+  {
+    "id": "PSF-016100",
+    "ref": "pge:15968-lz",
+    "name": "Donna Buang Landing",
+    "lat": -37.7512,
+    "lon": 145.651,
+    "wind": {},
+    "altitude": 135.0,
+    "sources": {
+      "pge": "15968-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:15968"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=15968"
+  },
+  {
+    "id": "PSF-016174",
+    "ref": "pge:16087-lz",
+    "name": "Flight area Landing",
+    "lat": -27.2961,
+    "lon": 152.712,
+    "wind": {},
+    "altitude": 348.0,
+    "sources": {
+      "pge": "16087-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:16087"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=16087"
+  },
+  {
+    "id": "PSF-016486",
+    "ref": "pge:17691-lz",
+    "name": "Boree Creek Landing",
+    "lat": -35.127,
+    "lon": 146.612,
+    "wind": {},
+    "altitude": 151.0,
+    "sources": {
+      "pge": "17691-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17691"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17691"
+  },
+  {
+    "id": "PSF-016487",
+    "ref": "pge:17692-lz",
+    "name": "Leeton Gliding Club Landing",
+    "lat": -34.498,
+    "lon": 146.449,
+    "wind": {},
+    "altitude": 147.0,
+    "sources": {
+      "pge": "17692-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17692"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17692"
+  },
+  {
+    "id": "PSF-016616",
+    "ref": "pge:18616-lz",
+    "name": "Broome Cable Beach Landing",
+    "lat": -17.9295,
+    "lon": 122.21,
+    "wind": {},
+    "altitude": 13.0,
+    "sources": {
+      "pge": "18616-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18616"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18616"
+  },
+  {
+    "id": "PSF-016620",
+    "ref": "pge:18622-lz",
+    "name": "Rabbit Hill Landing",
+    "lat": -33.6335,
+    "lon": 115.03,
+    "wind": {},
+    "altitude": 33.0,
+    "sources": {
+      "pge": "18622-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18622"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18622"
+  },
+  {
+    "id": "PSF-016627",
+    "ref": "pge:18680-lz",
+    "name": "Quinns Beach Launch Landing",
+    "lat": -31.6632,
+    "lon": 115.689,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "18680-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18680"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18680"
+  },
+  {
+    "id": "PSF-016629",
+    "ref": "pge:18686-lz",
+    "name": "Contos Landing",
+    "lat": -34.0836,
+    "lon": 115.003,
+    "wind": {},
+    "altitude": 15.0,
+    "sources": {
+      "pge": "18686-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18686"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18686"
+  },
+  {
+    "id": "PSF-016645",
+    "ref": "pge:18779-lz",
+    "name": "Long Reef SE Landing",
+    "lat": -33.7423,
+    "lon": 151.313,
+    "wind": {},
+    "altitude": 9.0,
+    "sources": {
+      "pge": "18779-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18779"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18779"
+  },
+  {
+    "id": "PSF-016714",
+    "ref": "pge:18871-lz",
+    "name": "Mona Vale Landing",
+    "lat": -33.6763,
+    "lon": 151.316,
+    "wind": {},
+    "altitude": 1.0,
+    "sources": {
+      "pge": "18871-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18871"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18871"
+  },
+  {
+    "id": "PSF-016717",
+    "ref": "pge:18874-lz",
+    "name": "Newport Landing",
+    "lat": -33.6513,
+    "lon": 151.324,
+    "wind": {},
+    "altitude": 3.0,
+    "sources": {
+      "pge": "18874-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:18874"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=18874"
+  },
+  {
+    "id": "PSF-017151",
+    "ref": "pge:21219-lz",
+    "name": "Long Reef Northfacing Landing",
+    "lat": -33.7392,
+    "lon": 151.309,
+    "wind": {},
+    "altitude": 9.0,
+    "sources": {
+      "pge": "21219-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21219"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21219"
+  },
+  {
+    "id": "PSF-017152",
+    "ref": "pge:21220-lz",
+    "name": "North Head Landing",
+    "lat": -33.7937,
+    "lon": 151.288,
+    "wind": {},
+    "altitude": 5.0,
+    "sources": {
+      "pge": "21220-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:21220"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=21220"
+  },
+  {
+    "id": "PSF-018069",
+    "ref": "pge:4632-lz",
+    "name": "Manilla, Mt Borah (NSW) Landing",
+    "lat": -30.6831,
+    "lon": 150.597,
+    "wind": {},
+    "altitude": 538.0,
+    "sources": {
+      "pge": "4632-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:4632"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=4632"
+  },
+  {
+    "id": "PSF-018070",
+    "ref": "pge:4642-lz",
+    "name": "Lennox Head Landing",
+    "lat": -28.8023,
+    "lon": 153.598,
+    "wind": {},
+    "altitude": 4.0,
+    "sources": {
+      "pge": "4642-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:4642"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=4642"
+  },
+  {
+    "id": "PSF-018071",
+    "ref": "pge:4649-lz",
+    "name": "Rainbow Beach Landing",
+    "lat": -25.9176,
+    "lon": 153.103,
+    "wind": {},
+    "altitude": 67.0,
+    "sources": {
+      "pge": "4649-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:4649"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=4649"
+  },
+  {
+    "id": "PSF-018072",
+    "ref": "pge:4659-lz",
+    "name": "Injidup, Margaret River WA Landing",
+    "lat": -33.7015,
+    "lon": 114.983,
+    "wind": {},
+    "altitude": 17.0,
+    "sources": {
+      "pge": "4659-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:4659"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=4659"
+  },
+  {
+    "id": "PSF-018149",
+    "ref": "pge:6595-lz",
+    "name": "Mystic (Bright) Landing",
+    "lat": -36.7493,
+    "lon": 146.98,
+    "wind": {},
+    "altitude": 341.0,
+    "sources": {
+      "pge": "6595-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6595"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6595"
+  },
+  {
+    "id": "PSF-018165",
+    "ref": "pge:6635-lz",
+    "name": "Flowerdale (3 Sisters) Landing",
+    "lat": -37.2857,
+    "lon": 145.271,
+    "wind": {},
+    "altitude": 266.0,
+    "sources": {
+      "pge": "6635-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6635"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6635"
+  },
+  {
+    "id": "PSF-018217",
+    "ref": "pge:6784-lz",
+    "name": "Peeralilla Hill Landing",
+    "lat": -35.4818,
+    "lon": 138.611,
+    "wind": {},
+    "altitude": 40.0,
+    "sources": {
+      "pge": "6784-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6784"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6784"
+  },
+  {
+    "id": "PSF-018224",
+    "ref": "pge:6802-lz",
+    "name": "Winton Landing",
+    "lat": -42.6796,
+    "lon": 147.224,
+    "wind": {},
+    "altitude": 38.0,
+    "sources": {
+      "pge": "6802-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:6802"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=6802"
+  },
+  {
+    "id": "PSF-018413",
+    "ref": "pge:7270-lz",
+    "name": "Crackneck Lookout Landing",
+    "lat": -33.3837,
+    "lon": 151.484,
+    "wind": {},
+    "altitude": 5.0,
+    "sources": {
+      "pge": "7270-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7270"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7270"
+  },
+  {
+    "id": "PSF-018502",
+    "ref": "pge:7588-lz",
+    "name": "Crommarty Hill, Forresters Beach Landing",
+    "lat": -33.4114,
+    "lon": 151.466,
+    "wind": {},
+    "altitude": 5.0,
+    "sources": {
+      "pge": "7588-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7588"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7588"
+  },
+  {
+    "id": "PSF-018506",
+    "ref": "pge:7595-lz",
+    "name": "Moonies Landing",
+    "lat": -33.1696,
+    "lon": 151.631,
+    "wind": {},
+    "altitude": 6.0,
+    "sources": {
+      "pge": "7595-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7595"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7595"
+  },
+  {
+    "id": "PSF-018508",
+    "ref": "pge:7600-lz",
+    "name": "Catherine Hill Bay Landing",
+    "lat": -33.1497,
+    "lon": 151.632,
+    "wind": {},
+    "altitude": 5.0,
+    "sources": {
+      "pge": "7600-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7600"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7600"
+  },
+  {
+    "id": "PSF-018509",
+    "ref": "pge:7606-lz",
+    "name": "North Brother Landing",
+    "lat": -31.6691,
+    "lon": 152.795,
+    "wind": {},
+    "altitude": 0.0,
+    "sources": {
+      "pge": "7606-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7606"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=7606"
   }
 ]

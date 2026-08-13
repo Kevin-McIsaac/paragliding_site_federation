@@ -16,6 +16,30 @@
       "pge": "17641"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17641"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17641"
+  },
+  {
+    "id": "PSF-016474",
+    "ref": "pge:17641-lz",
+    "name": "Isingero; Felix and Robert's place Landing",
+    "lat": -0.2839,
+    "lon": 30.5268,
+    "wind": {},
+    "altitude": 1478.0,
+    "sources": {
+      "pge": "17641-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17641"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17641"
   }
 ]

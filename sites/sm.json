@@ -15,6 +15,30 @@
       "pge": "23535"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23535"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23535"
+  },
+  {
+    "id": "PSF-017725",
+    "ref": "pge:23535-lz",
+    "name": "San Marino Landing",
+    "lat": 43.9229,
+    "lon": 12.4564,
+    "wind": {},
+    "altitude": 455.0,
+    "sources": {
+      "pge": "23535-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23535"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23535"
   }
 ]

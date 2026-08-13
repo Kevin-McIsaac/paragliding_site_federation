@@ -20,6 +20,30 @@
       "pge": "16119"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:16119"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=16119"
+  },
+  {
+    "id": "PSF-016194",
+    "ref": "pge:16119-lz",
+    "name": "Cerro Vigia Landing",
+    "lat": 8.26066,
+    "lon": -80.5161,
+    "wind": {},
+    "altitude": 9.0,
+    "sources": {
+      "pge": "16119-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:16119"
+    ],
     "url": "https://www.paraglidingearth.com/?site=16119"
   }
 ]

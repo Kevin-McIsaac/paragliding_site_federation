@@ -20,11 +20,20 @@ alike - every ref is distinct, so no Gelände holds two identically-named areas.
 A rename costs one re-key; it can never point at a different launch, which is
 the property that matters (see `CatalogRef` in the app).
 
-**Landings are dropped.** The catalogue's unit is a launch, and the guides it
-already federates carry landing coordinates as an attribute of a takeoff rather
-than as a row of their own. Emitting them would add ~1,300 rows the app would
-draw as launchable sites. Tow fields are kept — they are places you take off
-from, they are a third of the German data, and PGE carries almost none of them.
+**Landings are emitted, and joined by the Gelände rather than by distance.**
+They cannot be attached geometrically: the median gap from a landing to the
+nearest takeoff of its own Gelände is 1,672m, p90 4.2km, and only 9% fall inside
+the 250m the matcher merges at. `item=` is the only usable join, and 28.5% of
+landings sit under a Gelände holding more than one launch — so a landing belongs
+to several launches and cannot be a field on one.
+
+DHV publishes almost nothing about a landing beyond where it is: name, commune,
+altitude, and no Startrichtung on any of the 1,318. That is still the answer to
+"where am I expected to land", which the app could not give at all before.
+
+Tow fields are launches — a third of the German data, PGE carries almost none of
+them, and only 18 of 318 tow Gelände also hold a Startplatz, so treating them as
+launches creates no ambiguity with hill sites.
 """
 
 from __future__ import annotations
@@ -44,7 +53,15 @@ _TIMEOUT = 120.0
 _KML_NS = {"kml": "http://www.opengis.net/kml/2.2"}
 
 #: `styleUrl` -> whether the Fläche is somewhere you launch from.
-_LAUNCH_STYLES = ("dhv_startplatz", "dhv_schlepp")
+#: `styleUrl` -> (role, is a tow field). DHV states the type of every Fläche,
+#: which is why this adapter reads the KML rather than the GPX: measured against
+#: the KML as truth, GPX's prose markers are missing or wrong for ~14% of
+#: launches and for 300 of 355 tow fields.
+_STYLES = {
+    "dhv_startplatz": ("launch", False),
+    "dhv_schlepp": ("launch", True),
+    "dhv_landeplatz": ("landing", False),
+}
 
 _ITEM = re.compile(r"item=(\d+)")
 _WIND = re.compile(r"Startrichtung\s*([^<]*)")
@@ -106,8 +123,9 @@ def parse_kml(xml: str, country: str, bbox: BoundingBox) -> list[SiteRecord]:
 
 def _parse_placemark(placemark, country: str, bbox: BoundingBox) -> SiteRecord | None:
     style = (placemark.findtext("kml:styleUrl", "", _KML_NS) or "").lstrip("#")
-    if style not in _LAUNCH_STYLES:
+    if style not in _STYLES:
         return None
+    role, tow = _STYLES[style]
 
     description = placemark.findtext("kml:description", "", _KML_NS) or ""
     item = _ITEM.search(description)
@@ -143,7 +161,8 @@ def _parse_placemark(placemark, country: str, bbox: BoundingBox) -> SiteRecord |
         provider="dhv",
         id=f"{item.group(1)}-{slug}",
         name=name,
-        role="launch",
+        role=role,
+        tow=tow,
         lat=lat,
         lon=lon,
         # DHV publishes an arc, not a grading, so every direction is "in range"
@@ -154,5 +173,5 @@ def _parse_placemark(placemark, country: str, bbox: BoundingBox) -> SiteRecord |
         url=f"{_BASE_URL}/db2/details.php?qi=glp_details&item={item.group(1)}",
         # Every Fläche of one Gelände is a deliberate distinction, never a
         # duplicate - so they are never reported as one.
-        group_id=item.group(1),
+        group_ids=(item.group(1),),
     )

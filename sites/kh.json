@@ -16,6 +16,11 @@
       "pge": "10648"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:10648"
+    ],
     "url": "https://www.paraglidingearth.com/?site=10648"
   },
   {
@@ -33,6 +38,49 @@
       "pge": "17127"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:17127"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=17127"
+  },
+  {
+    "id": "PSF-014755",
+    "ref": "pge:10648-lz",
+    "name": "Otres hill Landing",
+    "lat": 10.6119,
+    "lon": 103.557,
+    "wind": {},
+    "altitude": 17.0,
+    "sources": {
+      "pge": "10648-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:10648"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=10648"
+  },
+  {
+    "id": "PSF-016360",
+    "ref": "pge:17127-lz",
+    "name": "Bokor Landing",
+    "lat": 10.5876,
+    "lon": 103.979,
+    "wind": {},
+    "altitude": 14.0,
+    "sources": {
+      "pge": "17127-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:17127"
+    ],
     "url": "https://www.paraglidingearth.com/?site=17127"
   }
 ]

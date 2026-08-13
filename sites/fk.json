@@ -17,6 +17,30 @@
       "pge": "23536"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23536"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=23536"
+  },
+  {
+    "id": "PSF-017726",
+    "ref": "pge:23536-lz",
+    "name": "Saunders . Mount Egmont Landing",
+    "lat": -51.3659,
+    "lon": -60.0889,
+    "wind": {},
+    "altitude": 16.0,
+    "sources": {
+      "pge": "23536-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:23536"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23536"
   }
 ]

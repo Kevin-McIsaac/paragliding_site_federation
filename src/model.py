@@ -104,13 +104,23 @@ class SiteRecord:
     # pending a council agreement, PGE has two entries that do not know that,
     # and the app showed only PGE's.
     closed: str | None = None
+    # A launch you are winched or towed from. Kept a flag rather than a third
+    # `role`, so every "is this a launch" test stays one comparison and cannot
+    # silently omit tow sites - they are a third of DHV's German data.
+    tow: bool = False
     # Sites whose published coordinates are deliberately approximate, so
     # proximity to another source is coincidence rather than evidence.
     approximate_location: bool = False
-    # The parent this record belongs to within its own source, where the
+    # The parents this record belongs to within its own source, where the
     # source has that notion. Two launches under one Site Guide site are
     # deliberately distinct, never duplicates of each other.
-    group_id: str | None = None
+    #
+    # A tuple rather than one id because a landing can serve several launches
+    # and PGE has no site above a launch to hang it from: the Lienz field is
+    # published on Zettersfeld, Hochstein and Kollnig alike, so the row that
+    # replaces those three has all three as parents. Guides with a real site
+    # concept - DHV's Gelände, Site Guide's site - always carry exactly one.
+    group_ids: tuple[str, ...] = ()
 
     @property
     def key(self) -> str:
@@ -128,6 +138,22 @@ class CanonicalSite:
     wind: dict[str, int]
     sources: dict[str, str]  # provider -> that source's id
     primary: str
+    #: "launch" or "landing". Every member of a cluster shares it - the matcher
+    #: refuses to pair records whose roles differ - so this is the cluster's.
+    role: str = "launch"
+    #: A launch you are winched or towed from. True if *any* guide says so: it
+    #: is a fact about the place, and a pilot arriving at a flat field expecting
+    #: a hill has been misled by the guide that stayed silent.
+    tow: bool = False
+    #: provider -> that guide's id for the *site* this row belongs to, in the
+    #: same shape as `sources`. A landing and its launches share a token.
+    #:
+    #: Carried because a landing cannot be attached by distance: measured over
+    #: DHV's export the median launch-to-landing gap is 1,672m and only 9% fall
+    #: within the 250m the matcher merges at. Upstream publishes the grouping
+    #: (DHV's Gelände, FFVL's site id, Site Guide's site) and it is the only
+    #: thing that can carry the relationship.
+    group: tuple[str, ...] = ()
     altitude: float | None = None
     country: str | None = None
     url: str | None = None
@@ -182,5 +208,8 @@ class CanonicalSite:
             "altitude": self.altitude,
             "sources": dict(sorted(self.sources.items())),
             "primary": self.primary,
+            "role": self.role,
+            "tow": self.tow,
+            "group": list(self.group),
             "url": self.url,
         }

@@ -14,6 +14,11 @@
       "pge": "19757"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:19757"
+    ],
     "url": "https://www.paraglidingearth.com/?site=19757"
   },
   {
@@ -28,6 +33,30 @@
       "pge": "23948"
     },
     "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23948"
+    ],
     "url": "https://www.paraglidingearth.com/?site=23948"
+  },
+  {
+    "id": "PSF-017056",
+    "ref": "pge:19757-lz",
+    "name": "Chon-Tash Landing",
+    "lat": 42.7268,
+    "lon": 74.5975,
+    "wind": {},
+    "altitude": 1222.0,
+    "sources": {
+      "pge": "19757-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:19757"
+    ],
+    "url": "https://www.paraglidingearth.com/?site=19757"
   }
 ]

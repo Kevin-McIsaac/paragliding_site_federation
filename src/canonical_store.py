@@ -57,6 +57,20 @@ CSV_COLUMNS = [
     # What a guide says about a landing, verbatim. Empty for launches: their
     # prose is long, and is looked up live when a site is opened.
     "notes",
+    # Which guide's record this row's name, wind and position were taken from.
+    #
+    # Emitted because a consumer showing a merged row alongside the guides that
+    # contributed it cannot otherwise say whose figures it is showing. The app
+    # gives each guide a tab and used to introduce the catalogue's values as
+    # "this launch as DHV records it", which was unbackable: `source` says which
+    # guides describe the launch, not which one won.
+    #
+    # Read it for exactly what selection means by it - name, wind and position.
+    # `altitude` and `notes` gap-fill from a losing guide when the winner
+    # published none, so this does not license "every field here is DHV's".
+    #
+    # Never blank: a single-source row is primary to its only guide.
+    "primary",
 ]
 
 
@@ -160,6 +174,7 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
             "1" if site.tow else "0",
             ";".join(site.group),
             _lf(site.notes or ""),
+            site.primary,
         ]
         lines.append(_csv_row(row))
     content = "\n".join(lines) + "\n"

@@ -1,6 +1,7 @@
 """Selection, the app CSV, and the review table."""
 
 import csv
+import pathlib
 
 from src.canonical_store import write_app_csv, write_sites
 from src.clustering import Cluster
@@ -73,7 +74,7 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
         "wind_n", "wind_ne", "wind_e", "wind_se",
         "wind_s", "wind_sw", "wind_w", "wind_nw",
         "source", "closed",
-        "site_type", "tow", "site_group", "notes",
+        "site_type", "tow", "site_group", "notes", "primary",
     ]
     assert rows[0]["wind_n"] == "1" and rows[0]["wind_ne"] == "2"
     assert rows[0]["source"] == "pge:1"
@@ -100,8 +101,88 @@ def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
     assert path.read_text().splitlines()[0] == (
         "id,ref,name,longitude,latitude,altitude,country,"
         "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source,closed,"
-        "site_type,tow,site_group,notes"
+        "site_type,tow,site_group,notes,primary"
     )
+
+
+def test_csv_names_the_guide_whose_record_won(tmp_path):
+    """A consumer showing a merged row beside its contributing guides has to be
+    able to say whose figures it is showing, and `source` cannot: it names every
+    guide that describes the launch, not the one selection picked.
+
+    The app gave each guide a tab and introduced the catalogue's values as "this
+    launch as DHV records it" - true on today's rows only by accident, and
+    nothing on either side would have noticed it stop being true.
+    """
+    path = tmp_path / "sites.csv"
+    au = record("ansg", "a", name="Yallingup - Rabbit Hill")
+    pge = record("pge", "1", name="Rabbit Hill")
+    write_app_csv([_select(au, pge)], path)
+
+    row = next(csv.DictReader(path.read_text().splitlines()))
+    assert row["primary"] == "ansg"
+    assert row["name"] == "Yallingup - Rabbit Hill"
+    assert set(row["source"].split(";")) == {"ansg:a", "pge:1"}
+
+
+def test_csv_primary_is_never_blank(tmp_path):
+    """A single-source row is primary to its only guide, so a consumer never has
+    to decide what an empty one means."""
+    path = tmp_path / "sites.csv"
+    write_app_csv([_select(record("pge", "1")), _select(record("dhv", "2-x"))], path)
+
+    rows = list(csv.DictReader(path.read_text().splitlines()))
+    assert [r["primary"] for r in rows] == ["pge", "dhv"] or [
+        r["primary"] for r in rows
+    ] == ["dhv", "pge"]
+    assert all(r["primary"] for r in rows)
+
+
+def test_csv_primary_does_not_claim_a_gap_filled_altitude(tmp_path):
+    """`primary` means name, wind and position - not every field on the row.
+
+    Altitude and notes fall back to a losing guide when the winner published
+    none, so a consumer reading this as "every figure here is DHV's" would state
+    something the catalogue never said. Pinned because the wording of that claim
+    lives in another repository.
+    """
+    path = tmp_path / "sites.csv"
+    winner = record("ansg", "a", altitude=None)
+    loser = record("pge", "1", altitude=436)
+    write_app_csv([_select(winner, loser)], path)
+
+    row = next(csv.DictReader(path.read_text().splitlines()))
+    assert row["primary"] == "ansg"
+    assert row["altitude"] == "436"
+
+
+def test_published_catalogue_names_a_contributing_guide_on_every_row():
+    """Over the artifact itself, not a fixture.
+
+    The app reads `primary` to say whose figures a merged row is showing. Two
+    things have to hold for that to be safe on every row, and neither is visible
+    from a two-record unit test: it is never blank, and it always names a guide
+    that actually contributed - a primary absent from `source` would have the app
+    attribute the row to a guide it never lists.
+    """
+    import io
+
+    published = pathlib.Path(__file__).resolve().parents[1] / "app/sites.csv"
+    # StringIO rather than splitlines(): guide prose contains hard line breaks,
+    # and splitlines drops the terminators, so quoted fields come back flattened.
+    rows = list(csv.DictReader(io.StringIO(published.read_text(encoding="utf-8"))))
+
+    assert len(rows) > 11000, "a sweep over nothing is not coverage"
+
+    blank = [r["ref"] for r in rows if not r.get("primary")]
+    assert not blank, f"{len(blank)} rows name no primary, e.g. {blank[:3]}"
+
+    stranded = [
+        r["ref"]
+        for r in rows
+        if r["primary"] not in {t.split(":", 1)[0] for t in r["source"].split(";") if t}
+    ]
+    assert not stranded, f"primary is not a contributor on {stranded[:3]}"
 
 
 def test_csv_writes_longitude_before_latitude(tmp_path):

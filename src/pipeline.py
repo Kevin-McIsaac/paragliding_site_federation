@@ -9,7 +9,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from src import overrides, reports
-from src.canonical_store import read_published, write_app_csv, write_sites
+from src.canonical_store import (
+    read_published,
+    write_app_csv,
+    write_guides_json,
+    write_sites,
+)
 from src.clustering import cluster
 from src.ids import IdRegistry
 from src.matcher import intra_source_pairs
@@ -64,7 +69,23 @@ def run(*, dry_run: bool, scope: str) -> int:
     if unranked:
         print(
             f"Adapters not ranked in KEY_PRECEDENCE: {', '.join(sorted(unranked))}. "
-            f"Add them to src/model.py and to CatalogRef.providerPrecedence in the app.",
+            f"Add them to src/model.py.",
+            file=sys.stderr,
+        )
+        return 1
+
+    # A guide nobody has named reaches the app as a bare `source` prefix: an
+    # unlabelled tab, no link out, no attribution. Same reasoning as the check
+    # above - the identity is the guide's own and is declared here, so a guide
+    # added without it fails the run rather than degrading quietly on a phone.
+    identity = ("label", "full_name", "homepage", "site_url_template")
+    nameless = sorted(
+        a.name for a in adapters if not all(getattr(a, field, "") for field in identity)
+    )
+    if nameless:
+        print(
+            f"Adapters missing identity: {', '.join(nameless)}. "
+            f"Every adapter must set {', '.join(identity)} - see src/sources/base.py.",
             file=sys.stderr,
         )
         return 1
@@ -117,6 +138,9 @@ def run(*, dry_run: bool, scope: str) -> int:
 
     site_counts = write_sites(sites)
     csv_changed = write_app_csv(sites)
+    # Not gated on `--dry-run`'s csv_changed reporting: it is one small file
+    # that only moves when a guide is added or renames itself.
+    write_guides_json(adapters)
     merged_changed = reports.write_merged(result.clusters)
     review_changed = reports.write_review(result.review, merged)
     overrides_changed = reports.write_overrides(decisions.entries, records, result.forced_applied)

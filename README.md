@@ -35,11 +35,15 @@ devices already store.
 | Australian National Site Guide | `ansg` | AU | public bulk export, no key |
 | DHV Geländedatenbank | `dhv` | DE, AT, CH | public per-country KML, no key |
 
-Adding one is: write the adapter, list it in `src/sources/__init__.py`, rank it
-in `model.KEY_PRECEDENCE`, and say where it is authoritative in
-`selection.NATIONAL_SCOPE`. The last two stay hand-written because they are
-decisions — which guide's id keys a launch, and which guide's content wins —
-and the pipeline refuses to run if an adapter is missing from the first of them.
+Adding one is: write the adapter, give it its identity (`label`, `full_name`,
+`homepage`, `site_url_template` — see `sources/base.py`), list it in
+`src/sources/__init__.py`, rank it in `model.KEY_PRECEDENCE`, and say where it
+is authoritative in `selection.NATIONAL_SCOPE`. The last two stay hand-written
+because they are decisions — which guide's id keys a launch, and which guide's
+content wins. The pipeline refuses to run on an adapter that is unranked *or*
+unnamed: the app renders a guide entirely from what is published about it, so an
+unnamed guide would reach a phone as a bare `source` prefix with no label, no
+link out and no attribution.
 
 Two guides that publish no usable site data, checked and rejected: **Flyland**
 (airspace only, and behind a login — DHV covers Switzerland instead) and
@@ -75,10 +79,24 @@ safety information a pilot wants at a launch site with no signal, they exist for
 guides ParaglidingEarth cannot answer for, and they are bounded - DHV publishes
 none at all, and only Site Guide's run long.
 
-There's no `url` column either:
-every source page is derivable from `source` (`pge:4632` →
-`paraglidingearth.com/?site=4632`, `siteguide_au:106-28` →
-`siteguide.org.au/sites/details/106`).
+There's no `url` column either — one page address per guide beats 18,761 copies
+of three templates, so those live in **`app/guides.json`** beside the rows.
+
+That file is the second thing published to the app, and it exists because a
+`source` token is a key, not a name: nothing in `sites.csv` says `dhv` is the
+DHV Geländedatenbank, that a pilot should see "DHV" on a tab, or where DHV's
+page for that site is. The app used to answer all three from hand-written tables,
+so a guide added here stayed nameless there until someone shipped an app release.
+
+**`{id}` in a template is the guide's id from `site_group`, not from `source`.**
+This README used to say every page was "derivable from `source`", and that was
+wrong in a way worth recording. A `source` id names the *launch*; these guides
+publish a page per *site*, and two of the three append a suffix to reach the
+launch — `pge:6824-lz`, `ansg:lz-1`. The app derived from `source` and chopped at
+the first hyphen, producing `?site=6824-lz` and `/sites/details/lz`: **4,828 of
+19,759 links were wrong**. `site_group` carries the site id for every provider on
+every row (19,759 of 19,759), so one template per guide is correct for launches
+and landings alike.
 
 `sites/<cc>.json` is the richer per-country form that lives in git for review
 and provenance.

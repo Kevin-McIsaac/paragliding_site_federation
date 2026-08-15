@@ -1,15 +1,17 @@
 """Selection, the app CSV, and the review table."""
 
 import csv
+import json
 import pathlib
 
-from src.canonical_store import write_app_csv, write_sites
+from src.canonical_store import write_app_csv, write_guides_json, write_sites
 from src.clustering import Cluster
 from src.ids import IdRegistry
 from src.clustering import ReviewItem, ReviewReason
 from src.matcher import pair_for
 from src.reports import name_similarity, render_review as render
 from src.selection import select
+from src.sources import ADAPTERS
 from tests.conftest import metres, record
 
 
@@ -353,3 +355,102 @@ def test_an_open_site_has_an_empty_closed_field(tmp_path):
     path = tmp_path / "sites.csv"
     write_app_csv([_select(record("pge", "1"))], path)
     assert list(csv.DictReader(path.read_text().splitlines()))[0]["closed"] == ""
+
+
+# ---------------------------------------------------------------------------
+# app/guides.json - who each `source` prefix is.
+# ---------------------------------------------------------------------------
+
+
+def _guides(tmp_path, adapters=None):
+    path = tmp_path / "guides.json"
+    write_guides_json(adapters if adapters is not None else ADAPTERS_INSTANCES, path)
+    return json.loads(path.read_text()), path
+
+
+ADAPTERS_INSTANCES = [adapter() for adapter in ADAPTERS]
+
+
+def test_guides_describes_every_adapter(tmp_path):
+    """A guide the pipeline fetches but never names reaches the app as a bare
+    `source` prefix - an unlabelled tab with no link out. The pipeline refuses
+    to run in that state; this is the same guarantee on the published side."""
+    guides, _ = _guides(tmp_path)
+
+    assert set(guides) == {adapter.name for adapter in ADAPTERS_INSTANCES}
+    for name, guide in guides.items():
+        assert guide["label"], name
+        assert guide["full_name"], name
+        assert guide["homepage"].startswith("https://"), name
+        assert "{id}" in guide["site_url_template"], name
+
+
+def test_guides_licence_is_stated_or_deliberately_blank(tmp_path):
+    """Blank means "this guide publishes no terms", which is the honest answer
+    for DHV's KML export and Site Guide's bulk export. What must not happen is
+    a licence *url* with no licence naming it, or the reverse - that reads as a
+    grant nobody made."""
+    guides, _ = _guides(tmp_path)
+
+    for name, guide in guides.items():
+        assert bool(guide["licence"]) == bool(guide["licence_url"]), name
+
+    assert guides["pge"]["licence"] == "CC BY-SA 3.0"
+
+
+def test_guides_is_byte_idempotent(tmp_path):
+    """Second write reports no change, so a run that federates nothing new does
+    not put a file in the pull request."""
+    _, path = _guides(tmp_path)
+    before = path.read_bytes()
+
+    assert write_guides_json(ADAPTERS_INSTANCES, path) is False
+    assert path.read_bytes() == before
+
+
+def test_guides_site_url_resolves_a_site_group_id_not_a_source_id(tmp_path):
+    """The distinction the template exists for.
+
+    A `source` id names the launch; these guides publish a page per *site*, and
+    two of the three append a suffix to reach the launch. Feeding the source id
+    in gives an address the guide does not answer on - which is exactly what the
+    app used to do, on 4,828 of 19,759 links. `site_group` holds the site id for
+    every provider on every row, so it is what `{id}` takes.
+    """
+    guides, _ = _guides(tmp_path)
+
+    # ref -> site_group id, as the published catalogue pairs them.
+    assert guides["pge"]["site_url_template"].format(id="6824") == (
+        "https://www.paraglidingearth.com/?site=6824"
+    )
+    assert guides["ansg"]["site_url_template"].format(id="136") == (
+        "https://siteguide.org.au/sites/details/136"
+    )
+    assert guides["dhv"]["site_url_template"].format(id="1443") == (
+        "https://service.dhv.de/db2/details.php?qi=glp_details&item=1443"
+    )
+
+
+def test_published_catalogue_groups_every_source_provider(tmp_path):
+    """What makes one template per guide sufficient.
+
+    Every provider naming a row in `source` must also appear in that row's
+    `site_group`, or the app has no id to put in the template and no way to link
+    out. Swept over the real file rather than a fixture: this is a property of
+    selection's group union (src/selection.py), and a regression there would be
+    invisible in a hand-built cluster.
+    """
+    path = pathlib.Path("app/sites.csv")
+    if not path.exists():  # pragma: no cover - only when run before a pipeline
+        return
+
+    def providers(field):
+        return {t.split(":", 1)[0] for t in (field or "").split(";") if ":" in t}
+
+    missing = [
+        row["ref"]
+        for row in csv.DictReader(path.read_text().splitlines())
+        if providers(row["source"]) - providers(row["site_group"])
+    ]
+
+    assert missing == []

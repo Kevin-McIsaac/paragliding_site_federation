@@ -45,6 +45,20 @@ class SiteGuideAuSource:
     # shows on its per-guide tab. The module keeps its name: this adapter is
     # for siteguide.org.au, the website, not the guide's abbreviation.
     name = "ansg"
+    label = "ANSG"
+    full_name = "Australian National Site Guide"
+    homepage = "https://siteguide.org.au"
+    #: `{id}` is the `ansg:` id in the row's `site_group` - the *site*, which is
+    #: the only thing this guide publishes a page for. A launch's own id is
+    #: `<site>-<launch>` and a landing's is `lz-<n>`, where `lz` is not an id at
+    #: all; the app used to chop both at the first hyphen, sending every landing
+    #: to `/sites/details/lz`.
+    site_url_template = "https://siteguide.org.au/sites/details/{id}"
+    #: Site Guide publishes no terms with its bulk export. See the licensing
+    #: section of the README - this is a conversation still to be had, and
+    #: claiming a licence it never granted would be worse than claiming none.
+    licence = ""
+    licence_url = ""
     bbox = AUSTRALIA_BBOX
 
     def __init__(self, *, client: httpx.Client | None = None) -> None:

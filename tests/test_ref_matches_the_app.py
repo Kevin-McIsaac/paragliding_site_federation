@@ -1,13 +1,20 @@
-"""The emitted `ref` must equal what the app's fallback would derive.
+"""`ref` names a guide that actually describes the row.
 
-The app keys on the `ref` column when a snapshot has one and falls back to its own
-`CatalogRef.fromSource` when it does not - an older bundled asset, or a snapshot
-published before the column existed. Both paths have to agree, or the same launch
-is keyed `pge:` on a fresh install and `ansg:` on an upgraded one.
+This file used to reimplement the app's `CatalogRef.fromSource` in Python and
+assert the emitted `ref` equalled it, because the app derived its own key from
+`source` whenever a snapshot had no `ref` column. Two independent statements of
+one rule, asserted equal.
 
-This reimplements the app's rule deliberately, rather than importing it: it is
-Dart, in another repository. Two independent statements of one rule that are
-asserted equal is the point - if either side is edited alone, this fails.
+The app no longer has a second statement: it requires the `ref` column and
+rejects a snapshot without one, so a launch cannot be keyed `pge:` on a fresh
+install and `ansg:` on an upgraded one. There is nothing left to mirror.
+
+What replaces it is the property the app now depends on instead. It stores `ref`
+as the key and builds one guide tab per token in `source`, so a `ref` naming a
+provider absent from `source` would key a launch to a guide the page never
+shows, and the tab would find no id to link out with. That cannot happen while
+`ref` is derived from `sources` - which is the kind of "cannot happen" worth
+sweeping the real output for.
 """
 
 import json
@@ -15,25 +22,14 @@ import pathlib
 
 SITES = pathlib.Path(__file__).resolve().parents[1] / "sites"
 
-# lib/utils/catalog_ref.dart: CatalogRef.providerPrecedence, then tokens.first.
-APP_PRECEDENCE = ("pge", "ansg", "dhv")
+
+def _tokens(sources: dict[str, str]) -> set[str]:
+    return {f"{provider}:{site_id}" for provider, site_id in sources.items()}
 
 
-def app_ref(source_tokens: dict[str, str]) -> str:
-    tokens = [f"{p}:{i}" for p, i in sorted(source_tokens.items())]
-    for provider in APP_PRECEDENCE:
-        for token in tokens:
-            if token.split(":", 1)[0] == provider:
-                return token
-    return tokens[0]
-
-
-def test_freshly_selected_sites_agree_with_the_apps_derivation():
-    """Meaningful today, unlike the sweep below - it selects rather than reading.
-
-    Covers the case the two rules could plausibly differ on: a launch both guides
-    describe, where the local guide owns the content but PGE owns the key.
-    """
+def test_a_freshly_selected_ref_is_one_of_its_own_sources():
+    """The case this could plausibly break on: a launch both guides describe,
+    where the local guide owns the content but PGE owns the key."""
     from src.clustering import Cluster
     from src.ids import IdRegistry
     from src.selection import select
@@ -46,27 +42,27 @@ def test_freshly_selected_sites_agree_with_the_apps_derivation():
     ]
     for members in clusters:
         site = select(Cluster(members=members), IdRegistry())
-        assert site.ref == app_ref(site.sources), site.sources
+        assert site.ref in _tokens(site.sources), site.sources
 
 
-def test_every_published_site_agrees_with_the_apps_derivation():
-    checked = disagreed = 0
+def test_every_published_ref_is_one_of_its_own_sources():
+    checked = 0
+    orphaned = []
     for path in sorted(SITES.glob("*.json")):
         for site in json.loads(path.read_text()):
             if "ref" not in site:
                 continue
             checked += 1
-            if site["ref"] != app_ref(site["sources"]):
-                print(f"{path.name}: {site['id']} ref={site['ref']} "
-                      f"app={app_ref(site['sources'])}")
-                disagreed += 1
+            if site["ref"] not in _tokens(site["sources"]):
+                orphaned.append(f"{path.name}: {site['id']} ref={site['ref']}")
 
-    # Announced rather than passing quietly. The committed output predates the
-    # column until the pipeline next runs, and a sweep over nothing that reports
+    # Announced rather than passing quietly. A sweep over nothing that reports
     # success is worse than no sweep - it reads as coverage.
     if checked == 0:
         import pytest
 
         pytest.skip("no published site carries a ref yet; regenerate to cover this")
 
-    assert disagreed == 0, f"{disagreed} of {checked} refs disagree with the app"
+    assert orphaned == [], (
+        f"{len(orphaned)} of {checked} refs name no contributing guide"
+    )

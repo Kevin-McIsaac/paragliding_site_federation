@@ -78,6 +78,20 @@ _UMLAUTS = str.maketrans({"ä": "ae", "ö": "oe", "ü": "ue", "ß": "ss"})
 
 class DhvSource:
     name = "dhv"
+    label = "DHV"
+    full_name = "DHV Geländedatenbank"
+    #: The browsable index, which is a different address from a site page
+    #: below - `db3/gelaende` against `db2/details.php`.
+    homepage = "https://service.dhv.de/db3/gelaende"
+    #: `{id}` is the `dhv:` id in the row's `site_group`: the Gelände. DHV has
+    #: no page per launch - every takeoff and landing on a hill shares one - so
+    #: the Gelände is the whole address, and a record's own
+    #: `<Gelände>-<slug>` id is this pipeline's key, not DHV's.
+    site_url_template = "https://service.dhv.de/db2/details.php?qi=glp_details&item={id}"
+    #: DHV publishes no terms with the Geländedaten KML export. Public and
+    #: needing no login is not a licence; see the README.
+    licence = ""
+    licence_url = ""
     #: Germany, Austria and Switzerland - a box round the Alps and north to the
     #: Baltic. DHV publishes files for most of Europe, but thinly outside these
     #: three (~140 French takeoffs against FFVL's ~2,000), where it would add

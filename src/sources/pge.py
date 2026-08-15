@@ -26,6 +26,15 @@ _LANDING_MARKERS = ("landing", "atterrissage", "landeplatz")
 
 class PgeSource:
     name = "pge"
+    label = "PGE"
+    full_name = "ParaglidingEarth"
+    homepage = "https://www.paraglidingearth.com"
+    #: `{id}` is the `pge:` id in the row's `site_group`. A landing's own id is
+    #: its takeoff's with `-lz` appended - this pipeline's invention (see
+    #: `_landing_records`), not an address PGE answers on.
+    site_url_template = "https://www.paraglidingearth.com/?site={id}"
+    licence = "CC BY-SA 3.0"
+    licence_url = "https://creativecommons.org/licenses/by-sa/3.0/"
     bbox = WORLD_BBOX
 
     def __init__(self, *, client: httpx.Client | None = None) -> None:

@@ -76,7 +76,7 @@ def test_app_csv_has_only_the_columns_the_app_needs(tmp_path):
         "wind_n", "wind_ne", "wind_e", "wind_se",
         "wind_s", "wind_sw", "wind_w", "wind_nw",
         "source", "closed",
-        "site_type", "tow", "site_group", "notes", "primary",
+        "site_type", "tow", "site_group", "primary",
     ]
     assert rows[0]["wind_n"] == "1" and rows[0]["wind_ne"] == "2"
     assert rows[0]["source"] == "pge:1"
@@ -103,7 +103,7 @@ def test_csv_header_is_pinned_to_the_apps_parser(tmp_path):
     assert path.read_text().splitlines()[0] == (
         "id,ref,name,longitude,latitude,altitude,country,"
         "wind_n,wind_ne,wind_e,wind_se,wind_s,wind_sw,wind_w,wind_nw,source,closed,"
-        "site_type,tow,site_group,notes,primary"
+        "site_type,tow,site_group,primary"
     )
 
 

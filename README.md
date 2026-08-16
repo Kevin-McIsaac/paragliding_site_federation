@@ -68,16 +68,25 @@ the PGE-only asset it replaces field for field, with `source` in the slot
 deliberate**: reordering them parses cleanly and puts every site in the wrong
 hemisphere, which no row count would catch.
 
-That's `app/sites.csv` — 12,897 launches, 428 KB gzipped.
+That's `app/sites.csv` — 18,761 rows, 684 KB gzipped.
 
 Altitude and country are carried because the app reads them in nine places.
-Rating, hazards, access notes and landowners are deliberately absent. It's looked up from the source when a user opens a site,
-so it doesn't need to ship with every install.
+Rating, hazards, access notes and landowners are deliberately absent: prose is
+looked up from the guide when a user opens a site, so it doesn't need to ship
+with every install.
 
-The one exception is `notes`, carried for **landings only**: landing rules are
-safety information a pilot wants at a launch site with no signal, they exist for
-guides ParaglidingEarth cannot answer for, and they are bounded - DHV publishes
-none at all, and only Site Guide's run long.
+**No prose at all now, including landing rules.** `notes` used to be the one
+exception, carried for landings on the argument that landing rules are safety
+information a pilot wants at a launch site with no signal. The app no longer
+shows it — a landing is a map pin and a row on its launch, both linking out to
+the guide's own page, which has the hazards and access notes this column never
+carried anyway. So it had become 2,892 rows of prose nothing read, and **19.7%
+of the gzipped catalogue** a fresh install downloads and stores: 851 KB to 684
+KB. That is a real trade, made deliberately — those rules are no longer readable
+without signal.
+
+`CanonicalSite.notes` and selection's gap-fill are unchanged. The prose is still
+in `sites/<cc>.json`, which is where it is reviewed; only the app's copy is gone.
 
 There's no `url` column either — one page address per guide beats 18,761 copies
 of three templates, so those live in **`app/guides.json`** beside the rows.

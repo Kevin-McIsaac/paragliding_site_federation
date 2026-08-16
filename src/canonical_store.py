@@ -64,9 +64,20 @@ CSV_COLUMNS = [
     # `;`-separated form as `source`. This is how a landing finds its launches;
     # distance cannot do it (median gap 1.7km).
     "site_group",
-    # What a guide says about a landing, verbatim. Empty for launches: their
-    # prose is long, and is looked up live when a site is opened.
-    "notes",
+    # No `notes` column. It carried a guide's landing prose verbatim, and was
+    # the one deliberate exception to "prose is looked up, not shipped" - the
+    # argument being that landing rules are safety information a pilot wants at
+    # a launch site with no signal.
+    #
+    # The app no longer shows it: a landing is a map pin and a row on its
+    # launch, both linking out to the guide's own page, which has the hazards
+    # and access notes this never carried anyway. So the column was 2,892 rows
+    # of prose nothing read - 19.7% of the gzipped catalogue a fresh install
+    # downloads and stores, 851 KB down to 684 KB.
+    #
+    # `CanonicalSite.notes` and selection's gap-fill are untouched: the prose is
+    # still in `sites/<cc>.json`, where it is reviewed. Only the app's copy goes.
+    #
     # Which guide's record this row's name, wind and position were taken from.
     #
     # Emitted because a consumer showing a merged row alongside the guides that
@@ -183,7 +194,6 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
             site.role,
             "1" if site.tow else "0",
             ";".join(site.group),
-            _lf(site.notes or ""),
             site.primary,
         ]
         lines.append(_csv_row(row))

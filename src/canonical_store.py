@@ -67,13 +67,15 @@ CSV_COLUMNS = [
     # No `notes` column. It carried a guide's landing prose verbatim, and was
     # the one deliberate exception to "prose is looked up, not shipped" - the
     # argument being that landing rules are safety information a pilot wants at
-    # a launch site with no signal.
+    # a launch site with no signal. That argument is void: offline is not a
+    # design constraint for this app, most launch sites have network access.
     #
-    # The app no longer shows it: a landing is a map pin and a row on its
-    # launch, both linking out to the guide's own page, which has the hazards
-    # and access notes this never carried anyway. So the column was 2,892 rows
-    # of prose nothing read - 19.7% of the gzipped catalogue a fresh install
-    # downloads and stores, 851 KB down to 684 KB.
+    # Judged on what it bought instead, the answer was nothing. The app shows a
+    # landing as a map pin and a row on its launch, both linking out to the
+    # guide's own page, which has the hazards and access notes this never
+    # carried anyway. So the column was 2,892 rows of prose nothing read -
+    # 19.7% of the gzipped catalogue a fresh install downloads and stores,
+    # 851 KB down to 684 KB.
     #
     # `CanonicalSite.notes` and selection's gap-fill are untouched: the prose is
     # still in `sites/<cc>.json`, where it is reviewed. Only the app's copy goes.

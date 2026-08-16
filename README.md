@@ -77,13 +77,15 @@ with every install.
 
 **No prose at all now, including landing rules.** `notes` used to be the one
 exception, carried for landings on the argument that landing rules are safety
-information a pilot wants at a launch site with no signal. The app no longer
-shows it — a landing is a map pin and a row on its launch, both linking out to
-the guide's own page, which has the hazards and access notes this column never
-carried anyway. So it had become 2,892 rows of prose nothing read, and **19.7%
-of the gzipped catalogue** a fresh install downloads and stores: 851 KB to 684
-KB. That is a real trade, made deliberately — those rules are no longer readable
-without signal.
+information a pilot wants at a launch site with no signal.
+
+That argument no longer holds: offline is not a design constraint for this app —
+most launch sites have network access. So the column was judged on what it
+actually bought, and the answer was nothing: the app displays a landing as a map
+pin and a row on its launch, both linking out to the guide's own page, which
+carries the hazards, access and landowner notes this column never held. 2,892
+rows of prose nothing read, and **19.7% of the gzipped catalogue** a fresh
+install downloads and stores — 851 KB to 684 KB.
 
 `CanonicalSite.notes` and selection's gap-fill are unchanged. The prose is still
 in `sites/<cc>.json`, which is where it is reviewed; only the app's copy is gone.

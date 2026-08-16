@@ -17,6 +17,8 @@ from src.model import DIRECTIONS, CanonicalSite, ref_for
 
 SITES_DIR = Path("sites")
 APP_CSV = Path("app/sites.csv")
+#: Who each `source` prefix is. See write_guides_json.
+APP_GUIDES = Path("app/guides.json")
 _UNKNOWN = "xx"
 
 # The app reads this by column *name*, so order is not load-bearing. It used
@@ -26,9 +28,17 @@ _UNKNOWN = "xx"
 # only because it matches the asset this replaced, which makes a diff between
 # two versions of the file far easier to read.
 #
-# No url column: every source page is derivable from `source`
-# (pge:4632 -> paraglidingearth.com/?site=4632,
-#  ansg:106-28 -> siteguide.org.au/sites/details/106).
+# No url column: a source page is derivable, so repeating one on every row
+# would be 18,761 copies of three templates. `app/guides.json` carries the
+# templates instead - see write_guides_json.
+#
+# This comment used to say "derivable from `source`", and that was wrong in a
+# way worth recording. A `source` id names the *launch*; these guides publish a
+# page per *site*, and two of the three append a suffix to reach the launch
+# (pge:6824-lz, ansg:lz-1). Reading the id out of `site_group` instead is right
+# for every row - `pge:6824-lz` sits in group `pge:6824`, `ansg:lz-1` in
+# `ansg:136`. The app derived from `source` and chopped at the first hyphen,
+# which produced `?site=6824-lz` and `/details/lz`: 4,828 of 19,759 links.
 CSV_COLUMNS = [
     "id",
     # The key a device stores against a flown site. Emitted rather than left for
@@ -54,9 +64,22 @@ CSV_COLUMNS = [
     # `;`-separated form as `source`. This is how a landing finds its launches;
     # distance cannot do it (median gap 1.7km).
     "site_group",
-    # What a guide says about a landing, verbatim. Empty for launches: their
-    # prose is long, and is looked up live when a site is opened.
-    "notes",
+    # No `notes` column. It carried a guide's landing prose verbatim, and was
+    # the one deliberate exception to "prose is looked up, not shipped" - the
+    # argument being that landing rules are safety information a pilot wants at
+    # a launch site with no signal. That argument is void: offline is not a
+    # design constraint for this app, most launch sites have network access.
+    #
+    # Judged on what it bought instead, the answer was nothing. The app shows a
+    # landing as a map pin and a row on its launch, both linking out to the
+    # guide's own page, which has the hazards and access notes this never
+    # carried anyway. So the column was 2,892 rows of prose nothing read -
+    # 19.7% of the gzipped catalogue a fresh install downloads and stores,
+    # 851 KB down to 684 KB.
+    #
+    # `CanonicalSite.notes` and selection's gap-fill are untouched: the prose is
+    # still in `sites/<cc>.json`, where it is reviewed. Only the app's copy goes.
+    #
     # Which guide's record this row's name, wind and position were taken from.
     #
     # Emitted because a consumer showing a merged row alongside the guides that
@@ -173,7 +196,6 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
             site.role,
             "1" if site.tow else "0",
             ";".join(site.group),
-            _lf(site.notes or ""),
             site.primary,
         ]
         lines.append(_csv_row(row))
@@ -185,6 +207,43 @@ def write_app_csv(sites: list[CanonicalSite], path: Path | None = None) -> bool:
     # "unchanged" while the bytes on disk differed, and the file was never
     # rewritten. write_text() would translate on the way out too.
     encoded = content.encode()
+    if target.exists() and target.read_bytes() == encoded:
+        return False
+    target.write_bytes(encoded)
+    return True
+
+
+def write_guides_json(adapters, path: Path | None = None) -> bool:
+    """Who each `source` prefix is, for the app to render.
+
+    A `source` token is a key, not a name: nothing in `sites.csv` says that
+    `dhv` is the DHV Geländedatenbank, that a pilot should see "DHV" on a tab,
+    or where that guide's page for the site is. The app used to answer all
+    three from hand-written tables, so a guide added here stayed nameless there
+    until someone shipped an app release for it. That is the guide describing
+    itself, so it belongs on the adapter and gets published beside the rows.
+
+    Small and slow-moving by nature - one entry per guide, three today - so it
+    is a separate file rather than columns repeated on 18,761 rows. Sorted by
+    key so a run that changes nothing writes nothing.
+    """
+    target = path or APP_GUIDES
+    target.parent.mkdir(parents=True, exist_ok=True)
+
+    guides = {
+        adapter.name: {
+            "label": adapter.label,
+            "full_name": adapter.full_name,
+            "homepage": adapter.homepage,
+            "site_url_template": adapter.site_url_template,
+            "licence": adapter.licence,
+            "licence_url": adapter.licence_url,
+        }
+        for adapter in sorted(adapters, key=lambda a: a.name)
+    }
+
+    # Same bytes-not-text comparison as write_app_csv, for the same reason.
+    encoded = (json.dumps(guides, indent=2, ensure_ascii=False) + "\n").encode()
     if target.exists() and target.read_bytes() == encoded:
         return False
     target.write_bytes(encoded)

@@ -52,10 +52,12 @@ DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 #: guide. It is deliberately not the same question as which guide's *content*
 #: wins - see `selection.NATIONAL_SCOPE` for that.
 #:
-#: The app carries an identical list as the fallback for a snapshot with no `ref`
-#: column. The two must not drift: a launch keyed `pge:` here and `ansg:` there
-#: would leave a fresh install and an upgraded one disagreeing about the same
-#: site.
+#: This list lives here alone now. The app used to carry an identical copy, to
+#: derive a key from a snapshot with no `ref` column, and two lists that "must
+#: not drift" is not a guarantee - it is a hope with a test either side of it.
+#: The app requires the `ref` column instead and rejects a snapshot without one,
+#: so there is no second place a launch can be keyed `pge:` here and `ansg:`
+#: there.
 #: `dhv` is last because it arrived last, not because it is worth less: a
 #: launch both guides describe keeps the `pge:` key devices already store, and
 #: re-keying one is a delete plus an insert that takes the pilot's favourite
@@ -183,8 +185,9 @@ class CanonicalSite:
 
         Derived from `sources`, like `numeric_id` is derived from `id`, so it
         cannot drift from the row it describes. The app used to choose this
-        itself; emitting it means one authority decides, and the app's fallback
-        rule must stay identical to [KEY_PRECEDENCE] until it can be dropped.
+        itself, then kept a copy of [KEY_PRECEDENCE] to fall back on; it now
+        requires this column and rejects a snapshot without it. So this is the
+        only place a launch is keyed, which is what emitting it was for.
 
         Note this is *not* `primary`. `primary` says whose name and wind won -
         the local guide, inside its own country. This says which id is the most

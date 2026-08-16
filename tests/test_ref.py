@@ -56,6 +56,10 @@ def test_ref_names_a_source_the_row_actually_lists():
 
 
 def test_precedence_is_ordered_most_durable_first():
-    # Pinned because the app carries an identical list as its fallback. If these
-    # two drift, a launch is keyed `pge:` on one device and `ansg:` on another.
+    # Pinned because reordering it re-keys every launch the reorder touches, and
+    # a re-key is a delete plus an insert on a device: the favourite goes with
+    # the deleted row and every reference to the old key dangles permanently,
+    # since that key is never emitted again. Nothing to do with a consumer's
+    # copy of the list - there is no longer one. The app requires the emitted
+    # `ref` and rejects a snapshot without it.
     assert KEY_PRECEDENCE == ("pge", "ansg", "dhv")

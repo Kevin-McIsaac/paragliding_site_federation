@@ -11120,8 +11120,8 @@
     "id": "PSF-010142",
     "ref": "pge:7392",
     "name": "La Muela",
-    "lat": 40.845,
-    "lon": -3.1101,
+    "lat": 40.8455,
+    "lon": -3.11249,
     "wind": {
       "N": 1,
       "NE": 1,
@@ -11132,7 +11132,7 @@
       "W": 2,
       "NW": 1
     },
-    "altitude": 950.0,
+    "altitude": 946.0,
     "sources": {
       "pge": "7392"
     },
@@ -17056,5 +17056,25 @@
     ],
     "notes": "mostly TOP-landing",
     "url": "https://www.paraglidingearth.com/?site=9918"
+  },
+  {
+    "id": "PSF-018779",
+    "ref": "pge:7392-lz",
+    "name": "La Muela Landing",
+    "lat": 40.8414,
+    "lon": -3.12319,
+    "wind": {},
+    "altitude": 713.0,
+    "sources": {
+      "pge": "7392-lz"
+    },
+    "primary": "pge",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "pge:7392"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=7392"
   }
 ]

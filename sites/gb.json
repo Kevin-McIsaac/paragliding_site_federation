@@ -15966,5 +15966,65 @@
     ],
     "notes": "It is possible to land back on the launch area. Please watch out for gliders\r\nlaunching who should be giving way to you on your landing approach.\r\nThe launch area can be very buoyant and on stronger days it is advisable to\r\nland in the field behind the windsock when not in crop.\r\nSlope landing is usually straight forward here. However, you must ensure you\r\nknow your into wind beat.",
     "url": "https://www.paraglidingearth.com/?site=9878"
+  },
+  {
+    "id": "PSF-018776",
+    "ref": "pge:23978",
+    "name": "Agnews Hill",
+    "lat": 54.8448,
+    "lon": -5.93222,
+    "wind": {},
+    "altitude": 465.0,
+    "sources": {
+      "pge": "23978"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23978"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23978"
+  },
+  {
+    "id": "PSF-018777",
+    "ref": "pge:23979",
+    "name": "Dungiven",
+    "lat": 54.9353,
+    "lon": -6.86594,
+    "wind": {},
+    "altitude": 410.0,
+    "sources": {
+      "pge": "23979"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23979"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23979"
+  },
+  {
+    "id": "PSF-018778",
+    "ref": "pge:23980",
+    "name": "Magillian",
+    "lat": 55.1546,
+    "lon": -6.86203,
+    "wind": {},
+    "altitude": 185.0,
+    "sources": {
+      "pge": "23980"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23980"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23980"
   }
 ]

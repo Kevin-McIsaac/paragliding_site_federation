@@ -10160,7 +10160,7 @@ Northern Rivers Hang Gliding and Paragliding Club",launch,0,ansg:255;pge:4642,an
 10139,pge:7388,Pichincha,-78.525300,-0.166000,3840,ec,0,1,2,0,0,0,0,0,pge:7388,,launch,0,pge:7388,pge
 10140,pge:7389,Kijabe,36.546000,-0.911000,2615,ke,0,0,2,2,2,2,2,2,pge:7389,,launch,0,pge:7389,pge
 10141,pge:7391,Daniels,-78.512000,38.310500,498,us,0,0,0,0,2,2,0,0,pge:7391,,launch,0,pge:7391,pge
-10142,pge:7392,La Muela,-3.110100,40.845000,950,es,1,1,1,1,1,2,2,1,pge:7392,,launch,0,pge:7392,pge
+10142,pge:7392,La Muela,-3.112490,40.845500,946,es,1,1,1,1,1,2,2,1,pge:7392,,launch,0,pge:7392,pge
 10143,pge:7393,Kaaikop,-74.189000,46.227800,825,ca,0,0,0,0,0,1,2,1,pge:7393,,launch,0,pge:7393,pge
 10144,pge:7394,"Hu To San, Tigerhead Mtn",120.989000,23.963600,479,tw,1,0,0,0,1,1,2,2,pge:7394,,launch,0,pge:7394,pge
 10145,pge:7395,Jangas,-77.587700,-9.429380,3552,pe,0,1,1,1,0,0,0,0,pge:7395,,launch,0,pge:7395,pge
@@ -18802,3 +18802,7 @@ In 2010, the VHPA applied for an exemption for this site. CASA declined, stating
 18773,pge:9997-lz,Tome Landing,-72.957900,-36.635300,10,cl,0,0,0,0,0,0,0,0,pge:9997-lz,,landing,0,pge:9997,pge
 18774,pge:9998-lz,Coliumo Landing,-72.976100,-36.551500,18,cl,0,0,0,0,0,0,0,0,pge:9998-lz,,landing,0,pge:9998,pge
 18775,pge:9999-lz,Silveira Martins Leste Landing,-53.460500,-29.621300,95,br,0,0,0,0,0,0,0,0,pge:9999-lz,,landing,0,pge:9999,pge
+18776,pge:23978,Agnews Hill,-5.932220,54.844800,465,gb,0,0,0,0,0,0,0,0,pge:23978,,launch,0,pge:23978,pge
+18777,pge:23979,Dungiven,-6.865940,54.935300,410,gb,0,0,0,0,0,0,0,0,pge:23979,,launch,0,pge:23979,pge
+18778,pge:23980,Magillian,-6.862030,55.154600,185,gb,0,0,0,0,0,0,0,0,pge:23980,,launch,0,pge:23980,pge
+18779,pge:7392-lz,La Muela Landing,-3.123190,40.841400,713,es,0,0,0,0,0,0,0,0,pge:7392-lz,,landing,0,pge:7392,pge

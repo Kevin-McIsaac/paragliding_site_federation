@@ -62,4 +62,4 @@ def test_precedence_is_ordered_most_durable_first():
     # since that key is never emitted again. Nothing to do with a consumer's
     # copy of the list - there is no longer one. The app requires the emitted
     # `ref` and rejects a snapshot without it.
-    assert KEY_PRECEDENCE == ("pge", "ansg", "dhv")
+    assert KEY_PRECEDENCE == ("pge", "ansg", "dhv", "ffvl")

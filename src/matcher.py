@@ -20,6 +20,17 @@ only 49 in 200-250m, and a second candidate is inside the threshold for just
 0-2% of them - so merges here are decided by clearly-coincident coordinates,
 not by where the line happens to fall. 250m was kept.
 
+Re-measured against FFVL before adding it, the same way
+(`python -m scripts.calibrate ffvl fr gp mq gf re pf nc`, run against the
+2022-12 export while the API key is pending): 1,001 launches against 1,121 of
+PGE's in France and the DOM, 376 within 50m, a second candidate inside the
+threshold for 2%. Same shape again - but 21 pairs sit at 250-300m and several
+of those plainly name one hill ("Le Bouant" ~ "Le Bouant" at 254m, "Mont
+Pejus" ~ "Mont pejus" at 269m), the same temptation the DHV re-measure argued
+down. 250m stays: an under-merge shows up in review.md, an over-merge deletes
+a name. FFVL's coordinates there are from 2022, so re-run the calibration on
+the first live fetch before reading anything into drift.
+
 The caveat, from the runs that included it: 169 DHV pairs land in the
 250-400m review band, 71 of them naming the same place to 80% or better. Some
 of those are real under-merges; the rest are DHV resolving several takeoffs on

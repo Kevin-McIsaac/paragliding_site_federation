@@ -4,11 +4,13 @@ from __future__ import annotations
 
 import argparse
 import json
+import logging
 import sys
+from dataclasses import replace
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src import overrides, reports
+from src import elevation, overrides, reports
 from src.canonical_store import (
     read_published,
     write_app_csv,
@@ -19,7 +21,7 @@ from src.clustering import cluster
 from src.ids import IdRegistry
 from src.matcher import intra_source_pairs
 from src.matcher import pairs as build_pairs
-from src.model import AUSTRALIA_BBOX, KEY_PRECEDENCE, WORLD_BBOX, intersect
+from src.model import AUSTRALIA_BBOX, KEY_PRECEDENCE, WORLD_BBOX, CanonicalSite, intersect
 from src.run_summary import (
     SourceStats,
     build_pr,
@@ -31,6 +33,45 @@ from src.sources import ADAPTERS
 
 STATE_PATH = Path("state/last_run.json")
 PR_OUTPUT_DIR = Path(".pr")
+
+LOGGER = logging.getLogger(__name__)
+
+
+def _fill_ansg_altitudes(sites: list[CanonicalSite]) -> list[CanonicalSite]:
+    """DEM altitudes for ANSG launches no guide states an altitude for (#8).
+
+    Site Guide's `height` is sometimes only a height above the ground, which
+    the parser now refuses to publish as a sea-level figure, and PGE has no
+    record for some of those launches - so the row would publish no altitude
+    at all. Open-Meteo's DEM is the last resort, after the guide's own
+    `asl`/`amsl` figure and another member's altitude: a 90 m terrain grid
+    reads the hillside rather than the pad. Restricted to `ansg` launches;
+    the other guides' absent altitudes are their curation, not a gap we fill,
+    and landings are left alone because their altitude feeds the app's
+    launch-minus-landing drop, a decision of its own.
+    """
+    missing = {
+        (site.lat, site.lon): site
+        for site in sites
+        if site.altitude is None
+        and site.role == "launch"
+        and "ansg" in site.sources
+    }
+    if not missing:
+        return sites
+    resolved = elevation.amsl_for_coordinates(list(missing))
+    filled = [
+        replace(site, altitude=round(resolved[coord], 1))
+        if (coord := (site.lat, site.lon)) in resolved and site.altitude is None
+        else site
+        for site in sites
+    ]
+    LOGGER.info(
+        "DEM filled %d of %d missing ANSG altitudes",
+        sum(1 for a, b in zip(sites, filled) if a.altitude != b.altitude),
+        len(missing),
+    )
+    return filled
 
 
 def _load_state() -> dict:
@@ -125,6 +166,7 @@ def run(*, dry_run: bool, scope: str) -> int:
 
     registry = IdRegistry.load()
     sites = [select(c, registry) for c in sorted(result.clusters, key=lambda c: sorted(c.keys)[0])]
+    sites = _fill_ansg_altitudes(sites)
     no_wind = sum(1 for s in sites if not s.wind)
 
     output_health = check_output_health(sites, read_published())

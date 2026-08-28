@@ -83,6 +83,15 @@ hemisphere, which no row count would catch.
 That's `app/sites.csv` — 18,761 rows, 684 KB gzipped.
 
 Altitude and country are carried because the app reads them in nine places.
+Where it comes from, in order: the guide's own `asl`/`amsl` figure, then
+another guide's altitude for the same launch (PGE's takeoff altitude), then the
+Copernicus DEM GLO-90 for Site Guide launches nothing else covers. The
+label matters because Site Guide's `height` is free text that lists
+heights-above-ground first as often as not ("3100' / 945m agl; 3540' / 1080m
+asl") — parsing goes by the label, so an `agl`-only value publishes nothing
+rather than an AMSL off by the height of the hill. Landings stay bare: their
+altitude feeds the app's launch-minus-landing drop, which is a decision of its
+own.
 Rating, hazards, access notes and landowners are deliberately absent: prose is
 looked up from the guide when a user opens a site, so it doesn't need to ship
 with every install.
@@ -233,11 +242,18 @@ redistribution.
       published until the key arrives, so nothing is redistributed in the
       meantime.
 
+The DEM fallback is not a site guide but terrain data: [Copernicus DEM
+GLO-90](https://spacedata.copernicus.eu/web/cscda/data-access) (© ESA,
+[CC BY 4.0](https://spacedata.copernicus.eu/documents/20124/0/Copernicus+DEM+Dataset+Access+License)), read in batches through
+[Open-Meteo's elevation API](https://open-meteo.com/en/docs/elevation-api).
+It fills only ANSG launches no guide states an altitude for, and a run where
+the API is unreachable simply publishes those rows without an altitude.
+
 ## Running locally
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 189 tests, no network
+pytest                                        # 217 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)

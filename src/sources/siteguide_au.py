@@ -183,7 +183,23 @@ def _centroid(coordinates_list: list[str]) -> tuple[float, float] | None:
 
 _METRES = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*m\b", re.IGNORECASE)
 _FEET = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*(?:ft|')", re.IGNORECASE)
+#: Whole words only, and the alternation tries `msl` before `sl` because
+#: `asl` is a substring of `amsl`.
+_GROUND_OR_SEA = re.compile(r"\ba(?:msl|sl|gl)\b", re.IGNORECASE)
+#: One piece per figure pair - "950m / 3100' ASL" is one, split from the next
+#: by a semicolon or a comma. A comma between digits is a thousands separator
+#: ("2,450ft"), not a piece boundary.
+_PIECES = re.compile(r"(?<!\d),(?!\d)|;")
 _FEET_TO_M = 0.3048
+
+
+def _first_figure(text: str) -> float | None:
+    """The first figure in `text`, metres preferred, feet converted."""
+    if match := _METRES.search(text):
+        return float(match.group(1).replace(",", ""))
+    if match := _FEET.search(text):
+        return round(float(match.group(1).replace(",", "")) * _FEET_TO_M, 1)
+    return None
 
 
 def _parse_height(value) -> float | None:
@@ -191,10 +207,17 @@ def _parse_height(value) -> float | None:
 
     Every one of the 220 non-null values observed pairs feet with metres in
     some order - "280'/85m asl, 250' agl", "2,450ft / 750m ASL", "55m / 170ft".
-    The first metre figure is taken because above-sea-level is conventionally
-    listed before above-ground-level, and ASL is what PGE's takeoff_altitude
-    means, so the two are comparable. Feet are only used if no metre figure is
-    given at all.
+    Each semicolon- or comma-separated piece describes one height and may
+    carry the label saying what it is a height of, so the label decides, not
+    the position: the first `asl`/`amsl` piece is the launch's altitude,
+    wherever it sits (22 of 219 values list `agl` first - see issue #8; a
+    piece may also state the same height twice, "950m / 3100' ASL", and then
+    the metre figure is read). A value labelled only `agl` is a height above
+    the ground, not a sea-level figure at all, so nothing is returned and
+    `select()` falls back to another guide's altitude, then the DEM.
+    Unlabelled values keep the first-metre-figure reading, which is what the
+    remaining 176 rely on; spelled-out forms ("above ground level") read as
+    unlabelled, as before.
     """
     if value is None:
         return None
@@ -202,11 +225,18 @@ def _parse_height(value) -> float | None:
         return float(value)
 
     text = str(value)
-    if match := _METRES.search(text):
-        return float(match.group(1).replace(",", ""))
-    if match := _FEET.search(text):
-        return round(float(match.group(1).replace(",", "")) * _FEET_TO_M, 1)
-    return None
+    labelled = [
+        (piece, kind.group(0).lower())
+        for piece in _PIECES.split(text)
+        if (kind := _GROUND_OR_SEA.search(piece))
+    ]
+    asl = [piece for piece, kind in labelled if kind != "agl"]
+    if asl:
+        with_metres = [piece for piece in asl if _METRES.search(piece)]
+        return _first_figure(with_metres[0] if with_metres else asl[0])
+    if labelled:
+        return None
+    return _first_figure(text)
 
 
 def _text(value) -> str | None:

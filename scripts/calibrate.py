@@ -38,7 +38,7 @@ import sys
 from collections import Counter
 
 from src.matcher import MERGE_DISTANCE_M, REVIEW_DISTANCE_M, haversine_m
-from src.model import intersect
+from src.model import BoundingBox, intersect
 from src.sources import ADAPTERS
 
 _BANDS = ((0, 50), (50, 100), (100, 150), (150, 200), (200, 250),
@@ -55,9 +55,15 @@ def _counterparts(subject, countries: list[str]) -> list[tuple[str, float, float
         scoped = intersect(adapter_cls.bbox, subject.bbox)
         if scoped is None:
             continue
-        for r in adapter_cls().fetch(scoped):
-            if r.role == "launch" and r.country in wanted:
-                sites.append((f"{r.provider} {r.name}", r.lat, r.lon))
+        adapter = adapter_cls()
+        # The subject's coverage may be a tuple of boxes (FFVL's métropole
+        # plus its DOM); the counterpart is fetched per overlap, because a
+        # single box is all any other adapter's API can be asked for.
+        boxes = (scoped,) if isinstance(scoped, BoundingBox) else scoped
+        for box in boxes:
+            for r in adapter.fetch(box):
+                if r.role == "launch" and r.country in wanted:
+                    sites.append((f"{r.provider} {r.name}", r.lat, r.lon))
     return sites
 
 

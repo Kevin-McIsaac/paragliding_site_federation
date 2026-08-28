@@ -12,6 +12,7 @@ from src.matcher import pair_for
 from src.reports import name_similarity, render_review as render
 from src.selection import select
 from src.sources import ADAPTERS
+from src.sources.ffvl import FfvlSource
 from tests.conftest import metres, record
 
 
@@ -368,7 +369,10 @@ def _guides(tmp_path, adapters=None):
     return json.loads(path.read_text()), path
 
 
-ADAPTERS_INSTANCES = [adapter() for adapter in ADAPTERS]
+# FFVL is not in ADAPTERS until its API key exists - the activation commit is
+# deliberately last - but everything it publishes must already satisfy the
+# same identity gates, so it joins these instances by hand.
+ADAPTERS_INSTANCES = [adapter() for adapter in ADAPTERS] + [FfvlSource()]
 
 
 def test_guides_describes_every_adapter(tmp_path):
@@ -428,6 +432,11 @@ def test_guides_site_url_resolves_a_site_group_id_not_a_source_id(tmp_path):
     )
     assert guides["dhv"]["site_url_template"].format(id="1443") == (
         "https://service.dhv.de/db2/details.php?qi=glp_details&item=1443"
+    )
+    # Not yet in ADAPTERS - fetched only once FFVL grants the key - but its
+    # template ships with the rest, `{id}` taking the terrain id.
+    assert guides["ffvl"]["site_url_template"].format(id="73050") == (
+        "https://federation.ffvl.fr/sites_pratique/voir/73050"
     )
 
 

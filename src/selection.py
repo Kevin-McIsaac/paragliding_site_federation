@@ -32,7 +32,14 @@ LOGGER = logging.getLogger(__name__)
 #: the order then has to be a decision rather than a coincidence - it used to
 #: fall out of `sorted` on the provider name, so `aaa` would have outranked
 #: `ansg` for no reason anyone chose.
-NATIONAL_SCOPE: dict[str, list[str]] = {"ansg": ["AU"], "dhv": ["DE", "AT", "CH"]}
+NATIONAL_SCOPE: dict[str, list[str]] = {
+    "ansg": ["AU"],
+    "dhv": ["DE", "AT", "CH"],
+    # Exactly the countries FFVL's postcode mapping can emit - métropole plus
+    # the overseas collectivities. A country a guide can produce but is not
+    # ranked in here would leave its rows unranked, keyed by no decision.
+    "ffvl": ["FR", "GP", "MQ", "GF", "RE", "PM", "YT", "WF", "PF", "NC"],
+}
 _FALLBACK_ORDER = ("pge",)
 
 

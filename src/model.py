@@ -13,7 +13,7 @@ matches, and sharding output by country - not because the app needs them.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import NamedTuple
+from typing import NamedTuple, Tuple, Union
 
 
 class BoundingBox(NamedTuple):
@@ -27,15 +27,38 @@ WORLD_BBOX = BoundingBox(south=-90.0, west=-180.0, north=90.0, east=180.0)
 AUSTRALIA_BBOX = BoundingBox(south=-44.0, west=112.0, north=-10.0, east=154.0)
 
 
-def intersect(a: BoundingBox, b: BoundingBox) -> BoundingBox | None:
-    """The area both boxes cover, or None if they do not overlap.
+#: The extent a guide publishes: one box, or a tuple of them when its coverage
+#: is discontiguous - FFVL publishes the métropole plus scattered DOM, and a
+#: single box spanning both would swallow Australia and break `--scope au`.
+Coverage = Union[BoundingBox, Tuple["BoundingBox", ...]]
+
+
+def intersect(a: Coverage, b: Coverage) -> Coverage | None:
+    """The area both cover, or None if they do not overlap.
 
     An adapter declares the extent it publishes and the run declares the extent
     it wants; the fetch is the overlap. None means "this source has nothing to
     say about this run", which is a skip rather than an empty fetch - a source
     that returned zero records would otherwise read as an outage to the health
     gate, which is exactly the confusion `--scope au` used to cause.
+
+    Either side may be a *tuple* of boxes. The scope is then every overlapping
+    member as a tuple, or None when none of them overlap - so a discontiguous
+    guide still skips a run that wants none of its islands. The result of a
+    tuple scope is a tuple, and whatever receives it must treat it as "inside
+    any of these boxes". A single-box scope stays a single box, which is the
+    only shape the other adapters' fetches know.
     """
+    if not isinstance(a, BoundingBox):
+        overlaps = tuple(
+            scoped for box in a if (scoped := intersect(box, b)) is not None
+        )
+        return overlaps or None
+    if not isinstance(b, BoundingBox):
+        overlaps = tuple(
+            scoped for box in b if (scoped := intersect(a, box)) is not None
+        )
+        return overlaps or None
     south, west = max(a.south, b.south), max(a.west, b.west)
     north, east = min(a.north, b.north), min(a.east, b.east)
     if south >= north or west >= east:
@@ -61,8 +84,9 @@ DIRECTIONS = ("N", "NE", "E", "SE", "S", "SW", "W", "NW")
 #: `dhv` is last because it arrived last, not because it is worth less: a
 #: launch both guides describe keeps the `pge:` key devices already store, and
 #: re-keying one is a delete plus an insert that takes the pilot's favourite
-#: with it.
-KEY_PRECEDENCE = ("pge", "ansg", "dhv")
+#: with it. So is `ffvl`: France is 100% `pge:`-keyed in the published
+#: catalogue, so appending keeps every ref a device already stores.
+KEY_PRECEDENCE = ("pge", "ansg", "dhv", "ffvl")
 
 
 def ref_for(sources: dict[str, str]) -> str:

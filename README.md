@@ -34,6 +34,7 @@ devices already store.
 | ParaglidingEarth | `pge` | worldwide | public GeoJSON API, no key |
 | Australian National Site Guide | `ansg` | AU | public bulk export, no key |
 | DHV Geländedatenbank | `dhv` | DE, AT, CH | public per-country KML, no key |
+| Fédération Française de Vol Libre | `ffvl` | FR + DOM | built and ranked; bulk file behind an API key not yet granted |
 
 Adding one is: write the adapter, give it its identity (`label`, `full_name`,
 `homepage`, `site_url_template` — see `sources/base.py`), list it in
@@ -48,8 +49,19 @@ link out and no attribution.
 Two guides that publish no usable site data, checked and rejected: **Flyland**
 (airspace only, and behind a login — DHV covers Switzerland instead) and
 **BHPA** (clubs and schools, not flying sites; UK site data lives with
-individual clubs). **FFVL** is next and does publish a good API, but its key
-must be authorised per application (`informatique@ffvl.fr`).
+individual clubs).
+
+**FFVL** is built and ranked but not yet fetching: everything is in place
+(adapter, tests, offline calibration) except the key. `data.ffvl.fr` answers
+its bulk sites file with a gate notice; an API key is requested per
+application from `informatique@ffvl.fr`, and new requests have been suspended
+at times. The fetch sends `FFVL_API_KEY` when it is set and fails loudly with
+the gate notice when it is not — it never publishes an empty catalogue. Until
+the key arrives the adapter is deliberately not registered in
+`src/sources/__init__.py`, so the weekly run is untouched; activation is one
+registration line plus the `FFVL_API_KEY` secret, then a live run. The
+app's existing FFVL key (weather beacons) is a different credential and does
+not unlock this file.
 
 PGE is treated as one source among peers, not as the spine. The output *is*
 the dataset.
@@ -216,17 +228,23 @@ redistribution.
       KML export is public and needs no login, but DHV publishes no terms with
       it, so this is a conversation rather than a licence to read
       (`gelaendeinfo@dhv.de`).
+- [ ] FFVL — terms unknown; the adapter ships a blank licence and the key
+      application to `informatique@ffvl.fr` asks for them. No FFVL rows are
+      published until the key arrives, so nothing is redistributed in the
+      meantime.
 
 ## Running locally
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 143 tests, no network
+pytest                                        # 189 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)
 
 python -m scripts.calibrate dhv de at ch      # is 250m right for a new guide?
+FFVL_SITES_PATH=<file> python -m scripts.calibrate ffvl fr gp mq gf re pf nc
+                                              # FFVL, offline via a saved export
 ```
 
 ## CI

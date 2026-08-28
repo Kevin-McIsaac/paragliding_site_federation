@@ -60,6 +60,12 @@ class SourceAdapter(Protocol):
     #: rather than by the caller: the pipeline used to hard-code
     #: `AUSTRALIA_BBOX` beside the Site Guide fetch, which put one source's
     #: geography in a file that knows nothing about it.
+    #:
+    #: A guide whose coverage is discontiguous - FFVL's métropole plus its
+    #: scattered DOM - declares a *tuple* of boxes instead; `model.intersect`
+    #: scopes it member-wise and a run that wants none of its islands skips
+    #: it. The adapter's own fetch and parse then must treat the scope as
+    #: "inside any of these boxes".
     bbox: BoundingBox
 
     def fetch(self, bbox: BoundingBox) -> list[SiteRecord]:

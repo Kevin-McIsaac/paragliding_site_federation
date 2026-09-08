@@ -1,0 +1,299 @@
+site_ref,site_name,site_lat,site_lon,site_alt,obs_source,obs_station_id,obs_station_url,obs_station_distance_m,obs_station_tier,obs_station_qc,obs_station_last_obs_epoch,generated_utc
+ansg:10-7,Eungella - Chalet,-21.132771,148.493093,660,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:101-206,Lake George (South Launch),-35.103600,149.375200,730,wu-pws,ILAKEG1,https://www.wunderground.com/dashboard/pws/ILAKEG1,513,nearby,1,1788780800,2026-09-08T08:54:44Z
+ansg:102-25,Lake George (Collector) - Launch,-34.969920,149.374780,910,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:103-208,Honeysuckle - Launch 2,-35.130090,148.316650,685,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:103-329,Honeysuckle - Launch 1,-35.125810,148.314520,685,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:11-9,Rainbow Beach - Carlo Sand Blow,-25.914800,153.099600,90,wu-pws,IRAINB24,https://www.wunderground.com/dashboard/pws/IRAINB24,1369,nearby,-1,1788789504,2026-09-08T08:54:44Z
+ansg:114-114,Crescent Head - S launch,-31.193230,152.976900,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:114-115,Crescent Head - E launch,-31.192960,152.980260,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:116-223,Harrys Lookout,-31.456000,152.931000,35,wu-pws,IPORTM83,https://www.wunderground.com/dashboard/pws/IPORTM83,625,nearby,1,1788804864,2026-09-08T08:54:44Z
+ansg:120-226,Rocky Beach,-31.439330,152.924940,,wu-pws,IPORTM205,https://www.wunderground.com/dashboard/pws/IPORTM205,1495,nearby,1,1788783872,2026-09-08T08:54:44Z
+ansg:121-228,Nellies,-31.710800,152.506700,515,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:125-30,Mona Vale,-33.671760,151.317830,20,wu-pws,ISYDNE3259,https://www.wunderground.com/dashboard/pws/ISYDNE3259,250,nearby,1,1788772736,2026-09-08T08:54:44Z
+ansg:128-33,Turimetta,-33.696500,151.310200,20,wu-pws,ISYDNE4395,https://www.wunderground.com/dashboard/pws/ISYDNE4395,478,nearby,-1,1788777088,2026-09-08T08:54:44Z
+ansg:131-215,Bungan,-33.671370,151.318370,30,wu-pws,ISYDNE3259,https://www.wunderground.com/dashboard/pws/ISYDNE3259,294,nearby,1,1788772736,2026-09-08T08:54:44Z
+ansg:132-113,Stanwell Park - Bald Hill - East Launch,-34.222720,150.998560,180,wu-pws,ISTANW4,https://www.wunderground.com/dashboard/pws/ISTANW4,1443,nearby,1,1788836352,2026-09-08T08:54:44Z
+ansg:134-182,Tongarra,-34.600260,150.679370,620,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:135-183,Cambewarra,-34.800420,150.577320,680,wu-pws,IBEAUM82,https://www.wunderground.com/dashboard/pws/IBEAUM82,1404,nearby,1,1788769408,2026-09-08T08:54:44Z
+ansg:136-21,Manilla - Mt Borah - East launch,-30.679300,150.611600,880,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:136-22,Manilla - Mt Borah - South launch,-30.679900,150.610300,880,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:136-23,Manilla - Mt Borah - Northeast launch,-30.672800,150.615600,880,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:137-191,Conargo (Deniliquin) - Conargo Tow Strip,-35.315700,145.162200,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:137-192,Conargo (Deniliquin) - Conargo North Tow Strip,-35.280300,145.172700,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:137-193,Conargo (Deniliquin) - Pretty Pine Tow Strip,-35.342000,144.849400,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:138-251,Mt Blackheath - North ramp,-33.641930,150.246030,1040,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:140-253,Sofala,-33.100000,149.800000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:144-38,Bells Beach - Jarosite,-38.374960,144.269340,35,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:146-42,Barwon Heads (13th Beach) - HG launch 40W,-38.281330,144.439100,,wu-pws,ICONNE23,https://www.wunderground.com/dashboard/pws/ICONNE23,1260,nearby,-1,1788816384,2026-09-08T08:54:44Z
+ansg:15-235,Point Cartwright,-26.680410,153.138350,22,wu-pws,ISUNSH961,https://www.wunderground.com/dashboard/pws/ISUNSH961,1489,nearby,-1,1788834176,2026-09-08T08:54:44Z
+ansg:150-56,Flaxmans Hill,-38.532600,142.737200,55,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:151-60,Grannies Grave,-38.400570,142.507990,18,wu-pws,IWARRN126,https://www.wunderground.com/dashboard/pws/IWARRN126,406,nearby,1,1788840192,2026-09-08T08:54:44Z
+ansg:153-64,Logans Beach,-38.404886,142.525956,18,wu-pws,IWARRN40,https://www.wunderground.com/dashboard/pws/IWARRN40,471,nearby,1,1788810112,2026-09-08T08:54:44Z
+ansg:154-197,Levy's Point Beach,-38.371177,142.424091,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:156-81,Mt Meuron,-38.673350,143.855800,140,wu-pws,IKENNE3,https://www.wunderground.com/dashboard/pws/IKENNE3,657,nearby,-1,1788846080,2026-09-08T08:54:44Z
+ansg:158-200,Portland - Murrells Beach NW,-38.403660,141.530400,9,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:158-201,Portland - Amos Road - Whites Beach,-38.347870,141.390330,9,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:158-89,Portland - Murrells Beach,-38.401910,141.529840,9,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:158-90,Portland - Bridgewater Bay,-38.367200,141.409210,9,wu-pws,ICAPEB23,https://www.wunderground.com/dashboard/pws/ICAPEB23,660,nearby,-1,1788832256,2026-09-08T08:54:44Z
+ansg:158-92,Portland - Dutton Way,-38.295000,141.617500,9,wu-pws,I90583111,https://www.wunderground.com/dashboard/pws/I90583111,1228,nearby,1,1781836800,2026-09-08T08:54:44Z
+ansg:158-93,Portland - Golf Course / Harbour Trust Road,-38.365260,141.627150,9,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:158-94,Portland - Nuns Beach,-38.338190,141.608900,9,wu-pws,IPORTL53,https://www.wunderground.com/dashboard/pws/IPORTL53,768,nearby,1,1788814720,2026-09-08T08:54:44Z
+ansg:158-96,Portland - Cape Bridgewater Seal Cliffs,-38.381570,141.408330,9,wu-pws,ICAPEB23,https://www.wunderground.com/dashboard/pws/ICAPEB23,1503,nearby,-1,1788832256,2026-09-08T08:54:44Z
+ansg:159-101,"Spion Kop (Fairhaven, Aireys, Moggs) - Spion",-38.468030,144.069410,45,wu-pws,IFAIRH8,https://www.wunderground.com/dashboard/pws/IFAIRH8,180,on-site,-1,1788845696,2026-09-08T08:54:44Z
+ansg:159-249,"Spion Kop (Fairhaven, Aireys, Moggs) - Mad Max",-38.468400,144.089800,45,wu-pws,IAIREY15,https://www.wunderground.com/dashboard/pws/IAIREY15,289,nearby,1,1788779776,2026-09-08T08:54:44Z
+ansg:163-44,Cairns Bay,-38.485830,144.966740,30,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:166-50,"Craigie Rd, Mt Martha",-38.251850,145.027190,30,wu-pws,IMELBO6417,https://www.wunderground.com/dashboard/pws/IMELBO6417,760,nearby,1,1788824320,2026-09-08T08:54:44Z
+ansg:167-52,Eagles Nest,-38.667970,145.670340,35,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:173-204,"Grossard Point, Phillip Island",-38.468530,145.165420,17,wu-pws,IVENTN62,https://www.wunderground.com/dashboard/pws/IVENTN62,278,nearby,1,1788776576,2026-09-08T08:54:44Z
+ansg:174-209,"Rhyll, Phillip Island",-38.459931,145.309125,16,wu-pws,IRHYLL4,https://www.wunderground.com/dashboard/pws/IRHYLL4,489,nearby,1,1788785152,2026-09-08T08:54:44Z
+ansg:175-210,"Fisher Street, Phillip Island",-38.460069,145.185278,12,wu-pws,IVENTN35,https://www.wunderground.com/dashboard/pws/IVENTN35,438,nearby,1,1788775936,2026-09-08T08:54:44Z
+ansg:176-202,Phillip Island,-38.480000,145.240000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:179-100,Shoreham,-38.439750,145.043280,24,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:181-39,Ben More,-37.227990,143.435320,300,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:182-40,Birchip Tow Paddock,-35.810250,143.003120,85,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:183-46,Cave Hill,-37.323780,143.255660,360,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:184-48,Colliers Gap,-37.210380,143.218730,335,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:187-59,Gordon - South launch,-37.589270,144.080750,120,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:189-69,Mt Buangor,-37.295490,143.222180,560,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:190-71,Mt Buninyong,-37.653150,143.927850,180,wu-pws,IBUNIN6,https://www.wunderground.com/dashboard/pws/IBUNIN6,447,nearby,1,1788848000,2026-09-08T08:54:44Z
+ansg:192-195,Mt Hollowback - North launch,-37.438173,143.815884,90,wu-pws,IBALDH3,https://www.wunderground.com/dashboard/pws/IBALDH3,852,nearby,1,1788807168,2026-09-08T08:54:44Z
+ansg:192-196,Mt Hollowback - South launch,-37.441514,143.816855,90,wu-pws,IBALDH3,https://www.wunderground.com/dashboard/pws/IBALDH3,1091,nearby,1,1788807168,2026-09-08T08:54:44Z
+ansg:196-83,Mt Sugarloaf,-37.236090,143.183320,380,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:198-109,Werribee Gorge,-37.688940,144.377650,150,wu-pws,IMADDI12,https://www.wunderground.com/dashboard/pws/IMADDI12,1004,nearby,-1,1788775552,2026-09-08T08:54:44Z
+ansg:20-283,Flying Fox,-28.145680,153.148980,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:202-70,Mt Buffalo - The Gorge HG Ramp,-36.721600,146.823600,1380,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:205-198,Mt Elliot - North-East,-36.180405,147.983049,600,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:206-77,Mt Emu - Emu 2,-36.664910,147.205430,1360,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:208-84,Murmungee,-36.418700,146.711400,365,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:212-258,The Paps - North,-37.043010,145.985210,320,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:212-259,The Paps - West,-37.043050,145.984340,320,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:212-260,The Paps - East,-37.046160,145.992310,320,wu-pws,IMANSF25,https://www.wunderground.com/dashboard/pws/IMANSF25,1594,nearby,1,1788829696,2026-09-08T08:54:44Z
+ansg:212-261,The Paps - South,-37.052380,145.985580,320,wu-pws,IMANSF25,https://www.wunderground.com/dashboard/pws/IMANSF25,1321,nearby,1,1788829696,2026-09-08T08:54:44Z
+ansg:212-262,The Paps - South west,-37.052690,145.988590,320,wu-pws,IMANSF25,https://www.wunderground.com/dashboard/pws/IMANSF25,1103,nearby,1,1788829696,2026-09-08T08:54:44Z
+ansg:212-263,The Paps - South east,-37.052780,145.989110,320,wu-pws,IMANSF25,https://www.wunderground.com/dashboard/pws/IMANSF25,1065,nearby,1,1788829696,2026-09-08T08:54:44Z
+ansg:213-205,Eagle Rise,-36.409730,146.651920,365,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:215-221,Manny's,-36.413861,146.623583,496,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:216-107,Three Sisters (Flowerdale),-37.316000,145.289000,230,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:218-110,Yarragon,-38.246690,146.047530,275,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:220-188,Mt Terrible,-37.395000,146.140278,1297,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:221-211,Locksley Field,-36.814000,145.348000,165,wu-pws,ILOCKS1,https://www.wunderground.com/dashboard/pws/ILOCKS1,187,on-site,1,1788846848,2026-09-08T08:54:44Z
+ansg:239-123,Parry Beach - Point Hillier - Beach Launch and Landing,-35.046540,117.154830,50,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:24-322,Tasman Flying Site 2,-43.060920,147.864680,25,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:241-125,Porongorups - Porongurups,-34.680000,117.880000,500,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:246-306,Lauderdale Flying Site 2,-42.907860,147.492460,170,wu-pws,IHOBAR258,https://www.wunderground.com/dashboard/pws/IHOBAR258,107,on-site,1,1788807552,2026-09-08T08:54:44Z
+ansg:247-314,Oatlands Flying Site,-42.299960,147.371230,518,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:248-315,Hobart Flying Site 1,-42.881220,147.330050,1230,wu-pws,IHOBAR549,https://www.wunderground.com/dashboard/pws/IHOBAR549,923,nearby,-1,1788850560,2026-09-08T08:54:44Z
+ansg:249-312,South Arm Flying Site,-43.028310,147.416610,24,wu-pws,ISOUTH1687,https://www.wunderground.com/dashboard/pws/ISOUTH1687,600,nearby,1,1788836224,2026-09-08T08:54:44Z
+ansg:250-272,Windy Harbour,-34.817600,116.006100,30,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:252-275,"One Tree Hill, Gungahlin",-35.142140,149.091660,876,wu-pws,ICANBE978,https://www.wunderground.com/dashboard/pws/ICANBE978,1546,nearby,1,1788855168,2026-09-08T08:54:44Z
+ansg:253-276,Mt Buffalo – Reed’s Lookout Paraglider launch,-36.715000,146.822000,1380,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:256-279,Broadwater National Park - Mandatory VHF Carriage - Check status of NOTAM,-29.030680,153.456770,10,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:256-280,Broadwater National Park - Mandatory VHF Carriage - Check status of NOTAM,-29.037100,153.452770,10,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:257-281,Possums - Private Property - All pilots must be inducted and 'check-in' prior to entry. No Parking at Launch.,-28.629600,153.506830,160,wu-pws,INEWSOUT1901,https://www.wunderground.com/dashboard/pws/INEWSOUT1901,603,nearby,1,1788780416,2026-09-08T08:54:44Z
+ansg:26-302,Tunbridge Flying Site,-42.142890,147.421320,885,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:260-288,Wilson's,-27.691680,151.998810,718,wu-pws,IRAMSA22,https://www.wunderground.com/dashboard/pws/IRAMSA22,1629,nearby,1,1788839552,2026-09-08T08:54:44Z
+ansg:262-291,Hunter Lookout,-32.961110,151.414170,450,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:263-292,Killarney - SE Launch,-28.295150,152.338550,1100,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:263-293,Killarney - E Launch,-28.293260,152.340130,1100,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:263-294,Killarney - W Launch,-28.301540,152.324660,1100,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:263-295,Killarney - N Launch,-28.221520,152.351040,1100,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:264-296,West Heaton Lookout,-32.953570,151.457060,430,wu-pws,IBRUNK2,https://www.wunderground.com/dashboard/pws/IBRUNK2,1574,nearby,1,1788800896,2026-09-08T08:54:44Z
+ansg:266-298,SE Heaton Lookout,-32.967720,151.469130,407,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:269-300,Bothwell Flying Site 3,-42.382370,147.008110,590,wu-pws,IBOTHW1,https://www.wunderground.com/dashboard/pws/IBOTHW1,293,nearby,1,1788769152,2026-09-08T08:54:44Z
+ansg:270-303,Trial Harbour Flying Site,-41.928410,145.175400,100,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:271-305,Tasman Flying Site 4,-43.063250,147.864350,0,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:272-307,Lauderdale Flying Site 1,-42.910410,147.492400,195,wu-pws,IHOBAR264,https://www.wunderground.com/dashboard/pws/IHOBAR264,348,nearby,1,1788842240,2026-09-08T08:54:44Z
+ansg:273-308,Jericho Flying Site 1,-42.383470,147.285260,570,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:274-309,Strahan Flying Site,-42.152430,145.318000,0,wu-pws,ISTRAH3,https://www.wunderground.com/dashboard/pws/ISTRAH3,743,nearby,-1,1788809088,2026-09-08T08:54:44Z
+ansg:275-310,Scottsdale Flying Site,-41.159450,147.518780,480,wu-pws,ITASMANI159,https://www.wunderground.com/dashboard/pws/ITASMANI159,409,nearby,-1,1788832000,2026-09-08T08:54:44Z
+ansg:276-311,Queenstown Flying Site,-42.079550,145.555460,800,wu-pws,IQUEEN140,https://www.wunderground.com/dashboard/pws/IQUEEN140,73,on-site,-1,1788596480,2026-09-08T08:54:44Z
+ansg:277-313,Bothwell Flying Site 2,-42.384610,147.010390,570,wu-pws,IBOTHW1,https://www.wunderground.com/dashboard/pws/IBOTHW1,201,nearby,1,1788769152,2026-09-08T08:54:44Z
+ansg:278-316,Irishtown Flying Site,-40.914250,145.143310,186,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:279-317,Wilderness Hike and Fly,-42.681740,146.716360,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:280-318,Stanley Flying Site,-40.760390,145.294100,50,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:281-319,Ross Flying Site,-42.031050,147.492070,460,wu-pws,IROSS20,https://www.wunderground.com/dashboard/pws/IROSS20,106,on-site,-1,1788798592,2026-09-08T08:54:44Z
+ansg:282-320,Wynyard Flying Site,-40.990000,145.725700,70,wu-pws,IWYNYA32,https://www.wunderground.com/dashboard/pws/IWYNYA32,1497,nearby,-1,1788796800,2026-09-08T08:54:44Z
+ansg:283-321,Tasman Flying Site 3,-43.062950,147.864490,350,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:284-323,Tasman Flying Site 1,-43.055000,147.865630,45,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:285-324,Bothwell Flying Site 1,-42.384380,147.007340,580,wu-pws,IBOTHW1,https://www.wunderground.com/dashboard/pws/IBOTHW1,88,on-site,1,1788769152,2026-09-08T08:54:44Z
+ansg:286-325,Ouse Flying Site,-42.485540,146.712090,506,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:287-326,North Coast Dunes,-41.012240,147.403750,0,wu-pws,I90581624,https://www.wunderground.com/dashboard/pws/I90581624,1090,nearby,1,1788819584,2026-09-08T08:54:44Z
+ansg:3-218,Ochre Point - Maslins,-35.221200,138.469800,50,wu-pws,IADELA1929,https://www.wunderground.com/dashboard/pws/IADELA1929,598,nearby,1,1788783488,2026-09-08T08:54:44Z
+ansg:31-304,Devonport Flying Site,-41.180030,146.350240,,wu-pws,IDEVON73,https://www.wunderground.com/dashboard/pws/IDEVON73,242,nearby,1,1788850304,2026-09-08T08:54:44Z
+ansg:4-219,Eucla,-31.680000,128.880000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:44-126,Observatory Point - Twilight Beach,-33.907000,121.796000,200,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:48-130,City View,-28.710000,114.678000,60,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:50-132,Lynton Farm,-28.207400,114.307000,90,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:51-133,Kalbarri South Sea Cliffs,-27.745000,114.140000,90,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:52-134,Kalbarri North Coastal - Zuytdorp Sea Cliffs,-27.690000,114.160000,90,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:53-135,Brunswick Junction,-33.290000,115.840000,180,wu-pws,IROELA6,https://www.wunderground.com/dashboard/pws/IROELA6,241,nearby,-1,1788773248,2026-09-08T08:54:44Z
+ansg:57-138,Yallingup - Three Bears,-33.584000,115.014000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:59-140,Injidup,-33.699000,114.988000,20,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:60-141,Moses Rocks,-33.758940,114.991140,20,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:62-143,Cosy Corner,-34.256000,115.028000,30,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:63-144,Greenhills,-34.320000,115.090000,75,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:64-145,Point Matthew,-34.370000,115.150000,30,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:65-146,Sarge Bay,-34.370000,115.139000,6,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:67-150,Cottesloe,-32.018700,115.751300,15,wu-pws,IPERTH4162,https://www.wunderground.com/dashboard/pws/IPERTH4162,512,nearby,-1,1788774144,2026-09-08T08:54:44Z
+ansg:7-242,Barn Hill (The Bluff),-33.587770,138.135670,335,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:71-148,Burns Beach,-31.729000,115.717000,15,wu-pws,IPERTH4018,https://www.wunderground.com/dashboard/pws/IPERTH4018,358,nearby,1,1788831232,2026-09-08T08:54:44Z
+ansg:72-149,Mullaloo Beach,-31.788400,115.733400,15,wu-pws,IPERTH4220,https://www.wunderground.com/dashboard/pws/IPERTH4220,859,nearby,1,1788786944,2026-09-08T08:54:44Z
+ansg:74-153,Warnbro,-32.330000,115.740000,15,wu-pws,IPERTH2564,https://www.wunderground.com/dashboard/pws/IPERTH2564,655,nearby,1,1788819328,2026-09-08T08:54:44Z
+ansg:75-154,Avalon,-32.570000,115.650000,15,wu-pws,IPERTH177,https://www.wunderground.com/dashboard/pws/IPERTH177,1769,nearby,1,1788817536,2026-09-08T08:54:44Z
+ansg:76-155,Two Rocks Beach,-31.490000,115.579000,15,wu-pws,ITWORO33,https://www.wunderground.com/dashboard/pws/ITWORO33,487,nearby,-1,1788837248,2026-09-08T08:54:44Z
+ansg:77-156,Seabird,-31.279000,115.441000,15,wu-pws,ISEABI5,https://www.wunderground.com/dashboard/pws/ISEABI5,581,nearby,-1,1788855040,2026-09-08T08:54:44Z
+ansg:78-157,Gingin,-31.350000,115.900000,30,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:8-6,Rex Lookout,-16.646460,145.565450,55,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:81-160,"Windmill Hill, Toodyay",-31.550000,116.470000,90,wu-pws,ITOODY7,https://www.wunderground.com/dashboard/pws/ITOODY7,584,nearby,1,1788777600,2026-09-08T08:54:44Z
+ansg:84-163,"White Lakes Farm, Toodyay",-31.550000,116.480000,20,wu-pws,ITOODY7,https://www.wunderground.com/dashboard/pws/ITOODY7,1399,nearby,1,1788777600,2026-09-08T08:54:44Z
+ansg:87-166,Mount Bakewell (lower launch),-31.848000,116.777000,120,wu-pws,IBURGE35,https://www.wunderground.com/dashboard/pws/IBURGE35,1483,nearby,-1,1788784768,2026-09-08T08:54:44Z
+ansg:88-167,York Silos - Gwambygine Hill,-31.930000,116.780000,60,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:89-168,York - Greenhills Towing - John Salmon's,-31.950200,116.997900,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:89-169,York - Greenhills Towing - Penny's (Closed),-31.966000,117.000000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:9-185,Gillies Lookout,-17.200000,145.700000,750,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:90-171,York Airstrip,-31.857000,116.797000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:91-172,Wyalkatchem,-31.180000,117.380000,,wu-pws,IWYALK4,https://www.wunderground.com/dashboard/pws/IWYALK4,506,nearby,-1,1788778752,2026-09-08T08:54:44Z
+ansg:92-212,Westonia Tow Paddocks,-31.302000,118.693000,350,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:93-173,Table Mountain,-21.035000,117.109000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:94-174,Mount Nameless,-22.718000,117.762000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:95-175,Cape Couvier,-24.211000,113.426000,90,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:96-176,Bastion - Sunset/West Launch,-15.451000,128.119000,330,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:96-177,Bastion - North Launch,-15.450200,128.122700,330,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:97-178,Mt Harrison,-15.830000,128.280000,250,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:98-179,Wyndham Towing,-15.530000,128.150000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:99-213,Kalgoorlie - Lake Perkolilly,-30.572000,121.711800,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:105-27,Pig Hill,-35.220770,148.896550,950,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:12-232,Alexandra Headland,-26.675300,153.115200,18,wu-pws,ISUNSH721,https://www.wunderground.com/dashboard/pws/ISUNSH721,1158,nearby,1,1788777600,2026-09-08T08:54:44Z
+ansg:13-289,North End Sunshine Beach,-26.477060,153.160980,33,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:141-254,Wolgan,-33.240000,150.170000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:148-54,Eumeralla (Red Rocks),-38.396800,144.229200,90,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:161-41,Arthurs Seat,-38.353000,144.951000,260,wu-pws,IMELBO4470,https://www.wunderground.com/dashboard/pws/IMELBO4470,991,nearby,1,1788845056,2026-09-08T08:54:44Z
+ansg:171-66,Mentone,-38.000000,145.040000,,wu-pws,IMELBO4913,https://www.wunderground.com/dashboard/pws/IMELBO4913,826,nearby,1,1788811392,2026-09-08T08:54:44Z
+ansg:172-203,"Potters Road, San Remo",-38.534000,145.387000,45,wu-pws,ISANRE21,https://www.wunderground.com/dashboard/pws/ISANRE21,1107,nearby,1,1788852096,2026-09-08T08:54:44Z
+ansg:186-53,Elmhurst Hill,-37.150690,143.260530,180,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:191-74,Mt Elephant,-37.960000,143.200000,120,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:194-79,Mt Langhi Ghiran,-37.301000,143.118000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:199-184,Grampians,-37.300000,142.500000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:207-82,Mt Mittamatite,-36.148000,147.882000,610,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:214-106,The Pines (Buckland Ridge),-36.413000,146.640000,365,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:217-108,Warrigal Rocks,-37.136100,145.206700,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:222-245,"Mt Gillen - West Gap, South Face",-23.710000,133.810000,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:226-121,Back Beach,-35.110500,117.576300,120,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:23-301,Brighton Flying Site,-42.700010,147.250920,160,wu-pws,IHOBAR364,https://www.wunderground.com/dashboard/pws/IHOBAR364,693,nearby,1,1788854400,2026-09-08T08:54:44Z
+ansg:230-19,Point King - Albany Town,-35.028900,117.921100,20,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:235-118,Perkins Beach,-35.048300,117.670150,5,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:236-119,Dingo's Beach,-35.088000,117.641400,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:238-122,Lowlands Beach,-35.097990,117.524960,30,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:240-273,Stirlings,-34.391570,118.111690,400,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:45-127,Frenchman's Peak,-33.967000,122.166000,200,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:5-220,Myponga Cliffs,-35.354100,138.436700,90,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:56-137,Dalyellup,-33.397600,115.604400,10,wu-pws,IDALYE13,https://www.wunderground.com/dashboard/pws/IDALYE13,593,nearby,-1,1788842752,2026-09-08T08:54:44Z
+ansg:70-147,Quinns Rocks,-31.674000,115.688000,15,wu-pws,IPERTH4110,https://www.wunderground.com/dashboard/pws/IPERTH4110,1047,nearby,-1,1788790016,2026-09-08T08:54:44Z
+ansg:79-158,Noondeening Hill,-31.585260,116.501770,150,wu-pws,IDUMBA20,https://www.wunderground.com/dashboard/pws/IDUMBA20,1555,nearby,1,1788841216,2026-09-08T08:54:44Z
+ansg:80-159,Masters,-31.584500,116.497700,120,wu-pws,IDUMBA20,https://www.wunderground.com/dashboard/pws/IDUMBA20,1646,nearby,1,1788841216,2026-09-08T08:54:44Z
+ansg:82-161,"Mt Nardie, Toodyay",-31.550000,116.460000,210,wu-pws,ITOODY9,https://www.wunderground.com/dashboard/pws/ITOODY9,673,nearby,1,1788793472,2026-09-08T08:54:44Z
+ansg:83-162,Whitfield Hill (Wicklow),-31.550000,116.500000,90,wu-pws,IDUMBA22,https://www.wunderground.com/dashboard/pws/IDUMBA22,988,nearby,1,1788854656,2026-09-08T08:54:44Z
+ansg:lz-1,Godfrey's,-30.678137,150.649538,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-103,West paddock,-37.592879,144.072214,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-104,East paddock,-37.586263,144.088581,,wu-pws,IGORDO81,https://www.wunderground.com/dashboard/pws/IGORDO81,1663,nearby,1,1788824064,2026-09-08T08:54:44Z
+ansg:lz-105,Landing,-37.590182,144.087268,,wu-pws,IGORDO13,https://www.wunderground.com/dashboard/pws/IGORDO13,1875,nearby,1,1788793472,2026-09-08T08:54:44Z
+ansg:lz-109,Landing,-37.434089,143.815036,,wu-pws,IBALDH3,https://www.wunderground.com/dashboard/pws/IBALDH3,714,nearby,1,1788807168,2026-09-08T08:54:44Z
+ansg:lz-118,Paragliders,-37.140088,145.408990,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-119,Hang gliders,-36.161393,147.955791,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-120,Paragliders,-36.173344,147.947505,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-122,Mt. Beauty airstrip,-36.733499,147.170193,,wu-pws,IMOUNTBE4,https://www.wunderground.com/dashboard/pws/IMOUNTBE4,589,nearby,1,1788830080,2026-09-08T08:54:44Z
+ansg:lz-124,High Country Lavender airstrip,-36.702923,146.956041,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-125,NE Bombout,-36.167298,148.008067,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-128,Bentley LZ Wandi,-36.780569,146.982115,,wu-pws,IWANDI8,https://www.wunderground.com/dashboard/pws/IWANDI8,488,nearby,1,1788828928,2026-09-08T08:54:44Z
+ansg:lz-138,Cat Motel,-27.964672,153.159708,,wu-pws,IBOYLA2,https://www.wunderground.com/dashboard/pws/IBOYLA2,1274,nearby,1,1788814208,2026-09-08T08:54:44Z
+ansg:lz-143,GC Model RC,-28.115007,153.234124,,wu-pws,INUMIN6,https://www.wunderground.com/dashboard/pws/INUMIN6,1097,nearby,1,1788840448,2026-09-08T08:54:44Z
+ansg:lz-144,Gordos,-28.093490,153.145972,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-147,Hinchcliffe BO,-28.077935,153.159538,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-148,Hinchcliffe BO - 2,-28.076756,153.157124,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-150,L - Bennoble,-27.995788,153.157718,,wu-pws,ICANUN15,https://www.wunderground.com/dashboard/pws/ICANUN15,1706,nearby,-1,1788845824,2026-09-08T08:54:44Z
+ansg:lz-151,L - Canungra 1,-28.016047,153.164565,,wu-pws,ICANUN15,https://www.wunderground.com/dashboard/pws/ICANUN15,718,nearby,-1,1788845824,2026-09-08T08:54:44Z
+ansg:lz-157,L - FF Far BO,-28.119530,153.141192,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-159,L - Graceleigh Pk,-28.123697,153.187466,,wu-pws,IBEECH66,https://www.wunderground.com/dashboard/pws/IBEECH66,352,nearby,1,1788795648,2026-09-08T08:54:44Z
+ansg:lz-162,Launch - Beechmont,-28.118075,153.202122,,wu-pws,IBEECH104,https://www.wunderground.com/dashboard/pws/IBEECH104,246,nearby,-1,1788845952,2026-09-08T08:54:44Z
+ansg:lz-164,Launch - Hinchcliffe,-28.070472,153.145098,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-166,Long Rd,-27.940401,153.192145,,wu-pws,ITAMBO100,https://www.wunderground.com/dashboard/pws/ITAMBO100,524,nearby,-1,1788849536,2026-09-08T08:54:44Z
+ansg:lz-167,Model Airfield,-27.974200,153.120172,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-172,Tambo Bombout,-27.947919,153.157105,,wu-pws,IBOYLA2,https://www.wunderground.com/dashboard/pws/IBOYLA2,707,nearby,1,1788814208,2026-09-08T08:54:44Z
+ansg:lz-18,Landing,-34.970856,149.384400,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-186,Murmungee Paraglider LZ.,-36.423818,146.699048,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-191,Ray’s Landing Zone,-36.417840,146.670566,,wu-pws,IBEECH44,https://www.wunderground.com/dashboard/pws/IBEECH44,1748,nearby,-1,1788816896,2026-09-08T08:54:44Z
+ansg:lz-2,East PG,-30.675711,150.633384,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-20,Landing,-35.087060,149.078633,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-207,Secondary landing area,-38.470539,145.027076,,wu-pws,IFLINDER3,https://www.wunderground.com/dashboard/pws/IFLINDER3,1023,nearby,-1,1788842624,2026-09-08T08:54:44Z
+ansg:lz-208,New LZ,-37.755353,145.638316,,wu-pws,IMILLG6,https://www.wunderground.com/dashboard/pws/IMILLG6,1011,nearby,1,1788804096,2026-09-08T08:54:44Z
+ansg:lz-21,Landing,-35.223804,148.913470,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-213,Landing,-16.652881,145.568321,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-229,Landing,-38.551293,143.985186,,wu-pws,ILORNE15,https://www.wunderground.com/dashboard/pws/ILORNE15,724,nearby,-1,1788794880,2026-09-08T08:54:44Z
+ansg:lz-230,Preferred landing,-38.481588,145.016203,,wu-pws,IFLINDER3,https://www.wunderground.com/dashboard/pws/IFLINDER3,551,nearby,-1,1788842624,2026-09-08T08:54:44Z
+ansg:lz-235,Ringer Reef Winery,-36.689312,146.907174,,wu-pws,IPOREP3,https://www.wunderground.com/dashboard/pws/IPOREP3,1162,nearby,1,1788830464,2026-09-08T08:54:44Z
+ansg:lz-24,Landing,-35.480136,149.095964,,wu-pws,ICANBE717,https://www.wunderground.com/dashboard/pws/ICANBE717,574,nearby,1,1788772992,2026-09-08T08:54:44Z
+ansg:lz-246,Dalbosco's,-36.700348,146.905177,,wu-pws,IPOREP2,https://www.wunderground.com/dashboard/pws/IPOREP2,600,nearby,1,1788781568,2026-09-08T08:54:44Z
+ansg:lz-26,Porepunkah Airstrip,-36.716989,146.890335,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-265,Landing,-37.082723,145.178332,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-269,Hood’s LZ,-36.681285,147.176161,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-275,Seymour’s LZ,-36.586320,147.094541,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-276,Pat Mac's LZ,-36.642935,147.125163,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-277,Tawonga Reserve,-36.661379,147.134439,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-28,The Burrs,-36.705227,146.853028,,wu-pws,IPOREP6,https://www.wunderground.com/dashboard/pws/IPOREP6,1700,nearby,1,1788794752,2026-09-08T08:54:44Z
+ansg:lz-290,Airfield,-36.182526,147.895841,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-294,MacDonald’s LZ,-36.574835,147.100107,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-296,Landing,-37.034053,145.991043,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-298,Landing,-35.143651,149.096522,,wu-pws,ICANBE978,https://www.wunderground.com/dashboard/pws/ICANBE978,1076,nearby,1,1788855168,2026-09-08T08:54:44Z
+ansg:lz-299,Landing,-35.148761,149.094190,,wu-pws,ICANBE506,https://www.wunderground.com/dashboard/pws/ICANBE506,848,nearby,1,1788819200,2026-09-08T08:54:44Z
+ansg:lz-3,East HG,-30.671238,150.635151,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-30,Bombout- Sheffield Rd,-37.838562,145.327734,,wu-pws,IMELBO6086,https://www.wunderground.com/dashboard/pws/IMELBO6086,1148,nearby,-1,1788840064,2026-09-08T08:54:44Z
+ansg:lz-31,Retarding Basin,-37.844366,145.315848,,wu-pws,IMELBO1232,https://www.wunderground.com/dashboard/pws/IMELBO1232,293,nearby,1,1788818560,2026-09-08T08:54:44Z
+ansg:lz-314,Bottom Landing (Mar 2023),-35.104275,149.377274,,wu-pws,ILAKEG1,https://www.wunderground.com/dashboard/pws/ILAKEG1,668,nearby,1,1788780800,2026-09-08T08:54:44Z
+ansg:lz-315,Main Take Off,-35.103748,149.375481,,wu-pws,ILAKEG1,https://www.wunderground.com/dashboard/pws/ILAKEG1,538,nearby,1,1788780800,2026-09-08T08:54:44Z
+ansg:lz-321,Andrew’s LZ,-36.709220,146.965619,,wu-pws,IBRIGH70,https://www.wunderground.com/dashboard/pws/IBRIGH70,1428,nearby,1,1788852608,2026-09-08T08:54:44Z
+ansg:lz-322,West Paddock,-37.438331,143.810173,,wu-pws,IBALDH3,https://www.wunderground.com/dashboard/pws/IBALDH3,1278,nearby,1,1788807168,2026-09-08T08:54:44Z
+ansg:lz-323,East Paddock,-37.443068,143.829601,,wu-pws,IBALDH3,https://www.wunderground.com/dashboard/pws/IBALDH3,1262,nearby,1,1788807168,2026-09-08T08:54:44Z
+ansg:lz-34,Mt Emu LZ - Baird's,-36.701377,147.185989,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-341,Big shelf,-28.123190,153.204757,,wu-pws,IBEECH47,https://www.wunderground.com/dashboard/pws/IBEECH47,615,nearby,1,1783067520,2026-09-08T08:54:44Z
+ansg:lz-345,Biddaddaba strip,-27.960833,153.133149,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-346,GC FARMHOUSE LANDING,-28.120847,153.227249,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-356,HikenFly lz,-28.070694,153.164761,,wu-pws,IWITHE6,https://www.wunderground.com/dashboard/pws/IWITHE6,1624,nearby,1,1788815232,2026-09-08T08:54:44Z
+ansg:lz-357,Deer Farm LZ,-36.667833,146.861001,,wu-pws,IEUROB7,https://www.wunderground.com/dashboard/pws/IEUROB7,1869,nearby,-1,1788849024,2026-09-08T08:54:44Z
+ansg:lz-36,Alternate Mt Emu LZ - Granma Roper's,-36.704171,147.166419,,wu-pws,ITAWON13,https://www.wunderground.com/dashboard/pws/ITAWON13,466,nearby,1,1788823936,2026-09-08T08:54:44Z
+ansg:lz-361,Landing,-27.687788,152.013609,,wu-pws,IROCKM1,https://www.wunderground.com/dashboard/pws/IROCKM1,1010,nearby,0,1788803712,2026-09-08T08:54:44Z
+ansg:lz-364,Top Landing Zone,-35.105712,117.630493,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-371,Rear Landing Area,-35.064583,117.794125,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-379,Damian's LZ,-32.946348,151.403418,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-380,Backup LZ,-32.952369,151.394688,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-381,E/SE Landing,-28.305259,152.349548,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-382,W Landing,-28.314620,152.309555,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-383,N Landing,-28.206722,152.356372,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-385,Carmel's landing,-32.945392,151.477602,,wu-pws,IBRUNK9,https://www.wunderground.com/dashboard/pws/IBRUNK9,523,nearby,1,1788853376,2026-09-08T08:54:44Z
+ansg:lz-391,Mark's,-37.683604,144.382639,,wu-pws,IMADDI12,https://www.wunderground.com/dashboard/pws/IMADDI12,743,nearby,-1,1788775552,2026-09-08T08:54:44Z
+ansg:lz-393,Shuey Two,-36.753002,146.983059,,wu-pws,IWANDI26,https://www.wunderground.com/dashboard/pws/IWANDI26,139,on-site,1,1788821248,2026-09-08T08:54:44Z
+ansg:lz-394,Orchard Top Landing,-28.113201,153.198083,,wu-pws,IBEECH104,https://www.wunderground.com/dashboard/pws/IBEECH104,574,nearby,-1,1788845952,2026-09-08T08:54:44Z
+ansg:lz-400,Tarrengower LZ,-36.996818,144.034241,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-403,Landing,-36.480591,147.075517,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-412,Short East LZ,-30.681555,150.622565,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-43,Wandi Pub,-36.779728,146.981339,,wu-pws,IWANDI8,https://www.wunderground.com/dashboard/pws/IWANDI8,395,nearby,1,1788828928,2026-09-08T08:54:44Z
+ansg:lz-44,Shuey's LZ,-36.747029,146.980399,,wu-pws,IWANDI26,https://www.wunderground.com/dashboard/pws/IWANDI26,639,nearby,1,1788821248,2026-09-08T08:54:44Z
+ansg:lz-46,Mystic LZ,-36.745666,146.978103,,wu-pws,IBRIGH55,https://www.wunderground.com/dashboard/pws/IBRIGH55,611,nearby,1,1788854272,2026-09-08T08:54:44Z
+ansg:lz-5,West,-30.686907,150.601154,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-59,Tawonga Gap LZ - Iaria's Paddock,-36.723901,147.149864,,wu-pws,IVCTMOUN9,https://www.wunderground.com/dashboard/pws/IVCTMOUN9,162,on-site,1,1788818304,2026-09-08T08:54:44Z
+ansg:lz-62,Landing,-36.421367,146.620845,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-64,South Face Top Landing,-34.223754,150.995896,,wu-pws,ISTANW4,https://www.wunderground.com/dashboard/pws/ISTANW4,1225,nearby,1,1788836352,2026-09-08T08:54:44Z
+ansg:lz-69,Bakewell - Race Course,-31.860314,116.770581,,wu-pws,IYORKYOR1,https://www.wunderground.com/dashboard/pws/IYORKYOR1,1034,nearby,-1,1788790784,2026-09-08T08:54:44Z
+ansg:lz-71,Lou's,-31.851723,116.777063,,wu-pws,IBURGE35,https://www.wunderground.com/dashboard/pws/IBURGE35,1377,nearby,-1,1788784768,2026-09-08T08:54:44Z
+ansg:lz-75,Landing,-34.820861,150.569952,,wu-pws,ICAMBE38,https://www.wunderground.com/dashboard/pws/ICAMBE38,391,nearby,1,1788775680,2026-09-08T08:54:44Z
+ansg:lz-77,Landing,-34.576390,150.692548,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-79,Landing,-36.391163,147.075745,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-80,Landing,-36.386200,147.070775,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-81,Landing,-36.393206,147.068961,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-92,Bombout,-37.217215,143.182808,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-93,Warrack long bombout,-37.264810,143.163880,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-95,Bombout,-37.268376,143.360770,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-96,Landing,-37.239558,143.425418,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-97,Landing,-37.353182,143.263689,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-98,Landing,-37.158789,143.262970,,wu-pws,,,,,,,2026-09-08T08:54:44Z
+ansg:lz-99,South paddock,-37.593626,144.081518,,wu-pws,,,,,,,2026-09-08T08:54:44Z

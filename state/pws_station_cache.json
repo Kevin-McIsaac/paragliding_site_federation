@@ -1,0 +1,9159 @@
+{
+ "stations": {
+  "INETHE6": {
+   "station_id": "INETHE6",
+   "lat": -21.14053,
+   "lon": 148.55341,
+   "qc_status": -1,
+   "update_time_utc": 1788801024
+  },
+  "INETHE1": {
+   "station_id": "INETHE1",
+   "lat": -21.12564,
+   "lon": 148.55495,
+   "qc_status": -1,
+   "update_time_utc": 1788808320
+  },
+  "IFINCH1": {
+   "station_id": "IFINCH1",
+   "lat": -21.13628,
+   "lon": 148.56562,
+   "qc_status": -1,
+   "update_time_utc": 1788813568
+  },
+  "IDALRY10": {
+   "station_id": "IDALRY10",
+   "lat": -21.05356,
+   "lon": 148.57835,
+   "qc_status": -1,
+   "update_time_utc": 1788782208
+  },
+  "IFINCH4": {
+   "station_id": "IFINCH4",
+   "lat": -21.09007,
+   "lon": 148.64118,
+   "qc_status": -1,
+   "update_time_utc": 1788827520
+  },
+  "IEUNGE2": {
+   "station_id": "IEUNGE2",
+   "lat": -21.04489,
+   "lon": 148.63293,
+   "qc_status": -1,
+   "update_time_utc": 1788843776
+  },
+  "IPINNA22": {
+   "station_id": "IPINNA22",
+   "lat": -21.17,
+   "lon": 148.667,
+   "qc_status": -1,
+   "update_time_utc": 1788772608
+  },
+  "IPINNA12": {
+   "station_id": "IPINNA12",
+   "lat": -21.164,
+   "lon": 148.698,
+   "qc_status": 1,
+   "update_time_utc": 1788775936
+  },
+  "IPINNA11": {
+   "station_id": "IPINNA11",
+   "lat": -21.15511,
+   "lon": 148.71395,
+   "qc_status": 1,
+   "update_time_utc": 1788852608
+  },
+  "IPINNA7": {
+   "station_id": "IPINNA7",
+   "lat": -21.15354,
+   "lon": 148.72787,
+   "qc_status": 1,
+   "update_time_utc": 1788787840
+  },
+  "ILAKEG1": {
+   "station_id": "ILAKEG1",
+   "lat": -35.09929,
+   "lon": 149.37318,
+   "qc_status": 1,
+   "update_time_utc": 1788780800
+  },
+  "IGUNDA49": {
+   "station_id": "IGUNDA49",
+   "lat": -35.11042,
+   "lon": 149.36567,
+   "qc_status": 1,
+   "update_time_utc": 1788790912
+  },
+  "I90581147": {
+   "station_id": "I90581147",
+   "lat": -35.14013,
+   "lon": 149.34239,
+   "qc_status": -1,
+   "update_time_utc": 1788826368
+  },
+  "INEWSOUT2037": {
+   "station_id": "INEWSOUT2037",
+   "lat": -35.1542,
+   "lon": 149.34612,
+   "qc_status": 1,
+   "update_time_utc": 1788846720
+  },
+  "INEWSOUT1982": {
+   "station_id": "INEWSOUT1982",
+   "lat": -35.11393,
+   "lon": 149.30747,
+   "qc_status": 1,
+   "update_time_utc": 1788818432
+  },
+  "IGUNDA62": {
+   "station_id": "IGUNDA62",
+   "lat": -35.052,
+   "lon": 149.333,
+   "qc_status": -1,
+   "update_time_utc": 1788847232
+  },
+  "IBYWON5": {
+   "station_id": "IBYWON5",
+   "lat": -35.161,
+   "lon": 149.336,
+   "qc_status": 1,
+   "update_time_utc": 1788832128
+  },
+  "IBYWON17": {
+   "station_id": "IBYWON17",
+   "lat": -35.172,
+   "lon": 149.357,
+   "qc_status": 1,
+   "update_time_utc": 1788841856
+  },
+  "IBYWON4": {
+   "station_id": "IBYWON4",
+   "lat": -35.17579,
+   "lon": 149.35147,
+   "qc_status": 1,
+   "update_time_utc": 1788838400
+  },
+  "IBYWON6": {
+   "station_id": "IBYWON6",
+   "lat": -35.176,
+   "lon": 149.343,
+   "qc_status": 1,
+   "update_time_utc": 1788791808
+  },
+  "IGUNDA51": {
+   "station_id": "IGUNDA51",
+   "lat": -34.994,
+   "lon": 149.362,
+   "qc_status": 1,
+   "update_time_utc": 1788772096
+  },
+  "ICOLLE92": {
+   "station_id": "ICOLLE92",
+   "lat": -34.914,
+   "lon": 149.428,
+   "qc_status": 1,
+   "update_time_utc": 1788773888
+  },
+  "INEWSOUT398": {
+   "station_id": "INEWSOUT398",
+   "lat": -34.91382,
+   "lon": 149.43051,
+   "qc_status": -1,
+   "update_time_utc": 1788795264
+  },
+  "ICOLLE131": {
+   "station_id": "ICOLLE131",
+   "lat": -34.916,
+   "lon": 149.435,
+   "qc_status": -1,
+   "update_time_utc": 1788840448
+  },
+  "ILERID4": {
+   "station_id": "ILERID4",
+   "lat": -34.897,
+   "lon": 149.333,
+   "qc_status": -1,
+   "update_time_utc": 1788795648
+  },
+  "ICOLLE195": {
+   "station_id": "ICOLLE195",
+   "lat": -34.91,
+   "lon": 149.443,
+   "qc_status": 1,
+   "update_time_utc": 1788835584
+  },
+  "I90581985": {
+   "station_id": "I90581985",
+   "lat": -34.95,
+   "lon": 149.483,
+   "qc_status": -1,
+   "update_time_utc": 1788798592
+  },
+  "IGUNDA29": {
+   "station_id": "IGUNDA29",
+   "lat": -34.98,
+   "lon": 149.262,
+   "qc_status": 1,
+   "update_time_utc": 1788785664
+  },
+  "IGUNDA55": {
+   "station_id": "IGUNDA55",
+   "lat": -34.986,
+   "lon": 149.26,
+   "qc_status": 1,
+   "update_time_utc": 1788773632
+  },
+  "IMUNDO4": {
+   "station_id": "IMUNDO4",
+   "lat": -35.294,
+   "lon": 148.29201,
+   "qc_status": -1,
+   "update_time_utc": 1788778368
+  },
+  "IGOCUP1": {
+   "station_id": "IGOCUP1",
+   "lat": -35.26,
+   "lon": 148.191,
+   "qc_status": -1,
+   "update_time_utc": 1788805504
+  },
+  "ICOOLA19": {
+   "station_id": "ICOOLA19",
+   "lat": -34.979,
+   "lon": 148.225,
+   "qc_status": -1,
+   "update_time_utc": 1788779904
+  },
+  "ISOUTH1456": {
+   "station_id": "ISOUTH1456",
+   "lat": -35.07728,
+   "lon": 148.1042,
+   "qc_status": -1,
+   "update_time_utc": 1788845440
+  },
+  "ITUMUT19": {
+   "station_id": "ITUMUT19",
+   "lat": -35.299,
+   "lon": 148.217,
+   "qc_status": 1,
+   "update_time_utc": 1788852224
+  },
+  "ITUMUT21": {
+   "station_id": "ITUMUT21",
+   "lat": -35.302,
+   "lon": 148.214,
+   "qc_status": -1,
+   "update_time_utc": 1788823680
+  },
+  "ITUMUT26": {
+   "station_id": "ITUMUT26",
+   "lat": -35.3,
+   "lon": 148.208,
+   "qc_status": -1,
+   "update_time_utc": 1788681728
+  },
+  "ITUMUT13": {
+   "station_id": "ITUMUT13",
+   "lat": -35.304,
+   "lon": 148.21279,
+   "qc_status": 1,
+   "update_time_utc": 1788772096
+  },
+  "ITUMUT8": {
+   "station_id": "ITUMUT8",
+   "lat": -35.313,
+   "lon": 148.235,
+   "qc_status": 1,
+   "update_time_utc": 1788821248
+  },
+  "ITUMUT6": {
+   "station_id": "ITUMUT6",
+   "lat": -35.314,
+   "lon": 148.234,
+   "qc_status": -1,
+   "update_time_utc": 1788799232
+  },
+  "IRAINB24": {
+   "station_id": "IRAINB24",
+   "lat": -25.91,
+   "lon": 153.087,
+   "qc_status": -1,
+   "update_time_utc": 1788789504
+  },
+  "IRAINB10": {
+   "station_id": "IRAINB10",
+   "lat": -25.903,
+   "lon": 153.092,
+   "qc_status": 1,
+   "update_time_utc": 1783098752
+  },
+  "IRAINB52": {
+   "station_id": "IRAINB52",
+   "lat": -25.89,
+   "lon": 153.083,
+   "qc_status": -1,
+   "update_time_utc": 1788853632
+  },
+  "ITINCA3": {
+   "station_id": "ITINCA3",
+   "lat": -25.926,
+   "lon": 153.001,
+   "qc_status": -1,
+   "update_time_utc": 1788852608
+  },
+  "ICOOLO43": {
+   "station_id": "ICOOLO43",
+   "lat": -25.97,
+   "lon": 152.983,
+   "qc_status": -1,
+   "update_time_utc": 1788838272
+  },
+  "ICOOLO18": {
+   "station_id": "ICOOLO18",
+   "lat": -25.975,
+   "lon": 152.986,
+   "qc_status": 1,
+   "update_time_utc": 1788837120
+  },
+  "IPOONA7": {
+   "station_id": "IPOONA7",
+   "lat": -25.715,
+   "lon": 152.914,
+   "qc_status": -1,
+   "update_time_utc": 1788833152
+  },
+  "IBOONO8": {
+   "station_id": "IBOONO8",
+   "lat": -25.668,
+   "lon": 152.903,
+   "qc_status": -1,
+   "update_time_utc": 1788830592
+  },
+  "ITUAN1": {
+   "station_id": "ITUAN1",
+   "lat": -25.68,
+   "lon": 152.876,
+   "qc_status": 1,
+   "update_time_utc": 1788785920
+  },
+  "IWILSO29": {
+   "station_id": "IWILSO29",
+   "lat": -26.123,
+   "lon": 152.811,
+   "qc_status": -1,
+   "update_time_utc": 1788844800
+  },
+  "ISOUTH1968": {
+   "station_id": "ISOUTH1968",
+   "lat": -31.134,
+   "lon": 152.861,
+   "qc_status": -1,
+   "update_time_utc": 1788820864
+  },
+  "ISOUTH2065": {
+   "station_id": "ISOUTH2065",
+   "lat": -31.104,
+   "lon": 152.863,
+   "qc_status": 1,
+   "update_time_utc": 1788852736
+  },
+  "ISOUTH1507": {
+   "station_id": "ISOUTH1507",
+   "lat": -31.105,
+   "lon": 152.859,
+   "qc_status": 1,
+   "update_time_utc": 1788843136
+  },
+  "IVERGE34": {
+   "station_id": "IVERGE34",
+   "lat": -31.078,
+   "lon": 152.872,
+   "qc_status": 1,
+   "update_time_utc": 1788827520
+  },
+  "IEASTK100": {
+   "station_id": "IEASTK100",
+   "lat": -31.08,
+   "lon": 152.854,
+   "qc_status": -1,
+   "update_time_utc": 1788774528
+  },
+  "IEASTK97": {
+   "station_id": "IEASTK97",
+   "lat": -31.08,
+   "lon": 152.854,
+   "qc_status": -1,
+   "update_time_utc": 1788779008
+  },
+  "IHAMPD2": {
+   "station_id": "IHAMPD2",
+   "lat": -31.069,
+   "lon": 152.865,
+   "qc_status": 1,
+   "update_time_utc": 1788792448
+  },
+  "IPOLAC4": {
+   "station_id": "IPOLAC4",
+   "lat": -31.057,
+   "lon": 152.868,
+   "qc_status": 1,
+   "update_time_utc": 1788775040
+  },
+  "ISMITH13": {
+   "station_id": "ISMITH13",
+   "lat": -31.016,
+   "lon": 152.942,
+   "qc_status": 1,
+   "update_time_utc": 1788792320
+  },
+  "IWESTK77": {
+   "station_id": "IWESTK77",
+   "lat": -31.064,
+   "lon": 152.831,
+   "qc_status": 1,
+   "update_time_utc": 1788849664
+  },
+  "IPORTM83": {
+   "station_id": "IPORTM83",
+   "lat": -31.461,
+   "lon": 152.928,
+   "qc_status": 1,
+   "update_time_utc": 1788804864
+  },
+  "IPORTM168": {
+   "station_id": "IPORTM168",
+   "lat": -31.459,
+   "lon": 152.922,
+   "qc_status": 1,
+   "update_time_utc": 1788782464
+  },
+  "IPORTM192": {
+   "station_id": "IPORTM192",
+   "lat": -31.462,
+   "lon": 152.923,
+   "qc_status": 1,
+   "update_time_utc": 1788838016
+  },
+  "IPORTM167": {
+   "station_id": "IPORTM167",
+   "lat": -31.462,
+   "lon": 152.92,
+   "qc_status": 1,
+   "update_time_utc": 1788774016
+  },
+  "IPORTM215": {
+   "station_id": "IPORTM215",
+   "lat": -31.466,
+   "lon": 152.923,
+   "qc_status": 1,
+   "update_time_utc": 1788847232
+  },
+  "IPORTM235": {
+   "station_id": "IPORTM235",
+   "lat": -31.469,
+   "lon": 152.925,
+   "qc_status": -1,
+   "update_time_utc": 1788849024
+  },
+  "IPORTM112": {
+   "station_id": "IPORTM112",
+   "lat": -31.47,
+   "lon": 152.929,
+   "qc_status": 1,
+   "update_time_utc": 1788797952
+  },
+  "IPORTM216": {
+   "station_id": "IPORTM216",
+   "lat": -31.47,
+   "lon": 152.922,
+   "qc_status": 1,
+   "update_time_utc": 1788772864
+  },
+  "IPORTMAC14": {
+   "station_id": "IPORTMAC14",
+   "lat": -31.45121,
+   "lon": 152.9106,
+   "qc_status": 1,
+   "update_time_utc": 1788775936
+  },
+  "IPORTM205": {
+   "station_id": "IPORTM205",
+   "lat": -31.447,
+   "lon": 152.912,
+   "qc_status": 1,
+   "update_time_utc": 1788783872
+  },
+  "IUPPER371": {
+   "station_id": "IUPPER371",
+   "lat": -31.686,
+   "lon": 152.478,
+   "qc_status": 1,
+   "update_time_utc": 1788818048
+  },
+  "IHANNA14": {
+   "station_id": "IHANNA14",
+   "lat": -31.718,
+   "lon": 152.569,
+   "qc_status": 1,
+   "update_time_utc": 1788823680
+  },
+  "IUPPER147": {
+   "station_id": "IUPPER147",
+   "lat": -31.749,
+   "lon": 152.452,
+   "qc_status": 1,
+   "update_time_utc": 1788792064
+  },
+  "ICOMBO6": {
+   "station_id": "ICOMBO6",
+   "lat": -31.655,
+   "lon": 152.465,
+   "qc_status": 0,
+   "update_time_utc": 1788803584
+  },
+  "IUPPER315": {
+   "station_id": "IUPPER315",
+   "lat": -31.762,
+   "lon": 152.453,
+   "qc_status": 1,
+   "update_time_utc": 1788780544
+  },
+  "INSWCENT6": {
+   "station_id": "INSWCENT6",
+   "lat": -31.78276,
+   "lon": 152.49168,
+   "qc_status": 1,
+   "update_time_utc": 1783054848
+  },
+  "ILANGL24": {
+   "station_id": "ILANGL24",
+   "lat": -31.784,
+   "lon": 152.565,
+   "qc_status": 1,
+   "update_time_utc": 1788840192
+  },
+  "IKILLA52": {
+   "station_id": "IKILLA52",
+   "lat": -31.7616,
+   "lon": 152.40724,
+   "qc_status": -1,
+   "update_time_utc": 1788837760
+  },
+  "ICOMBO14": {
+   "station_id": "ICOMBO14",
+   "lat": -31.60284,
+   "lon": 152.4608,
+   "qc_status": -1,
+   "update_time_utc": 1788844032
+  },
+  "IJOHNS39": {
+   "station_id": "IJOHNS39",
+   "lat": -31.7068,
+   "lon": 152.6756,
+   "qc_status": -1,
+   "update_time_utc": 1788769920
+  },
+  "ISYDNE3259": {
+   "station_id": "ISYDNE3259",
+   "lat": -33.674,
+   "lon": 151.318,
+   "qc_status": 1,
+   "update_time_utc": 1788772736
+  },
+  "ISYDNEY645": {
+   "station_id": "ISYDNEY645",
+   "lat": -33.66953,
+   "lon": 151.31236,
+   "qc_status": 1,
+   "update_time_utc": 1788791552
+  },
+  "ISYDNE2279": {
+   "station_id": "ISYDNE2279",
+   "lat": -33.672,
+   "lon": 151.31,
+   "qc_status": 1,
+   "update_time_utc": 1788850304
+  },
+  "ISYDNEY444": {
+   "station_id": "ISYDNEY444",
+   "lat": -33.676,
+   "lon": 151.30701,
+   "qc_status": 1,
+   "update_time_utc": 1788817408
+  },
+  "ISYDNE414": {
+   "station_id": "ISYDNE414",
+   "lat": -33.656,
+   "lon": 151.319,
+   "qc_status": 1,
+   "update_time_utc": 1783002496
+  },
+  "ISYDNE1964": {
+   "station_id": "ISYDNE1964",
+   "lat": -33.68,
+   "lon": 151.298,
+   "qc_status": 1,
+   "update_time_utc": 1788807424
+  },
+  "ISYDNE1750": {
+   "station_id": "ISYDNE1750",
+   "lat": -33.664,
+   "lon": 151.298,
+   "qc_status": 1,
+   "update_time_utc": 1788792192
+  },
+  "ISYDNE4600": {
+   "station_id": "ISYDNE4600",
+   "lat": -33.673,
+   "lon": 151.293,
+   "qc_status": 1,
+   "update_time_utc": 1788850048
+  },
+  "ISYDNE1362": {
+   "station_id": "ISYDNE1362",
+   "lat": -33.661,
+   "lon": 151.295,
+   "qc_status": 1,
+   "update_time_utc": 1788780416
+  },
+  "ISYDNE4395": {
+   "station_id": "ISYDNE4395",
+   "lat": -33.694,
+   "lon": 151.306,
+   "qc_status": -1,
+   "update_time_utc": 1788777088
+  },
+  "ISTANW4": {
+   "station_id": "ISTANW4",
+   "lat": -34.221,
+   "lon": 150.983,
+   "qc_status": 1,
+   "update_time_utc": 1788836352
+  },
+  "ISTANW3": {
+   "station_id": "ISTANW3",
+   "lat": -34.2239,
+   "lon": 150.96933,
+   "qc_status": 1,
+   "update_time_utc": 1788768256
+  },
+  "IHELEN104": {
+   "station_id": "IHELEN104",
+   "lat": -34.201,
+   "lon": 150.979,
+   "qc_status": 1,
+   "update_time_utc": 1788826752
+  },
+  "INSWCOAL3": {
+   "station_id": "INSWCOAL3",
+   "lat": -34.24625,
+   "lon": 150.97487,
+   "qc_status": 1,
+   "update_time_utc": 1788841472
+  },
+  "IHELEN140": {
+   "station_id": "IHELEN140",
+   "lat": -34.194,
+   "lon": 150.98,
+   "qc_status": -1,
+   "update_time_utc": 1788778880
+  },
+  "IHELEN4": {
+   "station_id": "IHELEN4",
+   "lat": -34.194,
+   "lon": 150.979,
+   "qc_status": 1,
+   "update_time_utc": 1788850560
+  },
+  "IHELEN91": {
+   "station_id": "IHELEN91",
+   "lat": -34.193,
+   "lon": 150.979,
+   "qc_status": 1,
+   "update_time_utc": 1783041152
+  },
+  "IHELEN149": {
+   "station_id": "IHELEN149",
+   "lat": -34.192,
+   "lon": 150.979,
+   "qc_status": -1,
+   "update_time_utc": 1788835968
+  },
+  "IHELEN60": {
+   "station_id": "IHELEN60",
+   "lat": -34.189,
+   "lon": 150.985,
+   "qc_status": 1,
+   "update_time_utc": 1788852224
+  },
+  "IHELEN6": {
+   "station_id": "IHELEN6",
+   "lat": -34.188,
+   "lon": 150.987,
+   "qc_status": 1,
+   "update_time_utc": 1788822016
+  },
+  "IKNIGH3": {
+   "station_id": "IKNIGH3",
+   "lat": -34.62082,
+   "lon": 150.67386,
+   "qc_status": 1,
+   "update_time_utc": 1788810752
+  },
+  "IKNIGH28": {
+   "station_id": "IKNIGH28",
+   "lat": -34.62027,
+   "lon": 150.71049,
+   "qc_status": 1,
+   "update_time_utc": 1788845440
+  },
+  "INEWSOUT2048": {
+   "station_id": "INEWSOUT2048",
+   "lat": -34.5883,
+   "lon": 150.63895,
+   "qc_status": 0,
+   "update_time_utc": 1788772352
+  },
+  "I90582169": {
+   "station_id": "I90582169",
+   "lat": -34.636,
+   "lon": 150.651,
+   "qc_status": -1,
+   "update_time_utc": 1788852480
+  },
+  "ITONGA11": {
+   "station_id": "ITONGA11",
+   "lat": -34.57,
+   "lon": 150.726,
+   "qc_status": 1,
+   "update_time_utc": 1788847232
+  },
+  "IJAMBE10": {
+   "station_id": "IJAMBE10",
+   "lat": -34.641,
+   "lon": 150.729,
+   "qc_status": 1,
+   "update_time_utc": 1788769920
+  },
+  "IMOUNT1260": {
+   "station_id": "IMOUNT1260",
+   "lat": -34.553,
+   "lon": 150.633,
+   "qc_status": -1,
+   "update_time_utc": 1788825600
+  },
+  "IROBER18": {
+   "station_id": "IROBER18",
+   "lat": -34.61314,
+   "lon": 150.60658,
+   "qc_status": 1,
+   "update_time_utc": 1788848384
+  },
+  "IROBER7": {
+   "station_id": "IROBER7",
+   "lat": -34.617,
+   "lon": 150.606,
+   "qc_status": 1,
+   "update_time_utc": 1788831360
+  },
+  "IYELLO15": {
+   "station_id": "IYELLO15",
+   "lat": -34.603,
+   "lon": 150.755,
+   "qc_status": 1,
+   "update_time_utc": 1788774528
+  },
+  "IBEAUM82": {
+   "station_id": "IBEAUM82",
+   "lat": -34.79,
+   "lon": 150.586,
+   "qc_status": 1,
+   "update_time_utc": 1788769408
+  },
+  "IBEAUM93": {
+   "station_id": "IBEAUM93",
+   "lat": -34.78025,
+   "lon": 150.57849,
+   "qc_status": 1,
+   "update_time_utc": 1788781184
+  },
+  "ICAMBE38": {
+   "station_id": "ICAMBE38",
+   "lat": -34.822,
+   "lon": 150.574,
+   "qc_status": 1,
+   "update_time_utc": 1788775680
+  },
+  "IMEROO1": {
+   "station_id": "IMEROO1",
+   "lat": -34.819,
+   "lon": 150.598,
+   "qc_status": 1,
+   "update_time_utc": 1788795648
+  },
+  "INSWCAMB3": {
+   "station_id": "INSWCAMB3",
+   "lat": -34.82769,
+   "lon": 150.55685,
+   "qc_status": 1,
+   "update_time_utc": 1788777472
+  },
+  "IBOMAD14": {
+   "station_id": "IBOMAD14",
+   "lat": -34.832,
+   "lon": 150.601,
+   "qc_status": 1,
+   "update_time_utc": 1788840064
+  },
+  "INOWRA25": {
+   "station_id": "INOWRA25",
+   "lat": -34.834,
+   "lon": 150.60001,
+   "qc_status": 1,
+   "update_time_utc": 1788819328
+  },
+  "IBOMAD16": {
+   "station_id": "IBOMAD16",
+   "lat": -34.83492,
+   "lon": 150.60497,
+   "qc_status": 1,
+   "update_time_utc": 1788853504
+  },
+  "ITAPIT10": {
+   "station_id": "ITAPIT10",
+   "lat": -34.83,
+   "lon": 150.538,
+   "qc_status": 1,
+   "update_time_utc": 1788767872
+  },
+  "IBOMAD17": {
+   "station_id": "IBOMAD17",
+   "lat": -34.84,
+   "lon": 150.599,
+   "qc_status": -1,
+   "update_time_utc": 1788771200
+  },
+  "IUPPER471": {
+   "station_id": "IUPPER471",
+   "lat": -30.695,
+   "lon": 150.688,
+   "qc_status": -1,
+   "update_time_utc": 1788781184
+  },
+  "IMANIL10": {
+   "station_id": "IMANIL10",
+   "lat": -30.72815,
+   "lon": 150.70916,
+   "qc_status": -1,
+   "update_time_utc": 1788832640
+  },
+  "IMANIL6": {
+   "station_id": "IMANIL6",
+   "lat": -30.761,
+   "lon": 150.722,
+   "qc_status": -1,
+   "update_time_utc": 1788848512
+  },
+  "IREDHI9": {
+   "station_id": "IREDHI9",
+   "lat": -30.49,
+   "lon": 150.619,
+   "qc_status": -1,
+   "update_time_utc": 1788810368
+  },
+  "INEWSOUT1322": {
+   "station_id": "INEWSOUT1322",
+   "lat": -30.867,
+   "lon": 150.58473,
+   "qc_status": -1,
+   "update_time_utc": 1788810496
+  },
+  "IKEEPI3": {
+   "station_id": "IKEEPI3",
+   "lat": -30.89625,
+   "lon": 150.5263,
+   "qc_status": 1,
+   "update_time_utc": 1788855680
+  },
+  "IHALLS40": {
+   "station_id": "IHALLS40",
+   "lat": -30.748,
+   "lon": 150.907,
+   "qc_status": -1,
+   "update_time_utc": 1788799744
+  },
+  "IKELVI2": {
+   "station_id": "IKELVI2",
+   "lat": -30.828,
+   "lon": 150.351,
+   "qc_status": -1,
+   "update_time_utc": 1788777344
+  },
+  "IBARRA117": {
+   "station_id": "IBARRA117",
+   "lat": -30.38279,
+   "lon": 150.60835,
+   "qc_status": -1,
+   "update_time_utc": 1788837760
+  },
+  "ISOMER36": {
+   "station_id": "ISOMER36",
+   "lat": -30.9989,
+   "lon": 150.5835,
+   "qc_status": 1,
+   "update_time_utc": 1788804736
+  },
+  "IHARTW5": {
+   "station_id": "IHARTW5",
+   "lat": -35.33424,
+   "lon": 145.30116,
+   "qc_status": -1,
+   "update_time_utc": 1788824192
+  },
+  "IDENIL15": {
+   "station_id": "IDENIL15",
+   "lat": -35.552,
+   "lon": 145.045,
+   "qc_status": 1,
+   "update_time_utc": 1788834560
+  },
+  "IDENIL14": {
+   "station_id": "IDENIL14",
+   "lat": -35.543,
+   "lon": 145.006,
+   "qc_status": 1,
+   "update_time_utc": 1783065600
+  },
+  "IDENIL1": {
+   "station_id": "IDENIL1",
+   "lat": -35.5199,
+   "lon": 144.94545,
+   "qc_status": -1,
+   "update_time_utc": 1788847872
+  },
+  "IDENIL4": {
+   "station_id": "IDENIL4",
+   "lat": -35.561,
+   "lon": 144.976,
+   "qc_status": 1,
+   "update_time_utc": 1788791936
+  },
+  "IWARRA101": {
+   "station_id": "IWARRA101",
+   "lat": -35.602,
+   "lon": 145.083,
+   "qc_status": -1,
+   "update_time_utc": 1788833664
+  },
+  "INEWSOUT1270": {
+   "station_id": "INEWSOUT1270",
+   "lat": -35.5504,
+   "lon": 145.47763,
+   "qc_status": -1,
+   "update_time_utc": 1781753088
+  },
+  "IMORAG4": {
+   "station_id": "IMORAG4",
+   "lat": -35.401,
+   "lon": 144.735,
+   "qc_status": -1,
+   "update_time_utc": 1788798720
+  },
+  "INEWSOUT1384": {
+   "station_id": "INEWSOUT1384",
+   "lat": -35.59083,
+   "lon": 145.46216,
+   "qc_status": 1,
+   "update_time_utc": 1788845568
+  },
+  "ICALIM12": {
+   "station_id": "ICALIM12",
+   "lat": -35.412,
+   "lon": 144.65,
+   "qc_status": -1,
+   "update_time_utc": 1788786176
+  },
+  "INEWSOUT1914": {
+   "station_id": "INEWSOUT1914",
+   "lat": -35.41779,
+   "lon": 145.69072,
+   "qc_status": -1,
+   "update_time_utc": 1788840320
+  },
+  "IWAKOO6": {
+   "station_id": "IWAKOO6",
+   "lat": -35.46753,
+   "lon": 144.3936,
+   "qc_status": -1,
+   "update_time_utc": 1788776064
+  },
+  "IMATHO10": {
+   "station_id": "IMATHO10",
+   "lat": -35.81515,
+   "lon": 144.90196,
+   "qc_status": -1,
+   "update_time_utc": 1788843264
+  },
+  "I90582956": {
+   "station_id": "I90582956",
+   "lat": -33.64957,
+   "lon": 150.26926,
+   "qc_status": 1,
+   "update_time_utc": 1788849024
+  },
+  "I90581888": {
+   "station_id": "I90581888",
+   "lat": -33.637,
+   "lon": 150.278,
+   "qc_status": 1,
+   "update_time_utc": 1788829056
+  },
+  "IBLACK342": {
+   "station_id": "IBLACK342",
+   "lat": -33.631,
+   "lon": 150.277,
+   "qc_status": 1,
+   "update_time_utc": 1788844160
+  },
+  "IBLACK60": {
+   "station_id": "IBLACK60",
+   "lat": -33.627,
+   "lon": 150.279,
+   "qc_status": -1,
+   "update_time_utc": 1783073152
+  },
+  "IBLACK187": {
+   "station_id": "IBLACK187",
+   "lat": -33.63733,
+   "lon": 150.28357,
+   "qc_status": 1,
+   "update_time_utc": 1788771328
+  },
+  "IBLACK261": {
+   "station_id": "IBLACK261",
+   "lat": -33.641,
+   "lon": 150.284,
+   "qc_status": 1,
+   "update_time_utc": 1778493696
+  },
+  "INEWSOUT878": {
+   "station_id": "INEWSOUT878",
+   "lat": -33.6378,
+   "lon": 150.29065,
+   "qc_status": 1,
+   "update_time_utc": 1788814336
+  },
+  "IBLACK259": {
+   "station_id": "IBLACK259",
+   "lat": -33.637,
+   "lon": 150.292,
+   "qc_status": 1,
+   "update_time_utc": 1788823680
+  },
+  "IBLACK101": {
+   "station_id": "IBLACK101",
+   "lat": -33.63723,
+   "lon": 150.29694,
+   "qc_status": 1,
+   "update_time_utc": 1788847104
+  },
+  "IBLACK188": {
+   "station_id": "IBLACK188",
+   "lat": -33.62739,
+   "lon": 150.29424,
+   "qc_status": 1,
+   "update_time_utc": 1788828160
+  },
+  "IPALME181": {
+   "station_id": "IPALME181",
+   "lat": -33.13,
+   "lon": 149.839,
+   "qc_status": 1,
+   "update_time_utc": 1788852224
+  },
+  "IPALME209": {
+   "station_id": "IPALME209",
+   "lat": -33.145,
+   "lon": 149.843,
+   "qc_status": -1,
+   "update_time_utc": 1783053312
+  },
+  "IRUNNI1": {
+   "station_id": "IRUNNI1",
+   "lat": -33.056,
+   "lon": 149.854,
+   "qc_status": 1,
+   "update_time_utc": 1788853504
+  },
+  "ISOFAL9": {
+   "station_id": "ISOFAL9",
+   "lat": -33.087,
+   "lon": 149.704,
+   "qc_status": -1,
+   "update_time_utc": 1788823552
+  },
+  "ISOFAL8": {
+   "station_id": "ISOFAL8",
+   "lat": -33.084,
+   "lon": 149.701,
+   "qc_status": 0,
+   "update_time_utc": 1788805376
+  },
+  "IPALME171": {
+   "station_id": "IPALME171",
+   "lat": -33.137,
+   "lon": 149.894,
+   "qc_status": -1,
+   "update_time_utc": 1788823040
+  },
+  "IILFOR31": {
+   "station_id": "IILFOR31",
+   "lat": -33.01347,
+   "lon": 149.78251,
+   "qc_status": -1,
+   "update_time_utc": 1788755840
+  },
+  "ISOFAL5": {
+   "station_id": "ISOFAL5",
+   "lat": -33.09563,
+   "lon": 149.68944,
+   "qc_status": 1,
+   "update_time_utc": 1788784256
+  },
+  "IWATTL25": {
+   "station_id": "IWATTL25",
+   "lat": -33.13872,
+   "lon": 149.69497,
+   "qc_status": -1,
+   "update_time_utc": 1783035264
+  },
+  "ISOFAL7": {
+   "station_id": "ISOFAL7",
+   "lat": -33.032,
+   "lon": 149.717,
+   "qc_status": -1,
+   "update_time_utc": 1788818176
+  },
+  "IVICTORI1693": {
+   "station_id": "IVICTORI1693",
+   "lat": -38.36081,
+   "lon": 144.25046,
+   "qc_status": 1,
+   "update_time_utc": 1788798080
+  },
+  "IBELLB33": {
+   "station_id": "IBELLB33",
+   "lat": -38.359,
+   "lon": 144.249,
+   "qc_status": 1,
+   "update_time_utc": 1788821632
+  },
+  "IJANJU1": {
+   "station_id": "IJANJU1",
+   "lat": -38.35359,
+   "lon": 144.29524,
+   "qc_status": 1,
+   "update_time_utc": 1788822784
+  },
+  "IJANJU2": {
+   "station_id": "IJANJU2",
+   "lat": -38.352,
+   "lon": 144.296,
+   "qc_status": -1,
+   "update_time_utc": 1788772736
+  },
+  "ITORQU6": {
+   "station_id": "ITORQU6",
+   "lat": -38.347,
+   "lon": 144.29601,
+   "qc_status": 1,
+   "update_time_utc": 1788807552
+  },
+  "IJANJU3": {
+   "station_id": "IJANJU3",
+   "lat": -38.348,
+   "lon": 144.302,
+   "qc_status": -1,
+   "update_time_utc": 1788805504
+  },
+  "IBELLB39": {
+   "station_id": "IBELLB39",
+   "lat": -38.342,
+   "lon": 144.22,
+   "qc_status": -1,
+   "update_time_utc": 1788776960
+  },
+  "IBELLB13": {
+   "station_id": "IBELLB13",
+   "lat": -38.322,
+   "lon": 144.265,
+   "qc_status": 1,
+   "update_time_utc": 1788789248
+  },
+  "IBELLB37": {
+   "station_id": "IBELLB37",
+   "lat": -38.343,
+   "lon": 144.212,
+   "qc_status": -1,
+   "update_time_utc": 1788816256
+  },
+  "ITORQU87": {
+   "station_id": "ITORQU87",
+   "lat": -38.334,
+   "lon": 144.32,
+   "qc_status": 1,
+   "update_time_utc": 1788772992
+  },
+  "ICONNE23": {
+   "station_id": "ICONNE23",
+   "lat": -38.27,
+   "lon": 144.439,
+   "qc_status": -1,
+   "update_time_utc": 1788816384
+  },
+  "ICONNE17": {
+   "station_id": "ICONNE17",
+   "lat": -38.274,
+   "lon": 144.451,
+   "qc_status": 0,
+   "update_time_utc": 1788771584
+  },
+  "I90583228": {
+   "station_id": "I90583228",
+   "lat": -38.273,
+   "lon": 144.453,
+   "qc_status": 1,
+   "update_time_utc": 1788793984
+  },
+  "ICONNE4": {
+   "station_id": "ICONNE4",
+   "lat": -38.27,
+   "lon": 144.451,
+   "qc_status": 1,
+   "update_time_utc": 1788803968
+  },
+  "IOCEAN110": {
+   "station_id": "IOCEAN110",
+   "lat": -38.276,
+   "lon": 144.486,
+   "qc_status": 1,
+   "update_time_utc": 1783064448
+  },
+  "IBARWO24": {
+   "station_id": "IBARWO24",
+   "lat": -38.273,
+   "lon": 144.486,
+   "qc_status": 1,
+   "update_time_utc": 1788853504
+  },
+  "ICONNE2": {
+   "station_id": "ICONNE2",
+   "lat": -38.263,
+   "lon": 144.395,
+   "qc_status": 1,
+   "update_time_utc": 1788804736
+  },
+  "IOCEAN13": {
+   "station_id": "IOCEAN13",
+   "lat": -38.284,
+   "lon": 144.491,
+   "qc_status": 1,
+   "update_time_utc": 1788837376
+  },
+  "ICONNE22": {
+   "station_id": "ICONNE22",
+   "lat": -38.24154,
+   "lon": 144.42478,
+   "qc_status": 1,
+   "update_time_utc": 1788836480
+  },
+  "IBARWO21": {
+   "station_id": "IBARWO21",
+   "lat": -38.28,
+   "lon": 144.494,
+   "qc_status": -1,
+   "update_time_utc": 1788851328
+  },
+  "ISUNSH961": {
+   "station_id": "ISUNSH961",
+   "lat": -26.688,
+   "lon": 153.126,
+   "qc_status": -1,
+   "update_time_utc": 1788834176
+  },
+  "ISUNSH501": {
+   "station_id": "ISUNSH501",
+   "lat": -26.696,
+   "lon": 153.129,
+   "qc_status": 1,
+   "update_time_utc": 1788824832
+  },
+  "ISUNSHIN78": {
+   "station_id": "ISUNSHIN78",
+   "lat": -26.69294,
+   "lon": 153.12262,
+   "qc_status": 1,
+   "update_time_utc": 1788801280
+  },
+  "ISUNSH867": {
+   "station_id": "ISUNSH867",
+   "lat": -26.69,
+   "lon": 153.116,
+   "qc_status": -1,
+   "update_time_utc": 1788787712
+  },
+  "ISUNSH796": {
+   "station_id": "ISUNSH796",
+   "lat": -26.702,
+   "lon": 153.125,
+   "qc_status": 1,
+   "update_time_utc": 1788845312
+  },
+  "ISUNSH904": {
+   "station_id": "ISUNSH904",
+   "lat": -26.68,
+   "lon": 153.104,
+   "qc_status": -1,
+   "update_time_utc": 1788832896
+  },
+  "ISUNSH721": {
+   "station_id": "ISUNSH721",
+   "lat": -26.67039,
+   "lon": 153.10492,
+   "qc_status": 1,
+   "update_time_utc": 1788777600
+  },
+  "ISUNSH901": {
+   "station_id": "ISUNSH901",
+   "lat": -26.67846,
+   "lon": 153.10068,
+   "qc_status": -1,
+   "update_time_utc": 1788850560
+  },
+  "ISUNSH858": {
+   "station_id": "ISUNSH858",
+   "lat": -26.704,
+   "lon": 153.112,
+   "qc_status": 1,
+   "update_time_utc": 1788843520
+  },
+  "ISUNSH415": {
+   "station_id": "ISUNSH415",
+   "lat": -26.712,
+   "lon": 153.127,
+   "qc_status": 1,
+   "update_time_utc": 1788775296
+  },
+  "INULLA21": {
+   "station_id": "INULLA21",
+   "lat": -38.475,
+   "lon": 142.712,
+   "qc_status": 1,
+   "update_time_utc": 1788836608
+  },
+  "IVICTORI1187": {
+   "station_id": "IVICTORI1187",
+   "lat": -38.51254,
+   "lon": 142.88452,
+   "qc_status": 1,
+   "update_time_utc": 1788853888
+  },
+  "INARIN6": {
+   "station_id": "INARIN6",
+   "lat": -38.398,
+   "lon": 142.703,
+   "qc_status": 1,
+   "update_time_utc": 1788794240
+  },
+  "IPETER296": {
+   "station_id": "IPETER296",
+   "lat": -38.598,
+   "lon": 142.926,
+   "qc_status": -1,
+   "update_time_utc": 1788803968
+  },
+  "IBRUCK164": {
+   "station_id": "IBRUCK164",
+   "lat": -38.449,
+   "lon": 142.922,
+   "qc_status": -1,
+   "update_time_utc": 1788843520
+  },
+  "ITIMBO3": {
+   "station_id": "ITIMBO3",
+   "lat": -38.469,
+   "lon": 142.946,
+   "qc_status": -1,
+   "update_time_utc": 1788831872
+  },
+  "IPANMU5": {
+   "station_id": "IPANMU5",
+   "lat": -38.356,
+   "lon": 142.75,
+   "qc_status": 1,
+   "update_time_utc": 1788840832
+  },
+  "IALLAN26": {
+   "station_id": "IALLAN26",
+   "lat": -38.387,
+   "lon": 142.604,
+   "qc_status": 1,
+   "update_time_utc": 1788768640
+  },
+  "ICURDI8": {
+   "station_id": "ICURDI8",
+   "lat": -38.442,
+   "lon": 142.942,
+   "qc_status": 1,
+   "update_time_utc": 1788835072
+  },
+  "IALLAN15": {
+   "station_id": "IALLAN15",
+   "lat": -38.404,
+   "lon": 142.567,
+   "qc_status": 1,
+   "update_time_utc": 1788808192
+  },
+  "IWARRN126": {
+   "station_id": "IWARRN126",
+   "lat": -38.397,
+   "lon": 142.507,
+   "qc_status": 1,
+   "update_time_utc": 1788840192
+  },
+  "IWARRN40": {
+   "station_id": "IWARRN40",
+   "lat": -38.402,
+   "lon": 142.522,
+   "qc_status": 1,
+   "update_time_utc": 1788810112
+  },
+  "IWARRN107": {
+   "station_id": "IWARRN107",
+   "lat": -38.397,
+   "lon": 142.524,
+   "qc_status": 1,
+   "update_time_utc": 1788783360
+  },
+  "IWARRN98": {
+   "station_id": "IWARRN98",
+   "lat": -38.389,
+   "lon": 142.496,
+   "qc_status": 1,
+   "update_time_utc": 1788852352
+  },
+  "IWARRN110": {
+   "station_id": "IWARRN110",
+   "lat": -38.389,
+   "lon": 142.495,
+   "qc_status": 1,
+   "update_time_utc": 1788819328
+  },
+  "IWARRN115": {
+   "station_id": "IWARRN115",
+   "lat": -38.386,
+   "lon": 142.523,
+   "qc_status": 1,
+   "update_time_utc": 1788780416
+  },
+  "IWARRN112": {
+   "station_id": "IWARRN112",
+   "lat": -38.372,
+   "lon": 142.504,
+   "qc_status": 0,
+   "update_time_utc": 1788806656
+  },
+  "IWARRN120": {
+   "station_id": "IWARRN120",
+   "lat": -38.372,
+   "lon": 142.515,
+   "qc_status": 1,
+   "update_time_utc": 1788850816
+  },
+  "IWARRN129": {
+   "station_id": "IWARRN129",
+   "lat": -38.37134,
+   "lon": 142.50212,
+   "qc_status": 1,
+   "update_time_utc": 1788850304
+  },
+  "IALLAN44": {
+   "station_id": "IALLAN44",
+   "lat": -38.406,
+   "lon": 142.546,
+   "qc_status": 1,
+   "update_time_utc": 1788784384
+  },
+  "IWARRN27": {
+   "station_id": "IWARRN27",
+   "lat": -38.36,
+   "lon": 142.448,
+   "qc_status": 1,
+   "update_time_utc": 1788793856
+  },
+  "IDENNI9": {
+   "station_id": "IDENNI9",
+   "lat": -38.356,
+   "lon": 142.448,
+   "qc_status": -1,
+   "update_time_utc": 1788777344
+  },
+  "IWARRN114": {
+   "station_id": "IWARRN114",
+   "lat": -38.384,
+   "lon": 142.455,
+   "qc_status": 1,
+   "update_time_utc": 1788776576
+  },
+  "IWARRN118": {
+   "station_id": "IWARRN118",
+   "lat": -38.358,
+   "lon": 142.462,
+   "qc_status": 1,
+   "update_time_utc": 1788770688
+  },
+  "IWARRN41": {
+   "station_id": "IWARRN41",
+   "lat": -38.386,
+   "lon": 142.462,
+   "qc_status": -1,
+   "update_time_utc": 1788848000
+  },
+  "IWARRN113": {
+   "station_id": "IWARRN113",
+   "lat": -38.35766,
+   "lon": 142.46794,
+   "qc_status": 1,
+   "update_time_utc": 1788845184
+  },
+  "IWARRN85": {
+   "station_id": "IWARRN85",
+   "lat": -38.355,
+   "lon": 142.467,
+   "qc_status": 1,
+   "update_time_utc": 1788820992
+  },
+  "IWARRN131": {
+   "station_id": "IWARRN131",
+   "lat": -38.353,
+   "lon": 142.474,
+   "qc_status": 1,
+   "update_time_utc": 1788848640
+  },
+  "IWARRN96": {
+   "station_id": "IWARRN96",
+   "lat": -38.367,
+   "lon": 142.487,
+   "qc_status": 1,
+   "update_time_utc": 1788815232
+  },
+  "IKENNE3": {
+   "station_id": "IKENNE3",
+   "lat": -38.668,
+   "lon": 143.859,
+   "qc_status": -1,
+   "update_time_utc": 1788846080
+  },
+  "IWONGA53": {
+   "station_id": "IWONGA53",
+   "lat": -38.669,
+   "lon": 143.794,
+   "qc_status": 1,
+   "update_time_utc": 1788818048
+  },
+  "ITANYB1": {
+   "station_id": "ITANYB1",
+   "lat": -38.67504,
+   "lon": 143.73765,
+   "qc_status": 1,
+   "update_time_utc": 1788774400
+  },
+  "ISKENE9": {
+   "station_id": "ISKENE9",
+   "lat": -38.7,
+   "lon": 143.709,
+   "qc_status": 1,
+   "update_time_utc": 1788777984
+  },
+  "ISKENE6": {
+   "station_id": "ISKENE6",
+   "lat": -38.721,
+   "lon": 143.715,
+   "qc_status": 1,
+   "update_time_utc": 1788839040
+  },
+  "ISKENE8": {
+   "station_id": "ISKENE8",
+   "lat": -38.724,
+   "lon": 143.709,
+   "qc_status": 1,
+   "update_time_utc": 1788767872
+  },
+  "IAPOLL16": {
+   "station_id": "IAPOLL16",
+   "lat": -38.70677,
+   "lon": 143.67244,
+   "qc_status": -1,
+   "update_time_utc": 1788839424
+  },
+  "ILORNE15": {
+   "station_id": "ILORNE15",
+   "lat": -38.548,
+   "lon": 143.978,
+   "qc_status": -1,
+   "update_time_utc": 1788794880
+  },
+  "IAPOLL5": {
+   "station_id": "IAPOLL5",
+   "lat": -38.745,
+   "lon": 143.67,
+   "qc_status": 1,
+   "update_time_utc": 1788850432
+  },
+  "ILORNE20": {
+   "station_id": "ILORNE20",
+   "lat": -38.538,
+   "lon": 143.972,
+   "qc_status": 1,
+   "update_time_utc": 1788822656
+  },
+  "IPORTL153": {
+   "station_id": "IPORTL153",
+   "lat": -38.374,
+   "lon": 141.585,
+   "qc_status": -1,
+   "update_time_utc": 1788822784
+  },
+  "IVICTORI572": {
+   "station_id": "IVICTORI572",
+   "lat": -38.35888,
+   "lon": 141.59376,
+   "qc_status": 1,
+   "update_time_utc": 1788833536
+  },
+  "IPORTL124": {
+   "station_id": "IPORTL124",
+   "lat": -38.359,
+   "lon": 141.595,
+   "qc_status": 1,
+   "update_time_utc": 1788841984
+  },
+  "IPORTL28": {
+   "station_id": "IPORTL28",
+   "lat": -38.358,
+   "lon": 141.594,
+   "qc_status": 1,
+   "update_time_utc": 1788768640
+  },
+  "IPORTL126": {
+   "station_id": "IPORTL126",
+   "lat": -38.355,
+   "lon": 141.591,
+   "qc_status": 1,
+   "update_time_utc": 1788850176
+  },
+  "IPORTL29": {
+   "station_id": "IPORTL29",
+   "lat": -38.36,
+   "lon": 141.597,
+   "qc_status": 1,
+   "update_time_utc": 1788821376
+  },
+  "IPORTL16": {
+   "station_id": "IPORTL16",
+   "lat": -38.36,
+   "lon": 141.598,
+   "qc_status": 1,
+   "update_time_utc": 1788819712
+  },
+  "IPORTL117": {
+   "station_id": "IPORTL117",
+   "lat": -38.338,
+   "lon": 141.577,
+   "qc_status": 1,
+   "update_time_utc": 1788852352
+  },
+  "IPORTL17": {
+   "station_id": "IPORTL17",
+   "lat": -38.343,
+   "lon": 141.6,
+   "qc_status": 1,
+   "update_time_utc": 1788846208
+  },
+  "IPORTL40": {
+   "station_id": "IPORTL40",
+   "lat": -38.334,
+   "lon": 141.601,
+   "qc_status": 1,
+   "update_time_utc": 1788849152
+  },
+  "ICAPEB23": {
+   "station_id": "ICAPEB23",
+   "lat": -38.369,
+   "lon": 141.402,
+   "qc_status": -1,
+   "update_time_utc": 1788832256
+  },
+  "ICAPEB21": {
+   "station_id": "ICAPEB21",
+   "lat": -38.30156,
+   "lon": 141.41993,
+   "qc_status": -1,
+   "update_time_utc": 1788775296
+  },
+  "I90583111": {
+   "station_id": "I90583111",
+   "lat": -38.28406,
+   "lon": 141.61554,
+   "qc_status": 1,
+   "update_time_utc": 1781836800
+  },
+  "IBOLWA3": {
+   "station_id": "IBOLWA3",
+   "lat": -38.28225,
+   "lon": 141.62,
+   "qc_status": 1,
+   "update_time_utc": 1788826880
+  },
+  "IPORTL53": {
+   "station_id": "IPORTL53",
+   "lat": -38.332,
+   "lon": 141.605,
+   "qc_status": 1,
+   "update_time_utc": 1788814720
+  },
+  "IFAIRH8": {
+   "station_id": "IFAIRH8",
+   "lat": -38.467,
+   "lon": 144.071,
+   "qc_status": -1,
+   "update_time_utc": 1788845696
+  },
+  "IAIREY23": {
+   "station_id": "IAIREY23",
+   "lat": -38.466,
+   "lon": 144.067,
+   "qc_status": 1,
+   "update_time_utc": 1788840576
+  },
+  "IAIREY11": {
+   "station_id": "IAIREY11",
+   "lat": -38.468,
+   "lon": 144.064,
+   "qc_status": -1,
+   "update_time_utc": 1345601664
+  },
+  "IAIREY1": {
+   "station_id": "IAIREY1",
+   "lat": -38.468,
+   "lon": 144.06,
+   "qc_status": 1,
+   "update_time_utc": 1783028992
+  },
+  "IAIREY15": {
+   "station_id": "IAIREY15",
+   "lat": -38.467,
+   "lon": 144.087,
+   "qc_status": 1,
+   "update_time_utc": 1788779776
+  },
+  "IEASTE47": {
+   "station_id": "IEASTE47",
+   "lat": -38.47,
+   "lon": 144.051,
+   "qc_status": 1,
+   "update_time_utc": 1788844416
+  },
+  "IAIREY18": {
+   "station_id": "IAIREY18",
+   "lat": -38.463,
+   "lon": 144.105,
+   "qc_status": 1,
+   "update_time_utc": 1788847232
+  },
+  "IAIREY24": {
+   "station_id": "IAIREY24",
+   "lat": -38.457,
+   "lon": 144.103,
+   "qc_status": 1,
+   "update_time_utc": 1788843648
+  },
+  "IAIREY13": {
+   "station_id": "IAIREY13",
+   "lat": -38.459,
+   "lon": 144.105,
+   "qc_status": 1,
+   "update_time_utc": 1783057152
+  },
+  "IAIREY21": {
+   "station_id": "IAIREY21",
+   "lat": -38.463,
+   "lon": 144.107,
+   "qc_status": 1,
+   "update_time_utc": 1788792320
+  },
+  "IFLIND9": {
+   "station_id": "IFLIND9",
+   "lat": -38.453,
+   "lon": 144.98,
+   "qc_status": 0,
+   "update_time_utc": 1788845696
+  },
+  "IFLINDER3": {
+   "station_id": "IFLINDER3",
+   "lat": -38.47847,
+   "lon": 145.02113,
+   "qc_status": -1,
+   "update_time_utc": 1788842624
+  },
+  "I90581496": {
+   "station_id": "I90581496",
+   "lat": -38.44304,
+   "lon": 144.96078,
+   "qc_status": 1,
+   "update_time_utc": 1788789888
+  },
+  "IFLIND17": {
+   "station_id": "IFLIND17",
+   "lat": -38.434,
+   "lon": 144.988,
+   "qc_status": -1,
+   "update_time_utc": 1788828928
+  },
+  "IFLIND4": {
+   "station_id": "IFLIND4",
+   "lat": -38.434,
+   "lon": 144.991,
+   "qc_status": 1,
+   "update_time_utc": 1788842752
+  },
+  "ICAPES9": {
+   "station_id": "ICAPES9",
+   "lat": -38.462,
+   "lon": 144.903,
+   "qc_status": 1,
+   "update_time_utc": 1788841728
+  },
+  "ICAPESCH2": {
+   "station_id": "ICAPESCH2",
+   "lat": -38.45804,
+   "lon": 144.89969,
+   "qc_status": 1,
+   "update_time_utc": 1788786944
+  },
+  "ICAPES18": {
+   "station_id": "ICAPES18",
+   "lat": -38.46445,
+   "lon": 144.89351,
+   "qc_status": 1,
+   "update_time_utc": 1788802560
+  },
+  "IMAINR10": {
+   "station_id": "IMAINR10",
+   "lat": -38.397,
+   "lon": 144.956,
+   "qc_status": 1,
+   "update_time_utc": 1788851200
+  },
+  "IMAINR5": {
+   "station_id": "IMAINR5",
+   "lat": -38.39,
+   "lon": 144.955,
+   "qc_status": 1,
+   "update_time_utc": 1788844544
+  },
+  "IMELBO6417": {
+   "station_id": "IMELBO6417",
+   "lat": -38.258,
+   "lon": 145.031,
+   "qc_status": 1,
+   "update_time_utc": 1788824320
+  },
+  "IMOUNTMA2": {
+   "station_id": "IMOUNTMA2",
+   "lat": -38.25763,
+   "lon": 145.03244,
+   "qc_status": 1,
+   "update_time_utc": 1788816640
+  },
+  "IMELBO1319": {
+   "station_id": "IMELBO1319",
+   "lat": -38.242,
+   "lon": 145.03,
+   "qc_status": 1,
+   "update_time_utc": 1788806784
+  },
+  "IMELBO5311": {
+   "station_id": "IMELBO5311",
+   "lat": -38.255,
+   "lon": 145.041,
+   "qc_status": 1,
+   "update_time_utc": 1788789504
+  },
+  "IMELBO6084": {
+   "station_id": "IMELBO6084",
+   "lat": -38.2505,
+   "lon": 145.04485,
+   "qc_status": -1,
+   "update_time_utc": 1788853760
+  },
+  "IMELBO3128": {
+   "station_id": "IMELBO3128",
+   "lat": -38.241,
+   "lon": 145.042,
+   "qc_status": 1,
+   "update_time_utc": 1788801280
+  },
+  "IMELBO1290": {
+   "station_id": "IMELBO1290",
+   "lat": -38.234,
+   "lon": 145.031,
+   "qc_status": 1,
+   "update_time_utc": 1788821248
+  },
+  "IMELBO5470": {
+   "station_id": "IMELBO5470",
+   "lat": -38.27,
+   "lon": 145.022,
+   "qc_status": 1,
+   "update_time_utc": 1788822656
+  },
+  "IMELBO4690": {
+   "station_id": "IMELBO4690",
+   "lat": -38.27097,
+   "lon": 145.02907,
+   "qc_status": 1,
+   "update_time_utc": 1788769664
+  },
+  "IMELBO237": {
+   "station_id": "IMELBO237",
+   "lat": -38.271,
+   "lon": 145.03101,
+   "qc_status": 1,
+   "update_time_utc": 1788853120
+  },
+  "IINVER413": {
+   "station_id": "IINVER413",
+   "lat": -38.638,
+   "lon": 145.705,
+   "qc_status": 1,
+   "update_time_utc": 1788770304
+  },
+  "ICAPEP8": {
+   "station_id": "ICAPEP8",
+   "lat": -38.67074,
+   "lon": 145.61519,
+   "qc_status": 1,
+   "update_time_utc": 1788845184
+  },
+  "IINVER490": {
+   "station_id": "IINVER490",
+   "lat": -38.629,
+   "lon": 145.694,
+   "qc_status": 1,
+   "update_time_utc": 1788780672
+  },
+  "IINVER22": {
+   "station_id": "IINVER22",
+   "lat": -38.635,
+   "lon": 145.70599,
+   "qc_status": 1,
+   "update_time_utc": 1788788864
+  },
+  "ICAPEP22": {
+   "station_id": "ICAPEP22",
+   "lat": -38.67,
+   "lon": 145.611,
+   "qc_status": -1,
+   "update_time_utc": 1788775168
+  },
+  "IINVER369": {
+   "station_id": "IINVER369",
+   "lat": -38.63,
+   "lon": 145.709,
+   "qc_status": 1,
+   "update_time_utc": 1788774656
+  },
+  "IINVER447": {
+   "station_id": "IINVER447",
+   "lat": -38.63433,
+   "lon": 145.7219,
+   "qc_status": 1,
+   "update_time_utc": 1788817408
+  },
+  "IINVER119": {
+   "station_id": "IINVER119",
+   "lat": -38.631,
+   "lon": 145.722,
+   "qc_status": 1,
+   "update_time_utc": 1788844672
+  },
+  "IINVER520": {
+   "station_id": "IINVER520",
+   "lat": -38.635,
+   "lon": 145.731,
+   "qc_status": 1,
+   "update_time_utc": 1788770688
+  },
+  "IVCTINVE3": {
+   "station_id": "IVCTINVE3",
+   "lat": -38.63345,
+   "lon": 145.73254,
+   "qc_status": 0,
+   "update_time_utc": 1788820352
+  },
+  "IVENTN62": {
+   "station_id": "IVENTN62",
+   "lat": -38.47,
+   "lon": 145.168,
+   "qc_status": 1,
+   "update_time_utc": 1788776576
+  },
+  "IVENTN33": {
+   "station_id": "IVENTN33",
+   "lat": -38.472,
+   "lon": 145.17,
+   "qc_status": -1,
+   "update_time_utc": 1788847232
+  },
+  "IVENTN35": {
+   "station_id": "IVENTN35",
+   "lat": -38.464,
+   "lon": 145.185,
+   "qc_status": 1,
+   "update_time_utc": 1788775936
+  },
+  "ICOWES16": {
+   "station_id": "ICOWES16",
+   "lat": -38.463,
+   "lon": 145.202,
+   "qc_status": 1,
+   "update_time_utc": 1788802176
+  },
+  "ICOWES27": {
+   "station_id": "ICOWES27",
+   "lat": -38.461,
+   "lon": 145.203,
+   "qc_status": 1,
+   "update_time_utc": 1788826752
+  },
+  "ICOWES49": {
+   "station_id": "ICOWES49",
+   "lat": -38.462,
+   "lon": 145.214,
+   "qc_status": 1,
+   "update_time_utc": 1788854528
+  },
+  "ICOWES62": {
+   "station_id": "ICOWES62",
+   "lat": -38.455,
+   "lon": 145.216,
+   "qc_status": 1,
+   "update_time_utc": 1788830848
+  },
+  "ICOWES76": {
+   "station_id": "ICOWES76",
+   "lat": -38.463,
+   "lon": 145.219,
+   "qc_status": 1,
+   "update_time_utc": 1788828800
+  },
+  "ICOWES71": {
+   "station_id": "ICOWES71",
+   "lat": -38.451,
+   "lon": 145.215,
+   "qc_status": 1,
+   "update_time_utc": 1788821888
+  },
+  "ICOWES20": {
+   "station_id": "ICOWES20",
+   "lat": -38.458,
+   "lon": 145.235,
+   "qc_status": 1,
+   "update_time_utc": 1788838784
+  },
+  "IRHYLL4": {
+   "station_id": "IRHYLL4",
+   "lat": -38.46427,
+   "lon": 145.30824,
+   "qc_status": 1,
+   "update_time_utc": 1788785152
+  },
+  "IRHYLL1": {
+   "station_id": "IRHYLL1",
+   "lat": -38.4652,
+   "lon": 145.29835,
+   "qc_status": 1,
+   "update_time_utc": 1788829056
+  },
+  "IRHYLL3": {
+   "station_id": "IRHYLL3",
+   "lat": -38.48,
+   "lon": 145.283,
+   "qc_status": 1,
+   "update_time_utc": 1788774272
+  },
+  "ISUNSE6": {
+   "station_id": "ISUNSE6",
+   "lat": -38.494,
+   "lon": 145.263,
+   "qc_status": 1,
+   "update_time_utc": 1788775552
+  },
+  "ISURFB3": {
+   "station_id": "ISURFB3",
+   "lat": -38.511,
+   "lon": 145.291,
+   "qc_status": 1,
+   "update_time_utc": 1788850688
+  },
+  "ISURFB1": {
+   "station_id": "ISURFB1",
+   "lat": -38.507,
+   "lon": 145.276,
+   "qc_status": 1,
+   "update_time_utc": 1788822016
+  },
+  "IVICCOWE3": {
+   "station_id": "IVICCOWE3",
+   "lat": -38.44839,
+   "lon": 145.2343,
+   "qc_status": 1,
+   "update_time_utc": 1788818432
+  },
+  "ICAPEW14": {
+   "station_id": "ICAPEW14",
+   "lat": -38.526,
+   "lon": 145.339,
+   "qc_status": -1,
+   "update_time_utc": 1788845184
+  },
+  "IVENTN63": {
+   "station_id": "IVENTN63",
+   "lat": -38.504,
+   "lon": 145.23,
+   "qc_status": 1,
+   "update_time_utc": 1788772224
+  },
+  "ISHORE17": {
+   "station_id": "ISHORE17",
+   "lat": -38.421,
+   "lon": 145.059,
+   "qc_status": 1,
+   "update_time_utc": 1788827776
+  },
+  "IVICTORI1553": {
+   "station_id": "IVICTORI1553",
+   "lat": -38.41888,
+   "lon": 145.06061,
+   "qc_status": 1,
+   "update_time_utc": 1788848768
+  },
+  "IREDHI53": {
+   "station_id": "IREDHI53",
+   "lat": -38.396,
+   "lon": 145.02,
+   "qc_status": 1,
+   "update_time_utc": 1788775424
+  },
+  "IREDHILL15": {
+   "station_id": "IREDHILL15",
+   "lat": -38.37587,
+   "lon": 145.03249,
+   "qc_status": 1,
+   "update_time_utc": 1788822656
+  },
+  "IREDHI55": {
+   "station_id": "IREDHI55",
+   "lat": -38.378,
+   "lon": 145.018,
+   "qc_status": 0,
+   "update_time_utc": 1788842240
+  },
+  "IAMPHI1": {
+   "station_id": "IAMPHI1",
+   "lat": -37.21089,
+   "lon": 143.44809,
+   "qc_status": -1,
+   "update_time_utc": 1788844288
+  },
+  "IMOUNT784": {
+   "station_id": "IMOUNT784",
+   "lat": -37.255,
+   "lon": 143.384,
+   "qc_status": -1,
+   "update_time_utc": 1788789120
+  },
+  "IWATER247": {
+   "station_id": "IWATER247",
+   "lat": -37.35,
+   "lon": 143.473,
+   "qc_status": 1,
+   "update_time_utc": 1788839424
+  },
+  "IAVOCA14": {
+   "station_id": "IAVOCA14",
+   "lat": -37.08792,
+   "lon": 143.47621,
+   "qc_status": -1,
+   "update_time_utc": 1788824320
+  },
+  "IAVOCA8": {
+   "station_id": "IAVOCA8",
+   "lat": -37.086,
+   "lon": 143.475,
+   "qc_status": -1,
+   "update_time_utc": 1788773632
+  },
+  "IVICTORI1565": {
+   "station_id": "IVICTORI1565",
+   "lat": -37.34522,
+   "lon": 143.56006,
+   "qc_status": -1,
+   "update_time_utc": 1788775808
+  },
+  "IEVANS20": {
+   "station_id": "IEVANS20",
+   "lat": -37.24136,
+   "lon": 143.62802,
+   "qc_status": -1,
+   "update_time_utc": 1788843776
+  },
+  "IEVANS5": {
+   "station_id": "IEVANS5",
+   "lat": -37.252,
+   "lon": 143.627,
+   "qc_status": -1,
+   "update_time_utc": 1788769792
+  },
+  "IWAUBR4": {
+   "station_id": "IWAUBR4",
+   "lat": -37.339,
+   "lon": 143.609,
+   "qc_status": -1,
+   "update_time_utc": 1788822528
+  },
+  "IVCTBEAU4": {
+   "station_id": "IVCTBEAU4",
+   "lat": -37.40795,
+   "lon": 143.40389,
+   "qc_status": 1,
+   "update_time_utc": 1788816640
+  },
+  "IVICTORI1715": {
+   "station_id": "IVICTORI1715",
+   "lat": -36.01918,
+   "lon": 143.25562,
+   "qc_status": -1,
+   "update_time_utc": 1788831616
+  },
+  "ISEALA4": {
+   "station_id": "ISEALA4",
+   "lat": -35.527,
+   "lon": 142.869,
+   "qc_status": 1,
+   "update_time_utc": 1788816000
+  },
+  "IWYCHE2": {
+   "station_id": "IWYCHE2",
+   "lat": -36.07561,
+   "lon": 143.21946,
+   "qc_status": -1,
+   "update_time_utc": 1788774656
+  },
+  "IWYCHE3": {
+   "station_id": "IWYCHE3",
+   "lat": -36.078,
+   "lon": 143.232,
+   "qc_status": -1,
+   "update_time_utc": 1788846208
+  },
+  "ISEALA1": {
+   "station_id": "ISEALA1",
+   "lat": -35.506,
+   "lon": 142.851,
+   "qc_status": -1,
+   "update_time_utc": 1788819840
+  },
+  "ININDA1": {
+   "station_id": "ININDA1",
+   "lat": -35.453,
+   "lon": 142.705,
+   "qc_status": -1,
+   "update_time_utc": 1788850304
+  },
+  "ICHARL251": {
+   "station_id": "ICHARL251",
+   "lat": -36.2264,
+   "lon": 143.33541,
+   "qc_status": -1,
+   "update_time_utc": 1788830464
+  },
+  "INYARR1": {
+   "station_id": "INYARR1",
+   "lat": -35.387,
+   "lon": 142.628,
+   "qc_status": -1,
+   "update_time_utc": 1788829696
+  },
+  "IJEFFC1": {
+   "station_id": "IJEFFC1",
+   "lat": -36.318,
+   "lon": 143.154,
+   "qc_status": -1,
+   "update_time_utc": 1788784640
+  },
+  "I90581831": {
+   "station_id": "I90581831",
+   "lat": -35.291,
+   "lon": 143.127,
+   "qc_status": -1,
+   "update_time_utc": 1788844672
+  },
+  "IBEAUF37": {
+   "station_id": "IBEAUF37",
+   "lat": -37.44,
+   "lon": 143.334,
+   "qc_status": 1,
+   "update_time_utc": 1788800512
+  },
+  "IBUANG8": {
+   "station_id": "IBUANG8",
+   "lat": -37.416,
+   "lon": 143.129,
+   "qc_status": -1,
+   "update_time_utc": 1788848000
+  },
+  "IBEAUF15": {
+   "station_id": "IBEAUF15",
+   "lat": -37.42377,
+   "lon": 143.37786,
+   "qc_status": 1,
+   "update_time_utc": 1788772608
+  },
+  "IBEAUF23": {
+   "station_id": "IBEAUF23",
+   "lat": -37.43,
+   "lon": 143.378,
+   "qc_status": 1,
+   "update_time_utc": 1788835712
+  },
+  "IBEAUF40": {
+   "station_id": "IBEAUF40",
+   "lat": -37.43,
+   "lon": 143.38,
+   "qc_status": 1,
+   "update_time_utc": 1788822656
+  },
+  "IBEAUF68": {
+   "station_id": "IBEAUF68",
+   "lat": -37.428,
+   "lon": 143.383,
+   "qc_status": -1,
+   "update_time_utc": 1788840960
+  },
+  "ICROWL1": {
+   "station_id": "ICROWL1",
+   "lat": -37.128,
+   "lon": 143.119,
+   "qc_status": 1,
+   "update_time_utc": 1788783104
+  },
+  "IMOONA4": {
+   "station_id": "IMOONA4",
+   "lat": -37.011,
+   "lon": 143.283,
+   "qc_status": -1,
+   "update_time_utc": 1788852224
+  },
+  "IARARA84": {
+   "station_id": "IARARA84",
+   "lat": -37.29,
+   "lon": 142.967,
+   "qc_status": 1,
+   "update_time_utc": 1788845824
+  },
+  "IARARA17": {
+   "station_id": "IARARA17",
+   "lat": -37.287,
+   "lon": 142.948,
+   "qc_status": 1,
+   "update_time_utc": 1783038336
+  },
+  "IARARA16": {
+   "station_id": "IARARA16",
+   "lat": -37.285,
+   "lon": 142.946,
+   "qc_status": 1,
+   "update_time_utc": 1788848384
+  },
+  "IARARA69": {
+   "station_id": "IARARA69",
+   "lat": -37.288,
+   "lon": 142.944,
+   "qc_status": 1,
+   "update_time_utc": 1788791808
+  },
+  "IVICTORI1417": {
+   "station_id": "IVICTORI1417",
+   "lat": -37.01851,
+   "lon": 143.38498,
+   "qc_status": -1,
+   "update_time_utc": 1788802304
+  },
+  "IGORDO81": {
+   "station_id": "IGORDO81",
+   "lat": -37.583,
+   "lon": 144.107,
+   "qc_status": 1,
+   "update_time_utc": 1788824064
+  },
+  "IGORDO13": {
+   "station_id": "IGORDO13",
+   "lat": -37.594,
+   "lon": 144.108,
+   "qc_status": 1,
+   "update_time_utc": 1788793472
+  },
+  "IGORDO28": {
+   "station_id": "IGORDO28",
+   "lat": -37.575,
+   "lon": 144.105,
+   "qc_status": 1,
+   "update_time_utc": 1788824832
+  },
+  "IGORDO49": {
+   "station_id": "IGORDO49",
+   "lat": -37.577,
+   "lon": 144.11,
+   "qc_status": 1,
+   "update_time_utc": 1788780928
+  },
+  "IGORDO86": {
+   "station_id": "IGORDO86",
+   "lat": -37.60022,
+   "lon": 144.11075,
+   "qc_status": 1,
+   "update_time_utc": 1788794112
+  },
+  "IMOORABO2": {
+   "station_id": "IMOORABO2",
+   "lat": -37.56769,
+   "lon": 144.10057,
+   "qc_status": 1,
+   "update_time_utc": 1788840064
+  },
+  "IGORDO94": {
+   "station_id": "IGORDO94",
+   "lat": -37.575,
+   "lon": 144.114,
+   "qc_status": -1,
+   "update_time_utc": 1788852480
+  },
+  "IMOUNT249": {
+   "station_id": "IMOUNT249",
+   "lat": -37.613,
+   "lon": 144.105,
+   "qc_status": 1,
+   "update_time_utc": 1788855040
+  },
+  "IGORDO74": {
+   "station_id": "IGORDO74",
+   "lat": -37.573,
+   "lon": 144.124,
+   "qc_status": 1,
+   "update_time_utc": 1788853632
+  },
+  "IMOUNT1023": {
+   "station_id": "IMOUNT1023",
+   "lat": -37.626,
+   "lon": 144.101,
+   "qc_status": -1,
+   "update_time_utc": 1788817024
+  },
+  "IBUNIN6": {
+   "station_id": "IBUNIN6",
+   "lat": -37.65,
+   "lon": 143.931,
+   "qc_status": 1,
+   "update_time_utc": 1788848000
+  },
+  "IBALLA376": {
+   "station_id": "IBALLA376",
+   "lat": -37.65038,
+   "lon": 143.91542,
+   "qc_status": 1,
+   "update_time_utc": 1783063168
+  },
+  "IBALLA461": {
+   "station_id": "IBALLA461",
+   "lat": -37.654,
+   "lon": 143.894,
+   "qc_status": -1,
+   "update_time_utc": 1788844928
+  },
+  "IYENDO2": {
+   "station_id": "IYENDO2",
+   "lat": -37.653,
+   "lon": 143.963,
+   "qc_status": 1,
+   "update_time_utc": 1788788480
+  },
+  "IBALLA490": {
+   "station_id": "IBALLA490",
+   "lat": -37.65,
+   "lon": 143.893,
+   "qc_status": -1,
+   "update_time_utc": 1788833408
+  },
+  "IMOUNT213": {
+   "station_id": "IMOUNT213",
+   "lat": -37.634,
+   "lon": 143.902,
+   "qc_status": 1,
+   "update_time_utc": 1788785408
+  },
+  "IBALLA446": {
+   "station_id": "IBALLA446",
+   "lat": -37.667,
+   "lon": 143.897,
+   "qc_status": -1,
+   "update_time_utc": 1783008512
+  },
+  "ISCOTS11": {
+   "station_id": "ISCOTS11",
+   "lat": -37.679,
+   "lon": 143.95,
+   "qc_status": 1,
+   "update_time_utc": 1788801152
+  },
+  "IBALLA365": {
+   "station_id": "IBALLA365",
+   "lat": -37.65374,
+   "lon": 143.88498,
+   "qc_status": 1,
+   "update_time_utc": 1788787456
+  },
+  "IBUNINYO2": {
+   "station_id": "IBUNINYO2",
+   "lat": -37.65815,
+   "lon": 143.88441,
+   "qc_status": 1,
+   "update_time_utc": 1788846848
+  },
+  "IBALDH3": {
+   "station_id": "IBALDH3",
+   "lat": -37.433,
+   "lon": 143.823,
+   "qc_status": 1,
+   "update_time_utc": 1788807168
+  },
+  "IBALLA468": {
+   "station_id": "IBALLA468",
+   "lat": -37.477,
+   "lon": 143.804,
+   "qc_status": -1,
+   "update_time_utc": 1788843904
+  },
+  "ISULKY2": {
+   "station_id": "ISULKY2",
+   "lat": -37.463,
+   "lon": 143.856,
+   "qc_status": 1,
+   "update_time_utc": 1783072768
+  },
+  "ICRESW9": {
+   "station_id": "ICRESW9",
+   "lat": -37.40717,
+   "lon": 143.84905,
+   "qc_status": 1,
+   "update_time_utc": 1788849152
+  },
+  "IBALLA483": {
+   "station_id": "IBALLA483",
+   "lat": -37.476,
+   "lon": 143.796,
+   "qc_status": 1,
+   "update_time_utc": 1788825600
+  },
+  "ICRESW10": {
+   "station_id": "ICRESW10",
+   "lat": -37.402,
+   "lon": 143.857,
+   "qc_status": 1,
+   "update_time_utc": 1788842496
+  },
+  "IBALLA440": {
+   "station_id": "IBALLA440",
+   "lat": -37.484,
+   "lon": 143.784,
+   "qc_status": 1,
+   "update_time_utc": 1788829696
+  },
+  "IBALLA212": {
+   "station_id": "IBALLA212",
+   "lat": -37.492,
+   "lon": 143.806,
+   "qc_status": 1,
+   "update_time_utc": 1788792704
+  },
+  "ICRESW3": {
+   "station_id": "ICRESW3",
+   "lat": -37.427,
+   "lon": 143.895,
+   "qc_status": 1,
+   "update_time_utc": 1788837888
+  },
+  "IBALLA226": {
+   "station_id": "IBALLA226",
+   "lat": -37.503,
+   "lon": 143.805,
+   "qc_status": -1,
+   "update_time_utc": 1788821888
+  },
+  "IVCTARAR3": {
+   "station_id": "IVCTARAR3",
+   "lat": -37.27456,
+   "lon": 142.9371,
+   "qc_status": 1,
+   "update_time_utc": 1782999168
+  },
+  "IVICTORI56": {
+   "station_id": "IVICTORI56",
+   "lat": -37.29085,
+   "lon": 142.93985,
+   "qc_status": 1,
+   "update_time_utc": 1788836736
+  },
+  "IARARA27": {
+   "station_id": "IARARA27",
+   "lat": -37.295,
+   "lon": 142.939,
+   "qc_status": 1,
+   "update_time_utc": 1788784512
+  },
+  "IMADDI12": {
+   "station_id": "IMADDI12",
+   "lat": -37.688,
+   "lon": 144.389,
+   "qc_status": -1,
+   "update_time_utc": 1788775552
+  },
+  "IROWSL5": {
+   "station_id": "IROWSL5",
+   "lat": -37.703,
+   "lon": 144.371,
+   "qc_status": -1,
+   "update_time_utc": 1788833792
+  },
+  "IMADDI5": {
+   "station_id": "IMADDI5",
+   "lat": -37.688,
+   "lon": 144.406,
+   "qc_status": 1,
+   "update_time_utc": 1788776320
+  },
+  "IMADDI4": {
+   "station_id": "IMADDI4",
+   "lat": -37.69,
+   "lon": 144.407,
+   "qc_status": 1,
+   "update_time_utc": 1788822016
+  },
+  "IMADDI8": {
+   "station_id": "IMADDI8",
+   "lat": -37.69,
+   "lon": 144.407,
+   "qc_status": 1,
+   "update_time_utc": 1788822144
+  },
+  "IMADDI11": {
+   "station_id": "IMADDI11",
+   "lat": -37.695,
+   "lon": 144.413,
+   "qc_status": 1,
+   "update_time_utc": 1788841984
+  },
+  "IMADDI9": {
+   "station_id": "IMADDI9",
+   "lat": -37.68992,
+   "lon": 144.41415,
+   "qc_status": 1,
+   "update_time_utc": 1788798336
+  },
+  "IBACCH19": {
+   "station_id": "IBACCH19",
+   "lat": -37.673,
+   "lon": 144.417,
+   "qc_status": 1,
+   "update_time_utc": 1788776704
+  },
+  "IBACCH82": {
+   "station_id": "IBACCH82",
+   "lat": -37.676,
+   "lon": 144.42,
+   "qc_status": -1,
+   "update_time_utc": 1788786944
+  },
+  "IBACCH15": {
+   "station_id": "IBACCH15",
+   "lat": -37.677,
+   "lon": 144.421,
+   "qc_status": 1,
+   "update_time_utc": 1788835328
+  },
+  "IBEECH66": {
+   "station_id": "IBEECH66",
+   "lat": -28.126,
+   "lon": 153.185,
+   "qc_status": 1,
+   "update_time_utc": 1788795648
+  },
+  "IBEECH82": {
+   "station_id": "IBEECH82",
+   "lat": -28.166,
+   "lon": 153.19,
+   "qc_status": 1,
+   "update_time_utc": 1788836608
+  },
+  "ICAINB1": {
+   "station_id": "ICAINB1",
+   "lat": -28.186,
+   "lon": 153.12,
+   "qc_status": 1,
+   "update_time_utc": 1788824704
+  },
+  "IBEECH47": {
+   "station_id": "IBEECH47",
+   "lat": -28.121,
+   "lon": 153.199,
+   "qc_status": 1,
+   "update_time_utc": 1783067520
+  },
+  "IBEECH104": {
+   "station_id": "IBEECH104",
+   "lat": -28.116,
+   "lon": 153.203,
+   "qc_status": -1,
+   "update_time_utc": 1788845952
+  },
+  "IBINNA6": {
+   "station_id": "IBINNA6",
+   "lat": -28.19675,
+   "lon": 153.18718,
+   "qc_status": -1,
+   "update_time_utc": 1788839808
+  },
+  "ICANUN6": {
+   "station_id": "ICANUN6",
+   "lat": -28.069,
+   "lon": 153.113,
+   "qc_status": 1,
+   "update_time_utc": 1788830464
+  },
+  "INUMIN7": {
+   "station_id": "INUMIN7",
+   "lat": -28.19613,
+   "lon": 153.23062,
+   "qc_status": -1,
+   "update_time_utc": 1788789120
+  },
+  "IWITHE6": {
+   "station_id": "IWITHE6",
+   "lat": -28.057,
+   "lon": 153.159,
+   "qc_status": 1,
+   "update_time_utc": 1788815232
+  },
+  "INUMIN6": {
+   "station_id": "INUMIN6",
+   "lat": -28.109,
+   "lon": 153.243,
+   "qc_status": 1,
+   "update_time_utc": 1788840448
+  },
+  "IPOREP6": {
+   "station_id": "IPOREP6",
+   "lat": -36.691,
+   "lon": 146.86,
+   "qc_status": 1,
+   "update_time_utc": 1788794752
+  },
+  "IBUCKL62": {
+   "station_id": "IBUCKL62",
+   "lat": -36.756,
+   "lon": 146.876,
+   "qc_status": 1,
+   "update_time_utc": 1788793728
+  },
+  "IPOREP15": {
+   "station_id": "IPOREP15",
+   "lat": -36.69399,
+   "lon": 146.89094,
+   "qc_status": 1,
+   "update_time_utc": 1788781952
+  },
+  "IPOREP2": {
+   "station_id": "IPOREP2",
+   "lat": -36.70119,
+   "lon": 146.91182,
+   "qc_status": 1,
+   "update_time_utc": 1788781568
+  },
+  "IEUROB7": {
+   "station_id": "IEUROB7",
+   "lat": -36.658,
+   "lon": 146.878,
+   "qc_status": -1,
+   "update_time_utc": 1788849024
+  },
+  "IPOREP3": {
+   "station_id": "IPOREP3",
+   "lat": -36.697,
+   "lon": 146.916,
+   "qc_status": 1,
+   "update_time_utc": 1788830464
+  },
+  "IEUROB3": {
+   "station_id": "IEUROB3",
+   "lat": -36.645,
+   "lon": 146.854,
+   "qc_status": 1,
+   "update_time_utc": 1788774912
+  },
+  "IPOREP4": {
+   "station_id": "IPOREP4",
+   "lat": -36.703,
+   "lon": 146.924,
+   "qc_status": 1,
+   "update_time_utc": 1788826368
+  },
+  "IBRIGH16": {
+   "station_id": "IBRIGH16",
+   "lat": -36.729,
+   "lon": 146.94299,
+   "qc_status": 1,
+   "update_time_utc": 1788770048
+  },
+  "IEUROB11": {
+   "station_id": "IEUROB11",
+   "lat": -36.627,
+   "lon": 146.839,
+   "qc_status": 1,
+   "update_time_utc": 1788818432
+  },
+  "ITOWON1": {
+   "station_id": "ITOWON1",
+   "lat": -36.12794,
+   "lon": 147.98555,
+   "qc_status": -1,
+   "update_time_utc": 1788816896
+  },
+  "IKHANC1": {
+   "station_id": "IKHANC1",
+   "lat": -36.214,
+   "lon": 148.132,
+   "qc_status": -1,
+   "update_time_utc": 1788792192
+  },
+  "IKHANC6": {
+   "station_id": "IKHANC6",
+   "lat": -36.212,
+   "lon": 148.134,
+   "qc_status": -1,
+   "update_time_utc": 1788779008
+  },
+  "ICUDGE10": {
+   "station_id": "ICUDGE10",
+   "lat": -36.18428,
+   "lon": 147.78042,
+   "qc_status": -1,
+   "update_time_utc": 1783019392
+  },
+  "INEWSOUT959": {
+   "station_id": "INEWSOUT959",
+   "lat": -36.0135,
+   "lon": 147.96153,
+   "qc_status": -1,
+   "update_time_utc": 1782971264
+  },
+  "ICUDGE13": {
+   "station_id": "ICUDGE13",
+   "lat": -36.204,
+   "lon": 147.747,
+   "qc_status": 1,
+   "update_time_utc": 1788848128
+  },
+  "INARIE1": {
+   "station_id": "INARIE1",
+   "lat": -36.427,
+   "lon": 147.84,
+   "qc_status": -1,
+   "update_time_utc": 1788838528
+  },
+  "ITOWONGS2": {
+   "station_id": "ITOWONGS2",
+   "lat": -36.43568,
+   "lon": 147.83696,
+   "qc_status": -1,
+   "update_time_utc": 1788841728
+  },
+  "IWALWA3": {
+   "station_id": "IWALWA3",
+   "lat": -35.954,
+   "lon": 147.715,
+   "qc_status": -1,
+   "update_time_utc": 1788854528
+  },
+  "IMARAG6": {
+   "station_id": "IMARAG6",
+   "lat": -35.875,
+   "lon": 148.107,
+   "qc_status": 1,
+   "update_time_utc": 1788832256
+  },
+  "ITAWON13": {
+   "station_id": "ITAWON13",
+   "lat": -36.701,
+   "lon": 147.163,
+   "qc_status": 1,
+   "update_time_utc": 1788823936
+  },
+  "ITAWON20": {
+   "station_id": "ITAWON20",
+   "lat": -36.686,
+   "lon": 147.141,
+   "qc_status": 0,
+   "update_time_utc": 1788847360
+  },
+  "ITAWON9": {
+   "station_id": "ITAWON9",
+   "lat": -36.687,
+   "lon": 147.141,
+   "qc_status": 1,
+   "update_time_utc": 1788853760
+  },
+  "ITAWON19": {
+   "station_id": "ITAWON19",
+   "lat": -36.6861,
+   "lon": 147.14046,
+   "qc_status": 1,
+   "update_time_utc": 1788774912
+  },
+  "ITAWON10": {
+   "station_id": "ITAWON10",
+   "lat": -36.686,
+   "lon": 147.14,
+   "qc_status": 1,
+   "update_time_utc": 1788818304
+  },
+  "ITAWON18": {
+   "station_id": "ITAWON18",
+   "lat": -36.688,
+   "lon": 147.139,
+   "qc_status": 1,
+   "update_time_utc": 1788819840
+  },
+  "IMOUNT373": {
+   "station_id": "IMOUNT373",
+   "lat": -36.71992,
+   "lon": 147.14659,
+   "qc_status": 1,
+   "update_time_utc": 1788782720
+  },
+  "IMOUNTBE4": {
+   "station_id": "IMOUNTBE4",
+   "lat": -36.73378,
+   "lon": 147.17679,
+   "qc_status": 1,
+   "update_time_utc": 1788830080
+  },
+  "IMOUNT1268": {
+   "station_id": "IMOUNT1268",
+   "lat": -36.735,
+   "lon": 147.181,
+   "qc_status": -1,
+   "update_time_utc": 1788844928
+  },
+  "ITAWON17": {
+   "station_id": "ITAWON17",
+   "lat": -36.723,
+   "lon": 147.146,
+   "qc_status": 1,
+   "update_time_utc": 1788773248
+  },
+  "IBEECH111": {
+   "station_id": "IBEECH111",
+   "lat": -36.3926,
+   "lon": 146.68968,
+   "qc_status": -1,
+   "update_time_utc": 1788851840
+  },
+  "IBEECH44": {
+   "station_id": "IBEECH44",
+   "lat": -36.403,
+   "lon": 146.677,
+   "qc_status": -1,
+   "update_time_utc": 1788816896
+  },
+  "IBEECH36": {
+   "station_id": "IBEECH36",
+   "lat": -36.394,
+   "lon": 146.686,
+   "qc_status": 1,
+   "update_time_utc": 1788814848
+  },
+  "ISTANL63": {
+   "station_id": "ISTANL63",
+   "lat": -36.428,
+   "lon": 146.752,
+   "qc_status": 1,
+   "update_time_utc": 1788851584
+  },
+  "ISTANL38": {
+   "station_id": "ISTANL38",
+   "lat": -36.405,
+   "lon": 146.752,
+   "qc_status": 1,
+   "update_time_utc": 1788838016
+  },
+  "ISTANL30": {
+   "station_id": "ISTANL30",
+   "lat": -36.405,
+   "lon": 146.754,
+   "qc_status": 1,
+   "update_time_utc": 1788775552
+  },
+  "IVICTORI1650": {
+   "station_id": "IVICTORI1650",
+   "lat": -36.41352,
+   "lon": 146.75792,
+   "qc_status": -1,
+   "update_time_utc": 1788778496
+  },
+  "IBEECH2": {
+   "station_id": "IBEECH2",
+   "lat": -36.374,
+   "lon": 146.701,
+   "qc_status": 1,
+   "update_time_utc": 1788789632
+  },
+  "IBEECH107": {
+   "station_id": "IBEECH107",
+   "lat": -36.376,
+   "lon": 146.69,
+   "qc_status": -1,
+   "update_time_utc": 1788821632
+  },
+  "ISTANL43": {
+   "station_id": "ISTANL43",
+   "lat": -36.416,
+   "lon": 146.77,
+   "qc_status": -1,
+   "update_time_utc": 1788841472
+  },
+  "IMANSF25": {
+   "station_id": "IMANSF25",
+   "lat": -37.06,
+   "lon": 145.997,
+   "qc_status": 1,
+   "update_time_utc": 1788829696
+  },
+  "IMANSF82": {
+   "station_id": "IMANSF82",
+   "lat": -37.074,
+   "lon": 145.985,
+   "qc_status": 1,
+   "update_time_utc": 1788829696
+  },
+  "IVICTORI1112": {
+   "station_id": "IVICTORI1112",
+   "lat": -37.07559,
+   "lon": 146.00856,
+   "qc_status": 1,
+   "update_time_utc": 1788829440
+  },
+  "IMAIND3": {
+   "station_id": "IMAIND3",
+   "lat": -37.02693,
+   "lon": 145.93952,
+   "qc_status": 1,
+   "update_time_utc": 1788834176
+  },
+  "IMANSF62": {
+   "station_id": "IMANSF62",
+   "lat": -37.092,
+   "lon": 146.013,
+   "qc_status": 1,
+   "update_time_utc": 1788849280
+  },
+  "IMANSF170": {
+   "station_id": "IMANSF170",
+   "lat": -37.092,
+   "lon": 146.013,
+   "qc_status": -1,
+   "update_time_utc": 1788823808
+  },
+  "IMANSF92": {
+   "station_id": "IMANSF92",
+   "lat": -37.098,
+   "lon": 145.977,
+   "qc_status": 1,
+   "update_time_utc": 1788791296
+  },
+  "IVICTORI1528": {
+   "station_id": "IVICTORI1528",
+   "lat": -37.06039,
+   "lon": 146.05121,
+   "qc_status": 1,
+   "update_time_utc": 1788779904
+  },
+  "IMANSF53": {
+   "station_id": "IMANSF53",
+   "lat": -37.1,
+   "lon": 145.97,
+   "qc_status": 1,
+   "update_time_utc": 1788846336
+  },
+  "IBONNI48": {
+   "station_id": "IBONNI48",
+   "lat": -36.996,
+   "lon": 145.925,
+   "qc_status": 1,
+   "update_time_utc": 1788838016
+  },
+  "IBEECH106": {
+   "station_id": "IBEECH106",
+   "lat": -36.381,
+   "lon": 146.674,
+   "qc_status": -1,
+   "update_time_utc": 1788826752
+  },
+  "IBEECH76": {
+   "station_id": "IBEECH76",
+   "lat": -36.37009,
+   "lon": 146.67662,
+   "qc_status": 1,
+   "update_time_utc": 1788798592
+  },
+  "IBEECH35": {
+   "station_id": "IBEECH35",
+   "lat": -36.372,
+   "lon": 146.7,
+   "qc_status": 1,
+   "update_time_utc": 1788771200
+  },
+  "IBEECH105": {
+   "station_id": "IBEECH105",
+   "lat": -36.3553,
+   "lon": 146.6831,
+   "qc_status": -1,
+   "update_time_utc": 1788841728
+  },
+  "IBEECH77": {
+   "station_id": "IBEECH77",
+   "lat": -36.35,
+   "lon": 146.696,
+   "qc_status": 0,
+   "update_time_utc": 1788793600
+  },
+  "IEVERT5": {
+   "station_id": "IEVERT5",
+   "lat": -36.398,
+   "lon": 146.562,
+   "qc_status": 1,
+   "update_time_utc": 1788812032
+  },
+  "IVICTORI1590": {
+   "station_id": "IVICTORI1590",
+   "lat": -36.40599,
+   "lon": 146.54144,
+   "qc_status": 1,
+   "update_time_utc": 1788843264
+  },
+  "IEVERT17": {
+   "station_id": "IEVERT17",
+   "lat": -36.436,
+   "lon": 146.545,
+   "qc_status": -1,
+   "update_time_utc": 1788838528
+  },
+  "ISTRAT31": {
+   "station_id": "ISTRAT31",
+   "lat": -37.273,
+   "lon": 145.27499,
+   "qc_status": -1,
+   "update_time_utc": 1788791040
+  },
+  "IFLOWE21": {
+   "station_id": "IFLOWE21",
+   "lat": -37.365,
+   "lon": 145.284,
+   "qc_status": -1,
+   "update_time_utc": 1788847232
+  },
+  "IFLOWE17": {
+   "station_id": "IFLOWE17",
+   "lat": -37.344,
+   "lon": 145.341,
+   "qc_status": 1,
+   "update_time_utc": 1783101056
+  },
+  "ISTRAT476": {
+   "station_id": "ISTRAT476",
+   "lat": -37.288,
+   "lon": 145.211,
+   "qc_status": -1,
+   "update_time_utc": 1788845824
+  },
+  "IFLOWE19": {
+   "station_id": "IFLOWE19",
+   "lat": -37.384,
+   "lon": 145.272,
+   "qc_status": 1,
+   "update_time_utc": 1788851968
+  },
+  "IFLOWE14": {
+   "station_id": "IFLOWE14",
+   "lat": -37.335,
+   "lon": 145.376,
+   "qc_status": 1,
+   "update_time_utc": 1788845056
+  },
+  "IFLOWE1": {
+   "station_id": "IFLOWE1",
+   "lat": -37.337,
+   "lon": 145.377,
+   "qc_status": -1,
+   "update_time_utc": 1788829056
+  },
+  "IVICTORI1230": {
+   "station_id": "IVICTORI1230",
+   "lat": -37.39861,
+   "lon": 145.3636,
+   "qc_status": -1,
+   "update_time_utc": 1788795904
+  },
+  "IREEDY6": {
+   "station_id": "IREEDY6",
+   "lat": -37.274,
+   "lon": 145.155,
+   "qc_status": -1,
+   "update_time_utc": 1788854656
+  },
+  "IGLENB38": {
+   "station_id": "IGLENB38",
+   "lat": -37.38,
+   "lon": 145.438,
+   "qc_status": 1,
+   "update_time_utc": 1788842624
+  },
+  "IYARRA163": {
+   "station_id": "IYARRA163",
+   "lat": -38.22219,
+   "lon": 146.05723,
+   "qc_status": -1,
+   "update_time_utc": 1788833024
+  },
+  "IALLAM9": {
+   "station_id": "IALLAM9",
+   "lat": -38.279,
+   "lon": 146.037,
+   "qc_status": -1,
+   "update_time_utc": 1788760832
+  },
+  "ICLOVE2": {
+   "station_id": "ICLOVE2",
+   "lat": -38.252,
+   "lon": 146.002,
+   "qc_status": 1,
+   "update_time_utc": 1788770176
+  },
+  "IYARRA48": {
+   "station_id": "IYARRA48",
+   "lat": -38.209,
+   "lon": 146.062,
+   "qc_status": 1,
+   "update_time_utc": 1783019264
+  },
+  "IVICTORI939": {
+   "station_id": "IVICTORI939",
+   "lat": -38.26313,
+   "lon": 145.99899,
+   "qc_status": -1,
+   "update_time_utc": 1788835456
+  },
+  "IYARRA162": {
+   "station_id": "IYARRA162",
+   "lat": -38.206,
+   "lon": 146.067,
+   "qc_status": -1,
+   "update_time_utc": 1788846848
+  },
+  "IYARRA64": {
+   "station_id": "IYARRA64",
+   "lat": -38.194,
+   "lon": 146.074,
+   "qc_status": 1,
+   "update_time_utc": 1788792064
+  },
+  "IDARNU7": {
+   "station_id": "IDARNU7",
+   "lat": -38.182,
+   "lon": 146.026,
+   "qc_status": 1,
+   "update_time_utc": 1788852480
+  },
+  "IDARNU8": {
+   "station_id": "IDARNU8",
+   "lat": -38.179,
+   "lon": 146.016,
+   "qc_status": 1,
+   "update_time_utc": 1788849024
+  },
+  "IDARNU2": {
+   "station_id": "IDARNU2",
+   "lat": -38.164,
+   "lon": 146.023,
+   "qc_status": 1,
+   "update_time_utc": 1788781312
+  },
+  "IKEVIN1": {
+   "station_id": "IKEVIN1",
+   "lat": -37.362,
+   "lon": 146.176,
+   "qc_status": -1,
+   "update_time_utc": 1788834048
+  },
+  "IJAMIE4": {
+   "station_id": "IJAMIE4",
+   "lat": -37.304,
+   "lon": 146.139,
+   "qc_status": -1,
+   "update_time_utc": 1788833536
+  },
+  "IJAMIE13": {
+   "station_id": "IJAMIE13",
+   "lat": -37.284,
+   "lon": 146.144,
+   "qc_status": -1,
+   "update_time_utc": 1788779264
+  },
+  "IJAMIE3": {
+   "station_id": "IJAMIE3",
+   "lat": -37.279,
+   "lon": 146.138,
+   "qc_status": 1,
+   "update_time_utc": 1788776320
+  },
+  "IMACSC1": {
+   "station_id": "IMACSC1",
+   "lat": -37.211,
+   "lon": 146.142,
+   "qc_status": 1,
+   "update_time_utc": 1788830720
+  },
+  "IMOUNT534": {
+   "station_id": "IMOUNT534",
+   "lat": -37.19922,
+   "lon": 146.10454,
+   "qc_status": 1,
+   "update_time_utc": 1788769920
+  },
+  "I90582635": {
+   "station_id": "I90582635",
+   "lat": -37.24475,
+   "lon": 145.95367,
+   "qc_status": -1,
+   "update_time_utc": 1788775040
+  },
+  "IMATLO55": {
+   "station_id": "IMATLO55",
+   "lat": -37.60203,
+   "lon": 146.22896,
+   "qc_status": -1,
+   "update_time_utc": 1788842368
+  },
+  "IBOORO32": {
+   "station_id": "IBOORO32",
+   "lat": -37.182,
+   "lon": 146.218,
+   "qc_status": -1,
+   "update_time_utc": 1788804864
+  },
+  "IPIRIE2": {
+   "station_id": "IPIRIE2",
+   "lat": -37.173,
+   "lon": 146.137,
+   "qc_status": 1,
+   "update_time_utc": 1788819328
+  },
+  "ILOCKS1": {
+   "station_id": "ILOCKS1",
+   "lat": -36.81232,
+   "lon": 145.34807,
+   "qc_status": 1,
+   "update_time_utc": 1788846848
+  },
+  "I90581868": {
+   "station_id": "I90581868",
+   "lat": -36.809,
+   "lon": 145.381,
+   "qc_status": -1,
+   "update_time_utc": 1788784128
+  },
+  "ILONGW29": {
+   "station_id": "ILONGW29",
+   "lat": -36.773,
+   "lon": 145.387,
+   "qc_status": -1,
+   "update_time_utc": 1788838465
+  },
+  "ILONGW21": {
+   "station_id": "ILONGW21",
+   "lat": -36.801,
+   "lon": 145.42,
+   "qc_status": 1,
+   "update_time_utc": 1788846976
+  },
+  "ILONGW11": {
+   "station_id": "ILONGW11",
+   "lat": -36.8,
+   "lon": 145.428,
+   "qc_status": 1,
+   "update_time_utc": 1788787968
+  },
+  "ILONGW27": {
+   "station_id": "ILONGW27",
+   "lat": -36.84331,
+   "lon": 145.46369,
+   "qc_status": -1,
+   "update_time_utc": 1788849408
+  },
+  "ILONGW22": {
+   "station_id": "ILONGW22",
+   "lat": -36.865,
+   "lon": 145.462,
+   "qc_status": -1,
+   "update_time_utc": 1788848000
+  },
+  "IWAHRI1": {
+   "station_id": "IWAHRI1",
+   "lat": -36.713,
+   "lon": 145.275,
+   "qc_status": 1,
+   "update_time_utc": 1788835968
+  },
+  "IAVENE1": {
+   "station_id": "IAVENE1",
+   "lat": -36.90022,
+   "lon": 145.22063,
+   "qc_status": -1,
+   "update_time_utc": 1788833280
+  },
+  "INAGAM3": {
+   "station_id": "INAGAM3",
+   "lat": -36.79182,
+   "lon": 145.15246,
+   "qc_status": -1,
+   "update_time_utc": 1783035008
+  },
+  "IWILLI122": {
+   "station_id": "IWILLI122",
+   "lat": -34.974,
+   "lon": 117.211,
+   "qc_status": 1,
+   "update_time_utc": 1788772224
+  },
+  "IKENTD1": {
+   "station_id": "IKENTD1",
+   "lat": -34.959,
+   "lon": 117.083,
+   "qc_status": 1,
+   "update_time_utc": 1788841856
+  },
+  "ISHADF11": {
+   "station_id": "ISHADF11",
+   "lat": -34.976,
+   "lon": 117.258,
+   "qc_status": 1,
+   "update_time_utc": 1788773376
+  },
+  "ISHADF7": {
+   "station_id": "ISHADF7",
+   "lat": -34.953,
+   "lon": 117.226,
+   "qc_status": 1,
+   "update_time_utc": 1788833536
+  },
+  "ISHADF16": {
+   "station_id": "ISHADF16",
+   "lat": -34.96225,
+   "lon": 117.25482,
+   "qc_status": 0,
+   "update_time_utc": 1788832768
+  },
+  "IKENTD3": {
+   "station_id": "IKENTD3",
+   "lat": -34.968,
+   "lon": 117.048,
+   "qc_status": 1,
+   "update_time_utc": 1788827904
+  },
+  "ISHADFOR2": {
+   "station_id": "ISHADFOR2",
+   "lat": -34.96714,
+   "lon": 117.28614,
+   "qc_status": 1,
+   "update_time_utc": 1788806528
+  },
+  "ISHADF9": {
+   "station_id": "ISHADF9",
+   "lat": -34.969,
+   "lon": 117.288,
+   "qc_status": 1,
+   "update_time_utc": 1788842624
+  },
+  "ISHADF5": {
+   "station_id": "ISHADF5",
+   "lat": -34.964,
+   "lon": 117.287,
+   "qc_status": 1,
+   "update_time_utc": 1788788608
+  },
+  "IKORDA1": {
+   "station_id": "IKORDA1",
+   "lat": -34.918,
+   "lon": 117.09,
+   "qc_status": 1,
+   "update_time_utc": 1788776064
+  },
+  "IKOONY3": {
+   "station_id": "IKOONY3",
+   "lat": -43.059,
+   "lon": 147.828,
+   "qc_status": 1,
+   "update_time_utc": 1788808064
+  },
+  "IKOONY5": {
+   "station_id": "IKOONY5",
+   "lat": -43.05562,
+   "lon": 147.82096,
+   "qc_status": 1,
+   "update_time_utc": 1788768384
+  },
+  "IKOONY4": {
+   "station_id": "IKOONY4",
+   "lat": -43.093,
+   "lon": 147.827,
+   "qc_status": 1,
+   "update_time_utc": 1788822912
+  },
+  "IEAGLE4": {
+   "station_id": "IEAGLE4",
+   "lat": -43.023,
+   "lon": 147.914,
+   "qc_status": 1,
+   "update_time_utc": 1788792064
+  },
+  "IEAGLE48": {
+   "station_id": "IEAGLE48",
+   "lat": -43.022,
+   "lon": 147.914,
+   "qc_status": 1,
+   "update_time_utc": 1788850688
+  },
+  "IEAGLE38": {
+   "station_id": "IEAGLE38",
+   "lat": -43.032,
+   "lon": 147.93,
+   "qc_status": 1,
+   "update_time_utc": 1788838016
+  },
+  "IEAGLE15": {
+   "station_id": "IEAGLE15",
+   "lat": -43.01232,
+   "lon": 147.92449,
+   "qc_status": 1,
+   "update_time_utc": 1788841728
+  },
+  "IPREMA3": {
+   "station_id": "IPREMA3",
+   "lat": -43.069,
+   "lon": 147.755,
+   "qc_status": 1,
+   "update_time_utc": 1788810368
+  },
+  "ITASMA2": {
+   "station_id": "ITASMA2",
+   "lat": -43.14685,
+   "lon": 147.85335,
+   "qc_status": 1,
+   "update_time_utc": 1788775296
+  },
+  "IPORTA210": {
+   "station_id": "IPORTA210",
+   "lat": -43.164,
+   "lon": 147.832,
+   "qc_status": 1,
+   "update_time_utc": 1788843392
+  },
+  "IPORON11": {
+   "station_id": "IPORON11",
+   "lat": -34.66,
+   "lon": 117.895,
+   "qc_status": -1,
+   "update_time_utc": 1788780288
+  },
+  "IPORON30": {
+   "station_id": "IPORON30",
+   "lat": -34.64848,
+   "lon": 117.86675,
+   "qc_status": -1,
+   "update_time_utc": 1788800512
+  },
+  "INARRI13": {
+   "station_id": "INARRI13",
+   "lat": -34.705,
+   "lon": 117.752,
+   "qc_status": -1,
+   "update_time_utc": 1788836736
+  },
+  "INAPIE51": {
+   "station_id": "INAPIE51",
+   "lat": -34.801,
+   "lon": 117.969,
+   "qc_status": -1,
+   "update_time_utc": 1788827392
+  },
+  "IMOUNT814": {
+   "station_id": "IMOUNT814",
+   "lat": -34.589,
+   "lon": 117.729,
+   "qc_status": 1,
+   "update_time_utc": 1788776832
+  },
+  "IMOUNT1128": {
+   "station_id": "IMOUNT1128",
+   "lat": -34.637,
+   "lon": 117.675,
+   "qc_status": 1,
+   "update_time_utc": 1788846208
+  },
+  "IMOUNT775": {
+   "station_id": "IMOUNT775",
+   "lat": -34.65192,
+   "lon": 117.65638,
+   "qc_status": 1,
+   "update_time_utc": 1788807936
+  },
+  "INARRI16": {
+   "station_id": "INARRI16",
+   "lat": -34.748,
+   "lon": 117.664,
+   "qc_status": -1,
+   "update_time_utc": 1788817920
+  },
+  "IMOUNT1212": {
+   "station_id": "IMOUNT1212",
+   "lat": -34.61202,
+   "lon": 117.66388,
+   "qc_status": -1,
+   "update_time_utc": 1788832256
+  },
+  "IMOUNT1000": {
+   "station_id": "IMOUNT1000",
+   "lat": -34.64,
+   "lon": 117.65,
+   "qc_status": 1,
+   "update_time_utc": 1788779264
+  },
+  "IHOBAR258": {
+   "station_id": "IHOBAR258",
+   "lat": -42.90725,
+   "lon": 147.49144,
+   "qc_status": 1,
+   "update_time_utc": 1788807552
+  },
+  "IHOBAR464": {
+   "station_id": "IHOBAR464",
+   "lat": -42.907,
+   "lon": 147.488,
+   "qc_status": 1,
+   "update_time_utc": 1788787584
+  },
+  "IHOBAR123": {
+   "station_id": "IHOBAR123",
+   "lat": -42.912,
+   "lon": 147.488,
+   "qc_status": 1,
+   "update_time_utc": 1788845056
+  },
+  "IHOBAR264": {
+   "station_id": "IHOBAR264",
+   "lat": -42.913,
+   "lon": 147.49,
+   "qc_status": 1,
+   "update_time_utc": 1788842240
+  },
+  "IHOBAR394": {
+   "station_id": "IHOBAR394",
+   "lat": -42.918,
+   "lon": 147.5,
+   "qc_status": 1,
+   "update_time_utc": 1788796032
+  },
+  "ISANDF9": {
+   "station_id": "ISANDF9",
+   "lat": -42.93166,
+   "lon": 147.49379,
+   "qc_status": 1,
+   "update_time_utc": 1788803840
+  },
+  "ITASMANI121": {
+   "station_id": "ITASMANI121",
+   "lat": -42.89879,
+   "lon": 147.45732,
+   "qc_status": 1,
+   "update_time_utc": 1788798976
+  },
+  "IHOBAR315": {
+   "station_id": "IHOBAR315",
+   "lat": -42.878,
+   "lon": 147.496,
+   "qc_status": 1,
+   "update_time_utc": 1788781056
+  },
+  "ISANDF23": {
+   "station_id": "ISANDF23",
+   "lat": -42.932,
+   "lon": 147.466,
+   "qc_status": -1,
+   "update_time_utc": 1788773632
+  },
+  "IHOBAR307": {
+   "station_id": "IHOBAR307",
+   "lat": -42.901,
+   "lon": 147.451,
+   "qc_status": 1,
+   "update_time_utc": 1788852608
+  },
+  "IOATLA8": {
+   "station_id": "IOATLA8",
+   "lat": -42.34436,
+   "lon": 147.3374,
+   "qc_status": -1,
+   "update_time_utc": 1783034624
+  },
+  "IMELTO125": {
+   "station_id": "IMELTO125",
+   "lat": -42.43,
+   "lon": 147.255,
+   "qc_status": -1,
+   "update_time_utc": 1788777728
+  },
+  "IWOODS20": {
+   "station_id": "IWOODS20",
+   "lat": -42.486,
+   "lon": 147.566,
+   "qc_status": -1,
+   "update_time_utc": 1788775680
+  },
+  "ICOLEB3": {
+   "station_id": "ICOLEB3",
+   "lat": -42.564,
+   "lon": 147.329,
+   "qc_status": 1,
+   "update_time_utc": 1788776576
+  },
+  "IBOTHW1": {
+   "station_id": "IBOTHW1",
+   "lat": -42.385,
+   "lon": 147.008,
+   "qc_status": 1,
+   "update_time_utc": 1788769152
+  },
+  "IROSS26": {
+   "station_id": "IROSS26",
+   "lat": -42.03354,
+   "lon": 147.49452,
+   "qc_status": 1,
+   "update_time_utc": 1788822144
+  },
+  "IROSS20": {
+   "station_id": "IROSS20",
+   "lat": -42.032,
+   "lon": 147.492,
+   "qc_status": -1,
+   "update_time_utc": 1788798592
+  },
+  "IROSS25": {
+   "station_id": "IROSS25",
+   "lat": -42.03204,
+   "lon": 147.50058,
+   "qc_status": -1,
+   "update_time_utc": 1788817408
+  },
+  "IBOTHW5": {
+   "station_id": "IBOTHW5",
+   "lat": -42.391,
+   "lon": 146.997,
+   "qc_status": -1,
+   "update_time_utc": 1788845184
+  },
+  "IDYSAR18": {
+   "station_id": "IDYSAR18",
+   "lat": -42.567,
+   "lon": 147.189,
+   "qc_status": -1,
+   "update_time_utc": 1788775552
+  },
+  "IHOBAR549": {
+   "station_id": "IHOBAR549",
+   "lat": -42.889,
+   "lon": 147.334,
+   "qc_status": -1,
+   "update_time_utc": 1788850560
+  },
+  "IHOBAR235": {
+   "station_id": "IHOBAR235",
+   "lat": -42.88838,
+   "lon": 147.3223,
+   "qc_status": 1,
+   "update_time_utc": 1788781440
+  },
+  "IHOBAR367": {
+   "station_id": "IHOBAR367",
+   "lat": -42.882,
+   "lon": 147.317,
+   "qc_status": 1,
+   "update_time_utc": 1788846592
+  },
+  "IHOBAR417": {
+   "station_id": "IHOBAR417",
+   "lat": -42.891,
+   "lon": 147.331,
+   "qc_status": 1,
+   "update_time_utc": 1788800256
+  },
+  "IHOBAR206": {
+   "station_id": "IHOBAR206",
+   "lat": -42.888,
+   "lon": 147.317,
+   "qc_status": 1,
+   "update_time_utc": 1788779264
+  },
+  "IHOBAR435": {
+   "station_id": "IHOBAR435",
+   "lat": -42.883,
+   "lon": 147.313,
+   "qc_status": 1,
+   "update_time_utc": 1788837504
+  },
+  "IHOBAR317": {
+   "station_id": "IHOBAR317",
+   "lat": -42.879,
+   "lon": 147.313,
+   "qc_status": -1,
+   "update_time_utc": 1788824064
+  },
+  "IHOBAR303": {
+   "station_id": "IHOBAR303",
+   "lat": -42.878,
+   "lon": 147.313,
+   "qc_status": 1,
+   "update_time_utc": 1788796288
+  },
+  "IHOBAR493": {
+   "station_id": "IHOBAR493",
+   "lat": -42.87697,
+   "lon": 147.31302,
+   "qc_status": 1,
+   "update_time_utc": 1788854144
+  },
+  "IHOBAR244": {
+   "station_id": "IHOBAR244",
+   "lat": -42.889,
+   "lon": 147.315,
+   "qc_status": 1,
+   "update_time_utc": 1788815616
+  },
+  "ISOUTH1687": {
+   "station_id": "ISOUTH1687",
+   "lat": -43.032,
+   "lon": 147.422,
+   "qc_status": 1,
+   "update_time_utc": 1788836224
+  },
+  "IOPOSS15": {
+   "station_id": "IOPOSS15",
+   "lat": -42.997,
+   "lon": 147.401,
+   "qc_status": 1,
+   "update_time_utc": 1788790144
+  },
+  "IOPOSS13": {
+   "station_id": "IOPOSS13",
+   "lat": -42.98597,
+   "lon": 147.40498,
+   "qc_status": 1,
+   "update_time_utc": 1788844288
+  },
+  "IOPOSS6": {
+   "station_id": "IOPOSS6",
+   "lat": -42.984,
+   "lon": 147.412,
+   "qc_status": 1,
+   "update_time_utc": 1788816640
+  },
+  "ISANDF17": {
+   "station_id": "ISANDF17",
+   "lat": -43.008,
+   "lon": 147.486,
+   "qc_status": 1,
+   "update_time_utc": 1788833408
+  },
+  "ISANDF24": {
+   "station_id": "ISANDF24",
+   "lat": -43.015,
+   "lon": 147.494,
+   "qc_status": -1,
+   "update_time_utc": 1788775424
+  },
+  "ISANDF1": {
+   "station_id": "ISANDF1",
+   "lat": -42.994,
+   "lon": 147.481,
+   "qc_status": 1,
+   "update_time_utc": 1788794240
+  },
+  "ITINDE10": {
+   "station_id": "ITINDE10",
+   "lat": -43.046,
+   "lon": 147.337,
+   "qc_status": 1,
+   "update_time_utc": 1788837120
+  },
+  "ITINDE3": {
+   "station_id": "ITINDE3",
+   "lat": -43.051,
+   "lon": 147.339,
+   "qc_status": 1,
+   "update_time_utc": 1788851456
+  },
+  "ITASMANI309": {
+   "station_id": "ITASMANI309",
+   "lat": -43.04482,
+   "lon": 147.33235,
+   "qc_status": 1,
+   "update_time_utc": 1788772736
+  },
+  "I90581236": {
+   "station_id": "I90581236",
+   "lat": -34.667,
+   "lon": 116.105,
+   "qc_status": -1,
+   "update_time_utc": 1788780160
+  },
+  "IMEERU9": {
+   "station_id": "IMEERU9",
+   "lat": -34.642,
+   "lon": 115.975,
+   "qc_status": -1,
+   "update_time_utc": 1788835072
+  },
+  "ICROWE5": {
+   "station_id": "ICROWE5",
+   "lat": -34.5984,
+   "lon": 116.12526,
+   "qc_status": -1,
+   "update_time_utc": 1788772608
+  },
+  "ICALLC3": {
+   "station_id": "ICALLC3",
+   "lat": -34.529,
+   "lon": 115.982,
+   "qc_status": 1,
+   "update_time_utc": 1788781312
+  },
+  "IPEMBE13": {
+   "station_id": "IPEMBE13",
+   "lat": -34.44,
+   "lon": 116.057,
+   "qc_status": -1,
+   "update_time_utc": 1788833792
+  },
+  "IBEEDE1": {
+   "station_id": "IBEEDE1",
+   "lat": -34.332,
+   "lon": 116.007,
+   "qc_status": -1,
+   "update_time_utc": 1788832896
+  },
+  "IDINGU1": {
+   "station_id": "IDINGU1",
+   "lat": -34.25178,
+   "lon": 116.20763,
+   "qc_status": -1,
+   "update_time_utc": 1788852608
+  },
+  "IMANJI24": {
+   "station_id": "IMANJI24",
+   "lat": -34.231,
+   "lon": 116.159,
+   "qc_status": -1,
+   "update_time_utc": 1788847232
+  },
+  "IMANJI26": {
+   "station_id": "IMANJI26",
+   "lat": -34.224,
+   "lon": 116.119,
+   "qc_status": 1,
+   "update_time_utc": 1788850304
+  },
+  "IWALPO2": {
+   "station_id": "IWALPO2",
+   "lat": -34.979,
+   "lon": 116.73,
+   "qc_status": -1,
+   "update_time_utc": 1781818624
+  },
+  "ICANBE978": {
+   "station_id": "ICANBE978",
+   "lat": -35.146,
+   "lon": 149.108,
+   "qc_status": 1,
+   "update_time_utc": 1788855168
+  },
+  "ICANBE506": {
+   "station_id": "ICANBE506",
+   "lat": -35.1553,
+   "lon": 149.099,
+   "qc_status": 1,
+   "update_time_utc": 1788819200
+  },
+  "ICOLJA1": {
+   "station_id": "ICOLJA1",
+   "lat": -35.147,
+   "lon": 149.11,
+   "qc_status": 1,
+   "update_time_utc": 1788841344
+  },
+  "ICANBE991": {
+   "station_id": "ICANBE991",
+   "lat": -35.146,
+   "lon": 149.111,
+   "qc_status": 1,
+   "update_time_utc": 1788779776
+  },
+  "ICANBE984": {
+   "station_id": "ICANBE984",
+   "lat": -35.15727,
+   "lon": 149.1061,
+   "qc_status": 1,
+   "update_time_utc": 1788843648
+  },
+  "IMONCR6": {
+   "station_id": "IMONCR6",
+   "lat": -35.1565,
+   "lon": 149.109,
+   "qc_status": 1,
+   "update_time_utc": 1788845696
+  },
+  "IMONCR4": {
+   "station_id": "IMONCR4",
+   "lat": -35.154,
+   "lon": 149.114,
+   "qc_status": 1,
+   "update_time_utc": 1788840832
+  },
+  "IMONCR3": {
+   "station_id": "IMONCR3",
+   "lat": -35.15426,
+   "lon": 149.11381,
+   "qc_status": 1,
+   "update_time_utc": 1788788864
+  },
+  "ICANBE1177": {
+   "station_id": "ICANBE1177",
+   "lat": -35.164,
+   "lon": 149.097,
+   "qc_status": 1,
+   "update_time_utc": 1788773760
+  },
+  "ICANBE1333": {
+   "station_id": "ICANBE1333",
+   "lat": -35.164,
+   "lon": 149.103,
+   "qc_status": -1,
+   "update_time_utc": 1788853504
+  },
+  "IEUROB10": {
+   "station_id": "IEUROB10",
+   "lat": -36.62494,
+   "lon": 146.82141,
+   "qc_status": 1,
+   "update_time_utc": 1788823808
+  },
+  "IBROAD126": {
+   "station_id": "IBROAD126",
+   "lat": -28.99977,
+   "lon": 153.40716,
+   "qc_status": 1,
+   "update_time_utc": 1788821888
+  },
+  "IEASTW3": {
+   "station_id": "IEASTW3",
+   "lat": -28.95623,
+   "lon": 153.46686,
+   "qc_status": 1,
+   "update_time_utc": 1788824064
+  },
+  "IWOODB153": {
+   "station_id": "IWOODB153",
+   "lat": -29.067,
+   "lon": 153.374,
+   "qc_status": -1,
+   "update_time_utc": 1788807040
+  },
+  "IDOONB1": {
+   "station_id": "IDOONB1",
+   "lat": -29.094,
+   "lon": 153.396,
+   "qc_status": -1,
+   "update_time_utc": 1788816000
+  },
+  "IEVANS23": {
+   "station_id": "IEVANS23",
+   "lat": -29.12,
+   "lon": 153.438,
+   "qc_status": -1,
+   "update_time_utc": 1788818432
+  },
+  "IWOODB125": {
+   "station_id": "IWOODB125",
+   "lat": -29.094,
+   "lon": 153.337,
+   "qc_status": 0,
+   "update_time_utc": 1788849664
+  },
+  "IWOODB119": {
+   "station_id": "IWOODB119",
+   "lat": -29.109,
+   "lon": 153.337,
+   "qc_status": 1,
+   "update_time_utc": 1788852352
+  },
+  "IURALB2": {
+   "station_id": "IURALB2",
+   "lat": -28.879,
+   "lon": 153.459,
+   "qc_status": 1,
+   "update_time_utc": 1788784256
+  },
+  "ILYNWO4": {
+   "station_id": "ILYNWO4",
+   "lat": -28.868,
+   "lon": 153.444,
+   "qc_status": -1,
+   "update_time_utc": 1788842112
+  },
+  "ISWANB33": {
+   "station_id": "ISWANB33",
+   "lat": -29.072,
+   "lon": 153.276,
+   "qc_status": -1,
+   "update_time_utc": 1788849024
+  },
+  "ISWANB1": {
+   "station_id": "ISWANB1",
+   "lat": -29.082,
+   "lon": 153.278,
+   "qc_status": 1,
+   "update_time_utc": 1788822400
+  },
+  "INEWSOUT1901": {
+   "station_id": "INEWSOUT1901",
+   "lat": -28.63177,
+   "lon": 153.50117,
+   "qc_status": 1,
+   "update_time_utc": 1788780416
+  },
+  "IMYOCU5": {
+   "station_id": "IMYOCU5",
+   "lat": -28.606,
+   "lon": 153.509,
+   "qc_status": 1,
+   "update_time_utc": 1788850176
+  },
+  "IMYOCU8": {
+   "station_id": "IMYOCU8",
+   "lat": -28.603,
+   "lon": 153.511,
+   "qc_status": 1,
+   "update_time_utc": 1788773376
+  },
+  "IBANGA98": {
+   "station_id": "IBANGA98",
+   "lat": -28.653,
+   "lon": 153.525,
+   "qc_status": 1,
+   "update_time_utc": 1345601664
+  },
+  "IMYOCU12": {
+   "station_id": "IMYOCU12",
+   "lat": -28.60078,
+   "lon": 153.50953,
+   "qc_status": 1,
+   "update_time_utc": 1788854272
+  },
+  "IEWING3": {
+   "station_id": "IEWING3",
+   "lat": -28.645,
+   "lon": 153.563,
+   "qc_status": 1,
+   "update_time_utc": 1788769536
+  },
+  "IBANGA58": {
+   "station_id": "IBANGA58",
+   "lat": -28.681,
+   "lon": 153.526,
+   "qc_status": 1,
+   "update_time_utc": 1788833152
+  },
+  "IFEDER7": {
+   "station_id": "IFEDER7",
+   "lat": -28.65104,
+   "lon": 153.44869,
+   "qc_status": 1,
+   "update_time_utc": 1788841088
+  },
+  "IBANGA90": {
+   "station_id": "IBANGA90",
+   "lat": -28.685,
+   "lon": 153.533,
+   "qc_status": -1,
+   "update_time_utc": 1788837248
+  },
+  "IBRUNS70": {
+   "station_id": "IBRUNS70",
+   "lat": -28.576,
+   "lon": 153.536,
+   "qc_status": 1,
+   "update_time_utc": 1788852352
+  },
+  "ICAMPB71": {
+   "station_id": "ICAMPB71",
+   "lat": -41.939,
+   "lon": 147.497,
+   "qc_status": 1,
+   "update_time_utc": 1788777984
+  },
+  "ICAMPB35": {
+   "station_id": "ICAMPB35",
+   "lat": -41.922,
+   "lon": 147.489,
+   "qc_status": 1,
+   "update_time_utc": 1788779648
+  },
+  "ICAMPB80": {
+   "station_id": "ICAMPB80",
+   "lat": -41.89876,
+   "lon": 147.39034,
+   "qc_status": -1,
+   "update_time_utc": 1788775680
+  },
+  "ICAMPB10": {
+   "station_id": "ICAMPB10",
+   "lat": -41.885,
+   "lon": 147.352,
+   "qc_status": -1,
+   "update_time_utc": 1788837888
+  },
+  "IRAMSA22": {
+   "station_id": "IRAMSA22",
+   "lat": -27.696,
+   "lon": 151.983,
+   "qc_status": 1,
+   "update_time_utc": 1788839552
+  },
+  "IROCKM1": {
+   "station_id": "IROCKM1",
+   "lat": -27.679,
+   "lon": 152.011,
+   "qc_status": 0,
+   "update_time_utc": 1788803712
+  },
+  "IRAMSA5": {
+   "station_id": "IRAMSA5",
+   "lat": -27.72513,
+   "lon": 151.98462,
+   "qc_status": 1,
+   "update_time_utc": 1788783360
+  },
+  "IROCKM2": {
+   "station_id": "IROCKM2",
+   "lat": -27.691,
+   "lon": 152.05,
+   "qc_status": 1,
+   "update_time_utc": 1788777344
+  },
+  "IUPPER295": {
+   "station_id": "IUPPER295",
+   "lat": -27.645,
+   "lon": 151.991,
+   "qc_status": 1,
+   "update_time_utc": 1788785024
+  },
+  "IHODGS13": {
+   "station_id": "IHODGS13",
+   "lat": -27.692,
+   "lon": 151.943,
+   "qc_status": 1,
+   "update_time_utc": 1788782848
+  },
+  "IQUEENSL1475": {
+   "station_id": "IQUEENSL1475",
+   "lat": -27.64275,
+   "lon": 151.9848,
+   "qc_status": 1,
+   "update_time_utc": 1788825344
+  },
+  "IPREST22": {
+   "station_id": "IPREST22",
+   "lat": -27.653,
+   "lon": 151.94299,
+   "qc_status": 1,
+   "update_time_utc": 1788799616
+  },
+  "ITOOWOOM12": {
+   "station_id": "ITOOWOOM12",
+   "lat": -27.65052,
+   "lon": 151.94118,
+   "qc_status": 1,
+   "update_time_utc": 1788785536
+  },
+  "ITOOWO88": {
+   "station_id": "ITOOWO88",
+   "lat": -27.649,
+   "lon": 151.942,
+   "qc_status": 1,
+   "update_time_utc": 1788847744
+  },
+  "IQUORR11": {
+   "station_id": "IQUORR11",
+   "lat": -32.926,
+   "lon": 151.415,
+   "qc_status": 1,
+   "update_time_utc": 1788829696
+  },
+  "IQUORR9": {
+   "station_id": "IQUORR9",
+   "lat": -32.939,
+   "lon": 151.377,
+   "qc_status": 1,
+   "update_time_utc": 1788850816
+  },
+  "ICONGE4": {
+   "station_id": "ICONGE4",
+   "lat": -32.96916,
+   "lon": 151.35842,
+   "qc_status": -1,
+   "update_time_utc": 1788841984
+  },
+  "IBRUNK2": {
+   "station_id": "IBRUNK2",
+   "lat": -32.947,
+   "lon": 151.472,
+   "qc_status": 1,
+   "update_time_utc": 1788800896
+  },
+  "IBRUNK9": {
+   "station_id": "IBRUNK9",
+   "lat": -32.949,
+   "lon": 151.474,
+   "qc_status": 1,
+   "update_time_utc": 1788853376
+  },
+  "IQUORR8": {
+   "station_id": "IQUORR8",
+   "lat": -32.905,
+   "lon": 151.382,
+   "qc_status": 1,
+   "update_time_utc": 1788784256
+  },
+  "IFREEM3": {
+   "station_id": "IFREEM3",
+   "lat": -32.98428,
+   "lon": 151.48559,
+   "qc_status": 1,
+   "update_time_utc": 1788816640
+  },
+  "I90582789": {
+   "station_id": "I90582789",
+   "lat": -32.95,
+   "lon": 151.326,
+   "qc_status": 1,
+   "update_time_utc": 1788851328
+  },
+  "IMOUNT95": {
+   "station_id": "IMOUNT95",
+   "lat": -32.911,
+   "lon": 151.487,
+   "qc_status": 1,
+   "update_time_utc": 1788796800
+  },
+  "IMULBR7": {
+   "station_id": "IMULBR7",
+   "lat": -32.9,
+   "lon": 151.48,
+   "qc_status": -1,
+   "update_time_utc": 1788768896
+  },
+  "IKILLA10": {
+   "station_id": "IKILLA10",
+   "lat": -28.345,
+   "lon": 152.301,
+   "qc_status": -1,
+   "update_time_utc": 1788825088
+  },
+  "IKILLA76": {
+   "station_id": "IKILLA76",
+   "lat": -28.352,
+   "lon": 152.307,
+   "qc_status": -1,
+   "update_time_utc": 1788845568
+  },
+  "ITANNY4": {
+   "station_id": "ITANNY4",
+   "lat": -28.29,
+   "lon": 152.257,
+   "qc_status": -1,
+   "update_time_utc": 1788846208
+  },
+  "IEMUVA1": {
+   "station_id": "IEMUVA1",
+   "lat": -28.222,
+   "lon": 152.293,
+   "qc_status": -1,
+   "update_time_utc": 1788836096
+  },
+  "ITANNY1": {
+   "station_id": "ITANNY1",
+   "lat": -28.308,
+   "lon": 152.232,
+   "qc_status": -1,
+   "update_time_utc": 1788778752
+  },
+  "ITANNY3": {
+   "station_id": "ITANNY3",
+   "lat": -28.32717,
+   "lon": 152.22797,
+   "qc_status": -1,
+   "update_time_utc": 1788834048
+  },
+  "IKOREE2": {
+   "station_id": "IKOREE2",
+   "lat": -28.392,
+   "lon": 152.423,
+   "qc_status": -1,
+   "update_time_utc": 1788776704
+  },
+  "ISWANF6": {
+   "station_id": "ISWANF6",
+   "lat": -28.18,
+   "lon": 152.268,
+   "qc_status": -1,
+   "update_time_utc": 1788775168
+  },
+  "ISWANF4": {
+   "station_id": "ISWANF4",
+   "lat": -28.16225,
+   "lon": 152.32386,
+   "qc_status": -1,
+   "update_time_utc": 1788798208
+  },
+  "ISWANF7": {
+   "station_id": "ISWANF7",
+   "lat": -28.164,
+   "lon": 152.288,
+   "qc_status": -1,
+   "update_time_utc": 1788845568
+  },
+  "IMARYV15": {
+   "station_id": "IMARYV15",
+   "lat": -28.079,
+   "lon": 152.237,
+   "qc_status": 1,
+   "update_time_utc": 1788801920
+  },
+  "IMULBR2": {
+   "station_id": "IMULBR2",
+   "lat": -32.89413,
+   "lon": 151.48684,
+   "qc_status": 1,
+   "update_time_utc": 1788796032
+  },
+  "IKILLI9": {
+   "station_id": "IKILLI9",
+   "lat": -32.935,
+   "lon": 151.556,
+   "qc_status": 1,
+   "update_time_utc": 1788820096
+  },
+  "IKILLI25": {
+   "station_id": "IKILLI25",
+   "lat": -32.936,
+   "lon": 151.562,
+   "qc_status": 1,
+   "update_time_utc": 1788831360
+  },
+  "IZEEHA9": {
+   "station_id": "IZEEHA9",
+   "lat": -41.902,
+   "lon": 145.346,
+   "qc_status": -1,
+   "update_time_utc": 1788831872
+  },
+  "IGRANV17": {
+   "station_id": "IGRANV17",
+   "lat": -41.80762,
+   "lon": 145.03633,
+   "qc_status": -1,
+   "update_time_utc": 1788849792
+  },
+  "ISTRAH3": {
+   "station_id": "ISTRAH3",
+   "lat": -42.152,
+   "lon": 145.327,
+   "qc_status": -1,
+   "update_time_utc": 1788809088
+  },
+  "IROSEB17": {
+   "station_id": "IROSEB17",
+   "lat": -41.78,
+   "lon": 145.548,
+   "qc_status": -1,
+   "update_time_utc": 1788852224
+  },
+  "IQUEEN140": {
+   "station_id": "IQUEEN140",
+   "lat": -42.07992,
+   "lon": 145.55619,
+   "qc_status": -1,
+   "update_time_utc": 1788596480
+  },
+  "IQUEEN23": {
+   "station_id": "IQUEEN23",
+   "lat": -42.083,
+   "lon": 145.557,
+   "qc_status": -1,
+   "update_time_utc": 1788824192
+  },
+  "IQUEEN162": {
+   "station_id": "IQUEEN162",
+   "lat": -42.08312,
+   "lon": 145.55773,
+   "qc_status": 1,
+   "update_time_utc": 1788776448
+  },
+  "IGORMA5": {
+   "station_id": "IGORMA5",
+   "lat": -42.073,
+   "lon": 145.593,
+   "qc_status": 1,
+   "update_time_utc": 1788848384
+  },
+  "IWARAT10": {
+   "station_id": "IWARAT10",
+   "lat": -41.444,
+   "lon": 145.535,
+   "qc_status": 1,
+   "update_time_utc": 1788819840
+  },
+  "IWARAT8": {
+   "station_id": "IWARAT8",
+   "lat": -41.444,
+   "lon": 145.538,
+   "qc_status": -1,
+   "update_time_utc": 1788779520
+  },
+  "IBAGDA3": {
+   "station_id": "IBAGDA3",
+   "lat": -42.593,
+   "lon": 147.266,
+   "qc_status": -1,
+   "update_time_utc": 1788785664
+  },
+  "IBAGDA8": {
+   "station_id": "IBAGDA8",
+   "lat": -42.589,
+   "lon": 147.188,
+   "qc_status": -1,
+   "update_time_utc": 1788780288
+  },
+  "IBAGDA7": {
+   "station_id": "IBAGDA7",
+   "lat": -42.598,
+   "lon": 147.194,
+   "qc_status": -1,
+   "update_time_utc": 1788854656
+  },
+  "ITASMANI159": {
+   "station_id": "ITASMANI159",
+   "lat": -41.1581,
+   "lon": 147.51424,
+   "qc_status": -1,
+   "update_time_utc": 1788832000
+  },
+  "ISCOTT20": {
+   "station_id": "ISCOTT20",
+   "lat": -41.161,
+   "lon": 147.511,
+   "qc_status": -1,
+   "update_time_utc": 1788822400
+  },
+  "ISCOTT8": {
+   "station_id": "ISCOTT8",
+   "lat": -41.163,
+   "lon": 147.512,
+   "qc_status": -1,
+   "update_time_utc": 1788818432
+  },
+  "ISCOTT18": {
+   "station_id": "ISCOTT18",
+   "lat": -41.151,
+   "lon": 147.518,
+   "qc_status": -1,
+   "update_time_utc": 1788812416
+  },
+  "ISCOTT21": {
+   "station_id": "ISCOTT21",
+   "lat": -41.163,
+   "lon": 147.509,
+   "qc_status": -1,
+   "update_time_utc": 1788852736
+  },
+  "ITASMANI86": {
+   "station_id": "ITASMANI86",
+   "lat": -41.18442,
+   "lon": 147.54915,
+   "qc_status": 1,
+   "update_time_utc": 1788775040
+  },
+  "INABOW3": {
+   "station_id": "INABOW3",
+   "lat": -41.1168,
+   "lon": 147.34935,
+   "qc_status": -1,
+   "update_time_utc": 1788793088
+  },
+  "I90581624": {
+   "station_id": "I90581624",
+   "lat": -41.022,
+   "lon": 147.405,
+   "qc_status": 1,
+   "update_time_utc": 1788819584
+  },
+  "IBRANX25": {
+   "station_id": "IBRANX25",
+   "lat": -41.16853,
+   "lon": 147.73561,
+   "qc_status": 1,
+   "update_time_utc": 1788829824
+  },
+  "IBRANX27": {
+   "station_id": "IBRANX27",
+   "lat": -41.16411,
+   "lon": 147.74275,
+   "qc_status": 1,
+   "update_time_utc": 1788850560
+  },
+  "ISCOTC4": {
+   "station_id": "ISCOTC4",
+   "lat": -40.89,
+   "lon": 145.133,
+   "qc_status": 1,
+   "update_time_utc": 1788787840
+  },
+  "ISCOTC13": {
+   "station_id": "ISCOTC13",
+   "lat": -40.904,
+   "lon": 145.097,
+   "qc_status": -1,
+   "update_time_utc": 1788819840
+  },
+  "ISMITH24": {
+   "station_id": "ISMITH24",
+   "lat": -40.85655,
+   "lon": 145.11793,
+   "qc_status": 1,
+   "update_time_utc": 1788772992
+  },
+  "ISMITH20": {
+   "station_id": "ISMITH20",
+   "lat": -40.852,
+   "lon": 145.126,
+   "qc_status": 1,
+   "update_time_utc": 1788772096
+  },
+  "ISMITH59": {
+   "station_id": "ISMITH59",
+   "lat": -40.848,
+   "lon": 145.114,
+   "qc_status": 1,
+   "update_time_utc": 1788807936
+  },
+  "ISMITH89": {
+   "station_id": "ISMITH89",
+   "lat": -40.845,
+   "lon": 145.127,
+   "qc_status": 1,
+   "update_time_utc": 1788768768
+  },
+  "IEDITH18": {
+   "station_id": "IEDITH18",
+   "lat": -40.977,
+   "lon": 145.091,
+   "qc_status": -1,
+   "update_time_utc": 1788822528
+  },
+  "ISMITH61": {
+   "station_id": "ISMITH61",
+   "lat": -40.834,
+   "lon": 145.132,
+   "qc_status": 1,
+   "update_time_utc": 1788847488
+  },
+  "ITOGAR3": {
+   "station_id": "ITOGAR3",
+   "lat": -40.971,
+   "lon": 144.912,
+   "qc_status": -1,
+   "update_time_utc": 1788779008
+  },
+  "IMONTA206": {
+   "station_id": "IMONTA206",
+   "lat": -40.77667,
+   "lon": 144.95266,
+   "qc_status": -1,
+   "update_time_utc": 1788818944
+  },
+  "IWESTE379": {
+   "station_id": "IWESTE379",
+   "lat": -42.68,
+   "lon": 146.786,
+   "qc_status": -1,
+   "update_time_utc": 1788845440
+  },
+  "IBUSHY5": {
+   "station_id": "IBUSHY5",
+   "lat": -42.706,
+   "lon": 146.897,
+   "qc_status": 1,
+   "update_time_utc": 1788818432
+  },
+  "IGRETN7": {
+   "station_id": "IGRETN7",
+   "lat": -42.68867,
+   "lon": 146.94409,
+   "qc_status": 1,
+   "update_time_utc": 1788827904
+  },
+  "INEWNO12": {
+   "station_id": "INEWNO12",
+   "lat": -42.778,
+   "lon": 147.025,
+   "qc_status": 1,
+   "update_time_utc": 1788823168
+  },
+  "IELDER9": {
+   "station_id": "IELDER9",
+   "lat": -42.596,
+   "lon": 147.032,
+   "qc_status": -1,
+   "update_time_utc": 1788777088
+  },
+  "INEWNO31": {
+   "station_id": "INEWNO31",
+   "lat": -42.775,
+   "lon": 147.041,
+   "qc_status": 1,
+   "update_time_utc": 1788825472
+  },
+  "ITASMANI109": {
+   "station_id": "ITASMANI109",
+   "lat": -42.7832,
+   "lon": 147.04613,
+   "qc_status": 1,
+   "update_time_utc": 1788779392
+  },
+  "ITASMANI96": {
+   "station_id": "ITASMANI96",
+   "lat": -42.8269,
+   "lon": 147.01593,
+   "qc_status": -1,
+   "update_time_utc": 1788852096
+  },
+  "INEWNO8": {
+   "station_id": "INEWNO8",
+   "lat": -42.772,
+   "lon": 147.055,
+   "qc_status": 1,
+   "update_time_utc": 1788827520
+  },
+  "INEWNO9": {
+   "station_id": "INEWNO9",
+   "lat": -42.778,
+   "lon": 147.053,
+   "qc_status": 1,
+   "update_time_utc": 1783061632
+  },
+  "IWYNYA32": {
+   "station_id": "IWYNYA32",
+   "lat": -40.99046,
+   "lon": 145.74353,
+   "qc_status": -1,
+   "update_time_utc": 1788796800
+  },
+  "IWYNYA7": {
+   "station_id": "IWYNYA7",
+   "lat": -41.018,
+   "lon": 145.744,
+   "qc_status": 1,
+   "update_time_utc": 1788770688
+  },
+  "I90582012": {
+   "station_id": "I90582012",
+   "lat": -40.95283,
+   "lon": 145.72192,
+   "qc_status": -1,
+   "update_time_utc": 1788838400
+  },
+  "IWYNYA23": {
+   "station_id": "IWYNYA23",
+   "lat": -41.032,
+   "lon": 145.715,
+   "qc_status": -1,
+   "update_time_utc": 1783006592
+  },
+  "IMOUNT778": {
+   "station_id": "IMOUNT778",
+   "lat": -41.042,
+   "lon": 145.739,
+   "qc_status": 1,
+   "update_time_utc": 1788845056
+  },
+  "IWYNYA27": {
+   "station_id": "IWYNYA27",
+   "lat": -41.04,
+   "lon": 145.698,
+   "qc_status": 1,
+   "update_time_utc": 1788835584
+  },
+  "IWYNYA25": {
+   "station_id": "IWYNYA25",
+   "lat": -41.039,
+   "lon": 145.76,
+   "qc_status": 1,
+   "update_time_utc": 1788850944
+  },
+  "ICALDE57": {
+   "station_id": "ICALDE57",
+   "lat": -41.02,
+   "lon": 145.642,
+   "qc_status": 1,
+   "update_time_utc": 1788825088
+  },
+  "ISOMER176": {
+   "station_id": "ISOMER176",
+   "lat": -41.03848,
+   "lon": 145.82477,
+   "qc_status": -1,
+   "update_time_utc": 1788832128
+  },
+  "ISOMER136": {
+   "station_id": "ISOMER136",
+   "lat": -41.038,
+   "lon": 145.826,
+   "qc_status": 1,
+   "update_time_utc": 1788800256
+  },
+  "IMURDU13": {
+   "station_id": "IMURDU13",
+   "lat": -42.947,
+   "lon": 147.854,
+   "qc_status": 1,
+   "update_time_utc": 1788834304
+  },
+  "IOUSE1": {
+   "station_id": "IOUSE1",
+   "lat": -42.377,
+   "lon": 146.571,
+   "qc_status": -1,
+   "update_time_utc": 1788832896
+  },
+  "IBRADY5": {
+   "station_id": "IBRADY5",
+   "lat": -42.25,
+   "lon": 146.506,
+   "qc_status": -1,
+   "update_time_utc": 1788775296
+  },
+  "IADELA1929": {
+   "station_id": "IADELA1929",
+   "lat": -35.22024,
+   "lon": 138.47628,
+   "qc_status": 1,
+   "update_time_utc": 1788783488
+  },
+  "IADELA605": {
+   "station_id": "IADELA605",
+   "lat": -35.214,
+   "lon": 138.483,
+   "qc_status": 1,
+   "update_time_utc": 1788833280
+  },
+  "IADELA1841": {
+   "station_id": "IADELA1841",
+   "lat": -35.201,
+   "lon": 138.48,
+   "qc_status": 1,
+   "update_time_utc": 1788822656
+  },
+  "IADELA1016": {
+   "station_id": "IADELA1016",
+   "lat": -35.205,
+   "lon": 138.489,
+   "qc_status": 1,
+   "update_time_utc": 1788846080
+  },
+  "IADELA2759": {
+   "station_id": "IADELA2759",
+   "lat": -35.195,
+   "lon": 138.472,
+   "qc_status": -1,
+   "update_time_utc": 1788846976
+  },
+  "IADELA2827": {
+   "station_id": "IADELA2827",
+   "lat": -35.196,
+   "lon": 138.483,
+   "qc_status": -1,
+   "update_time_utc": 1788845184
+  },
+  "IADELA2271": {
+   "station_id": "IADELA2271",
+   "lat": -35.19561,
+   "lon": 138.48273,
+   "qc_status": 1,
+   "update_time_utc": 1787885184
+  },
+  "ISOUTHAU190": {
+   "station_id": "ISOUTHAU190",
+   "lat": -35.19387,
+   "lon": 138.48259,
+   "qc_status": 1,
+   "update_time_utc": 1788791680
+  },
+  "IADELA1821": {
+   "station_id": "IADELA1821",
+   "lat": -35.201,
+   "lon": 138.497,
+   "qc_status": 1,
+   "update_time_utc": 1788772480
+  },
+  "ISEAFO18": {
+   "station_id": "ISEAFO18",
+   "lat": -35.192,
+   "lon": 138.498,
+   "qc_status": 1,
+   "update_time_utc": 1788795008
+  },
+  "IDEVON73": {
+   "station_id": "IDEVON73",
+   "lat": -41.18182,
+   "lon": 146.34859,
+   "qc_status": 1,
+   "update_time_utc": 1788850304
+  },
+  "IDEVON64": {
+   "station_id": "IDEVON64",
+   "lat": -41.187,
+   "lon": 146.343,
+   "qc_status": 1,
+   "update_time_utc": 1788775552
+  },
+  "IDEVON82": {
+   "station_id": "IDEVON82",
+   "lat": -41.187,
+   "lon": 146.359,
+   "qc_status": 1,
+   "update_time_utc": 1788830592
+  },
+  "IDEVON41": {
+   "station_id": "IDEVON41",
+   "lat": -41.17,
+   "lon": 146.354,
+   "qc_status": 1,
+   "update_time_utc": 1788778368
+  },
+  "IDEVON84": {
+   "station_id": "IDEVON84",
+   "lat": -41.173,
+   "lon": 146.336,
+   "qc_status": 1,
+   "update_time_utc": 1788842624
+  },
+  "IDEVON67": {
+   "station_id": "IDEVON67",
+   "lat": -41.167,
+   "lon": 146.35,
+   "qc_status": 1,
+   "update_time_utc": 1788847872
+  },
+  "IDEVON62": {
+   "station_id": "IDEVON62",
+   "lat": -41.171,
+   "lon": 146.336,
+   "qc_status": 1,
+   "update_time_utc": 1788830080
+  },
+  "IDEVONPO11": {
+   "station_id": "IDEVONPO11",
+   "lat": -41.16816,
+   "lon": 146.36226,
+   "qc_status": 1,
+   "update_time_utc": 1788770432
+  },
+  "IDEVON92": {
+   "station_id": "IDEVON92",
+   "lat": -41.166,
+   "lon": 146.341,
+   "qc_status": 1,
+   "update_time_utc": 1788686848
+  },
+  "ITASMANI58": {
+   "station_id": "ITASMANI58",
+   "lat": -41.19579,
+   "lon": 146.35071,
+   "qc_status": 1,
+   "update_time_utc": 1788828544
+  },
+  "IWESTB156": {
+   "station_id": "IWESTB156",
+   "lat": -33.871,
+   "lon": 121.879,
+   "qc_status": -1,
+   "update_time_utc": 1788827008
+  },
+  "IESPER25": {
+   "station_id": "IESPER25",
+   "lat": -33.866,
+   "lon": 121.881,
+   "qc_status": -1,
+   "update_time_utc": 1781568512
+  },
+  "ICASTL127": {
+   "station_id": "ICASTL127",
+   "lat": -33.825,
+   "lon": 121.915,
+   "qc_status": -1,
+   "update_time_utc": 1788846720
+  },
+  "IMYRUP26": {
+   "station_id": "IMYRUP26",
+   "lat": -33.79,
+   "lon": 121.924,
+   "qc_status": -1,
+   "update_time_utc": 1788838997
+  },
+  "IMYRUP25": {
+   "station_id": "IMYRUP25",
+   "lat": -33.78903,
+   "lon": 121.92505,
+   "qc_status": -1,
+   "update_time_utc": 1788800255
+  },
+  "ICAPEL200": {
+   "station_id": "ICAPEL200",
+   "lat": -33.91548,
+   "lon": 122.20872,
+   "qc_status": -1,
+   "update_time_utc": 1788782720
+  },
+  "IGRASS44": {
+   "station_id": "IGRASS44",
+   "lat": -33.2167,
+   "lon": 121.64274,
+   "qc_status": -1,
+   "update_time_utc": 1788782848
+  },
+  "ISALMO25": {
+   "station_id": "ISALMO25",
+   "lat": -32.988,
+   "lon": 121.5693,
+   "qc_status": 0,
+   "update_time_utc": 1788790528
+  },
+  "IHOPET10": {
+   "station_id": "IHOPET10",
+   "lat": -33.91181,
+   "lon": 120.09006,
+   "qc_status": -1,
+   "update_time_utc": 1788770176
+  },
+  "IRAVEN151": {
+   "station_id": "IRAVEN151",
+   "lat": -33.3321,
+   "lon": 120.13312,
+   "qc_status": -1,
+   "update_time_utc": 1788806016
+  },
+  "IWAGGR9": {
+   "station_id": "IWAGGR9",
+   "lat": -28.723,
+   "lon": 114.634,
+   "qc_status": 1,
+   "update_time_utc": 1788844416
+  },
+  "IGERAL71": {
+   "station_id": "IGERAL71",
+   "lat": -28.749,
+   "lon": 114.648,
+   "qc_status": 1,
+   "update_time_utc": 1788788352
+  },
+  "IGERAL94": {
+   "station_id": "IGERAL94",
+   "lat": -28.723,
+   "lon": 114.626,
+   "qc_status": 1,
+   "update_time_utc": 1788799616
+  },
+  "IGERAL87": {
+   "station_id": "IGERAL87",
+   "lat": -28.754,
+   "lon": 114.655,
+   "qc_status": 1,
+   "update_time_utc": 1788787968
+  },
+  "IGERAL106": {
+   "station_id": "IGERAL106",
+   "lat": -28.749,
+   "lon": 114.644,
+   "qc_status": 1,
+   "update_time_utc": 1788770048
+  },
+  "ISTRAT464": {
+   "station_id": "ISTRAT464",
+   "lat": -28.753,
+   "lon": 114.646,
+   "qc_status": -1,
+   "update_time_utc": 1788795776
+  },
+  "ISTRAT524": {
+   "station_id": "ISTRAT524",
+   "lat": -28.75,
+   "lon": 114.641,
+   "qc_status": 1,
+   "update_time_utc": 1788854912
+  },
+  "IGERAL9": {
+   "station_id": "IGERAL9",
+   "lat": -28.756,
+   "lon": 114.644,
+   "qc_status": 1,
+   "update_time_utc": 1788813952
+  },
+  "IMOONY1": {
+   "station_id": "IMOONY1",
+   "lat": -28.75617,
+   "lon": 114.72009,
+   "qc_status": 1,
+   "update_time_utc": 1788782208
+  },
+  "IDEEPD2": {
+   "station_id": "IDEEPD2",
+   "lat": -28.772,
+   "lon": 114.683,
+   "qc_status": 1,
+   "update_time_utc": 1788829440
+  },
+  "IHORRO4": {
+   "station_id": "IHORRO4",
+   "lat": -28.386,
+   "lon": 114.432,
+   "qc_status": -1,
+   "update_time_utc": 1788798336
+  },
+  "IALMA17": {
+   "station_id": "IALMA17",
+   "lat": -28.33225,
+   "lon": 114.63207,
+   "qc_status": -1,
+   "update_time_utc": 1788771072
+  },
+  "IALMA50": {
+   "station_id": "IALMA50",
+   "lat": -28.32507,
+   "lon": 114.64658,
+   "qc_status": -1,
+   "update_time_utc": 1788776320
+  },
+  "INORTH1044": {
+   "station_id": "INORTH1044",
+   "lat": -28.354,
+   "lon": 114.632,
+   "qc_status": -1,
+   "update_time_utc": 1782705024
+  },
+  "INORTH651": {
+   "station_id": "INORTH651",
+   "lat": -28.353,
+   "lon": 114.636,
+   "qc_status": 0,
+   "update_time_utc": 1788834688
+  },
+  "INORTH1637": {
+   "station_id": "INORTH1637",
+   "lat": -28.356,
+   "lon": 114.638,
+   "qc_status": -1,
+   "update_time_utc": 1788773248
+  },
+  "INORTH1175": {
+   "station_id": "INORTH1175",
+   "lat": -28.369,
+   "lon": 114.633,
+   "qc_status": 1,
+   "update_time_utc": 1788819584
+  },
+  "IALMA42": {
+   "station_id": "IALMA42",
+   "lat": -28.278,
+   "lon": 114.677,
+   "qc_status": -1,
+   "update_time_utc": 1788841984
+  },
+  "IEASTB94": {
+   "station_id": "IEASTB94",
+   "lat": -28.359,
+   "lon": 114.662,
+   "qc_status": -1,
+   "update_time_utc": 1788834816
+  },
+  "IEASTB47": {
+   "station_id": "IEASTB47",
+   "lat": -28.34792,
+   "lon": 114.67519,
+   "qc_status": -1,
+   "update_time_utc": 1788782848
+  },
+  "IKALBA38": {
+   "station_id": "IKALBA38",
+   "lat": -27.712,
+   "lon": 114.16,
+   "qc_status": 1,
+   "update_time_utc": 1788776704
+  },
+  "IAJANA6": {
+   "station_id": "IAJANA6",
+   "lat": -27.923,
+   "lon": 114.59,
+   "qc_status": -1,
+   "update_time_utc": 1788829952
+  },
+  "IALMA20": {
+   "station_id": "IALMA20",
+   "lat": -28.24229,
+   "lon": 114.74775,
+   "qc_status": -1,
+   "update_time_utc": 1788842624
+  },
+  "IROELA6": {
+   "station_id": "IROELA6",
+   "lat": -33.292,
+   "lon": 115.839,
+   "qc_status": -1,
+   "update_time_utc": 1788773248
+  },
+  "IROELA5": {
+   "station_id": "IROELA5",
+   "lat": -33.2856,
+   "lon": 115.81812,
+   "qc_status": 1,
+   "update_time_utc": 1788823296
+  },
+  "IROELA4": {
+   "station_id": "IROELA4",
+   "lat": -33.291,
+   "lon": 115.751,
+   "qc_status": 1,
+   "update_time_utc": 1788846464
+  },
+  "IBRUNS38": {
+   "station_id": "IBRUNS38",
+   "lat": -33.222,
+   "lon": 115.885,
+   "qc_status": 1,
+   "update_time_utc": 1788851328
+  },
+  "IAUSTR29": {
+   "station_id": "IAUSTR29",
+   "lat": -33.256,
+   "lon": 115.747,
+   "qc_status": 1,
+   "update_time_utc": 1788835328
+  },
+  "IBUNBU157": {
+   "station_id": "IBUNBU157",
+   "lat": -33.304,
+   "lon": 115.739,
+   "qc_status": -1,
+   "update_time_utc": 1788828032
+  },
+  "IAUSTR45": {
+   "station_id": "IAUSTR45",
+   "lat": -33.264,
+   "lon": 115.742,
+   "qc_status": -1,
+   "update_time_utc": 1788841600
+  },
+  "IAUSTR36": {
+   "station_id": "IAUSTR36",
+   "lat": -33.286,
+   "lon": 115.737,
+   "qc_status": 1,
+   "update_time_utc": 1788787200
+  },
+  "IAUSTR17": {
+   "station_id": "IAUSTR17",
+   "lat": -33.256,
+   "lon": 115.743,
+   "qc_status": 1,
+   "update_time_utc": 1788797696
+  },
+  "IBUNBU159": {
+   "station_id": "IBUNBU159",
+   "lat": -33.26,
+   "lon": 115.741,
+   "qc_status": 1,
+   "update_time_utc": 1788835584
+  },
+  "IEAGLE6": {
+   "station_id": "IEAGLE6",
+   "lat": -33.561,
+   "lon": 115.061,
+   "qc_status": 1,
+   "update_time_utc": 1788851456
+  },
+  "IDUNSB28": {
+   "station_id": "IDUNSB28",
+   "lat": -33.592,
+   "lon": 115.083,
+   "qc_status": 1,
+   "update_time_utc": 1783058176
+  },
+  "IDUNSB6": {
+   "station_id": "IDUNSB6",
+   "lat": -33.601,
+   "lon": 115.092,
+   "qc_status": 1,
+   "update_time_utc": 1781614336
+  },
+  "IWESTERN368": {
+   "station_id": "IWESTERN368",
+   "lat": -33.62289,
+   "lon": 115.08415,
+   "qc_status": 1,
+   "update_time_utc": 1788840448
+  },
+  "IQUEDJ7": {
+   "station_id": "IQUEDJ7",
+   "lat": -33.635,
+   "lon": 115.078,
+   "qc_status": 1,
+   "update_time_utc": 1788839296
+  },
+  "IDUNSB37": {
+   "station_id": "IDUNSB37",
+   "lat": -33.613,
+   "lon": 115.101,
+   "qc_status": 1,
+   "update_time_utc": 1788828032
+  },
+  "IQUIND5": {
+   "station_id": "IQUIND5",
+   "lat": -33.64917,
+   "lon": 115.07586,
+   "qc_status": 1,
+   "update_time_utc": 1788846208
+  },
+  "IWESTERN795": {
+   "station_id": "IWESTERN795",
+   "lat": -33.64917,
+   "lon": 115.076,
+   "qc_status": 1,
+   "update_time_utc": 1788846080
+  },
+  "IYALLI11": {
+   "station_id": "IYALLI11",
+   "lat": -33.666,
+   "lon": 115.042,
+   "qc_status": 1,
+   "update_time_utc": 1788845056
+  },
+  "IDUNSB22": {
+   "station_id": "IDUNSB22",
+   "lat": -33.6317,
+   "lon": 115.10234,
+   "qc_status": 1,
+   "update_time_utc": 1788846848
+  },
+  "IYALLI20": {
+   "station_id": "IYALLI20",
+   "lat": -33.673,
+   "lon": 115.053,
+   "qc_status": 1,
+   "update_time_utc": 1783055744
+  },
+  "IWESTERN518": {
+   "station_id": "IWESTERN518",
+   "lat": -33.66694,
+   "lon": 115.05247,
+   "qc_status": 1,
+   "update_time_utc": 1788848384
+  },
+  "IWILYA2": {
+   "station_id": "IWILYA2",
+   "lat": -33.755,
+   "lon": 115.031,
+   "qc_status": 1,
+   "update_time_utc": 1788850688
+  },
+  "IYALLI36": {
+   "station_id": "IYALLI36",
+   "lat": -33.665,
+   "lon": 115.059,
+   "qc_status": 1,
+   "update_time_utc": 1788770432
+  },
+  "IYALLI44": {
+   "station_id": "IYALLI44",
+   "lat": -33.667,
+   "lon": 115.07,
+   "qc_status": 1,
+   "update_time_utc": 1788801024
+  },
+  "IYALLI25": {
+   "station_id": "IYALLI25",
+   "lat": -33.665,
+   "lon": 115.071,
+   "qc_status": 1,
+   "update_time_utc": 1788848128
+  },
+  "IWESTERN478": {
+   "station_id": "IWESTERN478",
+   "lat": -33.76386,
+   "lon": 115.04298,
+   "qc_status": 1,
+   "update_time_utc": 1788829440
+  },
+  "IWESTERN643": {
+   "station_id": "IWESTERN643",
+   "lat": -33.71061,
+   "lon": 115.08299,
+   "qc_status": 1,
+   "update_time_utc": 1783007744
+  },
+  "IWESTERN595": {
+   "station_id": "IWESTERN595",
+   "lat": -33.65928,
+   "lon": 115.07286,
+   "qc_status": 1,
+   "update_time_utc": 1788775040
+  },
+  "IGRACE33": {
+   "station_id": "IGRACE33",
+   "lat": -33.844,
+   "lon": 115.001,
+   "qc_status": 1,
+   "update_time_utc": 1788775680
+  },
+  "IGRACE32": {
+   "station_id": "IGRACE32",
+   "lat": -33.866,
+   "lon": 114.989,
+   "qc_status": -1,
+   "update_time_utc": 1788813056
+  },
+  "IBUSSELT3": {
+   "station_id": "IBUSSELT3",
+   "lat": -33.69257,
+   "lon": 115.09274,
+   "qc_status": 1,
+   "update_time_utc": 1788834688
+  },
+  "IWESTERN757": {
+   "station_id": "IWESTERN757",
+   "lat": -33.86686,
+   "lon": 114.98917,
+   "qc_status": 1,
+   "update_time_utc": 1788780032
+  },
+  "IHAMEL5": {
+   "station_id": "IHAMEL5",
+   "lat": -34.225,
+   "lon": 115.056,
+   "qc_status": -1,
+   "update_time_utc": 1788843392
+  },
+  "I90582771": {
+   "station_id": "I90582771",
+   "lat": -34.299,
+   "lon": 115.119,
+   "qc_status": 1,
+   "update_time_utc": 1788852224
+  },
+  "IKARRI10": {
+   "station_id": "IKARRI10",
+   "lat": -34.193,
+   "lon": 115.103,
+   "qc_status": -1,
+   "update_time_utc": 1788776064
+  },
+  "IKARRI3": {
+   "station_id": "IKARRI3",
+   "lat": -34.174,
+   "lon": 115.116,
+   "qc_status": 1,
+   "update_time_utc": 1788822784
+  },
+  "IKARRI4": {
+   "station_id": "IKARRI4",
+   "lat": -34.183,
+   "lon": 115.151,
+   "qc_status": 1,
+   "update_time_utc": 1788777984
+  },
+  "IFORES69": {
+   "station_id": "IFORES69",
+   "lat": -34.129,
+   "lon": 115.118,
+   "qc_status": -1,
+   "update_time_utc": 1788850304
+  },
+  "IMOLLO2": {
+   "station_id": "IMOLLO2",
+   "lat": -34.27,
+   "lon": 115.206,
+   "qc_status": 1,
+   "update_time_utc": 1788776448
+  },
+  "IMOLLO3": {
+   "station_id": "IMOLLO3",
+   "lat": -34.263,
+   "lon": 115.21,
+   "qc_status": 1,
+   "update_time_utc": 1788830208
+  },
+  "IMOLLO9": {
+   "station_id": "IMOLLO9",
+   "lat": -34.26999,
+   "lon": 115.20961,
+   "qc_status": 1,
+   "update_time_utc": 1788773248
+  },
+  "IMOLLOYI2": {
+   "station_id": "IMOLLOYI2",
+   "lat": -34.26868,
+   "lon": 115.21452,
+   "qc_status": 1,
+   "update_time_utc": 1788851712
+  },
+  "IPERTH4162": {
+   "station_id": "IPERTH4162",
+   "lat": -32.021,
+   "lon": 115.756,
+   "qc_status": -1,
+   "update_time_utc": 1788774144
+  },
+  "IPERTH4137": {
+   "station_id": "IPERTH4137",
+   "lat": -32.023,
+   "lon": 115.76,
+   "qc_status": -1,
+   "update_time_utc": 1788836480
+  },
+  "IPERTH3787": {
+   "station_id": "IPERTH3787",
+   "lat": -32.016,
+   "lon": 115.767,
+   "qc_status": 1,
+   "update_time_utc": 1788780800
+  },
+  "IPERTH1392": {
+   "station_id": "IPERTH1392",
+   "lat": -32.015,
+   "lon": 115.768,
+   "qc_status": 1,
+   "update_time_utc": 1788818176
+  },
+  "IPERTH751": {
+   "station_id": "IPERTH751",
+   "lat": -32.006,
+   "lon": 115.76,
+   "qc_status": 1,
+   "update_time_utc": 1788789632
+  },
+  "IPERTH69": {
+   "station_id": "IPERTH69",
+   "lat": -32.004,
+   "lon": 115.75349,
+   "qc_status": 1,
+   "update_time_utc": 1788778496
+  },
+  "IPERTH154": {
+   "station_id": "IPERTH154",
+   "lat": -32.00228,
+   "lon": 115.76344,
+   "qc_status": 1,
+   "update_time_utc": 1788843264
+  },
+  "IPERTH4388": {
+   "station_id": "IPERTH4388",
+   "lat": -32.03883,
+   "lon": 115.76351,
+   "qc_status": -1,
+   "update_time_utc": 1788827520
+  },
+  "IPERTH1669": {
+   "station_id": "IPERTH1669",
+   "lat": -31.997,
+   "lon": 115.759,
+   "qc_status": 1,
+   "update_time_utc": 1788805248
+  },
+  "IPERTH4019": {
+   "station_id": "IPERTH4019",
+   "lat": -32.044,
+   "lon": 115.756,
+   "qc_status": 0,
+   "update_time_utc": 1783076224
+  },
+  "IWOKUR2": {
+   "station_id": "IWOKUR2",
+   "lat": -33.704,
+   "lon": 138.091,
+   "qc_status": -1,
+   "update_time_utc": 1781915520
+  },
+  "IWOKUR8": {
+   "station_id": "IWOKUR8",
+   "lat": -33.708,
+   "lon": 138.036,
+   "qc_status": -1,
+   "update_time_utc": 1788770560
+  },
+  "IPORTB30": {
+   "station_id": "IPORTB30",
+   "lat": -33.607,
+   "lon": 137.945,
+   "qc_status": 1,
+   "update_time_utc": 1788845440
+  },
+  "IPORTB47": {
+   "station_id": "IPORTB47",
+   "lat": -33.604,
+   "lon": 137.937,
+   "qc_status": -1,
+   "update_time_utc": 1788851456
+  },
+  "IPORTB48": {
+   "station_id": "IPORTB48",
+   "lat": -33.594,
+   "lon": 137.932,
+   "qc_status": -1,
+   "update_time_utc": 1788850816
+  },
+  "IPORTB27": {
+   "station_id": "IPORTB27",
+   "lat": -33.614,
+   "lon": 137.933,
+   "qc_status": 1,
+   "update_time_utc": 1788854656
+  },
+  "IPORTB22": {
+   "station_id": "IPORTB22",
+   "lat": -33.605,
+   "lon": 137.93,
+   "qc_status": -1,
+   "update_time_utc": 1788843264
+  },
+  "IKOOLU13": {
+   "station_id": "IKOOLU13",
+   "lat": -33.583,
+   "lon": 138.346,
+   "qc_status": -1,
+   "update_time_utc": 1788852224
+  },
+  "IWANDE8": {
+   "station_id": "IWANDE8",
+   "lat": -33.386,
+   "lon": 138.093,
+   "qc_status": -1,
+   "update_time_utc": 1788848896
+  },
+  "ICRYST18": {
+   "station_id": "ICRYST18",
+   "lat": -33.358,
+   "lon": 138.203,
+   "qc_status": -1,
+   "update_time_utc": 1788843136
+  },
+  "IPERTH4018": {
+   "station_id": "IPERTH4018",
+   "lat": -31.73079,
+   "lon": 115.72015,
+   "qc_status": 1,
+   "update_time_utc": 1788831232
+  },
+  "IPERTH2904": {
+   "station_id": "IPERTH2904",
+   "lat": -31.72263,
+   "lon": 115.71758,
+   "qc_status": 1,
+   "update_time_utc": 1788807936
+  },
+  "IPERTH1495": {
+   "station_id": "IPERTH1495",
+   "lat": -31.729,
+   "lon": 115.727,
+   "qc_status": 1,
+   "update_time_utc": 1788773376
+  },
+  "IPERTH2652": {
+   "station_id": "IPERTH2652",
+   "lat": -31.727,
+   "lon": 115.727,
+   "qc_status": 1,
+   "update_time_utc": 1788790528
+  },
+  "IPERTH493": {
+   "station_id": "IPERTH493",
+   "lat": -31.731,
+   "lon": 115.729,
+   "qc_status": 1,
+   "update_time_utc": 1788780032
+  },
+  "IPERTH285": {
+   "station_id": "IPERTH285",
+   "lat": -31.73978,
+   "lon": 115.72485,
+   "qc_status": 1,
+   "update_time_utc": 1788782080
+  },
+  "IWESTERN504": {
+   "station_id": "IWESTERN504",
+   "lat": -31.7353,
+   "lon": 115.73383,
+   "qc_status": 1,
+   "update_time_utc": 1788798976
+  },
+  "IPERTH4081": {
+   "station_id": "IPERTH4081",
+   "lat": -31.734,
+   "lon": 115.739,
+   "qc_status": 1,
+   "update_time_utc": 1788780800
+  },
+  "IWAOCEAN2": {
+   "station_id": "IWAOCEAN2",
+   "lat": -31.74405,
+   "lon": 115.73249,
+   "qc_status": 1,
+   "update_time_utc": 1788801664
+  },
+  "IPERTH4418": {
+   "station_id": "IPERTH4418",
+   "lat": -31.738,
+   "lon": 115.739,
+   "qc_status": -1,
+   "update_time_utc": 1788783104
+  },
+  "IPERTH4220": {
+   "station_id": "IPERTH4220",
+   "lat": -31.796,
+   "lon": 115.735,
+   "qc_status": 1,
+   "update_time_utc": 1788786944
+  },
+  "IPERTH765": {
+   "station_id": "IPERTH765",
+   "lat": -31.781,
+   "lon": 115.74,
+   "qc_status": 1,
+   "update_time_utc": 1788823168
+  },
+  "IPERTH2542": {
+   "station_id": "IPERTH2542",
+   "lat": -31.77931,
+   "lon": 115.7386,
+   "qc_status": 1,
+   "update_time_utc": 1788822784
+  },
+  "IPERTH292": {
+   "station_id": "IPERTH292",
+   "lat": -31.78678,
+   "lon": 115.74571,
+   "qc_status": 1,
+   "update_time_utc": 1788777472
+  },
+  "IPERTH4244": {
+   "station_id": "IPERTH4244",
+   "lat": -31.7794,
+   "lon": 115.74101,
+   "qc_status": -1,
+   "update_time_utc": 1788775424
+  },
+  "IPERTH1586": {
+   "station_id": "IPERTH1586",
+   "lat": -31.794,
+   "lon": 115.746,
+   "qc_status": 1,
+   "update_time_utc": 1788787584
+  },
+  "IPERTH4494": {
+   "station_id": "IPERTH4494",
+   "lat": -31.777,
+   "lon": 115.742,
+   "qc_status": -1,
+   "update_time_utc": 1788771584
+  },
+  "IPERTH1267": {
+   "station_id": "IPERTH1267",
+   "lat": -31.793,
+   "lon": 115.748,
+   "qc_status": 1,
+   "update_time_utc": 1788770816
+  },
+  "IPERTH2190": {
+   "station_id": "IPERTH2190",
+   "lat": -31.785,
+   "lon": 115.749,
+   "qc_status": 1,
+   "update_time_utc": 1788770304
+  },
+  "IPERTH2481": {
+   "station_id": "IPERTH2481",
+   "lat": -31.778,
+   "lon": 115.745,
+   "qc_status": 1,
+   "update_time_utc": 1788791680
+  },
+  "IPERTH2564": {
+   "station_id": "IPERTH2564",
+   "lat": -32.333,
+   "lon": 115.746,
+   "qc_status": 1,
+   "update_time_utc": 1788819328
+  },
+  "IPERTH1282": {
+   "station_id": "IPERTH1282",
+   "lat": -32.33278,
+   "lon": 115.7464,
+   "qc_status": 1,
+   "update_time_utc": 1788782464
+  },
+  "IPERTH2185": {
+   "station_id": "IPERTH2185",
+   "lat": -32.32229,
+   "lon": 115.7418,
+   "qc_status": 1,
+   "update_time_utc": 1788803200
+  },
+  "IWESTERN36": {
+   "station_id": "IWESTERN36",
+   "lat": -32.33395,
+   "lon": 115.74905,
+   "qc_status": 1,
+   "update_time_utc": 1788793856
+  },
+  "IPERTH1292": {
+   "station_id": "IPERTH1292",
+   "lat": -32.32,
+   "lon": 115.745,
+   "qc_status": 1,
+   "update_time_utc": 1781770880
+  },
+  "IPERTH4320": {
+   "station_id": "IPERTH4320",
+   "lat": -32.323,
+   "lon": 115.75,
+   "qc_status": -1,
+   "update_time_utc": 1788771584
+  },
+  "IWESTERN334": {
+   "station_id": "IWESTERN334",
+   "lat": -32.31483,
+   "lon": 115.74171,
+   "qc_status": 1,
+   "update_time_utc": 1788803712
+  },
+  "IPERTH3969": {
+   "station_id": "IPERTH3969",
+   "lat": -32.31456,
+   "lon": 115.74401,
+   "qc_status": 1,
+   "update_time_utc": 1788853248
+  },
+  "IPERTH225": {
+   "station_id": "IPERTH225",
+   "lat": -32.31564,
+   "lon": 115.75283,
+   "qc_status": 1,
+   "update_time_utc": 1788769536
+  },
+  "IPERTH1813": {
+   "station_id": "IPERTH1813",
+   "lat": -32.319,
+   "lon": 115.757,
+   "qc_status": 1,
+   "update_time_utc": 1788815232
+  },
+  "IPERTH177": {
+   "station_id": "IPERTH177",
+   "lat": -32.57187,
+   "lon": 115.66875,
+   "qc_status": 1,
+   "update_time_utc": 1788817536
+  },
+  "IPERTH1668": {
+   "station_id": "IPERTH1668",
+   "lat": -32.568,
+   "lon": 115.669,
+   "qc_status": 1,
+   "update_time_utc": 1788825856
+  },
+  "IPERTH1767": {
+   "station_id": "IPERTH1767",
+   "lat": -32.568,
+   "lon": 115.67,
+   "qc_status": 1,
+   "update_time_utc": 1788771200
+  },
+  "IPERTH2385": {
+   "station_id": "IPERTH2385",
+   "lat": -32.588,
+   "lon": 115.645,
+   "qc_status": -1,
+   "update_time_utc": 1788835712
+  },
+  "IPERTH4075": {
+   "station_id": "IPERTH4075",
+   "lat": -32.57,
+   "lon": 115.672,
+   "qc_status": 1,
+   "update_time_utc": 1788788992
+  },
+  "IPERTH2393": {
+   "station_id": "IPERTH2393",
+   "lat": -32.56306,
+   "lon": 115.67183,
+   "qc_status": 1,
+   "update_time_utc": 1788844288
+  },
+  "IPERTH3816": {
+   "station_id": "IPERTH3816",
+   "lat": -32.58707,
+   "lon": 115.66469,
+   "qc_status": 0,
+   "update_time_utc": 1788854272
+  },
+  "IPERTH3805": {
+   "station_id": "IPERTH3805",
+   "lat": -32.59091,
+   "lon": 115.64601,
+   "qc_status": 1,
+   "update_time_utc": 1788797184
+  },
+  "IPERTH4224": {
+   "station_id": "IPERTH4224",
+   "lat": -32.587,
+   "lon": 115.665,
+   "qc_status": 1,
+   "update_time_utc": 1788769920
+  },
+  "IPERTH818": {
+   "station_id": "IPERTH818",
+   "lat": -32.562,
+   "lon": 115.676,
+   "qc_status": 1,
+   "update_time_utc": 1788823424
+  },
+  "ITWORO33": {
+   "station_id": "ITWORO33",
+   "lat": -31.489,
+   "lon": 115.584,
+   "qc_status": -1,
+   "update_time_utc": 1788837248
+  },
+  "ITWORO26": {
+   "station_id": "ITWORO26",
+   "lat": -31.504,
+   "lon": 115.595,
+   "qc_status": 1,
+   "update_time_utc": 1788782208
+  },
+  "ITWORO15": {
+   "station_id": "ITWORO15",
+   "lat": -31.504,
+   "lon": 115.596,
+   "qc_status": 1,
+   "update_time_utc": 1788788224
+  },
+  "ITWORO20": {
+   "station_id": "ITWORO20",
+   "lat": -31.502,
+   "lon": 115.602,
+   "qc_status": 1,
+   "update_time_utc": 1788788992
+  },
+  "ITWORO34": {
+   "station_id": "ITWORO34",
+   "lat": -31.508,
+   "lon": 115.6,
+   "qc_status": -1,
+   "update_time_utc": 1788773504
+  },
+  "ITWORO25": {
+   "station_id": "ITWORO25",
+   "lat": -31.475,
+   "lon": 115.644,
+   "qc_status": 1,
+   "update_time_utc": 1788774528
+  },
+  "ITWORO12": {
+   "station_id": "ITWORO12",
+   "lat": -31.465,
+   "lon": 115.651,
+   "qc_status": 1,
+   "update_time_utc": 1788829440
+  },
+  "IYANCH28": {
+   "station_id": "IYANCH28",
+   "lat": -31.544,
+   "lon": 115.625,
+   "qc_status": 1,
+   "update_time_utc": 1788848896
+  },
+  "IYANCH12": {
+   "station_id": "IYANCH12",
+   "lat": -31.544,
+   "lon": 115.635,
+   "qc_status": 1,
+   "update_time_utc": 1788823168
+  },
+  "IYANCH11": {
+   "station_id": "IYANCH11",
+   "lat": -31.551,
+   "lon": 115.628,
+   "qc_status": -1,
+   "update_time_utc": 1783032064
+  },
+  "ISEABI5": {
+   "station_id": "ISEABI5",
+   "lat": -31.278,
+   "lon": 115.447,
+   "qc_status": -1,
+   "update_time_utc": 1788855040
+  },
+  "IGABBA8": {
+   "station_id": "IGABBA8",
+   "lat": -31.29,
+   "lon": 115.536,
+   "qc_status": -1,
+   "update_time_utc": 1788827008
+  },
+  "IGUILD80": {
+   "station_id": "IGUILD80",
+   "lat": -31.346,
+   "lon": 115.497,
+   "qc_status": 1,
+   "update_time_utc": 1788773888
+  },
+  "ICOWAL3": {
+   "station_id": "ICOWAL3",
+   "lat": -31.134,
+   "lon": 115.604,
+   "qc_status": -1,
+   "update_time_utc": 1788786944
+  },
+  "IKARAK6": {
+   "station_id": "IKARAK6",
+   "lat": -31.056,
+   "lon": 115.403,
+   "qc_status": 1,
+   "update_time_utc": 1788783232
+  },
+  "ILANCELI3": {
+   "station_id": "ILANCELI3",
+   "lat": -31.05409,
+   "lon": 115.40233,
+   "qc_status": 1,
+   "update_time_utc": 1788770816
+  },
+  "IMUCKE5": {
+   "station_id": "IMUCKE5",
+   "lat": -31.313,
+   "lon": 115.72,
+   "qc_status": -1,
+   "update_time_utc": 1788783232
+  },
+  "ILENNA5": {
+   "station_id": "ILENNA5",
+   "lat": -31.36,
+   "lon": 115.958,
+   "qc_status": 1,
+   "update_time_utc": 1788849536
+  },
+  "ILENNA9": {
+   "station_id": "ILENNA9",
+   "lat": -31.381,
+   "lon": 115.948,
+   "qc_status": 1,
+   "update_time_utc": 1788794624
+  },
+  "IBREER1": {
+   "station_id": "IBREER1",
+   "lat": -31.407,
+   "lon": 115.931,
+   "qc_status": 1,
+   "update_time_utc": 1788850048
+  },
+  "IGINGI16": {
+   "station_id": "IGINGI16",
+   "lat": -31.279,
+   "lon": 115.915,
+   "qc_status": -1,
+   "update_time_utc": 1788784128
+  },
+  "IMUCHE7": {
+   "station_id": "IMUCHE7",
+   "lat": -31.48982,
+   "lon": 115.92989,
+   "qc_status": 1,
+   "update_time_utc": 1788822144
+  },
+  "IMOOLI7": {
+   "station_id": "IMOOLI7",
+   "lat": -31.31953,
+   "lon": 116.06659,
+   "qc_status": 1,
+   "update_time_utc": 1788829568
+  },
+  "IBINDO4": {
+   "station_id": "IBINDO4",
+   "lat": -31.383,
+   "lon": 116.066,
+   "qc_status": -1,
+   "update_time_utc": 1788788736
+  },
+  "IMOOLI9": {
+   "station_id": "IMOOLI9",
+   "lat": -31.302,
+   "lon": 116.069,
+   "qc_status": -1,
+   "update_time_utc": 1788834176
+  },
+  "ICHITT17": {
+   "station_id": "ICHITT17",
+   "lat": -31.422,
+   "lon": 116.07,
+   "qc_status": 1,
+   "update_time_utc": 1788779008
+  },
+  "IOAKBE2": {
+   "station_id": "IOAKBE2",
+   "lat": -16.601,
+   "lon": 145.519,
+   "qc_status": 1,
+   "update_time_utc": 1788844288
+  },
+  "IMOWBR8": {
+   "station_id": "IMOWBR8",
+   "lat": -16.581,
+   "lon": 145.483,
+   "qc_status": 1,
+   "update_time_utc": 1788771200
+  },
+  "IMOWBR1": {
+   "station_id": "IMOWBR1",
+   "lat": -16.5731,
+   "lon": 145.48011,
+   "qc_status": 0,
+   "update_time_utc": 1788823168
+  },
+  "IMOWBR7": {
+   "station_id": "IMOWBR7",
+   "lat": -16.561,
+   "lon": 145.48,
+   "qc_status": 1,
+   "update_time_utc": 1788841728
+  },
+  "ICAIRN516": {
+   "station_id": "ICAIRN516",
+   "lat": -16.74066,
+   "lon": 145.66861,
+   "qc_status": 1,
+   "update_time_utc": 1788830592
+  },
+  "ICAIRN539": {
+   "station_id": "ICAIRN539",
+   "lat": -16.748,
+   "lon": 145.661,
+   "qc_status": 1,
+   "update_time_utc": 1788815872
+  },
+  "ICAIRN170": {
+   "station_id": "ICAIRN170",
+   "lat": -16.755,
+   "lon": 145.66,
+   "qc_status": 1,
+   "update_time_utc": 1788802944
+  },
+  "ICAIRN567": {
+   "station_id": "ICAIRN567",
+   "lat": -16.756,
+   "lon": 145.661,
+   "qc_status": 1,
+   "update_time_utc": 1788841728
+  },
+  "ICRAIG42": {
+   "station_id": "ICRAIG42",
+   "lat": -16.536,
+   "lon": 145.467,
+   "qc_status": 1,
+   "update_time_utc": 1788782848
+  },
+  "ICAIRN193": {
+   "station_id": "ICAIRN193",
+   "lat": -16.757,
+   "lon": 145.665,
+   "qc_status": 1,
+   "update_time_utc": 1788818560
+  },
+  "ITOODY7": {
+   "station_id": "ITOODY7",
+   "lat": -31.554,
+   "lon": 116.466,
+   "qc_status": 1,
+   "update_time_utc": 1788777600
+  },
+  "ITOODYAY2": {
+   "station_id": "ITOODYAY2",
+   "lat": -31.5427,
+   "lon": 116.46208,
+   "qc_status": 0,
+   "update_time_utc": 1788820864
+  },
+  "ITOODY9": {
+   "station_id": "ITOODY9",
+   "lat": -31.545,
+   "lon": 116.456,
+   "qc_status": 1,
+   "update_time_utc": 1788793472
+  },
+  "ITOODY16": {
+   "station_id": "ITOODY16",
+   "lat": -31.539,
+   "lon": 116.451,
+   "qc_status": 1,
+   "update_time_utc": 1788836096
+  },
+  "IWESTT11": {
+   "station_id": "IWESTT11",
+   "lat": -31.534,
+   "lon": 116.441,
+   "qc_status": 1,
+   "update_time_utc": 1788777344
+  },
+  "IDUMBA22": {
+   "station_id": "IDUMBA22",
+   "lat": -31.55844,
+   "lon": 116.50325,
+   "qc_status": 1,
+   "update_time_utc": 1788854656
+  },
+  "IDUMBA20": {
+   "station_id": "IDUMBA20",
+   "lat": -31.572,
+   "lon": 116.507,
+   "qc_status": 1,
+   "update_time_utc": 1788841216
+  },
+  "INUNIL2": {
+   "station_id": "INUNIL2",
+   "lat": -31.525,
+   "lon": 116.531,
+   "qc_status": 1,
+   "update_time_utc": 1788852352
+  },
+  "IWESTT8": {
+   "station_id": "IWESTT8",
+   "lat": -31.52406,
+   "lon": 116.40658,
+   "qc_status": 1,
+   "update_time_utc": 1788776704
+  },
+  "IDUMBA12": {
+   "station_id": "IDUMBA12",
+   "lat": -31.58844,
+   "lon": 116.52781,
+   "qc_status": 1,
+   "update_time_utc": 1788787200
+  },
+  "IBURGE35": {
+   "station_id": "IBURGE35",
+   "lat": -31.85334,
+   "lon": 116.76261,
+   "qc_status": -1,
+   "update_time_utc": 1788784768
+  },
+  "IYORKYOR1": {
+   "station_id": "IYORKYOR1",
+   "lat": -31.8649,
+   "lon": 116.76106,
+   "qc_status": -1,
+   "update_time_utc": 1788790784
+  },
+  "IYORK69": {
+   "station_id": "IYORK69",
+   "lat": -31.87256,
+   "lon": 116.78131,
+   "qc_status": 1,
+   "update_time_utc": 1788788480
+  },
+  "IMALEB3": {
+   "station_id": "IMALEB3",
+   "lat": -31.84,
+   "lon": 116.809,
+   "qc_status": -1,
+   "update_time_utc": 1788712832
+  },
+  "IYORK348": {
+   "station_id": "IYORK348",
+   "lat": -31.884,
+   "lon": 116.761,
+   "qc_status": 1,
+   "update_time_utc": 1788809472
+  },
+  "IYORK284": {
+   "station_id": "IYORK284",
+   "lat": -31.885,
+   "lon": 116.764,
+   "qc_status": 1,
+   "update_time_utc": 1788788480
+  },
+  "IYORK276": {
+   "station_id": "IYORK276",
+   "lat": -31.895,
+   "lon": 116.768,
+   "qc_status": 1,
+   "update_time_utc": 1788833280
+  },
+  "IBALLA436": {
+   "station_id": "IBALLA436",
+   "lat": -31.912,
+   "lon": 116.749,
+   "qc_status": 1,
+   "update_time_utc": 1788850560
+  },
+  "ICOLDH1": {
+   "station_id": "ICOLDH1",
+   "lat": -31.872,
+   "lon": 116.859,
+   "qc_status": -1,
+   "update_time_utc": 1788795904
+  },
+  "IMALEB2": {
+   "station_id": "IMALEB2",
+   "lat": -31.834,
+   "lon": 116.886,
+   "qc_status": -1,
+   "update_time_utc": 1788841344
+  },
+  "IGWAMB4": {
+   "station_id": "IGWAMB4",
+   "lat": -31.966,
+   "lon": 116.733,
+   "qc_status": 1,
+   "update_time_utc": 1788807936
+  },
+  "ITALBO3": {
+   "station_id": "ITALBO3",
+   "lat": -31.986,
+   "lon": 116.711,
+   "qc_status": 1,
+   "update_time_utc": 1788779264
+  },
+  "IKAURI1": {
+   "station_id": "IKAURI1",
+   "lat": -31.94,
+   "lon": 117.038,
+   "qc_status": -1,
+   "update_time_utc": 1788847616
+  },
+  "IBALKU1": {
+   "station_id": "IBALKU1",
+   "lat": -31.974,
+   "lon": 117.109,
+   "qc_status": -1,
+   "update_time_utc": 1788787200
+  },
+  "IBEVER270": {
+   "station_id": "IBEVER270",
+   "lat": -32.101,
+   "lon": 116.937,
+   "qc_status": -1,
+   "update_time_utc": 1788788224
+  },
+  "IBEVER56": {
+   "station_id": "IBEVER56",
+   "lat": -32.102,
+   "lon": 116.926,
+   "qc_status": 1,
+   "update_time_utc": 1783051776
+  },
+  "IBEVER149": {
+   "station_id": "IBEVER149",
+   "lat": -32.112,
+   "lon": 116.938,
+   "qc_status": -1,
+   "update_time_utc": 1788827136
+  },
+  "IBEVER207": {
+   "station_id": "IBEVER207",
+   "lat": -32.10946,
+   "lon": 116.92466,
+   "qc_status": -1,
+   "update_time_utc": 1788772480
+  },
+  "IBEVER59": {
+   "station_id": "IBEVER59",
+   "lat": -32.12557,
+   "lon": 116.94695,
+   "qc_status": -1,
+   "update_time_utc": 1788807552
+  },
+  "IGOLDS15": {
+   "station_id": "IGOLDS15",
+   "lat": -17.15523,
+   "lon": 145.74411,
+   "qc_status": 0,
+   "update_time_utc": 1788813952
+  },
+  "ILITTL174": {
+   "station_id": "ILITTL174",
+   "lat": -17.14114,
+   "lon": 145.71869,
+   "qc_status": 1,
+   "update_time_utc": 1788509824
+  },
+  "IGOLDS24": {
+   "station_id": "IGOLDS24",
+   "lat": -17.15,
+   "lon": 145.74,
+   "qc_status": 1,
+   "update_time_utc": 1788780288
+  },
+  "IGOLDS7": {
+   "station_id": "IGOLDS7",
+   "lat": -17.151,
+   "lon": 145.747,
+   "qc_status": 1,
+   "update_time_utc": 1788849024
+  },
+  "IBARRI116": {
+   "station_id": "IBARRI116",
+   "lat": -17.223,
+   "lon": 145.631,
+   "qc_status": 1,
+   "update_time_utc": 1788822016
+  },
+  "IGOLDS30": {
+   "station_id": "IGOLDS30",
+   "lat": -17.147,
+   "lon": 145.748,
+   "qc_status": -1,
+   "update_time_utc": 1788780800
+  },
+  "IBARRI61": {
+   "station_id": "IBARRI61",
+   "lat": -17.19939,
+   "lon": 145.62657,
+   "qc_status": 1,
+   "update_time_utc": 1788820480
+  },
+  "IBARRI125": {
+   "station_id": "IBARRI125",
+   "lat": -17.199,
+   "lon": 145.622,
+   "qc_status": 1,
+   "update_time_utc": 1788852224
+  },
+  "I90582114": {
+   "station_id": "I90582114",
+   "lat": -17.198,
+   "lon": 145.621,
+   "qc_status": 1,
+   "update_time_utc": 1788769024
+  },
+  "IBARRI120": {
+   "station_id": "IBARRI120",
+   "lat": -17.22,
+   "lon": 145.617,
+   "qc_status": 1,
+   "update_time_utc": 1788792064
+  },
+  "IWYALK4": {
+   "station_id": "IWYALK4",
+   "lat": -31.177,
+   "lon": 117.384,
+   "qc_status": -1,
+   "update_time_utc": 1788778752
+  },
+  "IWYALK9": {
+   "station_id": "IWYALK9",
+   "lat": -31.176,
+   "lon": 117.383,
+   "qc_status": -1,
+   "update_time_utc": 1783062656
+  },
+  "IWYALK12": {
+   "station_id": "IWYALK12",
+   "lat": -31.232,
+   "lon": 117.401,
+   "qc_status": -1,
+   "update_time_utc": 1788838144
+  },
+  "IWYALK3": {
+   "station_id": "IWYALK3",
+   "lat": -31.261,
+   "lon": 117.388,
+   "qc_status": -1,
+   "update_time_utc": 1788824832
+  },
+  "ISOUTH1137": {
+   "station_id": "ISOUTH1137",
+   "lat": -31.19206,
+   "lon": 117.64321,
+   "qc_status": 1,
+   "update_time_utc": 1788836480
+  },
+  "ISOUTH1616": {
+   "station_id": "ISOUTH1616",
+   "lat": -31.225,
+   "lon": 117.867,
+   "qc_status": -1,
+   "update_time_utc": 1788778752
+  },
+  "IGABBI2": {
+   "station_id": "IGABBI2",
+   "lat": -30.82392,
+   "lon": 117.71125,
+   "qc_status": -1,
+   "update_time_utc": 1788792192
+  },
+  "ICUNDE4": {
+   "station_id": "ICUNDE4",
+   "lat": -31.65388,
+   "lon": 117.23728,
+   "qc_status": -1,
+   "update_time_utc": 1788775680
+  },
+  "ICUNDE5": {
+   "station_id": "ICUNDE5",
+   "lat": -31.654,
+   "lon": 117.235,
+   "qc_status": -1,
+   "update_time_utc": 1788840192
+  },
+  "IDOODL1": {
+   "station_id": "IDOODL1",
+   "lat": -31.511,
+   "lon": 117.887,
+   "qc_status": 1,
+   "update_time_utc": 1788848640
+  },
+  "IWARRA129": {
+   "station_id": "IWARRA129",
+   "lat": -31.115,
+   "lon": 118.602,
+   "qc_status": -1,
+   "update_time_utc": 1788773888
+  },
+  "IBURRA33": {
+   "station_id": "IBURRA33",
+   "lat": -31.396,
+   "lon": 118.481,
+   "qc_status": -1,
+   "update_time_utc": 1783033344
+  },
+  "IMOORI4": {
+   "station_id": "IMOORI4",
+   "lat": -31.31591,
+   "lon": 119.05675,
+   "qc_status": -1,
+   "update_time_utc": 1788775936
+  },
+  "ITALGO2": {
+   "station_id": "ITALGO2",
+   "lat": -31.221,
+   "lon": 118.268,
+   "qc_status": -1,
+   "update_time_utc": 1788831872
+  },
+  "IMERRE20": {
+   "station_id": "IMERRE20",
+   "lat": -31.471,
+   "lon": 118.284,
+   "qc_status": -1,
+   "update_time_utc": 1788782848
+  },
+  "IMERRE13": {
+   "station_id": "IMERRE13",
+   "lat": -31.479,
+   "lon": 118.28,
+   "qc_status": -1,
+   "update_time_utc": 1788827136
+  },
+  "IMERRE19": {
+   "station_id": "IMERRE19",
+   "lat": -31.486,
+   "lon": 118.278,
+   "qc_status": -1,
+   "update_time_utc": 1788837248
+  },
+  "IMERRE21": {
+   "station_id": "IMERRE21",
+   "lat": -31.485,
+   "lon": 118.266,
+   "qc_status": -1,
+   "update_time_utc": 1788777216
+  },
+  "IMERRE22": {
+   "station_id": "IMERRE22",
+   "lat": -31.489,
+   "lon": 118.267,
+   "qc_status": -1,
+   "update_time_utc": 1788780928
+  },
+  "INUNGA4": {
+   "station_id": "INUNGA4",
+   "lat": -31.06735,
+   "lon": 118.14301,
+   "qc_status": -1,
+   "update_time_utc": 1788829184
+  },
+  "IBULGA6": {
+   "station_id": "IBULGA6",
+   "lat": -20.73036,
+   "lon": 116.85283,
+   "qc_status": -1,
+   "update_time_utc": 1788784256
+  },
+  "IPEGSC4": {
+   "station_id": "IPEGSC4",
+   "lat": -20.735,
+   "lon": 116.839,
+   "qc_status": 1,
+   "update_time_utc": 1788779392
+  },
+  "IPEGSC7": {
+   "station_id": "IPEGSC7",
+   "lat": -20.73498,
+   "lon": 116.83533,
+   "qc_status": 1,
+   "update_time_utc": 1788766848
+  },
+  "IPEGSC5": {
+   "station_id": "IPEGSC5",
+   "lat": -20.735,
+   "lon": 116.835,
+   "qc_status": 1,
+   "update_time_utc": 1788840320
+  },
+  "IPEGSC3": {
+   "station_id": "IPEGSC3",
+   "lat": -20.736,
+   "lon": 116.833,
+   "qc_status": 1,
+   "update_time_utc": 1788836352
+  },
+  "IBAYNT1": {
+   "station_id": "IBAYNT1",
+   "lat": -20.75308,
+   "lon": 116.80716,
+   "qc_status": 1,
+   "update_time_utc": 1788791552
+  },
+  "IKARRA5": {
+   "station_id": "IKARRA5",
+   "lat": -20.74,
+   "lon": 116.806,
+   "qc_status": 1,
+   "update_time_utc": 1788782080
+  },
+  "INICKO5": {
+   "station_id": "INICKO5",
+   "lat": -20.735,
+   "lon": 116.803,
+   "qc_status": -1,
+   "update_time_utc": 1788842112
+  },
+  "INICKO4": {
+   "station_id": "INICKO4",
+   "lat": -20.73298,
+   "lon": 116.80185,
+   "qc_status": -1,
+   "update_time_utc": 1788784896
+  },
+  "INICKO6": {
+   "station_id": "INICKO6",
+   "lat": -20.732,
+   "lon": 116.802,
+   "qc_status": 1,
+   "update_time_utc": 1788842624
+  },
+  "ITOMPR2": {
+   "station_id": "ITOMPR2",
+   "lat": -22.693,
+   "lon": 117.793,
+   "qc_status": -1,
+   "update_time_utc": 1788769792
+  },
+  "IPANNA1": {
+   "station_id": "IPANNA1",
+   "lat": -21.6368,
+   "lon": 116.32253,
+   "qc_status": -1,
+   "update_time_utc": 1788830208
+  },
+  "INEWMA107": {
+   "station_id": "INEWMA107",
+   "lat": -23.356,
+   "lon": 119.729,
+   "qc_status": -1,
+   "update_time_utc": 1788804992
+  },
+  "INEWMA70": {
+   "station_id": "INEWMA70",
+   "lat": -23.362,
+   "lon": 119.74,
+   "qc_status": -1,
+   "update_time_utc": 1788840960
+  },
+  "IKINGS202": {
+   "station_id": "IKINGS202",
+   "lat": -24.85351,
+   "lon": 113.70586,
+   "qc_status": 1,
+   "update_time_utc": 1788845184
+  },
+  "IINGGA1": {
+   "station_id": "IINGGA1",
+   "lat": -25.08403,
+   "lon": 114.37366,
+   "qc_status": -1,
+   "update_time_utc": 1788840320
+  },
+  "IWOORA5": {
+   "station_id": "IWOORA5",
+   "lat": -25.37025,
+   "lon": 114.36528,
+   "qc_status": -1,
+   "update_time_utc": 1788842624
+  },
+  "INORTH1522": {
+   "station_id": "INORTH1522",
+   "lat": -22.012,
+   "lon": 114.117,
+   "qc_status": 1,
+   "update_time_utc": 1788848128
+  },
+  "IHAMEL22": {
+   "station_id": "IHAMEL22",
+   "lat": -26.42781,
+   "lon": 114.19395,
+   "qc_status": -1,
+   "update_time_utc": 1788826368
+  },
+  "IEXMOU67": {
+   "station_id": "IEXMOU67",
+   "lat": -21.948,
+   "lon": 114.138,
+   "qc_status": -1,
+   "update_time_utc": 1788774272
+  },
+  "IEXMOU45": {
+   "station_id": "IEXMOU45",
+   "lat": -21.928,
+   "lon": 114.118,
+   "qc_status": 1,
+   "update_time_utc": 1788825856
+  },
+  "IEXMOU64": {
+   "station_id": "IEXMOU64",
+   "lat": -21.926,
+   "lon": 114.119,
+   "qc_status": 1,
+   "update_time_utc": 1788851840
+  },
+  "IEXMOU56": {
+   "station_id": "IEXMOU56",
+   "lat": -21.928,
+   "lon": 114.127,
+   "qc_status": -1,
+   "update_time_utc": 1788848128
+  },
+  "IWESTERN829": {
+   "station_id": "IWESTERN829",
+   "lat": -21.99642,
+   "lon": 115.0478,
+   "qc_status": -1,
+   "update_time_utc": 1788826880
+  },
+  "IKUNUN17": {
+   "station_id": "IKUNUN17",
+   "lat": -15.725,
+   "lon": 128.734,
+   "qc_status": 1,
+   "update_time_utc": 1788809984
+  },
+  "IKUNUN7": {
+   "station_id": "IKUNUN7",
+   "lat": -15.784,
+   "lon": 128.748,
+   "qc_status": 1,
+   "update_time_utc": 1788802816
+  },
+  "IKUNUN18": {
+   "station_id": "IKUNUN18",
+   "lat": -15.787,
+   "lon": 128.751,
+   "qc_status": 0,
+   "update_time_utc": 1782538240
+  },
+  "IKUNUN29": {
+   "station_id": "IKUNUN29",
+   "lat": -15.825,
+   "lon": 128.774,
+   "qc_status": -1,
+   "update_time_utc": 1788823808
+  },
+  "IKUNUN23": {
+   "station_id": "IKUNUN23",
+   "lat": -15.84997,
+   "lon": 128.76758,
+   "qc_status": 1,
+   "update_time_utc": 1788788224
+  },
+  "IMITCH32": {
+   "station_id": "IMITCH32",
+   "lat": -14.82116,
+   "lon": 125.84064,
+   "qc_status": -1,
+   "update_time_utc": 1788768896
+  },
+  "IVICTO462": {
+   "station_id": "IVICTO462",
+   "lat": -16.48283,
+   "lon": 130.62336,
+   "qc_status": -1,
+   "update_time_utc": 1788852608
+  },
+  "IKALGO41": {
+   "station_id": "IKALGO41",
+   "lat": -30.759,
+   "lon": 121.481,
+   "qc_status": 1,
+   "update_time_utc": 1788841600
+  },
+  "IKALGO40": {
+   "station_id": "IKALGO40",
+   "lat": -30.738,
+   "lon": 121.459,
+   "qc_status": 1,
+   "update_time_utc": 1788840064
+  },
+  "IKALGO17": {
+   "station_id": "IKALGO17",
+   "lat": -30.786,
+   "lon": 121.484,
+   "qc_status": 1,
+   "update_time_utc": 1788785408
+  },
+  "ISOMER171": {
+   "station_id": "ISOMER171",
+   "lat": -30.775,
+   "lon": 121.45,
+   "qc_status": 1,
+   "update_time_utc": 1788845184
+  },
+  "IKALGO34": {
+   "station_id": "IKALGO34",
+   "lat": -30.78,
+   "lon": 121.452,
+   "qc_status": 1,
+   "update_time_utc": 1788791424
+  },
+  "ISOMER132": {
+   "station_id": "ISOMER132",
+   "lat": -30.771,
+   "lon": 121.44,
+   "qc_status": 1,
+   "update_time_utc": 1788800896
+  },
+  "IMENZI7": {
+   "station_id": "IMENZI7",
+   "lat": -29.694,
+   "lon": 121.029,
+   "qc_status": 1,
+   "update_time_utc": 1783052928
+  },
+  "INORSE4": {
+   "station_id": "INORSE4",
+   "lat": -32.19456,
+   "lon": 121.79373,
+   "qc_status": -1,
+   "update_time_utc": 1788777600
+  },
+  "ILEONO1": {
+   "station_id": "ILEONO1",
+   "lat": -28.68118,
+   "lon": 121.16242,
+   "qc_status": 1,
+   "update_time_utc": 1788813440
+  },
+  "ISOUTH1940": {
+   "station_id": "ISOUTH1940",
+   "lat": -31.225,
+   "lon": 119.322,
+   "qc_status": -1,
+   "update_time_utc": 1788799872
+  },
+  "IURIAR6": {
+   "station_id": "IURIAR6",
+   "lat": -35.293,
+   "lon": 148.923,
+   "qc_status": 1,
+   "update_time_utc": 1783076224
+  },
+  "IURIAR3": {
+   "station_id": "IURIAR3",
+   "lat": -35.294,
+   "lon": 148.925,
+   "qc_status": 1,
+   "update_time_utc": 1788822272
+  },
+  "IURIAR9": {
+   "station_id": "IURIAR9",
+   "lat": -35.297,
+   "lon": 148.924,
+   "qc_status": 1,
+   "update_time_utc": 1788773120
+  },
+  "IURIAR4": {
+   "station_id": "IURIAR4",
+   "lat": -35.297,
+   "lon": 148.926,
+   "qc_status": 1,
+   "update_time_utc": 1788765952
+  },
+  "ICANBE987": {
+   "station_id": "ICANBE987",
+   "lat": -35.22682,
+   "lon": 148.99737,
+   "qc_status": 1,
+   "update_time_utc": 1788823040
+  },
+  "ICANBE1256": {
+   "station_id": "ICANBE1256",
+   "lat": -35.22374,
+   "lon": 149.00029,
+   "qc_status": -1,
+   "update_time_utc": 1788841600
+  },
+  "ICANBE1200": {
+   "station_id": "ICANBE1200",
+   "lat": -35.206,
+   "lon": 149.0,
+   "qc_status": 1,
+   "update_time_utc": 1788768512
+  },
+  "IAUSTRAL99": {
+   "station_id": "IAUSTRAL99",
+   "lat": -35.21095,
+   "lon": 149.00194,
+   "qc_status": 1,
+   "update_time_utc": 1788804352
+  },
+  "ICANBE1307": {
+   "station_id": "ICANBE1307",
+   "lat": -35.207,
+   "lon": 149.003,
+   "qc_status": -1,
+   "update_time_utc": 1788831872
+  },
+  "ICANBE898": {
+   "station_id": "ICANBE898",
+   "lat": -35.212,
+   "lon": 149.004,
+   "qc_status": 1,
+   "update_time_utc": 1788836224
+  },
+  "ISUNSH468": {
+   "station_id": "ISUNSH468",
+   "lat": -26.477,
+   "lon": 153.093,
+   "qc_status": 1,
+   "update_time_utc": 1788682752
+  },
+  "ISUNSH628": {
+   "station_id": "ISUNSH628",
+   "lat": -26.418,
+   "lon": 153.106,
+   "qc_status": 1,
+   "update_time_utc": 1788820480
+  },
+  "ISUNSH595": {
+   "station_id": "ISUNSH595",
+   "lat": -26.493,
+   "lon": 153.077,
+   "qc_status": 1,
+   "update_time_utc": 1788776192
+  },
+  "ISUNSH962": {
+   "station_id": "ISUNSH962",
+   "lat": -26.48549,
+   "lon": 153.07551,
+   "qc_status": 1,
+   "update_time_utc": 1788834944
+  },
+  "ISUNSH126": {
+   "station_id": "ISUNSH126",
+   "lat": -26.519,
+   "lon": 153.087,
+   "qc_status": 1,
+   "update_time_utc": 1788831744
+  },
+  "ISUNSH122": {
+   "station_id": "ISUNSH122",
+   "lat": -26.519,
+   "lon": 153.087,
+   "qc_status": 1,
+   "update_time_utc": 1788785152
+  },
+  "ISUNSH565": {
+   "station_id": "ISUNSH565",
+   "lat": -26.485,
+   "lon": 153.072,
+   "qc_status": 1,
+   "update_time_utc": 1788838912
+  },
+  "ISUNSH410": {
+   "station_id": "ISUNSH410",
+   "lat": -26.485,
+   "lon": 153.07,
+   "qc_status": 1,
+   "update_time_utc": 1788811648
+  },
+  "ISUNSH870": {
+   "station_id": "ISUNSH870",
+   "lat": -26.524,
+   "lon": 153.086,
+   "qc_status": -1,
+   "update_time_utc": 1788841856
+  },
+  "ISUNSH40": {
+   "station_id": "ISUNSH40",
+   "lat": -26.412,
+   "lon": 153.105,
+   "qc_status": -1,
+   "update_time_utc": 1788834176
+  },
+  "IGLEND14": {
+   "station_id": "IGLEND14",
+   "lat": -33.144,
+   "lon": 150.124,
+   "qc_status": -1,
+   "update_time_utc": 1788846592
+  },
+  "IGLENA2": {
+   "station_id": "IGLENA2",
+   "lat": -33.11762,
+   "lon": 150.13295,
+   "qc_status": -1,
+   "update_time_utc": 1788823040
+  },
+  "IGLEND12": {
+   "station_id": "IGLEND12",
+   "lat": -33.094,
+   "lon": 150.201,
+   "qc_status": -1,
+   "update_time_utc": 1788773632
+  },
+  "IGLEND24": {
+   "station_id": "IGLEND24",
+   "lat": -33.12,
+   "lon": 150.276,
+   "qc_status": 1,
+   "update_time_utc": 1788844032
+  },
+  "ILIDSD3": {
+   "station_id": "ILIDSD3",
+   "lat": -33.372,
+   "lon": 150.077,
+   "qc_status": -1,
+   "update_time_utc": 1788818560
+  },
+  "IWALLE25": {
+   "station_id": "IWALLE25",
+   "lat": -33.395,
+   "lon": 150.08,
+   "qc_status": 1,
+   "update_time_utc": 1788817280
+  },
+  "ICAPER7": {
+   "station_id": "ICAPER7",
+   "lat": -33.157,
+   "lon": 149.979,
+   "qc_status": -1,
+   "update_time_utc": 1788843904
+  },
+  "IGLENA22": {
+   "station_id": "IGLENA22",
+   "lat": -33.067,
+   "lon": 150.102,
+   "qc_status": -1,
+   "update_time_utc": 1788792064
+  },
+  "IWALLE97": {
+   "station_id": "IWALLE97",
+   "lat": -33.404,
+   "lon": 150.073,
+   "qc_status": 1,
+   "update_time_utc": 1788771968
+  },
+  "ICAPER11": {
+   "station_id": "ICAPER11",
+   "lat": -33.144,
+   "lon": 149.981,
+   "qc_status": 1,
+   "update_time_utc": 1788825344
+  },
+  "IANGLE99": {
+   "station_id": "IANGLE99",
+   "lat": -38.407,
+   "lon": 144.196,
+   "qc_status": -1,
+   "update_time_utc": 1788835840
+  },
+  "IANGLE15": {
+   "station_id": "IANGLE15",
+   "lat": -38.40754,
+   "lon": 144.18539,
+   "qc_status": 1,
+   "update_time_utc": 1788841344
+  },
+  "IANGLE98": {
+   "station_id": "IANGLE98",
+   "lat": -38.404,
+   "lon": 144.18,
+   "qc_status": -1,
+   "update_time_utc": 1788822016
+  },
+  "IANGLE101": {
+   "station_id": "IANGLE101",
+   "lat": -38.402,
+   "lon": 144.179,
+   "qc_status": -1,
+   "update_time_utc": 1788816256
+  },
+  "IANGLE82": {
+   "station_id": "IANGLE82",
+   "lat": -38.409,
+   "lon": 144.177,
+   "qc_status": 1,
+   "update_time_utc": 1788845312
+  },
+  "IANGLE27": {
+   "station_id": "IANGLE27",
+   "lat": -38.417,
+   "lon": 144.18,
+   "qc_status": 1,
+   "update_time_utc": 1788849536
+  },
+  "IANGLE20": {
+   "station_id": "IANGLE20",
+   "lat": -38.414,
+   "lon": 144.176,
+   "qc_status": 0,
+   "update_time_utc": 1788821376
+  },
+  "IANGLE22": {
+   "station_id": "IANGLE22",
+   "lat": -38.414,
+   "lon": 144.173,
+   "qc_status": 1,
+   "update_time_utc": 1788770560
+  },
+  "IMELBO4470": {
+   "station_id": "IMELBO4470",
+   "lat": -38.345,
+   "lon": 144.956,
+   "qc_status": 1,
+   "update_time_utc": 1788845056
+  },
+  "IMELBO714": {
+   "station_id": "IMELBO714",
+   "lat": -38.35154,
+   "lon": 144.93877,
+   "qc_status": 1,
+   "update_time_utc": 1788822912
+  },
+  "IMELBO4334": {
+   "station_id": "IMELBO4334",
+   "lat": -38.343,
+   "lon": 144.948,
+   "qc_status": 1,
+   "update_time_utc": 1788823552
+  },
+  "IMELBO4058": {
+   "station_id": "IMELBO4058",
+   "lat": -38.342,
+   "lon": 144.96215,
+   "qc_status": 1,
+   "update_time_utc": 1788811264
+  },
+  "IARTHU21": {
+   "station_id": "IARTHU21",
+   "lat": -38.369,
+   "lon": 144.957,
+   "qc_status": -1,
+   "update_time_utc": 1788773760
+  },
+  "IMELBO2697": {
+   "station_id": "IMELBO2697",
+   "lat": -38.344,
+   "lon": 144.969,
+   "qc_status": 1,
+   "update_time_utc": 1788818560
+  },
+  "IARTHU5": {
+   "station_id": "IARTHU5",
+   "lat": -38.37,
+   "lon": 144.956,
+   "qc_status": -1,
+   "update_time_utc": 1788851584
+  },
+  "IMELBO5136": {
+   "station_id": "IMELBO5136",
+   "lat": -38.344,
+   "lon": 144.972,
+   "qc_status": 1,
+   "update_time_utc": 1788824320
+  },
+  "IMELBO5669": {
+   "station_id": "IMELBO5669",
+   "lat": -38.346,
+   "lon": 144.975,
+   "qc_status": 1,
+   "update_time_utc": 1788793856
+  },
+  "IMELBO5473": {
+   "station_id": "IMELBO5473",
+   "lat": -38.353,
+   "lon": 144.925,
+   "qc_status": 1,
+   "update_time_utc": 1788832512
+  },
+  "IMELBO4913": {
+   "station_id": "IMELBO4913",
+   "lat": -37.99302,
+   "lon": 145.03679,
+   "qc_status": 1,
+   "update_time_utc": 1788811392
+  },
+  "IMELBO5498": {
+   "station_id": "IMELBO5498",
+   "lat": -37.992,
+   "lon": 145.033,
+   "qc_status": 1,
+   "update_time_utc": 1788779648
+  },
+  "IVICTO151": {
+   "station_id": "IVICTO151",
+   "lat": -37.99057,
+   "lon": 145.04394,
+   "qc_status": 1,
+   "update_time_utc": 1788804992
+  },
+  "IMELBO1261": {
+   "station_id": "IMELBO1261",
+   "lat": -37.988,
+   "lon": 145.042,
+   "qc_status": 1,
+   "update_time_utc": 1788799872
+  },
+  "IMELBO2526": {
+   "station_id": "IMELBO2526",
+   "lat": -37.983,
+   "lon": 145.037,
+   "qc_status": 1,
+   "update_time_utc": 1788803840
+  },
+  "IMELBO3730": {
+   "station_id": "IMELBO3730",
+   "lat": -37.985,
+   "lon": 145.028,
+   "qc_status": 1,
+   "update_time_utc": 1788825344
+  },
+  "IMELBO1155": {
+   "station_id": "IMELBO1155",
+   "lat": -37.98114,
+   "lon": 145.02722,
+   "qc_status": 1,
+   "update_time_utc": 1788825344
+  },
+  "IMELBOUR232": {
+   "station_id": "IMELBOUR232",
+   "lat": -37.97967,
+   "lon": 145.0266,
+   "qc_status": 1,
+   "update_time_utc": 1788819840
+  },
+  "IMELBO5504": {
+   "station_id": "IMELBO5504",
+   "lat": -37.981,
+   "lon": 145.023,
+   "qc_status": 1,
+   "update_time_utc": 1788798592
+  },
+  "IMELBO5918": {
+   "station_id": "IMELBO5918",
+   "lat": -37.977,
+   "lon": 145.045,
+   "qc_status": -1,
+   "update_time_utc": 1788834560
+  },
+  "ISANRE21": {
+   "station_id": "ISANRE21",
+   "lat": -38.529,
+   "lon": 145.376,
+   "qc_status": 1,
+   "update_time_utc": 1788852096
+  },
+  "ISANRE54": {
+   "station_id": "ISANRE54",
+   "lat": -38.528,
+   "lon": 145.373,
+   "qc_status": 1,
+   "update_time_utc": 1788683008
+  },
+  "ISANRE66": {
+   "station_id": "ISANRE66",
+   "lat": -38.523,
+   "lon": 145.375,
+   "qc_status": -1,
+   "update_time_utc": 1788769792
+  },
+  "ISANRE22": {
+   "station_id": "ISANRE22",
+   "lat": -38.525,
+   "lon": 145.429,
+   "qc_status": 1,
+   "update_time_utc": 1782033920
+  },
+  "ICAPEW6": {
+   "station_id": "ICAPEW6",
+   "lat": -38.528,
+   "lon": 145.339,
+   "qc_status": 1,
+   "update_time_utc": 1788836352
+  },
+  "ICAPEW12": {
+   "station_id": "ICAPEW12",
+   "lat": -38.528,
+   "lon": 145.335,
+   "qc_status": -1,
+   "update_time_utc": 1788819840
+  },
+  "IKILCU4": {
+   "station_id": "IKILCU4",
+   "lat": -38.548,
+   "lon": 145.477,
+   "qc_status": 1,
+   "update_time_utc": 1788781184
+  },
+  "IKILCU22": {
+   "station_id": "IKILCU22",
+   "lat": -38.55,
+   "lon": 145.478,
+   "qc_status": -1,
+   "update_time_utc": 1788855040
+  },
+  "IVICTORI121": {
+   "station_id": "IVICTORI121",
+   "lat": -38.55046,
+   "lon": 145.47798,
+   "qc_status": 1,
+   "update_time_utc": 1788839936
+  },
+  "IMOONA5": {
+   "station_id": "IMOONA5",
+   "lat": -36.978,
+   "lon": 143.364,
+   "qc_status": -1,
+   "update_time_utc": 1788830592
+  },
+  "ILANDS63": {
+   "station_id": "ILANDS63",
+   "lat": -37.006,
+   "lon": 143.058,
+   "qc_status": -1,
+   "update_time_utc": 1788772224
+  },
+  "IRATHS2": {
+   "station_id": "IRATHS2",
+   "lat": -37.006,
+   "lon": 143.506,
+   "qc_status": -1,
+   "update_time_utc": 1788823936
+  },
+  "ILISMO111": {
+   "station_id": "ILISMO111",
+   "lat": -37.952,
+   "lon": 143.339,
+   "qc_status": -1,
+   "update_time_utc": 1788851712
+  },
+  "ILISMO65": {
+   "station_id": "ILISMO65",
+   "lat": -37.9554,
+   "lon": 143.34553,
+   "qc_status": -1,
+   "update_time_utc": 1788816256
+  },
+  "IGLENO30": {
+   "station_id": "IGLENO30",
+   "lat": -38.154,
+   "lon": 142.994,
+   "qc_status": -1,
+   "update_time_utc": 1788852864
+  },
+  "ICAMPE48": {
+   "station_id": "ICAMPE48",
+   "lat": -38.221,
+   "lon": 143.157,
+   "qc_status": -1,
+   "update_time_utc": 1788793984
+  },
+  "IMORTL7": {
+   "station_id": "IMORTL7",
+   "lat": -38.015,
+   "lon": 142.863,
+   "qc_status": 1,
+   "update_time_utc": 1782949632
+  },
+  "ICAMPE1": {
+   "station_id": "ICAMPE1",
+   "lat": -38.229,
+   "lon": 143.151,
+   "qc_status": -1,
+   "update_time_utc": 1788855040
+  },
+  "ICAMPE41": {
+   "station_id": "ICAMPE41",
+   "lat": -38.231,
+   "lon": 143.144,
+   "qc_status": 1,
+   "update_time_utc": 1788773888
+  },
+  "ICAMPE27": {
+   "station_id": "ICAMPE27",
+   "lat": -38.23457,
+   "lon": 143.13885,
+   "qc_status": 1,
+   "update_time_utc": 1788844032
+  },
+  "ICAMPE33": {
+   "station_id": "ICAMPE33",
+   "lat": -38.238,
+   "lon": 143.148,
+   "qc_status": 1,
+   "update_time_utc": 1788797440
+  },
+  "ISKIPT75": {
+   "station_id": "ISKIPT75",
+   "lat": -37.684,
+   "lon": 143.36,
+   "qc_status": -1,
+   "update_time_utc": 1788802816
+  },
+  "IARARA26": {
+   "station_id": "IARARA26",
+   "lat": -37.279,
+   "lon": 142.93,
+   "qc_status": 1,
+   "update_time_utc": 1788789248
+  },
+  "IARARA70": {
+   "station_id": "IARARA70",
+   "lat": -37.29247,
+   "lon": 142.92483,
+   "qc_status": 1,
+   "update_time_utc": 1788847488
+  },
+  "IHALLS68": {
+   "station_id": "IHALLS68",
+   "lat": -37.175,
+   "lon": 142.538,
+   "qc_status": -1,
+   "update_time_utc": 1788848128
+  },
+  "IMIRRA4": {
+   "station_id": "IMIRRA4",
+   "lat": -37.40432,
+   "lon": 142.38404,
+   "qc_status": -1,
+   "update_time_utc": 1788832256
+  },
+  "IHALLSGA2": {
+   "station_id": "IHALLSGA2",
+   "lat": -37.15243,
+   "lon": 142.52208,
+   "qc_status": 1,
+   "update_time_utc": 1788817408
+  },
+  "IHALLS64": {
+   "station_id": "IHALLS64",
+   "lat": -37.15,
+   "lon": 142.528,
+   "qc_status": 1,
+   "update_time_utc": 1788787456
+  },
+  "IHALLS18": {
+   "station_id": "IHALLS18",
+   "lat": -37.142,
+   "lon": 142.517,
+   "qc_status": -1,
+   "update_time_utc": 1788774272
+  },
+  "IHALLS51": {
+   "station_id": "IHALLS51",
+   "lat": -37.142,
+   "lon": 142.518,
+   "qc_status": 1,
+   "update_time_utc": 1788838272
+  },
+  "IHALLS41": {
+   "station_id": "IHALLS41",
+   "lat": -37.142,
+   "lon": 142.564,
+   "qc_status": 1,
+   "update_time_utc": 1788782848
+  },
+  "IHALLS72": {
+   "station_id": "IHALLS72",
+   "lat": -37.134,
+   "lon": 142.521,
+   "qc_status": 1,
+   "update_time_utc": 1788785408
+  },
+  "IHALLS33": {
+   "station_id": "IHALLS33",
+   "lat": -37.128,
+   "lon": 142.534,
+   "qc_status": 1,
+   "update_time_utc": 1788808448
+  },
+  "IHALLS14": {
+   "station_id": "IHALLS14",
+   "lat": -37.13595,
+   "lon": 142.57817,
+   "qc_status": 1,
+   "update_time_utc": 1788775424
+  },
+  "ITRAWO1": {
+   "station_id": "ITRAWO1",
+   "lat": -37.107,
+   "lon": 145.207,
+   "qc_status": -1,
+   "update_time_utc": 1788854528
+  },
+  "ITALLA46": {
+   "station_id": "ITALLA46",
+   "lat": -37.121,
+   "lon": 145.127,
+   "qc_status": -1,
+   "update_time_utc": 1788829188
+  },
+  "IBROAD68": {
+   "station_id": "IBROAD68",
+   "lat": -37.187,
+   "lon": 145.124,
+   "qc_status": -1,
+   "update_time_utc": 1788825600
+  },
+  "IWHITE36": {
+   "station_id": "IWHITE36",
+   "lat": -37.069,
+   "lon": 145.273,
+   "qc_status": -1,
+   "update_time_utc": 1788848512
+  },
+  "ITYAAK2": {
+   "station_id": "ITYAAK2",
+   "lat": -37.22256,
+   "lon": 145.1457,
+   "qc_status": 1,
+   "update_time_utc": 1788850176
+  },
+  "ISEYMO30": {
+   "station_id": "ISEYMO30",
+   "lat": -37.029,
+   "lon": 145.191,
+   "qc_status": 1,
+   "update_time_utc": 1788827008
+  },
+  "ISEYMO6": {
+   "station_id": "ISEYMO6",
+   "lat": -37.027,
+   "lon": 145.208,
+   "qc_status": 0,
+   "update_time_utc": 1788831616
+  },
+  "ISEYMO16": {
+   "station_id": "ISEYMO16",
+   "lat": -37.033,
+   "lon": 145.159,
+   "qc_status": -1,
+   "update_time_utc": 1788783488
+  },
+  "ITALLA22": {
+   "station_id": "ITALLA22",
+   "lat": -37.104,
+   "lon": 145.069,
+   "qc_status": 1,
+   "update_time_utc": 1788824704
+  },
+  "ISEYMO31": {
+   "station_id": "ISEYMO31",
+   "lat": -37.033,
+   "lon": 145.14,
+   "qc_status": 1,
+   "update_time_utc": 1788850176
+  },
+  "ILARAP2": {
+   "station_id": "ILARAP2",
+   "lat": -23.698,
+   "lon": 133.827,
+   "qc_status": 1,
+   "update_time_utc": 1782024064
+  },
+  "ILARAP3": {
+   "station_id": "ILARAP3",
+   "lat": -23.69757,
+   "lon": 133.82877,
+   "qc_status": 1,
+   "update_time_utc": 1788843520
+  },
+  "ILARAP4": {
+   "station_id": "ILARAP4",
+   "lat": -23.69743,
+   "lon": 133.83523,
+   "qc_status": -1,
+   "update_time_utc": 1788850048
+  },
+  "IFLYNN3": {
+   "station_id": "IFLYNN3",
+   "lat": -23.70397,
+   "lon": 133.83872,
+   "qc_status": -1,
+   "update_time_utc": 1788838400
+  },
+  "IALICE52": {
+   "station_id": "IALICE52",
+   "lat": -23.69742,
+   "lon": 133.85186,
+   "qc_status": 1,
+   "update_time_utc": 1788830976
+  },
+  "IALICE61": {
+   "station_id": "IALICE61",
+   "lat": -23.697,
+   "lon": 133.868,
+   "qc_status": 1,
+   "update_time_utc": 1788782976
+  },
+  "IROSS28": {
+   "station_id": "IROSS28",
+   "lat": -23.73085,
+   "lon": 133.86863,
+   "qc_status": -1,
+   "update_time_utc": 1788769920
+  },
+  "IMOUNT892": {
+   "station_id": "IMOUNT892",
+   "lat": -23.723,
+   "lon": 133.878,
+   "qc_status": 1,
+   "update_time_utc": 1788816128
+  },
+  "IBRAIT1": {
+   "station_id": "IBRAIT1",
+   "lat": -23.679,
+   "lon": 133.872,
+   "qc_status": -1,
+   "update_time_utc": 1788800768
+  },
+  "IALICESP4": {
+   "station_id": "IALICESP4",
+   "lat": -23.69106,
+   "lon": 133.89391,
+   "qc_status": 1,
+   "update_time_utc": 1788809088
+  },
+  "ILOWLA1": {
+   "station_id": "ILOWLA1",
+   "lat": -35.044,
+   "lon": 117.557,
+   "qc_status": -1,
+   "update_time_utc": 1788851712
+  },
+  "IBORNH54": {
+   "station_id": "IBORNH54",
+   "lat": -35.04,
+   "lon": 117.582,
+   "qc_status": 1,
+   "update_time_utc": 1788788864
+  },
+  "IYOUNG102": {
+   "station_id": "IYOUNG102",
+   "lat": -35.036,
+   "lon": 117.483,
+   "qc_status": -1,
+   "update_time_utc": 1788778624
+  },
+  "IWESTERN686": {
+   "station_id": "IWESTERN686",
+   "lat": -35.0126,
+   "lon": 117.52132,
+   "qc_status": 1,
+   "update_time_utc": 1788838784
+  },
+  "IKRONK6": {
+   "station_id": "IKRONK6",
+   "lat": -34.994,
+   "lon": 117.583,
+   "qc_status": 1,
+   "update_time_utc": 1783036928
+  },
+  "IELLEK1": {
+   "station_id": "IELLEK1",
+   "lat": -35.00891,
+   "lon": 117.7213,
+   "qc_status": 1,
+   "update_time_utc": 1788788864
+  },
+  "ICUTHB1": {
+   "station_id": "ICUTHB1",
+   "lat": -35.025,
+   "lon": 117.77,
+   "qc_status": 1,
+   "update_time_utc": 1788802816
+  },
+  "ICUTHB2": {
+   "station_id": "ICUTHB2",
+   "lat": -35.025,
+   "lon": 117.798,
+   "qc_status": -1,
+   "update_time_utc": 1782075008
+  },
+  "INULLA22": {
+   "station_id": "INULLA22",
+   "lat": -35.009,
+   "lon": 117.36,
+   "qc_status": -1,
+   "update_time_utc": 1788841984
+  },
+  "ICUTHB4": {
+   "station_id": "ICUTHB4",
+   "lat": -35.013,
+   "lon": 117.797,
+   "qc_status": -1,
+   "update_time_utc": 1788849792
+  },
+  "IHOBAR364": {
+   "station_id": "IHOBAR364",
+   "lat": -42.705,
+   "lon": 147.256,
+   "qc_status": 1,
+   "update_time_utc": 1788854400
+  },
+  "IHOBAR500": {
+   "station_id": "IHOBAR500",
+   "lat": -42.692,
+   "lon": 147.25,
+   "qc_status": 1,
+   "update_time_utc": 1783083520
+  },
+  "IHOBAR410": {
+   "station_id": "IHOBAR410",
+   "lat": -42.692,
+   "lon": 147.244,
+   "qc_status": 1,
+   "update_time_utc": 1788803584
+  },
+  "IPONTV9": {
+   "station_id": "IPONTV9",
+   "lat": -42.683,
+   "lon": 147.249,
+   "qc_status": 1,
+   "update_time_utc": 1788786944
+  },
+  "IHOBAR365": {
+   "station_id": "IHOBAR365",
+   "lat": -42.684,
+   "lon": 147.242,
+   "qc_status": 1,
+   "update_time_utc": 1788807296
+  },
+  "IHOBAR400": {
+   "station_id": "IHOBAR400",
+   "lat": -42.693,
+   "lon": 147.274,
+   "qc_status": 1,
+   "update_time_utc": 1788775680
+  },
+  "IHOBAR551": {
+   "station_id": "IHOBAR551",
+   "lat": -42.686,
+   "lon": 147.231,
+   "qc_status": -1,
+   "update_time_utc": 1788769920
+  },
+  "IPONTV7": {
+   "station_id": "IPONTV7",
+   "lat": -42.682,
+   "lon": 147.266,
+   "qc_status": 1,
+   "update_time_utc": 1788775680
+  },
+  "IMANGA34": {
+   "station_id": "IMANGA34",
+   "lat": -42.66332,
+   "lon": 147.22623,
+   "qc_status": 1,
+   "update_time_utc": 1788854272
+  },
+  "IHOBAR563": {
+   "station_id": "IHOBAR563",
+   "lat": -42.74208,
+   "lon": 147.26692,
+   "qc_status": 1,
+   "update_time_utc": 1788781952
+  },
+  "IALBAN101": {
+   "station_id": "IALBAN101",
+   "lat": -35.016,
+   "lon": 117.902,
+   "qc_status": 1,
+   "update_time_utc": 1788851840
+  },
+  "IMIRAM21": {
+   "station_id": "IMIRAM21",
+   "lat": -35.009,
+   "lon": 117.906,
+   "qc_status": 1,
+   "update_time_utc": 1788777472
+  },
+  "IALBAN39": {
+   "station_id": "IALBAN39",
+   "lat": -35.024,
+   "lon": 117.89,
+   "qc_status": 1,
+   "update_time_utc": 1788780544
+  },
+  "ICOLLI127": {
+   "station_id": "ICOLLI127",
+   "lat": -35.001,
+   "lon": 117.928,
+   "qc_status": 1,
+   "update_time_utc": 1788827520
+  },
+  "ISPENC20": {
+   "station_id": "ISPENC20",
+   "lat": -35.008,
+   "lon": 117.896,
+   "qc_status": -1,
+   "update_time_utc": 1788824320
+  },
+  "IALBAN29": {
+   "station_id": "IALBAN29",
+   "lat": -35.00917,
+   "lon": 117.8939,
+   "qc_status": -1,
+   "update_time_utc": 1788770688
+  },
+  "IEMUPO1": {
+   "station_id": "IEMUPO1",
+   "lat": -34.998,
+   "lon": 117.946,
+   "qc_status": 1,
+   "update_time_utc": 1788789376
+  },
+  "IMOUNT1090": {
+   "station_id": "IMOUNT1090",
+   "lat": -35.017,
+   "lon": 117.876,
+   "qc_status": 1,
+   "update_time_utc": 1788792576
+  },
+  "ILANGE592": {
+   "station_id": "ILANGE592",
+   "lat": -34.992,
+   "lon": 117.899,
+   "qc_status": 1,
+   "update_time_utc": 1788781696
+  },
+  "IALBAN53": {
+   "station_id": "IALBAN53",
+   "lat": -34.986,
+   "lon": 117.919,
+   "qc_status": 1,
+   "update_time_utc": 1788852608
+  },
+  "IROBIN12": {
+   "station_id": "IROBIN12",
+   "lat": -35.018,
+   "lon": 117.81,
+   "qc_status": 1,
+   "update_time_utc": 1788770688
+  },
+  "IALBAN146": {
+   "station_id": "IALBAN146",
+   "lat": -35.03,
+   "lon": 117.826,
+   "qc_status": 1,
+   "update_time_utc": 1788846592
+  },
+  "IHAY44": {
+   "station_id": "IHAY44",
+   "lat": -34.956,
+   "lon": 117.403,
+   "qc_status": 1,
+   "update_time_utc": 1788824832
+  },
+  "IDENMA1": {
+   "station_id": "IDENMA1",
+   "lat": -34.99,
+   "lon": 117.356,
+   "qc_status": 1,
+   "update_time_utc": 1788827008
+  },
+  "IHAY52": {
+   "station_id": "IHAY52",
+   "lat": -34.96,
+   "lon": 117.39,
+   "qc_status": 1,
+   "update_time_utc": 1788772480
+  },
+  "IDENMA40": {
+   "station_id": "IDENMA40",
+   "lat": -34.985,
+   "lon": 117.35,
+   "qc_status": 1,
+   "update_time_utc": 1788849664
+  },
+  "IKOJAN3": {
+   "station_id": "IKOJAN3",
+   "lat": -34.449,
+   "lon": 118.416,
+   "qc_status": -1,
+   "update_time_utc": 1788846976
+  },
+  "INALYE11": {
+   "station_id": "INALYE11",
+   "lat": -34.245,
+   "lon": 118.472,
+   "qc_status": -1,
+   "update_time_utc": 1788785152
+  },
+  "IWESTERN468": {
+   "station_id": "IWESTERN468",
+   "lat": -34.67284,
+   "lon": 118.34679,
+   "qc_status": -1,
+   "update_time_utc": 1788823936
+  },
+  "IKENDE3": {
+   "station_id": "IKENDE3",
+   "lat": -34.511,
+   "lon": 117.661,
+   "qc_status": -1,
+   "update_time_utc": 1788823168
+  },
+  "IKENDE20": {
+   "station_id": "IKENDE20",
+   "lat": -34.46,
+   "lon": 117.643,
+   "qc_status": -1,
+   "update_time_utc": 1788848128
+  },
+  "IKENDE28": {
+   "station_id": "IKENDE28",
+   "lat": -34.484,
+   "lon": 117.621,
+   "qc_status": -1,
+   "update_time_utc": 1788770816
+  },
+  "IMOUNT86": {
+   "station_id": "IMOUNT86",
+   "lat": -34.602,
+   "lon": 117.663,
+   "qc_status": 1,
+   "update_time_utc": 1788807808
+  },
+  "IADELA1983": {
+   "station_id": "IADELA1983",
+   "lat": -35.329,
+   "lon": 138.456,
+   "qc_status": 1,
+   "update_time_utc": 1788852096
+  },
+  "IMYPON16": {
+   "station_id": "IMYPON16",
+   "lat": -35.373,
+   "lon": 138.403,
+   "qc_status": -1,
+   "update_time_utc": 1788851328
+  },
+  "IADELA1947": {
+   "station_id": "IADELA1947",
+   "lat": -35.328,
+   "lon": 138.467,
+   "qc_status": 1,
+   "update_time_utc": 1788839040
+  },
+  "IADELA2739": {
+   "station_id": "IADELA2739",
+   "lat": -35.32226,
+   "lon": 138.45788,
+   "qc_status": -1,
+   "update_time_utc": 1788788480
+  },
+  "IADELA2287": {
+   "station_id": "IADELA2287",
+   "lat": -35.301,
+   "lon": 138.448,
+   "qc_status": 1,
+   "update_time_utc": 1788779392
+  },
+  "ISELLI32": {
+   "station_id": "ISELLI32",
+   "lat": -35.309,
+   "lon": 138.486,
+   "qc_status": 1,
+   "update_time_utc": 1788790400
+  },
+  "IMYPON12": {
+   "station_id": "IMYPON12",
+   "lat": -35.415,
+   "lon": 138.427,
+   "qc_status": 1,
+   "update_time_utc": 1788784768
+  },
+  "IADELAID224": {
+   "station_id": "IADELAID224",
+   "lat": -35.29012,
+   "lon": 138.44983,
+   "qc_status": 1,
+   "update_time_utc": 1788823552
+  },
+  "ISELLI38": {
+   "station_id": "ISELLI38",
+   "lat": -35.34184,
+   "lon": 138.52097,
+   "qc_status": -1,
+   "update_time_utc": 1788850688
+  },
+  "IADELA2714": {
+   "station_id": "IADELA2714",
+   "lat": -35.282,
+   "lon": 138.459,
+   "qc_status": -1,
+   "update_time_utc": 1788848384
+  },
+  "IDALYE13": {
+   "station_id": "IDALYE13",
+   "lat": -33.402,
+   "lon": 115.608,
+   "qc_status": -1,
+   "update_time_utc": 1788842752
+  },
+  "IDALYE10": {
+   "station_id": "IDALYE10",
+   "lat": -33.404,
+   "lon": 115.608,
+   "qc_status": 1,
+   "update_time_utc": 1788853248
+  },
+  "IDALYE6": {
+   "station_id": "IDALYE6",
+   "lat": -33.399,
+   "lon": 115.617,
+   "qc_status": 1,
+   "update_time_utc": 1788800896
+  },
+  "IDALYE14": {
+   "station_id": "IDALYE14",
+   "lat": -33.408,
+   "lon": 115.617,
+   "qc_status": -1,
+   "update_time_utc": 1788848896
+  },
+  "IDALYE15": {
+   "station_id": "IDALYE15",
+   "lat": -33.408,
+   "lon": 115.618,
+   "qc_status": -1,
+   "update_time_utc": 1788841728
+  },
+  "IDALYE2": {
+   "station_id": "IDALYE2",
+   "lat": -33.411,
+   "lon": 115.618,
+   "qc_status": 1,
+   "update_time_utc": 1788793088
+  },
+  "IDALYE3": {
+   "station_id": "IDALYE3",
+   "lat": -33.396,
+   "lon": 115.629,
+   "qc_status": 1,
+   "update_time_utc": 1788772864
+  },
+  "IBUNBU123": {
+   "station_id": "IBUNBU123",
+   "lat": -33.381,
+   "lon": 115.628,
+   "qc_status": 1,
+   "update_time_utc": 1783019648
+  },
+  "IDALYE17": {
+   "station_id": "IDALYE17",
+   "lat": -33.389,
+   "lon": 115.634,
+   "qc_status": -1,
+   "update_time_utc": 1788781056
+  },
+  "IBUNBU152": {
+   "station_id": "IBUNBU152",
+   "lat": -33.416,
+   "lon": 115.637,
+   "qc_status": 1,
+   "update_time_utc": 1788772992
+  },
+  "IPERTH4110": {
+   "station_id": "IPERTH4110",
+   "lat": -31.673,
+   "lon": 115.699,
+   "qc_status": -1,
+   "update_time_utc": 1788790016
+  },
+  "IPERTH2973": {
+   "station_id": "IPERTH2973",
+   "lat": -31.66049,
+   "lon": 115.69033,
+   "qc_status": -1,
+   "update_time_utc": 1788854400
+  },
+  "IPERTH3023": {
+   "station_id": "IPERTH3023",
+   "lat": -31.686,
+   "lon": 115.707,
+   "qc_status": 1,
+   "update_time_utc": 1788769536
+  },
+  "IPERTH587": {
+   "station_id": "IPERTH587",
+   "lat": -31.663,
+   "lon": 115.708,
+   "qc_status": 1,
+   "update_time_utc": 1788838656
+  },
+  "IPERTH718": {
+   "station_id": "IPERTH718",
+   "lat": -31.677,
+   "lon": 115.713,
+   "qc_status": 1,
+   "update_time_utc": 1788839424
+  },
+  "IPERTH935": {
+   "station_id": "IPERTH935",
+   "lat": -31.68,
+   "lon": 115.713,
+   "qc_status": 1,
+   "update_time_utc": 1788806528
+  },
+  "IPERTH3896": {
+   "station_id": "IPERTH3896",
+   "lat": -31.66,
+   "lon": 115.709,
+   "qc_status": 0,
+   "update_time_utc": 1788846976
+  },
+  "IPERTH3289": {
+   "station_id": "IPERTH3289",
+   "lat": -31.664,
+   "lon": 115.712,
+   "qc_status": 1,
+   "update_time_utc": 1788776832
+  },
+  "IPERTH3715": {
+   "station_id": "IPERTH3715",
+   "lat": -31.665,
+   "lon": 115.713,
+   "qc_status": 1,
+   "update_time_utc": 1788790784
+  },
+  "IPERTH3976": {
+   "station_id": "IPERTH3976",
+   "lat": -31.68,
+   "lon": 115.718,
+   "qc_status": 1,
+   "update_time_utc": 1788842496
+  },
+  "IHALLS7": {
+   "station_id": "IHALLS7",
+   "lat": -30.812,
+   "lon": 150.974,
+   "qc_status": -1,
+   "update_time_utc": 1788820736
+  },
+  "IWALLA89": {
+   "station_id": "IWALLA89",
+   "lat": -37.55491,
+   "lon": 144.04844,
+   "qc_status": 1,
+   "update_time_utc": 1788826112
+  },
+  "IHIGHL47": {
+   "station_id": "IHIGHL47",
+   "lat": -37.098,
+   "lon": 145.386,
+   "qc_status": -1,
+   "update_time_utc": 1788852864
+  },
+  "IHIGHL33": {
+   "station_id": "IHIGHL33",
+   "lat": -37.103,
+   "lon": 145.457,
+   "qc_status": -1,
+   "update_time_utc": 1788838656
+  },
+  "IYEA9": {
+   "station_id": "IYEA9",
+   "lat": -37.215,
+   "lon": 145.423,
+   "qc_status": -1,
+   "update_time_utc": 1788840064
+  },
+  "IYEA23": {
+   "station_id": "IYEA23",
+   "lat": -37.202,
+   "lon": 145.467,
+   "qc_status": 0,
+   "update_time_utc": 1788817152
+  },
+  "IYEA25": {
+   "station_id": "IYEA25",
+   "lat": -37.22,
+   "lon": 145.41,
+   "qc_status": 1,
+   "update_time_utc": 1788769664
+  },
+  "IYEA22": {
+   "station_id": "IYEA22",
+   "lat": -37.22,
+   "lon": 145.41,
+   "qc_status": 1,
+   "update_time_utc": 1788841600
+  },
+  "IMOLES14": {
+   "station_id": "IMOLES14",
+   "lat": -37.17,
+   "lon": 145.505,
+   "qc_status": 1,
+   "update_time_utc": 1788803712
+  },
+  "IVCTCHEV2": {
+   "station_id": "IVCTCHEV2",
+   "lat": -37.21772,
+   "lon": 145.48769,
+   "qc_status": -1,
+   "update_time_utc": 1788776192
+  },
+  "IWHANR1": {
+   "station_id": "IWHANR1",
+   "lat": -37.181,
+   "lon": 145.574,
+   "qc_status": 1,
+   "update_time_utc": 1788817024
+  },
+  "IBRIGH70": {
+   "station_id": "IBRIGH70",
+   "lat": -36.722,
+   "lon": 146.964,
+   "qc_status": 1,
+   "update_time_utc": 1788852608
+  },
+  "IBRIGH107": {
+   "station_id": "IBRIGH107",
+   "lat": -36.722,
+   "lon": 146.964,
+   "qc_status": 1,
+   "update_time_utc": 1788828800
+  },
+  "IBRIGH148": {
+   "station_id": "IBRIGH148",
+   "lat": -36.728,
+   "lon": 146.947,
+   "qc_status": 1,
+   "update_time_utc": 1788849664
+  },
+  "IBRIGH180": {
+   "station_id": "IBRIGH180",
+   "lat": -36.729,
+   "lon": 146.968,
+   "qc_status": 1,
+   "update_time_utc": 1788776064
+  },
+  "IBRIGH127": {
+   "station_id": "IBRIGH127",
+   "lat": -36.732,
+   "lon": 146.973,
+   "qc_status": 1,
+   "update_time_utc": 1788775552
+  },
+  "IBRIGH169": {
+   "station_id": "IBRIGH169",
+   "lat": -36.731,
+   "lon": 146.985,
+   "qc_status": 1,
+   "update_time_utc": 1788845824
+  },
+  "IMARAG3": {
+   "station_id": "IMARAG3",
+   "lat": -35.866,
+   "lon": 148.121,
+   "qc_status": -1,
+   "update_time_utc": 1788822272
+  },
+  "IWANDI8": {
+   "station_id": "IWANDI8",
+   "lat": -36.779,
+   "lon": 146.977,
+   "qc_status": 1,
+   "update_time_utc": 1788828928
+  },
+  "IWANDI24": {
+   "station_id": "IWANDI24",
+   "lat": -36.786,
+   "lon": 146.992,
+   "qc_status": -1,
+   "update_time_utc": 1788853504
+  },
+  "IWANDI25": {
+   "station_id": "IWANDI25",
+   "lat": -36.794,
+   "lon": 146.977,
+   "qc_status": -1,
+   "update_time_utc": 1788783360
+  },
+  "IWANDI23": {
+   "station_id": "IWANDI23",
+   "lat": -36.794,
+   "lon": 146.977,
+   "qc_status": 1,
+   "update_time_utc": 1788817920
+  },
+  "IWANDI22": {
+   "station_id": "IWANDI22",
+   "lat": -36.767,
+   "lon": 146.982,
+   "qc_status": 1,
+   "update_time_utc": 1788782848
+  },
+  "IWANDI10": {
+   "station_id": "IWANDI10",
+   "lat": -36.767,
+   "lon": 146.981,
+   "qc_status": 1,
+   "update_time_utc": 1788835328
+  },
+  "IVICTORI162": {
+   "station_id": "IVICTORI162",
+   "lat": -36.75731,
+   "lon": 146.98552,
+   "qc_status": 1,
+   "update_time_utc": 1788817920
+  },
+  "IWANDI26": {
+   "station_id": "IWANDI26",
+   "lat": -36.752,
+   "lon": 146.984,
+   "qc_status": 1,
+   "update_time_utc": 1788821248
+  },
+  "IBRIGH55": {
+   "station_id": "IBRIGH55",
+   "lat": -36.742,
+   "lon": 146.973,
+   "qc_status": 1,
+   "update_time_utc": 1788854272
+  },
+  "IBRIGH86": {
+   "station_id": "IBRIGH86",
+   "lat": -36.741,
+   "lon": 146.972,
+   "qc_status": 1,
+   "update_time_utc": 1788844416
+  },
+  "IBOYLA2": {
+   "station_id": "IBOYLA2",
+   "lat": -27.954,
+   "lon": 153.155,
+   "qc_status": 1,
+   "update_time_utc": 1788814208
+  },
+  "IMOUNTTA7": {
+   "station_id": "IMOUNTTA7",
+   "lat": -27.94594,
+   "lon": 153.18517,
+   "qc_status": -1,
+   "update_time_utc": 1788788096
+  },
+  "IMOUNT481": {
+   "station_id": "IMOUNT481",
+   "lat": -27.947,
+   "lon": 153.188,
+   "qc_status": 1,
+   "update_time_utc": 1788846720
+  },
+  "ITAMBO82": {
+   "station_id": "ITAMBO82",
+   "lat": -27.973,
+   "lon": 153.194,
+   "qc_status": 1,
+   "update_time_utc": 1788833536
+  },
+  "ITAMBO100": {
+   "station_id": "ITAMBO100",
+   "lat": -27.945,
+   "lon": 153.191,
+   "qc_status": -1,
+   "update_time_utc": 1788849536
+  },
+  "IMOUNT633": {
+   "station_id": "IMOUNT633",
+   "lat": -27.95,
+   "lon": 153.199,
+   "qc_status": 1,
+   "update_time_utc": 1788848512
+  },
+  "IMOUNT842": {
+   "station_id": "IMOUNT842",
+   "lat": -27.973,
+   "lon": 153.202,
+   "qc_status": 1,
+   "update_time_utc": 1788779264
+  },
+  "IMOUNT819": {
+   "station_id": "IMOUNT819",
+   "lat": -27.981,
+   "lon": 153.199,
+   "qc_status": 1,
+   "update_time_utc": 1788829952
+  },
+  "ITAMBO91": {
+   "station_id": "ITAMBO91",
+   "lat": -27.97119,
+   "lon": 153.2033,
+   "qc_status": 0,
+   "update_time_utc": 1788791296
+  },
+  "ITAMBO87": {
+   "station_id": "ITAMBO87",
+   "lat": -27.927,
+   "lon": 153.182,
+   "qc_status": 1,
+   "update_time_utc": 1788852096
+  },
+  "ICANUN13": {
+   "station_id": "ICANUN13",
+   "lat": -28.04675,
+   "lon": 153.12396,
+   "qc_status": 1,
+   "update_time_utc": 1788838144
+  },
+  "ICANUN14": {
+   "station_id": "ICANUN14",
+   "lat": -28.032,
+   "lon": 153.152,
+   "qc_status": 1,
+   "update_time_utc": 1788790784
+  },
+  "ICANUN11": {
+   "station_id": "ICANUN11",
+   "lat": -28.023,
+   "lon": 153.162,
+   "qc_status": 1,
+   "update_time_utc": 1788852864
+  },
+  "ICANUN16": {
+   "station_id": "ICANUN16",
+   "lat": -28.013,
+   "lon": 153.153,
+   "qc_status": -1,
+   "update_time_utc": 1788770688
+  },
+  "ICANUN15": {
+   "station_id": "ICANUN15",
+   "lat": -28.011,
+   "lon": 153.16,
+   "qc_status": -1,
+   "update_time_utc": 1788845824
+  },
+  "IMOUNT461": {
+   "station_id": "IMOUNT461",
+   "lat": -27.921,
+   "lon": 153.161,
+   "qc_status": -1,
+   "update_time_utc": 1783008512
+  },
+  "ISPRIN85": {
+   "station_id": "ISPRIN85",
+   "lat": -35.106,
+   "lon": 149.093,
+   "qc_status": 1,
+   "update_time_utc": 1788807424
+  },
+  "IWALLA40": {
+   "station_id": "IWALLA40",
+   "lat": -35.124,
+   "lon": 149.12,
+   "qc_status": 1,
+   "update_time_utc": 1788849024
+  },
+  "IJEIR7": {
+   "station_id": "IJEIR7",
+   "lat": -35.0716,
+   "lon": 149.02019,
+   "qc_status": 1,
+   "update_time_utc": 1788792320
+  },
+  "ICANBE1375": {
+   "station_id": "ICANBE1375",
+   "lat": -35.149,
+   "lon": 149.121,
+   "qc_status": 1,
+   "update_time_utc": 1788777088
+  },
+  "IMILLG6": {
+   "station_id": "IMILLG6",
+   "lat": -37.752,
+   "lon": 145.649,
+   "qc_status": 1,
+   "update_time_utc": 1788804096
+  },
+  "IMILLG9": {
+   "station_id": "IMILLG9",
+   "lat": -37.746,
+   "lon": 145.654,
+   "qc_status": 1,
+   "update_time_utc": 1788839424
+  },
+  "IMILLG7": {
+   "station_id": "IMILLG7",
+   "lat": -37.747,
+   "lon": 145.66,
+   "qc_status": 1,
+   "update_time_utc": 1788853888
+  },
+  "IMILLG10": {
+   "station_id": "IMILLG10",
+   "lat": -37.746,
+   "lon": 145.66,
+   "qc_status": -1,
+   "update_time_utc": 1788847488
+  },
+  "IWESBU2": {
+   "station_id": "IWESBU2",
+   "lat": -37.774,
+   "lon": 145.651,
+   "qc_status": -1,
+   "update_time_utc": 1788837120
+  },
+  "IYARRA3": {
+   "station_id": "IYARRA3",
+   "lat": -37.777,
+   "lon": 145.634,
+   "qc_status": 1,
+   "update_time_utc": 1788773504
+  },
+  "IWESBU1": {
+   "station_id": "IWESBU1",
+   "lat": -37.77674,
+   "lon": 145.64441,
+   "qc_status": 1,
+   "update_time_utc": 1788854400
+  },
+  "IYARRA4": {
+   "station_id": "IYARRA4",
+   "lat": -37.775,
+   "lon": 145.621,
+   "qc_status": 1,
+   "update_time_utc": 1788827392
+  },
+  "IWARBU30": {
+   "station_id": "IWARBU30",
+   "lat": -37.771,
+   "lon": 145.671,
+   "qc_status": -1,
+   "update_time_utc": 1788839424
+  },
+  "IWARBU56": {
+   "station_id": "IWARBU56",
+   "lat": -37.752,
+   "lon": 145.677,
+   "qc_status": -1,
+   "update_time_utc": 1788777216
+  },
+  "ICANBERR52": {
+   "station_id": "ICANBERR52",
+   "lat": -35.22791,
+   "lon": 149.00482,
+   "qc_status": 1,
+   "update_time_utc": 1788848384
+  },
+  "IQUEENSL384": {
+   "station_id": "IQUEENSL384",
+   "lat": -16.79842,
+   "lon": 145.56326,
+   "qc_status": 1,
+   "update_time_utc": 1788804992
+  },
+  "ICANBE717": {
+   "station_id": "ICANBE717",
+   "lat": -35.477,
+   "lon": 149.101,
+   "qc_status": 1,
+   "update_time_utc": 1788772992
+  },
+  "ICANBE500": {
+   "station_id": "ICANBE500",
+   "lat": -35.478,
+   "lon": 149.102,
+   "qc_status": 1,
+   "update_time_utc": 1788797568
+  },
+  "ICANBE574": {
+   "station_id": "ICANBE574",
+   "lat": -35.477,
+   "lon": 149.103,
+   "qc_status": 1,
+   "update_time_utc": 1788836480
+  },
+  "ICANBE1126": {
+   "station_id": "ICANBE1126",
+   "lat": -35.473,
+   "lon": 149.094,
+   "qc_status": 1,
+   "update_time_utc": 1788775552
+  },
+  "ICANBE926": {
+   "station_id": "ICANBE926",
+   "lat": -35.475,
+   "lon": 149.103,
+   "qc_status": 1,
+   "update_time_utc": 1788848768
+  },
+  "ICANBE22": {
+   "station_id": "ICANBE22",
+   "lat": -35.472,
+   "lon": 149.092,
+   "qc_status": 1,
+   "update_time_utc": 1788845952
+  },
+  "ICANBE952": {
+   "station_id": "ICANBE952",
+   "lat": -35.473,
+   "lon": 149.104,
+   "qc_status": 1,
+   "update_time_utc": 1788773376
+  },
+  "ICANBE1237": {
+   "station_id": "ICANBE1237",
+   "lat": -35.472,
+   "lon": 149.089,
+   "qc_status": -1,
+   "update_time_utc": 1788799104
+  },
+  "ICANBE1068": {
+   "station_id": "ICANBE1068",
+   "lat": -35.471,
+   "lon": 149.102,
+   "qc_status": 1,
+   "update_time_utc": 1788770560
+  },
+  "ICANBE1135": {
+   "station_id": "ICANBE1135",
+   "lat": -35.47,
+   "lon": 149.106,
+   "qc_status": 1,
+   "update_time_utc": 1788844416
+  },
+  "ISEYMO10": {
+   "station_id": "ISEYMO10",
+   "lat": -37.022,
+   "lon": 145.138,
+   "qc_status": 1,
+   "update_time_utc": 1788799104
+  },
+  "ISEYMO29": {
+   "station_id": "ISEYMO29",
+   "lat": -37.016,
+   "lon": 145.146,
+   "qc_status": 1,
+   "update_time_utc": 1788781952
+  },
+  "ISEYMOUR4": {
+   "station_id": "ISEYMOUR4",
+   "lat": -37.01566,
+   "lon": 145.14569,
+   "qc_status": 1,
+   "update_time_utc": 1788846592
+  },
+  "IVCTMOUN9": {
+   "station_id": "IVCTMOUN9",
+   "lat": -36.72516,
+   "lon": 147.14894,
+   "qc_status": 1,
+   "update_time_utc": 1788818304
+  },
+  "IROSEW36": {
+   "station_id": "IROSEW36",
+   "lat": -36.593,
+   "lon": 146.912,
+   "qc_status": 0,
+   "update_time_utc": 1788846592
+  },
+  "ITAWON24": {
+   "station_id": "ITAWON24",
+   "lat": -36.733,
+   "lon": 147.154,
+   "qc_status": 1,
+   "update_time_utc": 1788833024
+  },
+  "IMANSF175": {
+   "station_id": "IMANSF175",
+   "lat": -37.045,
+   "lon": 146.073,
+   "qc_status": -1,
+   "update_time_utc": 1788819712
+  },
+  "IMELBO6086": {
+   "station_id": "IMELBO6086",
+   "lat": -37.83009,
+   "lon": 145.32026,
+   "qc_status": -1,
+   "update_time_utc": 1788840064
+  },
+  "IMELBO1232": {
+   "station_id": "IMELBO1232",
+   "lat": -37.847,
+   "lon": 145.316,
+   "qc_status": 1,
+   "update_time_utc": 1788818560
+  },
+  "IMELBO226": {
+   "station_id": "IMELBO226",
+   "lat": -37.832,
+   "lon": 145.308,
+   "qc_status": 1,
+   "update_time_utc": 1788824960
+  },
+  "IMELBO5854": {
+   "station_id": "IMELBO5854",
+   "lat": -37.824,
+   "lon": 145.317,
+   "qc_status": 1,
+   "update_time_utc": 1788843008
+  },
+  "IMELBO4046": {
+   "station_id": "IMELBO4046",
+   "lat": -37.844,
+   "lon": 145.305,
+   "qc_status": 1,
+   "update_time_utc": 1788787712
+  },
+  "IVICKILS2": {
+   "station_id": "IVICKILS2",
+   "lat": -37.82929,
+   "lon": 145.30689,
+   "qc_status": -1,
+   "update_time_utc": 1788769536
+  },
+  "IVICTORI215": {
+   "station_id": "IVICTORI215",
+   "lat": -37.83682,
+   "lon": 145.30006,
+   "qc_status": 1,
+   "update_time_utc": 1788805888
+  },
+  "IMELBO1396": {
+   "station_id": "IMELBO1396",
+   "lat": -37.85134,
+   "lon": 145.30316,
+   "qc_status": 1,
+   "update_time_utc": 1788759936
+  },
+  "IMELBO1608": {
+   "station_id": "IMELBO1608",
+   "lat": -37.863,
+   "lon": 145.326,
+   "qc_status": 1,
+   "update_time_utc": 1788839168
+  },
+  "IMELBO3706": {
+   "station_id": "IMELBO3706",
+   "lat": -37.836,
+   "lon": 145.359,
+   "qc_status": 1,
+   "update_time_utc": 1788820352
+  },
+  "IMOUNT1091": {
+   "station_id": "IMOUNT1091",
+   "lat": -27.92,
+   "lon": 153.173,
+   "qc_status": 1,
+   "update_time_utc": 1788834304
+  },
+  "IAUSTI4": {
+   "station_id": "IAUSTI4",
+   "lat": -28.157,
+   "lon": 153.297,
+   "qc_status": -1,
+   "update_time_utc": 1788828544
+  },
+  "IGOLDC313": {
+   "station_id": "IGOLDC313",
+   "lat": -28.121,
+   "lon": 153.311,
+   "qc_status": 1,
+   "update_time_utc": 1788854016
+  },
+  "IGOLDC1333": {
+   "station_id": "IGOLDC1333",
+   "lat": -28.104,
+   "lon": 153.31,
+   "qc_status": -1,
+   "update_time_utc": 1788792832
+  },
+  "ISPRIN271": {
+   "station_id": "ISPRIN271",
+   "lat": -28.18896,
+   "lon": 153.26777,
+   "qc_status": -1,
+   "update_time_utc": 1788770048
+  },
+  "IALBAN8": {
+   "station_id": "IALBAN8",
+   "lat": -35.051,
+   "lon": 117.848,
+   "qc_status": 1,
+   "update_time_utc": 1788850688
+  },
+  "ILITTL124": {
+   "station_id": "ILITTL124",
+   "lat": -35.078,
+   "lon": 117.866,
+   "qc_status": 1,
+   "update_time_utc": 1788781952
+  },
+  "IWESTERN574": {
+   "station_id": "IWESTERN574",
+   "lat": -35.01019,
+   "lon": 117.84569,
+   "qc_status": 1,
+   "update_time_utc": 1788801536
+  },
+  "IMCKAI1": {
+   "station_id": "IMCKAI1",
+   "lat": -35.0,
+   "lon": 117.843,
+   "qc_status": 1,
+   "update_time_utc": 1788809472
+  },
+  "IMCKAI12": {
+   "station_id": "IMCKAI12",
+   "lat": -34.995,
+   "lon": 117.838,
+   "qc_status": -1,
+   "update_time_utc": 1788846976
+  },
+  "IELLAL5": {
+   "station_id": "IELLAL5",
+   "lat": -32.92,
+   "lon": 151.315,
+   "qc_status": 0,
+   "update_time_utc": 1788770048
+  },
+  "IELLAL1": {
+   "station_id": "IELLAL1",
+   "lat": -32.953,
+   "lon": 151.304,
+   "qc_status": -1,
+   "update_time_utc": 1788803456
+  },
+  "IELLAL6": {
+   "station_id": "IELLAL6",
+   "lat": -32.911,
+   "lon": 151.313,
+   "qc_status": 1,
+   "update_time_utc": 1788853120
+  },
+  "ITARRE14": {
+   "station_id": "ITARRE14",
+   "lat": -36.972,
+   "lon": 144.018,
+   "qc_status": -1,
+   "update_time_utc": 1788836352
+  },
+  "IBARIN4": {
+   "station_id": "IBARIN4",
+   "lat": -36.978,
+   "lon": 144.004,
+   "qc_status": -1,
+   "update_time_utc": 1788782208
+  },
+  "IMALDO76": {
+   "station_id": "IMALDO76",
+   "lat": -36.984,
+   "lon": 144.07,
+   "qc_status": 1,
+   "update_time_utc": 1783075584
+  },
+  "IMALDO108": {
+   "station_id": "IMALDO108",
+   "lat": -36.982,
+   "lon": 144.075,
+   "qc_status": 1,
+   "update_time_utc": 1788773504
+  },
+  "IBARIN2": {
+   "station_id": "IBARIN2",
+   "lat": -36.981,
+   "lon": 143.978,
+   "qc_status": 1,
+   "update_time_utc": 1788791680
+  },
+  "IBARIN3": {
+   "station_id": "IBARIN3",
+   "lat": -36.99454,
+   "lon": 143.97283,
+   "qc_status": 1,
+   "update_time_utc": 1788848896
+  },
+  "I90581749": {
+   "station_id": "I90581749",
+   "lat": -37.05,
+   "lon": 144.0,
+   "qc_status": 1,
+   "update_time_utc": 1788855296
+  },
+  "IWELSH29": {
+   "station_id": "IWELSH29",
+   "lat": -37.066,
+   "lon": 144.041,
+   "qc_status": 1,
+   "update_time_utc": 1788855296
+  },
+  "IWALME3": {
+   "station_id": "IWALME3",
+   "lat": -37.00134,
+   "lon": 144.13227,
+   "qc_status": 1,
+   "update_time_utc": 1788805888
+  },
+  "I90582053": {
+   "station_id": "I90582053",
+   "lat": -37.057,
+   "lon": 144.144,
+   "qc_status": 1,
+   "update_time_utc": 1788842752
+  },
+  "ISANDY107": {
+   "station_id": "ISANDY107",
+   "lat": -36.403,
+   "lon": 147.131,
+   "qc_status": -1,
+   "update_time_utc": 1788835968
+  },
+  "IKERGU1": {
+   "station_id": "IKERGU1",
+   "lat": -36.326,
+   "lon": 146.986,
+   "qc_status": -1,
+   "update_time_utc": 1788848896
+  },
+  "IESKDA5": {
+   "station_id": "IESKDA5",
+   "lat": -36.47,
+   "lon": 147.293,
+   "qc_status": -1,
+   "update_time_utc": 1788800128
+  },
+  "IBRUAR1": {
+   "station_id": "IBRUAR1",
+   "lat": -36.396,
+   "lon": 146.879,
+   "qc_status": 1,
+   "update_time_utc": 1788855296
+  },
+  "IMUDGE40": {
+   "station_id": "IMUDGE40",
+   "lat": -36.476,
+   "lon": 146.84,
+   "qc_status": 1,
+   "update_time_utc": 1788838144
+  },
+  "IOSBOR7": {
+   "station_id": "IOSBOR7",
+   "lat": -36.328,
+   "lon": 146.921,
+   "qc_status": 1,
+   "update_time_utc": 1788834816
+  },
+  "IYACKAND2": {
+   "station_id": "IYACKAND2",
+   "lat": -36.36832,
+   "lon": 146.87378,
+   "qc_status": 1,
+   "update_time_utc": 1788820352
+  },
+  "IYACKA12": {
+   "station_id": "IYACKA12",
+   "lat": -36.368,
+   "lon": 146.872,
+   "qc_status": 1,
+   "update_time_utc": 1788845056
+  },
+  "IWOLLO528": {
+   "station_id": "IWOLLO528",
+   "lat": -34.57312,
+   "lon": 150.75401,
+   "qc_status": 0,
+   "update_time_utc": 1788840064
+  },
+  "IWOLLO216": {
+   "station_id": "IWOLLO216",
+   "lat": -34.576,
+   "lon": 150.76,
+   "qc_status": 1,
+   "update_time_utc": 1788795648
+  },
+  "IYELLO12": {
+   "station_id": "IYELLO12",
+   "lat": -34.592,
+   "lon": 150.759,
+   "qc_status": 1,
+   "update_time_utc": 1788769536
+  },
+  "IWOLLO657": {
+   "station_id": "IWOLLO657",
+   "lat": -34.576,
+   "lon": 150.762,
+   "qc_status": -1,
+   "update_time_utc": 1788776576
+  },
+  "ICHARL164": {
+   "station_id": "ICHARL164",
+   "lat": -36.261,
+   "lon": 147.124,
+   "qc_status": 1,
+   "update_time_utc": 1788771072
+  },
+  "ITANGA7": {
+   "station_id": "ITANGA7",
+   "lat": -36.254,
+   "lon": 147.046,
+   "qc_status": 1,
+   "update_time_utc": 1788835840
+  },
+  "ITANGA20": {
+   "station_id": "ITANGA20",
+   "lat": -36.255,
+   "lon": 147.036,
+   "qc_status": 1,
+   "update_time_utc": 1788771328
+  },
+  "ITANGA1": {
+   "station_id": "ITANGA1",
+   "lat": -36.25213,
+   "lon": 147.03146,
+   "qc_status": 1,
+   "update_time_utc": 1788791040
+  },
+  "ITALLA9": {
+   "station_id": "ITALLA9",
+   "lat": -36.253,
+   "lon": 147.128,
+   "qc_status": 1,
+   "update_time_utc": 1788785408
+  },
+  "ITANGA14": {
+   "station_id": "ITANGA14",
+   "lat": -36.249,
+   "lon": 147.04,
+   "qc_status": 1,
+   "update_time_utc": 1788837120
+  },
+  "ITANGAMB2": {
+   "station_id": "ITANGAMB2",
+   "lat": -36.25066,
+   "lon": 147.0273,
+   "qc_status": 1,
+   "update_time_utc": 1788823424
+  },
+  "IKIEWA6": {
+   "station_id": "IKIEWA6",
+   "lat": -36.254,
+   "lon": 147.009,
+   "qc_status": 1,
+   "update_time_utc": 1788789888
+  }
+ },
+ "empty_probes": [
+  [
+   -31.68,
+   128.88
+  ]
+ ]
+}

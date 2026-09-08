@@ -263,6 +263,37 @@ FFVL_SITES_PATH=<file> python -m scripts.calibrate ffvl fr gp mq gf re pf nc
                                               # FFVL, offline via a saved export
 ```
 
+## Weather stations
+
+`app/site_weather_stations.csv` gives each ANSG launch its nearest Weather
+Underground personal weather station, so the app can show what the wind is
+doing *at* the hill rather than at an airport 40 km away. The main catalog is
+untouched; this is a separate list keyed by `site_ref`.
+
+The match rule: nearest station first, **on-site** within 200 m, **nearby**
+within 2 km (flagged - a station 2 km away and downhill does not describe the
+wind on the hill), nothing beyond. `obs_station_qc` and
+`obs_station_last_obs_utc` come free in the discovery response, so a dead or
+unQC'd station is visible without spending another call. An unmatched site
+still gets a row with the station columns empty - no station nearby is a
+finding too.
+
+The economics: the only quota-spending call is discovery
+(`v3/location/near`, 1500/day and 30/minute on the key, shared with the
+app's map layer). That response carries every station's coordinates, so the
+200 m matching is offline work against a persistent cache
+(`state/pws_station_cache.json`, checkpointed after every probe). A site the
+cache can already answer for - any station within 2 km of it - is never
+probed, so the first run costs ~150–300 calls and every re-run ~zero.
+
+```bash
+WUNDERGROUND_API_KEY=... python -m scripts.wu_pws_stations
+                                              # probe where the cache is silent
+python -m scripts.wu_pws_stations --cache-only
+                                              # offline rematch, no key needed
+```
+
+
 ## CI
 
 `.github/workflows/sync.yml` runs weekly and on manual dispatch, opening a PR

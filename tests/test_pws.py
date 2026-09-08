@@ -179,6 +179,23 @@ def test_load_anssg_sites_reads_the_app_catalog(tmp_path):
     assert sites[0].name == "Site, With Comma"
 
 
+def test_pge_rows_are_scoped_to_australia(tmp_path):
+    """'pge-au' means PGE worldwide filtered to AU - a New Zealand PGE launch
+    must not ride in on a shared ref prefix."""
+    from src.pws import load_sites
+
+    catalog = tmp_path / "sites.csv"
+    catalog.write_text(
+        "id,ref,name,longitude,latitude,altitude,country\n"
+        "1,pge:1,AU PGE,116.7,-31.8,256,au\n"
+        "2,pge:2,NZ PGE,172.8,-36.8,120,nz\n"
+        "3,ansg:a,ANSG AU,116.7,-31.9,256,au\n",
+        encoding="utf-8",
+    )
+    sites = load_sites(catalog, prefixes=("ansg:", "pge:"), countries=frozenset({"au"}))
+    assert [s.ref for s in sites] == ["pge:1", "ansg:a"]  # catalog order, NZ excluded
+
+
 def test_probe_uses_the_documented_endpoint():
     from src.pws import NEAR_URL
 

@@ -23,7 +23,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-from src.pws import OUTPUT_PATH, SITES_PATH, CACHE_PATH, run
+from src.pws import OUTPUT_PATH, SITES_PATH, CACHE_PATH, load_sites, run
 
 
 def http_transport(url: str, params: dict, api_key: str) -> dict:
@@ -60,7 +60,28 @@ def main() -> int:
         action="store_true",
         help="match offline against the cache; never probe, never need a key",
     )
+    parser.add_argument(
+        "--sources",
+        default="ansg",
+        help="comma list: 'ansg' (the national guide), 'pge-au' (PGE's "
+        "Australian rows). 'pge-au' adds ~312 sites, most of them already "
+        "cache-covered by the ANSG probes",
+    )
     args = parser.parse_args()
+
+    sources = [s.strip() for s in args.sources.split(",") if s.strip()]
+    prefixes, countries = [], None
+    for source in sources:
+        if source == "ansg":
+            prefixes.append("ansg:")
+        elif source == "pge-au":
+            prefixes.append("pge:")
+            countries = frozenset({"au"})  # PGE is worldwide; scope to AU
+        else:
+            parser.error(f"unknown source '{source}' (use ansg, pge-au)")
+
+    def loader(sites_path):
+        return load_sites(sites_path, prefixes=tuple(prefixes), countries=countries)
 
     api_key = os.environ.get("WUNDERGROUND_API_KEY")
     if not args.cache_only and not api_key:
@@ -73,11 +94,13 @@ def main() -> int:
         cache_path=args.cache,
         output_path=args.output,
         sites_path=args.sites,
+        loader=loader,
         cache_only=args.cache_only,
         generated_utc=generated,
     )
     print(
-        f"{stats.sites} ANSG sites: {stats.matched_on_site} on-site (<=200 m), "
+        f"{stats.sites} sites ({'+'.join(sources)}): "
+        f"{stats.matched_on_site} on-site (<=200 m), "
         f"{stats.matched_nearby} nearby (<=2 km), {stats.unmatched} unmatched; "
         f"{stats.probes} probes this run -> {args.output}"
     )

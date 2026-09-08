@@ -164,12 +164,21 @@ class Site:
     alt: str
 
 
-def load_ansg_sites(sites_path: Path = SITES_PATH) -> list[Site]:
+def load_sites(
+    sites_path: Path = SITES_PATH,
+    prefixes: tuple[str, ...] = ("ansg:",),
+    countries: frozenset[str] | None = None,
+) -> list[Site]:
+    """Catalog rows to enrich. ``prefixes`` selects guides by ref; when
+    ``countries`` is given the ref prefixes must also match that country's
+    rows - how PGE (worldwide) contributes just its Australian sites."""
     sites: list[Site] = []
     with open(sites_path, newline="", encoding="utf-8") as f:
         for row in csv.DictReader(f):
             ref = row.get("ref", "")
-            if not ref.startswith("ansg:"):
+            if not any(ref.startswith(p) for p in prefixes):
+                continue
+            if countries is not None and row.get("country") not in countries:
                 continue
             try:
                 lat, lon = float(row["latitude"]), float(row["longitude"])
@@ -185,6 +194,11 @@ def load_ansg_sites(sites_path: Path = SITES_PATH) -> list[Site]:
                 )
             )
     return sites
+
+
+def load_ansg_sites(sites_path: Path = SITES_PATH) -> list[Site]:
+    """The original scope: the Australian National Site Guide only."""
+    return load_sites(sites_path, prefixes=("ansg:",))
 
 
 def parse_near_response(payload: dict) -> list[Station]:
@@ -362,11 +376,12 @@ def run(
     cache_path: Path = CACHE_PATH,
     output_path: Path = OUTPUT_PATH,
     sites_path: Path = SITES_PATH,
+    loader=load_ansg_sites,
     cache_only: bool = False,
     clock=time.monotonic,
     generated_utc: str = "",
 ) -> RunStats:
-    sites = load_ansg_sites(sites_path)
+    sites = loader(sites_path)
     cache = Cache.load(cache_path)
     if not cache_only and not api_key:
         needing = sum(1 for s in sites if not cache.covered(s.lat, s.lon))

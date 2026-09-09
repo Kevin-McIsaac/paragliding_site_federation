@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="v1.7.1">
+  <amoc>
+    <identifier>IDT60920</identifier>
+    <issue-time-utc>2026-09-08T22:40:00+00:00</issue-time-utc>
+  </amoc>
+  <observations>
+    <station wmo-id="94917" bom-id="099029" tz="Australia/Hobart" stn-name="HOBART ELERWERR" stn-height="4.50" type="AWS" lat="-42.8825" lon="147.3292" description="Hobart">
+      <period index="0" time-utc="2026-09-08T22:40:00+00:00" time-local="2026-09-09T08:40:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="km/h" type="wind_spd_kmh">15</element>
+          <element units="deg" type="wind_dir_deg">290</element>
+          <element units="km/h" type="gust_kmh">24</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94926" bom-id="099045" tz="Australia/Hobart" stn-name="STRATHGORDON VILLAGE SHIRE" stn-height="312.00" type="AWS" lat="-42.7656" lon="145.9706" description="Strathgordon">
+      <period index="0" time-utc="2026-09-08T21:00:00+00:00" time-local="2026-09-09T07:00:00+10:00" wind-src="OMD">
+        <level index="0" type="surface">
+          <element units="km/h" type="wind_spd_kmh">8</element>
+        </level>
+      </period>
+    </station>
+    <station wmo-id="94968" bom-id="099123" tz="Australia/Hobart" stn-name="CAPE SORELL (CYLIND)" stn-height="12.00" type="AWS" lat="-42.1989" lon="145.1603" description="Strahan">
+    </station>
+    <station wmo-id="00000" stn-name="NO COORDS" lat="" lon="" description="Broken">
+    </station>
+  </observations>
+</product>

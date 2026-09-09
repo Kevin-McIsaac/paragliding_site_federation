@@ -291,7 +291,17 @@ WUNDERGROUND_API_KEY=... python -m scripts.wu_pws_stations
                                               # probe where the cache is silent
 python -m scripts.wu_pws_stations --cache-only
                                               # offline rematch, no key needed
+python -m scripts.wu_pws_stations --sources ansg,pge-au --networks wu-pws,bom
+                                              # PGE AU rows too, BOM AWS in the pool
 ```
+
+The match pool is **source-blind**: WU PWS and Bureau of Meteorology AWS
+stations (8 bulk XML files per run, no key, ~870 stations) share one cache
+under namespaced ids, and the nearest *alive* station wins whatever network
+it belongs to - alive meaning fresher than the network's cadence allows
+(24 h for WU, 40 min for BOM), with the nearest dead station as fallback and
+flagged in the columns. `obs_source` records which network won; BOM rows
+link to the station's reg.bom.gov.au page and carry its elevation.
 
 
 ## CI

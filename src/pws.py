@@ -40,7 +40,7 @@ NEARBY_RADIUS_M = 2000.0
 
 NEAR_URL = "https://api.weather.com/v3/location/near"
 DASHBOARD_URL_TEMPLATE = "https://www.wunderground.com/dashboard/pws/{station_id}"
-OBS_SOURCE = "wu-pws"
+OBS_SOURCE = WU_PWS = "wu-pws"
 
 #: A geocode whose discovery probe found no stations. An empty answer covers
 #: nearby points too (see Cache.empty_probes).
@@ -76,7 +76,35 @@ class Station:
     lat: float
     lon: float
     qc_status: int | None = None
-    update_time_utc: str | None = None
+    update_time_utc: str | None = None  # epoch seconds, per network's cadence
+    network: str = WU_PWS
+    elevation: float | None = None  # metres ASL (BOM supplies it; WU would need a call)
+    url: str | None = None  # network-specific station page, set by the adapter
+
+
+def cache_key(station: Station) -> str:
+    """Namespaced by network: a WU id and a BOM WMO number can never collide,
+    and the same numeric id on two networks is two different stations."""
+    return f"{station.network}:{station.station_id}"
+
+
+#: How stale a station may be and still count as "alive" for nearest-alive
+#: matching. Per network, because cadence differs: WU PWS report every few
+#: minutes (24 h of silence means dead), BOM files refresh every 10 min
+#: (40 min means the station or the state file stopped), METAR hourly (when
+#: added). A station with no timestamp at all is treated as alive - liveness
+#: is a bonus signal, not a gate, and the epoch column exposes what we know.
+NETWORK_TTL_S = {"wu-pws": 24 * 3600, "bom": 40 * 60}
+
+
+def is_alive(station: Station, now: float | None) -> bool:
+    if now is None or station.update_time_utc is None:
+        return True
+    try:
+        seen = float(station.update_time_utc)
+    except (TypeError, ValueError):
+        return True
+    return (now - seen) <= NETWORK_TTL_S.get(station.network, 24 * 3600)
 
 
 @dataclass
@@ -102,7 +130,13 @@ class Cache:
         cache = cls(path=path)
         if path.exists():
             raw = json.loads(path.read_text(encoding="utf-8"))
-            cache.stations = {sid: Station(**s) for sid, s in raw.get("stations", {}).items()}
+            for key, s in raw.get("stations", {}).items():
+                # Migration: entries written before multi-network support have
+                # no network field and bare WU ids as keys.
+                if "network" not in s:
+                    s["network"] = WU_PWS
+                station = Station(**s)
+                cache.stations[cache_key(station)] = station
             cache.empty_probes = [tuple(p) for p in raw.get("empty_probes", [])]
         return cache
 
@@ -110,14 +144,17 @@ class Cache:
         self.path.parent.mkdir(parents=True, exist_ok=True)
         payload = {
             "stations": {
-                sid: {
+                key: {
                     "station_id": s.station_id,
                     "lat": s.lat,
                     "lon": s.lon,
                     "qc_status": s.qc_status,
                     "update_time_utc": s.update_time_utc,
+                    "network": s.network,
+                    "elevation": s.elevation,
+                    "url": s.url,
                 }
-                for sid, s in self.stations.items()
+                for key, s in self.stations.items()
             },
             "empty_probes": [[lat, lon] for lat, lon in self.empty_probes],
         }
@@ -129,19 +166,33 @@ class Cache:
         """Add stations not already cached; freshness always wins."""
         fresh = 0
         for s in stations:
-            old = self.stations.get(s.station_id)
+            old = self.stations.get(cache_key(s))
             if old is None or s.update_time_utc != old.update_time_utc:
                 fresh += 1
-            self.stations[s.station_id] = s
+            self.stations[cache_key(s)] = s
         return fresh
 
-    def nearest(self, lat: float, lon: float) -> tuple[Station, float] | None:
-        best: tuple[Station, float] | None = None
+    def nearest(
+        self,
+        lat: float,
+        lon: float,
+        now: float | None = None,
+    ) -> tuple[Station, float] | None:
+        """Nearest station that is alive; nearest dead one as fallback.
+
+        Source-blind: the network field records provenance, it never gates.
+        A dead nearest station loses only to a *live* farther one - if
+        nothing is alive, the dead nearest is still returned and flagged,
+        because a dead station is a finding the output should carry."""
+        nearest_alive: tuple[Station, float] | None = None
+        nearest_any: tuple[Station, float] | None = None
         for s in self.stations.values():
             d = haversine_m(lat, lon, s.lat, s.lon)
-            if best is None or d < best[1]:
-                best = (s, d)
-        return best
+            if nearest_any is None or d < nearest_any[1]:
+                nearest_any = (s, d)
+            if is_alive(s, now) and (nearest_alive is None or d < nearest_alive[1]):
+                nearest_alive = (s, d)
+        return nearest_alive or nearest_any
 
     def covered(self, lat: float, lon: float) -> bool:
         """True when the cache can already answer for this point: a station
@@ -323,23 +374,28 @@ def enrich(
     return stats
 
 
-def match_row(site: Site, cache: Cache, generated_utc: str) -> dict[str, str]:
+def match_row(
+    site: Site,
+    cache: Cache,
+    generated_utc: str,
+    now: float | None = None,
+) -> dict[str, str]:
     row = {field: "" for field in OUTPUT_FIELDS}
+    hit = cache.nearest(site.lat, site.lon, now=now)
     row.update(
         site_ref=site.ref,
         site_name=site.name,
         site_lat=f"{site.lat:.6f}",
         site_lon=f"{site.lon:.6f}",
         site_alt=site.alt,
-        obs_source=OBS_SOURCE,
+        obs_source=hit[0].network if hit else "",
         generated_utc=generated_utc,
     )
-    hit = cache.nearest(site.lat, site.lon)
     if hit is not None and hit[1] <= NEARBY_RADIUS_M:
         station, distance = hit
         row.update(
             obs_station_id=station.station_id,
-            obs_station_url=DASHBOARD_URL_TEMPLATE.format(station_id=station.station_id),
+            obs_station_url=station.url or DASHBOARD_URL_TEMPLATE.format(station_id=station.station_id),
             obs_station_distance_m=f"{distance:.0f}",
             obs_station_tier="on-site" if distance <= ON_SITE_RADIUS_M else "nearby",
             obs_station_qc="" if station.qc_status is None else str(station.qc_status),
@@ -353,9 +409,10 @@ def write_output(
     cache: Cache,
     output_path: Path = OUTPUT_PATH,
     generated_utc: str = "",
+    now: float | None = None,
 ) -> None:
-    """Every ANSG site gets a row, matched or not - an absent station is a
-    finding too, and the empty tier says so without a join back to sites.csv."""
+    """Every site gets a row, matched or not - an absent station is a finding
+    too, and the empty tier says so without a join back to sites.csv."""
     import io
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
@@ -365,7 +422,7 @@ def write_output(
         for site in sites:
             buffer = io.StringIO()
             csv.writer(buffer, lineterminator="").writerow(
-                [match_row(site, cache, generated_utc)[k] for k in OUTPUT_FIELDS]
+                [match_row(site, cache, generated_utc, now)[k] for k in OUTPUT_FIELDS]
             )
             f.write(buffer.getvalue() + "\n")
 
@@ -380,9 +437,18 @@ def run(
     cache_only: bool = False,
     clock=time.monotonic,
     generated_utc: str = "",
+    networks: tuple[str, ...] = (WU_PWS,),
+    bom_fetcher=None,
 ) -> RunStats:
     sites = loader(sites_path)
     cache = Cache.load(cache_path)
+    # Wall-clock epoch (not the throttle's monotonic clock): liveness is
+    # judged against the station timestamps, which are real epochs.
+    now = time.time()
+    if "bom" in networks and not cache_only:
+        from src.bom import refresh
+
+        refresh(cache, bom_fetcher)
     if not cache_only and not api_key:
         needing = sum(1 for s in sites if not cache.covered(s.lat, s.lon))
         if needing:
@@ -394,5 +460,5 @@ def run(
     if cache_only:
         api_key = None
     stats = enrich(sites, cache, api_key, transport, clock)
-    write_output(sites, cache, output_path, generated_utc)
+    write_output(sites, cache, output_path, generated_utc, now)
     return stats

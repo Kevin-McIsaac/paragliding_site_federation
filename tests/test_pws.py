@@ -9,6 +9,8 @@ from src.pws import (
     DASHBOARD_URL_TEMPLATE,
     Cache,
     Site,
+    Station,
+    cache_key,
     enrich,
     load_ansg_sites,
     parse_near_response,
@@ -110,7 +112,7 @@ def test_probe_result_is_checkpointed(tmp_path):
     enrich([site], cache, "key", transport, clock=lambda: 0.0)
     assert len(transport.calls) == 1
     reloaded = Cache.load(tmp_path / "cache.json")
-    assert "IYORKYOR1" in reloaded.stations  # survived the checkpoint
+    assert "wu-pws:IYORKYOR1" in reloaded.stations  # survived the checkpoint (namespaced key)
     assert reloaded.covered(site.lat, site.lon)
 
     second = enrich([site], Cache.load(tmp_path / "cache.json"), "key", fake_transport(payload))
@@ -194,6 +196,102 @@ def test_pge_rows_are_scoped_to_australia(tmp_path):
     )
     sites = load_sites(catalog, prefixes=("ansg:", "pge:"), countries=frozenset({"au"}))
     assert [s.ref for s in sites] == ["pge:1", "ansg:a"]  # catalog order, NZ excluded
+
+
+BOM_FIXTURE = Path(__file__).parent / "fixtures" / "bom_state_response.xml"
+BOM_NOW = 1_788_792_000.0  # 2026-09-08T22:40Z-ish, matches the fixture timestamps
+
+
+def test_bom_parse_extracts_metadata_and_url():
+    from src.bom import parse_bom_response
+
+    stations = parse_bom_response("IDT60920", BOM_FIXTURE.read_text())
+    # The coordinate-less fourth station is dropped; the wind-less third stays.
+    assert [s.station_id for s in stations] == ["94917", "94926", "94968"]
+    hobart = stations[0]
+    assert (hobart.lat, hobart.lon) == (-42.8825, 147.3292)
+    assert hobart.elevation == 4.50  # BOM supplies elevation for free
+    assert hobart.network == "bom"
+    assert hobart.update_time_utc == "1788907200"  # 2026-09-08T22:40Z parsed to epoch
+    assert hobart.url == "http://www.bom.gov.au/products/IDT60901/IDT60901.94917.shtml"
+
+
+def test_bom_refresh_merges_and_checkpoints(tmp_path):
+    from src.bom import STATE_PRODUCTS, refresh
+
+    fetches = []
+
+    def fetcher(url):
+        fetches.append(url)
+        return BOM_FIXTURE.read_text()
+
+    cache = Cache(path=tmp_path / "cache.json")
+    fresh = refresh(cache, fetcher)
+    assert len(fetches) == len(STATE_PRODUCTS) == 7
+    assert fresh == 3
+    reloaded = Cache.load(tmp_path / "cache.json")
+    assert cache_key(Station("94917", 0, 0, network="bom")) in reloaded.stations
+
+
+def test_same_id_on_two_networks_is_two_stations(tmp_path):
+    cache = Cache(path=tmp_path / "cache.json")
+    cache.merge([Station("999", -42.0, 147.0, network="wu-pws"),
+                 Station("999", -42.5, 146.5, network="bom")])
+    cache.save()
+    assert len(cache.stations) == 2
+    reloaded = Cache.load(tmp_path / "cache.json")
+    assert len(reloaded.stations) == 2  # the namespacing survives the round-trip
+
+
+def test_nearest_alive_beats_nearest_dead(tmp_path):
+    near_dead = Station("DEAD1", -31.8538, 116.7629, network="wu-pws", update_time_utc="1")  # ~60 m away, long dead
+    far_alive = Station("94917", -31.86, 116.77, network="bom", update_time_utc=str(BOM_NOW))  # ~1 km, fresh
+    cache = make_cache(tmp_path, near_dead, far_alive)
+
+    # BOM's 40-minute TTL, evaluated at wall-clock now.
+    hit = cache.nearest(-31.85334, 116.76261, now=BOM_NOW)
+    assert hit[0].station_id == "94917"  # the live BOM station, despite 15x the distance
+
+    # WU's 24 h TTL means the same near station is alive earlier that day.
+    hit = cache.nearest(-31.85334, 116.76261, now=86_400)
+    assert hit[0].station_id == "DEAD1"
+
+    # No timestamp at all: treated as alive (liveness is a bonus, not a gate).
+    blind = Station("BLIND", -31.8535, 116.7627, network="wu-pws", update_time_utc=None)
+    cache2 = make_cache(tmp_path / "x", blind)
+    assert cache2.nearest(-31.85334, 116.76261, now=BOM_NOW)[0].station_id == "BLIND"
+
+
+def test_old_cache_file_migrates_to_wu_pws(tmp_path):
+    """The pre-multi-network cache has bare WU ids and no network field."""
+    path = tmp_path / "cache.json"
+    path.write_text(json.dumps({
+        "stations": {"IBURGE35": {"station_id": "IBURGE35", "lat": -31.85334,
+                                   "lon": 116.76261, "qc_status": 1,
+                                   "update_time_utc": 1788784768}},
+        "empty_probes": [],
+    }))
+    cache = Cache.load(path)
+    loaded = cache.stations["wu-pws:IBURGE35"]
+    assert loaded.network == "wu-pws"
+    cache.save()  # and the next save writes the namespaced form
+    assert "wu-pws:IBURGE35" in json.loads(path.read_text())["stations"]
+
+
+def test_output_records_the_winning_network(tmp_path):
+    from src.bom import parse_bom_response
+
+    stations = parse_bom_response("IDT60920", BOM_FIXTURE.read_text())
+    cache = make_cache(tmp_path, *stations)
+    site = Site("ansg:1", "Near Hobart AWS", -42.884, 147.328, "50")
+    out = tmp_path / "out.csv"
+    write_output([site], cache, out, "2026-09-08T22:40:00Z", now=BOM_NOW)
+
+    header, data = out.read_text().splitlines()[0], out.read_text().splitlines()[1]
+    row = dict(zip(header.split(","), data.split(",")))
+    assert row["obs_source"] == "bom"
+    assert row["obs_station_id"] == "94917"
+    assert row["obs_station_url"].endswith("IDT60901.94917.shtml")
 
 
 def test_probe_uses_the_documented_endpoint():

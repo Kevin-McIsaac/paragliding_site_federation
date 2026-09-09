@@ -23,6 +23,7 @@ import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
+from src.bom import USER_AGENT
 from src.pws import OUTPUT_PATH, SITES_PATH, CACHE_PATH, load_sites, run
 
 
@@ -67,6 +68,13 @@ def main() -> int:
         "Australian rows). 'pge-au' adds ~312 sites, most of them already "
         "cache-covered by the ANSG probes",
     )
+    parser.add_argument(
+        "--networks",
+        default="wu-pws",
+        help="comma list of station networks in the match pool: 'wu-pws' "
+        "(default), 'bom' (Bureau AWS, +8 bulk fetches, no key). Matching "
+        "is source-blind: the nearest alive station wins, whatever network",
+    )
     args = parser.parse_args()
 
     sources = [s.strip() for s in args.sources.split(",") if s.strip()]
@@ -87,6 +95,11 @@ def main() -> int:
     if not args.cache_only and not api_key:
         parser.error("WUNDERGROUND_API_KEY is not set (or use --cache-only)")
 
+    def bom_fetcher(url: str) -> str:
+        request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+        with urllib.request.urlopen(request, timeout=60) as response:
+            return response.read().decode("utf-8")
+
     generated = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     stats = run(
         transport=http_transport,
@@ -97,6 +110,8 @@ def main() -> int:
         loader=loader,
         cache_only=args.cache_only,
         generated_utc=generated,
+        networks=tuple(n.strip() for n in args.networks.split(",") if n.strip()),
+        bom_fetcher=bom_fetcher if "bom" in args.networks else None,
     )
     print(
         f"{stats.sites} sites ({'+'.join(sources)}): "

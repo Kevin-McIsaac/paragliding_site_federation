@@ -253,7 +253,7 @@ the API is unreachable simply publishes those rows without an altitude.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 217 tests, no network
+pytest                                        # 237 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)
@@ -265,15 +265,16 @@ FFVL_SITES_PATH=<file> python -m scripts.calibrate ffvl fr gp mq gf re pf nc
 
 ## Weather stations
 
-`app/site_weather_stations.csv` gives each ANSG launch its nearest Weather
-Underground personal weather station, so the app can show what the wind is
-doing *at* the hill rather than at an airport 40 km away. The main catalog is
-untouched; this is a separate list keyed by `site_ref`.
+`app/site_weather_stations.csv` gives each ANSG launch - and PGE's Australian
+rows with it - its nearest Weather Underground personal weather station, so the
+app can show what the wind is doing *at* the hill rather than at an airport
+40 km away. The main catalog is untouched; this is a separate list keyed by
+`site_ref`.
 
 The match rule: nearest station first, **on-site** within 200 m, **nearby**
 within 2 km (flagged - a station 2 km away and downhill does not describe the
 wind on the hill), nothing beyond. `obs_station_qc` and
-`obs_station_last_obs_utc` come free in the discovery response, so a dead or
+`obs_station_last_obs_epoch` come free in the discovery response, so a dead or
 unQC'd station is visible without spending another call. An unmatched site
 still gets a row with the station columns empty - no station nearby is a
 finding too.

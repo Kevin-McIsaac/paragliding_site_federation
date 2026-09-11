@@ -5,6 +5,8 @@ list the test advances by hand.
 """
 
 import json
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 import pytest
@@ -14,15 +16,19 @@ from src.holfuy import (
     HOLFUY,
     MIN_REQUEST_INTERVAL_S,
     HolfuyCatalogueError,
+    HolfuyUnreachable,
     build,
     catalogue_stations,
     check_completeness,
     fetch_catalogue,
+    http_fetcher,
+    is_connection_refusal,
     merge_into_cache,
     parse_altitude,
     parse_coordinates,
     parse_countries,
     parse_directory,
+    preflight,
     read_catalogue,
     resolve_station,
     throttle,
@@ -51,7 +57,7 @@ class FakeFetcher:
         self.default = default
         self.calls: list[str] = []
 
-    def __call__(self, url: str) -> str:
+    def __call__(self, url: str, timeout: float | None = None) -> str:
         self.calls.append(url)
         if url in self.routes:
             return self.routes[url]
@@ -187,6 +193,179 @@ def test_circuit_breaker_trips_after_ten_consecutive_failures(fake_sleep):
     )
     with pytest.raises(HolfuyCatalogueError, match="consecutive failures"):
         fetch_catalogue(fetcher=fetcher, clock=fake_sleep)
+
+
+# --- the blocked network, which is not a data problem ------------------------
+
+
+def test_the_mobile_page_is_fetched_over_https_not_http():
+    """http:// was the original, and it is the wrong half to keep: the host
+    refuses by IP, and a plaintext request is both the likelier to be refused
+    and the one that cannot negotiate through a TLS-fronted block."""
+    assert holfuy.mobile_url("142").startswith("https://")
+    assert not holfuy.station_url("142").startswith("http://")
+
+
+def test_refusal_detection_covers_the_transport_errors_we_actually_hit():
+    """The failure this was written for: holfuy.com answered, then started
+    refusing connections outright on 162.55.38.193."""
+    assert is_connection_refusal(
+        urllib.error.URLError(ConnectionRefusedError(111, "Connection refused"))
+    )
+    assert is_connection_refusal(
+        urllib.error.URLError(TimeoutError("timed out"))
+    )
+    assert is_connection_refusal(ConnectionResetError("Connection reset by peer"))
+    # An HTTP status means something answered; whether it is a refusal is
+    # UNAVAILABLE_CODES' decision, not this function's.
+    assert not is_connection_refusal(
+        urllib.error.HTTPError("https://holfuy.com/", 403, "Forbidden", {}, None)
+    )
+    assert not is_connection_refusal(ValueError("not a network error"))
+
+
+def test_http_fetcher_calls_a_refusal_unreachable_and_names_the_fix(monkeypatch):
+    def refuse(*args, **kwargs):
+        raise urllib.error.URLError(ConnectionRefusedError(111, "Connection refused"))
+
+    monkeypatch.setattr(urllib.request, "urlopen", refuse)
+
+    with pytest.raises(HolfuyUnreachable) as caught:
+        http_fetcher("https://holfuy.com/puget/search.php?countries")
+
+    message = str(caught.value)
+    assert "holfuy.com" in message  # which host refused
+    assert "refusing requests" in message  # what happened
+    assert "datacenter" in message  # the likely reason
+    assert "different network" in message  # and what to do about it
+    # A bare catalogue error would send the operator looking for a data bug.
+    assert isinstance(caught.value, HolfuyCatalogueError)
+
+
+def test_an_access_blocked_page_is_unreachable_not_a_missing_station(monkeypatch):
+    """403 is Holfuy's "Access blocked" page served to datacenter ranges; 429 is
+    "too many requests". Neither is a station that has gone away."""
+
+    def blocked(*args, **kwargs):
+        raise urllib.error.HTTPError(
+            "https://holfuy.com/en/weather/142", 403, "Forbidden", {}, None
+        )
+
+    monkeypatch.setattr(urllib.request, "urlopen", blocked)
+
+    with pytest.raises(HolfuyUnreachable, match="HTTP 403"):
+        http_fetcher("https://holfuy.com/en/weather/142")
+
+
+def test_a_plain_404_stays_a_404_rather_than_becoming_a_block(monkeypatch):
+    """The distinction the typed error exists to keep: a vanished station must
+    not abort a whole build that is otherwise working."""
+
+    def missing(*args, **kwargs):
+        raise urllib.error.HTTPError(
+            "https://holfuy.com/en/weather/1", 404, "Not Found", {}, None
+        )
+
+    monkeypatch.setattr(urllib.request, "urlopen", missing)
+
+    with pytest.raises(urllib.error.HTTPError) as caught:
+        http_fetcher("https://holfuy.com/en/weather/1")
+    assert not isinstance(caught.value, HolfuyUnreachable)
+
+
+def test_preflight_returns_the_countries_the_walk_will_need(fake_sleep):
+    """It must hand back its answer, because the walk needs the same list and a
+    preflight that made the walk fetch it again would be a wasted request."""
+    fetcher = _build_fetcher()
+    countries = preflight(fetcher=fetcher, clock=fake_sleep)
+    assert [code for code, _ in countries] == ["NO", "ES"]
+
+
+def test_a_blocked_source_raises_unreachable_not_a_missing_map_link(fake_sleep):
+    """The regression that motivated the typed error. A page that *answers*
+    without a map link is a finding about the field; a page that never answers
+    is a fact about our network, and the run must say so instead of reporting
+    that Holfuy's pages lost their coordinates."""
+
+    class Unreachable(FakeFetcher):
+        def __call__(self, url, timeout=None):
+            self.calls.append(url)
+            raise HolfuyUnreachable("holfuy.com is refusing requests")
+
+    fetcher = Unreachable({holfuy.DIRECTORY_URL + "?countries":
+                           json.dumps([{"countryCode": "NO", "countryName": "Norway"}])})
+
+    with pytest.raises(HolfuyUnreachable):
+        fetch_catalogue(fetcher=fetcher, clock=fake_sleep)
+
+
+def test_the_catalogue_does_not_report_a_fetch_failure_as_a_station_finding(fake_sleep):
+    """The other half: a station whose page raises an ordinary network error is
+    still one station's bad luck, counted and moved past."""
+
+    class Flaky(FakeFetcher):
+        def __init__(self):
+            super().__init__({
+                holfuy.DIRECTORY_URL + "?countries":
+                    json.dumps([{"countryCode": "NO", "countryName": "Norway"}]),
+                holfuy.DIRECTORY_URL + "?country=NO":
+                    json.dumps([{"id": "1", "name": "A"}, {"id": "2", "name": "B"}]),
+                holfuy.mobile_url("2"): _fixture(STATION_142),
+                holfuy.station_url("2"): _fixture(STATION_142),
+            }, default=_fixture(STATION_NO_MAP))
+
+        def __call__(self, url, timeout=None):
+            if url in (holfuy.mobile_url("1"), holfuy.station_url("1")):
+                self.calls.append(url)
+                raise urllib.error.URLError(OSError("connection reset"))
+            return super().__call__(url)
+
+    notes = []
+    result = fetch_catalogue(fetcher=Flaky(), clock=fake_sleep, on_note=notes.append)
+
+    assert set(result.catalogue) == {"2"}  # the good station still resolved
+    assert any("fetch failed" in note for note in notes)
+
+
+def test_build_preflights_and_fails_fast_without_walking_the_directory(
+    tmp_path, fake_sleep
+):
+    """A blocked run must cost one request, not 93 country index fetches. The
+    plan's whole complaint about the untyped path was that it spent a minute and
+    a half proving a fact one request establishes."""
+
+    class Blocked(FakeFetcher):
+        """Refuses by IP, which is exactly what http_fetcher now turns into a
+        typed HolfuyUnreachable. Raising the bare URLError would only exercise
+        this test's own stub; this is the real transport's contract."""
+
+        def __call__(self, url, timeout=None):
+            self.calls.append(url)
+            raise holfuy.unreachable_for(url, "Connection refused")
+
+    fetcher = Blocked({})
+    with pytest.raises(HolfuyUnreachable):
+        build(cache=Cache(path=tmp_path / "cache.json"), fetcher=fetcher,
+              catalogue_path=tmp_path / "cat.json", clock=fake_sleep)
+
+    assert fetcher.calls == [holfuy.DIRECTORY_URL + "?countries"]  # stopped at the first
+    assert not (tmp_path / "cat.json").exists()  # nothing partial was written
+
+
+def test_build_reuses_the_preflight_answer_instead_of_fetching_it_twice(
+    tmp_path, fake_sleep
+):
+    """One directory read, not two: the preflight's countries are passed into
+    the walk. A duplicate here is invisible in the output and only shows up as
+    an extra request against a source we are trying not to burden."""
+
+    fetcher = _build_fetcher()
+    build(cache=Cache(path=tmp_path / "cache.json"), fetcher=fetcher,
+          catalogue_path=tmp_path / "cat.json", clock=fake_sleep,
+          wall_clock=lambda: 1_789_000_000.0)
+
+    countries_url = holfuy.DIRECTORY_URL + "?countries"
+    assert fetcher.calls.count(countries_url) == 1
 
 
 # --- the catalogue and the cache --------------------------------------------

@@ -20,6 +20,13 @@ Three properties the rest of the system depends on:
 - **Politeness.** Sequential only, ``MIN_REQUEST_INTERVAL_S`` apart, an
   identifying User-Agent, a circuit breaker at 10 consecutive failures, and a
   completeness gate that refuses to publish a partial catalogue.
+- **A refusal is not a data problem.** ``holfuy.com`` refuses connections by IP
+  (TCP "Connection refused" on 162.55.38.193; an HTTP "Access blocked" page
+  from datacenter ranges). That is converted to ``HolfuyUnreachable``, a
+  one-request preflight catches it before the 93-country walk starts, and the
+  message names the fix. The distinction is load-bearing: a page that answers
+  *without* a map link is a finding about Holfuy's HTML, and conflating the two
+  used to report a blocked network as ten unlucky stations.
 - **Source-blind matching.** Holfuy stations go into the same ``Cache`` as WU
   and BOM, and ``Cache.nearest`` ranks them purely on distance and liveness.
   But the *pool* gates them: ``network`` never decides who wins, yet it decides
@@ -42,9 +49,13 @@ from __future__ import annotations
 import json
 import re
 import time
+import urllib.error
+import urllib.parse
+import urllib.request
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Callable
 
 from src.pws import Cache, Station, cache_key
 
@@ -63,7 +74,12 @@ STATION_URL_TEMPLATE = "https://holfuy.com/en/weather/{station_id}"
 #: on three stations when the plan was written; if it ever stops carrying the
 #: map link, the full page is fetched for that station instead, so a wrong
 #: assumption here costs a request rather than a station.
-MOBILE_URL_TEMPLATE = "http://m.holfuy.com/{station_id}"
+#:
+#: HTTPS, not the http:// this started as. The host refuses by IP (see
+#: UNAVAILABLE_CODES), and a plaintext request is both the more likely half to
+#: be refused and the one that cannot negotiate its way through a TLS-fronted
+#: block. Nothing else in this module speaks http, and this should not either.
+MOBILE_URL_TEMPLATE = "https://m.holfuy.com/{station_id}"
 
 #: Reuse BOM's identifying agent. No browser spoofing: if Holfuy wants to know
 #: who is calling, the answer should be true.
@@ -84,6 +100,12 @@ MAX_CONSECUTIVE_FAILURES = 10
 #: partial catalogue, which is the failure the app cannot see. Fail the run.
 MIN_RESOLVED_SHARE = 0.90
 
+#: Status codes that mean the *site* is refusing us rather than a page being
+#: absent. 429 is Holfuy saying "too many requests"; 403 is the "Access
+#: blocked" page its firewall serves from datacenter ranges. A 404 is a missing
+#: station, which is a finding about that station and never a block.
+UNAVAILABLE_CODES = frozenset({403, 429})
+
 CATALOGUE_PATH = Path("state/holfuy_catalogue.json")
 
 #: The map link, as the live page emits it: ``&amp;`` in the markup, which a
@@ -96,6 +118,20 @@ ALTITUDE_RE = re.compile(r"(\d+)\s*m\s*\(AMSL\)", re.IGNORECASE)
 
 class HolfuyCatalogueError(RuntimeError):
     """The build could not produce a catalogue worth trusting."""
+
+
+class HolfuyUnreachable(HolfuyCatalogueError):
+    """The site refused us, at the connection or at the door.
+
+    Distinct from :class:`HolfuyCatalogueError` because the two need different
+    operator responses and used to be indistinguishable. A catalogue error is a
+    fact about Holfuy's data: the pages stopped carrying the map link, or too
+    few stations resolved. This is a fact about *our* network position:
+    ``holfuy.com`` refuses connections from this IP entirely - observed as TCP
+    "Connection refused" on 162.55.38.193, and as an HTTP "Access blocked" page
+    from datacenter ranges - and no amount of retrying or reordering fixes it.
+    The only fix is to run from another network, so the message says so.
+    """
 
 
 @dataclass
@@ -225,18 +261,99 @@ def throttle(clock=time.monotonic, sleeper=None) -> float:
     return waited
 
 
-def http_fetcher(url: str) -> str:
+def is_connection_refusal(error: BaseException) -> bool:
+    """True when the failure is the network refusing us, not a bad response.
+
+    ``urlopen`` wraps a TCP reset, a refused connection and a timeout alike in
+    ``URLError``, so the decision is made on the message urllib kept. False for
+    an ``HTTPError``: an HTTP status means something answered, and whether that
+    is a refusal is :data:`UNAVAILABLE_CODES`' decision, not this one's.
+    """
+    if isinstance(error, urllib.error.HTTPError):
+        return False
+    if not isinstance(error, (urllib.error.URLError, ConnectionError, TimeoutError)):
+        return False
+    detail = str(getattr(error, "reason", "") or error).lower()
+    return any(
+        marker in detail
+        for marker in ("refused", "reset", "timed out", "timeout", "unreachable")
+    )
+
+
+def unreachable_for(url: str, detail: str) -> HolfuyUnreachable:
+    """The one message an operator needs, naming the host and the fix."""
+    host = urllib.parse.urlsplit(url).hostname or url
+    return HolfuyUnreachable(
+        f"{host} is refusing requests ({detail}). This is a block on our network "
+        f"position, not a missing page or a changed format: holfuy.com refuses "
+        f"connections from datacenter and CI ranges, and no retry or reordering "
+        f"clears it. Re-run the catalogue build from a workstation or mobile "
+        f"egress on a different network. Last URL: {url}"
+    )
+
+
+def _get(url: str, timeout: float) -> str:
+    """One GET behind the typed errors, shared by the fetcher and the probe.
+
+    The 403/429 check reads the status code rather than the body: the blocking
+    page's wording is not something to depend on, and a 403 here is not a
+    station that has gone away.
+    """
+    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            return response.read().decode("utf-8", errors="replace")
+    except urllib.error.HTTPError as error:
+        if error.code in UNAVAILABLE_CODES:
+            raise unreachable_for(
+                url, f"HTTP {error.code} {error.reason}"
+            ) from error
+        raise  # a plain 404 is one station's absence, and the caller's business
+    except (urllib.error.URLError, ConnectionError, TimeoutError) as error:
+        if is_connection_refusal(error):
+            raise unreachable_for(url, str(getattr(error, "reason", "") or error)) from error
+        raise
+
+
+def http_fetcher(url: str, timeout: float = 60) -> str:
     """The real transport: one GET, identifying agent, no retries.
 
     Retrying lives in :func:`resolve_station`, where the mobile-then-full
     fallback already supplies a second attempt and the circuit breaker is
-    watching the run.
+    watching the run. Refusal is not retried there or here: it is converted to
+    :class:`HolfuyUnreachable`, which aborts the build instead of being counted
+    as ten unlucky stations.
     """
-    import urllib.request
+    return _get(url, timeout)
 
-    request = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    with urllib.request.urlopen(request, timeout=60) as response:
-        return response.read().decode("utf-8", errors="replace")
+
+def preflight(
+    fetcher: Callable[[str], str] = http_fetcher,
+    clock=time.monotonic,
+    timeout: float = 15,
+) -> list[tuple[str, str]]:
+    """Fail fast, and legibly, when Holfuy refuses us from this network.
+
+    Without this, a blocked run burns its way through the 93-country walk
+    before anything is obviously wrong - at ~1 req/s that is a minute and a half
+    spent proving a fact one request establishes. The endpoint chosen is the
+    lightweight ``?countries`` index: ~8 KB, and the first request the build
+    would make anyway, so a passing preflight costs no extra page fetch. Its
+    answer is returned for reuse, since the walk needs it either way.
+
+    Raises :class:`HolfuyUnreachable` - not the generic catalogue error - so the
+    operator sees "run this from another network" rather than "the directory
+    returned no countries".
+    """
+    payload = _fetch_json(DIRECTORY_URL + "?countries", fetcher, clock, timeout=timeout)
+    countries = parse_countries(payload)
+    if not countries:
+        raise HolfuyCatalogueError(
+            "the Holfuy directory returned no countries - either the endpoint "
+            "has changed shape or the response was not the directory at all. "
+            "Refusing to start a build that would resolve nothing."
+        )
+    return countries
 
 
 def resolve_station(station_id: str, fetcher, clock=time.monotonic) -> Resolved:
@@ -273,6 +390,7 @@ def fetch_catalogue(
     on_note=None,
     existing: dict[str, dict] | None = None,
     refresh: bool = False,
+    countries: list[tuple[str, str]] | None = None,
 ) -> BuildResult:
     """Walk the whole directory once and resolve every station's coordinates.
 
@@ -296,7 +414,9 @@ def fetch_catalogue(
 
     throttle._last = None  # a fresh build may fetch immediately
 
-    countries = parse_countries(_fetch_json(DIRECTORY_URL + "?countries", fetcher, clock))
+    countries = countries or parse_countries(
+        _fetch_json(DIRECTORY_URL + "?countries", fetcher, clock)
+    )
     if not countries:
         raise HolfuyCatalogueError(
             "the Holfuy directory returned no countries - refusing to build an "
@@ -316,6 +436,12 @@ def fetch_catalogue(
                 continue
             try:
                 resolved = resolve_station(station_id, fetcher, clock)
+            except HolfuyUnreachable:
+                # Not one station's bad luck: the site is refusing the whole
+                # run. Let it out with its own message rather than counting it
+                # toward the ten that would say "the site is refusing requests"
+                # without saying why or what to do.
+                raise
             except Exception as error:  # one station's failure is not the run's
                 resolved = Resolved(coordinates=None, source_page="")
                 if on_note:
@@ -500,6 +626,13 @@ def build(
     def checkpoint(partial: dict[str, dict]) -> None:
         write_catalogue(catalogue_path, partial, fetched_utc=fetched_utc)
 
+    # One short request before the long walk: if holfuy.com is refusing this
+    # network, say so now rather than 93 countries from here. Its answer is the
+    # walk's own first input, so a passing preflight costs no extra page fetch.
+    countries = preflight(fetcher=fetcher, clock=clock)
+    if on_note:
+        on_note(f"preflight ok: {len(countries)} countries listed")
+
     result = fetch_catalogue(
         fetcher=fetcher,
         clock=clock,
@@ -507,6 +640,7 @@ def build(
         on_note=on_note,
         existing=existing,
         refresh=refresh,
+        countries=countries,
     )
     check_completeness(len(result.catalogue), result.expected)
     # Only the newly fetched entries take this build's timestamp; carried-over
@@ -524,9 +658,20 @@ def build(
     return result.catalogue
 
 
-def _fetch_json(url: str, fetcher, clock) -> object:
+_DEFAULT_TIMEOUT = 60.0
+
+
+def _fetch_json(url: str, fetcher, clock, timeout: float = _DEFAULT_TIMEOUT) -> object:
+    """Paced JSON fetch.
+
+    ``timeout`` is only passed to the fetcher when it was asked for explicitly,
+    so a preflight's shorter fuse never forces a fake fetcher in the tests to
+    accept a keyword it has no use for.
+    """
     throttle(clock)
-    return json.loads(fetcher(url))
+    if timeout == _DEFAULT_TIMEOUT:
+        return json.loads(fetcher(url))
+    return json.loads(fetcher(url, timeout=timeout))
 
 
 def _stamp(epoch: float) -> str:

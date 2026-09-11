@@ -337,9 +337,20 @@ carried over, progress is checkpointed after each country, and the shared cache
 is not touched until the completeness gate passes (fewer than 90% of directory
 ids resolved fails the run - a silent partial catalogue is the failure the app
 cannot see). A circuit breaker aborts after 10 consecutive failures rather than
-grinding through 1,573 404s. Run it from a workstation IP by hand, never from
-CI: `holfuy.com` has been observed refusing datacenter ranges, and the whole
-design assumes this is not a recurring job.
+grinding through 1,573 404s.
+
+**A refusal is reported as a refusal, not as missing data.** `holfuy.com`
+refuses connections by IP - observed as TCP "Connection refused" on
+162.55.38.193, and as an HTTP "Access blocked" page from datacenter ranges - and
+that now raises `HolfuyUnreachable` rather than being counted as stations whose
+pages lost their map link. A one-request preflight (`?countries`, the build's
+own first input, so a passing check costs no extra fetch) catches it before the
+93-country walk starts, and the message names the fix. Run it from a workstation
+IP by hand, never from CI: the whole design assumes this is not a recurring job,
+and no retry or reordering clears an IP-level block.
+
+A 404 is deliberately *not* folded into that: a station that has gone away is a
+finding about that station, so it is counted and the walk continues.
 
 **Licensing.** Holfuy's directory and names are Holfuy's compilation, and
 permission is not on file, so Holfuy rows stay out of shipped output. Two

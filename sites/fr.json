@@ -35377,5 +35377,25 @@
     ],
     "notes": "On the other side of the river or in the fields back on top. Watch out the rotors : land on the take off field or far behind.",
     "url": "https://www.paraglidingearth.com/?site=9994"
+  },
+  {
+    "id": "PSF-018783",
+    "ref": "pge:23984",
+    "name": "Saint-Séglin (Treuil)",
+    "lat": 47.8451,
+    "lon": -2.04323,
+    "wind": {},
+    "altitude": 30.0,
+    "sources": {
+      "pge": "23984"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": true,
+    "group": [
+      "pge:23984"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23984"
   }
 ]

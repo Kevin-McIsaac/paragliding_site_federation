@@ -91,10 +91,20 @@ def cache_key(station: Station) -> str:
 #: How stale a station may be and still count as "alive" for nearest-alive
 #: matching. Per network, because cadence differs: WU PWS report every few
 #: minutes (24 h of silence means dead), BOM files refresh every 10 min
-#: (40 min means the station or the state file stopped), METAR hourly (when
-#: added). A station with no timestamp at all is treated as alive - liveness
-#: is a bonus signal, not a gate, and the epoch column exposes what we know.
-NETWORK_TTL_S = {"wu-pws": 24 * 3600, "bom": 40 * 60}
+#: (40 min means the station or the state file stopped), Holfuy every ~10 min
+#: (same 40 min), METAR hourly (when added). A station with no timestamp at
+#: all is treated as alive - liveness is a bonus signal, not a gate, and the
+#: epoch column exposes what we know.
+NETWORK_TTL_S = {"wu-pws": 24 * 3600, "bom": 40 * 60, "holfuy": 40 * 60}
+
+#: Networks whose stations enter the match pool only when asked for by name.
+#: ``Cache.nearest`` is source-blind, so nothing about a station's own fields
+#: can keep it out of a result - the pool is the only gate, and it has to be a
+#: deliberate one. Holfuy is here because its catalogue is Holfuy's
+#: compilation and its rows may not ship until licensing is on file: a cached
+#: Holfuy station must not quietly win a match on a default run and land in
+#: app/site_weather_stations.csv. See the README's licensing note.
+OPT_IN_NETWORKS = frozenset({"holfuy"})
 
 
 def is_alive(station: Station, now: float | None) -> bool:
@@ -177,16 +187,24 @@ class Cache:
         lat: float,
         lon: float,
         now: float | None = None,
+        pool: frozenset[str] | set[str] | None = None,
     ) -> tuple[Station, float] | None:
         """Nearest station that is alive; nearest dead one as fallback.
 
-        Source-blind: the network field records provenance, it never gates.
-        A dead nearest station loses only to a *live* farther one - if
-        nothing is alive, the dead nearest is still returned and flagged,
-        because a dead station is a finding the output should carry."""
+        Source-blind *within the pool*: the network field records provenance,
+        it never ranks. But it does gate - ``pool`` names the networks a caller
+        is willing to take a station from, and the default ``None`` means every
+        network. The pool is the only thing standing between a cached station
+        and the published CSV, so callers that publish must pass one.
+
+        A dead nearest station loses only to a *live* farther one - if nothing
+        is alive, the dead nearest is still returned and flagged, because a
+        dead station is a finding the output should carry."""
         nearest_alive: tuple[Station, float] | None = None
         nearest_any: tuple[Station, float] | None = None
         for s in self.stations.values():
+            if pool is not None and s.network not in pool:
+                continue
             d = haversine_m(lat, lon, s.lat, s.lon)
             if nearest_any is None or d < nearest_any[1]:
                 nearest_any = (s, d)
@@ -194,10 +212,18 @@ class Cache:
                 nearest_alive = (s, d)
         return nearest_alive or nearest_any
 
-    def covered(self, lat: float, lon: float) -> bool:
+    def covered(
+        self,
+        lat: float,
+        lon: float,
+        pool: frozenset[str] | set[str] | None = None,
+    ) -> bool:
         """True when the cache can already answer for this point: a station
-        within the tier-2 radius, or a probe that came back empty nearby."""
-        hit = self.nearest(lat, lon)
+        within the tier-2 radius, or a probe that came back empty nearby.
+
+        ``pool`` must match what the caller will match against, or a station
+        we are not allowed to use would suppress a probe we do want to spend."""
+        hit = self.nearest(lat, lon, pool=pool)
         if hit is not None and hit[1] <= NEARBY_RADIUS_M:
             return True
         return any(
@@ -343,15 +369,20 @@ def enrich(
     api_key: str | None,
     transport,
     clock=time.monotonic,
+    pool: frozenset[str] | set[str] | None = None,
 ) -> RunStats:
     """Probe where the cache is silent and a key is available, then match
     every site offline. Sites left unprobed are counted in ``needs_probe``
     and simply match against whatever the cache holds - probing and
-    matching stay separable, so an offline run is still useful."""
+    matching stay separable, so an offline run is still useful.
+
+    ``pool`` is passed to both the probe decision and the match, so a station
+    we are not allowed to publish never suppresses the probe that would have
+    found one we are."""
     stats = RunStats(sites=len(sites))
     throttle._last = None  # a fresh run may probe immediately
     for site in sites:
-        if cache.covered(site.lat, site.lon):
+        if cache.covered(site.lat, site.lon, pool=pool):
             continue
         if not api_key:
             stats.needs_probe += 1
@@ -364,7 +395,7 @@ def enrich(
         cache.save()  # checkpoint: the next run resumes here
         stats.probes += 1
     for site in sites:
-        hit = cache.nearest(site.lat, site.lon)
+        hit = cache.nearest(site.lat, site.lon, pool=pool)
         if hit is None or hit[1] > NEARBY_RADIUS_M:
             stats.unmatched += 1
         elif hit[1] <= ON_SITE_RADIUS_M:
@@ -379,9 +410,10 @@ def match_row(
     cache: Cache,
     generated_utc: str,
     now: float | None = None,
+    pool: frozenset[str] | set[str] | None = None,
 ) -> dict[str, str]:
     row = {field: "" for field in OUTPUT_FIELDS}
-    hit = cache.nearest(site.lat, site.lon, now=now)
+    hit = cache.nearest(site.lat, site.lon, now=now, pool=pool)
     row.update(
         site_ref=site.ref,
         site_name=site.name,
@@ -410,6 +442,7 @@ def write_output(
     output_path: Path = OUTPUT_PATH,
     generated_utc: str = "",
     now: float | None = None,
+    pool: frozenset[str] | set[str] | None = None,
 ) -> None:
     """Every site gets a row, matched or not - an absent station is a finding
     too, and the empty tier says so without a join back to sites.csv."""
@@ -422,9 +455,28 @@ def write_output(
         for site in sites:
             buffer = io.StringIO()
             csv.writer(buffer, lineterminator="").writerow(
-                [match_row(site, cache, generated_utc, now)[k] for k in OUTPUT_FIELDS]
+                [
+                    match_row(site, cache, generated_utc, now, pool=pool)[k]
+                    for k in OUTPUT_FIELDS
+                ]
             )
             f.write(buffer.getvalue() + "\n")
+
+
+def match_pool(cache: Cache, networks: tuple[str, ...] | list[str]) -> set[str]:
+    """The networks a run may take a station from.
+
+    Every network already in the cache, plus the ones this run fetched -
+    *minus* the opt-in networks that were not asked for by name. Historical
+    behaviour is preserved deliberately: WU and BOM stations already cached
+    stay in the pool whether or not this run fetched them, because that is
+    what a run has always matched against. A network in ``OPT_IN_NETWORKS``
+    (Holfuy) has no such standing - it enters only when named, because its
+    rows may not ship yet.
+    """
+    pool = {s.network for s in cache.stations.values()} | set(networks)
+    pool -= {n for n in OPT_IN_NETWORKS if n not in networks}
+    return pool
 
 
 def run(
@@ -449,8 +501,9 @@ def run(
         from src.bom import refresh
 
         refresh(cache, bom_fetcher)
+    pool = match_pool(cache, networks)
     if not cache_only and not api_key:
-        needing = sum(1 for s in sites if not cache.covered(s.lat, s.lon))
+        needing = sum(1 for s in sites if not cache.covered(s.lat, s.lon, pool=pool))
         if needing:
             raise SystemExit(
                 f"WUNDERGROUND_API_KEY is not set and the cache cannot answer "
@@ -459,6 +512,6 @@ def run(
             )
     if cache_only:
         api_key = None
-    stats = enrich(sites, cache, api_key, transport, clock)
-    write_output(sites, cache, output_path, generated_utc, now)
+    stats = enrich(sites, cache, api_key, transport, clock, pool=pool)
+    write_output(sites, cache, output_path, generated_utc, now, pool=pool)
     return stats

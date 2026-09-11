@@ -253,7 +253,7 @@ the API is unreachable simply publishes those rows without an altitude.
 
 ```bash
 pip install -e ".[dev]"
-pytest                                        # 237 tests, no network
+pytest                                        # 265 tests, no network
 
 python -m src.pipeline --dry-run --scope au   # fast: Australia only
 python -m src.pipeline                        # global, ~60s (one PGE fetch)
@@ -296,13 +296,63 @@ python -m scripts.wu_pws_stations --sources ansg,pge-au --networks wu-pws,bom
                                               # PGE AU rows too, BOM AWS in the pool
 ```
 
-The match pool is **source-blind**: WU PWS and Bureau of Meteorology AWS
-stations (8 bulk XML files per run, no key, ~870 stations) share one cache
-under namespaced ids, and the nearest *alive* station wins whatever network
-it belongs to - alive meaning fresher than the network's cadence allows
-(24 h for WU, 40 min for BOM), with the nearest dead station as fallback and
-flagged in the columns. `obs_source` records which network won; BOM rows
-link to the station's reg.bom.gov.au page and carry its elevation.
+The match pool is **source-blind**: WU PWS, Bureau of Meteorology AWS stations
+(8 bulk XML files per run, no key, ~870 stations) and Holfuy share one cache
+under namespaced ids (`wu-pws:<id>`, `bom:<wmo>`, `holfuy:<id>`), and the
+nearest *alive* station wins whatever network it belongs to - alive meaning
+fresher than the network's cadence allows (24 h for WU, 40 min for BOM and
+Holfuy), with the nearest dead station as fallback and flagged in the columns.
+`obs_source` records which network won; BOM rows link to the station's
+reg.bom.gov.au page and carry its elevation.
+
+The pool is the one thing that gates a station, so it is exactly what
+`--networks` names: WU and BOM stations already cached stay in the pool whether
+or not a run fetched them (as they always have), while Holfuy enters **only**
+when named. That matters because of licensing, below.
+
+### Holfuy
+
+Holfuy is a *catalogue*, not a discovery endpoint. Its WU-style "what is near
+this point" query does not exist, its official API is password-gated per
+station with a documented ceiling of 3 stations, and the map overview that
+would have carried a bulk list was retired in 2026-09. What remains is public
+but undocumented: a keyless directory (`/puget/search.php`) listing every
+station as an id and a name, and the station monitor page, which
+server-renders its own coordinates into the "SHOW ON MAP" link. So the build is
+a one-time walk - ~1,750 sequential requests paced ~1 s apart - and everything
+after it is offline.
+
+```bash
+python -m scripts.wu_pws_stations --catalogue-only
+                                              # LIVE: builds the catalogue, ~30 min
+python -m scripts.wu_pws_stations --catalogue-only --refresh-holfuy
+                                              # re-read every page (moved station)
+python -m scripts.wu_pws_stations --sources ansg,pge-au \
+    --networks wu-pws,bom,holfuy
+                                              # match with Holfuy in the pool
+```
+
+The build is resumable: stations an earlier catalogue already resolved are
+carried over, progress is checkpointed after each country, and the shared cache
+is not touched until the completeness gate passes (fewer than 90% of directory
+ids resolved fails the run - a silent partial catalogue is the failure the app
+cannot see). A circuit breaker aborts after 10 consecutive failures rather than
+grinding through 1,573 404s. Run it from a workstation IP by hand, never from
+CI: `holfuy.com` has been observed refusing datacenter ranges, and the whole
+design assumes this is not a recurring job.
+
+**Licensing.** Holfuy's directory and names are Holfuy's compilation, and
+permission is not on file, so Holfuy rows stay out of shipped output. Two
+things enforce that, and both are load-bearing: a Holfuy-inclusive run writes
+`app/site_weather_stations.holfuy-preview.csv` instead of the shipped
+`app/site_weather_stations.csv`, and `holfuy` is excluded from the match pool
+unless `--networks` names it - without that, a station already in the cache
+would win a default run on distance and land in the published file. The
+catalogue itself is gitignored, because `state/` is committed by the weekly
+sync and tracking it would redistribute the compilation; only the coordinates
+enter the shared cache, on the reading that a coordinate is a fact and a
+curated directory is not. When permission arrives, publishing Holfuy rows is
+`--networks wu-pws,bom,holfuy` plus a live run.
 
 
 ## CI

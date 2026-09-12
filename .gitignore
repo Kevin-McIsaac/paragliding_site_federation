@@ -4,3 +4,12 @@ __pycache__/
 .venv/
 .pytest_cache/
 .pr/
+
+# The Holfuy catalogue is a local library, not published data. `state/` is
+# committed by the weekly sync, so tracking this file would redistribute
+# Holfuy's station compilation before licensing is on file. The shared station
+# cache (state/pws_station_cache.json) stays tracked: it holds positions only.
+state/holfuy_catalogue.json
+
+# A Holfuy-inclusive match run; the shipped CSV is the licensed output.
+app/site_weather_stations.holfuy-preview.csv

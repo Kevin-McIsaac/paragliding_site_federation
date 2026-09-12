@@ -1,0 +1,8 @@
+[
+  {"countryCode": "NO", "countryName": "Norway", "count": 226},
+  {"countryCode": "CH", "countryName": "Switzerland", "count": 163},
+  {"countryCode": "ES", "countryName": "Spain", "count": 124},
+  {"countryCode": "US", "countryName": "United States", "count": 30},
+  {"countryCode": "ZZ", "count": 4},
+  {"countryCode": "", "countryName": "Nameless", "count": 1}
+]

@@ -188,9 +188,15 @@ def main() -> int:
             on_note=lambda note: print(f"[holfuy] {note}"),
             refresh=args.refresh_holfuy,
         )
+        # Emitted from the catalogue already in memory, never re-read from
+        # disk: one manual run updates the audit catalogue and the published
+        # app file together, and spends no Holfuy traffic on the second.
+        app_payload = holfuy.write_app_stations(holfuy.APP_STATIONS_PATH, catalogue)
         print(
             f"{len(catalogue)} Holfuy stations -> {catalogue_path} "
-            f"and {args.cache}"
+            f"and {args.cache}; "
+            f"{len(app_payload['stations'])} published -> "
+            f"{holfuy.APP_STATIONS_PATH}"
         )
         if args.catalogue_only:
             return 0

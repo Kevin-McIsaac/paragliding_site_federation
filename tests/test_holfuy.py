@@ -17,6 +17,7 @@ from src.holfuy import (
     MIN_REQUEST_INTERVAL_S,
     HolfuyCatalogueError,
     HolfuyUnreachable,
+    app_stations_payload,
     build,
     catalogue_stations,
     check_completeness,
@@ -32,6 +33,7 @@ from src.holfuy import (
     read_catalogue,
     resolve_station,
     throttle,
+    write_app_stations,
 )
 from src.pws import Cache, Site, Station, cache_key, match_row
 
@@ -684,3 +686,113 @@ def test_cached_wu_and_bom_stay_in_the_pool_for_existing_invocations(tmp_path):
     pool = match_pool(cache, ("wu-pws",))
     assert pool == {"wu-pws", "bom"}
     assert "holfuy" not in pool
+
+
+# --- the published app file --------------------------------------------------
+
+
+def _app_catalogue():
+    return {
+        "142": {"name": "THPK Ersfjord", "country": "NO", "lat": 69.70017,
+                "lon": 18.63842, "alt": 130,
+                "url": holfuy.station_url("142"),
+                "source_page": holfuy.station_url("142"),
+                "fetched_utc": "2026-09-12T00:18:24Z"},
+        "351": {"name": "Elorrio-Udalaitz", "country": "ES", "lat": 43.099772,
+                "lon": -2.533773, "alt": 700,
+                "fetched_utc": "2026-09-11T00:00:00Z"},
+        "9": {"name": None, "country": "NZ", "lat": -45.0, "lon": 170.0,
+              "alt": None, "fetched_utc": "2026-09-12T00:18:24Z"},
+    }
+
+
+def _ten_good():
+    return {
+        str(i): {"name": f"S{i}", "lat": 40.0 + i, "lon": 10.0, "country": "IT"}
+        for i in range(10)
+    }
+
+
+def test_app_stations_payload_is_a_deterministic_transform():
+    payload = app_stations_payload(_app_catalogue())
+
+    # Integer ids sort as numbers: 9 precedes 142, not "142" before "9".
+    assert [s["id"] for s in payload["stations"]] == ["9", "142", "351"]
+    assert payload["source"] == "holfuy"
+    assert payload["generated_utc"] == "2026-09-12T00:18:24Z"
+    assert payload["attribution"] == holfuy.APP_ATTRIBUTION
+    assert payload["attribution_url"] == holfuy.APP_ATTRIBUTION_URL
+    assert payload["licence"] == holfuy.APP_LICENCE
+
+    assert payload["stations"][1] == {
+        "id": "142", "name": "THPK Ersfjord", "lat": 69.70017,
+        "lon": 18.63842, "alt": 130, "country": "NO",
+        "url": holfuy.station_url("142"),
+    }
+
+    # A missing name is null rather than the string "None", and a missing url
+    # falls back to the station page.
+    unnamed = payload["stations"][0]
+    assert unnamed["name"] is None
+    assert unnamed["url"] == holfuy.station_url("9")
+
+    # Two runs over the same catalogue are identical. The app compares ETag
+    # and Last-Modified, so churn here would re-download the file for nothing.
+    assert json.dumps(payload, sort_keys=True) == json.dumps(
+        app_stations_payload(_app_catalogue()), sort_keys=True
+    )
+
+
+@pytest.mark.parametrize("bad", [
+    {"lat": float("nan"), "lon": 1.0},
+    {"lat": float("inf"), "lon": 1.0},
+    {"lat": 91.0, "lon": 0.0},
+    {"lat": -181.0, "lon": 0.0},
+    {"lat": "north", "lon": "east"},
+    {},
+])
+def test_app_stations_drops_a_coordinate_the_app_cannot_draw(bad):
+    """Dropped, never coerced to 0,0: a station off the coast of Africa looks
+    like coverage and matches nothing."""
+    catalogue = _ten_good()
+    catalogue["bad"] = {"name": "Bad", **bad}
+
+    payload = app_stations_payload(catalogue)  # 10/11 = 91%, above the floor
+    assert [s["id"] for s in payload["stations"]] == [str(i) for i in range(10)]
+
+
+def test_app_stations_gate_refuses_a_mostly_unusable_catalogue():
+    mostly_bad = {"good": {"lat": 1.0, "lon": 2.0}}
+    for i in range(9):
+        mostly_bad[f"bad{i}"] = {"lat": "north"}
+    with pytest.raises(HolfuyCatalogueError, match="usable coordinates"):
+        app_stations_payload(mostly_bad)
+
+    with pytest.raises(HolfuyCatalogueError, match="empty"):
+        app_stations_payload({})
+
+
+def test_write_app_stations_is_atomic_and_leaves_no_temp_file(tmp_path):
+    path = tmp_path / "holfuy_stations.json"
+    payload = write_app_stations(path, _app_catalogue())
+
+    written = json.loads(path.read_text())
+    assert written == payload
+    assert not path.with_suffix(".tmp").exists()
+    # The coordinates land where the app's parser will look for them.
+    assert written["stations"][1]["lat"] == 69.70017
+    assert written["stations"][1]["lon"] == 18.63842
+
+
+def test_write_app_stations_reads_the_catalogue_when_none_is_given(
+    tmp_path, monkeypatch
+):
+    """The published file can be re-emitted over an unchanged catalogue with no
+    Holfuy traffic and no rebuild."""
+    catalogue_path = tmp_path / "cat.json"
+    holfuy.write_catalogue(catalogue_path, _app_catalogue())
+    monkeypatch.setattr(holfuy, "CATALOGUE_PATH", catalogue_path)
+
+    payload = write_app_stations(tmp_path / "out.json")
+
+    assert len(payload["stations"]) == 3

@@ -47,6 +47,7 @@ field's disappearance looks like.
 from __future__ import annotations
 
 import json
+import math
 import re
 import time
 import urllib.error
@@ -107,6 +108,28 @@ MIN_RESOLVED_SHARE = 0.90
 UNAVAILABLE_CODES = frozenset({403, 429})
 
 CATALOGUE_PATH = Path("state/holfuy_catalogue.json")
+
+#: The app-facing half of the same data. The catalogue above is a local audit
+#: library and is gitignored, because it is Holfuy's compilation and it is not
+#: published for its own sake; this file *is* published, because
+#: the_paragliding_app fetches it at runtime and keeps a bundled copy as its
+#: offline fallback. Written by the same manual catalogue run, from the
+#: catalogue already in memory, so the two cannot disagree.
+APP_STATIONS_PATH = Path("app/holfuy_stations.json")
+
+#: How the app must credit Holfuy. Travels inside the published file as well as
+#: living here, so the attribution cannot be separated from the data.
+APP_ATTRIBUTION = "Holfuy"
+APP_ATTRIBUTION_URL = "https://holfuy.com/"
+
+#: How the app may use these rows. The owner recorded Holfuy's permission for
+#: positions and names with attribution on 2026-09-12; when the grant's own
+#: wording is on file, replace this string with it verbatim rather than
+#: paraphrasing it here.
+APP_LICENCE = (
+    "Holfuy station positions and names, used with Holfuy's permission and "
+    "with attribution. See https://holfuy.com/."
+)
 
 #: The map link, as the live page emits it: ``&amp;`` in the markup, which a
 #: lenient parser may or may not have decoded. Both forms parse.
@@ -609,6 +632,122 @@ def check_completeness(resolved: int, expected: int) -> None:
             f"below the {MIN_RESOLVED_SHARE:.0%} floor - a silent partial "
             f"catalogue is the failure the app cannot see"
         )
+
+
+def _finite_coordinates(entry: dict) -> tuple[float | None, float | None]:
+    """Coordinates a map can draw, or ``(None, None)``.
+
+    Stricter than :func:`catalogue_stations`, which only needs a float the
+    matcher can measure: this file is drawn by the app, so NaN, infinity and
+    out-of-range values are dropped here rather than placed at 0,0 - a station
+    off the coast of Africa looks like coverage and matches nothing.
+    """
+    try:
+        lat, lon = float(entry["lat"]), float(entry["lon"])
+    except (KeyError, TypeError, ValueError):
+        return None, None
+    if not (math.isfinite(lat) and math.isfinite(lon)):
+        return None, None
+    if not (-90.0 <= lat <= 90.0 and -180.0 <= lon <= 180.0):
+        return None, None
+    return lat, lon
+
+
+def _station_sort_key(entry: dict):
+    """Numeric ids sort as numbers, so ``9`` precedes ``10``.
+
+    Determinism matters beyond tidiness here: the app compares ETag and
+    Last-Modified, so a transform that reordered rows on every run would report
+    a change every week and re-download the file for nothing.
+    """
+    station_id = entry["id"]
+    return (0, int(station_id)) if station_id.isdigit() else (1, station_id)
+
+
+def app_stations_payload(
+    catalogue: dict[str, dict],
+    *,
+    generated_utc: str | None = None,
+    licence: str = APP_LICENCE,
+) -> dict:
+    """The published station file, from a catalogue that already exists.
+
+    A pure transform: no network, so re-emitting over an unchanged catalogue is
+    free and the app-facing file can never say something the audit catalogue
+    does not. Positions, names and altitudes only - readings are fetched by the
+    app, one station at a time, because Holfuy publishes no bulk observation
+    endpoint (its API is password-gated per station with a ceiling of three).
+    """
+    if not catalogue:
+        raise HolfuyCatalogueError(
+            "the catalogue is empty - refusing to publish an empty station file"
+        )
+
+    entries = []
+    for station_id, entry in catalogue.items():
+        if not isinstance(entry, dict):
+            continue
+        lat, lon = _finite_coordinates(entry)
+        if lat is None or lon is None:
+            continue
+        name = entry.get("name")
+        entries.append({
+            "id": str(station_id),
+            "name": name if name else None,
+            "lat": lat,
+            "lon": lon,
+            "alt": entry.get("alt"),
+            "country": entry.get("country"),
+            "url": entry.get("url") or station_url(str(station_id)),
+        })
+
+    share = len(entries) / len(catalogue)
+    if share < MIN_RESOLVED_SHARE:
+        raise HolfuyCatalogueError(
+            f"only {len(entries)} of {len(catalogue)} catalogue entries have "
+            f"usable coordinates ({share:.0%}), below the "
+            f"{MIN_RESOLVED_SHARE:.0%} floor - refusing to publish a partial "
+            f"station file"
+        )
+
+    entries.sort(key=_station_sort_key)
+    return {
+        "generated_utc": generated_utc or catalogue_timestamp(catalogue),
+        "source": "holfuy",
+        "attribution": APP_ATTRIBUTION,
+        "attribution_url": APP_ATTRIBUTION_URL,
+        "licence": licence,
+        "stations": entries,
+    }
+
+
+def write_app_stations(
+    path: Path = APP_STATIONS_PATH,
+    catalogue: dict[str, dict] | None = None,
+    *,
+    generated_utc: str | None = None,
+    licence: str = APP_LICENCE,
+) -> dict:
+    """Write the published station file. Atomic, like the catalogue.
+
+    ``catalogue`` defaults to whatever is on disk, so re-publishing over an
+    unchanged catalogue costs nothing and needs no Holfuy traffic. Returns the
+    payload, so a caller (or a test) can assert on what was written without
+    reading it back.
+    """
+    if catalogue is None:
+        catalogue = read_catalogue(CATALOGUE_PATH)
+    payload = app_stations_payload(
+        catalogue, generated_utc=generated_utc, licence=licence
+    )
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    tmp.write_text(
+        json.dumps(payload, indent=1, sort_keys=True) + "\n", encoding="utf-8"
+    )
+    tmp.replace(path)
+    return payload
 
 
 def build(

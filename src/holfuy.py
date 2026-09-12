@@ -112,8 +112,20 @@ CATALOGUE_PATH = Path("state/holfuy_catalogue.json")
 #: lenient parser may or may not have decoded. Both forms parse.
 COORDINATES_RE = re.compile(r"la=([-0-9.]+)&(?:amp;)?lo=([-0-9.]+)")
 
-#: ``130m (AMSL)`` on the monitor page. Review data, never used for matching.
-ALTITUDE_RE = re.compile(r"(\d+)\s*m\s*\(AMSL\)", re.IGNORECASE)
+#: ``130m (AMSL)`` on the monitor page, as the plan quotes it. The live markup
+#: is ``<b>130m</b> (AMSL)`` - the figure is emphasised and the closing tag
+#: sits between the unit and the qualifier - so the separator between ``m``
+#: and ``(AMSL)`` is any short run of whitespace or tags rather than a single
+#: space. Matched from the unit forward, and anchored on ``(AMSL)`` so an
+#: unrelated number earlier in a 40 KB page cannot be mistaken for it.
+#:
+#: The alternation covers a grouped figure (``2,340m``): a bare ``\d+`` would
+#: read that as 340, which is a wrong altitude silently recorded rather than a
+#: missing one. Review data, never used for matching.
+ALTITUDE_RE = re.compile(
+    r"(\d{1,3}(?:[,\u00a0]\d{3})+|\d+)\s*m\b(?:</?[^>]{0,20}>|\s){0,6}\(AMSL\)",
+    re.IGNORECASE,
+)
 
 
 class HolfuyCatalogueError(RuntimeError):
@@ -219,7 +231,9 @@ def parse_coordinates(html: str) -> tuple[float, float] | None:
 def parse_altitude(html: str) -> int | None:
     """The page's ``NNNm (AMSL)`` figure, kept for review, not for matching."""
     match = ALTITUDE_RE.search(html or "")
-    return int(match.group(1)) if match else None
+    if match is None:
+        return None
+    return int(match.group(1).replace(",", "").replace("\u00a0", ""))
 
 
 def station_url(station_id: str) -> str:
@@ -453,7 +467,7 @@ def fetch_catalogue(
                         f"refusing requests, not failing one station"
                     )
                 if on_note:
-                    on_note(f"{station_id}: no coordinates on either page")
+                    on_note(f"{station_id}: no coordinates on the monitor page")
                 continue
             consecutive_failures = 0
             lat, lon = resolved.coordinates

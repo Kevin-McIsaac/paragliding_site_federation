@@ -136,6 +136,21 @@ def test_altitude_is_read_for_review_only():
     assert parse_altitude(_fixture(STATION_NO_MAP)) is None
 
 
+def test_altitude_parses_the_live_markup_not_the_plan_prose():
+    """The plan quotes the page as ``130m (AMSL)``, which is prose-normalised.
+    The live markup is ``<b>130m</b> (AMSL)`` - the figure is emphasised, so a
+    closing tag sits between the unit and the qualifier. A regex written from
+    the plan's prose matched no page at all and silently reported 0% altitude
+    coverage, which is the failure this pins."""
+    live = '<p>Station owner: Norway&comma; Troms&oslash;, <b>130m</b> (AMSL)  <a href="/en/map/la=69.7&lo=18.6">m</a></p>'
+    assert parse_altitude(live) == 130
+    assert parse_altitude("elevation 1,240m</b> (AMSL)") == 1240
+    # The prose form still parses, and a number with no AMSL qualifier does not.
+    assert parse_altitude("130m (AMSL)") == 130
+    assert parse_altitude("wind 12 m/s, gust 18 m/s") is None
+    assert parse_altitude("<b>130m</b> above sea level") is None
+
+
 def test_a_page_with_no_map_link_is_a_finding_not_a_zero():
     """The negative test the plan calls for: a missing link must not parse as
     0,0, which would sit off the coast of Africa and look like coverage."""

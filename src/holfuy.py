@@ -67,19 +67,19 @@ HOLFUY = "holfuy"
 #: all JSON: ``?countries``, ``?country=<CC>``, ``?q=<name>``.
 DIRECTORY_URL = "https://holfuy.com/puget/search.php"
 
-#: The station monitor page. ~48 KB, and it server-renders the coordinates.
+#: The station monitor page. ~40 KB, and it server-renders the coordinates.
 STATION_URL_TEMPLATE = "https://holfuy.com/en/weather/{station_id}"
 
-#: The "simple mobile view", ~10 KB for the same coordinates. Verified by hand
-#: on three stations when the plan was written; if it ever stops carrying the
-#: map link, the full page is fetched for that station instead, so a wrong
-#: assumption here costs a request rather than a station.
-#:
-#: HTTPS, not the http:// this started as. The host refuses by IP (see
-#: UNAVAILABLE_CODES), and a plaintext request is both the more likely half to
-#: be refused and the one that cannot negotiate its way through a TLS-fronted
-#: block. Nothing else in this module speaks http, and this should not either.
-MOBILE_URL_TEMPLATE = "https://m.holfuy.com/{station_id}"
+#: There is deliberately no mobile fast path. The plan proposed one
+#: (``m.holfuy.com/<id>``, "~10 KB for the same coordinates") and marked it
+#: unverified, with the instruction to fall back to the full page if the map
+#: link was absent. Measured 2026-09-12 on stations 142, 351, 1222 and 101 -
+#: four countries, both hemispheres - and the link is absent from every one:
+#: the mobile view answers 200 with wind readings and no ``la``/``lo`` pair,
+#: at 2-44 KB. Over https it cannot even be read, since ``m.holfuy.com``
+#: serves a self-signed certificate. A first attempt that can never carry the
+#: answer is not a cheap fallback: it is 1,573 wasted requests and ~44 KB each
+#: against a small operator, so the build goes straight to the full page.
 
 #: Reuse BOM's identifying agent. No browser spoofing: if Holfuy wants to know
 #: who is calling, the answer should be true.
@@ -226,10 +226,6 @@ def station_url(station_id: str) -> str:
     return STATION_URL_TEMPLATE.format(station_id=station_id)
 
 
-def mobile_url(station_id: str) -> str:
-    return MOBILE_URL_TEMPLATE.format(station_id=station_id)
-
-
 def _rows(payload: object) -> list:
     """The endpoint's array, tolerating an object wrapper around it."""
     if isinstance(payload, list):
@@ -318,11 +314,10 @@ def _get(url: str, timeout: float) -> str:
 def http_fetcher(url: str, timeout: float = 60) -> str:
     """The real transport: one GET, identifying agent, no retries.
 
-    Retrying lives in :func:`resolve_station`, where the mobile-then-full
-    fallback already supplies a second attempt and the circuit breaker is
-    watching the run. Refusal is not retried there or here: it is converted to
-    :class:`HolfuyUnreachable`, which aborts the build instead of being counted
-    as ten unlucky stations.
+    Refusal is not retried, here or by the caller: it is converted to
+    :class:`HolfuyUnreachable`, which aborts the build rather than being
+    counted as ten unlucky stations. Anything else is one station's bad luck
+    and is absorbed by :func:`fetch_catalogue`'s per-station handler.
     """
     return _get(url, timeout)
 
@@ -357,21 +352,24 @@ def preflight(
 
 
 def resolve_station(station_id: str, fetcher, clock=time.monotonic) -> Resolved:
-    """One station's coordinates, lighter page first.
+    """One station's coordinates, from its monitor page.
 
     Sequential by construction - there is no concurrency anywhere in this
     module, deliberately. Raises whatever the fetcher raises; the caller
     decides whether that is one station's bad luck or the site refusing us.
+
+    One request per station. There was a mobile-view fast path here; it is
+    gone because the mobile page carries no map link on any station measured
+    (see the note by ``STATION_URL_TEMPLATE``), so it could only ever add a
+    doomed request.
     """
-    last_url = station_url(station_id)
-    for url in (mobile_url(station_id), station_url(station_id)):
-        throttle(clock)
-        html = fetcher(url)
-        last_url = url
-        found = parse_coordinates(html)
-        if found is not None:
-            return Resolved(coordinates=found, source_page=url, alt=parse_altitude(html))
-    return Resolved(coordinates=None, source_page=last_url)
+    url = station_url(station_id)
+    throttle(clock)
+    html = fetcher(url)
+    found = parse_coordinates(html)
+    if found is None:
+        return Resolved(coordinates=None, source_page=url)
+    return Resolved(coordinates=found, source_page=url, alt=parse_altitude(html))
 
 
 @dataclass

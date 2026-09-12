@@ -41,7 +41,6 @@ COUNTRIES = FIXTURES / "holfuy_countries.json"
 DIRECTORY_NO = FIXTURES / "holfuy_directory_no.json"
 STATION_142 = FIXTURES / "holfuy_station_142.html"
 STATION_351 = FIXTURES / "holfuy_station_351.html"
-MOBILE_142 = FIXTURES / "holfuy_mobile_142.html"
 STATION_NO_MAP = FIXTURES / "holfuy_station_no_map.html"
 
 
@@ -151,30 +150,30 @@ def test_impossible_coordinates_are_rejected():
 # --- fetching ----------------------------------------------------------------
 
 
-def test_mobile_page_is_tried_first_and_wins(fake_sleep):
-    fetcher = FakeFetcher({
-        holfuy.mobile_url("142"): _fixture(MOBILE_142),
-        holfuy.station_url("142"): _fixture(STATION_142),
-    })
+def test_a_station_costs_exactly_one_request(fake_sleep):
+    """No mobile fast path: the mobile view carries no map link on any station
+    measured, so a first attempt there is a doomed request against a small
+    operator. One station, one fetch, to the monitor page."""
+    fetcher = FakeFetcher({holfuy.station_url("142"): _fixture(STATION_142)})
     resolved = resolve_station("142", fetcher, fake_sleep)
 
-    assert fetcher.calls == [holfuy.mobile_url("142")]  # full page never fetched
-    assert resolved.coordinates == (69.70017, 18.63842)
-    assert resolved.source_page == holfuy.mobile_url("142")
-
-
-def test_mobile_page_without_the_link_falls_back_to_the_full_page(fake_sleep):
-    """The plan flags mobile-first as unverified. A wrong assumption must cost
-    a request, not the station."""
-    fetcher = FakeFetcher({
-        holfuy.mobile_url("142"): '<div id="m">3.2 m/s</div>',
-        holfuy.station_url("142"): _fixture(STATION_142),
-    })
-    resolved = resolve_station("142", fetcher, fake_sleep)
-
-    assert fetcher.calls == [holfuy.mobile_url("142"), holfuy.station_url("142")]
+    assert fetcher.calls == [holfuy.station_url("142")]
     assert resolved.coordinates == (69.70017, 18.63842)
     assert resolved.source_page == holfuy.station_url("142")
+    assert resolved.alt == 130
+
+
+def test_the_mobile_host_is_never_contacted(tmp_path, fake_sleep):
+    """The finding behind dropping the fast path, pinned so it cannot creep
+    back: the module has no mobile URL to call at all."""
+    assert not hasattr(holfuy, "mobile_url")
+    assert not hasattr(holfuy, "MOBILE_URL_TEMPLATE")
+
+    fetcher = _build_fetcher()
+    build(cache=Cache(path=tmp_path / "cache.json"), fetcher=fetcher,
+          catalogue_path=tmp_path / "cat.json", clock=fake_sleep,
+          wall_clock=lambda: 1_789_000_000.0)
+    assert not any("m.holfuy.com" in url for url in fetcher.calls)
 
 
 def test_throttle_paces_against_the_small_operator(fake_sleep):
@@ -198,12 +197,14 @@ def test_circuit_breaker_trips_after_ten_consecutive_failures(fake_sleep):
 # --- the blocked network, which is not a data problem ------------------------
 
 
-def test_the_mobile_page_is_fetched_over_https_not_http():
-    """http:// was the original, and it is the wrong half to keep: the host
-    refuses by IP, and a plaintext request is both the likelier to be refused
-    and the one that cannot negotiate through a TLS-fronted block."""
-    assert holfuy.mobile_url("142").startswith("https://")
+def test_every_url_the_build_fetches_is_https():
+    """The host refuses by IP, and a plaintext request is both the likelier to
+    be refused and the one that cannot negotiate through a TLS-fronted block.
+    Nothing in this module speaks http."""
+    assert holfuy.station_url("142").startswith("https://")
+    assert holfuy.DIRECTORY_URL.startswith("https://")
     assert not holfuy.station_url("142").startswith("http://")
+    assert not holfuy.DIRECTORY_URL.startswith("http://")
 
 
 def test_refusal_detection_covers_the_transport_errors_we_actually_hit():
@@ -310,12 +311,11 @@ def test_the_catalogue_does_not_report_a_fetch_failure_as_a_station_finding(fake
                     json.dumps([{"countryCode": "NO", "countryName": "Norway"}]),
                 holfuy.DIRECTORY_URL + "?country=NO":
                     json.dumps([{"id": "1", "name": "A"}, {"id": "2", "name": "B"}]),
-                holfuy.mobile_url("2"): _fixture(STATION_142),
                 holfuy.station_url("2"): _fixture(STATION_142),
             }, default=_fixture(STATION_NO_MAP))
 
         def __call__(self, url, timeout=None):
-            if url in (holfuy.mobile_url("1"), holfuy.station_url("1")):
+            if url == holfuy.station_url("1"):
                 self.calls.append(url)
                 raise urllib.error.URLError(OSError("connection reset"))
             return super().__call__(url)
@@ -409,7 +409,7 @@ def test_catalogue_survives_a_round_trip(tmp_path):
         "142": {"name": "THPK Ersfjord", "country": "NO", "country_name": "Norway",
                 "lat": 69.70017, "lon": 18.63842, "alt": 130,
                 "url": holfuy.station_url("142"),
-                "source_page": holfuy.mobile_url("142"),
+                "source_page": holfuy.station_url("142"),
                 "fetched_utc": "2026-09-11T00:00:00Z"},
     }
     holfuy.write_catalogue(path, catalogue)
@@ -447,9 +447,9 @@ def _build_fetcher():
         holfuy.DIRECTORY_URL + "?country=ES": json.dumps(
             [{"id": 1222, "name": "Pointy Knob"}]
         ),
-        holfuy.mobile_url("142"): _fixture(STATION_142),
-        holfuy.mobile_url("351"): _fixture(STATION_351),
-        holfuy.mobile_url("1222"): _fixture(STATION_142),
+        holfuy.station_url("142"): _fixture(STATION_142),
+        holfuy.station_url("351"): _fixture(STATION_351),
+        holfuy.station_url("1222"): _fixture(STATION_142),
     })
 
 
@@ -511,7 +511,7 @@ def test_a_carried_over_catalogue_resumes_without_refetching(tmp_path, fake_slee
         "142": {"name": "THPK Ersfjord", "country": "NO", "country_name": "Norway",
                 "lat": 69.70017, "lon": 18.63842, "alt": 130,
                 "url": holfuy.station_url("142"),
-                "source_page": holfuy.mobile_url("142"),
+                "source_page": holfuy.station_url("142"),
                 "fetched_utc": "2026-01-01T00:00:00Z"},
     })
 
@@ -521,8 +521,8 @@ def test_a_carried_over_catalogue_resumes_without_refetching(tmp_path, fake_slee
           wall_clock=lambda: 1_789_000_000.0)
 
     # 142 was already known, so its page was never requested.
-    assert holfuy.mobile_url("142") not in fetcher.calls
-    assert holfuy.mobile_url("351") in fetcher.calls
+    assert holfuy.station_url("142") not in fetcher.calls
+    assert holfuy.station_url("351") in fetcher.calls
 
     catalogue = read_catalogue(catalogue_path)
     # The carried entry keeps the date its coordinates were observed, not this
@@ -543,7 +543,7 @@ def test_refresh_rereads_every_page(tmp_path, fake_sleep):
                       catalogue_path=catalogue_path, clock=fake_sleep,
                       wall_clock=lambda: 1_789_000_000.0, refresh=True)
 
-    assert holfuy.mobile_url("142") in fetcher.calls
+    assert holfuy.station_url("142") in fetcher.calls
     assert catalogue["142"]["lat"] == 69.70017  # the stale 0,0 is gone
 
 
@@ -575,7 +575,7 @@ def test_a_second_build_reads_the_directory_but_no_station_page(tmp_path, fake_s
     cache = Cache(path=tmp_path / "cache.json")
     build(cache=cache, fetcher=fetcher, catalogue_path=tmp_path / "cat.json",
           clock=fake_sleep, wall_clock=lambda: 1_789_000_000.0)
-    assert any("m.holfuy.com" in url for url in fetcher.calls)
+    assert any("/weather/" in url for url in fetcher.calls)  # station pages read
 
     fetcher.calls.clear()
     build(cache=Cache.load(tmp_path / "cache.json"), fetcher=fetcher,
@@ -583,8 +583,7 @@ def test_a_second_build_reads_the_directory_but_no_station_page(tmp_path, fake_s
           wall_clock=lambda: 1_789_000_000.0)
 
     assert fetcher.calls  # the directory was walked
-    assert not any("m.holfuy.com" in url or "/weather/" in url
-                   for url in fetcher.calls)
+    assert not any("/weather/" in url for url in fetcher.calls)
     assert all(url.startswith(holfuy.DIRECTORY_URL) for url in fetcher.calls)
 
 

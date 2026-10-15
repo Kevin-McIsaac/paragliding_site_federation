@@ -1,16 +1,16 @@
 {
   "ansg": {
-    "version_id": 870
+    "version_id": 872
   },
   "sources": {
     "ansg": {
       "record_count": 393
     },
     "dhv": {
-      "record_count": 3150
+      "record_count": 3149
     },
     "pge": {
-      "record_count": 16216
+      "record_count": 16225
     }
   }
 }

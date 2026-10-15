@@ -22876,5 +22876,65 @@
     ],
     "notes": "Elevation 4781.1 ft MSL. Nice big field, right next to Nickâ€™s Bar. Slightly upwards sloping towards the south. Mostly Low grasses and shrubs, and occasional small prickly pear cactus and a few bushes on the north end. LZ is not visible from SE launch, but is visible from E and NE launches. LZ is a little less than a 4:1 glide from launch, but with a West (i.e. rotor) wind yaâ€™ may not make it.\r\nLZ owner: Private. Land ownerâ€™s house overlooks LZ (distant). Owner doesnâ€™t appreciate public urination.",
     "url": "https://www.paraglidingearth.com/?site=9939"
+  },
+  {
+    "id": "PSF-018780",
+    "ref": "pge:23981",
+    "name": "Dave’s Fabulous T2 Launch",
+    "lat": 35.1908,
+    "lon": -106.463,
+    "wind": {},
+    "altitude": 2427.0,
+    "sources": {
+      "pge": "23981"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23981"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23981"
+  },
+  {
+    "id": "PSF-018781",
+    "ref": "pge:23982",
+    "name": "Foothills L1",
+    "lat": 35.1055,
+    "lon": -106.483,
+    "wind": {},
+    "altitude": 1992.0,
+    "sources": {
+      "pge": "23982"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23982"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23982"
+  },
+  {
+    "id": "PSF-018782",
+    "ref": "pge:23983",
+    "name": "Foothills L1.8",
+    "lat": 35.1113,
+    "lon": -106.48,
+    "wind": {},
+    "altitude": 2069.0,
+    "sources": {
+      "pge": "23983"
+    },
+    "primary": "pge",
+    "role": "launch",
+    "tow": false,
+    "group": [
+      "pge:23983"
+    ],
+    "notes": null,
+    "url": "https://www.paraglidingearth.com/?site=23983"
   }
 ]

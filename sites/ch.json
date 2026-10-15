@@ -20483,26 +20483,6 @@
     "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1572"
   },
   {
-    "id": "PSF-013406",
-    "ref": "dhv:1572-planplatten-landeplatz-5",
-    "name": "Planplatten Landeplatz 5",
-    "lat": 46.732669,
-    "lon": 8.172927,
-    "wind": {},
-    "altitude": 589.0,
-    "sources": {
-      "dhv": "1572-planplatten-landeplatz-5"
-    },
-    "primary": "dhv",
-    "role": "landing",
-    "tow": false,
-    "group": [
-      "dhv:1572"
-    ],
-    "notes": null,
-    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=1572"
-  },
-  {
     "id": "PSF-013407",
     "ref": "dhv:1573-planplatten-landeplatz-4",
     "name": "Planplatten Landeplatz 4",

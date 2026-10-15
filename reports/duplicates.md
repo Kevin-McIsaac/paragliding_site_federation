@@ -1,6 +1,6 @@
 # Possible duplicates within one source
 
-- **879** pairs, from 3 source(s)
+- **878** pairs, from 3 source(s)
 
 Two entries in the **same** guide sitting within 250 m of each other.
 
@@ -28,7 +28,7 @@ those are distinct by definition.
 | [Bothwell Flying Site 3](https://siteguide.org.au/sites/details/269) | [Bothwell Flying Site 1](https://siteguide.org.au/sites/details/285) | 232 m | 95% | NW,SW,W | E,NE | `ansg:269-300 ansg:285-324` |
 | [West Heaton Lookout](https://siteguide.org.au/sites/details/264) | [NNE Heaton Lookout](https://siteguide.org.au/sites/details/265) | 239 m | 88% | NW,W | N,NE | `ansg:264-296 ansg:265-297` |
 
-## dhv — 415 pairs
+## dhv — 414 pairs
 
 | Site A | Site B | Distance | Name match | Wind A | Wind B | Keys |
 |---|---|---:|---:|---|---|---|
@@ -247,7 +247,6 @@ those are distinct by definition.
 | [Planplatten Landeplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=1572) | [Planplatten Landeplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=1720) | 0 m | 100% | — | — | `dhv:1572-planplatten-landeplatz-2 dhv:1720-planplatten-landeplatz-2` |
 | [Stockhorn Landeplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=1600) | [Stockhorn Landeplatz 2](https://service.dhv.de/db2/details.php?qi=glp_details&item=1602) | 0 m | 100% | — | — | `dhv:1600-stockhorn-landeplatz-2 dhv:1602-stockhorn-landeplatz-2` |
 | [Planplatten Landeplatz 4](https://service.dhv.de/db2/details.php?qi=glp_details&item=1572) | [Planplatten Landeplatz 4](https://service.dhv.de/db2/details.php?qi=glp_details&item=1573) | 0 m | 100% | — | — | `dhv:1572-planplatten-landeplatz-4 dhv:1573-planplatten-landeplatz-4` |
-| [Planplatten Landeplatz 5](https://service.dhv.de/db2/details.php?qi=glp_details&item=1572) | [Planplatten Landeplatz 5](https://service.dhv.de/db2/details.php?qi=glp_details&item=1573) | 0 m | 100% | — | — | `dhv:1572-planplatten-landeplatz-5 dhv:1573-planplatten-landeplatz-5` |
 | [Gurli Landeplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=2056) | [Gurli Landeplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=2057) | 0 m | 100% | — | — | `dhv:2056-gurli-landeplatz-1 dhv:2057-gurli-landeplatz-1` |
 | [Gurli Landeplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=2056) | [Gurli Landeplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=5238) | 0 m | 100% | — | — | `dhv:2056-gurli-landeplatz-1 dhv:5238-gurli-landeplatz-1` |
 | [Gurli Landeplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=2057) | [Gurli Landeplatz 1](https://service.dhv.de/db2/details.php?qi=glp_details&item=5238) | 0 m | 100% | — | — | `dhv:2057-gurli-landeplatz-1 dhv:5238-gurli-landeplatz-1` |

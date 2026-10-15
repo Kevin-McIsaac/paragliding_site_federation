@@ -15469,26 +15469,6 @@
     "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5156"
   },
   {
-    "id": "PSF-013990",
-    "ref": "dhv:5163-matrei-landeplatz-1",
-    "name": "Matrei Landeplatz 1",
-    "lat": 47.006686,
-    "lon": 12.6397,
-    "wind": {},
-    "altitude": 1359.0,
-    "sources": {
-      "dhv": "5163-matrei-landeplatz-1"
-    },
-    "primary": "dhv",
-    "role": "landing",
-    "tow": false,
-    "group": [
-      "dhv:5163"
-    ],
-    "notes": null,
-    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5163"
-  },
-  {
     "id": "PSF-013991",
     "ref": "dhv:5163-matrei-landeplatz-2",
     "name": "Matrei Landeplatz 2",
@@ -16331,5 +16311,25 @@
     ],
     "notes": "A choice of good flat, open spaces within the village below.\r\n\r\nTry to avoid the lake, it's cold and wet.",
     "url": "https://www.paraglidingearth.com/?site=9979"
+  },
+  {
+    "id": "PSF-018776",
+    "ref": "dhv:5163-kals-grossdorf-lp1",
+    "name": "Kals/Großdorf LP1",
+    "lat": 47.004731,
+    "lon": 12.640258,
+    "wind": {},
+    "altitude": 1359.0,
+    "sources": {
+      "dhv": "5163-kals-grossdorf-lp1"
+    },
+    "primary": "dhv",
+    "role": "landing",
+    "tow": false,
+    "group": [
+      "dhv:5163"
+    ],
+    "notes": null,
+    "url": "https://service.dhv.de/db2/details.php?qi=glp_details&item=5163"
   }
 ]

@@ -23,10 +23,12 @@ from src.matcher import intra_source_pairs
 from src.matcher import pairs as build_pairs
 from src.model import AUSTRALIA_BBOX, KEY_PRECEDENCE, WORLD_BBOX, CanonicalSite, intersect
 from src.run_summary import (
+    RunHealth,
     SourceStats,
     build_pr,
     check_health,
     check_output_health,
+    load_accepted_moves,
 )
 from src.selection import select
 from src.sources import ADAPTERS
@@ -169,7 +171,8 @@ def run(*, dry_run: bool, scope: str) -> int:
     sites = _fill_ansg_altitudes(sites)
     no_wind = sum(1 for s in sites if not s.wind)
 
-    output_health = check_output_health(sites, read_published())
+    accepted_moves = load_accepted_moves()
+    output_health = check_output_health(sites, read_published(), accepted_moves)
     if not output_health.ok:
         print("Publish gates failed - aborting before writing anything.", file=sys.stderr)
         for note in output_health.notes:
@@ -177,6 +180,12 @@ def run(*, dry_run: bool, scope: str) -> int:
         return 1
     for note in output_health.notes:
         print(f"[gates] {note}")
+    # The PR body must show what the publish gates said, not only the source
+    # counts: an accepted move is a decision the reviewer needs to see.
+    health = RunHealth(
+        ok=health.ok and output_health.ok,
+        notes=[*health.notes, *output_health.notes],
+    )
 
     site_counts = write_sites(sites)
     csv_changed = write_app_csv(sites)

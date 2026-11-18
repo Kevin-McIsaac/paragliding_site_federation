@@ -14,9 +14,11 @@ reads as "did that step run?" rather than "nothing found".
 
 from __future__ import annotations
 
+import json
 import os
 from collections import Counter
 from dataclasses import dataclass
+from pathlib import Path
 
 from src.clustering import Cluster, ReviewItem, ReviewReason
 from src.matcher import MERGE_DISTANCE_M, haversine_m
@@ -37,6 +39,10 @@ _MAX_KEY_CHURN = 0.02
 _MAX_PROVIDER_DROP = 0.20
 _MAX_KEY_MOVE_M = 5_000.0
 
+# How far a published position may differ from the position a human accepted
+# for the same move. One kilometre allows a coordinate nudge on top of the
+# correction without turning the entry into a blanket exemption for that key.
+_ACCEPTED_MOVE_TOLERANCE_M = 1_000.0
 
 
 @dataclass(frozen=True)
@@ -56,6 +62,66 @@ class SourceStats:
 class RunHealth:
     ok: bool
     notes: list[str]
+
+
+@dataclass(frozen=True)
+class AcceptedMove:
+    """A one-time licence to publish a corrected position for one key.
+
+    The position is part of the decision, not a label on it: a bare ref would
+    excuse any later move, including an id reused for a different site.
+    """
+
+    ref: str
+    lat: float
+    lon: float
+    reason: str
+
+
+def load_accepted_moves(
+    path: str | Path = "accepted_moves.json",
+) -> dict[str, AcceptedMove]:
+    """Positions a human has confirmed, keyed by the published ref.
+
+    The gate cannot tell an upstream correction from a reused id, so a move past
+    the limit needs a recorded decision. An absent file is normal - most runs
+    need no exception. A malformed entry raises rather than being ignored,
+    because an entry that silently does nothing looks exactly like one that was
+    applied.
+    """
+    target = Path(path)
+    if not target.exists():
+        return {}
+
+    entries = json.loads(target.read_text())
+    if not isinstance(entries, list):
+        raise ValueError(f"{target} must contain a JSON array")
+
+    accepted: dict[str, AcceptedMove] = {}
+    for index, entry in enumerate(entries):
+        if not isinstance(entry, dict):
+            raise ValueError(f"{target}[{index}]: must be an object")
+        ref = entry.get("ref")
+        lat = entry.get("lat")
+        lon = entry.get("lon")
+        reason = entry.get("reason")
+        if not isinstance(ref, str) or not ref:
+            raise ValueError(f"{target}[{index}]: needs a non-empty 'ref'")
+        if (
+            not isinstance(lat, (int, float))
+            or isinstance(lat, bool)
+            or not isinstance(lon, (int, float))
+            or isinstance(lon, bool)
+        ):
+            raise ValueError(f"{target}[{index}]: 'lat' and 'lon' must be numbers")
+        if not isinstance(reason, str) or not reason:
+            raise ValueError(f"{target}[{index}]: needs a non-empty 'reason'")
+        if ref in accepted:
+            raise ValueError(f"{target}[{index}]: {ref} appears more than once")
+        accepted[ref] = AcceptedMove(
+            ref=ref, lat=float(lat), lon=float(lon), reason=reason
+        )
+    return accepted
 
 
 def check_health(stats: list[SourceStats], previous_counts: dict[str, int]) -> RunHealth:
@@ -99,7 +165,9 @@ class PublishedSite:
 
 
 def check_output_health(
-    sites: list, previous: list[PublishedSite]
+    sites: list,
+    previous: list[PublishedSite],
+    accepted_moves: dict[str, AcceptedMove] | None = None,
 ) -> RunHealth:
     """Would publishing this replace a good catalogue with a broken one?
 
@@ -126,6 +194,10 @@ def check_output_health(
     allowance is derived, not declared, so it expires by itself: once that guide
     appears in the published snapshot it is no longer new, the allowance is zero,
     and the same growth fails. It only ever excuses growth, never a collapse.
+
+    The move gate has one allowance too: an entry in `accepted_moves.json` at the
+    corrected position. It is a licence for that position, not for that key -
+    a later move still fails, so a reused id cannot hide behind it.
     """
     notes: list[str] = []
     ok = True
@@ -200,17 +272,28 @@ def check_output_health(
         )
 
     moved = []
+    accepted_moves = accepted_moves or {}
     for ref, was in before.items():
         is_now = now.get(ref)
         if is_now is None:
             continue
         distance = haversine_m(was.lat, was.lon, is_now.lat, is_now.lon)
-        if distance > _MAX_KEY_MOVE_M:
-            moved.append((ref, distance))
+        if distance <= _MAX_KEY_MOVE_M:
+            continue
+        accepted = accepted_moves.get(ref)
+        if accepted and (
+            haversine_m(accepted.lat, accepted.lon, is_now.lat, is_now.lon)
+            <= _ACCEPTED_MOVE_TOLERANCE_M
+        ):
+            notes.append(f"accepted key move: {ref} ({accepted.reason})")
+            continue
+        moved.append((ref, distance, is_now))
     if moved:
         ok = False
-        worst = ", ".join(f"{ref} {d / 1000:.0f} km" for ref, d in sorted(
-            moved, key=lambda m: -m[1])[:3])
+        worst = ", ".join(
+            f"{ref} {d / 1000:.0f} km ({site.lat:.5f}, {site.lon:.5f})"
+            for ref, d, site in sorted(moved, key=lambda m: -m[1])[:3]
+        )
         notes.append(
             f"{len(moved)} key(s) moved more than {_MAX_KEY_MOVE_M / 1000:.0f} km: "
             f"{worst}. An upstream id reused for a different site looks like this."

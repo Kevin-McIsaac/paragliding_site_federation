@@ -1,0 +1,57 @@
+name: Sync failure
+
+on:
+  workflow_run:
+    workflows: ["Sync"]
+    types: [completed]
+
+permissions:
+  issues: write
+
+jobs:
+  report:
+    if: github.event.workflow_run.conclusion == 'failure'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Open or update the failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+          RUN_URL: ${{ github.event.workflow_run.html_url }}
+          RUN_STARTED: ${{ github.event.workflow_run.run_started_at }}
+        run: |
+          set -euo pipefail
+          gh label create sync-failure --repo "$REPO" --force \
+            --color B60205 --description "A scheduled Sync run failed"
+          body=$(printf '%s\n' \
+            "The Sync workflow failed." \
+            "" \
+            "- Run: $RUN_URL" \
+            "- Started: $RUN_STARTED" \
+            "" \
+            "The run log has the failing step.")
+          number=$(gh issue list --repo "$REPO" --label sync-failure \
+            --state open --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue comment "$number" --repo "$REPO" --body "$body"
+          else
+            gh issue create --repo "$REPO" --title "Sync failed" \
+              --label sync-failure --body "$body"
+          fi
+
+  clear:
+    if: github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close the failure issue
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          number=$(gh issue list --repo "$REPO" --label sync-failure \
+            --state open --json number --jq '.[0].number // empty')
+          if [ -n "$number" ]; then
+            gh issue close "$number" --repo "$REPO" \
+              --comment "Sync succeeded again; closing this issue."
+          fi

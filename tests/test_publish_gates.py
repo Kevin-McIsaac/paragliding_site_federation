@@ -9,10 +9,21 @@ Numbers are set against a real week: on 2026-08-10, 13 of 11,703 launches were
 withdrawn (0.11% churn), none added, and no surviving launch moved.
 """
 
+from __future__ import annotations
+
+import json
+
+import pytest
+
 from src.canonical_store import read_published, write_app_csv
 from src.clustering import Cluster
 from src.ids import IdRegistry
-from src.run_summary import PublishedSite, check_output_health
+from src.run_summary import (
+    AcceptedMove,
+    PublishedSite,
+    check_output_health,
+    load_accepted_moves,
+)
 from src.selection import select
 from tests.conftest import record
 
@@ -115,6 +126,121 @@ def test_a_small_move_is_a_coordinate_correction_not_a_reuse():
     health = check_output_health(after, _published(before))
 
     assert health.ok, health.notes
+
+
+def _after_a_key_moves(before, distance_m):
+    """Move the last launch north, keeping its key - an upstream correction."""
+    old = before[-1]
+    moved = _site("pge", "199", lat=old.lat + distance_m / 111_320.0, lon=old.lon)
+    return list(before[:-1]) + [moved], moved
+
+
+def test_accepts_a_listed_key_move():
+    # PGE corrected the landing position. The key is right; the position is new.
+    before = _catalogue(200)
+    after, moved = _after_a_key_moves(before, 6_000)
+    entry = AcceptedMove(
+        ref=moved.ref,
+        lat=moved.lat,
+        lon=moved.lon,
+        reason="PGE corrected the Pefkoulia landing",
+    )
+
+    health = check_output_health(after, _published(before), {entry.ref: entry})
+
+    assert health.ok, health.notes
+    joined = " ".join(health.notes)
+    assert f"accepted key move: {entry.ref}" in joined
+    assert "PGE corrected the Pefkoulia landing" in joined
+
+
+def test_rejects_a_listed_key_move_outside_the_tolerance():
+    # The entry licenses a position, not the key: a 5 km nudge away from it is
+    # still a move nobody has accepted.
+    before = _catalogue(200)
+    after, moved = _after_a_key_moves(before, 6_000)
+    entry = AcceptedMove(
+        ref=moved.ref,
+        lat=moved.lat + 5_000 / 111_320.0,
+        lon=moved.lon,
+        reason="PGE corrected the Pefkoulia landing",
+    )
+
+    health = check_output_health(after, _published(before), {entry.ref: entry})
+
+    assert not health.ok
+    joined = " ".join(health.notes)
+    assert "moved more than" in joined
+    assert "accepted key move" not in joined
+
+
+def test_rejects_a_key_move_without_an_entry():
+    before = _catalogue(200)
+    after, moved = _after_a_key_moves(before, 6_000)
+
+    health = check_output_health(after, _published(before), {})
+
+    assert not health.ok
+    note = next(n for n in health.notes if "moved more than" in n)
+    assert f"{moved.ref} 6 km ({moved.lat:.5f}, {moved.lon:.5f})" in note
+
+
+def test_accepts_a_key_move_only_when_the_move_is_listed():
+    before = _catalogue(200)
+    moved_198 = _site("pge", "198", lat=before[198].lat + 6_000 / 111_320.0)
+    moved_199 = _site("pge", "199", lat=before[199].lat + 6_000 / 111_320.0)
+    after = list(before[:198]) + [moved_198, moved_199]
+    entry = AcceptedMove(
+        ref=moved_199.ref,
+        lat=moved_199.lat,
+        lon=moved_199.lon,
+        reason="checked against the guide",
+    )
+
+    health = check_output_health(after, _published(before), {entry.ref: entry})
+
+    assert not health.ok
+    joined = " ".join(health.notes)
+    assert "accepted key move: pge:199" in joined
+    assert "accepted key move: pge:198" not in joined
+    assert "pge:198" in next(n for n in health.notes if "moved more than" in n)
+
+
+def test_load_accepted_moves_missing_file(tmp_path):
+    assert load_accepted_moves(tmp_path / "accepted_moves.json") == {}
+
+
+def test_load_accepted_moves_reads_a_valid_entry(tmp_path):
+    path = tmp_path / "accepted_moves.json"
+    path.write_text(
+        json.dumps(
+            [
+                {
+                    "ref": "pge:23975-lz",
+                    "lat": 38.72,
+                    "lon": 20.6,
+                    "reason": "PGE corrected the landing",
+                }
+            ]
+        )
+    )
+
+    assert load_accepted_moves(path) == {
+        "pge:23975-lz": AcceptedMove(
+            ref="pge:23975-lz",
+            lat=38.72,
+            lon=20.6,
+            reason="PGE corrected the landing",
+        )
+    }
+
+
+def test_load_accepted_moves_rejects_a_bad_entry(tmp_path):
+    path = tmp_path / "accepted_moves.json"
+    path.write_text(json.dumps([{"ref": "pge:1", "lat": 1.0, "lon": 2.0}]))
+
+    with pytest.raises(ValueError, match="reason"):
+        load_accepted_moves(path)
 
 
 def test_reads_a_snapshot_that_predates_the_ref_column(tmp_path):
